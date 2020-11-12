@@ -267,7 +267,7 @@ Position modification (recursive)</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 "in" functions (copy data into a dbuff)</h2></td></tr>
 <tr class="memitem:a9acfcebaa04bdd517adb4e31f8330a4f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#a9acfcebaa04bdd517adb4e31f8330a4f">fr_dbuff_in_memcpy</a>(_out,  _in,  _inlen)</td></tr>
-<tr class="memdesc:a9acfcebaa04bdd517adb4e31f8330a4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy exactly _inlen inlen bytes into a dbuff or marker.  <a href="#a9acfcebaa04bdd517adb4e31f8330a4f">More...</a><br /></td></tr>
+<tr class="memdesc:a9acfcebaa04bdd517adb4e31f8330a4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy exactly _inlen bytes into a dbuff or marker.  <a href="#a9acfcebaa04bdd517adb4e31f8330a4f">More...</a><br /></td></tr>
 <tr class="separator:a9acfcebaa04bdd517adb4e31f8330a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ec9fef69c790077c6a0c9b5a68cf55b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#a0ec9fef69c790077c6a0c9b5a68cf55b">FR_DBUFF_IN_MEMCPY_RETURN</a>(_out,  _in,  _inlen)&#160;&#160;&#160;<a class="el" href="dbuff_8h.html#a788996dcfd921f497ca6fc8329a25cc3">FR_DBUFF_RETURN</a>(<a class="el" href="dbuff_8h.html#a9acfcebaa04bdd517adb4e31f8330a4f">fr_dbuff_in_memcpy</a>, _out, _in, _inlen)</td></tr>
 <tr class="memdesc:a0ec9fef69c790077c6a0c9b5a68cf55b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy exactly _inlen bytes into dbuff or marker returning if there's insufficient space.  <a href="#a0ec9fef69c790077c6a0c9b5a68cf55b">More...</a><br /></td></tr>
@@ -760,7 +760,7 @@ Position modification (recursive)</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Copy a byte sequence into a dbuff. </p>
-<p>Copy exactly _inlen inlen bytes into a dbuff or marker.</p>
+<p>Copy exactly _inlen bytes into a dbuff or marker.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">_dbuff</td><td>to copy byte sequence into. </td></tr>
@@ -840,7 +840,7 @@ Position modification (recursive)</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Copy a byte sequence into a dbuff returning if there's insufficient space. </p>
-<p>Copy exactly _inlen inlen bytes into a dbuff or marker.</p>
+<p>Copy exactly _inlen bytes into a dbuff or marker.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">_dbuff</td><td>to copy byte sequence into. </td></tr>
@@ -888,7 +888,7 @@ Position modification (recursive)</h2></td></tr>
 <div class="ttc" id="dbuff_8h_html_a2ba47cf778c891b541c68fcf78954775"><div class="ttname"><a href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a></div><div class="ttdeci">struct fr_dbuff_marker_s fr_dbuff_marker_t</div><div class="ttdoc">A position marker associated with a dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00061">dbuff.h:61</a></div></div>
 <div class="ttc" id="dbuff_8h_html_a03ab727e4c61835ac6ee275f8140a9f6"><div class="ttname"><a href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a></div><div class="ttdeci">struct fr_dbuff_s fr_dbuff_t</div><div class="ttdoc">A dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00043">dbuff.h:43</a></div></div>
 </div><!-- fragment -->
-<p>Copy exactly _inlen inlen bytes into a dbuff or marker. </p>
+<p>Copy exactly _inlen bytes into a dbuff or marker. </p>
 <p>If _in is a dbuff and _inlen is greater than the number of bytes available in _in, then the copy operation will be truncated, so that we don't read off the end of the buffer.</p>
 <dl class="section note"><dt>Note</dt><dd>If _in is a dbuff _in will not be advanced. If this is required <a class="el" href="dbuff_8h.html#acdc4613e38057267d322af7538c28f21" title="Copy in as many bytes as possible from one dbuff or marker to another. ">fr_dbuff_move</a> should be used.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -2729,7 +2729,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 12 2020 22:44:33 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 12 2020 22:47:21 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
