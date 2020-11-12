@@ -684,7 +684,7 @@ var searchData=
   ['fr_5fdbuff_5fin_5fmemcpy_5fpartial',['fr_dbuff_in_memcpy_partial',['../dbuff_8h.html#ab6f9610d5e2d49eb49a7903a6789d6d7',1,'dbuff.h']]],
   ['fr_5fdbuff_5fin_5fmemcpy_5freturn',['FR_DBUFF_IN_MEMCPY_RETURN',['../dbuff_8h.html#a0ec9fef69c790077c6a0c9b5a68cf55b',1,'dbuff.h']]],
   ['fr_5fdbuff_5fin_5freturn',['FR_DBUFF_IN_RETURN',['../dbuff_8h.html#a5cf0a1dbaf5c01a32e9e54b96acc5463',1,'dbuff.h']]],
-  ['fr_5fdbuff_5fin_5fuint64v',['fr_dbuff_in_uint64v',['../dbuff_8h.html#a94e470db6b2be6695677a5df74bb865c',1,'dbuff.h']]],
+  ['fr_5fdbuff_5fin_5fuint64v',['fr_dbuff_in_uint64v',['../dbuff_8h.html#a94e470db6b2be6695677a5df74bb865c',1,'fr_dbuff_in_uint64v():&#160;dbuff.h'],['../dbuff_8h.html#a86bf617a49a7d8c0dc8adbab1ec991fd',1,'FR_DBUFF_IN_UINT64V():&#160;dbuff.h']]],
   ['fr_5fdbuff_5finit',['fr_dbuff_init',['../dbuff_8h.html#a3371d1ef887d1aba02a37c7cb3cbbfa8',1,'dbuff.h']]],
   ['fr_5fdbuff_5finit_5ftalloc',['fr_dbuff_init_talloc',['../dbuff_8h.html#aaae109ead816d3ab29a6e36d49b29865',1,'dbuff.h']]],
   ['fr_5fdbuff_5fis_5fextendable',['fr_dbuff_is_extendable',['../dbuff_8h.html#ac87e8760a373b4a55564fcc3337a16de',1,'dbuff.h']]],
