@@ -55,8 +55,6 @@ var searchData=
   ['fr_5fcursor_5fstack_5ft',['fr_cursor_stack_t',['../cursor_8h.html#structfr__cursor__stack__t',1,'']]],
   ['fr_5fcursor_5ft',['fr_cursor_t',['../cursor_8h.html#structfr__cursor__t',1,'']]],
   ['fr_5fda_5fstack_5ft',['fr_da_stack_t',['../util_2proto_8h.html#structfr__da__stack__t',1,'']]],
-  ['fr_5fdbuff_5fmarker_5fs_2e_5f_5funnamed_5f_5f',['fr_dbuff_marker_s.__unnamed__',['../dbuff_8h.html#unionfr__dbuff__marker__s_8____unnamed____',1,'']]],
-  ['fr_5fdbuff_5fs_2e_5f_5funnamed_5f_5f',['fr_dbuff_s.__unnamed__',['../dbuff_8h.html#unionfr__dbuff__s_8____unnamed____',1,'fr_dbuff_s.__unnamed__'],['../dbuff_8h.html#unionfr__dbuff__s_8____unnamed____',1,'fr_dbuff_s.__unnamed__'],['../dbuff_8h.html#unionfr__dbuff__s_8____unnamed____',1,'fr_dbuff_s.__unnamed__'],['../dbuff_8h.html#unionfr__dbuff__s_8____unnamed____',1,'fr_dbuff_s.__unnamed__']]],
   ['fr_5fdetail_5fentry_5ft',['fr_detail_entry_t',['../proto__detail__work_8c.html#structfr__detail__entry__t',1,'']]],
   ['fr_5fdhcpv4_5fctx_5ft',['fr_dhcpv4_ctx_t',['../dhcpv4_8h.html#structfr__dhcpv4__ctx__t',1,'']]],
   ['fr_5fdhcpv6_5fdecode_5fctx_5ft',['fr_dhcpv6_decode_ctx_t',['../dhcpv6_8h.html#structfr__dhcpv6__decode__ctx__t',1,'']]],

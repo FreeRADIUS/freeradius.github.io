@@ -18,8 +18,6 @@ var searchData=
   ['_5ffr_5fbox',['_fr_box',['../value_8h.html#a6b33662939b269de743d35f00d54674e',1,'value.h']]],
   ['_5ffr_5fbox_5fwith_5fda',['_fr_box_with_da',['../value_8h.html#a44b190e1cbd765a54fa16ea3a9ceaeb8',1,'value.h']]],
   ['_5ffr_5fbox_5fwith_5flen',['_fr_box_with_len',['../value_8h.html#a4e3f2d9fa5dbf667bed4c4a7b19eff7e',1,'value.h']]],
-  ['_5ffr_5fdbuff_5fcurrent_5fptr',['_fr_dbuff_current_ptr',['../dbuff_8h.html#a76eb37932d9eea792275c3ae30e816c4',1,'dbuff.h']]],
-  ['_5ffr_5fdbuff_5fextend_5flowat_5fpos_5for_5freturn',['_FR_DBUFF_EXTEND_LOWAT_POS_OR_RETURN',['../dbuff_8h.html#a495ea89379cf6802db49e62c4b6031e5',1,'dbuff.h']]],
   ['_5ffr_5fdbuff_5freserve',['_FR_DBUFF_RESERVE',['../dbuff_8h.html#ae84b448476ac192191396cd90a82ea69',1,'dbuff.h']]],
   ['_5ffr_5flog_5fdst',['_FR_LOG_DST',['../lib_2server_2log_8h.html#a819289efb77469f086e11a7cdfc2b5a0',1,'log.h']]],
   ['_5ffr_5flog_5fdst_5ffatal',['_FR_LOG_DST_FATAL',['../lib_2server_2log_8h.html#ae0bccadd759616f7913f3658e1a345d9',1,'log.h']]],
