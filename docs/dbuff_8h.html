@@ -120,9 +120,9 @@ Macros</h2></td></tr>
 <tr class="separator:a2474c0bff370c0723a0d667cb8f79728"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Caching the values of pointers returned by the accessors, the pointer values take directly from the dbuff directly is strongly discouraged, as the pointers can become invalidated during stream reading or writing to/from an extensible buffer.</p>
-<div class="fragment"><div class="line"><a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a>                      dbuff;</div><div class="line">fr_dbuff_uctx_talloc_t          tctx;</div><div class="line">uint8_t                 *p;</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#aaae109ead816d3ab29a6e36d49b29865">fr_dbuff_init_talloc</a>(NULL, &amp;dbuff, &amp;tctx, 512, SIZE_MAX);</div><div class="line"></div><div class="line">p = <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(&amp;dbuff);                   <span class="comment">// Cache the start pointer</span></div><div class="line"><a class="code" href="dbuff_8h.html#a69045029f34094a7c6802864c77d3dac">fr_dbuff_extend_lowat</a>(&amp;dbuff, 1024);            <span class="comment">// Extension call triggers realloc</span></div><div class="line"></div><div class="line">printf(<span class="stringliteral">&quot;%s&quot;</span>, p);                                <span class="comment">// Should print an empty string but may</span></div><div class="line">                                                <span class="comment">// SEGV as p may now be invalid.</span></div></div><!-- fragment --><p>If offsets of a dbuff need to be accessed, markers should be used. If a dbuff is extended, all markers associated with it will be updated so that their values remain valid.</p>
-<div class="fragment"><div class="line"><a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a>                      dbuff;</div><div class="line">fr_dbuff_uctx_talloc_t          tctx;</div><div class="line"><a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a>               m;</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#aaae109ead816d3ab29a6e36d49b29865">fr_dbuff_init_talloc</a>(NULL, &amp;dbuff, &amp;tctx, 512, SIZE_MAX);</div><div class="line"><a class="code" href="dbuff_8h.html#acd105ff335478c3daf2ecfa994f95e44">fr_dbuff_marker</a>(&amp;m, &amp;dbuff);</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#a69045029f34094a7c6802864c77d3dac">fr_dbuff_extend_lowat</a>(&amp;dbuff, 1024);            <span class="comment">// Extension call triggers realloc</span></div><div class="line"></div><div class="line">printf(<span class="stringliteral">&quot;%s&quot;</span>, <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(&amp;m));             <span class="comment">// Marker was updated when the dbuff</span></div><div class="line">                                                <span class="comment">// was extended, as all is well.</span></div></div><!-- fragment --><p>Using offsets of these pointers returned by accessor functions is also strongly discouraged as it invalidates many of the protections dbuffs give.</p>
-<div class="fragment"><div class="line">uint8_t                 buff[2];</div><div class="line"><a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a>                      dbuff;</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#a3371d1ef887d1aba02a37c7cb3cbbfa8">fr_dbuff_init</a>(&amp;buff, <span class="keyword">sizeof</span>(buff));</div><div class="line"><a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(&amp;dbuff)[2] = 0x00;             <span class="comment">// Write to invalid memory</span></div></div><!-- fragment --> </div></td></tr>
+<div class="fragment"><div class="line"><a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> dbuff;</div><div class="line">fr_dbuff_uctx_talloc_t tctx;</div><div class="line">uint8_t *p;</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#aaae109ead816d3ab29a6e36d49b29865">fr_dbuff_init_talloc</a>(NULL, &amp;dbuff, &amp;tctx, 512, SIZE_MAX);</div><div class="line"></div><div class="line">p = <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(&amp;dbuff);                   <span class="comment">// Cache the start pointer</span></div><div class="line"><a class="code" href="dbuff_8h.html#a69045029f34094a7c6802864c77d3dac">fr_dbuff_extend_lowat</a>(&amp;dbuff, 1024);            <span class="comment">// Extension call triggers realloc</span></div><div class="line"></div><div class="line">printf(<span class="stringliteral">&quot;%s&quot;</span>, p);                                <span class="comment">// Should print an empty string but may</span></div><div class="line">                                                <span class="comment">// SEGV as p may now be invalid.</span></div></div><!-- fragment --><p>If offsets of a dbuff need to be accessed, markers should be used. If a dbuff is extended, all markers associated with it will be updated so that their values remain valid.</p>
+<div class="fragment"><div class="line"><a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> dbuff;</div><div class="line">fr_dbuff_uctx_talloc_t tctx;</div><div class="line"><a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> m;</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#aaae109ead816d3ab29a6e36d49b29865">fr_dbuff_init_talloc</a>(NULL, &amp;dbuff, &amp;tctx, 512, SIZE_MAX);</div><div class="line"><a class="code" href="dbuff_8h.html#acd105ff335478c3daf2ecfa994f95e44">fr_dbuff_marker</a>(&amp;m, &amp;dbuff);</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#a69045029f34094a7c6802864c77d3dac">fr_dbuff_extend_lowat</a>(&amp;dbuff, 1024);            <span class="comment">// Extension call triggers realloc</span></div><div class="line"></div><div class="line">printf(<span class="stringliteral">&quot;%s&quot;</span>, <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(&amp;m));             <span class="comment">// Marker was updated when the dbuff</span></div><div class="line">                                                <span class="comment">// was extended, as all is well.</span></div></div><!-- fragment --><p>Using offsets of these pointers returned by accessor functions is also strongly discouraged as it invalidates many of the protections dbuffs give.</p>
+<div class="fragment"><div class="line">uint8_t buff[2];</div><div class="line"><a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> dbuff;</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#a3371d1ef887d1aba02a37c7cb3cbbfa8">fr_dbuff_init</a>(&amp;buff, <span class="keyword">sizeof</span>(buff));</div><div class="line"><a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(&amp;dbuff)[2] = 0x00;             <span class="comment">// Write to invalid memory</span></div></div><!-- fragment --> </div></td></tr>
 <tr class="memitem:a1e30f2291341ac600bdc2b3cca6a2df7"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_dbuff_or_marker)</td></tr>
 <tr class="memdesc:a1e30f2291341ac600bdc2b3cca6a2df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a pointer to the dbuff.  <a href="#a1e30f2291341ac600bdc2b3cca6a2df7">More...</a><br /></td></tr>
 <tr class="separator:a1e30f2291341ac600bdc2b3cca6a2df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -546,7 +546,7 @@ Position modification (recursive)</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00484">484</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00496">496</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -599,7 +599,7 @@ Position modification (recursive)</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00441">441</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00453">453</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -628,7 +628,7 @@ Position modification (recursive)</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { \</div><div class="line">        size_t _remaining = <a class="code" href="dbuff_8h.html#a69045029f34094a7c6802864c77d3dac">fr_dbuff_extend_lowat</a>(NULL, _dbuff_or_marker, _lowat); \</div><div class="line">        if (_remaining &lt; _lowat) <span class="keywordflow">return</span> -(_lowat - _remaining); \</div><div class="line">} <span class="keywordflow">while</span> (0)</div><div class="ttc" id="dbuff_8h_html_a69045029f34094a7c6802864c77d3dac"><div class="ttname"><a href="dbuff_8h.html#a69045029f34094a7c6802864c77d3dac">fr_dbuff_extend_lowat</a></div><div class="ttdeci">#define fr_dbuff_extend_lowat(_status, _dbuff_or_marker, _lowat)</div><div class="ttdoc">Extend if we&amp;#39;re below a specified low water mark. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00441">dbuff.h:441</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { \</div><div class="line">        size_t _remaining = <a class="code" href="dbuff_8h.html#a69045029f34094a7c6802864c77d3dac">fr_dbuff_extend_lowat</a>(NULL, _dbuff_or_marker, _lowat); \</div><div class="line">        if (_remaining &lt; _lowat) <span class="keywordflow">return</span> -(_lowat - _remaining); \</div><div class="line">} <span class="keywordflow">while</span> (0)</div><div class="ttc" id="dbuff_8h_html_a69045029f34094a7c6802864c77d3dac"><div class="ttname"><a href="dbuff_8h.html#a69045029f34094a7c6802864c77d3dac">fr_dbuff_extend_lowat</a></div><div class="ttdeci">#define fr_dbuff_extend_lowat(_status, _dbuff_or_marker, _lowat)</div><div class="ttdoc">Extend if we&amp;#39;re below a specified low water mark. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00453">dbuff.h:453</a></div></div>
 </div><!-- fragment -->
 <p>Extend if we're below a specified low water mark and return if we can't extend above the low water mark. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -644,7 +644,7 @@ Position modification (recursive)</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00454">454</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00466">466</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -660,7 +660,7 @@ Position modification (recursive)</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00385">385</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00397">397</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -676,7 +676,7 @@ Position modification (recursive)</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00386">386</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00398">398</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1208,7 +1208,7 @@ Position modification (recursive)</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00398">398</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00410">410</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -2240,7 +2240,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00354">354</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00366">366</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -2336,7 +2336,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00399">399</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00411">411</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -2433,7 +2433,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 <tr><td class="fieldname"><a id="a3f2ca1c962b57e274ba04530e696fbffa72f7a83feb33678d78f0dd5e2eeb04d7"></a>FR_DBUFF_EXTENDED&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00391">391</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00403">403</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -2559,7 +2559,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00306">306</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00318">318</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -2714,7 +2714,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 12 2020 20:15:38 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 12 2020 20:22:09 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
