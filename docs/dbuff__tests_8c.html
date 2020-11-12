@@ -324,7 +324,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Test the various dbuff_net_encode() functions and macros. </p>
-<dl class="section note"><dt>Note</dt><dd>Passing constants to <a class="el" href="dbuff_8h.html#af75a89dfc3714aedd1d482a8082825ee" title="Copy data from a fixed sized C type to a dbuff. ">fr_dbuff_in()</a> as it is written results in warnings about narrowing casts on the constants&ndash;but those casts are in the underlying inlined fr_net_from*() functions. They have to be there; that's how those functions work. (The tests worked despite the warnings.) Using variables avoids the warnings, at least with the compile options the build system uses by default. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Passing constants to <a class="el" href="dbuff_8h.html#af75a89dfc3714aedd1d482a8082825ee" title="Copy data from a fixed sized C type into a dbuff. ">fr_dbuff_in()</a> as it is written results in warnings about narrowing casts on the constants&ndash;but those casts are in the underlying inlined fr_net_from*() functions. They have to be there; that's how those functions work. (The tests worked despite the warnings.) Using variables avoids the warnings, at least with the compile options the build system uses by default. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="dbuff__tests_8c_source.html#l00087">87</a> of file <a class="el" href="dbuff__tests_8c_source.html">dbuff_tests.c</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -507,7 +507,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 12 2020 20:27:48 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 12 2020 22:38:32 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
