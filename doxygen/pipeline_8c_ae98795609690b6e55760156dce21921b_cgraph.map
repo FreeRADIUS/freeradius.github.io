@@ -1,0 +1,58 @@
+<map id="fr_redis_trunk_alloc" name="fr_redis_trunk_alloc">
+<area shape="rect" id="node2" href="$pipeline_8c.html#af651a52b2d34eb9bfa12949a4f1c5c93" title="_redis_pipeline_connection\l_alloc" alt="" coords="188,395,367,437"/>
+<area shape="rect" id="node18" href="$pipeline_8c.html#ad4f604d6060fb90d10347fc70af5ec7b" title="Enqueue one or more command sets onto a redis handle. " alt="" coords="207,760,347,787"/>
+<area shape="rect" id="node42" href="$pipeline_8c.html#ab73b1f639051124f720b77f9a3f12e60" title="Deal with cancellation of sent requests. " alt="" coords="423,1043,595,1085"/>
+<area shape="rect" id="node46" href="$pipeline_8c.html#ac5f23978af65e5eeab6c01488af5eed3" title="Signal the API client that we got a complete set of responses to a command set. " alt="" coords="191,878,363,919"/>
+<area shape="rect" id="node47" href="$pipeline_8c.html#ac64e156b09234e8827777416c6c9b636" title="Signal the API client that we failed enqueuing the commands. " alt="" coords="191,943,363,985"/>
+<area shape="rect" id="node48" href="$pipeline_8c.html#aaab0c3de422e3268f961dcc25d478a6c" title="Free the command set. " alt="" coords="191,1009,363,1050"/>
+<area shape="rect" id="node49" href="$trunk_8c.html#a92dca0b929806311bf7e3a48ab1e11ba" title="Allocate a new collection of connections. " alt="" coords="459,1207,559,1233"/>
+<area shape="rect" id="node3" href="$lib_2redis_2io_8c.html#ae4f5cab619d8b2e0623d904dfcd82789" title="Allocate an async redis I/O connection. " alt="" coords="887,125,1021,166"/>
+<area shape="rect" id="node4" href="$server_2connection_8c.html#ae36b3df54cae9772f57bddf92556ed46" title="Allocate a new connection. " alt="" coords="1103,129,1238,156"/>
+<area shape="rect" id="node11" href="$lib_2redis_2io_8c.html#a1e77d1ec6b04a19ab3fc2ccdf61cf7a1" title="Callback for the initialise state. " alt="" coords="1087,312,1255,339"/>
+<area shape="rect" id="node16" href="$lib_2redis_2io_8c.html#afd1fb84b0fa77a5857397e8e054c0862" title="Notification that the connection has errored and must be closed. " alt="" coords="1099,181,1243,222"/>
+<area shape="rect" id="node17" href="$lib_2redis_2io_8c.html#a9805dce430f0e98160fa08909d880206" title="Gracefully signal that the connection should shutdown. " alt="" coords="1099,246,1243,287"/>
+<area shape="rect" id="node5" href="$server_2connection_8c.html#ae72f156597d343df355fb3ceaf30a63b" title="Close a connection if it&#39;s freed. " alt="" coords="1343,188,1465,215"/>
+<area shape="rect" id="node7" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="1337,5,1471,32"/>
+<area shape="rect" id="node8" href="$server_2connection_8c.html#a2fdbf5847f45f3f7a08dac8eea7e4e79" title="Add a callback to be executed after a state function has been called. " alt="" coords="1303,715,1505,741"/>
+<area shape="rect" id="node9" href="$server_2connection_8c.html#a870a2c43e1a5c7e7bbb01f447b58b87e" title="Notification function to tell connection_deferred_signal_process that the connection has been freed..." alt="" coords="1311,57,1497,98"/>
+<area shape="rect" id="node10" href="$server_2connection_8c.html#af50d4ad6581dc418bf3be420b845d135" title="Disable a watcher. " alt="" coords="1333,122,1475,163"/>
+<area shape="rect" id="node6" href="$lib_2util_2event_8c.html#a8faea09b0f0453e51f6768eb5a760e2f" title="Delete a timer event from the event list. " alt="" coords="1553,592,1700,619"/>
+<area shape="rect" id="node12" href="$lib_2redis_2io_8c.html#a1d86e5f8b1a5d6571827988326603ffc" title="Free the redis async context when the handle is freed. " alt="" coords="1339,289,1469,316"/>
+<area shape="rect" id="node13" href="$lib_2redis_2io_8c.html#a40f5458ef461e1a3b47f4f1b98e2b217" title="Configures async I/O callbacks for an existing redisAsyncContext. " alt="" coords="1343,340,1465,367"/>
+<area shape="rect" id="node14" href="$lib_2redis_2io_8c.html#a9916f02845debf7faa8c87cd72e8b4ca" title="Called by hiredis to indicate the connection is live. " alt="" coords="1342,391,1466,417"/>
+<area shape="rect" id="node15" href="$lib_2redis_2io_8c.html#ae074a9655c85173c6d817464c19000de" title="Called by hiredis to indicate the connection is dead. " alt="" coords="1333,239,1475,265"/>
+<area shape="rect" id="node19" href="$trunk_8c.html#a93f664d4dc57935a73ef1855900f5a5b" title="Pop a request off a connection&#39;s pending queue. " alt="" coords="441,891,577,933"/>
+<area shape="rect" id="node21" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="906,1043,1002,1069"/>
+<area shape="rect" id="node22" href="$pipeline_8c.html#a73fcd0988bffc12a966e1dbdccb40ae2" title="Callback for for receiving Redis replies. " alt="" coords="432,555,587,581"/>
+<area shape="rect" id="node24" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="899,773,1009,800"/>
+<area shape="rect" id="node29" href="$dlist_8h.html#ae4fb05ae0fb121f4255153332d3dc477" title="Insert an item into the tail of a list. " alt="" coords="892,387,1016,413"/>
+<area shape="rect" id="node33" href="$lib_2redis_2io_8h.html#a6144c357dcaecaf9f42a692734cf20f0" title="Ignore a response with a specific sequence number. " alt="" coords="669,723,804,765"/>
+<area shape="rect" id="node34" href="$trunk_8c.html#ac307f0d9ad6fd24637e1a27745521946" title="Signal that a trunk request failed. " alt="" coords="419,840,600,867"/>
+<area shape="rect" id="node36" href="$lib_2redis_2io_8h.html#af1efc48b0b3d6f96c9bbd6ae8264a481" title="Tell the handle we sent a command, and get the SQN that command was assigned. " alt="" coords="442,723,577,765"/>
+<area shape="rect" id="node37" href="$trunk_8c.html#a4280399df4f7f50713e75983220b6893" title="Signal that the request was written to a connection successfully. " alt="" coords="415,285,604,312"/>
+<area shape="rect" id="node20" href="$heap_8c.html#ab084b77223ee54a38005dfc8113b679a" title="fr_heap_peek" alt="" coords="904,891,1004,917"/>
+<area shape="rect" id="node23" href="$lib_2redis_2io_8h.html#ad0afd0674f4553257e9282acab73ec24" title="Update the response sequence number and check if we should ignore the response. " alt="" coords="669,606,804,647"/>
+<area shape="rect" id="node28" href="$redis_2base_8h.html#a782179a40a4afcd30de56e7f803f9ae6" title="Wrap freeReplyObject so we consistently check for NULL pointers. " alt="" coords="672,555,801,581"/>
+<area shape="rect" id="node30" href="$dlist_8h.html#ad852b167828d7848ed99ee9cae167218" title="Return the number of elements in the dlist. " alt="" coords="1327,441,1481,468"/>
+<area shape="rect" id="node31" href="$trunk_8c.html#a68df84abee6703937fcd841ef75797c7" title="Signal that a trunk request is complete. " alt="" coords="658,489,815,530"/>
+<area shape="rect" id="node26" href="$lib_2redis_2io_8h.html#ae4f5cab619d8b2e0623d904dfcd82789" title="Allocate an async redis I/O connection. " alt="" coords="887,255,1021,297"/>
+<area shape="rect" id="node27" href="$lib_2redis_2io_8h.html#a457fec40af8f2e36a0f1c728cfd64c6f" title="Return the redisAsyncContext associated with the connection. " alt="" coords="887,606,1021,647"/>
+<area shape="rect" id="node25" href="$dlist_8h.html#a744cb8537f617b6718254070a02f13a0" title="Check whether a list has any items. " alt="" coords="1119,857,1223,884"/>
+<area shape="rect" id="node32" href="$trunk_8c.html#a649e3608119a22b5f9c997243532056a" title="Request completed successfully, inform the API client and free the request. " alt="" coords="885,489,1023,530"/>
+<area shape="rect" id="node35" href="$trunk_8c.html#ae8f376618040ed573738a25f97a48fed" title="Request failed, inform the API client and free the request. " alt="" coords="885,825,1023,866"/>
+<area shape="rect" id="node38" href="$trunk_8c.html#a25de4b8d6e90f9001b5bc02a0cef5980" title="Transition a request to the sent state, indicating that it&#39;s been sent in its entirety. " alt="" coords="652,285,821,312"/>
+<area shape="rect" id="node39" href="$trunk_8c.html#aeb5ec74157948b2fb10874aa5b3fe3d6" title="Transition a connection to the draining&#45;to&#45;reconnect state. " alt="" coords="875,190,1033,231"/>
+<area shape="rect" id="node40" href="$trunk_8c.html#aeaad50225e220cc98d1a1cf5a5941298" title="Update the registrations for I/O events we&#39;re interested in. " alt="" coords="874,321,1034,362"/>
+<area shape="rect" id="node41" href="$trunk_8c.html#a4a0a08064485793b003756b197ca6622" title="Return the count number of requests associated with a trunk connection. " alt="" coords="1093,371,1248,413"/>
+<area shape="rect" id="node43" href="$dlist_8h.html#a5ce47a38257240ad2b08b746c856a276" title="Merge two lists, inserting the tail of one into the other. " alt="" coords="687,1211,787,1237"/>
+<area shape="rect" id="node45" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="690,1043,783,1069"/>
+<area shape="rect" id="node44" href="$dlist_8h.html#ac07928279a883700db54778383d69e77" title="Initialise a linked list without metadata. " alt="" coords="893,1160,1015,1187"/>
+<area shape="rect" id="node50" href="$trunk_8c.html#a44d55a4fb91e548c88147ad879a2d3e5" title="Order connections by queue depth. " alt="" coords="655,1145,819,1186"/>
+<area shape="rect" id="node51" href="$misc_8c.html#a792763c2bb8ec50cbdfa5554b1801f8d" title="Compares two pointers. " alt="" coords="683,1261,791,1288"/>
+<area shape="rect" id="node52" href="$trunk_8c.html#a1c988bd2dd9051d0fcce3b732a3d3f8b" title="Free a trunk, gracefully closing all connections. " alt="" coords="693,941,780,968"/>
+<area shape="rect" id="node54" href="$trunk_8c.html#a18d74b46e2dd446629de20e3ad3828a5" title="Compare two protocol requests. " alt="" coords="1089,1337,1253,1364"/>
+<area shape="rect" id="node55" href="$trunk_8c.html#a055d797a7b5348770b776a633780ee1d" title="Start the trunk running. " alt="" coords="687,1312,786,1339"/>
+<area shape="rect" id="node53" href="$server_2connection_8c.html#a42afdd9546a5fc31cad057c4d35087de" title="Shuts down a connection ungracefully. " alt="" coords="869,941,1039,968"/>
+<area shape="rect" id="node56" href="$trunk_8c.html#a62baa359a34e9d6dd05554c3e20c8caa" title="Attempt to spawn a new connection. " alt="" coords="871,1312,1037,1339"/>
+<area shape="rect" id="node57" href="$trunk_8c.html#a7407640a03fd78e03cead327892576f1" title="Event to periodically call the connection management function. " alt="" coords="907,1261,1001,1288"/>
+</map>
