@@ -68,7 +68,7 @@ var searchData=
   ['admin_5fidentity',['admin_identity',['../ldap_2base_8h.html#a480ca06b67d14878368410ffdffa642d',1,'fr_ldap_config_t']]],
   ['admin_5fpassword',['admin_password',['../ldap_2base_8h.html#a21fcd2f5cdf04a9e19eb018ff052e320',1,'fr_ldap_config_t']]],
   ['admin_5fsasl',['admin_sasl',['../ldap_2base_8h.html#aac5d0f49d798da84a3a7b0c330c7513d',1,'fr_ldap_config_t']]],
-  ['adv_5fparent',['adv_parent',['../dbuff_8h.html#a9b0874300970e29cb67d8cd3d547df11',1,'fr_dbuff_s::adv_parent()'],['../sbuff_8h.html#ad7c2f2f5e79f47e28230e1104216c27f',1,'fr_sbuff_s::adv_parent()']]],
+  ['adv_5fparent',['adv_parent',['../sbuff_8h.html#ad7c2f2f5e79f47e28230e1104216c27f',1,'fr_sbuff_s']]],
   ['aes_5f128_5fencrypt_5fblock',['aes_128_encrypt_block',['../milenage_8c.html#a2052120558f90cf779ff0490c3ddc385',1,'milenage.c']]],
   ['af',['af',['../inet_8h.html#a47a20bd454b1565311be81a46517581d',1,'fr_ipaddr_t']]],
   ['af_5flink',['AF_LINK',['../inet_8c.html#a7a40a39aa9dfaf771780ebe061ffa940',1,'inet.c']]],
