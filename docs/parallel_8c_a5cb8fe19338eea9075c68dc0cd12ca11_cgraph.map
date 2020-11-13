@@ -5,12 +5,12 @@
 <area shape="rect" id="node5" href="$lib_2unlang_2io_8c.html#a74fd54c7579e06817b3c8ca6a3344105" title="Allocate a child request based on the parent. " alt="" coords="391,85,539,126"/>
 <area shape="rect" id="node7" href="$interpret_8c.html#a0976ada1dcd117438d14d61f5f6a7c9f" title="unlang_interpret" alt="" coords="868,76,983,103"/>
 <area shape="rect" id="node11" href="$pair_8c.html#a2a3d33934f2f0f91120dfe3f381b500e" title="Duplicate a list of pairs. " alt="" coords="1102,583,1219,609"/>
-<area shape="rect" id="node22" href="$interpret_8c.html#a06f6fba9b6f8a9831a34c445ff1ecb9f" title="Push a new frame onto the stack. " alt="" coords="620,584,769,611"/>
-<area shape="rect" id="node23" href="$function_8c.html#a31c6495f3d836d329706f6468e373119" title="Push a generic function onto the unlang stack. " alt="" coords="391,631,540,673"/>
-<area shape="rect" id="node25" href="$parallel_8c.html#a54be677b4190ecf8c8e0a36143d95e70" title="When the chld is done, tell the parent that we&#39;ve exited. " alt="" coords="377,168,554,195"/>
-<area shape="rect" id="node26" href="$subrequest_8c.html#a69cfb875d725a15c42cb7befe0b98f12" title="Initialize a detached child. " alt="" coords="376,329,555,356"/>
-<area shape="rect" id="node36" href="$heap_8c.html#a2071e6c3699b74317dc7968e377fdced" title="Remove a node from the heap. " alt="" coords="869,228,981,255"/>
-<area shape="rect" id="node37" href="$interpret_8c.html#a60e1746baf9018e3dd27916d149f56bc" title="Send a signal (usually stop) to a request. " alt="" coords="388,697,543,724"/>
+<area shape="rect" id="node23" href="$interpret_8c.html#a06f6fba9b6f8a9831a34c445ff1ecb9f" title="Push a new frame onto the stack. " alt="" coords="620,584,769,611"/>
+<area shape="rect" id="node24" href="$function_8c.html#a31c6495f3d836d329706f6468e373119" title="Push a generic function onto the unlang stack. " alt="" coords="391,631,540,673"/>
+<area shape="rect" id="node26" href="$parallel_8c.html#a54be677b4190ecf8c8e0a36143d95e70" title="When the chld is done, tell the parent that we&#39;ve exited. " alt="" coords="377,168,554,195"/>
+<area shape="rect" id="node27" href="$subrequest_8c.html#a69cfb875d725a15c42cb7befe0b98f12" title="Initialize a detached child. " alt="" coords="376,329,555,356"/>
+<area shape="rect" id="node37" href="$heap_8c.html#a2071e6c3699b74317dc7968e377fdced" title="Remove a node from the heap. " alt="" coords="869,228,981,255"/>
+<area shape="rect" id="node38" href="$interpret_8c.html#a60e1746baf9018e3dd27916d149f56bc" title="Send a signal (usually stop) to a request. " alt="" coords="388,697,543,724"/>
 <area shape="rect" id="node6" href="$lib_2unlang_2io_8c.html#a7c747bc4b53263b7d9c0eb67e1165caa" title="Run the interpreter after creating a subrequest. " alt="" coords="603,76,787,103"/>
 <area shape="rect" id="node9" href="$interpret_8c.html#a1d05eab74116c44e4edabf4b5bd09890" title="Mark a request as resumable. " alt="" coords="835,127,1016,153"/>
 <area shape="rect" id="node8" href="$interpret_8h.html#afc7a62310552ce746e28145b7eacb1c5" title="Return whether a request is currently scheduled. " alt="" coords="1064,127,1257,153"/>
@@ -19,21 +19,22 @@
 <area shape="rect" id="node13" href="$pair_8c.html#aba344d7329bbf8b0904995129709748c" title="Copy a single valuepair. " alt="" coords="1320,633,1413,660"/>
 <area shape="rect" id="node18" href="$pair_8c.html#acd64c65e4d56248ce8e4dda20ab95aff" title="Free memory used by a valuepair list. " alt="" coords="1311,431,1422,457"/>
 <area shape="rect" id="node19" href="$cursor_8c.html#a6e72682a046a3eeac734da6639f1817c" title="Insert a single item at the end of the list. " alt="" coords="1305,684,1428,711"/>
-<area shape="rect" id="node20" href="$cursor_8c.html#ac0e33de2a6f1cb5e82c4d4e4255c2b95" title="Rewind cursor to the start of the list. " alt="" coords="1313,481,1421,508"/>
-<area shape="rect" id="node21" href="$cursor_8c.html#ade5224aa2f81844c68753159c38fa3ee" title="Appends items from one cursor to another. " alt="" coords="1309,532,1425,559"/>
+<area shape="rect" id="node20" href="$cursor_8c.html#ac0e33de2a6f1cb5e82c4d4e4255c2b95" title="Rewind cursor to the start of the list. " alt="" coords="1313,735,1421,761"/>
+<area shape="rect" id="node21" href="$cursor_8c.html#a7c03f6fd220290ff347be5d43d846cb7" title="Wind cursor to the tail item in the list. " alt="" coords="1318,481,1415,508"/>
+<area shape="rect" id="node22" href="$cursor_8c.html#ade5224aa2f81844c68753159c38fa3ee" title="Appends items from one cursor to another. " alt="" coords="1309,532,1425,559"/>
 <area shape="rect" id="node14" href="$pair_8c.html#a2897183dcbc65ef1b54619bd293fd735" title="Dynamically allocate a new attribute and fill in the da field. " alt="" coords="1484,608,1603,635"/>
 <area shape="rect" id="node15" href="$dict_8h.html#af5e7c4344dae37b2ae61c1b78c0cc1bc" title="Copy a known or unknown attribute to produce an unknown attribute with the specified name..." alt="" coords="1659,583,1817,609"/>
 <area shape="rect" id="node16" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="1476,659,1611,685"/>
 <area shape="rect" id="node17" href="$value_8c.html#a4fadbcd199d20611112e21b7f0da11c4" title="Copy value data verbatim duplicating any buffers. " alt="" coords="1478,709,1609,736"/>
-<area shape="rect" id="node24" href="$unlang__priv_8h.html#aea944f0a695d8ca1840e87b53bca4bad" title="repeatable_set" alt="" coords="641,639,748,665"/>
-<area shape="rect" id="node27" href="$request_8c.html#af359fbedd4b2d45bddc8abd1fd424543" title="Unlink a subrequest from its parent. " alt="" coords="639,431,750,457"/>
-<area shape="rect" id="node33" href="$pair_8c.html#ac3e6ae214c078ffe6f2648f1c12159ff" title="Find the pair with the matching DAs. " alt="" coords="631,279,759,305"/>
-<area shape="rect" id="node34" href="$time_8h.html#a3f87b408dfcb4d3212d1c8831ed360cd" title="fr_time_delta_from_sec" alt="" coords="615,329,774,356"/>
-<area shape="rect" id="node35" href="$subrequest_8c.html#a8a2820bfd4463c8933436250ab908e93" title="unlang_max_request_time" alt="" coords="607,177,782,204"/>
-<area shape="rect" id="node28" href="$request__data_8c.html#a2dfaa4524c75719f7d11d05607e976a9" title="Get opaque data from a request. " alt="" coords="864,380,987,407"/>
-<area shape="rect" id="node29" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="1114,431,1207,457"/>
-<area shape="rect" id="node30" href="$server_2state_8c.html#a6c89f78cff668fcfa63038b22f78f057" title="Move all request data and session&#45;state VPs into a new state_ctx. " alt="" coords="869,532,981,559"/>
-<area shape="rect" id="node31" href="$lib_2util_2debug_8c.html#a28bc6082dfc0394e91244752c2c81471" title="Generate a talloc memory report for a context and print to stderr/stdout. " alt="" coords="859,431,991,457"/>
-<area shape="rect" id="node32" href="$atomic__queue__test_8c.html#afec5f08739b07310113e8de96c2ac6db" title="request_verify" alt="" coords="873,329,977,356"/>
-<area shape="rect" id="node38" href="$interpret_8c.html#ae1966cefdb1e20c3446033c5e8c3eb82" title="Send a signal (usually stop) to a request. " alt="" coords="647,697,743,724"/>
+<area shape="rect" id="node25" href="$unlang__priv_8h.html#aea944f0a695d8ca1840e87b53bca4bad" title="repeatable_set" alt="" coords="641,639,748,665"/>
+<area shape="rect" id="node28" href="$request_8c.html#af359fbedd4b2d45bddc8abd1fd424543" title="Unlink a subrequest from its parent. " alt="" coords="639,431,750,457"/>
+<area shape="rect" id="node34" href="$pair_8c.html#ac3e6ae214c078ffe6f2648f1c12159ff" title="Find the pair with the matching DAs. " alt="" coords="631,279,759,305"/>
+<area shape="rect" id="node35" href="$time_8h.html#a3f87b408dfcb4d3212d1c8831ed360cd" title="fr_time_delta_from_sec" alt="" coords="615,329,774,356"/>
+<area shape="rect" id="node36" href="$subrequest_8c.html#a8a2820bfd4463c8933436250ab908e93" title="unlang_max_request_time" alt="" coords="607,177,782,204"/>
+<area shape="rect" id="node29" href="$request__data_8c.html#a2dfaa4524c75719f7d11d05607e976a9" title="Get opaque data from a request. " alt="" coords="864,380,987,407"/>
+<area shape="rect" id="node30" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="1114,431,1207,457"/>
+<area shape="rect" id="node31" href="$server_2state_8c.html#a6c89f78cff668fcfa63038b22f78f057" title="Move all request data and session&#45;state VPs into a new state_ctx. " alt="" coords="869,532,981,559"/>
+<area shape="rect" id="node32" href="$lib_2util_2debug_8c.html#a28bc6082dfc0394e91244752c2c81471" title="Generate a talloc memory report for a context and print to stderr/stdout. " alt="" coords="859,431,991,457"/>
+<area shape="rect" id="node33" href="$atomic__queue__test_8c.html#afec5f08739b07310113e8de96c2ac6db" title="request_verify" alt="" coords="873,329,977,356"/>
+<area shape="rect" id="node39" href="$interpret_8c.html#ae1966cefdb1e20c3446033c5e8c3eb82" title="Send a signal (usually stop) to a request. " alt="" coords="647,697,743,724"/>
 </map>
