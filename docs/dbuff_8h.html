@@ -139,7 +139,6 @@ Initialisers</h2></td></tr>
 <tr class="memdesc:afef8bf7cdb114451dad4a96f65299e24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a compound literal to pass into functions which accept a dbuff.  <a href="#afef8bf7cdb114451dad4a96f65299e24">More...</a><br /></td></tr>
 <tr class="separator:afef8bf7cdb114451dad4a96f65299e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae004f387219560343fa8890d6c8392d5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#ae004f387219560343fa8890d6c8392d5">fr_dbuff_extend_talloc</a> (<a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, size_t extension)</td></tr>
-<tr class="memdesc:ae004f387219560343fa8890d6c8392d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reallocate the current buffer.  <a href="#ae004f387219560343fa8890d6c8392d5">More...</a><br /></td></tr>
 <tr class="separator:ae004f387219560343fa8890d6c8392d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaae109ead816d3ab29a6e36d49b29865"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#aaae109ead816d3ab29a6e36d49b29865">fr_dbuff_init_talloc</a> (TALLOC_CTX *ctx, <a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, fr_dbuff_uctx_talloc_t *tctx, size_t <a class="el" href="fuzzer_8c.html#a50300ba6e38ec30121edcc07ebac42c6">init</a>, size_t max)</td></tr>
 <tr class="memdesc:aaae109ead816d3ab29a6e36d49b29865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise a special dbuff which automatically extends as additional data is written.  <a href="#aaae109ead816d3ab29a6e36d49b29865">More...</a><br /></td></tr>
@@ -214,7 +213,7 @@ Accessors</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp04cb611d2bf0c8edd5b113799b30e174"></a>Caching the pointers returned by the accessors is strongly discouraged.</p>
 <p>Cached pointers can become invalidated if the <a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6" title="A dbuff. ">fr_dbuff_t</a> is extended, as the extensions callback may use realloc or memmove on the underlying buffer.</p>
 <div class="fragment"><div class="line"><a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> dbuff;</div><div class="line">fr_dbuff_uctx_talloc_t tctx;</div><div class="line">uint8_t *p;</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#aaae109ead816d3ab29a6e36d49b29865">fr_dbuff_init_talloc</a>(NULL, &amp;dbuff, &amp;tctx, 512, SIZE_MAX);</div><div class="line"></div><div class="line">p = <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(&amp;dbuff);                   <span class="comment">// Cache the start pointer</span></div><div class="line"><a class="code" href="dbuff_8h.html#a69045029f34094a7c6802864c77d3dac">fr_dbuff_extend_lowat</a>(&amp;dbuff, 1024);            <span class="comment">// Extension call triggers realloc</span></div><div class="line"></div><div class="line">printf(<span class="stringliteral">&quot;%s&quot;</span>, p);                                <span class="comment">// Should print an empty string but may</span></div><div class="line">                                                <span class="comment">// SEGV as p may now be invalid.</span></div></div><!-- fragment --><p>If offsets of a <a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6" title="A dbuff. ">fr_dbuff_t</a> need to be accessed, markers should be used. If a dbuff is extended all markers associated with it will be updated so that the content they point to remains constant.</p>
-<div class="fragment"><div class="line"><a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> dbuff;</div><div class="line">fr_dbuff_uctx_talloc_t tctx;</div><div class="line"><a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> m;</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#aaae109ead816d3ab29a6e36d49b29865">fr_dbuff_init_talloc</a>(NULL, &amp;dbuff, &amp;tctx, 512, SIZE_MAX);</div><div class="line"><a class="code" href="dbuff_8h.html#acd105ff335478c3daf2ecfa994f95e44">fr_dbuff_marker</a>(&amp;m, &amp;dbuff);</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#a69045029f34094a7c6802864c77d3dac">fr_dbuff_extend_lowat</a>(&amp;dbuff, 1024);            <span class="comment">// Extension call triggers realloc</span></div><div class="line"></div><div class="line">printf(<span class="stringliteral">&quot;%s&quot;</span>, <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(&amp;m));             <span class="comment">// Marker was updated when the dbuff</span></div><div class="line">                                                <span class="comment">// was extended.  All is well.</span></div></div><!-- fragment --><p>Using offsets of these pointers returned by accessor functions is also strongly discouraged as it invalidates many of the protections dbuffs give.</p>
+<div class="fragment"><div class="line"><a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> dbuff;</div><div class="line">fr_dbuff_uctx_talloc_t tctx;</div><div class="line"><a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> m;</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#aaae109ead816d3ab29a6e36d49b29865">fr_dbuff_init_talloc</a>(NULL, &amp;dbuff, &amp;tctx, 512, SIZE_MAX);</div><div class="line"><a class="code" href="dbuff_8h.html#acd105ff335478c3daf2ecfa994f95e44">fr_dbuff_marker</a>(&amp;m, &amp;dbuff);</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#a69045029f34094a7c6802864c77d3dac">fr_dbuff_extend_lowat</a>(&amp;dbuff, 1024);            <span class="comment">// Extension call triggers realloc</span></div><div class="line"></div><div class="line">printf(<span class="stringliteral">&quot;%s&quot;</span>, <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(&amp;m));             <span class="comment">// Marker was updated when the dbuff</span></div><div class="line">                                                <span class="comment">// was extended.  All is well.</span></div></div><!-- fragment --><p>Using offsets of the pointers returned by accessor functions is also strongly discouraged as it invalidates many of the protections dbuffs give.</p>
 <div class="fragment"><div class="line">uint8_t buff[2];</div><div class="line"><a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> dbuff;</div><div class="line"></div><div class="line"><a class="code" href="dbuff_8h.html#a3371d1ef887d1aba02a37c7cb3cbbfa8">fr_dbuff_init</a>(&amp;dbuff, buff, <span class="keyword">sizeof</span>(buff));</div><div class="line"><a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(&amp;dbuff)[2] = 0x00;             <span class="comment">// Write to invalid memory</span></div></div><!-- fragment --> </td></tr>
 <tr class="memitem:a1e30f2291341ac600bdc2b3cca6a2df7"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_dbuff_or_marker)</td></tr>
 <tr class="memdesc:a1e30f2291341ac600bdc2b3cca6a2df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a pointer to the dbuff.  <a href="#a1e30f2291341ac600bdc2b3cca6a2df7">More...</a><br /></td></tr>
@@ -2499,30 +2498,6 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
       </table>
 </div><div class="memdoc">
 
-<p>Reallocate the current buffer. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dbuff</td><td>to be extended. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">extension</td><td>How many additional bytes should be allocated in the buffer. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><ul>
-<li>0 the extension operation failed.</li>
-<li>&gt;0 the number of bytes the buffer was extended by. </li>
-</ul>
-</dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="dbuff_8c_source.html#l00110">110</a> of file <a class="el" href="dbuff_8c_source.html">dbuff.c</a>.</p>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_ae004f387219560343fa8890d6c8392d5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-
 </div>
 </div>
 <a id="aaae109ead816d3ab29a6e36d49b29865"></a>
@@ -2595,11 +2570,11 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00372">372</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_aaae109ead816d3ab29a6e36d49b29865_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2735,11 +2710,11 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="dbuff_8c_source.html#l00076">76</a> of file <a class="el" href="dbuff_8c_source.html">dbuff.c</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="dbuff_8h_aa30c687f387443a89139399929a88090_cgraph.svg" width="214" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2749,7 +2724,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2020 00:10:30 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 00:17:58 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

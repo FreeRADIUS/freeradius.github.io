@@ -91,9 +91,6 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae004f387219560343fa8890d6c8392d5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8c.html#ae004f387219560343fa8890d6c8392d5">fr_dbuff_extend_talloc</a> (<a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, size_t extension)</td></tr>
-<tr class="memdesc:ae004f387219560343fa8890d6c8392d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reallocate the current buffer.  <a href="#ae004f387219560343fa8890d6c8392d5">More...</a><br /></td></tr>
-<tr class="separator:ae004f387219560343fa8890d6c8392d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa30c687f387443a89139399929a88090"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8c.html#aa30c687f387443a89139399929a88090">fr_dbuff_update</a> (<a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, uint8_t *new_buff, size_t new_len)</td></tr>
 <tr class="memdesc:aa30c687f387443a89139399929a88090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update all markers and pointers in the set of dbuffs to point to new_buff.  <a href="#aa30c687f387443a89139399929a88090">More...</a><br /></td></tr>
 <tr class="separator:aa30c687f387443a89139399929a88090"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,58 +166,6 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ae004f387219560343fa8890d6c8392d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae004f387219560343fa8890d6c8392d5">&#9670;&nbsp;</a></span>fr_dbuff_extend_talloc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t fr_dbuff_extend_talloc </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *&#160;</td>
-          <td class="paramname"><em>dbuff</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>extension</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reallocate the current buffer. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dbuff</td><td>to be extended. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">extension</td><td>How many additional bytes should be allocated in the buffer. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><ul>
-<li>0 the extension operation failed.</li>
-<li>&gt;0 the number of bytes the buffer was extended by. </li>
-</ul>
-</dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="dbuff_8c_source.html#l00110">110</a> of file <a class="el" href="dbuff_8c_source.html">dbuff.c</a>.</p>
-<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8c_ae004f387219560343fa8890d6c8392d5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-
-</div>
-</div>
 <a id="aa30c687f387443a89139399929a88090"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa30c687f387443a89139399929a88090">&#9670;&nbsp;</a></span>fr_dbuff_update()</h2>
 
@@ -265,11 +210,11 @@ Functions</h2></td></tr>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="dbuff_8c_source.html#l00076">76</a> of file <a class="el" href="dbuff_8c_source.html">dbuff.c</a>.</p>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="dbuff_8c_aa30c687f387443a89139399929a88090_cgraph.svg" width="214" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -317,7 +262,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2020 00:10:30 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 00:17:58 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
