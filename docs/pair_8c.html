@@ -159,18 +159,21 @@ Functions</h2></td></tr>
 <tr class="separator:ac46f958d24caf9bd32b1bbd930f3a709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb3a64db977b576e911152b05ace28ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pair_8c.html#afb3a64db977b576e911152b05ace28ac">fr_pair_list_afrom_box</a> (TALLOC_CTX *ctx, <a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>, <a class="el" href="value_8h.html#a4a9e69e78ad1a81da0976e8f29a4e444">fr_value_box_t</a> *box)</td></tr>
 <tr class="separator:afb3a64db977b576e911152b05ace28ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab30a8556ee3ff651a141d5d089258da1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pair_8c.html#ab30a8556ee3ff651a141d5d089258da1">fr_pair_list_alloc</a> (TALLOC_CTX *ctx)</td></tr>
+<tr class="memdesc:ab30a8556ee3ff651a141d5d089258da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a new pair list on the heap.  <a href="#ab30a8556ee3ff651a141d5d089258da1">More...</a><br /></td></tr>
+<tr class="separator:ab30a8556ee3ff651a141d5d089258da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f2cfa0e7b5ca557c88b6c4f9faaa33c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pair_8c.html#a0f2cfa0e7b5ca557c88b6c4f9faaa33c">fr_pair_list_cmp</a> (<a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> const *a, <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> const *b)</td></tr>
 <tr class="memdesc:a0f2cfa0e7b5ca557c88b6c4f9faaa33c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine equality of two lists.  <a href="#a0f2cfa0e7b5ca557c88b6c4f9faaa33c">More...</a><br /></td></tr>
 <tr class="separator:a0f2cfa0e7b5ca557c88b6c4f9faaa33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a3d33934f2f0f91120dfe3f381b500e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pair_8c.html#a2a3d33934f2f0f91120dfe3f381b500e">fr_pair_list_copy</a> (TALLOC_CTX *ctx, <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *to, <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> const *from)</td></tr>
 <tr class="memdesc:a2a3d33934f2f0f91120dfe3f381b500e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicate a list of pairs.  <a href="#a2a3d33934f2f0f91120dfe3f381b500e">More...</a><br /></td></tr>
 <tr class="separator:a2a3d33934f2f0f91120dfe3f381b500e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dd9107aa145cf20da4144aff117c8a9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pair_8c.html#a9dd9107aa145cf20da4144aff117c8a9">fr_pair_list_copy_by_ancestor</a> (TALLOC_CTX *ctx, <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *to, <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *from, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *parent_da)</td></tr>
-<tr class="memdesc:a9dd9107aa145cf20da4144aff117c8a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicate pairs in a list where the da is a descendant of parent_da.  <a href="#a9dd9107aa145cf20da4144aff117c8a9">More...</a><br /></td></tr>
-<tr class="separator:a9dd9107aa145cf20da4144aff117c8a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8a57945aec4cb1d35b7c3e08690209a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pair_8c.html#ad8a57945aec4cb1d35b7c3e08690209a">fr_pair_list_copy_by_da</a> (TALLOC_CTX *ctx, <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *to, <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *from, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *da)</td></tr>
-<tr class="memdesc:ad8a57945aec4cb1d35b7c3e08690209a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicate pairs in a list matching the specified da.  <a href="#ad8a57945aec4cb1d35b7c3e08690209a">More...</a><br /></td></tr>
-<tr class="separator:ad8a57945aec4cb1d35b7c3e08690209a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e69efb827c473c92dfe3d696da17254"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pair_8c.html#a0e69efb827c473c92dfe3d696da17254">fr_pair_list_copy_by_ancestor</a> (TALLOC_CTX *ctx, <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *to, <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *from, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *parent_da, unsigned int count)</td></tr>
+<tr class="memdesc:a0e69efb827c473c92dfe3d696da17254"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicate pairs in a list where the da is a descendant of parent_da.  <a href="#a0e69efb827c473c92dfe3d696da17254">More...</a><br /></td></tr>
+<tr class="separator:a0e69efb827c473c92dfe3d696da17254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea78dba87ffae7116a6f505e7e82429"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pair_8c.html#a5ea78dba87ffae7116a6f505e7e82429">fr_pair_list_copy_by_da</a> (TALLOC_CTX *ctx, <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *to, <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *from, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *da, unsigned int count)</td></tr>
+<tr class="memdesc:a5ea78dba87ffae7116a6f505e7e82429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicate pairs in a list matching the specified da.  <a href="#a5ea78dba87ffae7116a6f505e7e82429">More...</a><br /></td></tr>
+<tr class="separator:a5ea78dba87ffae7116a6f505e7e82429"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd64c65e4d56248ce8e4dda20ab95aff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pair_8c.html#acd64c65e4d56248ce8e4dda20ab95aff">fr_pair_list_free</a> (<a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *vps)</td></tr>
 <tr class="memdesc:acd64c65e4d56248ce8e4dda20ab95aff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free memory used by a valuepair list.  <a href="#acd64c65e4d56248ce8e4dda20ab95aff">More...</a><br /></td></tr>
 <tr class="separator:acd64c65e4d56248ce8e4dda20ab95aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -399,7 +402,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00979">979</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00998">998</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -451,7 +454,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00944">944</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00963">963</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -499,7 +502,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00503">503</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00522">522</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
@@ -565,7 +568,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00629">629</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00648">648</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
@@ -635,7 +638,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00167">167</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00186">186</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
@@ -697,7 +700,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00111">111</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00130">130</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
@@ -728,7 +731,7 @@ Functions</h2></td></tr>
 <p>Dynamically allocate a new attribute. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">ctx</td><td>Talloc ctx to allocate the pair in. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ctx</td><td>to allocate the pair list in. </td></tr>
   </table>
   </dd>
 </dl>
@@ -738,7 +741,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00080">80</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00099">99</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
@@ -787,7 +790,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00490">490</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00509">509</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
@@ -851,7 +854,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00827">827</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00846">846</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-15-summary" class="dynsummary" style="display:block;">
@@ -913,7 +916,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00736">736</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00755">755</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
@@ -975,7 +978,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00779">779</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00798">798</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-19-summary" class="dynsummary" style="display:block;">
@@ -1036,7 +1039,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00205">205</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00224">224</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
@@ -1091,7 +1094,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00709">709</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00728">728</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-23-summary" class="dynsummary" style="display:block;">
@@ -1154,7 +1157,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00597">597</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00616">616</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-25-summary" class="dynsummary" style="display:block;">
@@ -1214,7 +1217,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00691">691</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00710">710</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-27-summary" class="dynsummary" style="display:block;">
@@ -1268,7 +1271,7 @@ Functions</h2></td></tr>
 
 <p>Find the pair with the matching attribute. </p>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00451">451</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00470">470</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-29-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-29-summary" class="dynsummary" style="display:block;">
@@ -1316,7 +1319,7 @@ Functions</h2></td></tr>
 
 <p>Find the pair with the matching DAs. </p>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00401">401</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00420">420</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 
 </div>
 </div>
@@ -1355,7 +1358,7 @@ Functions</h2></td></tr>
 <p>Find the pair with the matching attribute. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>should take DAs and do a pointer comparison. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00421">421</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00440">440</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-31-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-31-summary" class="dynsummary" style="display:block;">
@@ -1422,7 +1425,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00380">380</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00399">399</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-33-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-33-summary" class="dynsummary" style="display:block;">
@@ -1489,7 +1492,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00351">351</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00370">370</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-35-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-35-summary" class="dynsummary" style="display:block;">
@@ -1533,7 +1536,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l02319">2319</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l02346">2346</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-36-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-36-summary" class="dynsummary" style="display:block;">
@@ -1550,6 +1553,39 @@ Functions</h2></td></tr>
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="pair_8c_afb3a64db977b576e911152b05ace28ac_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
+
+</div>
+</div>
+<a id="ab30a8556ee3ff651a141d5d089258da1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab30a8556ee3ff651a141d5d089258da1">&#9670;&nbsp;</a></span>fr_pair_list_alloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a>* fr_pair_list_alloc </td>
+          <td>(</td>
+          <td class="paramtype">TALLOC_CTX *&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocate a new pair list on the heap. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ctx</td><td>to allocate the pair list in. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>A new <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a>.</li>
+<li>NULL if an error occurred. </li>
+</ul>
+</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00080">80</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 
 </div>
 </div>
@@ -1596,7 +1632,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00905">905</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00924">924</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-38-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-38-summary" class="dynsummary" style="display:block;">
@@ -1665,7 +1701,7 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01246">1246</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01265">1265</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-40-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-40-summary" class="dynsummary" style="display:block;">
@@ -1685,8 +1721,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9dd9107aa145cf20da4144aff117c8a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9dd9107aa145cf20da4144aff117c8a9">&#9670;&nbsp;</a></span>fr_pair_list_copy_by_ancestor()</h2>
+<a id="a0e69efb827c473c92dfe3d696da17254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e69efb827c473c92dfe3d696da17254">&#9670;&nbsp;</a></span>fr_pair_list_copy_by_ancestor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1713,7 +1749,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *&#160;</td>
-          <td class="paramname"><em>parent_da</em>&#160;</td>
+          <td class="paramname"><em>parent_da</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1731,6 +1773,7 @@ Functions</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">to</td><td>where to copy attributes to. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">from</td><td>whence to copy <a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> (s). </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">parent_da</td><td>to match. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>How many instances to copy. Use 0 for all attributes. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1741,20 +1784,20 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01345">1345</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01370">1370</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-42-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-42-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-42-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="pair_8c_a9dd9107aa145cf20da4144aff117c8a9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="pair_8c_a0e69efb827c473c92dfe3d696da17254_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="ad8a57945aec4cb1d35b7c3e08690209a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8a57945aec4cb1d35b7c3e08690209a">&#9670;&nbsp;</a></span>fr_pair_list_copy_by_da()</h2>
+<a id="a5ea78dba87ffae7116a6f505e7e82429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ea78dba87ffae7116a6f505e7e82429">&#9670;&nbsp;</a></span>fr_pair_list_copy_by_da()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1781,7 +1824,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *&#160;</td>
-          <td class="paramname"><em>da</em>&#160;</td>
+          <td class="paramname"><em>da</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1799,6 +1848,7 @@ Functions</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">to</td><td>where to copy attributes to. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">from</td><td>whence to copy <a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> (s). </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">da</td><td>to match. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>How many instances to copy. Use 0 for all attributes. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1809,13 +1859,13 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01292">1292</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01313">1313</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-43-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-43-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-43-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="pair_8c_ad8a57945aec4cb1d35b7c3e08690209a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="pair_8c_a5ea78dba87ffae7116a6f505e7e82429_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1823,7 +1873,7 @@ Functions</h2></td></tr>
 <div id="dynsection-44-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-44-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="pair_8c_ad8a57945aec4cb1d35b7c3e08690209a_icgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="pair_8c_a5ea78dba87ffae7116a6f505e7e82429_icgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1848,7 +1898,7 @@ Functions</h2></td></tr>
 <p>Free memory used by a valuepair list. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>TLV: needs to free all dependents of each VP freed.</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00298">298</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00317">317</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 
 </div>
 </div>
@@ -1888,7 +1938,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01010">1010</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01029">1029</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-45-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-45-summary" class="dynsummary" style="display:block;">
@@ -1926,7 +1976,7 @@ Functions</h2></td></tr>
 
 <p>Mark up a list of VPs as tainted. </p>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l02290">2290</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l02317">2317</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-47-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-47-summary" class="dynsummary" style="display:block;">
@@ -1983,7 +2033,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the pair matches the da </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l02394">2394</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l02421">2421</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-49-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-49-summary" class="dynsummary" style="display:block;">
@@ -2034,7 +2084,7 @@ Will not work with unknown attributes.</dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00540">540</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00559">559</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-50-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-50-summary" class="dynsummary" style="display:block;">
@@ -2081,7 +2131,7 @@ Will not work with unknown attributes.</dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00267">267</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00286">286</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-51-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-51-summary" class="dynsummary" style="display:block;">
@@ -2130,7 +2180,7 @@ Will not work with unknown attributes.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00320">320</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00339">339</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-53" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-53-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-53-summary" class="dynsummary" style="display:block;">
@@ -2205,7 +2255,7 @@ Will not work with unknown attributes.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00659">659</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00678">678</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-55-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-55-summary" class="dynsummary" style="display:block;">
@@ -2268,7 +2318,7 @@ Will not work with unknown attributes.</dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01083">1083</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01102">1102</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-57-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-57-summary" class="dynsummary" style="display:block;">
@@ -2325,7 +2375,7 @@ Will not work with unknown attributes.</dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01040">1040</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01059">1059</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-59-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-59-summary" class="dynsummary" style="display:block;">
@@ -2388,7 +2438,7 @@ Will not work with unknown attributes.</dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01161">1161</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01180">1180</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-61-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-61-summary" class="dynsummary" style="display:block;">
@@ -2450,7 +2500,7 @@ Will not work with unknown attributes.</dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01580">1580</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01607">1607</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-63-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-63-summary" class="dynsummary" style="display:block;">
@@ -2525,7 +2575,7 @@ Will not work with unknown attributes.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01614">1614</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01641">1641</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-65" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-65-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-65-summary" class="dynsummary" style="display:block;">
@@ -2592,7 +2642,7 @@ Will not work with unknown attributes.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01640">1640</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01667">1667</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-67" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-67-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-67-summary" class="dynsummary" style="display:block;">
@@ -2660,7 +2710,7 @@ Will not work with unknown attributes.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01697">1697</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01724">1724</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-69" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-69-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-69-summary" class="dynsummary" style="display:block;">
@@ -2727,7 +2777,7 @@ Will not work with unknown attributes.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01744">1744</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01771">1771</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-71" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-71-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-71-summary" class="dynsummary" style="display:block;">
@@ -2803,7 +2853,7 @@ Will not work with unknown attributes.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01770">1770</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01797">1797</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-73" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-73-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-73-summary" class="dynsummary" style="display:block;">
@@ -2872,7 +2922,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01670">1670</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01697">1697</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-74" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-74-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-74-summary" class="dynsummary" style="display:block;">
@@ -2946,7 +2996,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01723">1723</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01750">1750</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-76" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-76-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-76-summary" class="dynsummary" style="display:block;">
@@ -2982,7 +3032,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01387">1387</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01414">1414</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-77" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-77-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-77-summary" class="dynsummary" style="display:block;">
@@ -3042,7 +3092,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01420">1420</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01447">1447</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-79" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-79-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-79-summary" class="dynsummary" style="display:block;">
@@ -3099,7 +3149,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a talloced buffer. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01997">1997</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l02024">2024</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-81" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-81-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-81-summary" class="dynsummary" style="display:block;">
@@ -3148,7 +3198,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>1 if the enum value has been used, 0 otherwise, -1 on error. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l02040">2040</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l02067">2067</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-82" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-82-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-82-summary" class="dynsummary" style="display:block;">
@@ -3235,7 +3285,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01444">1444</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01471">1471</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-84" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-84-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-84-summary" class="dynsummary" style="display:block;">
@@ -3310,7 +3360,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01798">1798</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01825">1825</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-86" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-86-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-86-summary" class="dynsummary" style="display:block;">
@@ -3386,7 +3436,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01948">1948</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01975">1975</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-88" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-88-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-88-summary" class="dynsummary" style="display:block;">
@@ -3447,7 +3497,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01972">1972</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01999">1999</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-89" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-89-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-89-summary" class="dynsummary" style="display:block;">
@@ -3506,7 +3556,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01824">1824</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01851">1851</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-90" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-90-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-90-summary" class="dynsummary" style="display:block;">
@@ -3573,7 +3623,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01851">1851</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01878">1878</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-91" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-91-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-91-summary" class="dynsummary" style="display:block;">
@@ -3641,7 +3691,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01878">1878</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01905">1905</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-93" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-93-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-93-summary" class="dynsummary" style="display:block;">
@@ -3708,7 +3758,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01925">1925</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01952">1952</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-95" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-95-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-95-summary" class="dynsummary" style="display:block;">
@@ -3782,7 +3832,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01904">1904</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01931">1931</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-97" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-97-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-97-summary" class="dynsummary" style="display:block;">
@@ -3835,7 +3885,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01513">1513</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01540">1540</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-98" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-98-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-98-summary" class="dynsummary" style="display:block;">
@@ -3902,7 +3952,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01538">1538</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01565">1565</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-100" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-100-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-100-summary" class="dynsummary" style="display:block;">
@@ -3943,7 +3993,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01558">1558</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l01585">1585</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-101" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-101-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-101-summary" class="dynsummary" style="display:block;">
@@ -3979,7 +4029,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00469">469</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00488">488</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-102" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-102-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-102-summary" class="dynsummary" style="display:block;">
@@ -4040,7 +4090,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00756">756</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair_8c_source.html#l00775">775</a> of file <a class="el" href="pair_8c_source.html">pair.c</a>.</p>
 <div id="dynsection-103" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-103-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-103-summary" class="dynsummary" style="display:block;">
@@ -4055,7 +4105,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2020 22:11:25 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 22:15:10 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

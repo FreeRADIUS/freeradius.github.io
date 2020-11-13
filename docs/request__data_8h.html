@@ -85,8 +85,10 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:afb51b79689317fb4e9ef867616642192"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="request__data_8h.html#afb51b79689317fb4e9ef867616642192">request_data_add</a>(_request,  _unique_ptr,  _unique_int,  _opaque,  _free_on_replace,  _free_on_parent,  _persist)</td></tr>
+<tr class="memdesc:afb51b79689317fb4e9ef867616642192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add opaque data to a request_t.  <a href="#afb51b79689317fb4e9ef867616642192">More...</a><br /></td></tr>
 <tr class="separator:afb51b79689317fb4e9ef867616642192"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af47b70a96c293349cbce0e890f181793"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="request__data_8h.html#af47b70a96c293349cbce0e890f181793">request_data_talloc_add</a>(_request,  _unique_ptr,  _unique_int,  _type,  _opaque,  _free_on_replace,  _free_on_parent,  _persist)</td></tr>
+<tr class="memdesc:af47b70a96c293349cbce0e890f181793"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add opaque data to a request_t.  <a href="#af47b70a96c293349cbce0e890f181793">More...</a><br /></td></tr>
 <tr class="separator:af47b70a96c293349cbce0e890f181793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -135,7 +137,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Request data management functions. </p>
-<dl class="section rcs"><dt>Id</dt><dd>e54193e6938cabc090b7d1c6f59e0b825c65c4a2 </dd></dl>
+<dl class="section rcs"><dt>Id</dt><dd>ebf644fa1cd5e712a10cdfdb1e1104990d72f450 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>2019 The FreeRADIUS server project </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="request__data_8h_source.html">request_data.h</a>.</p>
@@ -197,7 +199,28 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="request__data_8h.html#a3caf92d999973cb474c2513aba97221d">_request_data_add</a>(_request, _unique_ptr, _unique_int, NULL, _opaque,  \</div><div class="line">                                  _free_on_replace, _free_on_parent, _persist, __FILE__, __LINE__)</div><div class="ttc" id="request__data_8h_html_a3caf92d999973cb474c2513aba97221d"><div class="ttname"><a href="request__data_8h.html#a3caf92d999973cb474c2513aba97221d">_request_data_add</a></div><div class="ttdeci">int _request_data_add(request_t *request, void const *unique_ptr, int unique_int, char const *type, void *opaque, bool free_on_replace, bool free_on_parent, bool persist, char const *file, int line)</div><div class="ttdoc">Add opaque data to a request_t. </div><div class="ttdef"><b>Definition:</b> <a href="request__data_8c_source.html#l00183">request_data.c:183</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="request__data_8h_source.html#l00038">38</a> of file <a class="el" href="request__data_8h_source.html">request_data.h</a>.</p>
+<p>Add opaque data to a request_t. </p>
+<p>The unique ptr is meant to be a module configuration, and the unique integer allows the caller to have multiple opaque data associated with a request_t.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">_request</td><td>to associate data with. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_unique_ptr</td><td>Identifier for the data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_unique_int</td><td>Qualifier for the identifier. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_opaque</td><td>Data to associate with the request. May be NULL. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_free_on_replace</td><td>Free opaque data if this request_data is replaced. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_free_on_parent</td><td>Free opaque data if the request is freed. Must not be set if the opaque data is also parented by the request or state (double free). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_persist</td><td>Transfer request data to an <a class="el" href="server_2state_8c.html#structfr__state__entry__t" title="Holds a state value, and associated fr_pair_ts and data. ">fr_state_entry_t</a>, and add it back to the next request we receive for the session. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>-2 on bad arguments.</li>
+<li>-1 on memory allocation error.</li>
+<li>0 on success. </li>
+</ul>
+</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="request__data_8h_source.html#l00059">59</a> of file <a class="el" href="request__data_8h_source.html">request_data.h</a>.</p>
 
 </div>
 </div>
@@ -265,7 +288,29 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="request__data_8h.html#a3caf92d999973cb474c2513aba97221d">_request_data_add</a>(_request, _unique_ptr, _unique_int, <a class="code" href="build_8h.html#a6df1d22fb5f09eccc23b9f399670cfd7">STRINGIFY</a>(_type), _opaque, \</div><div class="line">                                  _free_on_replace, _free_on_parent, _persist, __FILE__, __LINE__)</div><div class="ttc" id="build_8h_html_a6df1d22fb5f09eccc23b9f399670cfd7"><div class="ttname"><a href="build_8h.html#a6df1d22fb5f09eccc23b9f399670cfd7">STRINGIFY</a></div><div class="ttdeci">#define STRINGIFY(x)</div><div class="ttdef"><b>Definition:</b> <a href="build_8h_source.html#l00071">build.h:71</a></div></div>
 <div class="ttc" id="request__data_8h_html_a3caf92d999973cb474c2513aba97221d"><div class="ttname"><a href="request__data_8h.html#a3caf92d999973cb474c2513aba97221d">_request_data_add</a></div><div class="ttdeci">int _request_data_add(request_t *request, void const *unique_ptr, int unique_int, char const *type, void *opaque, bool free_on_replace, bool free_on_parent, bool persist, char const *file, int line)</div><div class="ttdoc">Add opaque data to a request_t. </div><div class="ttdef"><b>Definition:</b> <a href="request__data_8c_source.html#l00183">request_data.c:183</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="request__data_8h_source.html#l00042">42</a> of file <a class="el" href="request__data_8h_source.html">request_data.h</a>.</p>
+<p>Add opaque data to a request_t. </p>
+<p>The unique ptr is meant to be a module configuration, and the unique integer allows the caller to have multiple opaque data associated with a request_t.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">_request</td><td>to associate data with. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_unique_ptr</td><td>Identifier for the data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_unique_int</td><td>Qualifier for the identifier. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_type</td><td>Type of data i.e. fr_pair_t. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_opaque</td><td>Data to associate with the request. May be NULL. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_free_on_replace</td><td>Free opaque data if this request_data is replaced. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_free_on_parent</td><td>Free opaque data if the request is freed. Must not be set if the opaque data is also parented by the request or state (double free). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_persist</td><td>Transfer request data to an <a class="el" href="server_2state_8c.html#structfr__state__entry__t" title="Holds a state value, and associated fr_pair_ts and data. ">fr_state_entry_t</a>, and add it back to the next request we receive for the session. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>-2 on bad arguments.</li>
+<li>-1 on memory allocation error.</li>
+<li>0 on success. </li>
+</ul>
+</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="request__data_8h_source.html#l00086">86</a> of file <a class="el" href="request__data_8h_source.html">request_data.h</a>.</p>
 
 </div>
 </div>
@@ -1064,7 +1109,7 @@ Will not check for duplicates.</dd></dl>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2020 22:11:19 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 22:15:04 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
