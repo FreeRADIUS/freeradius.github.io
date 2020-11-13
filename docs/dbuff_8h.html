@@ -145,8 +145,8 @@ Initialisers</h2></td></tr>
 <tr class="separator:aaae109ead816d3ab29a6e36d49b29865"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
-Extension request functions</h2></td></tr>
-<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrpc9083285fb5b855da34692242f179832"></a>These functions may be used to request that the underlying buffer is either extended to accomodate more data, or that data is shifted out of the buffer, and that the buffer is refilled. </p>
+Extension requests</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp0eb57247406d3a5c0273a6b19b089603"></a>These functions/macros may be used to request that the underlying buffer is either extended to accomodate more data, or that data is shifted out of the buffer, and that the buffer is refilled. </p>
 </td></tr>
 <tr class="memitem:a95d4692c42cf1b8bb2fd8058c1163df5"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#a95d4692c42cf1b8bb2fd8058c1163df5">FR_DBUFF_FLAG_EXTENDABLE</a>&#160;&#160;&#160;0x01</td></tr>
 <tr class="memdesc:a95d4692c42cf1b8bb2fd8058c1163df5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating a dbuff is extendable.  <a href="#a95d4692c42cf1b8bb2fd8058c1163df5">More...</a><br /></td></tr>
@@ -191,8 +191,8 @@ Extension callback helpers</h2></td></tr>
 <tr class="separator:aa30c687f387443a89139399929a88090"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
-Length check macros</h2></td></tr>
-<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrpef073e8827355ff533e50ff2d65f3c8a"></a>These macros return the amount of data used/remaining relative to the dbuff or marker's 'start', 'current', and 'end' pointers.</p>
+Length checks</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp5b6e8be0e832e1d948ebfe4bbd3a11db"></a>These macros return the amount of data used/remaining relative to the dbuff or marker's 'start', 'current', and 'end' pointers.</p>
 <p>In the majority of cases these macros should not be used and the extension request functions should be used instead. The only exception to this is if the caller is certain the <a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6" title="A dbuff. ">fr_dbuff_t</a> is not extensible. </p>
 </td></tr>
 <tr class="memitem:a81c1cb8286821434b6ec9902655316aa"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#a81c1cb8286821434b6ec9902655316aa">fr_dbuff_remaining</a>(_dbuff_or_marker)</td></tr>
@@ -2724,7 +2724,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2020 00:17:58 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 00:23:59 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
