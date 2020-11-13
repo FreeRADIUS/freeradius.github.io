@@ -249,9 +249,14 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr class="separator:a44cddf26dcb250d3e42c7dc6d901ac4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Statistics</div></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a8873963fb2c86e66c2b590b21c9c716e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="cf__parse_8h.html#structCONF__PARSER">CONF_PARSER</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#a8873963fb2c86e66c2b590b21c9c716e">fr_trunk_config</a> []</td></tr>
+<tr class="memdesc:a8873963fb2c86e66c2b590b21c9c716e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Config parser definitions to populate a <a class="el" href="trunk_8h.html#structfr__trunk__conf__t" title="Common configuration parameters for a trunk. ">fr_trunk_conf_t</a>.  <a href="#a8873963fb2c86e66c2b590b21c9c716e">More...</a><br /></td></tr>
+<tr class="separator:a8873963fb2c86e66c2b590b21c9c716e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Statistics</h2></td></tr>
 <tr class="memitem:a67e6ccfbaf63a45dbae642ebe11bfa0e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#a67e6ccfbaf63a45dbae642ebe11bfa0e">fr_trunk_connection_count_by_state</a> (<a class="el" href="trunk_8c.html#a989e62923fa467b83f977ae0a44ab51d">fr_trunk_t</a> *trunk, int conn_state)</td></tr>
 <tr class="memdesc:a67e6ccfbaf63a45dbae642ebe11bfa0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the count number of connections in the specified states.  <a href="#a67e6ccfbaf63a45dbae642ebe11bfa0e">More...</a><br /></td></tr>
 <tr class="separator:a67e6ccfbaf63a45dbae642ebe11bfa0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,7 +266,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a6dcfa1464e022ec96b90b8c975fe13b4"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#a6dcfa1464e022ec96b90b8c975fe13b4">fr_trunk_request_count_by_state</a> (<a class="el" href="trunk_8c.html#a989e62923fa467b83f977ae0a44ab51d">fr_trunk_t</a> *trunk, int conn_state, int req_state)</td></tr>
 <tr class="memdesc:a6dcfa1464e022ec96b90b8c975fe13b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a count of requests on a connection in a specific state.  <a href="#a6dcfa1464e022ec96b90b8c975fe13b4">More...</a><br /></td></tr>
 <tr class="separator:a6dcfa1464e022ec96b90b8c975fe13b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Request state signalling</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Request state signalling</h2></td></tr>
 <tr class="memitem:a894959f53af966e88a7ea0fda87dc722"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#a894959f53af966e88a7ea0fda87dc722">fr_trunk_request_signal_partial</a> (<a class="el" href="trunk_8c.html#ac3eb131a80a4eb550e2f859d599144ea">fr_trunk_request_t</a> *treq)</td></tr>
 <tr class="memdesc:a894959f53af966e88a7ea0fda87dc722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal a partial write.  <a href="#a894959f53af966e88a7ea0fda87dc722">More...</a><br /></td></tr>
 <tr class="separator:a894959f53af966e88a7ea0fda87dc722"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -286,7 +293,9 @@ Functions</h2></td></tr>
 <tr class="memitem:af3a9f060ab945a71549c963550409e87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#af3a9f060ab945a71549c963550409e87">fr_trunk_request_signal_cancel_complete</a> (<a class="el" href="trunk_8c.html#ac3eb131a80a4eb550e2f859d599144ea">fr_trunk_request_t</a> *treq)</td></tr>
 <tr class="memdesc:af3a9f060ab945a71549c963550409e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal that a remote server acked our cancellation.  <a href="#af3a9f060ab945a71549c963550409e87">More...</a><br /></td></tr>
 <tr class="separator:af3a9f060ab945a71549c963550409e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">(R)enqueue and alloc requests</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+(R)enqueue and alloc requests</h2></td></tr>
 <tr class="memitem:a67069d7159583ef74d1cd099f2d07f30"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#a67069d7159583ef74d1cd099f2d07f30">fr_trunk_connection_requests_requeue</a> (<a class="el" href="trunk_8c.html#aee0dc607323967c0febcf18667763f39">fr_trunk_connection_t</a> *tconn, int states, uint64_t max, bool fail_bound)</td></tr>
 <tr class="memdesc:a67069d7159583ef74d1cd099f2d07f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move requests off of a connection and requeue elsewhere.  <a href="#a67069d7159583ef74d1cd099f2d07f30">More...</a><br /></td></tr>
 <tr class="separator:a67069d7159583ef74d1cd099f2d07f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -307,15 +316,19 @@ Functions</h2></td></tr>
 <tr class="separator:a9e426e665d3583a76e1e383ebd778e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a745237c24d6896132622e9e304680260"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#a745237c24d6896132622e9e304680260">fr_trunk_request_state_log</a> (<a class="el" href="structfr__log__t.html">fr_log_t</a> const *log, <a class="el" href="lib_2util_2log_8h.html#affd805145b7ef5f1edc308ebb525dd78">fr_log_type_t</a> log_type, char const *<a class="el" href="acutest_8h.html#a29b60fb86c8bb1518f422ccce59448ba">file</a>, int <a class="el" href="acutest_8h.html#ae02820def36ef70995744181ed0e9c4f">line</a>, <a class="el" href="trunk_8c.html#ac3eb131a80a4eb550e2f859d599144ea">fr_trunk_request_t</a> const *treq)</td></tr>
 <tr class="separator:a745237c24d6896132622e9e304680260"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Dequeue protocol requests and cancellations</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Dequeue protocol requests and cancellations</h2></td></tr>
 <tr class="memitem:a410199905c8c7725d87a3d52c6580bbe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#a410199905c8c7725d87a3d52c6580bbe">fr_trunk_connection_pop_cancellation</a> (<a class="el" href="trunk_8c.html#ac3eb131a80a4eb550e2f859d599144ea">fr_trunk_request_t</a> **treq_out, <a class="el" href="trunk_8c.html#aee0dc607323967c0febcf18667763f39">fr_trunk_connection_t</a> *tconn)</td></tr>
 <tr class="memdesc:a410199905c8c7725d87a3d52c6580bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pop a cancellation request off a connection's cancellation queue.  <a href="#a410199905c8c7725d87a3d52c6580bbe">More...</a><br /></td></tr>
 <tr class="separator:a410199905c8c7725d87a3d52c6580bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93f664d4dc57935a73ef1855900f5a5b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#a93f664d4dc57935a73ef1855900f5a5b">fr_trunk_connection_pop_request</a> (<a class="el" href="trunk_8c.html#ac3eb131a80a4eb550e2f859d599144ea">fr_trunk_request_t</a> **treq_out, <a class="el" href="trunk_8c.html#aee0dc607323967c0febcf18667763f39">fr_trunk_connection_t</a> *tconn)</td></tr>
 <tr class="memdesc:a93f664d4dc57935a73ef1855900f5a5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pop a request off a connection's pending queue.  <a href="#a93f664d4dc57935a73ef1855900f5a5b">More...</a><br /></td></tr>
 <tr class="separator:a93f664d4dc57935a73ef1855900f5a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Connection state signalling</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>The following states are signalled from I/O event handlers:</p>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Connection state signalling</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp19ad782ee3b4dc441de56c1d69d1819e"></a>The following states are signalled from I/O event handlers:</p>
 <ul>
 <li>writable - The connection is writable (the muxer will be called).</li>
 <li>readable - The connection is readable (the demuxer will be called).</li>
@@ -330,7 +343,7 @@ Functions</h2></td></tr>
 <p>For other connection states the trunk API should not be signalled directly. It will be informed by "watch" callbacks inserted into the <a class="el" href="connection_8h.html#a8e02ed3c1b400b5e744913e2c873d66f">fr_connection_t</a> as to when the connection changes state.</p>
 <p><a class="el" href="trunk_8h.html#a1fa126ae1972a2089056405f2f7b8b93" title="Signal a trunk connection is no longer full. ">fr_trunk_connection_signal_active</a> does not need to be called in any of the <a class="el" href="connection_8h.html#a8e02ed3c1b400b5e744913e2c873d66f">fr_connection_t</a> state callbacks. It is only used to activate a connection which has been previously marked inactive using <a class="el" href="trunk_8h.html#a9c2e24f88f4b711bc17d9723f53892a1" title="Signal a trunk connection cannot accept more requests. ">fr_trunk_connection_signal_inactive</a>.</p>
 <p>If <a class="el" href="trunk_8h.html#a9c2e24f88f4b711bc17d9723f53892a1" title="Signal a trunk connection cannot accept more requests. ">fr_trunk_connection_signal_inactive</a> is being used to remove a congested connection from the active list (i.e. on receipt of an explicit protocol level congestion notification), consider calling <a class="el" href="trunk_8h.html#a67069d7159583ef74d1cd099f2d07f30" title="Move requests off of a connection and requeue elsewhere. ">fr_trunk_connection_requests_requeue</a> with the FR_TRUNK_REQUEST_STATE_PENDING state to redistribute that connection's backlog to other connections in the trunk. </p>
-</div></td></tr>
+</td></tr>
 <tr class="memitem:ae4622d45fe16ab018a7ff22f77bfcbcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#ae4622d45fe16ab018a7ff22f77bfcbcd">fr_trunk_connection_signal_writable</a> (<a class="el" href="trunk_8c.html#aee0dc607323967c0febcf18667763f39">fr_trunk_connection_t</a> *tconn)</td></tr>
 <tr class="memdesc:ae4622d45fe16ab018a7ff22f77bfcbcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal that a trunk connection is writable.  <a href="#ae4622d45fe16ab018a7ff22f77bfcbcd">More...</a><br /></td></tr>
 <tr class="separator:ae4622d45fe16ab018a7ff22f77bfcbcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -349,11 +362,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ae9f688617896dc9418d6c972ddb01eea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#ae9f688617896dc9418d6c972ddb01eea">fr_trunk_connection_in_state</a> (<a class="el" href="trunk_8c.html#aee0dc607323967c0febcf18667763f39">fr_trunk_connection_t</a> *tconn, int state)</td></tr>
 <tr class="memdesc:ae9f688617896dc9418d6c972ddb01eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the trunk connection is in one of the specified states.  <a href="#ae9f688617896dc9418d6c972ddb01eea">More...</a><br /></td></tr>
 <tr class="separator:ae9f688617896dc9418d6c972ddb01eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Connection management</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Connection management</h2></td></tr>
 <tr class="memitem:a179c164ee54b5d5ddfe32387c595b371"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#a179c164ee54b5d5ddfe32387c595b371">fr_trunk_reconnect</a> (<a class="el" href="trunk_8c.html#a989e62923fa467b83f977ae0a44ab51d">fr_trunk_t</a> *trunk, int state, <a class="el" href="connection_8h.html#ad824f2a71886751c780c24f98b76aa41">fr_connection_reason_t</a> reason)</td></tr>
 <tr class="memdesc:a179c164ee54b5d5ddfe32387c595b371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force the trunk to re-establish its connections.  <a href="#a179c164ee54b5d5ddfe32387c595b371">More...</a><br /></td></tr>
 <tr class="separator:a179c164ee54b5d5ddfe32387c595b371"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Trunk allocation</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Trunk allocation</h2></td></tr>
 <tr class="memitem:a055d797a7b5348770b776a633780ee1d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#a055d797a7b5348770b776a633780ee1d">fr_trunk_start</a> (<a class="el" href="trunk_8c.html#a989e62923fa467b83f977ae0a44ab51d">fr_trunk_t</a> *trunk)</td></tr>
 <tr class="memdesc:a055d797a7b5348770b776a633780ee1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the trunk running.  <a href="#a055d797a7b5348770b776a633780ee1d">More...</a><br /></td></tr>
 <tr class="separator:a055d797a7b5348770b776a633780ee1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -369,12 +386,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a1327562f580bfb76e6a2839d8bd2f7ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="trunk_8c.html#a989e62923fa467b83f977ae0a44ab51d">fr_trunk_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#a1327562f580bfb76e6a2839d8bd2f7ca">fr_trunk_alloc</a> (TALLOC_CTX *ctx, <a class="el" href="event_8h.html#ada9c8bff012ba3155d29668ee8af9f37">fr_event_list_t</a> *el, <a class="el" href="trunk_8h.html#structfr__trunk__io__funcs__t">fr_trunk_io_funcs_t</a> const *funcs, <a class="el" href="trunk_8h.html#structfr__trunk__conf__t">fr_trunk_conf_t</a> const *<a class="el" href="radsniff_8c.html#ae9b08c8e16b52f7ab0e5c13fb7775156">conf</a>, char const *log_prefix, void const *uctx, bool delay_start))</td></tr>
 <tr class="memdesc:a1327562f580bfb76e6a2839d8bd2f7ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a new collection of connections.  <a href="#a1327562f580bfb76e6a2839d8bd2f7ca">More...</a><br /></td></tr>
 <tr class="separator:a1327562f580bfb76e6a2839d8bd2f7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a8873963fb2c86e66c2b590b21c9c716e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="cf__parse_8h.html#structCONF__PARSER">CONF_PARSER</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="trunk_8h.html#a8873963fb2c86e66c2b590b21c9c716e">fr_trunk_config</a> []</td></tr>
-<tr class="memdesc:a8873963fb2c86e66c2b590b21c9c716e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Config parser definitions to populate a <a class="el" href="trunk_8h.html#structfr__trunk__conf__t" title="Common configuration parameters for a trunk. ">fr_trunk_conf_t</a>.  <a href="#a8873963fb2c86e66c2b590b21c9c716e">More...</a><br /></td></tr>
-<tr class="separator:a8873963fb2c86e66c2b590b21c9c716e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="structfr__trunk__conf__t" id="structfr__trunk__conf__t"></a>
@@ -2948,7 +2959,7 @@ Cancellation requests to a remote datastore should not be made here. If that is 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 12 2020 23:30:29 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 00:10:29 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

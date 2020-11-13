@@ -322,14 +322,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a2233eab102d3ffb99f2a7a1de2bd6d69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#a2233eab102d3ffb99f2a7a1de2bd6d69">fr_pair_validate_relaxed</a> (<a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> const *failed[2], <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *filter, <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">fr_pair_list_t</a> *list))</td></tr>
 <tr class="memdesc:a2233eab102d3ffb99f2a7a1de2bd6d69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses fr_pair_cmp to verify all fr_pair_ts in list match the filter defined by check.  <a href="#a2233eab102d3ffb99f2a7a1de2bd6d69">More...</a><br /></td></tr>
 <tr class="separator:a2233eab102d3ffb99f2a7a1de2bd6d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Pair to pair copying</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Pair to pair copying</h2></td></tr>
 <tr class="memitem:aa310aed6f1b0c48333278b8aaff5d205"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#aa310aed6f1b0c48333278b8aaff5d205">fr_pair_value_clear</a> (<a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>)</td></tr>
 <tr class="memdesc:aa310aed6f1b0c48333278b8aaff5d205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free/zero out value (or children) of a given VP.  <a href="#aa310aed6f1b0c48333278b8aaff5d205">More...</a><br /></td></tr>
 <tr class="separator:aa310aed6f1b0c48333278b8aaff5d205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0e2a5e9420028542c14b0d67532622a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#ab0e2a5e9420028542c14b0d67532622a">fr_pair_value_copy</a> (<a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *dst, <a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *src)</td></tr>
 <tr class="memdesc:ab0e2a5e9420028542c14b0d67532622a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the value from one pair to another.  <a href="#ab0e2a5e9420028542c14b0d67532622a">More...</a><br /></td></tr>
 <tr class="separator:ab0e2a5e9420028542c14b0d67532622a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Assign and manipulate binary-unsafe C strings</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Assign and manipulate binary-unsafe C strings</h2></td></tr>
 <tr class="memitem:aa7b506b6cd640f47e10d40946564f656"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#aa7b506b6cd640f47e10d40946564f656">fr_pair_value_from_str</a> (<a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>, char const *value, ssize_t <a class="el" href="ipaccess_8h.html#a8aed22e2c7b283705ec82e0120515618">len</a>, char <a class="el" href="value_8h.html#aa88adb4e08a167f4613ca9e147e42c00">quote</a>, bool tainted)</td></tr>
 <tr class="memdesc:aa7b506b6cd640f47e10d40946564f656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert string value to native attribute value.  <a href="#aa7b506b6cd640f47e10d40946564f656">More...</a><br /></td></tr>
 <tr class="separator:aa7b506b6cd640f47e10d40946564f656"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -345,7 +349,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a276111f99e786a2b7ccc5ce485747c81"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#a276111f99e786a2b7ccc5ce485747c81">fr_pair_value_aprintf</a> (<a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>, char const *<a class="el" href="acutest_8h.html#a10aa585f6b6209b2e73ce1872f44bb2e">fmt</a>,...))</td></tr>
 <tr class="memdesc:a276111f99e786a2b7ccc5ce485747c81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print data into an "string" data type.  <a href="#a276111f99e786a2b7ccc5ce485747c81">More...</a><br /></td></tr>
 <tr class="separator:a276111f99e786a2b7ccc5ce485747c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Assign and manipulate binary-safe strings</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Assign and manipulate binary-safe strings</h2></td></tr>
 <tr class="memitem:a99bc80903968540d076ddd1f340751e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#a99bc80903968540d076ddd1f340751e4">fr_pair_value_bstr_alloc</a> (<a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>, char **<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, size_t size, bool tainted)</td></tr>
 <tr class="memdesc:a99bc80903968540d076ddd1f340751e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-allocate a memory buffer for a "string" type value pair.  <a href="#a99bc80903968540d076ddd1f340751e4">More...</a><br /></td></tr>
 <tr class="separator:a99bc80903968540d076ddd1f340751e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -369,7 +375,9 @@ Functions</h2></td></tr>
 <tr class="separator:a0e2c1c64964a61a3ee01d72b705bd65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99e2c465cb6eb54b64513a2c0600fbc5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#a99e2c465cb6eb54b64513a2c0600fbc5">fr_pair_value_bstr_append_buffer</a> (<a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>, char const *src, bool tainted)</td></tr>
 <tr class="separator:a99e2c465cb6eb54b64513a2c0600fbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Assign and manipulate octets strings</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Assign and manipulate octets strings</h2></td></tr>
 <tr class="memitem:acca105c05f80853b59f1e27ad051a610"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#acca105c05f80853b59f1e27ad051a610">fr_pair_value_mem_alloc</a> (<a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>, uint8_t **<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, size_t size, bool tainted)</td></tr>
 <tr class="memdesc:acca105c05f80853b59f1e27ad051a610"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-allocate a memory buffer for a "octets" type value pair.  <a href="#acca105c05f80853b59f1e27ad051a610">More...</a><br /></td></tr>
 <tr class="separator:acca105c05f80853b59f1e27ad051a610"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -394,7 +402,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a368d8c317aba7d5eb0f164153a4eccdb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#a368d8c317aba7d5eb0f164153a4eccdb">fr_pair_value_mem_append_buffer</a> (<a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>, uint8_t *src, bool tainted)</td></tr>
 <tr class="memdesc:a368d8c317aba7d5eb0f164153a4eccdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a talloced buffer to an existing "octets" type value pair.  <a href="#a368d8c317aba7d5eb0f164153a4eccdb">More...</a><br /></td></tr>
 <tr class="separator:a368d8c317aba7d5eb0f164153a4eccdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Enum functions</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Enum functions</h2></td></tr>
 <tr class="memitem:afab2612146b623a72f5f255d2f39e6f6"><td class="memItemLeft" align="right" valign="top">char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#afab2612146b623a72f5f255d2f39e6f6">fr_pair_value_enum</a> (<a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> const *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>, char buff[static 20])</td></tr>
 <tr class="separator:afab2612146b623a72f5f255d2f39e6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d6e6d0376a69550ae2f8281e9f00369"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#a1d6e6d0376a69550ae2f8281e9f00369">fr_pair_value_enum_box</a> (<a class="el" href="value_8h.html#a4a9e69e78ad1a81da0976e8f29a4e444">fr_value_box_t</a> const **<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, <a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>)</td></tr>
@@ -5170,7 +5180,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 12 2020 23:30:25 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 00:10:24 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

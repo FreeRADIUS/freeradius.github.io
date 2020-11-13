@@ -158,9 +158,15 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:a09b4445379d1018028c606a7200aca18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Add watcher functions that get called before (pre) the state callback and after (post)</div></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af5bdc2b6646db2d68c336b479b8bb254"><td class="memItemLeft" align="right" valign="top"><a class="el" href="table_8h.html#structfr__table__num__ordered__t">fr_table_num_ordered_t</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="connection_8h.html#af5bdc2b6646db2d68c336b479b8bb254">fr_connection_states</a> []</td></tr>
+<tr class="separator:af5bdc2b6646db2d68c336b479b8bb254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f82db062045a22fc9708d559328dba5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="connection_8h.html#a5f82db062045a22fc9708d559328dba5">fr_connection_states_len</a></td></tr>
+<tr class="separator:a5f82db062045a22fc9708d559328dba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Add watcher functions that get called before (pre) the state callback and after (post)</h2></td></tr>
 <tr class="memitem:a84be71552dca4296e3b987ec4f6afeeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="server_2connection_8c.html#a9972f37fb22c8cf66a41406771412f9a">fr_connection_watch_entry_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="connection_8h.html#a84be71552dca4296e3b987ec4f6afeeb">fr_connection_add_watch_pre</a> (<a class="el" href="server_2connection_8c.html#a39db4f55d33981b2445f03ecde4994b6">fr_connection_t</a> *conn, <a class="el" href="connection_8h.html#a09b4445379d1018028c606a7200aca18">fr_connection_state_t</a> state, <a class="el" href="connection_8h.html#a13e96bfa3ad7a09e71a1ed3b994d4263">fr_connection_watch_t</a> watch, bool oneshot, void const *uctx)</td></tr>
 <tr class="memdesc:a84be71552dca4296e3b987ec4f6afeeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a callback to be executed before a state function has been called.  <a href="#a84be71552dca4296e3b987ec4f6afeeb">More...</a><br /></td></tr>
 <tr class="separator:a84be71552dca4296e3b987ec4f6afeeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,14 +194,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ac76795aa91d78392f2e0e25a1ae3faa5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="connection_8h.html#ac76795aa91d78392f2e0e25a1ae3faa5">fr_connection_watch_is_enabled</a> (<a class="el" href="server_2connection_8c.html#a9972f37fb22c8cf66a41406771412f9a">fr_connection_watch_entry_t</a> *entry)</td></tr>
 <tr class="memdesc:ac76795aa91d78392f2e0e25a1ae3faa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the state of a watch entry.  <a href="#ac76795aa91d78392f2e0e25a1ae3faa5">More...</a><br /></td></tr>
 <tr class="separator:ac76795aa91d78392f2e0e25a1ae3faa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Statistics</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Statistics</h2></td></tr>
 <tr class="memitem:ab1dd8337cd2d4529dc490002015f36b0"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="connection_8h.html#ab1dd8337cd2d4529dc490002015f36b0">fr_connection_get_num_reconnected</a> (<a class="el" href="server_2connection_8c.html#a39db4f55d33981b2445f03ecde4994b6">fr_connection_t</a> const *conn)</td></tr>
 <tr class="memdesc:ab1dd8337cd2d4529dc490002015f36b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of times we've attempted to establish or re-establish this connection.  <a href="#ab1dd8337cd2d4529dc490002015f36b0">More...</a><br /></td></tr>
 <tr class="separator:ab1dd8337cd2d4529dc490002015f36b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a172f7b775f18301cd22e7ee3c6df24"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="connection_8h.html#a2a172f7b775f18301cd22e7ee3c6df24">fr_connection_get_num_timed_out</a> (<a class="el" href="server_2connection_8c.html#a39db4f55d33981b2445f03ecde4994b6">fr_connection_t</a> const *conn)</td></tr>
 <tr class="memdesc:a2a172f7b775f18301cd22e7ee3c6df24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of times this connection has timed out whilst connecting.  <a href="#a2a172f7b775f18301cd22e7ee3c6df24">More...</a><br /></td></tr>
 <tr class="separator:a2a172f7b775f18301cd22e7ee3c6df24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Signal the connection to change states</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Signal the connection to change states</h2></td></tr>
 <tr class="memitem:a57cdf87c62af02f671cfc702c7039c8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="connection_8h.html#a57cdf87c62af02f671cfc702c7039c8b">fr_connection_signal_init</a> (<a class="el" href="server_2connection_8c.html#a39db4f55d33981b2445f03ecde4994b6">fr_connection_t</a> *conn)</td></tr>
 <tr class="memdesc:a57cdf87c62af02f671cfc702c7039c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asynchronously signal a halted connection to start.  <a href="#a57cdf87c62af02f671cfc702c7039c8b">More...</a><br /></td></tr>
 <tr class="separator:a57cdf87c62af02f671cfc702c7039c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,21 +227,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a4d82ac070ca65d717d16a833b1bf5032"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="connection_8h.html#a4d82ac070ca65d717d16a833b1bf5032">fr_connection_signals_resume</a> (<a class="el" href="server_2connection_8c.html#a39db4f55d33981b2445f03ecde4994b6">fr_connection_t</a> *conn)</td></tr>
 <tr class="memdesc:a4d82ac070ca65d717d16a833b1bf5032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resume processing of deferred signals.  <a href="#a4d82ac070ca65d717d16a833b1bf5032">More...</a><br /></td></tr>
 <tr class="separator:a4d82ac070ca65d717d16a833b1bf5032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Install generic I/O events on an FD to signal state changes</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Install generic I/O events on an FD to signal state changes</h2></td></tr>
 <tr class="memitem:acf67a4a49e02af605e43ed8709f0eaea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="connection_8h.html#acf67a4a49e02af605e43ed8709f0eaea">fr_connection_signal_on_fd</a> (<a class="el" href="server_2connection_8c.html#a39db4f55d33981b2445f03ecde4994b6">fr_connection_t</a> *conn, int fd)</td></tr>
 <tr class="memdesc:acf67a4a49e02af605e43ed8709f0eaea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup the connection to change states to connected or failed based on I/O events.  <a href="#acf67a4a49e02af605e43ed8709f0eaea">More...</a><br /></td></tr>
 <tr class="separator:acf67a4a49e02af605e43ed8709f0eaea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Allocate a new connection</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Allocate a new connection</h2></td></tr>
 <tr class="memitem:ae36b3df54cae9772f57bddf92556ed46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="server_2connection_8c.html#a39db4f55d33981b2445f03ecde4994b6">fr_connection_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="connection_8h.html#ae36b3df54cae9772f57bddf92556ed46">fr_connection_alloc</a> (TALLOC_CTX *ctx, <a class="el" href="event_8h.html#ada9c8bff012ba3155d29668ee8af9f37">fr_event_list_t</a> *el, <a class="el" href="connection_8h.html#structfr__connection__funcs__t">fr_connection_funcs_t</a> const *funcs, <a class="el" href="connection_8h.html#structfr__connection__conf__t">fr_connection_conf_t</a> const *<a class="el" href="radsniff_8c.html#ae9b08c8e16b52f7ab0e5c13fb7775156">conf</a>, char const *log_prefix, void const *uctx)</td></tr>
 <tr class="memdesc:ae36b3df54cae9772f57bddf92556ed46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a new connection.  <a href="#ae36b3df54cae9772f57bddf92556ed46">More...</a><br /></td></tr>
 <tr class="separator:ae36b3df54cae9772f57bddf92556ed46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:af5bdc2b6646db2d68c336b479b8bb254"><td class="memItemLeft" align="right" valign="top"><a class="el" href="table_8h.html#structfr__table__num__ordered__t">fr_table_num_ordered_t</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="connection_8h.html#af5bdc2b6646db2d68c336b479b8bb254">fr_connection_states</a> []</td></tr>
-<tr class="separator:af5bdc2b6646db2d68c336b479b8bb254"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f82db062045a22fc9708d559328dba5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="connection_8h.html#a5f82db062045a22fc9708d559328dba5">fr_connection_states_len</a></td></tr>
-<tr class="separator:a5f82db062045a22fc9708d559328dba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Simple state machine for managing connection states. </p>
@@ -1621,7 +1628,7 @@ do we run the triggers? </td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 12 2020 23:30:27 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 00:10:26 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

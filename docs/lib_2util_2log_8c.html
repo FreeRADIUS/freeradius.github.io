@@ -92,24 +92,6 @@ $(function() {
 </div>
 <p><a href="lib_2util_2log_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">VT100 escape sequences</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>These sequences may be written to VT100 terminals to change the colour and style of the text.</p>
-<div class="fragment"><div class="line">fprintf(stdout, <a class="code" href="lib_2util_2log_8c.html#a0811dc5aeed7bbc9e99f253352af67a2">VTC_RED</a> <span class="stringliteral">&quot;This text will be coloured red&quot;</span> <a class="code" href="lib_2util_2log_8c.html#a62853e74a25fbaf4cf422f92f97e7da5">VTC_RESET</a>);</div></div><!-- fragment --> </div></td></tr>
-<tr class="memitem:a0811dc5aeed7bbc9e99f253352af67a2"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2util_2log_8c.html#a0811dc5aeed7bbc9e99f253352af67a2">VTC_RED</a>&#160;&#160;&#160;&quot;\x1b[31m&quot;</td></tr>
-<tr class="memdesc:a0811dc5aeed7bbc9e99f253352af67a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colour following text red.  <a href="#a0811dc5aeed7bbc9e99f253352af67a2">More...</a><br /></td></tr>
-<tr class="separator:a0811dc5aeed7bbc9e99f253352af67a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ade8d90b4b9d527ad21827f56c7369e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2util_2log_8c.html#a2ade8d90b4b9d527ad21827f56c7369e">VTC_YELLOW</a>&#160;&#160;&#160;&quot;\x1b[33m&quot;</td></tr>
-<tr class="memdesc:a2ade8d90b4b9d527ad21827f56c7369e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colour following text yellow.  <a href="#a2ade8d90b4b9d527ad21827f56c7369e">More...</a><br /></td></tr>
-<tr class="separator:a2ade8d90b4b9d527ad21827f56c7369e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe2b78dd0753e7aa4678c7e0d3fd4f2f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2util_2log_8c.html#afe2b78dd0753e7aa4678c7e0d3fd4f2f">VTC_BOLD</a>&#160;&#160;&#160;&quot;\x1b[1m&quot;</td></tr>
-<tr class="memdesc:afe2b78dd0753e7aa4678c7e0d3fd4f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Embolden following text.  <a href="#afe2b78dd0753e7aa4678c7e0d3fd4f2f">More...</a><br /></td></tr>
-<tr class="separator:afe2b78dd0753e7aa4678c7e0d3fd4f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62853e74a25fbaf4cf422f92f97e7da5"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2util_2log_8c.html#a62853e74a25fbaf4cf422f92f97e7da5">VTC_RESET</a>&#160;&#160;&#160;&quot;\x1b[0m&quot;</td></tr>
-<tr class="memdesc:a62853e74a25fbaf4cf422f92f97e7da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset terminal text to default style/colour.  <a href="#a62853e74a25fbaf4cf422f92f97e7da5">More...</a><br /></td></tr>
-<tr class="separator:a62853e74a25fbaf4cf422f92f97e7da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a60361fa4563387fffe1b348c1b3d5351"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2util_2log_8c.html#a60361fa4563387fffe1b348c1b3d5351">_fr_log_pool_free</a> (void *arg)</td></tr>
@@ -177,6 +159,23 @@ Variables</h2></td></tr>
 <tr class="memitem:a44edd8a5b7333c9fd78ae327cb34c0a8"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2util_2log_8c.html#a44edd8a5b7333c9fd78ae327cb34c0a8">stdout_fd</a> = -1</td></tr>
 <tr class="memdesc:a44edd8a5b7333c9fd78ae327cb34c0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The original unmolested stdout file descriptor.  <a href="#a44edd8a5b7333c9fd78ae327cb34c0a8">More...</a><br /></td></tr>
 <tr class="separator:a44edd8a5b7333c9fd78ae327cb34c0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+VT100 escape sequences</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp07c58df7b00437c1b3815ed945f6bbe7"></a>These sequences may be written to VT100 terminals to change the colour and style of the text.</p>
+<div class="fragment"><div class="line">fprintf(stdout, <a class="code" href="lib_2util_2log_8c.html#a0811dc5aeed7bbc9e99f253352af67a2">VTC_RED</a> <span class="stringliteral">&quot;This text will be coloured red&quot;</span> <a class="code" href="lib_2util_2log_8c.html#a62853e74a25fbaf4cf422f92f97e7da5">VTC_RESET</a>);</div></div><!-- fragment --> </td></tr>
+<tr class="memitem:a0811dc5aeed7bbc9e99f253352af67a2"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2util_2log_8c.html#a0811dc5aeed7bbc9e99f253352af67a2">VTC_RED</a>&#160;&#160;&#160;&quot;\x1b[31m&quot;</td></tr>
+<tr class="memdesc:a0811dc5aeed7bbc9e99f253352af67a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colour following text red.  <a href="#a0811dc5aeed7bbc9e99f253352af67a2">More...</a><br /></td></tr>
+<tr class="separator:a0811dc5aeed7bbc9e99f253352af67a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ade8d90b4b9d527ad21827f56c7369e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2util_2log_8c.html#a2ade8d90b4b9d527ad21827f56c7369e">VTC_YELLOW</a>&#160;&#160;&#160;&quot;\x1b[33m&quot;</td></tr>
+<tr class="memdesc:a2ade8d90b4b9d527ad21827f56c7369e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colour following text yellow.  <a href="#a2ade8d90b4b9d527ad21827f56c7369e">More...</a><br /></td></tr>
+<tr class="separator:a2ade8d90b4b9d527ad21827f56c7369e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe2b78dd0753e7aa4678c7e0d3fd4f2f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2util_2log_8c.html#afe2b78dd0753e7aa4678c7e0d3fd4f2f">VTC_BOLD</a>&#160;&#160;&#160;&quot;\x1b[1m&quot;</td></tr>
+<tr class="memdesc:afe2b78dd0753e7aa4678c7e0d3fd4f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Embolden following text.  <a href="#afe2b78dd0753e7aa4678c7e0d3fd4f2f">More...</a><br /></td></tr>
+<tr class="separator:afe2b78dd0753e7aa4678c7e0d3fd4f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62853e74a25fbaf4cf422f92f97e7da5"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_2util_2log_8c.html#a62853e74a25fbaf4cf422f92f97e7da5">VTC_RESET</a>&#160;&#160;&#160;&quot;\x1b[0m&quot;</td></tr>
+<tr class="memdesc:a62853e74a25fbaf4cf422f92f97e7da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset terminal text to default style/colour.  <a href="#a62853e74a25fbaf4cf422f92f97e7da5">More...</a><br /></td></tr>
+<tr class="separator:a62853e74a25fbaf4cf422f92f97e7da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Support functions for logging in FreeRADIUS libraries. </p>
@@ -1236,7 +1235,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 12 2020 23:30:27 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 00:10:26 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

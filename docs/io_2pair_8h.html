@@ -89,16 +89,6 @@ $(function() {
 </div>
 <p><a href="io_2pair_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Encoder errors</div></td></tr>
-<tr class="memitem:a6c4e7543d9c12000aa67faa23665a659"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="io_2pair_8h.html#a6c4e7543d9c12000aa67faa23665a659">PAIR_ENCODE_SKIPPED</a>&#160;&#160;&#160;SSIZE_MIN + 1</td></tr>
-<tr class="memdesc:a6c4e7543d9c12000aa67faa23665a659"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encoder skipped encoding an attribute.  <a href="#a6c4e7543d9c12000aa67faa23665a659">More...</a><br /></td></tr>
-<tr class="separator:a6c4e7543d9c12000aa67faa23665a659"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7230dcb03d6d0a60b003f250f257234"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="io_2pair_8h.html#ab7230dcb03d6d0a60b003f250f257234">PAIR_ENCODE_FATAL_ERROR</a>&#160;&#160;&#160;SSIZE_MIN</td></tr>
-<tr class="memdesc:ab7230dcb03d6d0a60b003f250f257234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skipped encoding attribute.  <a href="#ab7230dcb03d6d0a60b003f250f257234">More...</a><br /></td></tr>
-<tr class="separator:ab7230dcb03d6d0a60b003f250f257234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:aa1fb37be96b91862fa4e5f1a5cb6f8ec"><td class="memItemLeft" align="right" valign="top">typedef ssize_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="io_2pair_8h.html#aa1fb37be96b91862fa4e5f1a5cb6f8ec">fr_pair_decode_t</a>) (TALLOC_CTX *ctx, <a class="el" href="cursor_8h.html#structfr__cursor__t">fr_cursor_t</a> *cursor, <a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>, uint8_t const *<a class="el" href="ring__buffer__test_8c.html#a4b83b6e2cf0af27630a64dce8dd7717a">data</a>, size_t data_len, void *decoder_ctx)</td></tr>
@@ -107,6 +97,15 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ae23941aec464d6399306628734f29de1"><td class="memItemLeft" align="right" valign="top">typedef ssize_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="io_2pair_8h.html#ae23941aec464d6399306628734f29de1">fr_pair_encode_t</a>) (<a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, <a class="el" href="cursor_8h.html#structfr__cursor__t">fr_cursor_t</a> *cursor, void *encoder_ctx)</td></tr>
 <tr class="memdesc:ae23941aec464d6399306628734f29de1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic interface for encoding one or more fr_pair_ts.  <a href="#ae23941aec464d6399306628734f29de1">More...</a><br /></td></tr>
 <tr class="separator:ae23941aec464d6399306628734f29de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Encoder errors</h2></td></tr>
+<tr class="memitem:a6c4e7543d9c12000aa67faa23665a659"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="io_2pair_8h.html#a6c4e7543d9c12000aa67faa23665a659">PAIR_ENCODE_SKIPPED</a>&#160;&#160;&#160;SSIZE_MIN + 1</td></tr>
+<tr class="memdesc:a6c4e7543d9c12000aa67faa23665a659"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encoder skipped encoding an attribute.  <a href="#a6c4e7543d9c12000aa67faa23665a659">More...</a><br /></td></tr>
+<tr class="separator:a6c4e7543d9c12000aa67faa23665a659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7230dcb03d6d0a60b003f250f257234"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="io_2pair_8h.html#ab7230dcb03d6d0a60b003f250f257234">PAIR_ENCODE_FATAL_ERROR</a>&#160;&#160;&#160;SSIZE_MIN</td></tr>
+<tr class="memdesc:ab7230dcb03d6d0a60b003f250f257234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skipped encoding attribute.  <a href="#ab7230dcb03d6d0a60b003f250f257234">More...</a><br /></td></tr>
+<tr class="separator:ab7230dcb03d6d0a60b003f250f257234"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Decode errors</h2></td></tr>
@@ -404,7 +403,7 @@ Decode errors</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 12 2020 23:30:25 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 00:10:24 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

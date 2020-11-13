@@ -234,9 +234,20 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr class="separator:a1d54b1df55586f0ed4bbcc91032a45fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Programatically create dictionary attributes and values</div></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af4ff9d03fa36afbe68dd130fac20e80f"><td class="memItemLeft" align="right" valign="top">const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#af4ff9d03fa36afbe68dd130fac20e80f">dict_attr_sizes</a> [<a class="el" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30a35728f9ea20c08af6106ff5fde97eebe">FR_TYPE_MAX</a>+1][2]</td></tr>
+<tr class="memdesc:af4ff9d03fa36afbe68dd130fac20e80f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map data types to min / max data sizes.  <a href="#af4ff9d03fa36afbe68dd130fac20e80f">More...</a><br /></td></tr>
+<tr class="separator:af4ff9d03fa36afbe68dd130fac20e80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ece05515cf3edd0b1f22d49fed13b70"><td class="memItemLeft" align="right" valign="top">bool const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a3ece05515cf3edd0b1f22d49fed13b70">fr_dict_attr_allowed_chars</a> [UINT8_MAX+1]</td></tr>
+<tr class="memdesc:a3ece05515cf3edd0b1f22d49fed13b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Characters that are allowed in dictionary attribute names.  <a href="#a3ece05515cf3edd0b1f22d49fed13b70">More...</a><br /></td></tr>
+<tr class="separator:a3ece05515cf3edd0b1f22d49fed13b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2221df04966936156939db1a6ed5a9b2"><td class="memItemLeft" align="right" valign="top">bool const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a2221df04966936156939db1a6ed5a9b2">fr_dict_non_data_types</a> [<a class="el" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30a35728f9ea20c08af6106ff5fde97eebe">FR_TYPE_MAX</a>+1]</td></tr>
+<tr class="memdesc:a2221df04966936156939db1a6ed5a9b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structural data types.  <a href="#a2221df04966936156939db1a6ed5a9b2">More...</a><br /></td></tr>
+<tr class="separator:a2221df04966936156939db1a6ed5a9b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Programatically create dictionary attributes and values</h2></td></tr>
 <tr class="memitem:afca9112c90fac84d74c494eee8b2a643"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#afca9112c90fac84d74c494eee8b2a643">fr_dict_attr_add</a> (<a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *parent, char const *<a class="el" href="rlm__redis__ippool__tool_8c.html#a5f1de76dd5d451949e12c0fbc966ca70">name</a>, int attr, <a class="el" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30">fr_type_t</a> type, <a class="el" href="dict_8h.html#structfr__dict__attr__flags__t">fr_dict_attr_flags_t</a> const *flags))</td></tr>
 <tr class="memdesc:afca9112c90fac84d74c494eee8b2a643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an attribute to the dictionary.  <a href="#afca9112c90fac84d74c494eee8b2a643">More...</a><br /></td></tr>
 <tr class="separator:afca9112c90fac84d74c494eee8b2a643"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -248,7 +259,9 @@ Functions</h2></td></tr>
 <tr class="separator:a2485baa56ee82ec625df4de268bcf4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a568a95b72b67f5dd7459795dae14cf5c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a568a95b72b67f5dd7459795dae14cf5c">fr_dict_str_to_argv</a> (char *str, char **argv, int max_argc)</td></tr>
 <tr class="separator:a568a95b72b67f5dd7459795dae14cf5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Unknown ephemeral attributes</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Unknown ephemeral attributes</h2></td></tr>
 <tr class="memitem:af5e7c4344dae37b2ae61c1b78c0cc1bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#af5e7c4344dae37b2ae61c1b78c0cc1bc">fr_dict_unknown_acopy</a> (TALLOC_CTX *ctx, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *da, char const *<a class="el" href="rlm__redis__ippool__tool_8c.html#a5f1de76dd5d451949e12c0fbc966ca70">name</a>)</td></tr>
 <tr class="memdesc:af5e7c4344dae37b2ae61c1b78c0cc1bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy a known or unknown attribute to produce an unknown attribute with the specified name.  <a href="#af5e7c4344dae37b2ae61c1b78c0cc1bc">More...</a><br /></td></tr>
 <tr class="separator:af5e7c4344dae37b2ae61c1b78c0cc1bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -276,10 +289,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a3506c5cbc840b22397925cf1baf51869"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a3506c5cbc840b22397925cf1baf51869">fr_dict_attr_known</a> (<a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *da)</td></tr>
 <tr class="memdesc:a3506c5cbc840b22397925cf1baf51869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if we can convert a nested TLV structure to known attributes.  <a href="#a3506c5cbc840b22397925cf1baf51869">More...</a><br /></td></tr>
 <tr class="separator:a3506c5cbc840b22397925cf1baf51869"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Attribute comparisons</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Attribute comparisons</h2></td></tr>
 <tr class="memitem:aff975c8193212aed6ced317d47d6ce6c"><td class="memItemLeft" align="right" valign="top">static int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#aff975c8193212aed6ced317d47d6ce6c">fr_dict_attr_cmp</a> (<a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *a, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *b)</td></tr>
 <tr class="separator:aff975c8193212aed6ced317d47d6ce6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Attribute lineage</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Attribute lineage</h2></td></tr>
 <tr class="memitem:aad985185a59107f2fa3fb8dc43c2f75f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#aad985185a59107f2fa3fb8dc43c2f75f">fr_dict_print</a> (<a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *da)</td></tr>
 <tr class="separator:aad985185a59107f2fa3fb8dc43c2f75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ed0e2dd07a0ef75f1fa32225ac4a762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a4ed0e2dd07a0ef75f1fa32225ac4a762">fr_dict_attr_common_parent</a> (<a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *a, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *b, bool is_ancestor)</td></tr>
@@ -296,7 +313,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a405f5c6aef6d6d13f227cd5cfcef5e1a"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a405f5c6aef6d6d13f227cd5cfcef5e1a">fr_dict_attr_by_oid</a> (<a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const **parent, unsigned int *attr, char const *oid)</td></tr>
 <tr class="memdesc:a405f5c6aef6d6d13f227cd5cfcef5e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the leaf attribute of an OID string.  <a href="#a405f5c6aef6d6d13f227cd5cfcef5e1a">More...</a><br /></td></tr>
 <tr class="separator:a405f5c6aef6d6d13f227cd5cfcef5e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Attribute, vendor and dictionary lookup</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Attribute, vendor and dictionary lookup</h2></td></tr>
 <tr class="memitem:a7c79c676c03022a0e7404ae0232bd902"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a7c79c676c03022a0e7404ae0232bd902">fr_dict_root</a> (<a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>)</td></tr>
 <tr class="memdesc:a7c79c676c03022a0e7404ae0232bd902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the root attribute of a dictionary.  <a href="#a7c79c676c03022a0e7404ae0232bd902">More...</a><br /></td></tr>
 <tr class="separator:a7c79c676c03022a0e7404ae0232bd902"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -364,7 +383,9 @@ Functions</h2></td></tr>
 <tr class="separator:af2f7f04c5d61a20e629b4335364a659f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab55d8dc01594b2f69faf5eb33b425f22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dict_8h.html#structfr__dict__enum__t">fr_dict_enum_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#ab55d8dc01594b2f69faf5eb33b425f22">fr_dict_enum_by_name</a> (<a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *da, char const *<a class="el" href="rlm__redis__ippool__tool_8c.html#a5f1de76dd5d451949e12c0fbc966ca70">name</a>, ssize_t <a class="el" href="ipaccess_8h.html#a8aed22e2c7b283705ec82e0120515618">len</a>)</td></tr>
 <tr class="separator:ab55d8dc01594b2f69faf5eb33b425f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Dictionary and protocol loading</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Dictionary and protocol loading</h2></td></tr>
 <tr class="memitem:ad922c3b43868cfa7051c93ac4100356e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#ad922c3b43868cfa7051c93ac4100356e">fr_dict_internal_afrom_file</a> (<a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> **<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, char const *internal_name)</td></tr>
 <tr class="memdesc:ad922c3b43868cfa7051c93ac4100356e"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Re-)Initialize the special internal dictionary  <a href="#ad922c3b43868cfa7051c93ac4100356e">More...</a><br /></td></tr>
 <tr class="separator:ad922c3b43868cfa7051c93ac4100356e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -374,7 +395,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac57f9ce40c1dbc95e8e6edf9504b5ef5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#ac57f9ce40c1dbc95e8e6edf9504b5ef5">fr_dict_read</a> (<a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>, char const *dict_dir, char const *filename)</td></tr>
 <tr class="memdesc:ac57f9ce40c1dbc95e8e6edf9504b5ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read supplementary attribute definitions into an existing dictionary.  <a href="#ac57f9ce40c1dbc95e8e6edf9504b5ef5">More...</a><br /></td></tr>
 <tr class="separator:ac57f9ce40c1dbc95e8e6edf9504b5ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Autoloader interface</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Autoloader interface</h2></td></tr>
 <tr class="memitem:a9f3bf5c0208b67be69551a3f2ac6b0e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a9f3bf5c0208b67be69551a3f2ac6b0e6">fr_dict_attr_autoload</a> (<a class="el" href="dict_8h.html#structfr__dict__attr__autoload__t">fr_dict_attr_autoload_t</a> const *to_load)</td></tr>
 <tr class="memdesc:a9f3bf5c0208b67be69551a3f2ac6b0e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process a dict_attr_autoload element to load/verify a dictionary attribute.  <a href="#a9f3bf5c0208b67be69551a3f2ac6b0e6">More...</a><br /></td></tr>
 <tr class="separator:a9f3bf5c0208b67be69551a3f2ac6b0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -390,14 +413,18 @@ Functions</h2></td></tr>
 <tr class="separator:ac6ac6888400aa754646fbcf3e3f49325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe6e2173279ab58fc51b330ae8186aeb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#afe6e2173279ab58fc51b330ae8186aeb">fr_dl_dict_attr_autoload</a> (<a class="el" href="dl_8h.html#a0e8b2b729f091bcdf0f33f1d8eff1fe1">dl_t</a> const *module, void *symbol, void *user_ctx)</td></tr>
 <tr class="separator:afe6e2173279ab58fc51b330ae8186aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Allocating and freeing</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Allocating and freeing</h2></td></tr>
 <tr class="memitem:a771e845c7d0610ee46e3d539e2a703b3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a771e845c7d0610ee46e3d539e2a703b3">fr_dict_free</a> (<a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> **<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>)</td></tr>
 <tr class="memdesc:a771e845c7d0610ee46e3d539e2a703b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement the reference count on a previously loaded dictionary.  <a href="#a771e845c7d0610ee46e3d539e2a703b3">More...</a><br /></td></tr>
 <tr class="separator:a771e845c7d0610ee46e3d539e2a703b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a429b9d67b7d7da1744cb26c9f3e5614d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a429b9d67b7d7da1744cb26c9f3e5614d">fr_dict_const_free</a> (<a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const **<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>)</td></tr>
 <tr class="memdesc:a429b9d67b7d7da1744cb26c9f3e5614d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement the reference count on a previously loaded dictionary.  <a href="#a429b9d67b7d7da1744cb26c9f3e5614d">More...</a><br /></td></tr>
 <tr class="separator:a429b9d67b7d7da1744cb26c9f3e5614d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Global dictionary management</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Global dictionary management</h2></td></tr>
 <tr class="memitem:a576424afb26db7b1dbdd765fe99b170b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dict_8h.html#aba0b5b2c64e63936f1d68e5e06573b6d">fr_dict_gctx_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a576424afb26db7b1dbdd765fe99b170b">fr_dict_global_ctx_init</a> (TALLOC_CTX *ctx, char const *dict_dir)</td></tr>
 <tr class="memdesc:a576424afb26db7b1dbdd765fe99b170b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the global protocol hashes.  <a href="#a576424afb26db7b1dbdd765fe99b170b">More...</a><br /></td></tr>
 <tr class="separator:a576424afb26db7b1dbdd765fe99b170b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -423,18 +450,6 @@ Functions</h2></td></tr>
 <tr class="separator:a20911734abfc7925da034bee50c29637"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafea465d1424c7fd3477732877bd6016"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#aafea465d1424c7fd3477732877bd6016">fr_dict_internal</a> (void)</td></tr>
 <tr class="separator:aafea465d1424c7fd3477732877bd6016"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:af4ff9d03fa36afbe68dd130fac20e80f"><td class="memItemLeft" align="right" valign="top">const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#af4ff9d03fa36afbe68dd130fac20e80f">dict_attr_sizes</a> [<a class="el" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30a35728f9ea20c08af6106ff5fde97eebe">FR_TYPE_MAX</a>+1][2]</td></tr>
-<tr class="memdesc:af4ff9d03fa36afbe68dd130fac20e80f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map data types to min / max data sizes.  <a href="#af4ff9d03fa36afbe68dd130fac20e80f">More...</a><br /></td></tr>
-<tr class="separator:af4ff9d03fa36afbe68dd130fac20e80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ece05515cf3edd0b1f22d49fed13b70"><td class="memItemLeft" align="right" valign="top">bool const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a3ece05515cf3edd0b1f22d49fed13b70">fr_dict_attr_allowed_chars</a> [UINT8_MAX+1]</td></tr>
-<tr class="memdesc:a3ece05515cf3edd0b1f22d49fed13b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Characters that are allowed in dictionary attribute names.  <a href="#a3ece05515cf3edd0b1f22d49fed13b70">More...</a><br /></td></tr>
-<tr class="separator:a3ece05515cf3edd0b1f22d49fed13b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2221df04966936156939db1a6ed5a9b2"><td class="memItemLeft" align="right" valign="top">bool const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a2221df04966936156939db1a6ed5a9b2">fr_dict_non_data_types</a> [<a class="el" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30a35728f9ea20c08af6106ff5fde97eebe">FR_TYPE_MAX</a>+1]</td></tr>
-<tr class="memdesc:a2221df04966936156939db1a6ed5a9b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structural data types.  <a href="#a2221df04966936156939db1a6ed5a9b2">More...</a><br /></td></tr>
-<tr class="separator:a2221df04966936156939db1a6ed5a9b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Dictionary testing and validation</h2></td></tr>
@@ -4763,7 +4778,7 @@ Length of type data. </td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 12 2020 23:30:31 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 00:10:30 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

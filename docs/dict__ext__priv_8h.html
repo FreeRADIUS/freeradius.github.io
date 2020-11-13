@@ -81,9 +81,17 @@ $(function() {
 </div>
 <p><a href="dict__ext__priv_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Add extension structures to attributes</div></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a17d3624b5e672231198370644fd595f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ext_8h.html#structfr__ext__t">fr_ext_t</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__ext__priv_8h.html#a17d3624b5e672231198370644fd595f4">fr_dict_attr_ext_def</a></td></tr>
+<tr class="memdesc:a17d3624b5e672231198370644fd595f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds additional information about extension structures.  <a href="#a17d3624b5e672231198370644fd595f4">More...</a><br /></td></tr>
+<tr class="separator:a17d3624b5e672231198370644fd595f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20514d9de8b6dc1eba9fed2f66c1bd05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ext_8h.html#structfr__ext__t">fr_ext_t</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__ext__priv_8h.html#a20514d9de8b6dc1eba9fed2f66c1bd05">fr_dict_enum_ext_def</a></td></tr>
+<tr class="memdesc:a20514d9de8b6dc1eba9fed2f66c1bd05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds additional information about extension structures.  <a href="#a20514d9de8b6dc1eba9fed2f66c1bd05">More...</a><br /></td></tr>
+<tr class="separator:a20514d9de8b6dc1eba9fed2f66c1bd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Add extension structures to attributes</h2></td></tr>
 <tr class="memitem:a201b5da2f3b46e0f168d850208cf4ce4"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__ext__priv_8h.html#a201b5da2f3b46e0f168d850208cf4ce4">dict_attr_ext_alloc_size</a> (<a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> **da_p, <a class="el" href="dict_8h.html#abc02aee3acead1e22575d78f9b44fae1">fr_dict_attr_ext_t</a> ext, size_t ext_len)</td></tr>
 <tr class="memdesc:a201b5da2f3b46e0f168d850208cf4ce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate an attribute extension of a particular size.  <a href="#a201b5da2f3b46e0f168d850208cf4ce4">More...</a><br /></td></tr>
 <tr class="separator:a201b5da2f3b46e0f168d850208cf4ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -102,22 +110,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a16c8c7d5e272167faa490c6ce56c3a8c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__ext__priv_8h.html#a16c8c7d5e272167faa490c6ce56c3a8c">dict_attr_ext_debug</a> (<a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *da)</td></tr>
 <tr class="memdesc:a16c8c7d5e272167faa490c6ce56c3a8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print extension debug information for attributes.  <a href="#a16c8c7d5e272167faa490c6ce56c3a8c">More...</a><br /></td></tr>
 <tr class="separator:a16c8c7d5e272167faa490c6ce56c3a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Convenience functions for populating attribute extensions</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Convenience functions for populating attribute extensions</h2></td></tr>
 <tr class="memitem:a0068ae84df3bba7a91cd29dc6c3f5ad6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__ext__priv_8h.html#a0068ae84df3bba7a91cd29dc6c3f5ad6">dict_attr_ref_set</a> (<a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *da, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *ref)</td></tr>
 <tr class="separator:a0068ae84df3bba7a91cd29dc6c3f5ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18a53f632b502e801a19732caa982065"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__ext__priv_8h.html#a18a53f632b502e801a19732caa982065">dict_attr_children_set</a> (<a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *da, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const **children)</td></tr>
 <tr class="separator:a18a53f632b502e801a19732caa982065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9957ca8234bd279f920d24b700893d3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__ext__priv_8h.html#ab9957ca8234bd279f920d24b700893d3">dict_attr_children</a> (<a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *da)</td></tr>
 <tr class="separator:ab9957ca8234bd279f920d24b700893d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a17d3624b5e672231198370644fd595f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ext_8h.html#structfr__ext__t">fr_ext_t</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__ext__priv_8h.html#a17d3624b5e672231198370644fd595f4">fr_dict_attr_ext_def</a></td></tr>
-<tr class="memdesc:a17d3624b5e672231198370644fd595f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds additional information about extension structures.  <a href="#a17d3624b5e672231198370644fd595f4">More...</a><br /></td></tr>
-<tr class="separator:a17d3624b5e672231198370644fd595f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20514d9de8b6dc1eba9fed2f66c1bd05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ext_8h.html#structfr__ext__t">fr_ext_t</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__ext__priv_8h.html#a20514d9de8b6dc1eba9fed2f66c1bd05">fr_dict_enum_ext_def</a></td></tr>
-<tr class="memdesc:a20514d9de8b6dc1eba9fed2f66c1bd05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds additional information about extension structures.  <a href="#a20514d9de8b6dc1eba9fed2f66c1bd05">More...</a><br /></td></tr>
-<tr class="separator:a20514d9de8b6dc1eba9fed2f66c1bd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Extensions for dictionary definitions. </p>
@@ -585,7 +586,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 12 2020 23:30:31 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 00:10:30 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

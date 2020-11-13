@@ -274,9 +274,21 @@ Functions</h2></td></tr>
 <tr class="separator:ac43349a9af29b5ef97ecc977855720d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6067e644105f8f49a92164a387446ba"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#ab6067e644105f8f49a92164a387446ba">yielded_set</a> (<a class="el" href="unlang__priv_8h.html#structunlang__stack__frame__t">unlang_stack_frame_t</a> *frame)</td></tr>
 <tr class="separator:ab6067e644105f8f49a92164a387446ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Conversion functions for converting #unlang_t to its specialisations</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Simple conversions: <a class="el" href="module__priv_8h.html#structunlang__module__t" title="A call to a module method. ">unlang_module_t</a> and <a class="el" href="unlang__priv_8h.html#structunlang__group__t" title="Generic representation of a grouping. ">unlang_group_t</a> are subclasses of <a class="el" href="unlang__priv_8h.html#ae94a5a610b9e98e5fd73a969d5420319">unlang_t</a>, so we often want to go back and forth between them. </p>
-</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ad28b87be40e8cea3465bdc9764f4a3c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="table_8h.html#structfr__table__num__sorted__t">fr_table_num_sorted_t</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#ad28b87be40e8cea3465bdc9764f4a3c3">mod_rcode_table</a> []</td></tr>
+<tr class="separator:ad28b87be40e8cea3465bdc9764f4a3c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7544dfc0ce8a8f8cd824812b0c78d73f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#a7544dfc0ce8a8f8cd824812b0c78d73f">mod_rcode_table_len</a></td></tr>
+<tr class="separator:a7544dfc0ce8a8f8cd824812b0c78d73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf0c8002e436c1d516aaef95b217b063"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interpret_8h.html#structunlang__op__t">unlang_op_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#acf0c8002e436c1d516aaef95b217b063">unlang_ops</a> []</td></tr>
+<tr class="memdesc:acf0c8002e436c1d516aaef95b217b063"><td class="mdescLeft">&#160;</td><td class="mdescRight">Different operations the interpreter can execute.  <a href="#acf0c8002e436c1d516aaef95b217b063">More...</a><br /></td></tr>
+<tr class="separator:acf0c8002e436c1d516aaef95b217b063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Conversion functions for converting #unlang_t to its specialisations</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp20cfc0d12c195e1a50648df65fe6197b"></a>Simple conversions: <a class="el" href="module__priv_8h.html#structunlang__module__t" title="A call to a module method. ">unlang_module_t</a> and <a class="el" href="unlang__priv_8h.html#structunlang__group__t" title="Generic representation of a grouping. ">unlang_group_t</a> are subclasses of <a class="el" href="unlang__priv_8h.html#ae94a5a610b9e98e5fd73a969d5420319">unlang_t</a>, so we often want to go back and forth between them. </p>
+</td></tr>
 <tr class="memitem:aac8f5c5ad9dc7c337553f920e1a181d4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="unlang__priv_8h.html#structunlang__group__t">unlang_group_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#aac8f5c5ad9dc7c337553f920e1a181d4">unlang_generic_to_group</a> (<a class="el" href="unlang__priv_8h.html#ae94a5a610b9e98e5fd73a969d5420319">unlang_t</a> *p)</td></tr>
 <tr class="separator:aac8f5c5ad9dc7c337553f920e1a181d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52890e71e5baf575ea56415383a5def9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="unlang__priv_8h.html#ae94a5a610b9e98e5fd73a969d5420319">unlang_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#a52890e71e5baf575ea56415383a5def9">unlang_group_to_generic</a> (<a class="el" href="unlang__priv_8h.html#structunlang__group__t">unlang_group_t</a> *p)</td></tr>
@@ -285,7 +297,9 @@ Functions</h2></td></tr>
 <tr class="separator:a794ceebefd714376e0394e326c52ce7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fd8144991b05a0cde9a3f8b9447c82c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="unlang__priv_8h.html#ae94a5a610b9e98e5fd73a969d5420319">unlang_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#a5fd8144991b05a0cde9a3f8b9447c82c">unlang_tmpl_to_generic</a> (<a class="el" href="unlang__priv_8h.html#structunlang__tmpl__t">unlang_tmpl_t</a> *p)</td></tr>
 <tr class="separator:a5fd8144991b05a0cde9a3f8b9447c82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Internal interpreter functions needed by ops</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Internal interpreter functions needed by ops</h2></td></tr>
 <tr class="memitem:a06f6fba9b6f8a9831a34c445ff1ecb9f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#a06f6fba9b6f8a9831a34c445ff1ecb9f">unlang_interpret_push</a> (<a class="el" href="radclient_8c.html#a2fc1b64f51f8225195d32592e6fe8fc5">request_t</a> *request, <a class="el" href="unlang__priv_8h.html#ae94a5a610b9e98e5fd73a969d5420319">unlang_t</a> *instruction, <a class="el" href="rcode_8h.html#adcc711080df76349e177fc29a641d1fb">rlm_rcode_t</a> default_rcode, bool do_next_sibling, bool top_frame)</td></tr>
 <tr class="memdesc:a06f6fba9b6f8a9831a34c445ff1ecb9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push a new frame onto the stack.  <a href="#a06f6fba9b6f8a9831a34c445ff1ecb9f">More...</a><br /></td></tr>
 <tr class="separator:a06f6fba9b6f8a9831a34c445ff1ecb9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,18 +307,22 @@ Functions</h2></td></tr>
 <tr class="separator:afca374bf312b3030a8d1435be0513d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a4ba1df6e016828f58b23d971d33b43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#a6a4ba1df6e016828f58b23d971d33b43">unlang_op_free</a> (void)</td></tr>
 <tr class="separator:a6a4ba1df6e016828f58b23d971d33b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">io shims</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Functions to simulate a 'proto' module when we're running 'fake' requests.</p>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+io shims</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrpb26a51c197fa203179da02eda5d85dd1"></a>Functions to simulate a 'proto' module when we're running 'fake' requests.</p>
 <p>i.e. those created by parallel and subrequest. </p>
-</div></td></tr>
+</td></tr>
 <tr class="memitem:a6ab135991d0c8e21b9b4fb94c619311f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="action_8h.html#ad02ab717522305fe70aab72d152fc812">unlang_action_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#a6ab135991d0c8e21b9b4fb94c619311f">unlang_io_process_interpret</a> (<a class="el" href="rcode_8h.html#adcc711080df76349e177fc29a641d1fb">rlm_rcode_t</a> *p_result, <a class="el" href="server_2module_8h.html#a9bcf8e012c49bd2f269dd276981a72a0">module_ctx_t</a> const *mctx, <a class="el" href="radclient_8c.html#a2fc1b64f51f8225195d32592e6fe8fc5">request_t</a> *request)</td></tr>
 <tr class="separator:a6ab135991d0c8e21b9b4fb94c619311f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74fd54c7579e06817b3c8ca6a3344105"><td class="memItemLeft" align="right" valign="top"><a class="el" href="radclient_8c.html#a2fc1b64f51f8225195d32592e6fe8fc5">request_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#a74fd54c7579e06817b3c8ca6a3344105">unlang_io_subrequest_alloc</a> (<a class="el" href="radclient_8c.html#a2fc1b64f51f8225195d32592e6fe8fc5">request_t</a> *parent, <a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const *namespace, bool detachable)</td></tr>
 <tr class="memdesc:a74fd54c7579e06817b3c8ca6a3344105"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a child request based on the parent.  <a href="#a74fd54c7579e06817b3c8ca6a3344105">More...</a><br /></td></tr>
 <tr class="separator:a74fd54c7579e06817b3c8ca6a3344105"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">op init functions</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Functions to trigger registration of the various unlang ops. </p>
-</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+op init functions</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrpdce72559400d27f6363adffbc29dc016"></a>Functions to trigger registration of the various unlang ops. </p>
+</td></tr>
 <tr class="memitem:a49588eeff94b32b52512db36db55b59b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#a49588eeff94b32b52512db36db55b59b">unlang_call_init</a> (void)</td></tr>
 <tr class="separator:a49588eeff94b32b52512db36db55b59b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefcb135b6bd137ddb87d6bf2cd31b94c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#aefcb135b6bd137ddb87d6bf2cd31b94c">unlang_caller_init</a> (void)</td></tr>
@@ -337,16 +355,6 @@ Functions</h2></td></tr>
 <tr class="separator:a12512095434e22f5438a21735f75dea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d20f42893c832b4b262f9d55fbf5123"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#a2d20f42893c832b4b262f9d55fbf5123">unlang_tmpl_init_shallow</a> (void)</td></tr>
 <tr class="separator:a2d20f42893c832b4b262f9d55fbf5123"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ad28b87be40e8cea3465bdc9764f4a3c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="table_8h.html#structfr__table__num__sorted__t">fr_table_num_sorted_t</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#ad28b87be40e8cea3465bdc9764f4a3c3">mod_rcode_table</a> []</td></tr>
-<tr class="separator:ad28b87be40e8cea3465bdc9764f4a3c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7544dfc0ce8a8f8cd824812b0c78d73f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#a7544dfc0ce8a8f8cd824812b0c78d73f">mod_rcode_table_len</a></td></tr>
-<tr class="separator:a7544dfc0ce8a8f8cd824812b0c78d73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf0c8002e436c1d516aaef95b217b063"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interpret_8h.html#structunlang__op__t">unlang_op_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unlang__priv_8h.html#acf0c8002e436c1d516aaef95b217b063">unlang_ops</a> []</td></tr>
-<tr class="memdesc:acf0c8002e436c1d516aaef95b217b063"><td class="mdescLeft">&#160;</td><td class="mdescRight">Different operations the interpreter can execute.  <a href="#acf0c8002e436c1d516aaef95b217b063">More...</a><br /></td></tr>
-<tr class="separator:acf0c8002e436c1d516aaef95b217b063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Private interpreter structures and functions. </p>
@@ -2430,7 +2438,7 @@ tmpl</td>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 12 2020 23:30:30 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 00:10:30 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -161,16 +161,23 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:a39d73a23796c2c5d20c441d4776f3075"><td class="mdescLeft">&#160;</td><td class="mdescRight">Module thread creation callback.  <a href="#a39d73a23796c2c5d20c441d4776f3075">More...</a><br /></td></tr>
 <tr class="separator:a39d73a23796c2c5d20c441d4776f3075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Convenience wrappers around other internal APIs to make them easier to instantiate with modules</div></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a59184ff9fdab55a1bc0981ebbe3053d7"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="server_2module_8h.html#a59184ff9fdab55a1bc0981ebbe3053d7">section_type_value</a> [<a class="el" href="components_8h.html#a390dde0bbf527b9f0eda144be1492223ae251b7e2db1c3e8ab4dbf6c03c6c947c">MOD_COUNT</a>]</td></tr>
+<tr class="memdesc:a59184ff9fdab55a1bc0981ebbe3053d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mappings between section names, and control attributes.  <a href="#a59184ff9fdab55a1bc0981ebbe3053d7">More...</a><br /></td></tr>
+<tr class="separator:a59184ff9fdab55a1bc0981ebbe3053d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Convenience wrappers around other internal APIs to make them easier to instantiate with modules</h2></td></tr>
 <tr class="memitem:a78ab49b290182824aa6d8020bb2ee1f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="pool_8h.html#aba3234b79613f1a29d858b2b87ef8e38">fr_pool_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="server_2module_8h.html#a78ab49b290182824aa6d8020bb2ee1f6">module_connection_pool_init</a> (<a class="el" href="cf__util_8h.html#a0f39d8043920472ea4c687c97f7173b3">CONF_SECTION</a> *module, void *opaque, <a class="el" href="pool_8h.html#aa08dee55fa46bb081affb4ed89ad8147">fr_pool_connection_create_t</a> c, <a class="el" href="pool_8h.html#ac28b5484f6f43c4d77c4632706152ab2">fr_pool_connection_alive_t</a> a, char const *log_prefix, char const *trigger_prefix, <a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *trigger_args)</td></tr>
 <tr class="memdesc:a78ab49b290182824aa6d8020bb2ee1f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise a module specific connection pool.  <a href="#a78ab49b290182824aa6d8020bb2ee1f6">More...</a><br /></td></tr>
 <tr class="separator:a78ab49b290182824aa6d8020bb2ee1f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab36d2e3419401c919f5138e8092a66ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exfile_8h.html#ae3ebacbaddbf0ea12c665db84dea4e63">exfile_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="server_2module_8h.html#ab36d2e3419401c919f5138e8092a66ff">module_exfile_init</a> (TALLOC_CTX *ctx, <a class="el" href="cf__util_8h.html#a0f39d8043920472ea4c687c97f7173b3">CONF_SECTION</a> *module, uint32_t max_entries, uint32_t max_idle, bool locking, char const *trigger_prefix, <a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> *trigger_args)</td></tr>
 <tr class="memdesc:ab36d2e3419401c919f5138e8092a66ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise a module specific exfile handle.  <a href="#ab36d2e3419401c919f5138e8092a66ff">More...</a><br /></td></tr>
 <tr class="separator:ab36d2e3419401c919f5138e8092a66ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Helper functions</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Helper functions</h2></td></tr>
 <tr class="memitem:a9979f27b29d29f764f8aa193c170c074"><td class="memItemLeft" align="right" valign="top"><a class="el" href="server_2module_8h.html#af80b8d62962b7d1c1e3b0af13cd479d0">module_method_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="server_2module_8h.html#a9979f27b29d29f764f8aa193c170c074">module_state_str_to_method</a> (<a class="el" href="server_2module_8h.html#structmodule__state__func__table__t">module_state_func_table_t</a> const *table, char const *<a class="el" href="rlm__redis__ippool__tool_8c.html#a5f1de76dd5d451949e12c0fbc966ca70">name</a>, <a class="el" href="server_2module_8h.html#af80b8d62962b7d1c1e3b0af13cd479d0">module_method_t</a> def)</td></tr>
 <tr class="separator:a9979f27b29d29f764f8aa193c170c074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76062cff9320a15002b69197a4adab98"><td class="memItemLeft" align="right" valign="top">char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="server_2module_8h.html#a76062cff9320a15002b69197a4adab98">module_state_method_to_str</a> (<a class="el" href="server_2module_8h.html#structmodule__state__func__table__t">module_state_func_table_t</a> const *table, <a class="el" href="server_2module_8h.html#af80b8d62962b7d1c1e3b0af13cd479d0">module_method_t</a> method, char const *def)</td></tr>
@@ -180,7 +187,9 @@ Functions</h2></td></tr>
 <tr class="separator:aad040bdd6ad1bbd7d1d57e7240a6f4ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78cb3c07eccebf59acac7265a620d1ee"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="server_2module_8h.html#a78cb3c07eccebf59acac7265a620d1ee">module_instance_read_only</a> (TALLOC_CTX *ctx, char const *<a class="el" href="rlm__redis__ippool__tool_8c.html#a5f1de76dd5d451949e12c0fbc966ca70">name</a>)</td></tr>
 <tr class="separator:a78cb3c07eccebf59acac7265a620d1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Module and module thread lookup</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Module and module thread lookup</h2></td></tr>
 <tr class="memitem:aa6909576b19ced42b125701cb404a9f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="server_2module_8h.html#afad2ccd3f72252bce9e9c5cd6c2e6eed">module_instance_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="server_2module_8h.html#aa6909576b19ced42b125701cb404a9f2">module_by_name</a> (<a class="el" href="server_2module_8h.html#afad2ccd3f72252bce9e9c5cd6c2e6eed">module_instance_t</a> const *parent, char const *asked_name)</td></tr>
 <tr class="memdesc:aa6909576b19ced42b125701cb404a9f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an existing module instance by its name and parent.  <a href="#aa6909576b19ced42b125701cb404a9f2">More...</a><br /></td></tr>
 <tr class="separator:aa6909576b19ced42b125701cb404a9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,7 +205,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a20084d6912d1c5ee5208428a802dcb6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="server_2module_8h.html#aab07ad7d17a87a0e4ec35d9b5f40d59a">module_thread_instance_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="server_2module_8h.html#a20084d6912d1c5ee5208428a802dcb6a">module_thread_by_data</a> (void const *<a class="el" href="ring__buffer__test_8c.html#a4b83b6e2cf0af27630a64dce8dd7717a">data</a>)</td></tr>
 <tr class="memdesc:a20084d6912d1c5ee5208428a802dcb6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve module/thread specific instance data for a module.  <a href="#a20084d6912d1c5ee5208428a802dcb6a">More...</a><br /></td></tr>
 <tr class="separator:a20084d6912d1c5ee5208428a802dcb6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Module and module thread initialisation and instantiation</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Module and module thread initialisation and instantiation</h2></td></tr>
 <tr class="memitem:a973713842fc80b6b22a3f36648a1ea3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="server_2module_8h.html#a973713842fc80b6b22a3f36648a1ea3d">module_free</a> (<a class="el" href="server_2module_8h.html#afad2ccd3f72252bce9e9c5cd6c2e6eed">module_instance_t</a> *mi)</td></tr>
 <tr class="memdesc:a973713842fc80b6b22a3f36648a1ea3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explicitly free a module if a fatal error occurs during bootstrap.  <a href="#a973713842fc80b6b22a3f36648a1ea3d">More...</a><br /></td></tr>
 <tr class="separator:a973713842fc80b6b22a3f36648a1ea3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,12 +231,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ac1bf5d14e3657bad818536fed02f07bc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="server_2module_8h.html#ac1bf5d14e3657bad818536fed02f07bc">modules_bootstrap</a> (<a class="el" href="cf__util_8h.html#a0f39d8043920472ea4c687c97f7173b3">CONF_SECTION</a> *root)</td></tr>
 <tr class="memdesc:ac1bf5d14e3657bad818536fed02f07bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bootstrap modules and virtual modules.  <a href="#ac1bf5d14e3657bad818536fed02f07bc">More...</a><br /></td></tr>
 <tr class="separator:ac1bf5d14e3657bad818536fed02f07bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a59184ff9fdab55a1bc0981ebbe3053d7"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="server_2module_8h.html#a59184ff9fdab55a1bc0981ebbe3053d7">section_type_value</a> [<a class="el" href="components_8h.html#a390dde0bbf527b9f0eda144be1492223ae251b7e2db1c3e8ab4dbf6c03c6c947c">MOD_COUNT</a>]</td></tr>
-<tr class="memdesc:a59184ff9fdab55a1bc0981ebbe3053d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mappings between section names, and control attributes.  <a href="#a59184ff9fdab55a1bc0981ebbe3053d7">More...</a><br /></td></tr>
-<tr class="separator:a59184ff9fdab55a1bc0981ebbe3053d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface to the RADIUS module system. </p>
@@ -1823,7 +1828,7 @@ Common fields for threaded modules. </td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 12 2020 23:30:27 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 00:10:27 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
