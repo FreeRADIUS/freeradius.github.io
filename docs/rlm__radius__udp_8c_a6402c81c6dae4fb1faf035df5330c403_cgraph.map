@@ -1,35 +1,40 @@
 <map id="request_timeout" name="request_timeout">
-<area shape="rect" id="node2" href="$rlm__radius__udp_8c.html#ac47feadd21e5ad8c65d2842d9f3b9976" title="See if the connection is zombied. " alt="" coords="183,481,311,507"/>
-<area shape="rect" id="node18" href="$trunk_8c.html#ae261bef1f663eb4a697804302be97a93" title="Signal a trunk connection is no longer viable. " alt="" coords="612,633,748,675"/>
-<area shape="rect" id="node26" href="$retry_8c.html#a032142df3cf21e868bdd2791742618ac" title="Initialize a retransmission counter. " alt="" coords="199,742,294,769"/>
-<area shape="rect" id="node31" href="$trunk_8c.html#a72e34d33ea58c5c62d64d12c1620b819" title="Re&#45;enqueue a request on the same connection. " alt="" coords="819,127,989,154"/>
-<area shape="rect" id="node33" href="$trunk_8c.html#a68df84abee6703937fcd841ef75797c7" title="Signal that a trunk request is complete. " alt="" coords="168,5,325,47"/>
-<area shape="rect" id="node3" href="$trunk_8c.html#a9c2e24f88f4b711bc17d9723f53892a1" title="Signal a trunk connection cannot accept more requests. " alt="" coords="391,473,527,515"/>
-<area shape="rect" id="node16" href="$trunk_8c.html#a67069d7159583ef74d1cd099f2d07f30" title="Move requests off of a connection and requeue elsewhere. " alt="" coords="612,385,748,427"/>
-<area shape="rect" id="node17" href="$rlm__radius__udp_8c.html#a89ba9688fda03fcb027b5a9f84ec2fe2" title="Revive a connection after &quot;revive_interval&quot;. " alt="" coords="413,590,506,617"/>
-<area shape="rect" id="node20" href="$trunk_8c.html#a2bad9ebfe3f085c0fb3faeee9e8a46b3" title="Enqueue additional requests on a specific connection. " alt="" coords="373,237,545,279"/>
-<area shape="rect" id="node4" href="$trunk_8c.html#a90f2eebe4614ce352e760bb44fb5e63c" title="Transition a connection to the inactive state. " alt="" coords="601,568,759,609"/>
-<area shape="rect" id="node8" href="$trunk_8c.html#af52d32b27b789380f99dc5fc1ec73211" title="Transition a connection to the inactive&#45;draining state. " alt="" coords="601,503,759,544"/>
-<area shape="rect" id="node5" href="$trunk_8c.html#af55aeabd0743377eb3f519244d2f10d6" title="Remove a trunk connection from whichever list it&#39;s currently in. " alt="" coords="819,615,989,642"/>
-<area shape="rect" id="node7" href="$dlist_8h.html#aca8eed7f7758b61446174a5a4d54e7b4" title="Insert an item into the head of a list. " alt="" coords="837,565,971,591"/>
-<area shape="rect" id="node6" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="1060,485,1171,511"/>
-<area shape="rect" id="node9" href="$trunk_8c.html#ac2fe6b5bbb2452eda599a3fc16472d4d" title="Remove requests in specified states from a connection, attempting to distribute them to new connectio..." alt="" coords="815,397,993,439"/>
-<area shape="rect" id="node10" href="$server_2connection_8c.html#a07cf3e48f209e153fb5dee32cfa0d221" title="Pause processing of deferred signals. " alt="" coords="1041,281,1189,323"/>
-<area shape="rect" id="node11" href="$trunk_8c.html#ae8f376618040ed573738a25f97a48fed" title="Request failed, inform the API client and free the request. " alt="" coords="1047,347,1184,388"/>
-<area shape="rect" id="node13" href="$trunk_8c.html#a0ccb4513f4a782e67c8d87c3949f7ff6" title="If the trunk request is freed then update the target requests. " alt="" coords="1240,354,1385,381"/>
-<area shape="rect" id="node14" href="$trunk_8c.html#adb084310620200de5d2f1cf1ef8f0ee7" title="Transition a request to the pending state, adding it to the backlog of an active connection. " alt="" coords="1047,151,1184,192"/>
-<area shape="rect" id="node15" href="$server_2connection_8c.html#a4d82ac070ca65d717d16a833b1bf5032" title="Resume processing of deferred signals. " alt="" coords="1041,216,1189,257"/>
-<area shape="rect" id="node12" href="$trunk_8c.html#a57c049e07e8913dafb84d76e548fa404" title="Remove a request from all connection lists. " alt="" coords="1237,155,1388,196"/>
-<area shape="rect" id="node19" href="$server_2connection_8c.html#afbcf2ecc866b1f1092fa70d6400fd4f3" title="Asynchronously signal the connection should be reconnected. " alt="" coords="833,667,975,708"/>
-<area shape="rect" id="node21" href="$trunk_8c.html#a4a0a08064485793b003756b197ca6622" title="Return the count number of requests associated with a trunk connection. " alt="" coords="827,179,981,220"/>
-<area shape="rect" id="node22" href="$trunk_8c.html#a3414dcced7e253ba9d6c4e257b2fd10a" title="(Pre&#45;)Allocate a new trunk request " alt="" coords="605,451,755,478"/>
-<area shape="rect" id="node25" href="$trunk_8c.html#a6de2af5b1936dcf0f59ddf66d21fb38c" title="A connection is writable. " alt="" coords="593,143,767,170"/>
-<area shape="rect" id="node23" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="856,346,952,373"/>
-<area shape="rect" id="node24" href="$trunk_8c.html#a45442ee137c45c5b4619c65cd4fa4395" title="Actually free the trunk request. " alt="" coords="835,463,973,490"/>
-<area shape="rect" id="node27" href="$rand_8c.html#ae6966accae06dc7d65d4cc51b5782383" title="Return a 32&#45;bit random number. " alt="" coords="428,691,491,718"/>
-<area shape="rect" id="node28" href="$uint128_8h.html#a796e82a8e4335023bc110374d0916e58" title="Multiply two unsigned 64bit integers to get an unsigned 128bit integer. " alt="" coords="406,742,513,769"/>
-<area shape="rect" id="node29" href="$uint128_8h.html#a2604649a09cae51f1098ec33462f8b8a" title="Returns the low bits of a 128bit integer. " alt="" coords="408,793,511,819"/>
-<area shape="rect" id="node30" href="$uint128_8h.html#a8e36537627fd93478bc7aab5ebb5cea5" title="Right shift 128 bit integer. " alt="" coords="409,843,509,870"/>
-<area shape="rect" id="node32" href="$trunk_8c.html#ac56a1d3856d033bf437fc866c1a1cf77" title="Transition a request to the cancel state, placing it in a connection&#39;s cancellation list..." alt="" coords="1047,85,1184,127"/>
-<area shape="rect" id="node34" href="$trunk_8c.html#a649e3608119a22b5f9c997243532056a" title="Request completed successfully, inform the API client and free the request. " alt="" coords="1047,20,1184,61"/>
+<area shape="rect" id="node2" href="$rlm__radius__udp_8c.html#ac47feadd21e5ad8c65d2842d9f3b9976" title="See if the connection is zombied. " alt="" coords="183,253,311,279"/>
+<area shape="rect" id="node18" href="$trunk_8c.html#ae261bef1f663eb4a697804302be97a93" title="Signal a trunk connection is no longer viable. " alt="" coords="612,41,748,83"/>
+<area shape="rect" id="node26" href="$retry_8c.html#a032142df3cf21e868bdd2791742618ac" title="Initialize a retransmission counter. " alt="" coords="199,722,294,749"/>
+<area shape="rect" id="node36" href="$trunk_8c.html#a72e34d33ea58c5c62d64d12c1620b819" title="Re&#45;enqueue a request on the same connection. " alt="" coords="819,558,989,585"/>
+<area shape="rect" id="node38" href="$trunk_8c.html#a68df84abee6703937fcd841ef75797c7" title="Signal that a trunk request is complete. " alt="" coords="168,820,325,861"/>
+<area shape="rect" id="node3" href="$trunk_8c.html#a9c2e24f88f4b711bc17d9723f53892a1" title="Signal a trunk connection cannot accept more requests. " alt="" coords="391,201,527,243"/>
+<area shape="rect" id="node16" href="$trunk_8c.html#a67069d7159583ef74d1cd099f2d07f30" title="Move requests off of a connection and requeue elsewhere. " alt="" coords="612,289,748,331"/>
+<area shape="rect" id="node17" href="$rlm__radius__udp_8c.html#a89ba9688fda03fcb027b5a9f84ec2fe2" title="Revive a connection after &quot;revive_interval&quot;. " alt="" coords="413,99,506,126"/>
+<area shape="rect" id="node20" href="$trunk_8c.html#a2bad9ebfe3f085c0fb3faeee9e8a46b3" title="Enqueue additional requests on a specific connection. " alt="" coords="373,399,545,440"/>
+<area shape="rect" id="node4" href="$trunk_8c.html#a90f2eebe4614ce352e760bb44fb5e63c" title="Transition a connection to the inactive state. " alt="" coords="601,107,759,148"/>
+<area shape="rect" id="node8" href="$trunk_8c.html#af52d32b27b789380f99dc5fc1ec73211" title="Transition a connection to the inactive&#45;draining state. " alt="" coords="601,172,759,213"/>
+<area shape="rect" id="node5" href="$trunk_8c.html#af55aeabd0743377eb3f519244d2f10d6" title="Remove a trunk connection from whichever list it&#39;s currently in. " alt="" coords="819,71,989,98"/>
+<area shape="rect" id="node7" href="$dlist_8h.html#aca8eed7f7758b61446174a5a4d54e7b4" title="Insert an item into the head of a list. " alt="" coords="837,122,971,149"/>
+<area shape="rect" id="node6" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="1060,198,1171,225"/>
+<area shape="rect" id="node9" href="$trunk_8c.html#ac2fe6b5bbb2452eda599a3fc16472d4d" title="Remove requests in specified states from a connection, attempting to distribute them to new connectio..." alt="" coords="815,325,993,367"/>
+<area shape="rect" id="node10" href="$server_2connection_8c.html#a07cf3e48f209e153fb5dee32cfa0d221" title="Pause processing of deferred signals. " alt="" coords="1041,644,1189,685"/>
+<area shape="rect" id="node11" href="$trunk_8c.html#ae8f376618040ed573738a25f97a48fed" title="Request failed, inform the API client and free the request. " alt="" coords="1047,513,1184,555"/>
+<area shape="rect" id="node13" href="$trunk_8c.html#a0ccb4513f4a782e67c8d87c3949f7ff6" title="If the trunk request is freed then update the target requests. " alt="" coords="1240,521,1385,547"/>
+<area shape="rect" id="node14" href="$trunk_8c.html#adb084310620200de5d2f1cf1ef8f0ee7" title="Transition a request to the pending state, adding it to the backlog of an active connection. " alt="" coords="1047,448,1184,489"/>
+<area shape="rect" id="node15" href="$server_2connection_8c.html#a4d82ac070ca65d717d16a833b1bf5032" title="Resume processing of deferred signals. " alt="" coords="1041,383,1189,424"/>
+<area shape="rect" id="node12" href="$trunk_8c.html#a57c049e07e8913dafb84d76e548fa404" title="Remove a request from all connection lists. " alt="" coords="1237,704,1388,745"/>
+<area shape="rect" id="node19" href="$server_2connection_8c.html#afbcf2ecc866b1f1092fa70d6400fd4f3" title="Asynchronously signal the connection should be reconnected. " alt="" coords="833,5,975,47"/>
+<area shape="rect" id="node21" href="$trunk_8c.html#a4a0a08064485793b003756b197ca6622" title="Return the count number of requests associated with a trunk connection. " alt="" coords="827,391,981,432"/>
+<area shape="rect" id="node22" href="$trunk_8c.html#a3414dcced7e253ba9d6c4e257b2fd10a" title="(Pre&#45;)Allocate a new trunk request " alt="" coords="605,238,755,265"/>
+<area shape="rect" id="node25" href="$trunk_8c.html#a6de2af5b1936dcf0f59ddf66d21fb38c" title="A connection is writable. " alt="" coords="593,406,767,433"/>
+<area shape="rect" id="node23" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="856,274,952,301"/>
+<area shape="rect" id="node24" href="$trunk_8c.html#a45442ee137c45c5b4619c65cd4fa4395" title="Actually free the trunk request. " alt="" coords="835,223,973,250"/>
+<area shape="rect" id="node27" href="$rand_8c.html#ae6966accae06dc7d65d4cc51b5782383" title="Return a 32&#45;bit random number. " alt="" coords="428,823,491,850"/>
+<area shape="rect" id="node33" href="$uint128_8h.html#a796e82a8e4335023bc110374d0916e58" title="Multiply two unsigned 64bit integers to get an unsigned 128bit integer. " alt="" coords="406,671,513,698"/>
+<area shape="rect" id="node34" href="$uint128_8h.html#a2604649a09cae51f1098ec33462f8b8a" title="Returns the low bits of a 128bit integer. " alt="" coords="408,722,511,749"/>
+<area shape="rect" id="node35" href="$uint128_8h.html#a8e36537627fd93478bc7aab5ebb5cea5" title="Right shift 128 bit integer. " alt="" coords="409,773,509,799"/>
+<area shape="rect" id="node28" href="$rand_8c.html#a6fa61f21cc29c57c251db3696037ae1c" title="Seed the random number generator. " alt="" coords="631,785,729,811"/>
+<area shape="rect" id="node31" href="$isaac_8c.html#aa59f7e1d100e8c1b3c003e18085e0638" title="fr_isaac" alt="" coords="1081,785,1149,811"/>
+<area shape="rect" id="node29" href="$rlm__passwd_8c.html#aafaad5adfcfa5359895444961235e5b8" title="hash" alt="" coords="1090,710,1141,737"/>
+<area shape="rect" id="node30" href="$isaac_8c.html#a397c42de24ad86f9d3d899957e33e679" title="fr_rand_init" alt="" coords="861,785,947,811"/>
+<area shape="rect" id="node32" href="$hash_8c.html#a363755f48e86b542a7ea4da43c79c6a7" title="fr_hash_update" alt="" coords="849,659,959,686"/>
+<area shape="rect" id="node37" href="$trunk_8c.html#ac56a1d3856d033bf437fc866c1a1cf77" title="Transition a request to the cancel state, placing it in a connection&#39;s cancellation list..." alt="" coords="1047,579,1184,620"/>
+<area shape="rect" id="node39" href="$trunk_8c.html#a649e3608119a22b5f9c997243532056a" title="Request completed successfully, inform the API client and free the request. " alt="" coords="1047,836,1184,877"/>
 </map>

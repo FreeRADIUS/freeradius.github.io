@@ -48,66 +48,66 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 597;
 var viewHeight = 284;
-var sectionId = 'dynsection-5';
+var sectionId = 'dynsection-7';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>fr_connection_alloc</title>
-<!-- Node6 -->
+<!-- Node170 -->
 <g id="node1" class="node">
-<title>Node6</title>
+<title>Node170</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-99 0,-118 101,-118 101,-99 0,-99"/>
 <text text-anchor="middle" x="50.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_connection_alloc</text>
 </g>
-<!-- Node7 -->
+<!-- Node171 -->
 <g id="node2" class="node">
-<title>Node7</title>
+<title>Node171</title>
 <g id="a_node2"><a xlink:href="server_2connection_8c.html#ae72f156597d343df355fb3ceaf30a63b" target="_top" xlink:title="Close a connection if it&#39;s freed. ">
 <polygon fill="none" stroke="#000000" points="167.5,-184 167.5,-203 258.5,-203 258.5,-184 167.5,-184"/>
 <text text-anchor="middle" x="213" y="-191" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_connection_free</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node7 -->
+<!-- Node170&#45;&gt;Node171 -->
 <g id="edge1" class="edge">
-<title>Node6&#45;&gt;Node7</title>
+<title>Node170&#45;&gt;Node171</title>
 <path fill="none" stroke="#191970" d="M63.1245,-118.1654C79.4897,-130.3714 109.2295,-151.4697 137,-165.5 148.1779,-171.1473 160.7768,-176.2542 172.4551,-180.5132"/>
 <polygon fill="#191970" stroke="#191970" points="171.4022,-183.8531 181.997,-183.8845 173.7342,-177.253 171.4022,-183.8531"/>
 </g>
-<!-- Node14 -->
+<!-- Node178 -->
 <g id="node9" class="node">
-<title>Node14</title>
+<title>Node178</title>
 <g id="a_node9"><a xlink:href="talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" target="_top" xlink:title="Call talloc_strdup, setting the type on the new chunk correctly. ">
 <polygon fill="none" stroke="#000000" points="162.5,-137 162.5,-156 263.5,-156 263.5,-137 162.5,-137"/>
 <text text-anchor="middle" x="213" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">talloc_typed_strdup</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node14 -->
+<!-- Node170&#45;&gt;Node178 -->
 <g id="edge10" class="edge">
-<title>Node6&#45;&gt;Node14</title>
+<title>Node170&#45;&gt;Node178</title>
 <path fill="none" stroke="#191970" d="M91.5056,-118.089C113.0458,-123.1261 139.6347,-129.3438 162.4414,-134.6771"/>
 <polygon fill="#191970" stroke="#191970" points="161.755,-138.1109 172.2893,-136.9799 163.3489,-131.2948 161.755,-138.1109"/>
 </g>
-<!-- Node15 -->
+<!-- Node179 -->
 <g id="node10" class="node">
-<title>Node15</title>
+<title>Node179</title>
 <g id="a_node10"><a xlink:href="server_2connection_8c.html#a2fdbf5847f45f3f7a08dac8eea7e4e79" target="_top" xlink:title="Add a callback to be executed after a state function has been called. ">
 <polygon fill="none" stroke="#000000" points="137,-99 137,-118 289,-118 289,-99 137,-99"/>
 <text text-anchor="middle" x="213" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_connection_add_watch_post</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node15 -->
+<!-- Node170&#45;&gt;Node179 -->
 <g id="edge11" class="edge">
-<title>Node6&#45;&gt;Node15</title>
+<title>Node170&#45;&gt;Node179</title>
 <path fill="none" stroke="#191970" d="M101.0253,-108.5C109.195,-108.5 117.8507,-108.5 126.5864,-108.5"/>
 <polygon fill="#191970" stroke="#191970" points="126.8537,-112.0001 136.8537,-108.5 126.8536,-105.0001 126.8537,-112.0001"/>
 </g>
-<!-- Node17 -->
+<!-- Node181 -->
 <g id="node12" class="node">
-<title>Node17</title>
+<title>Node181</title>
 <g id="a_node12"><a xlink:href="server_2connection_8c.html#a870a2c43e1a5c7e7bbb01f447b58b87e" target="_top" xlink:title="Notification function to tell connection_deferred_signal_process that the connection has been freed...">
 <polygon fill="none" stroke="#000000" points="143,-49.5 143,-79.5 283,-79.5 283,-49.5 143,-49.5"/>
 <text text-anchor="start" x="151" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_deferred_signal_connection</text>
@@ -115,15 +115,15 @@ var sectionId = 'dynsection-5';
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node17 -->
+<!-- Node170&#45;&gt;Node181 -->
 <g id="edge14" class="edge">
-<title>Node6&#45;&gt;Node17</title>
+<title>Node170&#45;&gt;Node181</title>
 <path fill="none" stroke="#191970" d="M85.7601,-98.9527C103.8106,-94.0651 126.3766,-87.9549 147.4724,-82.2429"/>
 <polygon fill="#191970" stroke="#191970" points="148.6232,-85.5574 157.3609,-79.5654 146.7937,-78.8007 148.6232,-85.5574"/>
 </g>
-<!-- Node18 -->
+<!-- Node182 -->
 <g id="node13" class="node">
-<title>Node18</title>
+<title>Node182</title>
 <g id="a_node13"><a xlink:href="server_2connection_8c.html#af50d4ad6581dc418bf3be420b845d135" target="_top" xlink:title="Disable a watcher. ">
 <polygon fill="none" stroke="#000000" points="159.5,-.5 159.5,-30.5 266.5,-30.5 266.5,-.5 159.5,-.5"/>
 <text text-anchor="start" x="167.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_connection_watch</text>
@@ -131,30 +131,30 @@ var sectionId = 'dynsection-5';
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node18 -->
+<!-- Node170&#45;&gt;Node182 -->
 <g id="edge15" class="edge">
-<title>Node6&#45;&gt;Node18</title>
+<title>Node170&#45;&gt;Node182</title>
 <path fill="none" stroke="#191970" d="M60.0215,-98.9007C75.1049,-84.1876 105.9758,-56.0322 137,-39.5 141.024,-37.3557 145.2713,-35.3658 149.6177,-33.526"/>
 <polygon fill="#191970" stroke="#191970" points="151.2203,-36.6566 159.2431,-29.7367 148.6561,-30.1432 151.2203,-36.6566"/>
 </g>
-<!-- Node8 -->
+<!-- Node172 -->
 <g id="node3" class="node">
-<title>Node8</title>
+<title>Node172</title>
 <g id="a_node3"><a xlink:href="lib_2util_2event_8c.html#a8faea09b0f0453e51f6768eb5a760e2f" target="_top" xlink:title="Delete a timer event from the event list. ">
 <polygon fill="none" stroke="#000000" points="479,-233 479,-252 589,-252 589,-233 479,-233"/>
 <text text-anchor="middle" x="534" y="-240" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_event_timer_delete</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
+<!-- Node171&#45;&gt;Node172 -->
 <g id="edge2" class="edge">
-<title>Node7&#45;&gt;Node8</title>
+<title>Node171&#45;&gt;Node172</title>
 <path fill="none" stroke="#191970" d="M223.0386,-203.1784C241.4398,-220.1665 282.5935,-254.7559 325,-267.5 384.4535,-285.3671 457.0361,-268.512 499.142,-255.1499"/>
 <polygon fill="#191970" stroke="#191970" points="500.2507,-258.4698 508.6586,-252.0233 498.0657,-251.8195 500.2507,-258.4698"/>
 </g>
-<!-- Node9 -->
+<!-- Node173 -->
 <g id="node4" class="node">
-<title>Node9</title>
+<title>Node173</title>
 <g id="a_node4"><a xlink:href="server_2connection_8c.html#a615bf4dd630434e4f92022788d483d1c" target="_top" xlink:title="Add a deferred signal to the signal list. ">
 <polygon fill="none" stroke="#000000" points="332,-129.5 332,-159.5 436,-159.5 436,-129.5 332,-129.5"/>
 <text text-anchor="start" x="340" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">connection_deferred</text>
@@ -162,15 +162,15 @@ var sectionId = 'dynsection-5';
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node9 -->
+<!-- Node171&#45;&gt;Node173 -->
 <g id="edge3" class="edge">
-<title>Node7&#45;&gt;Node9</title>
+<title>Node171&#45;&gt;Node173</title>
 <path fill="none" stroke="#191970" d="M246.3765,-183.936C267.9227,-177.7619 296.6104,-169.5415 322.2164,-162.2041"/>
 <polygon fill="#191970" stroke="#191970" points="323.209,-165.5606 331.8579,-159.4413 321.2807,-158.8314 323.209,-165.5606"/>
 </g>
-<!-- Node12 -->
+<!-- Node176 -->
 <g id="node7" class="node">
-<title>Node12</title>
+<title>Node176</title>
 <g id="a_node7"><a xlink:href="server_2connection_8c.html#a2500bf7158640de3844357f669196f9b" target="_top" xlink:title="Close the connection, then wait for another state change. ">
 <polygon fill="none" stroke="#000000" points="325,-227.5 325,-257.5 443,-257.5 443,-227.5 325,-227.5"/>
 <text text-anchor="start" x="333" y="-245.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">connection_state_enter</text>
@@ -178,15 +178,15 @@ var sectionId = 'dynsection-5';
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node12 -->
+<!-- Node171&#45;&gt;Node176 -->
 <g id="edge6" class="edge">
-<title>Node7&#45;&gt;Node12</title>
+<title>Node171&#45;&gt;Node176</title>
 <path fill="none" stroke="#191970" d="M246.3765,-203.064C267.8366,-209.2134 296.381,-217.3928 321.909,-224.7078"/>
 <polygon fill="#191970" stroke="#191970" points="320.9468,-228.0729 331.5241,-227.463 322.8751,-221.3437 320.9468,-228.0729"/>
 </g>
-<!-- Node13 -->
+<!-- Node177 -->
 <g id="node8" class="node">
-<title>Node13</title>
+<title>Node177</title>
 <g id="a_node8"><a xlink:href="server_2connection_8c.html#a4eaa49b6658a8727efa7226eac801e2f" target="_top" xlink:title="Enter the halted state. ">
 <polygon fill="none" stroke="#000000" points="325,-178.5 325,-208.5 443,-208.5 443,-178.5 325,-178.5"/>
 <text text-anchor="start" x="333" y="-196.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">connection_state_enter</text>
@@ -194,72 +194,72 @@ var sectionId = 'dynsection-5';
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node13 -->
+<!-- Node171&#45;&gt;Node177 -->
 <g id="edge8" class="edge">
-<title>Node7&#45;&gt;Node13</title>
+<title>Node171&#45;&gt;Node177</title>
 <path fill="none" stroke="#191970" d="M258.8249,-193.5C276.0159,-193.5 295.9566,-193.5 314.8003,-193.5"/>
 <polygon fill="#191970" stroke="#191970" points="314.8316,-197.0001 324.8316,-193.5 314.8315,-190.0001 314.8316,-197.0001"/>
 </g>
-<!-- Node10 -->
+<!-- Node174 -->
 <g id="node5" class="node">
-<title>Node10</title>
+<title>Node174</title>
 <g id="a_node5"><a xlink:href="dlist_8h.html#a728a6246588e70e075b074b3635d2663" target="_top" xlink:title="Return the TAIL item of a list or NULL if the list is empty. ">
 <polygon fill="none" stroke="#000000" points="502,-135 502,-154 566,-154 566,-135 502,-135"/>
 <text text-anchor="middle" x="534" y="-142" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_dlist_tail</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
+<!-- Node173&#45;&gt;Node174 -->
 <g id="edge4" class="edge">
-<title>Node9&#45;&gt;Node10</title>
+<title>Node173&#45;&gt;Node174</title>
 <path fill="none" stroke="#191970" d="M436.0418,-144.5C454.1206,-144.5 474.1691,-144.5 491.3952,-144.5"/>
 <polygon fill="#191970" stroke="#191970" points="491.7133,-148.0001 501.7133,-144.5 491.7132,-141.0001 491.7133,-148.0001"/>
 </g>
-<!-- Node11 -->
+<!-- Node175 -->
 <g id="node6" class="node">
-<title>Node11</title>
+<title>Node175</title>
 <g id="a_node6"><a xlink:href="dlist_8h.html#ae4fb05ae0fb121f4255153332d3dc477" target="_top" xlink:title="Insert an item into the tail of a list. ">
 <polygon fill="none" stroke="#000000" points="487.5,-94 487.5,-113 580.5,-113 580.5,-94 487.5,-94"/>
 <text text-anchor="middle" x="534" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_dlist_insert_tail</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node11 -->
+<!-- Node173&#45;&gt;Node175 -->
 <g id="edge5" class="edge">
-<title>Node9&#45;&gt;Node11</title>
+<title>Node173&#45;&gt;Node175</title>
 <path fill="none" stroke="#191970" d="M436.0418,-130.2753C453.2797,-125.5636 472.3083,-120.3624 488.9737,-115.8072"/>
 <polygon fill="#191970" stroke="#191970" points="490.2844,-119.0774 499.0077,-113.0646 488.4387,-112.3251 490.2844,-119.0774"/>
 </g>
-<!-- Node12&#45;&gt;Node8 -->
+<!-- Node176&#45;&gt;Node172 -->
 <g id="edge7" class="edge">
-<title>Node12&#45;&gt;Node8</title>
+<title>Node176&#45;&gt;Node172</title>
 <path fill="none" stroke="#191970" d="M443.284,-242.5C451.551,-242.5 460.0848,-242.5 468.4587,-242.5"/>
 <polygon fill="#191970" stroke="#191970" points="468.5651,-246.0001 478.5651,-242.5 468.565,-239.0001 468.5651,-246.0001"/>
 </g>
-<!-- Node13&#45;&gt;Node8 -->
+<!-- Node177&#45;&gt;Node172 -->
 <g id="edge9" class="edge">
-<title>Node13&#45;&gt;Node8</title>
+<title>Node177&#45;&gt;Node172</title>
 <path fill="none" stroke="#191970" d="M430.2289,-208.6014C450.9953,-215.3851 475.2304,-223.3019 495.0551,-229.778"/>
 <polygon fill="#191970" stroke="#191970" points="494.095,-233.1463 504.6875,-232.9246 496.2687,-226.4924 494.095,-233.1463"/>
 </g>
-<!-- Node16 -->
+<!-- Node180 -->
 <g id="node11" class="node">
-<title>Node16</title>
+<title>Node180</title>
 <g id="a_node11"><a xlink:href="server_2connection_8c.html#a2d6f1844c634569f92d3edf09d80e157" target="_top" xlink:title="Add a watch entry to the pre/post[state] list. ">
 <polygon fill="none" stroke="#000000" points="326,-91 326,-110 442,-110 442,-91 326,-91"/>
 <text text-anchor="middle" x="384" y="-98" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">connection_add_watch</text>
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node16 -->
+<!-- Node179&#45;&gt;Node180 -->
 <g id="edge12" class="edge">
-<title>Node15&#45;&gt;Node16</title>
+<title>Node179&#45;&gt;Node180</title>
 <path fill="none" stroke="#191970" d="M289.4973,-104.9212C298.2536,-104.5115 307.1373,-104.0959 315.7755,-103.6918"/>
 <polygon fill="#191970" stroke="#191970" points="315.9554,-107.1873 325.7809,-103.2237 315.6283,-100.1949 315.9554,-107.1873"/>
 </g>
-<!-- Node16&#45;&gt;Node11 -->
+<!-- Node180&#45;&gt;Node175 -->
 <g id="edge13" class="edge">
-<title>Node16&#45;&gt;Node11</title>
+<title>Node180&#45;&gt;Node175</title>
 <path fill="none" stroke="#191970" d="M442.4234,-101.6685C453.76,-101.8952 465.6284,-102.1326 476.9211,-102.3584"/>
 <polygon fill="#191970" stroke="#191970" points="477.0303,-105.8612 487.0983,-102.562 477.1703,-98.8626 477.0303,-105.8612"/>
 </g>

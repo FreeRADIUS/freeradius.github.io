@@ -1,101 +1,51 @@
 <map id="main" name="main">
 <area shape="rect" id="node2" href="$time_8c.html#ae4e8a3d84ced79917092bc46c9716db5" title="Initialize the local time. " alt="" coords="123,78,217,105"/>
-<area shape="rect" id="node7" href="$lib_2util_2log_8c.html#a9db89ebd91da44570b2405864e704105" title="Initialise file descriptors based on logging destination. " alt="" coords="733,187,811,214"/>
-<area shape="rect" id="node22" href="$schedule__test_8c.html#a854a7a8a291faf5fa69061c3652e4f71" title="usage" alt="" coords="141,277,199,303"/>
-<area shape="rect" id="node23" href="$schedule_8c.html#ab140c8bb0ff070e37093055e9bbbc126" title="Create a scheduler and spawn the child threads. " alt="" coords="104,1707,236,1734"/>
-<area shape="rect" id="node96" href="$schedule_8c.html#ab72e198097f820f51d0aa40f393eb671" title="Destroy a scheduler, and tell its child threads to exit. " alt="" coords="288,441,427,467"/>
-<area shape="rect" id="node3" href="$time_8h.html#ae5cf5daac345d498ea7f319b18a85822" title="fr_time_delta_from\l_timespec" alt="" coords="492,5,623,47"/>
-<area shape="rect" id="node4" href="$time_8c.html#a1e2f9b482dd216788815aaffbade9437" title="Get a new our_realtime value. " alt="" coords="309,78,406,105"/>
-<area shape="rect" id="node5" href="$time_8h.html#ac062db095941b84b63f4c71e6ee52e26" title="fr_time_delta_from\l_timeval" alt="" coords="492,71,623,112"/>
-<area shape="rect" id="node6" href="$missing_8c.html#ac33448d8aaa3fd362ccc7eab18b248a6" title="localtime_r" alt="" coords="515,137,600,163"/>
-<area shape="rect" id="node8" href="$lib_2util_2debug_8c.html#ab1a795826e5cbaa7d2bc55e93b165b13" title="Set a callback to be called before fr_fault() " alt="" coords="929,187,1037,214"/>
-<area shape="rect" id="node9" href="$lib_2util_2log_8c.html#a63184c61725517904e68cfafe611b18f" title="On fault, reset STDOUT and STDERR to something useful. " alt="" coords="936,86,1031,113"/>
-<area shape="rect" id="node10" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1135,1366,1249,1393"/>
-<area shape="rect" id="node19" href="$syserror_8c.html#a18747f9d648d0aeecc4a8b27ac0435aa" title="Guaranteed to be thread&#45;safe version of strerror. " alt="" coords="941,1635,1025,1662"/>
-<area shape="rect" id="node21" href="$lib_2util_2debug_8c.html#a23f0242274cb6e33505b2be938f6daa9" title="Set a file descriptor to log memory reports to. " alt="" coords="919,137,1048,163"/>
-<area shape="rect" id="node11" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="1831,2066,1900,2093"/>
-<area shape="rect" id="node12" href="$strerror_8c.html#a193b1e0b3712e3bbee338812c06af482" title="fr_strerror_vprintf" alt="" coords="1325,1585,1447,1611"/>
-<area shape="rect" id="node15" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="1833,1635,1897,1662"/>
-<area shape="rect" id="node13" href="$strerror_8c.html#a42c2cc9f76fb9dac723a1903c181e1c7" title="Initialise thread local storage. " alt="" coords="1507,1635,1609,1662"/>
-<area shape="rect" id="node14" href="$strerror_8c.html#a2c8e65d6d4b73fb705cc023f60acb099" title="Print the current error to stderr with a prefix. " alt="" coords="1691,1762,1761,1789"/>
-<area shape="rect" id="node16" href="$strerror_8c.html#a9d878c1ddb1b385cdaf6523fff68529c" title="Reset cursor state. " alt="" coords="1669,1610,1783,1637"/>
-<area shape="rect" id="node17" href="$print_8c.html#a27ae94b5a4c77de49aa2f387765a4d58" title="Special version of vasprintf which implements custom format specifiers. " alt="" coords="1515,1433,1601,1459"/>
-<area shape="rect" id="node18" href="$cursor_8c.html#a5d942382660657c3b4cb6e9cb2b12b2c" title="Insert a single item at the start of the list. " alt="" coords="1495,1686,1621,1713"/>
-<area shape="rect" id="node20" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="1159,2729,1225,2755"/>
-<area shape="rect" id="node24" href="$worker_8c.html#af5ced8764ad57ac8e3baed9f1a0f1ad2" title="Asynchronously add a request_t to a worker thread. " alt="" coords="480,643,635,670"/>
-<area shape="rect" id="node33" href="$network_8c.html#a4c80d932c1f0b6d18acab84d3d228d5f" title="Create a network. " alt="" coords="494,1173,621,1199"/>
-<area shape="rect" id="node57" href="$lib_2util_2event_8c.html#ab11bb3421a03dd6cb61ed7774007e1d5" title="Add a pre&#45;event callback to the event list. " alt="" coords="705,710,839,737"/>
-<area shape="rect" id="node60" href="$lib_2util_2event_8c.html#a8fb6ee030d7d7c2d9ebec99ea7c978fe" title="Add a post&#45;event callback to the event list. " alt="" coords="702,659,842,686"/>
-<area shape="rect" id="node64" href="$network_8c.html#a2a8e169f82d1cf5a477957c86d6508fe" title="Stop a network thread in an orderly way. " alt="" coords="917,339,1050,366"/>
-<area shape="rect" id="node65" href="$worker_8c.html#a9c2264591dc785c612e1cb43a01cc815" title="Create a worker. " alt="" coords="498,2066,617,2093"/>
-<area shape="rect" id="node73" href="$cf__util_8c.html#a2c8bfb80ce8fa2752c8f8aa636dee24f" title="Find a CONF_SECTION with name1 and optionally name2. " alt="" coords="502,2851,613,2878"/>
-<area shape="rect" id="node77" href="$worker_8c.html#a750165b402fdfaeff9d96065dc3a8610" title="Destroy a worker. " alt="" coords="494,2547,621,2574"/>
-<area shape="rect" id="node81" href="$network_8c.html#a2815d31ae4124c14f95685fb4353e893" title="Add a worker to a network. " alt="" coords="479,2446,636,2473"/>
-<area shape="rect" id="node83" href="$worker_8c.html#ae96db34c95a7789f7d86f002df9645b8" title="Pre&#45;event handler. " alt="" coords="287,2646,427,2673"/>
-<area shape="rect" id="node84" href="$worker_8c.html#abae0836dd0602843f126e5ea3a37545e" title="Post&#45;event handler. " alt="" coords="284,1838,431,1865"/>
-<area shape="rect" id="node86" href="$dlist_8h.html#aca8eed7f7758b61446174a5a4d54e7b4" title="Insert an item into the head of a list. " alt="" coords="290,1889,425,1915"/>
-<area shape="rect" id="node87" href="$schedule_8c.html#a99eb52b7c63ee4ef80f51e0fffb63762" title="Creates a new thread using our standard set of options. " alt="" coords="703,1620,841,1661"/>
-<area shape="rect" id="node88" href="$schedule_8c.html#ab04866d2458f55a7a949e10e59b5f28c" title="Initialize and run the network thread. " alt="" coords="286,2465,429,2507"/>
-<area shape="rect" id="node92" href="$dlist_8h.html#ad852b167828d7848ed99ee9cae167218" title="Return the number of elements in the dlist. " alt="" coords="481,289,634,315"/>
-<area shape="rect" id="node93" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="724,339,820,366"/>
-<area shape="rect" id="node94" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="511,491,604,518"/>
-<area shape="rect" id="node95" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="502,339,613,366"/>
-<area shape="rect" id="node98" href="$schedule_8c.html#ab81ce913beed87dea43ee1bca92744c7" title="Entry point for worker threads. " alt="" coords="290,2337,425,2379"/>
-<area shape="rect" id="node25" href="$worker_8c.html#a7af51332edc8dd009766d983f2d51db5" title="Initialize various request fields needed by the worker. " alt="" coords="705,558,839,585"/>
-<area shape="rect" id="node28" href="$worker_8c.html#a3f023f6bbaf42432e9b482f50afbdf98" title="Start time tracking for a request, and mark it as runnable. " alt="" coords="701,492,843,533"/>
-<area shape="rect" id="node26" href="$lib_2util_2packet_8c.html#a423eb650322af201d32466ae0c6a6c10" title="Allocate a new fr_radius_packet_t. " alt="" coords="930,659,1037,686"/>
-<area shape="rect" id="node27" href="$worker_8c.html#a06e0ca9238055b42c3eca19ae4528896" title="itoa_internal" alt="" coords="937,609,1029,635"/>
-<area shape="rect" id="node29" href="$heap_8c.html#a09453d7e857bdc6018b0bf3a3502610f" title="Insert a new element into the heap. " alt="" coords="931,558,1035,585"/>
-<area shape="rect" id="node30" href="$time__tracking_8h.html#ac45933c357300d7a07a6960e9aacf623" title="Start time tracking for a tracked entity. " alt="" coords="909,441,1057,467"/>
-<area shape="rect" id="node31" href="$time__tracking_8h.html#a2e6bec4eb6f0501e295bf94d5a508890" title="Transition to the yielded state, recording the time we just spent running. " alt="" coords="909,1366,1058,1393"/>
-<area shape="rect" id="node32" href="$worker_8c.html#a9689cabbc749b26886ed388763c81cf3" title="See when we next need to service the time_order heap for &quot;too old&quot; packets. " alt="" coords="912,492,1055,533"/>
-<area shape="rect" id="node34" href="$network_8c.html#a420f5cd7e9dc3b2a83040efc2b388665" title="Free any resources associated with a network thread. " alt="" coords="713,1249,831,1275"/>
-<area shape="rect" id="node35" href="$atomic__queue_8c.html#a57ce23d21061bbf8eb570d844e6331c1" title="Create fixed&#45;size atomic queue. " alt="" coords="696,1518,848,1545"/>
-<area shape="rect" id="node37" href="$io_2control_8c.html#a6fe1aaa4d24914704a58df0fc37b4ecb" title="Create a control&#45;plane signaling path. " alt="" coords="713,1737,831,1763"/>
-<area shape="rect" id="node40" href="$strerror_8c.html#a2f2232a184a763c76b3d87d5bea7a868" title="Add a message to an existing stack of messages. " alt="" coords="909,1939,1058,1966"/>
-<area shape="rect" id="node42" href="$ring__buffer_8c.html#a591806571da212855676ba71c75c790c" title="Create a ring buffer. " alt="" coords="913,1214,1054,1241"/>
-<area shape="rect" id="node43" href="$io_2control_8c.html#a79b859b3f36b0f15e164e249c1cc27d2" title="Register a callback for an ID. " alt="" coords="693,1417,851,1443"/>
-<area shape="rect" id="node44" href="$network_8c.html#af3779332dc2a4fb1caaa5969fa5ad5f6" title="Handle a network control message callback for a channel. " alt="" coords="705,980,839,1021"/>
-<area shape="rect" id="node48" href="$network_8c.html#a2d8f9b9b25b16a77aca7b1ed097d9237" title="Handle a network control message callback for a new listener. " alt="" coords="684,878,860,905"/>
-<area shape="rect" id="node51" href="$network_8c.html#aed0825b9dcbb7c69e74cfbb579c7300d" title="Handle a network control message callback for a new &quot;watch directory&quot;. " alt="" coords="702,812,842,853"/>
-<area shape="rect" id="node52" href="$network_8c.html#af9807b2b7f610287b2eaf6a1c70abab8" title="Handle a network control message callback for a new worker. " alt="" coords="684,1300,860,1341"/>
-<area shape="rect" id="node53" href="$network_8c.html#a43646790dedc51a14ffa7b4173795436" title="Handle a network control message callback for a packet sent to a socket. " alt="" coords="684,1366,860,1393"/>
-<area shape="rect" id="node54" href="$network_8c.html#a4b70a38b609b14ba6b700654ac76606d" title="socket_listen_cmp" alt="" coords="707,1097,837,1123"/>
-<area shape="rect" id="node55" href="$network_8c.html#adb31bcef732010a854bb5e95d5baf48b" title="socket_num_cmp" alt="" coords="709,1147,835,1174"/>
-<area shape="rect" id="node56" href="$network_8c.html#a89bc129766103fd884849fdf8d960fd0" title="reply_cmp" alt="" coords="731,1198,813,1225"/>
-<area shape="rect" id="node59" href="$network_8c.html#af63f9f36d081f83d91c9d4e2d1256845" title="fr_network_pre_event" alt="" coords="1119,378,1265,405"/>
-<area shape="rect" id="node61" href="$network_8c.html#ac97d3b89f6be0a69de8d6077dae26b78" title="fr_network_post_event" alt="" coords="1115,302,1269,329"/>
-<area shape="rect" id="node62" href="$misc_8c.html#a43446718c7dcd3f63fdeb85e01807621" title="fr_nonblock" alt="" coords="939,811,1028,838"/>
-<area shape="rect" id="node63" href="$network_8c.html#a860e2e4ce1d0b60bbd0d7cd852e0bfc6" title="Read handler for signal pipe. " alt="" coords="709,929,835,955"/>
-<area shape="rect" id="node36" href="$talloc_8c.html#ab287847ee1ecaeaa96d876377e92c705" title="Return a page aligned talloc memory array. " alt="" coords="915,1265,1052,1291"/>
-<area shape="rect" id="node38" href="$io_2control_8c.html#a3d98ec93d959cc56bd469f9efa2ca1e6" title="Free a control structure. " alt="" coords="935,1686,1032,1713"/>
-<area shape="rect" id="node39" href="$io_2control_8c.html#acf2c63f36d68ca055144afb5cd2f29df" title="pipe_read" alt="" coords="944,1737,1023,1763"/>
-<area shape="rect" id="node41" href="$lib_2util_2event_8c.html#af6076a992ea192f2616cd923601fe5fe" title="Armour an FD. " alt="" coords="916,1534,1051,1561"/>
-<area shape="rect" id="node45" href="$channel_8c.html#a89754d8b4cfcb9fe848a60910945e37f" title="Service a control&#45;plane message. " alt="" coords="918,1468,1049,1509"/>
-<area shape="rect" id="node46" href="$channel_8c.html#a32bb4d544e4382e1a6d51ad2061b9b74" title="Receive a reply message from the channel. " alt="" coords="909,1030,1058,1057"/>
-<area shape="rect" id="node47" href="$channel_8c.html#a26b12453359ec405b0644b65249313e5" title="Get network&#45;specific data from a channel. " alt="" coords="912,964,1055,1005"/>
-<area shape="rect" id="node49" href="$network_8c.html#adc2a6c3fca43148d57f9f9d252296d51" title="waiting_cmp" alt="" coords="936,913,1031,939"/>
-<area shape="rect" id="node50" href="$network_8c.html#af07b01b13ba7910f543953d983f67ae7" title="_network_socket_free" alt="" coords="908,862,1059,889"/>
-<area shape="rect" id="node58" href="$dlist_8h.html#ae4fb05ae0fb121f4255153332d3dc477" title="Insert an item into the tail of a list. " alt="" coords="921,761,1045,787"/>
-<area shape="rect" id="node66" href="$time_8h.html#a3f87b408dfcb4d3212d1c8831ed360cd" title="fr_time_delta_from_sec" alt="" coords="693,2345,851,2371"/>
-<area shape="rect" id="node67" href="$worker_8c.html#a102950eafb42c50b10b62b79b661c6e3" title="Handle a control plane message sent to the worker via a channel. " alt="" coords="688,2041,856,2067"/>
-<area shape="rect" id="node70" href="$worker_8c.html#afe5db44f0aa2f9aa07fd6f0ff18a5291" title="Track a request_t in the &quot;runnable&quot; heap. " alt="" coords="697,2091,847,2118"/>
-<area shape="rect" id="node71" href="$worker_8c.html#a05661adc485a4798fed967bb277aaa0d" title="Track a request_t in the &quot;time_order&quot; heap. " alt="" coords="691,2142,853,2169"/>
-<area shape="rect" id="node72" href="$worker_8c.html#a642a9d419595e5be31d2c51f8c9ae63d" title="Track a request_t in the &quot;dedup&quot; tree. " alt="" coords="705,2193,839,2219"/>
-<area shape="rect" id="node68" href="$channel_8c.html#aed3861ac1807f11561633edccad0cf3a" title="Acknowledge that the channel is closing. " alt="" coords="910,2599,1057,2640"/>
-<area shape="rect" id="node69" href="$io_2control_8c.html#a991b4f6d08aa02cf4ffb69dcf0a09695" title="Send a control&#45;plane message. " alt="" coords="1107,2551,1277,2578"/>
-<area shape="rect" id="node74" href="$cf__util_8c.html#aab50ea84d9d2e1a6305416daee9206b8" title="Cast a CONF_ITEM to a CONF_SECTION. " alt="" coords="706,2902,838,2929"/>
-<area shape="rect" id="node75" href="$cf__util_8c.html#aba0182314085bc7d3e26d74b7c6d2e22" title="Return the next child that&#39;s of the specified type with the specified identifiers. " alt="" coords="741,2953,803,2979"/>
-<area shape="rect" id="node76" href="$cf__util_8c.html#a11cfb91b7dd7bf343a4031ba7846c2ad" title="Cast a CONF_SECTION to a CONF_ITEM. " alt="" coords="706,2851,838,2878"/>
-<area shape="rect" id="node78" href="$heap_8c.html#ab084b77223ee54a38005dfc8113b679a" title="fr_heap_peek" alt="" coords="722,2699,822,2726"/>
-<area shape="rect" id="node79" href="$worker_8c.html#a2341ebb8fe35b4468abbc0816c13009e" title="Signal the unlang interpreter that it needs to stop running the request. " alt="" coords="912,2547,1055,2574"/>
-<area shape="rect" id="node80" href="$heap_8c.html#a3090137dd1e54a14bf4fc24f373c7627" title="fr_heap_num_elements" alt="" coords="693,2547,851,2574"/>
-<area shape="rect" id="node82" href="$network_8c.html#ae07deb6f70bb80066791a8848f81e3a9" title="Initialise thread local storage. " alt="" coords="709,1889,835,1915"/>
-<area shape="rect" id="node85" href="$worker_8c.html#a1c41db86e6a1350fb533d384d760daf5" title="Run a request. " alt="" coords="704,1990,840,2017"/>
-<area shape="rect" id="node89" href="$lib_2util_2event_8c.html#a05e190e1b4dc9dcbcc8488544edb012d" title="Initialise a new event list. " alt="" coords="494,2395,621,2422"/>
-<area shape="rect" id="node90" href="$schedule_8c.html#a3bfb505ddadae07cb85fd47052abc5f2" title="stats_timer" alt="" coords="514,2649,601,2675"/>
-<area shape="rect" id="node91" href="$network_8c.html#a4f185dff1cbfa9012e3609f6c7619e97" title="The main network worker function. " alt="" coords="516,2497,599,2523"/>
-<area shape="rect" id="node97" href="$network_8c.html#a745412021d2ffee49cdf6af211869454" title="Signal a network thread to exit. " alt="" coords="717,1569,827,1595"/>
-<area shape="rect" id="node99" href="$worker_8c.html#abe0907d923c82ecdade2df1b6195cc87" title="The main loop and entry point of the worker thread. " alt="" coords="519,2294,595,2321"/>
-<area shape="rect" id="node100" href="$lib_2util_2event_8c.html#ac503ce058379cef250c83c768e1621cd" title="Signal an event loop exit with the specified code. " alt="" coords="493,2345,621,2371"/>
+<area shape="rect" id="node7" href="$lib_2util_2log_8c.html#a9db89ebd91da44570b2405864e704105" title="Initialise file descriptors based on logging destination. " alt="" coords="741,187,819,214"/>
+<area shape="rect" id="node18" href="$schedule__test_8c.html#a854a7a8a291faf5fa69061c3652e4f71" title="usage" alt="" coords="141,1207,199,1234"/>
+<area shape="rect" id="node19" href="$schedule_8c.html#ab140c8bb0ff070e37093055e9bbbc126" title="Create a scheduler and spawn the child threads. " alt="" coords="104,1106,236,1133"/>
+<area shape="rect" id="node48" href="$schedule_8c.html#ab72e198097f820f51d0aa40f393eb671" title="Destroy a scheduler, and tell its child threads to exit. " alt="" coords="292,1519,431,1546"/>
+<area shape="rect" id="node3" href="$time_8h.html#ae5cf5daac345d498ea7f319b18a85822" title="fr_time_delta_from\l_timespec" alt="" coords="500,5,631,47"/>
+<area shape="rect" id="node4" href="$time_8c.html#a1e2f9b482dd216788815aaffbade9437" title="Get a new our_realtime value. " alt="" coords="313,78,410,105"/>
+<area shape="rect" id="node5" href="$time_8h.html#ac062db095941b84b63f4c71e6ee52e26" title="fr_time_delta_from\l_timeval" alt="" coords="500,71,631,112"/>
+<area shape="rect" id="node6" href="$missing_8c.html#ac33448d8aaa3fd362ccc7eab18b248a6" title="localtime_r" alt="" coords="523,137,608,163"/>
+<area shape="rect" id="node8" href="$lib_2util_2debug_8c.html#ab1a795826e5cbaa7d2bc55e93b165b13" title="Set a callback to be called before fr_fault() " alt="" coords="937,137,1045,163"/>
+<area shape="rect" id="node9" href="$lib_2util_2log_8c.html#a63184c61725517904e68cfafe611b18f" title="On fault, reset STDOUT and STDERR to something useful. " alt="" coords="943,187,1038,214"/>
+<area shape="rect" id="node10" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="933,813,1048,839"/>
+<area shape="rect" id="node15" href="$syserror_8c.html#a18747f9d648d0aeecc4a8b27ac0435aa" title="Guaranteed to be thread&#45;safe version of strerror. " alt="" coords="949,1073,1033,1099"/>
+<area shape="rect" id="node17" href="$lib_2util_2debug_8c.html#a23f0242274cb6e33505b2be938f6daa9" title="Set a file descriptor to log memory reports to. " alt="" coords="926,238,1055,265"/>
+<area shape="rect" id="node11" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="1401,1066,1471,1093"/>
+<area shape="rect" id="node12" href="$strerror_8c.html#a193b1e0b3712e3bbee338812c06af482" title="fr_strerror_vprintf" alt="" coords="1113,863,1235,890"/>
+<area shape="rect" id="node14" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="1404,914,1468,941"/>
+<area shape="rect" id="node13" href="$strerror_8c.html#a2c8e65d6d4b73fb705cc023f60acb099" title="Print the current error to stderr with a prefix. " alt="" coords="1283,965,1353,991"/>
+<area shape="rect" id="node16" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="1141,1231,1207,1258"/>
+<area shape="rect" id="node20" href="$worker_8c.html#af5ced8764ad57ac8e3baed9f1a0f1ad2" title="Asynchronously add a request_t to a worker thread. " alt="" coords="284,462,439,489"/>
+<area shape="rect" id="node23" href="$network_8c.html#a4c80d932c1f0b6d18acab84d3d228d5f" title="Create a network. " alt="" coords="502,678,629,705"/>
+<area shape="rect" id="node32" href="$lib_2util_2event_8c.html#ab11bb3421a03dd6cb61ed7774007e1d5" title="Add a pre&#45;event callback to the event list. " alt="" coords="713,390,847,417"/>
+<area shape="rect" id="node33" href="$lib_2util_2event_8c.html#a8fb6ee030d7d7c2d9ebec99ea7c978fe" title="Add a post&#45;event callback to the event list. " alt="" coords="710,339,850,366"/>
+<area shape="rect" id="node34" href="$worker_8c.html#a9c2264591dc785c612e1cb43a01cc815" title="Create a worker. " alt="" coords="506,862,625,889"/>
+<area shape="rect" id="node35" href="$network_8c.html#a2a8e169f82d1cf5a477957c86d6508fe" title="Stop a network thread in an orderly way. " alt="" coords="499,1486,632,1513"/>
+<area shape="rect" id="node36" href="$cf__util_8c.html#a2c8bfb80ce8fa2752c8f8aa636dee24f" title="Find a CONF_SECTION with name1 and optionally name2. " alt="" coords="510,1182,621,1209"/>
+<area shape="rect" id="node37" href="$worker_8c.html#a750165b402fdfaeff9d96065dc3a8610" title="Destroy a worker. " alt="" coords="502,1435,629,1462"/>
+<area shape="rect" id="node38" href="$network_8c.html#a2815d31ae4124c14f95685fb4353e893" title="Add a worker to a network. " alt="" coords="487,1233,644,1259"/>
+<area shape="rect" id="node39" href="$worker_8c.html#ae96db34c95a7789f7d86f002df9645b8" title="Pre&#45;event handler. " alt="" coords="291,862,431,889"/>
+<area shape="rect" id="node40" href="$worker_8c.html#abae0836dd0602843f126e5ea3a37545e" title="Post&#45;event handler. " alt="" coords="288,913,435,939"/>
+<area shape="rect" id="node41" href="$dlist_8h.html#aca8eed7f7758b61446174a5a4d54e7b4" title="Insert an item into the head of a list. " alt="" coords="294,1401,429,1427"/>
+<area shape="rect" id="node42" href="$schedule_8c.html#a99eb52b7c63ee4ef80f51e0fffb63762" title="Creates a new thread using our standard set of options. " alt="" coords="711,1065,849,1107"/>
+<area shape="rect" id="node43" href="$schedule_8c.html#ab04866d2458f55a7a949e10e59b5f28c" title="Initialize and run the network thread. " alt="" coords="290,964,433,1005"/>
+<area shape="rect" id="node44" href="$dlist_8h.html#ad852b167828d7848ed99ee9cae167218" title="Return the number of elements in the dlist. " alt="" coords="489,1689,642,1715"/>
+<area shape="rect" id="node45" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="732,1486,828,1513"/>
+<area shape="rect" id="node46" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="519,1385,612,1411"/>
+<area shape="rect" id="node47" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="510,1739,621,1766"/>
+<area shape="rect" id="node50" href="$schedule_8c.html#ab81ce913beed87dea43ee1bca92744c7" title="Entry point for worker threads. " alt="" coords="294,1233,429,1275"/>
+<area shape="rect" id="node21" href="$worker_8c.html#a7af51332edc8dd009766d983f2d51db5" title="Initialize various request fields needed by the worker. " alt="" coords="498,491,633,518"/>
+<area shape="rect" id="node22" href="$worker_8c.html#a3f023f6bbaf42432e9b482f50afbdf98" title="Start time tracking for a request, and mark it as runnable. " alt="" coords="494,425,637,467"/>
+<area shape="rect" id="node24" href="$network_8c.html#a420f5cd7e9dc3b2a83040efc2b388665" title="Free any resources associated with a network thread. " alt="" coords="721,593,839,619"/>
+<area shape="rect" id="node25" href="$atomic__queue_8c.html#a57ce23d21061bbf8eb570d844e6331c1" title="Create fixed&#45;size atomic queue. " alt="" coords="704,811,856,838"/>
+<area shape="rect" id="node26" href="$io_2control_8c.html#a6fe1aaa4d24914704a58df0fc37b4ecb" title="Create a control&#45;plane signaling path. " alt="" coords="721,913,839,939"/>
+<area shape="rect" id="node27" href="$strerror_8c.html#a2f2232a184a763c76b3d87d5bea7a868" title="Add a message to an existing stack of messages. " alt="" coords="916,914,1065,941"/>
+<area shape="rect" id="node28" href="$ring__buffer_8c.html#a591806571da212855676ba71c75c790c" title="Create a ring buffer. " alt="" coords="709,542,851,569"/>
+<area shape="rect" id="node29" href="$io_2control_8c.html#a79b859b3f36b0f15e164e249c1cc27d2" title="Register a callback for an ID. " alt="" coords="701,710,859,737"/>
+<area shape="rect" id="node30" href="$network_8c.html#af3779332dc2a4fb1caaa5969fa5ad5f6" title="Handle a network control message callback for a channel. " alt="" coords="713,644,847,685"/>
+<area shape="rect" id="node31" href="$network_8c.html#a2d8f9b9b25b16a77aca7b1ed097d9237" title="Handle a network control message callback for a new listener. " alt="" coords="692,441,868,467"/>
+<area shape="rect" id="node49" href="$network_8c.html#a745412021d2ffee49cdf6af211869454" title="Signal a network thread to exit. " alt="" coords="725,1182,835,1209"/>
 </map>

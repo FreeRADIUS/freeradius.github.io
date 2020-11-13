@@ -54,76 +54,76 @@ var sectionId = 'dynsection-3';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>_xlat_async_thread_instantiate_set</title>
-<!-- Node1 -->
+<!-- Node2 -->
 <g id="node1" class="node">
-<title>Node1</title>
+<title>Node2</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-80 0,-110 101,-110 101,-80 0,-80"/>
 <text text-anchor="start" x="8" y="-98" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_xlat_async_thread</text>
 <text text-anchor="middle" x="50.5" y="-87" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_instantiate_set</text>
 </g>
-<!-- Node2 -->
+<!-- Node3 -->
 <g id="node2" class="node">
-<title>Node2</title>
+<title>Node3</title>
 <g id="a_node2"><a xlink:href="radiusd_8c.html#a9912d1214e56db323c29f4dfd5dab8b2" target="_top" xlink:title="Create module and xlat per&#45;thread instances. ">
 <polygon fill="none" stroke="#000000" points="137,-104.5 137,-123.5 231,-123.5 231,-104.5 137,-104.5"/>
 <text text-anchor="middle" x="184" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">thread_instantiate</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
+<!-- Node2&#45;&gt;Node3 -->
 <g id="edge1" class="edge">
-<title>Node1&#45;&gt;Node2</title>
+<title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="#191970" d="M101.3515,-102.2373C109.6284,-103.4153 118.2517,-104.6426 126.6709,-105.8408"/>
 <polygon fill="#191970" stroke="#191970" points="126.4089,-109.3387 136.8023,-107.2827 127.3952,-102.4085 126.4089,-109.3387"/>
 </g>
-<!-- Node638 -->
+<!-- Node160 -->
 <g id="node17" class="node">
-<title>Node638</title>
+<title>Node160</title>
 <g id="a_node17"><a xlink:href="radiusd_8c.html#a19ab9b70f8811a8dbc28ae35c7f4d2c5" target="_top" xlink:title="Explicitly cleanup module/xlat resources. ">
 <polygon fill="none" stroke="#000000" points="145,-66.5 145,-85.5 223,-85.5 223,-66.5 145,-66.5"/>
 <text text-anchor="middle" x="184" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">thread_detach</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node638 -->
+<!-- Node2&#45;&gt;Node160 -->
 <g id="edge17" class="edge">
-<title>Node1&#45;&gt;Node638</title>
+<title>Node2&#45;&gt;Node160</title>
 <path fill="none" stroke="#191970" d="M101.3515,-87.7627C112.2961,-86.2051 123.8462,-84.5612 134.7294,-83.0123"/>
 <polygon fill="#191970" stroke="#191970" points="135.5108,-86.4364 144.9179,-81.5622 134.5245,-79.5063 135.5108,-86.4364"/>
 </g>
-<!-- Node3 -->
+<!-- Node4 -->
 <g id="node3" class="node">
-<title>Node3</title>
+<title>Node4</title>
 <g id="a_node3"><a xlink:href="src_2lib_2server_2module_8c.html#a23227f7ed61968aa8de1c751c325ead8" target="_top" xlink:title="Creates per&#45;thread instance data for modules which need it. ">
 <polygon fill="none" stroke="#000000" points="267,-161.5 267,-180.5 403,-180.5 403,-161.5 267,-161.5"/>
 <text text-anchor="middle" x="335" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">modules_thread_instantiate</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
+<!-- Node3&#45;&gt;Node4 -->
 <g id="edge2" class="edge">
-<title>Node2&#45;&gt;Node3</title>
+<title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="#191970" d="M209.274,-123.5405C234.0991,-132.9116 272.183,-147.2876 299.9317,-157.7623"/>
 <polygon fill="#191970" stroke="#191970" points="299.0518,-161.1712 309.6435,-161.4284 301.524,-154.6222 299.0518,-161.1712"/>
 </g>
-<!-- Node16 -->
+<!-- Node17 -->
 <g id="node11" class="node">
-<title>Node16</title>
+<title>Node17</title>
 <g id="a_node11"><a xlink:href="xlat_8h.html#a89d0b9b6f4cdeff9df76e659fe120e33" target="_top" xlink:title="Create thread specific instance tree and create thread instances. ">
 <polygon fill="none" stroke="#000000" points="277.5,-104.5 277.5,-123.5 392.5,-123.5 392.5,-104.5 277.5,-104.5"/>
 <text text-anchor="middle" x="335" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xlat_thread_instantiate</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node16 -->
+<!-- Node3&#45;&gt;Node17 -->
 <g id="edge10" class="edge">
-<title>Node2&#45;&gt;Node16</title>
+<title>Node3&#45;&gt;Node17</title>
 <path fill="none" stroke="#191970" d="M231.363,-114C242.7825,-114 255.2042,-114 267.3518,-114"/>
 <polygon fill="#191970" stroke="#191970" points="267.4633,-117.5001 277.4633,-114 267.4632,-110.5001 267.4633,-117.5001"/>
 </g>
-<!-- Node4 -->
+<!-- Node5 -->
 <g id="node4" class="node">
-<title>Node4</title>
+<title>Node5</title>
 <g id="a_node4"><a xlink:href="src_2lib_2server_2module_8c.html#a834eeddd65450636f965c3d7522e79b8" target="_top" xlink:title="Destructor for module_thread_instance_t array. ">
 <polygon fill="none" stroke="#000000" points="453.5,-219 453.5,-249 560.5,-249 560.5,-219 453.5,-219"/>
 <text text-anchor="start" x="461.5" y="-237" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_module_thread_inst</text>
@@ -131,210 +131,210 @@ var sectionId = 'dynsection-3';
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node4 -->
+<!-- Node4&#45;&gt;Node5 -->
 <g id="edge3" class="edge">
-<title>Node3&#45;&gt;Node4</title>
+<title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="#191970" d="M361.1231,-180.5683C386.3326,-189.802 425.1692,-204.0271 456.4338,-215.4787"/>
 <polygon fill="#191970" stroke="#191970" points="455.2763,-218.782 465.87,-218.935 457.6839,-212.2091 455.2763,-218.782"/>
 </g>
-<!-- Node5 -->
+<!-- Node6 -->
 <g id="node5" class="node">
-<title>Node5</title>
+<title>Node6</title>
 <g id="a_node5"><a xlink:href="rbtree_8c.html#a3152a4d0a82814f872f93d5ce1a5186c" target="_top" xlink:title="rbtree_walk">
 <polygon fill="none" stroke="#000000" points="473.5,-142.5 473.5,-161.5 540.5,-161.5 540.5,-142.5 473.5,-142.5"/>
 <text text-anchor="middle" x="507" y="-149.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">rbtree_walk</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node5 -->
+<!-- Node4&#45;&gt;Node6 -->
 <g id="edge4" class="edge">
-<title>Node3&#45;&gt;Node5</title>
+<title>Node4&#45;&gt;Node6</title>
 <path fill="none" stroke="#191970" d="M403.4732,-163.4361C423.6148,-161.2112 445.096,-158.8382 463.24,-156.834"/>
 <polygon fill="#191970" stroke="#191970" points="463.6683,-160.308 473.2236,-155.7311 462.8997,-153.3503 463.6683,-160.308"/>
 </g>
-<!-- Node15 -->
+<!-- Node16 -->
 <g id="node10" class="node">
-<title>Node15</title>
+<title>Node16</title>
 <g id="a_node10"><a xlink:href="src_2lib_2server_2module_8c.html#a832fdaec142d6d87bab38eebba3cd244" target="_top" xlink:title="Setup thread specific instance data for a module. ">
 <polygon fill="none" stroke="#000000" points="439,-180.5 439,-199.5 575,-199.5 575,-180.5 439,-180.5"/>
 <text text-anchor="middle" x="507" y="-187.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_module_thread_instantiate</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node15 -->
+<!-- Node4&#45;&gt;Node16 -->
 <g id="edge9" class="edge">
-<title>Node3&#45;&gt;Node15</title>
+<title>Node4&#45;&gt;Node16</title>
 <path fill="none" stroke="#191970" d="M403.4732,-178.5639C411.7318,-179.4762 420.2157,-180.4134 428.6024,-181.3398"/>
 <polygon fill="#191970" stroke="#191970" points="428.4386,-184.8429 438.7624,-182.4621 429.2072,-177.8852 428.4386,-184.8429"/>
 </g>
-<!-- Node6 -->
+<!-- Node7 -->
 <g id="node6" class="node">
-<title>Node6</title>
+<title>Node7</title>
 <g id="a_node6"><a xlink:href="rbtree_8c.html#a53c88bd1822067994ece42365515c79c" target="_top" xlink:title="Walk the tree, Pre&#45;order. ">
 <polygon fill="none" stroke="#000000" points="613.5,-209.5 613.5,-228.5 722.5,-228.5 722.5,-209.5 613.5,-209.5"/>
 <text text-anchor="middle" x="668" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">walk_node_pre_order</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
+<!-- Node6&#45;&gt;Node7 -->
 <g id="edge5" class="edge">
-<title>Node5&#45;&gt;Node6</title>
+<title>Node6&#45;&gt;Node7</title>
 <path fill="none" stroke="#191970" d="M540.5283,-158.497C551.8504,-161.4304 564.3189,-165.5031 575,-171 593.2684,-180.4016 592.9689,-190.1511 611,-200 614.9164,-202.1392 619.1157,-204.0941 623.3939,-205.8664"/>
 <polygon fill="#191970" stroke="#191970" points="622.2159,-209.163 632.8067,-209.4556 624.71,-202.6223 622.2159,-209.163"/>
 </g>
-<!-- Node7 -->
+<!-- Node8 -->
 <g id="node7" class="node">
-<title>Node7</title>
+<title>Node8</title>
 <g id="a_node7"><a xlink:href="rbtree_8c.html#a0b811b62adbe2fb22bf70cc36ad57671" target="_top" xlink:title="rbtree_in_order ">
 <polygon fill="none" stroke="#000000" points="616.5,-171.5 616.5,-190.5 719.5,-190.5 719.5,-171.5 616.5,-171.5"/>
 <text text-anchor="middle" x="668" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">walk_node_in_order</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node7 -->
+<!-- Node6&#45;&gt;Node8 -->
 <g id="edge6" class="edge">
-<title>Node5&#45;&gt;Node7</title>
+<title>Node6&#45;&gt;Node8</title>
 <path fill="none" stroke="#191970" d="M540.7509,-158.0794C559.7017,-161.4929 583.9423,-165.8592 606.1723,-169.8633"/>
 <polygon fill="#191970" stroke="#191970" points="605.7562,-173.3446 616.2183,-171.6729 606.9972,-166.4555 605.7562,-173.3446"/>
 </g>
-<!-- Node8 -->
+<!-- Node9 -->
 <g id="node8" class="node">
-<title>Node8</title>
+<title>Node9</title>
 <g id="a_node8"><a xlink:href="rbtree_8c.html#af49802c2feef6ee7d874a06df2ad61d8" target="_top" xlink:title="rbtree_post_order ">
 <polygon fill="none" stroke="#000000" points="611,-133.5 611,-152.5 725,-152.5 725,-133.5 611,-133.5"/>
 <text text-anchor="middle" x="668" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">walk_node_post_order</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node8 -->
+<!-- Node6&#45;&gt;Node9 -->
 <g id="edge7" class="edge">
-<title>Node5&#45;&gt;Node8</title>
+<title>Node6&#45;&gt;Node9</title>
 <path fill="none" stroke="#191970" d="M540.7509,-150.1133C558.1839,-149.1388 580.0932,-147.914 600.7959,-146.7567"/>
 <polygon fill="#191970" stroke="#191970" points="601.0482,-150.2482 610.8373,-146.1954 600.6575,-143.2591 601.0482,-150.2482"/>
 </g>
-<!-- Node9 -->
+<!-- Node10 -->
 <g id="node9" class="node">
-<title>Node9</title>
+<title>Node10</title>
 <g id="a_node9"><a xlink:href="rbtree_8c.html#a6bb9d93ba4f73f34a3122669e0e1e17c" target="_top" xlink:title="rbtree_delete_order ">
 <polygon fill="none" stroke="#ff0000" points="620.5,-95.5 620.5,-114.5 715.5,-114.5 715.5,-95.5 620.5,-95.5"/>
 <text text-anchor="middle" x="668" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">walk_delete_order</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node9 -->
+<!-- Node6&#45;&gt;Node10 -->
 <g id="edge8" class="edge">
-<title>Node5&#45;&gt;Node9</title>
+<title>Node6&#45;&gt;Node10</title>
 <path fill="none" stroke="#191970" d="M540.5872,-142.7587C551.569,-139.6988 563.8166,-136.2456 575,-133 592.0311,-128.0574 610.765,-122.4501 626.9281,-117.5584"/>
 <polygon fill="#191970" stroke="#191970" points="628.0683,-120.8701 636.6214,-114.6175 626.036,-114.1716 628.0683,-120.8701"/>
 </g>
-<!-- Node16&#45;&gt;Node5 -->
+<!-- Node17&#45;&gt;Node6 -->
 <g id="edge13" class="edge">
-<title>Node16&#45;&gt;Node5</title>
+<title>Node17&#45;&gt;Node6</title>
 <path fill="none" stroke="#191970" d="M378.4029,-123.589C404.4083,-129.3344 437.3661,-136.6158 463.4056,-142.3687"/>
 <polygon fill="#191970" stroke="#191970" points="462.8576,-145.8319 473.3772,-144.5717 464.3677,-138.9968 462.8576,-145.8319"/>
 </g>
-<!-- Node17 -->
+<!-- Node18 -->
 <g id="node12" class="node">
-<title>Node17</title>
+<title>Node18</title>
 <g id="a_node12"><a xlink:href="xlat__inst_8c.html#a7c5bfb52730da799e61858f189828b5b" target="_top" xlink:title="Compare two thread instances based on node pointer. ">
 <polygon fill="none" stroke="#000000" points="449.5,-104.5 449.5,-123.5 564.5,-123.5 564.5,-104.5 449.5,-104.5"/>
 <text text-anchor="middle" x="507" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_xlat_thread_inst_cmp</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node17 -->
+<!-- Node17&#45;&gt;Node18 -->
 <g id="edge11" class="edge">
-<title>Node16&#45;&gt;Node17</title>
+<title>Node17&#45;&gt;Node18</title>
 <path fill="none" stroke="#191970" d="M392.752,-114C407.5801,-114 423.6686,-114 438.9636,-114"/>
 <polygon fill="#191970" stroke="#191970" points="439.4005,-117.5001 449.4004,-114 439.4004,-110.5001 439.4005,-117.5001"/>
 </g>
-<!-- Node18 -->
+<!-- Node19 -->
 <g id="node13" class="node">
-<title>Node18</title>
+<title>Node19</title>
 <g id="a_node13"><a xlink:href="xlat__inst_8c.html#ac53837a23b0106c6ebf190906a49d035" target="_top" xlink:title="Destructor for xlat_thread_inst_tree elements. ">
 <polygon fill="none" stroke="#000000" points="450.5,-66.5 450.5,-85.5 563.5,-85.5 563.5,-66.5 450.5,-66.5"/>
 <text text-anchor="middle" x="507" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_xlat_thread_inst_free</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node18 -->
+<!-- Node17&#45;&gt;Node19 -->
 <g id="edge12" class="edge">
-<title>Node16&#45;&gt;Node18</title>
+<title>Node17&#45;&gt;Node19</title>
 <path fill="none" stroke="#191970" d="M378.4029,-104.411C401.4068,-99.3287 429.8509,-93.0446 454.1342,-87.6797"/>
 <polygon fill="#191970" stroke="#191970" points="454.8998,-91.095 463.9092,-85.5201 453.3896,-84.2598 454.8998,-91.095"/>
 </g>
-<!-- Node19 -->
+<!-- Node20 -->
 <g id="node14" class="node">
-<title>Node19</title>
+<title>Node20</title>
 <g id="a_node14"><a xlink:href="xlat__inst_8c.html#a8acf53ede4d76f8a6820e0f7cc7aa4d6" target="_top" xlink:title="Walker callback for xlat_inst_tree. ">
 <polygon fill="none" stroke="#000000" points="447,-28.5 447,-47.5 567,-47.5 567,-28.5 447,-28.5"/>
 <text text-anchor="middle" x="507" y="-35.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_xlat_thread_instantiate</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node19 -->
+<!-- Node17&#45;&gt;Node20 -->
 <g id="edge14" class="edge">
-<title>Node16&#45;&gt;Node19</title>
+<title>Node17&#45;&gt;Node20</title>
 <path fill="none" stroke="#191970" d="M382.1104,-104.441C389.3832,-101.9592 396.5961,-98.8599 403,-95 422.9249,-82.9902 419.0751,-69.0098 439,-57 442.6022,-54.8288 446.4603,-52.8983 450.4412,-51.1829"/>
 <polygon fill="#191970" stroke="#191970" points="451.8062,-54.408 459.8896,-47.559 449.2994,-47.8723 451.8062,-54.408"/>
 </g>
-<!-- Node20 -->
+<!-- Node21 -->
 <g id="node15" class="node">
-<title>Node20</title>
+<title>Node21</title>
 <g id="a_node15"><a xlink:href="xlat__inst_8c.html#af32632c5940a8835847ec5c809cbcbcc" target="_top" xlink:title="Create thread instances where needed. ">
 <polygon fill="none" stroke="#ff0000" points="612.5,-38.5 612.5,-57.5 723.5,-57.5 723.5,-38.5 612.5,-38.5"/>
 <text text-anchor="middle" x="668" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xlat_thread_inst_alloc</text>
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node20 -->
+<!-- Node20&#45;&gt;Node21 -->
 <g id="edge15" class="edge">
-<title>Node19&#45;&gt;Node20</title>
+<title>Node20&#45;&gt;Node21</title>
 <path fill="none" stroke="#191970" d="M567.4085,-41.7521C578.7955,-42.4593 590.7554,-43.2022 602.2952,-43.919"/>
 <polygon fill="#191970" stroke="#191970" points="602.1054,-47.4138 612.3032,-44.5406 602.5394,-40.4273 602.1054,-47.4138"/>
 </g>
-<!-- Node22 -->
+<!-- Node23 -->
 <g id="node16" class="node">
-<title>Node22</title>
+<title>Node23</title>
 <g id="a_node16"><a xlink:href="rbtree_8c.html#a79839e37a71b50c3d31a875351cc0a87" target="_top" xlink:title="rbtree_insert">
 <polygon fill="none" stroke="#ff0000" points="632.5,-.5 632.5,-19.5 703.5,-19.5 703.5,-.5 632.5,-.5"/>
 <text text-anchor="middle" x="668" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">rbtree_insert</text>
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node22 -->
+<!-- Node20&#45;&gt;Node23 -->
 <g id="edge16" class="edge">
-<title>Node19&#45;&gt;Node22</title>
+<title>Node20&#45;&gt;Node23</title>
 <path fill="none" stroke="#191970" d="M561.9568,-28.4423C581.6332,-25.0203 603.5811,-21.2033 622.3819,-17.9336"/>
 <polygon fill="#191970" stroke="#191970" points="623.2162,-21.3411 632.4686,-16.1794 622.0167,-14.4446 623.2162,-21.3411"/>
 </g>
-<!-- Node639 -->
+<!-- Node161 -->
 <g id="node18" class="node">
-<title>Node639</title>
+<title>Node161</title>
 <g id="a_node18"><a xlink:href="src_2lib_2server_2module_8c.html#a72c31d667616da81ad575be2f99f7fb4" target="_top" xlink:title="Explicitly call thread_detach and free any module thread instances. ">
 <polygon fill="none" stroke="#000000" points="275,-66.5 275,-85.5 395,-85.5 395,-66.5 275,-66.5"/>
 <text text-anchor="middle" x="335" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">modules_thread_detach</text>
 </a>
 </g>
 </g>
-<!-- Node638&#45;&gt;Node639 -->
+<!-- Node160&#45;&gt;Node161 -->
 <g id="edge18" class="edge">
-<title>Node638&#45;&gt;Node639</title>
+<title>Node160&#45;&gt;Node161</title>
 <path fill="none" stroke="#191970" d="M223.2793,-76C235.9363,-76 250.3732,-76 264.5699,-76"/>
 <polygon fill="#191970" stroke="#191970" points="264.8361,-79.5001 274.8361,-76 264.836,-72.5001 264.8361,-79.5001"/>
 </g>
-<!-- Node640 -->
+<!-- Node162 -->
 <g id="node19" class="node">
-<title>Node640</title>
+<title>Node162</title>
 <g id="a_node19"><a xlink:href="xlat_8h.html#a3014beaeeb85645a3db3829ae11b2a2e" target="_top" xlink:title="Destroy any thread specific xlat instances. ">
 <polygon fill="none" stroke="#000000" points="285.5,-28.5 285.5,-47.5 384.5,-47.5 384.5,-28.5 285.5,-28.5"/>
 <text text-anchor="middle" x="335" y="-35.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xlat_thread_detach</text>
 </a>
 </g>
 </g>
-<!-- Node638&#45;&gt;Node640 -->
+<!-- Node160&#45;&gt;Node162 -->
 <g id="edge19" class="edge">
-<title>Node638&#45;&gt;Node640</title>
+<title>Node160&#45;&gt;Node162</title>
 <path fill="none" stroke="#191970" d="M222.1037,-66.411C241.94,-61.4191 266.3839,-55.2676 287.4483,-49.9666"/>
 <polygon fill="#191970" stroke="#191970" points="288.3269,-53.3548 297.1703,-47.5201 286.6185,-46.5664 288.3269,-53.3548"/>
 </g>

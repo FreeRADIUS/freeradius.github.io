@@ -48,22 +48,22 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 736;
 var viewHeight = 127;
-var sectionId = 'dynsection-11';
+var sectionId = 'dynsection-17';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>fr_network_channel_callback</title>
-<!-- Node1939 -->
+<!-- Node565 -->
 <g id="node1" class="node">
-<title>Node1939</title>
+<title>Node565</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-44.5 0,-74.5 101,-74.5 101,-44.5 0,-44.5"/>
 <text text-anchor="start" x="8" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_network_channel</text>
 <text text-anchor="middle" x="50.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_callback</text>
 </g>
-<!-- Node1940 -->
+<!-- Node566 -->
 <g id="node2" class="node">
-<title>Node1940</title>
+<title>Node566</title>
 <g id="a_node2"><a xlink:href="channel_8c.html#a89754d8b4cfcb9fe848a60910945e37f" target="_top" xlink:title="Service a control&#45;plane message. ">
 <polygon fill="none" stroke="#000000" points="144,-88.5 144,-118.5 242,-118.5 242,-88.5 144,-88.5"/>
 <text text-anchor="start" x="152" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_channel_service</text>
@@ -71,30 +71,30 @@ var sectionId = 'dynsection-11';
 </a>
 </g>
 </g>
-<!-- Node1939&#45;&gt;Node1940 -->
+<!-- Node565&#45;&gt;Node566 -->
 <g id="edge1" class="edge">
-<title>Node1939&#45;&gt;Node1940</title>
+<title>Node565&#45;&gt;Node566</title>
 <path fill="none" stroke="#191970" d="M99.1419,-74.5192C110.4801,-78.0202 122.6704,-81.7842 134.3894,-85.4027"/>
 <polygon fill="#191970" stroke="#191970" points="133.506,-88.7929 144.0936,-88.3991 135.5713,-82.1045 133.506,-88.7929"/>
 </g>
-<!-- Node2578 -->
+<!-- Node714 -->
 <g id="node6" class="node">
-<title>Node2578</title>
+<title>Node714</title>
 <g id="a_node6"><a xlink:href="channel_8c.html#a32bb4d544e4382e1a6d51ad2061b9b74" target="_top" xlink:title="Receive a reply message from the channel. ">
 <polygon fill="none" stroke="#000000" points="137,-50 137,-69 249,-69 249,-50 137,-50"/>
 <text text-anchor="middle" x="193" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_channel_recv_reply</text>
 </a>
 </g>
 </g>
-<!-- Node1939&#45;&gt;Node2578 -->
+<!-- Node565&#45;&gt;Node714 -->
 <g id="edge5" class="edge">
-<title>Node1939&#45;&gt;Node2578</title>
+<title>Node565&#45;&gt;Node714</title>
 <path fill="none" stroke="#191970" d="M101.1414,-59.5C109.4211,-59.5 118.1071,-59.5 126.6967,-59.5"/>
 <polygon fill="#191970" stroke="#191970" points="126.7058,-63.0001 136.7058,-59.5 126.7058,-56.0001 126.7058,-63.0001"/>
 </g>
-<!-- Node2580 -->
+<!-- Node716 -->
 <g id="node8" class="node">
-<title>Node2580</title>
+<title>Node716</title>
 <g id="a_node8"><a xlink:href="channel_8c.html#a26b12453359ec405b0644b65249313e5" target="_top" xlink:title="Get network&#45;specific data from a channel. ">
 <polygon fill="none" stroke="#000000" points="139.5,-.5 139.5,-30.5 246.5,-30.5 246.5,-.5 139.5,-.5"/>
 <text text-anchor="start" x="147.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_channel_requestor</text>
@@ -102,69 +102,69 @@ var sectionId = 'dynsection-11';
 </a>
 </g>
 </g>
-<!-- Node1939&#45;&gt;Node2580 -->
+<!-- Node565&#45;&gt;Node716 -->
 <g id="edge7" class="edge">
-<title>Node1939&#45;&gt;Node2580</title>
+<title>Node565&#45;&gt;Node716</title>
 <path fill="none" stroke="#191970" d="M99.1419,-44.4808C110.4801,-40.9798 122.6704,-37.2158 134.3894,-33.5973"/>
 <polygon fill="#191970" stroke="#191970" points="135.5713,-36.8955 144.0936,-30.6009 133.506,-30.2071 135.5713,-36.8955"/>
 </g>
-<!-- Node1941 -->
+<!-- Node567 -->
 <g id="node3" class="node">
-<title>Node1941</title>
+<title>Node567</title>
 <g id="a_node3"><a xlink:href="channel_8c.html#a6aa2b1dcbfe62563d864652de2dbd34e" target="_top" xlink:title="Send a message via a kq user signal. ">
 <polygon fill="none" stroke="#000000" points="285,-94 285,-113 400,-113 400,-94 285,-94"/>
 <text text-anchor="middle" x="342.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_channel_data_ready</text>
 </a>
 </g>
 </g>
-<!-- Node1940&#45;&gt;Node1941 -->
+<!-- Node566&#45;&gt;Node567 -->
 <g id="edge2" class="edge">
-<title>Node1940&#45;&gt;Node1941</title>
+<title>Node566&#45;&gt;Node567</title>
 <path fill="none" stroke="#191970" d="M242.3662,-103.5C252.6786,-103.5 263.7225,-103.5 274.5729,-103.5"/>
 <polygon fill="#191970" stroke="#191970" points="274.8866,-107.0001 284.8865,-103.5 274.8865,-100.0001 274.8866,-107.0001"/>
 </g>
-<!-- Node1942 -->
+<!-- Node568 -->
 <g id="node4" class="node">
-<title>Node1942</title>
+<title>Node568</title>
 <g id="a_node4"><a xlink:href="io_2control_8c.html#a991b4f6d08aa02cf4ffb69dcf0a09695" target="_top" xlink:title="Send a control&#45;plane message. ">
 <polygon fill="none" stroke="#000000" points="436,-94 436,-113 564,-113 564,-94 436,-94"/>
 <text text-anchor="middle" x="500" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_control_message_send</text>
 </a>
 </g>
 </g>
-<!-- Node1941&#45;&gt;Node1942 -->
+<!-- Node567&#45;&gt;Node568 -->
 <g id="edge3" class="edge">
-<title>Node1941&#45;&gt;Node1942</title>
+<title>Node567&#45;&gt;Node568</title>
 <path fill="none" stroke="#191970" d="M400.2529,-103.5C408.5823,-103.5 417.2498,-103.5 425.8441,-103.5"/>
 <polygon fill="#191970" stroke="#191970" points="425.8749,-107.0001 435.8748,-103.5 425.8748,-100.0001 425.8749,-107.0001"/>
 </g>
-<!-- Node1943 -->
+<!-- Node569 -->
 <g id="node5" class="node">
-<title>Node1943</title>
+<title>Node569</title>
 <g id="a_node5"><a xlink:href="io_2control_8c.html#ab19953e7fcc71c592e3cde2ac048841a" target="_top" xlink:title="Push a control&#45;plane message. ">
 <polygon fill="none" stroke="#ff0000" points="600,-94 600,-113 728,-113 728,-94 600,-94"/>
 <text text-anchor="middle" x="664" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_control_message_push</text>
 </a>
 </g>
 </g>
-<!-- Node1942&#45;&gt;Node1943 -->
+<!-- Node568&#45;&gt;Node569 -->
 <g id="edge4" class="edge">
-<title>Node1942&#45;&gt;Node1943</title>
+<title>Node568&#45;&gt;Node569</title>
 <path fill="none" stroke="#191970" d="M564.3464,-103.5C572.6401,-103.5 581.1868,-103.5 589.6248,-103.5"/>
 <polygon fill="#191970" stroke="#191970" points="589.8392,-107.0001 599.8391,-103.5 589.8391,-100.0001 589.8392,-107.0001"/>
 </g>
-<!-- Node2579 -->
+<!-- Node715 -->
 <g id="node7" class="node">
-<title>Node2579</title>
+<title>Node715</title>
 <g id="a_node7"><a xlink:href="atomic__queue_8c.html#a1b89444ac3523e3e1d4bb8e4122c3c9b" target="_top" xlink:title="Pop a pointer from the atomic queue. ">
 <polygon fill="none" stroke="#000000" points="287.5,-50 287.5,-69 397.5,-69 397.5,-50 287.5,-50"/>
 <text text-anchor="middle" x="342.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_atomic_queue_pop</text>
 </a>
 </g>
 </g>
-<!-- Node2578&#45;&gt;Node2579 -->
+<!-- Node714&#45;&gt;Node715 -->
 <g id="edge6" class="edge">
-<title>Node2578&#45;&gt;Node2579</title>
+<title>Node714&#45;&gt;Node715</title>
 <path fill="none" stroke="#191970" d="M249.0936,-59.5C258.2205,-59.5 267.7438,-59.5 277.0705,-59.5"/>
 <polygon fill="#191970" stroke="#191970" points="277.0857,-63.0001 287.0856,-59.5 277.0856,-56.0001 277.0857,-63.0001"/>
 </g>

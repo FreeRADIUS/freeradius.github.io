@@ -1,101 +1,51 @@
 <map id="map_to_request" name="map_to_request">
-<area shape="rect" id="node2" href="$server_2tmpl_8h.html#a58eeb5686c009bc420190b339d793f49" title="Parse a string into a TMPL_TYPE_ATTR_* or TMPL_TYPE_LIST type tmpl_t. " alt="" coords="194,788,329,815"/>
-<area shape="rect" id="node22" href="$cursor_8c.html#ac0e33de2a6f1cb5e82c4d4e4255c2b95" title="Rewind cursor to the start of the list. " alt="" coords="1063,3285,1171,3312"/>
-<area shape="rect" id="node23" href="$cursor_8c.html#a6194bc92357e84dc8720ffd5ccaaeb42" title="Remove the current item. " alt="" coords="1055,3431,1178,3457"/>
-<area shape="rect" id="node30" href="$server_2tmpl_8h.html#ae3575f851255fca0745b47964d2ce9b4" title="tmpl_request" alt="" coords="1068,2292,1165,2319"/>
-<area shape="rect" id="node31" href="$server_2tmpl_8h.html#a48d30dac40add7b7856c63823975b1ad" title="Resolve a request_ref_t to a request_t. " alt="" coords="208,3419,315,3445"/>
-<area shape="rect" id="node32" href="$server_2tmpl_8h.html#adaa3ed9ff64582f222580188ec7cad5c" title="tmpl_list" alt="" coords="867,3267,938,3293"/>
-<area shape="rect" id="node33" href="$server_2tmpl_8h.html#a80ce216372666e559a75ad5b17a919bf" title="Resolve attribute pair_list_t value to an attribute list. " alt="" coords="221,3469,302,3496"/>
-<area shape="rect" id="node34" href="$server_2tmpl_8h.html#a45791c0af80ffedbea6d29f8db1f56b8" title="Return the correct TALLOC_CTX to alloc fr_pair_t in, for a list. " alt="" coords="208,3520,315,3547"/>
-<area shape="rect" id="node35" href="$lib_2server_2map_8c.html#afcb531b33e9dfab8a8a0405be9235a2d" title="map_debug_log" alt="" coords="205,1696,318,1723"/>
-<area shape="rect" id="node59" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="633,1528,739,1555"/>
-<area shape="rect" id="node60" href="$pair_8c.html#acd64c65e4d56248ce8e4dda20ab95aff" title="Free memory used by a valuepair list. " alt="" coords="425,981,536,1008"/>
-<area shape="rect" id="node61" href="$pair__legacy_8c.html#a3b38f56ebceba8ee97895b75f12c5d5c" title="Move pairs from source list to destination list respecting operator. " alt="" coords="201,1243,322,1269"/>
-<area shape="rect" id="node70" href="$pair_8c.html#a7869a79cbea0f296a61340c95a0644ed" title="Add a VP to the end of the list. " alt="" coords="437,1427,524,1453"/>
-<area shape="rect" id="node71" href="$server_2tmpl_8h.html#ac2f6e005035a53f3459f57aad185a9a5" title="Initialise a fr_cursor_t to the fr_pair_t specified by a tmpl_t. " alt="" coords="204,2937,319,2964"/>
-<area shape="rect" id="node83" href="$server_2tmpl_8h.html#a05f111bc75c174486c0a8e7cbfaa638a" title="tmpl_da" alt="" coords="447,2659,515,2685"/>
-<area shape="rect" id="node84" href="$server_2tmpl_8h.html#a0686e3abd38307e72864898c9178055c" title="tmpl_num" alt="" coords="863,1848,942,1875"/>
-<area shape="rect" id="node85" href="$pair_8c.html#af697e3832e0660443214a604d3564b9b" title="Delete matching pairs. " alt="" coords="168,708,355,735"/>
-<area shape="rect" id="node86" href="$paircmp_8c.html#a7c8a675fa8bba14087386c0ffdf539fd" title="Compares check and vp by value. " alt="" coords="210,3317,313,3344"/>
-<area shape="rect" id="node88" href="$cursor_8c.html#a92733b72ea218ecff0bc7808fae613b7" title="Return the item the cursor current points to. " alt="" coords="201,3571,321,3597"/>
-<area shape="rect" id="node89" href="$cursor_8c.html#af41d1d4247fb969990f602962ec85525" title="Return the next item, skipping the current item, that satisfies an evaluation function. " alt="" coords="193,1587,330,1613"/>
-<area shape="rect" id="node90" href="$pair_8c.html#a0097cc708bdcce2f3e36b5ccd876d65a" title="Evaluation function for matching if vp matches a given da. " alt="" coords="193,3621,329,3648"/>
-<area shape="rect" id="node91" href="$cursor_8c.html#a6e72682a046a3eeac734da6639f1817c" title="Insert a single item at the end of the list. " alt="" coords="419,1899,542,1925"/>
-<area shape="rect" id="node92" href="$cursor_8c.html#a7c03f6fd220290ff347be5d43d846cb7" title="Wind cursor to the tail item in the list. " alt="" coords="213,3672,310,3699"/>
-<area shape="rect" id="node93" href="$cursor_8c.html#ae6c7ca9a2cf93afe93f754b9bda8cb96" title="Replace the current item. " alt="" coords="200,1975,323,2001"/>
-<area shape="rect" id="node94" href="$pair_8c.html#acc50c595dbf119f3e709aa0e60520f61" title="Sort a linked list of fr_pair_ts using merge sort. " alt="" coords="206,3747,317,3773"/>
-<area shape="rect" id="node95" href="$pair_8c.html#ae84505fa3c30f3122e619dd88f6087b0" title="Order attributes by their da, and tag. " alt="" coords="195,3797,327,3824"/>
-<area shape="rect" id="node96" href="$value_8c.html#a516355c995a18f3fcfe0b828a005dfc1" title="Compare two attributes using an operator. " alt="" coords="611,889,761,916"/>
-<area shape="rect" id="node99" href="$server_2tmpl_8h.html#a919ffe04ec8c4a88896e4f874e8a779c" title="Clear any temporary state allocations. " alt="" coords="418,2709,543,2736"/>
-<area shape="rect" id="node3" href="$tmpl__tokenize_8c.html#a4d47ea8e23c48f5da3446f9a9f93de38" title="Parse a string into a TMPL_TYPE_ATTR_* or TMPL_TYPE_LIST type tmpl_t. " alt="" coords="403,737,559,764"/>
-<area shape="rect" id="node4" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1059,763,1174,789"/>
-<area shape="rect" id="node9" href="$sbuff_8c.html#af0b81120a5a607197c0e0645b7e1ec40" title="Return true if the current char matches, and if it does, advance. " alt="" coords="1045,309,1189,336"/>
-<area shape="rect" id="node10" href="$tmpl__tokenize_8c.html#aecdffdf30e96a18c49656ef5496fa20b" title="Create a new heap allocated tmpl_t. " alt="" coords="645,991,727,1017"/>
-<area shape="rect" id="node13" href="$tmpl__tokenize_8c.html#a607abcae843d45f96c25f2923345c055" title="Set the name on a pre&#45;initialised tmpl. " alt="" coords="847,991,958,1017"/>
-<area shape="rect" id="node14" href="$tmpl__tokenize_8c.html#a622d15ce8a833215c0f4e05bc65366a9" title="tmpl_request_ref_afrom\l_attr_substr" alt="" coords="607,317,765,358"/>
-<area shape="rect" id="node15" href="$dlist_8h.html#ae4fb05ae0fb121f4255153332d3dc477" title="Insert an item into the tail of a list. " alt="" coords="1055,2368,1179,2395"/>
-<area shape="rect" id="node16" href="$tmpl__tokenize_8c.html#a7a3ea7910c08c1254be413d032af6055" title="Verify, after skipping whitespace, that a substring ends in a terminal char, or ends without further ..." alt="" coords="831,117,974,158"/>
-<area shape="rect" id="node18" href="$tmpl__tokenize_8c.html#a8e0563373e0bc6d69f6e88442d36bbd6" title="Parse an attribute reference, either an OID or attribute name. " alt="" coords="617,526,755,567"/>
-<area shape="rect" id="node26" href="$tmpl__tokenize_8c.html#a4b9f29d306a4dc9a5fd7c59c3bd86384" title="Parse array subscript and in future other filters. " alt="" coords="831,233,975,260"/>
-<area shape="rect" id="node27" href="$tmpl__tokenize_8c.html#a65c990de56be8971e6f29635ef581c37" title="Covert the leaf attribute of a tmpl to a unknown/raw type. " alt="" coords="1057,1351,1176,1377"/>
-<area shape="rect" id="node29" href="$dlist_8h.html#ad852b167828d7848ed99ee9cae167218" title="Return the number of elements in the dlist. " alt="" coords="1040,1899,1193,1925"/>
-<area shape="rect" id="node5" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="1267,511,1337,537"/>
-<area shape="rect" id="node6" href="$strerror_8c.html#a193b1e0b3712e3bbee338812c06af482" title="fr_strerror_vprintf" alt="" coords="1241,788,1363,815"/>
-<area shape="rect" id="node7" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="1442,737,1506,764"/>
-<area shape="rect" id="node8" href="$cursor_8c.html#a5d942382660657c3b4cb6e9cb2b12b2c" title="Insert a single item at the start of the list. " alt="" coords="1411,1939,1537,1965"/>
-<area shape="rect" id="node11" href="$tmpl__tokenize_8c.html#a47f675320b09b814dae37c50f1e9dd42" title="Create a new heap allocated tmpl_t. " alt="" coords="849,1041,957,1068"/>
-<area shape="rect" id="node12" href="$tmpl__tokenize_8c.html#a154e149950c64a0aa0a58f80c41dac7f" title="Initialise fields inside a tmpl depending on its type. " alt="" coords="851,1092,954,1119"/>
-<area shape="rect" id="node17" href="$dlist_8h.html#a7d50fbde25eb2d9019b7453a328c0a1c" title="Free the last item in the list. " alt="" coords="827,335,979,361"/>
-<area shape="rect" id="node19" href="$dict_8h.html#a1e43e9729099648fdc9c3527c7be84b2" title="Locate a qualified fr_dict_attr_t by its name and a dictionary qualifier. " alt="" coords="823,437,983,478"/>
-<area shape="rect" id="node20" href="$dict_8h.html#a69a971170cf47748f3584afa0ca04c85" title="Look up an attribute by name in the dictionary that contains the parent. " alt="" coords="840,554,965,595"/>
-<area shape="rect" id="node21" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="863,3355,942,3381"/>
-<area shape="rect" id="node24" href="$dict_8h.html#aafea465d1424c7fd3477732877bd6016" title="fr_dict_internal" alt="" coords="849,620,956,647"/>
-<area shape="rect" id="node25" href="$dict_8h.html#ade71dd6bfb60945aa34a7f0d5286d6c1" title="Check if a child attribute exists in a parent using an attribute number. " alt="" coords="843,671,962,713"/>
-<area shape="rect" id="node28" href="$dlist_8h.html#a728a6246588e70e075b074b3635d2663" title="Return the TAIL item of a list or NULL if the list is empty. " alt="" coords="1259,2191,1345,2217"/>
-<area shape="rect" id="node36" href="$util_2pair_8h.html#af08f1369a97fe51a8d48a51a64d7ecb6" title="fr_pair_aprint_value\l_quoted" alt="" coords="413,1630,548,1671"/>
-<area shape="rect" id="node37" href="$server_2tmpl_8h.html#aecdffdf30e96a18c49656ef5496fa20b" title="Create a new heap allocated tmpl_t. " alt="" coords="645,1041,727,1068"/>
-<area shape="rect" id="node38" href="$server_2tmpl_8h.html#abc91c431a5c0fb0b490ec3fa60eba86e" title="Copy a list of attribute and request references from one tmpl to another. " alt="" coords="632,2101,740,2128"/>
-<area shape="rect" id="node47" href="$server_2tmpl_8h.html#ad059121137bec2ae641f7174f5d484b6" title="Replace the leaf attribute only. " alt="" coords="613,1797,759,1824"/>
-<area shape="rect" id="node50" href="$server_2tmpl_8h.html#afa4a6186362f79c66e1699dda215451a" title="tmpl_attr_set_leaf_num" alt="" coords="607,1747,765,1773"/>
-<area shape="rect" id="node51" href="$server_2tmpl_8h.html#a09b91288d539f3d364aee2327899a7c7" title="Print a tmpl_t to a string. " alt="" coords="441,1696,520,1723"/>
-<area shape="rect" id="node57" href="$talloc_8c.html#aba1ce57098bd0d4f569907465358cff2" title="Call talloc vasprintf, setting the type on the new chunk correctly. " alt="" coords="1045,259,1188,285"/>
-<area shape="rect" id="node58" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="413,1579,548,1605"/>
-<area shape="rect" id="node39" href="$dlist_8h.html#abf551fd5df10bb1ae5dbabd9e84c4220" title="Free all items in a doubly linked list from the tail backwards. " alt="" coords="813,2608,992,2635"/>
-<area shape="rect" id="node41" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="856,2811,949,2837"/>
-<area shape="rect" id="node43" href="$tmpl__tokenize_8c.html#a93278adfe0137f0dc75f3d31be974684" title="Allocate a new attribute reference and add it to the end of the attribute reference list..." alt="" coords="852,1797,953,1824"/>
-<area shape="rect" id="node44" href="$dict_8h.html#af5e7c4344dae37b2ae61c1b78c0cc1bc" title="Copy a known or unknown attribute to produce an unknown attribute with the specified name..." alt="" coords="823,2000,982,2027"/>
-<area shape="rect" id="node45" href="$talloc_8c.html#a138f6f827642983031220a425178e71d" title="Binary safe strdup function. " alt="" coords="851,2253,954,2280"/>
-<area shape="rect" id="node46" href="$tmpl__tokenize_8c.html#aa3efdc09f404512460dbf93bd5ce1279" title="Allocate a new request reference and add it to the end of the attribute reference list..." alt="" coords="841,2152,964,2179"/>
-<area shape="rect" id="node40" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="1061,2709,1172,2736"/>
-<area shape="rect" id="node42" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="1069,2811,1165,2837"/>
-<area shape="rect" id="node48" href="$dlist_8h.html#abe93afad3db33fe922c0ea660220714b" title="Get the previous item in a list. " alt="" coords="1070,2140,1163,2167"/>
-<area shape="rect" id="node49" href="$dict_8h.html#a4ed0e2dd07a0ef75f1fa32225ac4a762" title="Find a common ancestor that two TLV type attributes share. " alt="" coords="832,1731,973,1773"/>
-<area shape="rect" id="node52" href="$tmpl__tokenize_8c.html#a285a1e009d0f6dd958439341032f0c8f" title="Print an attribute or list tmpl_t to a string. " alt="" coords="633,2659,739,2685"/>
-<area shape="rect" id="node53" href="$value_8c.html#a15daddd53c8022ef1d172f053f024dc2" title="Print one boxed value to a string. " alt="" coords="622,1248,750,1275"/>
-<area shape="rect" id="node56" href="$xlat_8h.html#a30a46ddf2f4bd10b20bed8d928bc542c" title="Reconstitute an xlat expression from its constituent nodes. " alt="" coords="649,1645,723,1672"/>
-<area shape="rect" id="node54" href="$dict_8h.html#af2f7f04c5d61a20e629b4335364a659f" title="Lookup the name of an enum value in a fr_dict_attr_t. " alt="" coords="824,1209,981,1250"/>
-<area shape="rect" id="node55" href="$value_8c.html#ad5da2574fed047b3ae861999d06c38ac" title="Clear/free any existing value and metadata. " alt="" coords="837,1275,968,1301"/>
-<area shape="rect" id="node62" href="$dict_8h.html#ab4abf3bf9320fe063c8031c515daf937" title="Return true if this attribute is parented directly off the dictionary root. " alt="" coords="623,617,749,658"/>
-<area shape="rect" id="node63" href="$pair_8c.html#ac3e6ae214c078ffe6f2648f1c12159ff" title="Find the pair with the matching DAs. " alt="" coords="417,1083,545,1109"/>
-<area shape="rect" id="node64" href="$pair_8c.html#a0f6defb67f67687d284d99d82a10664d" title="Copy data from a talloced buffer into an &quot;octets&quot; data type. " alt="" coords="404,1235,557,1277"/>
-<area shape="rect" id="node66" href="$pair_8c.html#aa310aed6f1b0c48333278b8aaff5d205" title="Free/zero out value (or children) of a given VP. " alt="" coords="415,1376,546,1403"/>
-<area shape="rect" id="node67" href="$pair_8c.html#a6dd666f2a2c889180a5b26e2d8ad8085" title="Copy a nul terminated talloced buffer a &quot;string&quot; type value pair. " alt="" coords="613,1093,759,1134"/>
-<area shape="rect" id="node69" href="$pair_8c.html#a5fa73ca22e224c1973cb8d9239ea1ba5" title="Delete matching pairs from the specified list. " alt="" coords="409,1301,552,1328"/>
-<area shape="rect" id="node65" href="$value_8c.html#a33088c75996d207fdaa0e98f41d1b2c1" title="Copy a talloced buffer to a fr_value_box_t. " alt="" coords="609,1158,763,1199"/>
-<area shape="rect" id="node68" href="$value_8c.html#a3813a7481d580b3b3cb3df7503722055" title="Copy a nul terminated talloced buffer to a fr_value_box_t. " alt="" coords="829,1143,976,1185"/>
-<area shape="rect" id="node72" href="$tmpl__eval_8c.html#af829271e9c4025efc04ed8971309451c" title="Resolve a request_ref_t to a request_t. " alt="" coords="427,2912,534,2939"/>
-<area shape="rect" id="node73" href="$tmpl__eval_8c.html#a80ce216372666e559a75ad5b17a919bf" title="Resolve attribute pair_list_t value to an attribute list. " alt="" coords="440,2963,521,2989"/>
-<area shape="rect" id="node74" href="$tmpl__eval_8c.html#a2e9cbe1fac5a6257cb6b3894992cd04d" title="Return the correct TALLOC_CTX to alloc fr_pair_t in, for a list. " alt="" coords="427,3064,534,3091"/>
-<area shape="rect" id="node75" href="$tmpl__eval_8c.html#ab95e80cbf93ec46a177a1d144462d2c3" title="_tmpl_cursor_init" alt="" coords="625,2532,747,2559"/>
-<area shape="rect" id="node79" href="$tmpl__eval_8c.html#aec86b5b4a5273dfe35d79dedf4322850" title="_tmpl_cursor_list_init" alt="" coords="408,3013,553,3040"/>
-<area shape="rect" id="node81" href="$tmpl__eval_8c.html#a0940f6c907436e0da443230c4ee3fc22" title="_tmpl_cursor_next" alt="" coords="416,2811,545,2837"/>
-<area shape="rect" id="node76" href="$tmpl__eval_8c.html#a9e36a2a12901984fe4e767927713feb8" title="Initialise an evaluation ctx for traversing a TLV attribute. " alt="" coords="831,2355,974,2381"/>
-<area shape="rect" id="node77" href="$tmpl__eval_8c.html#a5cce24233ae2068c937f4697f744ccd2" title="Initialise the evaluation context for traversing a group attribute. " alt="" coords="823,2507,983,2533"/>
-<area shape="rect" id="node78" href="$tmpl__eval_8c.html#a68d80bbbf189bd5d416eefe8148d6bc7" title="Initialise the evaluation context for finding a leaf attribute. " alt="" coords="828,2456,977,2483"/>
-<area shape="rect" id="node80" href="$tmpl__eval_8c.html#a8212612ee68a4ca0f5f7e3ac926132bd" title="Stub list eval function until we can remove lists. " alt="" coords="610,3064,762,3091"/>
-<area shape="rect" id="node82" href="$tmpl__eval_8c.html#a84ad9e8e30f25e1d139735ecfef835b1" title="Evaluates, then, sometimes, pops evaluation contexts from the tmpl stack. " alt="" coords="1053,3064,1181,3091"/>
-<area shape="rect" id="node87" href="$value_8h.html#a878e0abfce7189a1784cdf15bc9fc3a3" title="fr_value_box_aprint" alt="" coords="413,3368,548,3395"/>
-<area shape="rect" id="node97" href="$value_8c.html#a94ab65cc8163b34f1423eb5e65ff776b" title="fr_value_box_cidr_cmp_op" alt="" coords="814,940,991,967"/>
-<area shape="rect" id="node98" href="$value_8c.html#a6f42edc41624a1f3781bf13d14a17b3d" title="Compare two values. " alt="" coords="839,889,967,916"/>
-<area shape="rect" id="node100" href="$dlist_8h.html#a5d1da49f23b091e8df75b7a0256a61b3" title="Free all items in a doubly linked list (with talloc) " alt="" coords="622,2760,750,2787"/>
+<area shape="rect" id="node2" href="$server_2tmpl_8h.html#a58eeb5686c009bc420190b339d793f49" title="Parse a string into a TMPL_TYPE_ATTR_* or TMPL_TYPE_LIST type tmpl_t. " alt="" coords="194,32,329,58"/>
+<area shape="rect" id="node5" href="$server_2tmpl_8h.html#ae3575f851255fca0745b47964d2ce9b4" title="tmpl_request" alt="" coords="213,681,310,708"/>
+<area shape="rect" id="node7" href="$server_2tmpl_8h.html#a48d30dac40add7b7856c63823975b1ad" title="Resolve a request_ref_t to a request_t. " alt="" coords="208,916,315,942"/>
+<area shape="rect" id="node8" href="$server_2tmpl_8h.html#adaa3ed9ff64582f222580188ec7cad5c" title="tmpl_list" alt="" coords="447,960,517,986"/>
+<area shape="rect" id="node9" href="$server_2tmpl_8h.html#a80ce216372666e559a75ad5b17a919bf" title="Resolve attribute pair_list_t value to an attribute list. " alt="" coords="221,966,302,993"/>
+<area shape="rect" id="node10" href="$server_2tmpl_8h.html#a45791c0af80ffedbea6d29f8db1f56b8" title="Return the correct TALLOC_CTX to alloc fr_pair_t in, for a list. " alt="" coords="208,1017,315,1044"/>
+<area shape="rect" id="node11" href="$lib_2server_2map_8c.html#afcb531b33e9dfab8a8a0405be9235a2d" title="map_debug_log" alt="" coords="205,352,318,378"/>
+<area shape="rect" id="node21" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="614,1112,719,1138"/>
+<area shape="rect" id="node22" href="$pair_8c.html#acd64c65e4d56248ce8e4dda20ab95aff" title="Free memory used by a valuepair list. " alt="" coords="427,1486,537,1513"/>
+<area shape="rect" id="node23" href="$pair__legacy_8c.html#a3b38f56ebceba8ee97895b75f12c5d5c" title="Move pairs from source list to destination list respecting operator. " alt="" coords="201,1169,322,1196"/>
+<area shape="rect" id="node30" href="$pair_8c.html#a7869a79cbea0f296a61340c95a0644ed" title="Add a VP to the end of the list. " alt="" coords="439,1537,525,1564"/>
+<area shape="rect" id="node31" href="$server_2tmpl_8h.html#ac2f6e005035a53f3459f57aad185a9a5" title="Initialise a fr_cursor_t to the fr_pair_t specified by a tmpl_t. " alt="" coords="204,812,319,838"/>
+<area shape="rect" id="node35" href="$server_2tmpl_8h.html#a05f111bc75c174486c0a8e7cbfaa638a" title="tmpl_da" alt="" coords="448,706,516,733"/>
+<area shape="rect" id="node36" href="$server_2tmpl_8h.html#a0686e3abd38307e72864898c9178055c" title="tmpl_num" alt="" coords="222,592,301,618"/>
+<area shape="rect" id="node37" href="$pair_8c.html#af697e3832e0660443214a604d3564b9b" title="Delete matching pairs. " alt="" coords="168,1422,355,1449"/>
+<area shape="rect" id="node38" href="$cursor_8c.html#a6194bc92357e84dc8720ffd5ccaaeb42" title="Remove the current item. " alt="" coords="200,1473,323,1500"/>
+<area shape="rect" id="node39" href="$cursor_8c.html#ac0e33de2a6f1cb5e82c4d4e4255c2b95" title="Rewind cursor to the start of the list. " alt="" coords="207,1524,315,1550"/>
+<area shape="rect" id="node40" href="$paircmp_8c.html#a7c8a675fa8bba14087386c0ffdf539fd" title="Compares check and vp by value. " alt="" coords="210,1574,313,1601"/>
+<area shape="rect" id="node41" href="$cursor_8c.html#a92733b72ea218ecff0bc7808fae613b7" title="Return the item the cursor current points to. " alt="" coords="201,1625,321,1652"/>
+<area shape="rect" id="node42" href="$cursor_8c.html#af41d1d4247fb969990f602962ec85525" title="Return the next item, skipping the current item, that satisfies an evaluation function. " alt="" coords="193,1118,330,1145"/>
+<area shape="rect" id="node43" href="$pair_8c.html#a0097cc708bdcce2f3e36b5ccd876d65a" title="Evaluation function for matching if vp matches a given da. " alt="" coords="193,1676,329,1702"/>
+<area shape="rect" id="node44" href="$cursor_8c.html#a6e72682a046a3eeac734da6639f1817c" title="Insert a single item at the end of the list. " alt="" coords="421,1638,543,1665"/>
+<area shape="rect" id="node45" href="$cursor_8c.html#a7c03f6fd220290ff347be5d43d846cb7" title="Wind cursor to the tail item in the list. " alt="" coords="213,1726,310,1753"/>
+<area shape="rect" id="node46" href="$cursor_8c.html#ae6c7ca9a2cf93afe93f754b9bda8cb96" title="Replace the current item. " alt="" coords="200,1321,323,1348"/>
+<area shape="rect" id="node47" href="$pair_8c.html#acc50c595dbf119f3e709aa0e60520f61" title="Sort a linked list of fr_pair_ts using merge sort. " alt="" coords="206,1801,317,1828"/>
+<area shape="rect" id="node48" href="$pair_8c.html#ae84505fa3c30f3122e619dd88f6087b0" title="Order attributes by their da, and tag. " alt="" coords="195,1852,327,1878"/>
+<area shape="rect" id="node49" href="$value_8c.html#a516355c995a18f3fcfe0b828a005dfc1" title="Compare two attributes using an operator. " alt="" coords="187,192,336,218"/>
+<area shape="rect" id="node50" href="$server_2tmpl_8h.html#a919ffe04ec8c4a88896e4f874e8a779c" title="Clear any temporary state allocations. " alt="" coords="199,1902,324,1929"/>
+<area shape="rect" id="node3" href="$tmpl__tokenize_8c.html#a4d47ea8e23c48f5da3446f9a9f93de38" title="Parse a string into a TMPL_TYPE_ATTR_* or TMPL_TYPE_LIST type tmpl_t. " alt="" coords="404,32,560,58"/>
+<area shape="rect" id="node4" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="609,82,724,109"/>
+<area shape="rect" id="node6" href="$dlist_8h.html#a728a6246588e70e075b074b3635d2663" title="Return the TAIL item of a list or NULL if the list is empty. " alt="" coords="624,554,709,581"/>
+<area shape="rect" id="node12" href="$util_2pair_8h.html#af08f1369a97fe51a8d48a51a64d7ecb6" title="fr_pair_aprint_value\l_quoted" alt="" coords="415,184,549,226"/>
+<area shape="rect" id="node13" href="$server_2tmpl_8h.html#aecdffdf30e96a18c49656ef5496fa20b" title="Create a new heap allocated tmpl_t. " alt="" coords="441,250,523,277"/>
+<area shape="rect" id="node14" href="$server_2tmpl_8h.html#abc91c431a5c0fb0b490ec3fa60eba86e" title="Copy a list of attribute and request references from one tmpl to another. " alt="" coords="428,605,536,632"/>
+<area shape="rect" id="node16" href="$server_2tmpl_8h.html#ad059121137bec2ae641f7174f5d484b6" title="Replace the leaf attribute only. " alt="" coords="409,402,555,429"/>
+<area shape="rect" id="node17" href="$server_2tmpl_8h.html#afa4a6186362f79c66e1699dda215451a" title="tmpl_attr_set_leaf_num" alt="" coords="403,453,561,480"/>
+<area shape="rect" id="node18" href="$server_2tmpl_8h.html#a09b91288d539f3d364aee2327899a7c7" title="Print a tmpl_t to a string. " alt="" coords="443,301,521,328"/>
+<area shape="rect" id="node19" href="$talloc_8c.html#aba1ce57098bd0d4f569907465358cff2" title="Call talloc vasprintf, setting the type on the new chunk correctly. " alt="" coords="411,352,553,378"/>
+<area shape="rect" id="node20" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="415,133,549,160"/>
+<area shape="rect" id="node15" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="620,732,713,758"/>
+<area shape="rect" id="node24" href="$dict_8h.html#ab4abf3bf9320fe063c8031c515daf937" title="Return true if this attribute is parented directly off the dictionary root. " alt="" coords="419,1163,545,1204"/>
+<area shape="rect" id="node25" href="$pair_8c.html#ac3e6ae214c078ffe6f2648f1c12159ff" title="Find the pair with the matching DAs. " alt="" coords="418,1229,546,1256"/>
+<area shape="rect" id="node26" href="$pair_8c.html#a0f6defb67f67687d284d99d82a10664d" title="Copy data from a talloced buffer into an &quot;octets&quot; data type. " alt="" coords="405,1280,559,1322"/>
+<area shape="rect" id="node27" href="$pair_8c.html#aa310aed6f1b0c48333278b8aaff5d205" title="Free/zero out value (or children) of a given VP. " alt="" coords="417,1436,547,1462"/>
+<area shape="rect" id="node28" href="$pair_8c.html#a6dd666f2a2c889180a5b26e2d8ad8085" title="Copy a nul terminated talloced buffer a &quot;string&quot; type value pair. " alt="" coords="409,1346,555,1387"/>
+<area shape="rect" id="node29" href="$pair_8c.html#a5fa73ca22e224c1973cb8d9239ea1ba5" title="Delete matching pairs from the specified list. " alt="" coords="411,1112,553,1138"/>
+<area shape="rect" id="node32" href="$tmpl__eval_8c.html#af829271e9c4025efc04ed8971309451c" title="Resolve a request_ref_t to a request_t. " alt="" coords="429,808,535,834"/>
+<area shape="rect" id="node33" href="$tmpl__eval_8c.html#a80ce216372666e559a75ad5b17a919bf" title="Resolve attribute pair_list_t value to an attribute list. " alt="" coords="441,909,523,936"/>
+<area shape="rect" id="node34" href="$tmpl__eval_8c.html#a2e9cbe1fac5a6257cb6b3894992cd04d" title="Return the correct TALLOC_CTX to alloc fr_pair_t in, for a list. " alt="" coords="429,757,535,784"/>
 </map>

@@ -541,7 +541,7 @@ Module instance/thread specific state. </td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">static</span> <a class="code" href="action_8h.html#ad02ab717522305fe70aab72d152fc812">unlang_action_t</a>  mod_##x(<a class="code" href="rcode_8h.html#adcc711080df76349e177fc29a641d1fb">rlm_rcode_t</a> *p_result, <a class="code" href="server_2module_8h.html#structmodule__ctx__s">module_ctx_t</a> <span class="keyword">const</span> *mctx, <a class="code" href="request_8h.html#structrequest__s">request_t</a> *request) \</div><div class="line">{ \</div><div class="line">        rlm_python_t <span class="keyword">const</span> *<a class="code" href="rlm__passwd_8c.html#a5a012410c9dc2b8d34d0c5a49231a7e7">inst</a> = <a class="code" href="talloc_8h.html#a1e9227646ac5cf34f5ad1258f0326665">talloc_get_type_abort_const</a>(mctx-&gt;instance, <a class="code" href="rlm__python_8c.html#structrlm__python__t">rlm_python_t</a>); \</div><div class="line">        rlm_python_thread_t *thread = talloc_get_type_abort(mctx-&gt;thread, <a class="code" href="rlm__python_8c.html#structrlm__python__thread__t">rlm_python_thread_t</a>); \</div><div class="line">        return <a class="code" href="rlm__python_8c.html#a0f167b8b7db68ae6009c37e2297cd349">do_python</a>(p_result, inst, thread, request, inst-&gt;x.function, #x);\</div><div class="line">}</div><div class="ttc" id="talloc_8h_html_a1e9227646ac5cf34f5ad1258f0326665"><div class="ttname"><a href="talloc_8h.html#a1e9227646ac5cf34f5ad1258f0326665">talloc_get_type_abort_const</a></div><div class="ttdeci">#define talloc_get_type_abort_const</div><div class="ttdef"><b>Definition:</b> <a href="talloc_8h_source.html#l00241">talloc.h:241</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">static</span> <a class="code" href="action_8h.html#ad02ab717522305fe70aab72d152fc812">unlang_action_t</a>  mod_##x(<a class="code" href="rcode_8h.html#adcc711080df76349e177fc29a641d1fb">rlm_rcode_t</a> *p_result, <a class="code" href="server_2module_8h.html#structmodule__ctx__s">module_ctx_t</a> <span class="keyword">const</span> *mctx, <a class="code" href="request_8h.html#structrequest__s">request_t</a> *request) \</div><div class="line">{ \</div><div class="line">        rlm_python_t <span class="keyword">const</span> *<a class="code" href="rlm__passwd_8c.html#a5a012410c9dc2b8d34d0c5a49231a7e7">inst</a> = <a class="code" href="talloc_8h.html#a1e9227646ac5cf34f5ad1258f0326665">talloc_get_type_abort_const</a>(mctx-&gt;instance, <a class="code" href="rlm__python_8c.html#structrlm__python__t">rlm_python_t</a>); \</div><div class="line">        rlm_python_thread_t *thread = talloc_get_type_abort(mctx-&gt;thread, <a class="code" href="rlm__python_8c.html#structrlm__python__thread__t">rlm_python_thread_t</a>); \</div><div class="line">        return <a class="code" href="rlm__python_8c.html#a0f167b8b7db68ae6009c37e2297cd349">do_python</a>(p_result, inst, thread, request, inst-&gt;x.function, #x);\</div><div class="line">}</div><div class="ttc" id="talloc_8h_html_a1e9227646ac5cf34f5ad1258f0326665"><div class="ttname"><a href="talloc_8h.html#a1e9227646ac5cf34f5ad1258f0326665">talloc_get_type_abort_const</a></div><div class="ttdeci">#define talloc_get_type_abort_const</div><div class="ttdef"><b>Definition:</b> <a href="talloc_8h_source.html#l00242">talloc.h:242</a></div></div>
 <div class="ttc" id="rlm__python_8c_html_structrlm__python__t"><div class="ttname"><a href="rlm__python_8c.html#structrlm__python__t">rlm_python_t</a></div><div class="ttdoc">An instance of the rlm_python module. </div><div class="ttdef"><b>Definition:</b> <a href="rlm__python_8c_source.html#l00058">rlm_python.c:58</a></div></div>
 <div class="ttc" id="rcode_8h_html_adcc711080df76349e177fc29a641d1fb"><div class="ttname"><a href="rcode_8h.html#adcc711080df76349e177fc29a641d1fb">rlm_rcode_t</a></div><div class="ttdeci">rlm_rcode_t</div><div class="ttdoc">Return codes indicating the result of the module call. </div><div class="ttdef"><b>Definition:</b> <a href="rcode_8h_source.html#l00040">rcode.h:40</a></div></div>
 <div class="ttc" id="rlm__passwd_8c_html_a5a012410c9dc2b8d34d0c5a49231a7e7"><div class="ttname"><a href="rlm__passwd_8c.html#a5a012410c9dc2b8d34d0c5a49231a7e7">inst</a></div><div class="ttdeci">#define inst</div></div>
@@ -726,6 +726,14 @@ Module instance/thread specific state. </td></tr>
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_ab7a5b07271a3cc1febb9e1db44c14be6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_ab7a5b07271a3cc1febb9e1db44c14be6_icgraph.svg" width="296" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -754,11 +762,11 @@ Module instance/thread specific state. </td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l01136">1136</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a58558dfc841067f4efe9262f6452ead0_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -800,11 +808,11 @@ Module instance/thread specific state. </td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l01082">1082</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a3c32864d8c9d017bf4625d54f415b2db_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -836,11 +844,11 @@ Module instance/thread specific state. </td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l01214">1214</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a0bf797ed2ea8039b73e274d3f0a58917_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -884,11 +892,11 @@ Module instance/thread specific state. </td></tr>
 <p>Allow fr_log to be called from python. </p>
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l00208">208</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a4ebb56ecc1080b6b94b82a8853b99e97_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -942,12 +950,20 @@ Module instance/thread specific state. </td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l00388">388</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a7778ea8a1a3770c727e9bcb90fca03b7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a7778ea8a1a3770c727e9bcb90fca03b7_icgraph.svg" width="496" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1134,12 +1150,20 @@ Module instance/thread specific state. </td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l00271">271</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a3dd25ad4b30a3a34b4a998ae9f7ac779_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a3dd25ad4b30a3a34b4a998ae9f7ac779_icgraph.svg" width="440" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1183,6 +1207,14 @@ Module instance/thread specific state. </td></tr>
 <p>Must be called with a valid thread state set </p>
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l00235">235</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_ad56c4c096317a366aac47d5b0d1e2aac_icgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
@@ -1211,11 +1243,11 @@ Module instance/thread specific state. </td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l00666">666</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a125a20520f91a99a5e2d4dd39214fb09_cgraph.svg" width="358" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1259,11 +1291,11 @@ Module instance/thread specific state. </td></tr>
 <p>Import a user module and load a function from it. </p>
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l00675">675</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a45a470698df74038e2aba562977c79c6_cgraph.svg" width="323" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1305,6 +1337,14 @@ Module instance/thread specific state. </td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l01051">1051</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_aae245c346be26b228d8f22f98eee54d8_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
@@ -1343,12 +1383,20 @@ Module instance/thread specific state. </td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l00977">977</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_af845b5915539f33dda63830c1609ebfb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_af845b5915539f33dda63830c1609ebfb_icgraph.svg" width="336" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1397,12 +1445,20 @@ Module instance/thread specific state. </td></tr>
 <p>Make the current instance's config available within the module we're initialising. </p>
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l00795">795</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a79735f25545614ca808da806904dae9e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a79735f25545614ca808da806904dae9e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1445,12 +1501,20 @@ Module instance/thread specific state. </td></tr>
 <p>Import integer constants into the module we're initialising. </p>
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l00830">830</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a79d02c8129e551a9943faff1ddabb436_cgraph.svg" width="331" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a79d02c8129e551a9943faff1ddabb436_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1481,6 +1545,14 @@ Module instance/thread specific state. </td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l00658">658</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
+<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a790c506431e54945ccebf6275b78a41b_icgraph.svg" width="358" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -1531,12 +1603,20 @@ Module instance/thread specific state. </td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l00712">712</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a3b4eac011ee832d61f8953acf8ae5249_cgraph.svg" width="334" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a3b4eac011ee832d61f8953acf8ae5249_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1583,12 +1663,20 @@ Module instance/thread specific state. </td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="rlm__python_8c_source.html#l00845">845</a> of file <a class="el" href="rlm__python_8c_source.html">rlm_python.c</a>.</p>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a18fbfce4db0685a75f9652bf6517617f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="rlm__python_8c_a18fbfce4db0685a75f9652bf6517617f_icgraph.svg" width="499" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1799,7 +1887,7 @@ Module instance/thread specific state. </td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2020 00:24:06 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 15:24:33 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

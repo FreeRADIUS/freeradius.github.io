@@ -1,26 +1,28 @@
 <map id="_trunk_connection_on_shutdown" name="_trunk_connection_on_shutdown">
-<area shape="rect" id="node2" href="$trunk_8c.html#aeb5ec74157948b2fb10874aa5b3fe3d6" title="Transition a connection to the draining&#45;to&#45;reconnect state. " alt="" coords="203,191,360,233"/>
-<area shape="rect" id="node3" href="$trunk_8c.html#af55aeabd0743377eb3f519244d2f10d6" title="Remove a trunk connection from whichever list it&#39;s currently in. " alt="" coords="412,55,583,81"/>
-<area shape="rect" id="node9" href="$dlist_8h.html#aca8eed7f7758b61446174a5a4d54e7b4" title="Insert an item into the head of a list. " alt="" coords="430,199,565,225"/>
-<area shape="rect" id="node10" href="$trunk_8c.html#ac2fe6b5bbb2452eda599a3fc16472d4d" title="Remove requests in specified states from a connection, attempting to distribute them to new connectio..." alt="" coords="408,317,587,358"/>
-<area shape="rect" id="node4" href="$heap_8c.html#a2071e6c3699b74317dc7968e377fdced" title="Remove a node from the heap. " alt="" coords="1068,149,1180,176"/>
-<area shape="rect" id="node7" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="685,80,763,107"/>
-<area shape="rect" id="node8" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="669,29,779,56"/>
-<area shape="rect" id="node5" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1239,284,1353,311"/>
-<area shape="rect" id="node6" href="$heap_8c.html#ae3fc67f3c57bcaa3cf2d56ee4f8552fa" title="fr_heap_bubble" alt="" coords="1241,204,1351,231"/>
-<area shape="rect" id="node11" href="$server_2connection_8c.html#a07cf3e48f209e153fb5dee32cfa0d221" title="Pause processing of deferred signals. " alt="" coords="861,438,1009,479"/>
-<area shape="rect" id="node12" href="$trunk_8c.html#a8b49aca0aebe6b7a37e522a1ac715336" title="Shift requests in the specified states onto new connections. " alt="" coords="635,569,813,610"/>
-<area shape="rect" id="node17" href="$server_2connection_8c.html#a4d82ac070ca65d717d16a833b1bf5032" title="Resume processing of deferred signals. " alt="" coords="861,373,1009,414"/>
-<area shape="rect" id="node19" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="677,689,771,716"/>
-<area shape="rect" id="node20" href="$trunk_8c.html#ae8f376618040ed573738a25f97a48fed" title="Request failed, inform the API client and free the request. " alt="" coords="655,233,793,274"/>
-<area shape="rect" id="node21" href="$trunk_8c.html#a0ccb4513f4a782e67c8d87c3949f7ff6" title="If the trunk request is freed then update the target requests. " alt="" coords="863,245,1008,272"/>
-<area shape="rect" id="node22" href="$trunk_8c.html#a3da6a65cff3b03e18942d9036c5c3a0a" title="Update timestamps for when we last had a transition from above target to below target or vice versa..." alt="" coords="1057,226,1191,267"/>
-<area shape="rect" id="node23" href="$trunk_8c.html#adb084310620200de5d2f1cf1ef8f0ee7" title="Transition a request to the pending state, adding it to the backlog of an active connection. " alt="" coords="867,307,1004,349"/>
-<area shape="rect" id="node24" href="$heap_8c.html#a09453d7e857bdc6018b0bf3a3502610f" title="Insert a new element into the heap. " alt="" coords="1072,343,1176,369"/>
-<area shape="rect" id="node25" href="$trunk_8c.html#a44f207c0dae5e3f74d531c1548305ba4" title="Enqueue a request which has never been assigned to a connection or was previously cancelled..." alt="" coords="645,401,803,442"/>
-<area shape="rect" id="node13" href="$trunk_8c.html#a0832cb5699c225cb2dcca015bbdbcf22" title="Transition a request to the unassigned state, in preparation for re&#45;assignment. " alt="" coords="867,503,1004,545"/>
-<area shape="rect" id="node14" href="$dlist_8h.html#ae4fb05ae0fb121f4255153332d3dc477" title="Insert an item into the tail of a list. " alt="" coords="1062,292,1186,319"/>
-<area shape="rect" id="node15" href="$heap_8c.html#ab084b77223ee54a38005dfc8113b679a" title="fr_heap_peek" alt="" coords="885,620,985,647"/>
-<area shape="rect" id="node16" href="$trunk_8c.html#ac56a1d3856d033bf437fc866c1a1cf77" title="Transition a request to the cancel state, placing it in a connection&#39;s cancellation list..." alt="" coords="867,671,1004,713"/>
-<area shape="rect" id="node18" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="887,737,983,764"/>
+<area shape="rect" id="node2" href="$trunk_8c.html#aeb5ec74157948b2fb10874aa5b3fe3d6" title="Transition a connection to the draining&#45;to&#45;reconnect state. " alt="" coords="203,211,360,252"/>
+<area shape="rect" id="node3" href="$trunk_8c.html#af55aeabd0743377eb3f519244d2f10d6" title="Remove a trunk connection from whichever list it&#39;s currently in. " alt="" coords="412,81,583,107"/>
+<area shape="rect" id="node11" href="$dlist_8h.html#aca8eed7f7758b61446174a5a4d54e7b4" title="Insert an item into the head of a list. " alt="" coords="430,218,565,245"/>
+<area shape="rect" id="node12" href="$trunk_8c.html#ac2fe6b5bbb2452eda599a3fc16472d4d" title="Remove requests in specified states from a connection, attempting to distribute them to new connectio..." alt="" coords="408,331,587,372"/>
+<area shape="rect" id="node4" href="$heap_8c.html#a2071e6c3699b74317dc7968e377fdced" title="Remove a node from the heap. " alt="" coords="1068,157,1180,183"/>
+<area shape="rect" id="node7" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="685,106,763,133"/>
+<area shape="rect" id="node8" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="669,55,779,82"/>
+<area shape="rect" id="node5" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1239,207,1353,234"/>
+<area shape="rect" id="node6" href="$heap_8c.html#ae3fc67f3c57bcaa3cf2d56ee4f8552fa" title="fr_heap_bubble" alt="" coords="1241,157,1351,183"/>
+<area shape="rect" id="node9" href="$dlist_8h.html#a744cb8537f617b6718254070a02f13a0" title="Check whether a list has any items. " alt="" coords="883,106,987,133"/>
+<area shape="rect" id="node10" href="$dlist_8h.html#a50878590aabca4bc6fc4d1f6df0e724f" title="Check if a list entry is part of a list. " alt="" coords="866,55,1005,82"/>
+<area shape="rect" id="node13" href="$server_2connection_8c.html#a07cf3e48f209e153fb5dee32cfa0d221" title="Pause processing of deferred signals. " alt="" coords="861,411,1009,452"/>
+<area shape="rect" id="node14" href="$trunk_8c.html#a8b49aca0aebe6b7a37e522a1ac715336" title="Shift requests in the specified states onto new connections. " alt="" coords="635,645,813,687"/>
+<area shape="rect" id="node19" href="$server_2connection_8c.html#a4d82ac070ca65d717d16a833b1bf5032" title="Resume processing of deferred signals. " alt="" coords="861,528,1009,569"/>
+<area shape="rect" id="node21" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="677,769,771,795"/>
+<area shape="rect" id="node22" href="$trunk_8c.html#ae8f376618040ed573738a25f97a48fed" title="Request failed, inform the API client and free the request. " alt="" coords="655,477,793,519"/>
+<area shape="rect" id="node23" href="$trunk_8c.html#a0ccb4513f4a782e67c8d87c3949f7ff6" title="If the trunk request is freed then update the target requests. " alt="" coords="863,477,1008,503"/>
+<area shape="rect" id="node24" href="$trunk_8c.html#a3da6a65cff3b03e18942d9036c5c3a0a" title="Update timestamps for when we last had a transition from above target to below target or vice versa..." alt="" coords="1057,317,1191,359"/>
+<area shape="rect" id="node25" href="$trunk_8c.html#adb084310620200de5d2f1cf1ef8f0ee7" title="Transition a request to the pending state, adding it to the backlog of an active connection. " alt="" coords="867,259,1004,300"/>
+<area shape="rect" id="node26" href="$heap_8c.html#a09453d7e857bdc6018b0bf3a3502610f" title="Insert a new element into the heap. " alt="" coords="1072,207,1176,234"/>
+<area shape="rect" id="node27" href="$trunk_8c.html#a44f207c0dae5e3f74d531c1548305ba4" title="Enqueue a request which has never been assigned to a connection or was previously cancelled..." alt="" coords="645,360,803,401"/>
+<area shape="rect" id="node15" href="$trunk_8c.html#a0832cb5699c225cb2dcca015bbdbcf22" title="Transition a request to the unassigned state, in preparation for re&#45;assignment. " alt="" coords="867,645,1004,687"/>
+<area shape="rect" id="node16" href="$dlist_8h.html#ae4fb05ae0fb121f4255153332d3dc477" title="Insert an item into the tail of a list. " alt="" coords="1062,718,1186,745"/>
+<area shape="rect" id="node17" href="$heap_8c.html#ab084b77223ee54a38005dfc8113b679a" title="fr_heap_peek" alt="" coords="885,594,985,621"/>
+<area shape="rect" id="node18" href="$trunk_8c.html#ac56a1d3856d033bf437fc866c1a1cf77" title="Transition a request to the cancel state, placing it in a connection&#39;s cancellation list..." alt="" coords="867,711,1004,752"/>
+<area shape="rect" id="node20" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="887,827,983,854"/>
 </map>

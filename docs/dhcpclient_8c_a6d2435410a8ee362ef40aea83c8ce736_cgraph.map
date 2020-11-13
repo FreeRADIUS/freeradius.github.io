@@ -1,41 +1,51 @@
 <map id="send_with_socket" name="send_with_socket">
-<area shape="rect" id="node2" href="$socket_8c.html#a7fbf9c90e7ccd75b3020cd176d6e8f6a" title="Open an IPv4/IPv6 unconnected UDP socket. " alt="" coords="180,245,327,272"/>
-<area shape="rect" id="node11" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="1941,493,2020,520"/>
-<area shape="rect" id="node17" href="$syserror_8c.html#a18747f9d648d0aeecc4a8b27ac0435aa" title="Guaranteed to be thread&#45;safe version of strerror. " alt="" coords="1262,727,1346,753"/>
-<area shape="rect" id="node21" href="$socket_8c.html#acca26db930ededbe9cd8a212773673b9" title="Bind a UDP/TCP v4/v6 socket to a given ipaddr src port, and interface. " alt="" coords="1040,1181,1147,1208"/>
-<area shape="rect" id="node24" href="$dhcpv4_8h.html#a6a06d2d162d16e847445df94a967a984" title="Send DHCP packet using a connectionless UDP socket. " alt="" coords="777,928,965,955"/>
-<area shape="rect" id="node27" href="$dhcpv4_8h.html#a833ffb2558cfc93b515b054c5517159a" title="Receive DHCP packet using a connectionless UDP socket. " alt="" coords="779,701,964,728"/>
-<area shape="rect" id="node35" href="$inet_8c.html#a5b943beb9d5d4cd6cd029c010b4a98a9" title="Perform reverse resolution of an IP address. " alt="" coords="1048,1283,1139,1309"/>
-<area shape="rect" id="node3" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1435,544,1549,571"/>
-<area shape="rect" id="node13" href="$socket_8c.html#a31db61b0f195b1dacedf710111f0f091" title="Resolve a named service to a port. " alt="" coords="375,321,547,348"/>
-<area shape="rect" id="node14" href="$socket_8c.html#a0dcea6ede179a43319c867d32553e501" title="socket_dont_inherit" alt="" coords="595,195,729,221"/>
-<area shape="rect" id="node15" href="$socket_8c.html#a271e2e594acb22603abe08d4bc1ce488" title="socket_inaddr_any_v6only" alt="" coords="783,93,959,120"/>
-<area shape="rect" id="node16" href="$socket_8c.html#a9c98c4a1fd60bd2ff87024dd17daba2c" title="socket_dont_fragment" alt="" coords="1018,93,1169,120"/>
-<area shape="rect" id="node19" href="$misc_8c.html#a43446718c7dcd3f63fdeb85e01807621" title="fr_nonblock" alt="" coords="1259,144,1349,171"/>
-<area shape="rect" id="node20" href="$udpfromto_8c.html#a3df847292939efdd74f6c028b4ac8516" title="udpfromto_init" alt="" coords="1252,865,1356,892"/>
-<area shape="rect" id="node4" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="2090,1051,2159,1077"/>
-<area shape="rect" id="node5" href="$strerror_8c.html#a193b1e0b3712e3bbee338812c06af482" title="fr_strerror_vprintf" alt="" coords="1597,645,1719,672"/>
-<area shape="rect" id="node8" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="2093,873,2157,900"/>
-<area shape="rect" id="node6" href="$strerror_8c.html#a42c2cc9f76fb9dac723a1903c181e1c7" title="Initialise thread local storage. " alt="" coords="1779,645,1881,672"/>
-<area shape="rect" id="node7" href="$strerror_8c.html#a2c8e65d6d4b73fb705cc023f60acb099" title="Print the current error to stderr with a prefix. " alt="" coords="1945,873,2016,900"/>
-<area shape="rect" id="node9" href="$strerror_8c.html#a9d878c1ddb1b385cdaf6523fff68529c" title="Reset cursor state. " alt="" coords="2068,595,2181,621"/>
-<area shape="rect" id="node10" href="$print_8c.html#a27ae94b5a4c77de49aa2f387765a4d58" title="Special version of vasprintf which implements custom format specifiers. " alt="" coords="1787,544,1873,571"/>
-<area shape="rect" id="node12" href="$cursor_8c.html#a5d942382660657c3b4cb6e9cb2b12b2c" title="Insert a single item at the start of the list. " alt="" coords="1767,696,1893,723"/>
-<area shape="rect" id="node18" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="1459,1152,1525,1179"/>
-<area shape="rect" id="node22" href="$inet_8c.html#a54d4d911c16d1cd8023694973224e725" title="Convert sockaddr to our internal ip address representation. " alt="" coords="1221,1080,1387,1107"/>
-<area shape="rect" id="node23" href="$inet_8c.html#a8a9e81ebf730dfb73cb9e36038bf3703" title="Convert our internal ip address representation to a sockaddr. " alt="" coords="1229,1181,1379,1208"/>
-<area shape="rect" id="node25" href="$udpfromto_8c.html#a5fffa50bafd209f8c497be945f455dd1" title="Send packet via a file descriptor, setting the src address and outbound interface. " alt="" coords="1050,928,1137,955"/>
-<area shape="rect" id="node26" href="$udpfromto_8c.html#ae4728a893c6d7a6a82c29b4fcaefcd16" title="Read a packet from a file descriptor, retrieving additional header information. " alt="" coords="1262,928,1346,955"/>
-<area shape="rect" id="node28" href="$protocols_2dhcpv4_2base_8c.html#a1db51eb9443d33d68d70c649ceba88c6" title="Check received DHCP request is valid and build fr_radius_packet_t structure if it is..." alt="" coords="1043,347,1143,373"/>
-<area shape="rect" id="node30" href="$dhcpv4_8h.html#a9c877ddd07845ceaaba3a3461a75a263" title="fr_dhcpv4_packet_alloc" alt="" coords="1014,397,1173,424"/>
-<area shape="rect" id="node33" href="$util_2socket_8h.html#acbd9fe0db9c825e6a8c6cede38e86d3f" title="Initialise a fr_socket_t for connecting to a remote host using a specific src interface, address and port. " alt="" coords="1013,651,1173,677"/>
-<area shape="rect" id="node29" href="$dhcpv4_8h.html#ac3ff3610a619c3e3d4678c12489548c9" title="Retrieve a DHCP option from a raw packet buffer. " alt="" coords="1229,347,1379,389"/>
-<area shape="rect" id="node31" href="$protocols_2dhcpv4_2packet_8c.html#ac3ff3610a619c3e3d4678c12489548c9" title="Retrieve a DHCP option from a raw packet buffer. " alt="" coords="1229,566,1379,607"/>
-<area shape="rect" id="node32" href="$lib_2util_2packet_8c.html#a423eb650322af201d32466ae0c6a6c10" title="Allocate a new fr_radius_packet_t. " alt="" coords="1251,464,1357,491"/>
-<area shape="rect" id="node34" href="$util_2socket_8h.html#aa55163f21f95413e96fae6950549c6f5" title="Check the proto value is sane/supported. " alt="" coords="1243,641,1365,668"/>
-<area shape="rect" id="node36" href="$missing_8c.html#aa30bf1e64a9330be8a9863b70881ee06" title="inet_ntop" alt="" coords="1267,1333,1341,1360"/>
-<area shape="rect" id="node37" href="$getaddrinfo_8c.html#a84b53a447aa3457f8c46e2a12290b972" title="getnameinfo" alt="" coords="1257,1384,1351,1411"/>
-<area shape="rect" id="node40" href="$getaddrinfo_8c.html#a66b77c75f66e947388c74a8b89c83d41" title="gai_strerror" alt="" coords="1261,1283,1347,1309"/>
-<area shape="rect" id="node38" href="$getaddrinfo_8c.html#ae859b696202ef77672deecfa5a12c2ef" title="gethostbyaddr_r" alt="" coords="1435,1384,1549,1411"/>
-<area shape="rect" id="node39" href="$getaddrinfo_8c.html#a53d79a3d3bca8858a69c7018f907b1e7" title="copy_hostent" alt="" coords="1608,1384,1708,1411"/>
+<area shape="rect" id="node2" href="$socket_8c.html#a7fbf9c90e7ccd75b3020cd176d6e8f6a" title="Open an IPv4/IPv6 unconnected UDP socket. " alt="" coords="180,296,327,323"/>
+<area shape="rect" id="node11" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="2024,632,2103,659"/>
+<area shape="rect" id="node18" href="$syserror_8c.html#a18747f9d648d0aeecc4a8b27ac0435aa" title="Guaranteed to be thread&#45;safe version of strerror. " alt="" coords="1275,904,1359,931"/>
+<area shape="rect" id="node24" href="$socket_8c.html#acca26db930ededbe9cd8a212773673b9" title="Bind a UDP/TCP v4/v6 socket to a given ipaddr src port, and interface. " alt="" coords="1053,1208,1160,1235"/>
+<area shape="rect" id="node30" href="$dhcpv4_8h.html#a6a06d2d162d16e847445df94a967a984" title="Send DHCP packet using a connectionless UDP socket. " alt="" coords="375,955,563,981"/>
+<area shape="rect" id="node38" href="$dhcpv4_8h.html#a833ffb2558cfc93b515b054c5517159a" title="Receive DHCP packet using a connectionless UDP socket. " alt="" coords="793,600,979,627"/>
+<area shape="rect" id="node47" href="$inet_8c.html#a5b943beb9d5d4cd6cd029c010b4a98a9" title="Perform reverse resolution of an IP address. " alt="" coords="1061,1461,1152,1488"/>
+<area shape="rect" id="node3" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1465,632,1580,659"/>
+<area shape="rect" id="node14" href="$socket_8c.html#a31db61b0f195b1dacedf710111f0f091" title="Resolve a named service to a port. " alt="" coords="383,347,555,373"/>
+<area shape="rect" id="node15" href="$socket_8c.html#a0dcea6ede179a43319c867d32553e501" title="socket_dont_inherit" alt="" coords="611,296,745,323"/>
+<area shape="rect" id="node16" href="$socket_8c.html#a271e2e594acb22603abe08d4bc1ce488" title="socket_inaddr_any_v6only" alt="" coords="798,245,974,272"/>
+<area shape="rect" id="node17" href="$socket_8c.html#a9c98c4a1fd60bd2ff87024dd17daba2c" title="socket_dont_fragment" alt="" coords="1031,144,1182,171"/>
+<area shape="rect" id="node22" href="$misc_8c.html#a43446718c7dcd3f63fdeb85e01807621" title="fr_nonblock" alt="" coords="1273,43,1362,69"/>
+<area shape="rect" id="node23" href="$udpfromto_8c.html#a3df847292939efdd74f6c028b4ac8516" title="udpfromto_init" alt="" coords="834,803,938,829"/>
+<area shape="rect" id="node4" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="2173,1189,2242,1216"/>
+<area shape="rect" id="node5" href="$strerror_8c.html#a193b1e0b3712e3bbee338812c06af482" title="fr_strerror_vprintf" alt="" coords="1663,835,1784,861"/>
+<area shape="rect" id="node8" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="2175,1037,2239,1064"/>
+<area shape="rect" id="node6" href="$strerror_8c.html#a42c2cc9f76fb9dac723a1903c181e1c7" title="Initialise thread local storage. " alt="" coords="1861,987,1964,1013"/>
+<area shape="rect" id="node7" href="$strerror_8c.html#a2c8e65d6d4b73fb705cc023f60acb099" title="Print the current error to stderr with a prefix. " alt="" coords="2028,1037,2099,1064"/>
+<area shape="rect" id="node9" href="$strerror_8c.html#a9d878c1ddb1b385cdaf6523fff68529c" title="Reset cursor state. " alt="" coords="2151,632,2264,659"/>
+<area shape="rect" id="node10" href="$print_8c.html#a27ae94b5a4c77de49aa2f387765a4d58" title="Special version of vasprintf which implements custom format specifiers. " alt="" coords="1869,733,1956,760"/>
+<area shape="rect" id="node13" href="$cursor_8c.html#a5d942382660657c3b4cb6e9cb2b12b2c" title="Insert a single item at the start of the list. " alt="" coords="1849,936,1976,963"/>
+<area shape="rect" id="node12" href="$cursor_8c.html#ac0e33de2a6f1cb5e82c4d4e4255c2b95" title="Rewind cursor to the start of the list. " alt="" coords="2153,835,2261,861"/>
+<area shape="rect" id="node19" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="1490,1563,1555,1589"/>
+<area shape="rect" id="node21" href="$strlcpy_8c.html#a59f9599e77ee687b1daaa179f8b9a2f3" title="strlcpy" alt="" coords="1492,1343,1553,1369"/>
+<area shape="rect" id="node20" href="$radclient_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1698,1487,1749,1513"/>
+<area shape="rect" id="node25" href="$strerror_8c.html#a2f2232a184a763c76b3d87d5bea7a868" title="Add a message to an existing stack of messages. " alt="" coords="1448,1224,1597,1251"/>
+<area shape="rect" id="node27" href="$inet_8c.html#a6bdd8ae64fa76a524fd27ef5b43d12fa" title="Determine if an address is the INADDR_ANY address for its address family. " alt="" coords="1238,1005,1397,1032"/>
+<area shape="rect" id="node28" href="$inet_8c.html#a54d4d911c16d1cd8023694973224e725" title="Convert sockaddr to our internal ip address representation. " alt="" coords="1235,1056,1400,1083"/>
+<area shape="rect" id="node29" href="$inet_8c.html#a8a9e81ebf730dfb73cb9e36038bf3703" title="Convert our internal ip address representation to a sockaddr. " alt="" coords="1242,1107,1393,1133"/>
+<area shape="rect" id="node26" href="$strerror_8c.html#a986fb6cf52b0bb19d3a1a0d815d8dd5e" title="Add a message to an existing stack of messages. " alt="" coords="1645,1088,1801,1115"/>
+<area shape="rect" id="node31" href="$udpfromto_8c.html#a5fffa50bafd209f8c497be945f455dd1" title="Send packet via a file descriptor, setting the src address and outbound interface. " alt="" coords="635,904,721,931"/>
+<area shape="rect" id="node32" href="$modules_2proto__control_2radmin_8c.html#a3895e8c5ecc6ec1500e5ee96fa50bde7" title="client_socket" alt="" coords="837,1056,935,1083"/>
+<area shape="rect" id="node36" href="$udpfromto_8c.html#ae4728a893c6d7a6a82c29b4fcaefcd16" title="Read a packet from a file descriptor, retrieving additional header information. " alt="" coords="1065,651,1149,677"/>
+<area shape="rect" id="node33" href="$inet_8c.html#a4214d38cc4c6b08827c1ffa9b9456b4c" title="Wrappers for IPv4/IPv6 host to IP address lookup. " alt="" coords="1061,1309,1152,1336"/>
+<area shape="rect" id="node35" href="$socket_8c.html#af9431bac87dba0fce4119b6cdabaa54d" title="Establish a connected TCP socket. " alt="" coords="1037,1107,1176,1133"/>
+<area shape="rect" id="node34" href="$getaddrinfo_8c.html#a66b77c75f66e947388c74a8b89c83d41" title="gai_strerror" alt="" coords="1274,1309,1361,1336"/>
+<area shape="rect" id="node37" href="$time_8c.html#a6618bb376e667bf7f37ff9d168554c2a" title="Convert a timeval (wallclock time) to a fr_time_t (internal time) " alt="" coords="1245,733,1389,760"/>
+<area shape="rect" id="node39" href="$protocols_2dhcpv4_2base_8c.html#a1db51eb9443d33d68d70c649ceba88c6" title="Check received DHCP request is valid and build fr_radius_packet_t structure if it is..." alt="" coords="1057,499,1157,525"/>
+<area shape="rect" id="node41" href="$dhcpv4_8h.html#a9c877ddd07845ceaaba3a3461a75a263" title="fr_dhcpv4_packet_alloc" alt="" coords="1027,397,1186,424"/>
+<area shape="rect" id="node45" href="$util_2socket_8h.html#acbd9fe0db9c825e6a8c6cede38e86d3f" title="Initialise a fr_socket_t for connecting to a remote host using a specific src interface, address and port. " alt="" coords="1027,448,1187,475"/>
+<area shape="rect" id="node40" href="$dhcpv4_8h.html#ac3ff3610a619c3e3d4678c12489548c9" title="Retrieve a DHCP option from a raw packet buffer. " alt="" coords="1242,566,1393,607"/>
+<area shape="rect" id="node42" href="$protocols_2dhcpv4_2packet_8c.html#ac3ff3610a619c3e3d4678c12489548c9" title="Retrieve a DHCP option from a raw packet buffer. " alt="" coords="1242,398,1393,439"/>
+<area shape="rect" id="node43" href="$lib_2util_2packet_8c.html#a423eb650322af201d32466ae0c6a6c10" title="Allocate a new fr_radius_packet_t. " alt="" coords="1264,93,1371,120"/>
+<area shape="rect" id="node44" href="$rand_8c.html#ae8f4e07c7623b464cebc7b4031005d4d" title="fr_rand_buffer" alt="" coords="1471,93,1574,120"/>
+<area shape="rect" id="node46" href="$util_2socket_8h.html#aa55163f21f95413e96fae6950549c6f5" title="Check the proto value is sane/supported. " alt="" coords="1257,515,1378,541"/>
+<area shape="rect" id="node48" href="$missing_8c.html#aa30bf1e64a9330be8a9863b70881ee06" title="inet_ntop" alt="" coords="1280,1563,1355,1589"/>
+<area shape="rect" id="node49" href="$getaddrinfo_8c.html#a84b53a447aa3457f8c46e2a12290b972" title="getnameinfo" alt="" coords="1271,1613,1364,1640"/>
+<area shape="rect" id="node50" href="$getaddrinfo_8c.html#ae859b696202ef77672deecfa5a12c2ef" title="gethostbyaddr_r" alt="" coords="1465,1613,1580,1640"/>
 </map>

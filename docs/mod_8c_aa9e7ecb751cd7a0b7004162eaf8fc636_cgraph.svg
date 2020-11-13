@@ -48,111 +48,111 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 599;
 var viewHeight = 161;
-var sectionId = 'dynsection-6';
+var sectionId = 'dynsection-12';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>mod_conn_create</title>
-<!-- Node36 -->
+<!-- Node49 -->
 <g id="node1" class="node">
-<title>Node36</title>
+<title>Node49</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-38.5 0,-57.5 94,-57.5 94,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="47" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">mod_conn_create</text>
 </g>
-<!-- Node37 -->
+<!-- Node50 -->
 <g id="node2" class="node">
-<title>Node37</title>
+<title>Node50</title>
 <g id="a_node2"><a xlink:href="couchbase_8c.html#a3aee61417ecf742c8b318acc1b263367" target="_top" xlink:title="Initialize a Couchbase connection instance. ">
 <polygon fill="none" stroke="#000000" points="130,-76.5 130,-95.5 264,-95.5 264,-76.5 130,-76.5"/>
 <text text-anchor="middle" x="197" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">couchbase_init_connection</text>
 </a>
 </g>
 </g>
-<!-- Node36&#45;&gt;Node37 -->
+<!-- Node49&#45;&gt;Node50 -->
 <g id="edge1" class="edge">
-<title>Node36&#45;&gt;Node37</title>
+<title>Node49&#45;&gt;Node50</title>
 <path fill="none" stroke="#191970" d="M84.8513,-57.589C104.4671,-62.5583 128.6187,-68.6767 149.479,-73.9613"/>
 <polygon fill="#191970" stroke="#191970" points="148.8675,-77.4169 159.4209,-76.4799 150.5866,-70.6313 148.8675,-77.4169"/>
 </g>
-<!-- Node44 -->
+<!-- Node57 -->
 <g id="node9" class="node">
-<title>Node44</title>
+<title>Node57</title>
 <g id="a_node9"><a xlink:href="time_8h.html#a764e37b5ffca11aa97a3fcea90c4aa7b" target="_top" xlink:title="fr_time_delta_to_sec">
 <polygon fill="none" stroke="#000000" points="143.5,-38.5 143.5,-57.5 250.5,-57.5 250.5,-38.5 143.5,-38.5"/>
 <text text-anchor="middle" x="197" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_time_delta_to_sec</text>
 </a>
 </g>
 </g>
-<!-- Node36&#45;&gt;Node44 -->
+<!-- Node49&#45;&gt;Node57 -->
 <g id="edge10" class="edge">
-<title>Node36&#45;&gt;Node44</title>
+<title>Node49&#45;&gt;Node57</title>
 <path fill="none" stroke="#191970" d="M94.0494,-48C106.388,-48 119.9045,-48 132.9672,-48"/>
 <polygon fill="#191970" stroke="#191970" points="133.3149,-51.5001 143.3149,-48 133.3149,-44.5001 133.3149,-51.5001"/>
 </g>
-<!-- Node45 -->
+<!-- Node58 -->
 <g id="node10" class="node">
-<title>Node45</title>
+<title>Node58</title>
 <g id="a_node10"><a xlink:href="mod_8c.html#ae2421bafe2d6a615e8b43f8b5c6765b9" target="_top" xlink:title="Delete a connection pool handle and free related resources. ">
 <polygon fill="none" stroke="#000000" points="152.5,-.5 152.5,-19.5 241.5,-19.5 241.5,-.5 152.5,-.5"/>
 <text text-anchor="middle" x="197" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_mod_conn_free</text>
 </a>
 </g>
 </g>
-<!-- Node36&#45;&gt;Node45 -->
+<!-- Node49&#45;&gt;Node58 -->
 <g id="edge11" class="edge">
-<title>Node36&#45;&gt;Node45</title>
+<title>Node49&#45;&gt;Node58</title>
 <path fill="none" stroke="#191970" d="M84.8513,-38.411C104.4671,-33.4417 128.6187,-27.3233 149.479,-22.0387"/>
 <polygon fill="#191970" stroke="#191970" points="150.5866,-25.3687 159.4209,-19.5201 148.8675,-18.5831 150.5866,-25.3687"/>
 </g>
-<!-- Node38 -->
+<!-- Node51 -->
 <g id="node3" class="node">
-<title>Node38</title>
+<title>Node51</title>
 <g id="a_node3"><a xlink:href="couchbase_8c.html#abcf118048d0e7c30d919c718b0ee78c4" target="_top" xlink:title="Couchbase callback for cluster statistics requests. ">
 <polygon fill="none" stroke="#000000" points="302.5,-133.5 302.5,-152.5 429.5,-152.5 429.5,-133.5 302.5,-133.5"/>
 <text text-anchor="middle" x="366" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">couchbase_stat_callback</text>
 </a>
 </g>
 </g>
-<!-- Node37&#45;&gt;Node38 -->
+<!-- Node50&#45;&gt;Node51 -->
 <g id="edge2" class="edge">
-<title>Node37&#45;&gt;Node38</title>
+<title>Node50&#45;&gt;Node51</title>
 <path fill="none" stroke="#191970" d="M221.3803,-95.5678C242.1403,-103.5764 272.8332,-115.0915 300,-124 306.8547,-126.2478 314.1556,-128.4943 321.3091,-130.6146"/>
 <polygon fill="#191970" stroke="#191970" points="320.3366,-133.9768 330.9165,-133.416 322.2961,-127.2566 320.3366,-133.9768"/>
 </g>
-<!-- Node39 -->
+<!-- Node52 -->
 <g id="node4" class="node">
-<title>Node39</title>
+<title>Node52</title>
 <g id="a_node4"><a xlink:href="couchbase_8c.html#a11073001bcb06b6e6867c4fe02c06779" target="_top" xlink:title="Couchbase callback for store (write) operations. ">
 <polygon fill="none" stroke="#000000" points="300,-95.5 300,-114.5 432,-114.5 432,-95.5 300,-95.5"/>
 <text text-anchor="middle" x="366" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">couchbase_store_callback</text>
 </a>
 </g>
 </g>
-<!-- Node37&#45;&gt;Node39 -->
+<!-- Node50&#45;&gt;Node52 -->
 <g id="edge3" class="edge">
-<title>Node37&#45;&gt;Node39</title>
+<title>Node50&#45;&gt;Node52</title>
 <path fill="none" stroke="#191970" d="M264.2789,-93.5639C272.5898,-94.4983 281.1329,-95.4587 289.5677,-96.407"/>
 <polygon fill="#191970" stroke="#191970" points="289.4514,-99.9159 299.7798,-97.5551 290.2335,-92.9597 289.4514,-99.9159"/>
 </g>
-<!-- Node40 -->
+<!-- Node53 -->
 <g id="node5" class="node">
-<title>Node40</title>
+<title>Node53</title>
 <g id="a_node5"><a xlink:href="couchbase_8c.html#acbd29e832b9064e1e2d019ab5c6bf7ca" target="_top" xlink:title="Couchbase callback for get (read) operations. ">
 <polygon fill="none" stroke="#000000" points="304,-57.5 304,-76.5 428,-76.5 428,-57.5 304,-57.5"/>
 <text text-anchor="middle" x="366" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">couchbase_get_callback</text>
 </a>
 </g>
 </g>
-<!-- Node37&#45;&gt;Node40 -->
+<!-- Node50&#45;&gt;Node53 -->
 <g id="edge4" class="edge">
-<title>Node37&#45;&gt;Node40</title>
+<title>Node50&#45;&gt;Node53</title>
 <path fill="none" stroke="#191970" d="M264.2789,-78.4361C273.9799,-77.3455 283.9971,-76.2193 293.7894,-75.1183"/>
 <polygon fill="#191970" stroke="#191970" points="294.3435,-78.5782 303.8899,-73.9828 293.5614,-71.622 294.3435,-78.5782"/>
 </g>
-<!-- Node43 -->
+<!-- Node56 -->
 <g id="node8" class="node">
-<title>Node43</title>
+<title>Node56</title>
 <g id="a_node8"><a xlink:href="couchbase_8c.html#a4bb45be8dc8c5781894d22ace716b97e" target="_top" xlink:title="Couchbase callback for http (view) operations. ">
 <polygon fill="none" stroke="#000000" points="311,-8 311,-38 421,-38 421,-8 311,-8"/>
 <text text-anchor="start" x="319" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">couchbase_http_data</text>
@@ -160,51 +160,51 @@ var sectionId = 'dynsection-6';
 </a>
 </g>
 </g>
-<!-- Node37&#45;&gt;Node43 -->
+<!-- Node50&#45;&gt;Node56 -->
 <g id="edge7" class="edge">
-<title>Node37&#45;&gt;Node43</title>
+<title>Node50&#45;&gt;Node56</title>
 <path fill="none" stroke="#191970" d="M236.0806,-76.4047C245.3585,-73.7205 255.1332,-70.5515 264,-67 280.7945,-60.2731 283.5093,-55.4407 300,-48 304.628,-45.9118 309.487,-43.8447 314.3809,-41.8464"/>
 <polygon fill="#191970" stroke="#191970" points="315.7888,-45.0531 323.7838,-38.1012 313.1985,-38.55 315.7888,-45.0531"/>
 </g>
-<!-- Node41 -->
+<!-- Node54 -->
 <g id="node6" class="node">
-<title>Node41</title>
+<title>Node54</title>
 <g id="a_node6"><a xlink:href="json__missing_8c.html#a95b5aa310981f3cb0e0680fb219e5faf" target="_top" xlink:title="json_tokener_get_error">
 <polygon fill="none" stroke="#000000" points="471.5,-55.5 471.5,-74.5 587.5,-74.5 587.5,-55.5 471.5,-55.5"/>
 <text text-anchor="middle" x="529.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">json_tokener_get_error</text>
 </a>
 </g>
 </g>
-<!-- Node40&#45;&gt;Node41 -->
+<!-- Node53&#45;&gt;Node54 -->
 <g id="edge5" class="edge">
-<title>Node40&#45;&gt;Node41</title>
+<title>Node53&#45;&gt;Node54</title>
 <path fill="none" stroke="#191970" d="M428.2788,-66.2382C439.0157,-66.1068 450.2284,-65.9697 461.1161,-65.8365"/>
 <polygon fill="#191970" stroke="#191970" points="461.4725,-69.3325 471.4289,-65.7103 461.3869,-62.333 461.4725,-69.3325"/>
 </g>
-<!-- Node42 -->
+<!-- Node55 -->
 <g id="node7" class="node">
-<title>Node42</title>
+<title>Node55</title>
 <g id="a_node7"><a xlink:href="json__missing_8c.html#a04c5625212aed3216cc303429e47f642" target="_top" xlink:title="json_tokener_error_desc">
 <polygon fill="none" stroke="#000000" points="468,-16.5 468,-35.5 591,-35.5 591,-16.5 468,-16.5"/>
 <text text-anchor="middle" x="529.5" y="-23.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">json_tokener_error_desc</text>
 </a>
 </g>
 </g>
-<!-- Node40&#45;&gt;Node42 -->
+<!-- Node53&#45;&gt;Node55 -->
 <g id="edge6" class="edge">
-<title>Node40&#45;&gt;Node42</title>
+<title>Node53&#45;&gt;Node55</title>
 <path fill="none" stroke="#191970" d="M403.9211,-57.4907C427.0535,-51.6899 456.8332,-44.2223 481.5869,-38.0149"/>
 <polygon fill="#191970" stroke="#191970" points="482.6533,-41.3559 491.5016,-35.5286 480.9506,-34.5662 482.6533,-41.3559"/>
 </g>
-<!-- Node43&#45;&gt;Node41 -->
+<!-- Node56&#45;&gt;Node54 -->
 <g id="edge8" class="edge">
-<title>Node43&#45;&gt;Node41</title>
+<title>Node56&#45;&gt;Node54</title>
 <path fill="none" stroke="#191970" d="M421.3536,-37.2193C441.1428,-42.3027 463.2437,-47.98 482.2829,-52.8708"/>
 <polygon fill="#191970" stroke="#191970" points="481.6639,-56.3254 492.2203,-55.4236 483.4056,-49.5455 481.6639,-56.3254"/>
 </g>
-<!-- Node43&#45;&gt;Node42 -->
+<!-- Node56&#45;&gt;Node55 -->
 <g id="edge9" class="edge">
-<title>Node43&#45;&gt;Node42</title>
+<title>Node56&#45;&gt;Node55</title>
 <path fill="none" stroke="#191970" d="M421.3536,-24.0157C433.0062,-24.2295 445.4604,-24.458 457.619,-24.6811"/>
 <polygon fill="#191970" stroke="#191970" points="457.6761,-28.1826 467.7386,-24.8668 457.8046,-21.1838 457.6761,-28.1826"/>
 </g>

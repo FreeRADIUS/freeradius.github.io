@@ -1,45 +1,51 @@
 <map id="rlm_rest_perform" name="rlm_rest_perform">
-<area shape="rect" id="node2" href="$rest_8c.html#a038098cfc777ceac6a1c70e0ae3ab7df" title="Builds URI; performs XLAT expansions and encoding. " alt="" coords="192,77,291,104"/>
-<area shape="rect" id="node11" href="$rest_8c.html#a007704d2020b36d4326b486edc12a0a3" title="Configures request curlopts. " alt="" coords="173,653,309,680"/>
-<area shape="rect" id="node43" href="$curl_2base_8h.html#aed47f6b88d39abaac58ec084ecea3abd" title="Sends a request using libcurl. " alt="" coords="179,903,304,945"/>
-<area shape="rect" id="node3" href="$strlcpy_8c.html#a59f9599e77ee687b1daaa179f8b9a2f3" title="strlcpy" alt="" coords="1039,45,1100,72"/>
-<area shape="rect" id="node4" href="$xlat_8h.html#af2cbba970c886fb73d6ce5d4500f21dd" title="xlat_aeval" alt="" coords="402,115,483,141"/>
-<area shape="rect" id="node10" href="$rest_8c.html#ac84abfb719d7945bc7afd173755f3ab2" title="URL encodes a string. " alt="" coords="595,32,710,59"/>
-<area shape="rect" id="node5" href="$xlat__eval_8c.html#a74d8cf2e6ad59fcfb8b390c1a15d0d79" title="Replace whatever in a string. " alt="" coords="612,115,693,141"/>
-<area shape="rect" id="node6" href="$xlat_8h.html#a85829f4364557f22d8e7da7f6f5b826b" title="Tokenize an xlat expansion at runtime. " alt="" coords="784,223,951,249"/>
-<area shape="rect" id="node7" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="1030,223,1109,249"/>
-<area shape="rect" id="node9" href="$xlat__eval_8c.html#aeb47743ed8c9d8a878691668b31f622d" title="Replace whatever in a string. " alt="" coords="797,71,937,97"/>
-<area shape="rect" id="node8" href="$cursor_8c.html#a6194bc92357e84dc8720ffd5ccaaeb42" title="Remove the current item. " alt="" coords="1181,248,1304,275"/>
-<area shape="rect" id="node12" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="410,780,475,807"/>
-<area shape="rect" id="node13" href="$pool_8c.html#a0b039da90c3bff218111d75bc71c08bd" title="Connection pool get timeout. " alt="" coords="387,831,498,857"/>
-<area shape="rect" id="node14" href="$time_8h.html#ae8188323e6975efb29e14339a56d2878" title="fr_time_delta_to_msec" alt="" coords="365,881,520,908"/>
-<area shape="rect" id="node15" href="$cf__util_8c.html#a5db99282bb519c1d025b2eff5d602bfc" title="Return the second identifier of a CONF_SECTION. " alt="" coords="379,932,507,959"/>
-<area shape="rect" id="node16" href="$util_2pair_8h.html#a078d7dfa9ea0f6beae478c6c913aa4e2" title="Initialise a cursor that will return only attributes matching the specified fr_dict_attr_t. " alt="" coords="361,983,525,1009"/>
-<area shape="rect" id="node17" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="1017,1121,1122,1148"/>
-<area shape="rect" id="node18" href="$talloc_8h.html#acb428ac33d241ad45ec389fd0770db86" title="Allocate a top level chunk with a constant name. " alt="" coords="385,324,501,351"/>
-<area shape="rect" id="node19" href="$lib_2curl_2base_8c.html#a8a8525a6337028e552f7f3b96fae9a42" title="fr_curl_easy_tls_init" alt="" coords="373,375,512,401"/>
-<area shape="rect" id="node20" href="$rest_8c.html#a047949d2716b969aaf3a78031c16f4c0" title="(Re&#45;)Initialises the data in a rlm_rest_response_t. " alt="" coords="379,425,507,452"/>
-<area shape="rect" id="node21" href="$rest_8c.html#ae4f8cd1f40c79482dfbd227ef93240e6" title="Processes incoming HTTP header data from libcurl. " alt="" coords="367,476,518,503"/>
-<area shape="rect" id="node23" href="$rest_8c.html#ae14ae22859776d71b16b53ef679d9178" title="Processes incoming HTTP body data from libcurl. " alt="" coords="373,527,512,553"/>
-<area shape="rect" id="node25" href="$rest_8c.html#a029b5e9d705f791d1efb0a9c296ee4f9" title="Configures body specific curlopts. " alt="" coords="357,577,528,604"/>
-<area shape="rect" id="node27" href="$rest_8c.html#a5353abe810dff1791de82a1a5bb032fd" title="Copies a pre&#45;expanded xlat string to the output buffer. " alt="" coords="371,628,514,655"/>
-<area shape="rect" id="node28" href="$rest_8c.html#aa46cc7c19bd58d478056390fa4d3d1e9" title="(Re&#45;)Initialises the data in a rlm_rest_request_t. " alt="" coords="383,679,502,705"/>
-<area shape="rect" id="node29" href="$rest_8c.html#a5df59094f9d05655fc2c945e6b4ae580" title="Encodes fr_pair_t linked list in JSON format. " alt="" coords="381,1084,505,1111"/>
-<area shape="rect" id="node37" href="$rest_8c.html#ae1dca8656b1e8c2fc0096fd316501ed0" title="Encodes fr_pair_t linked list in POST format. " alt="" coords="590,765,715,792"/>
-<area shape="rect" id="node22" href="$missing_8c.html#a3c28b90d7e1fc3e492c1fac0af04d21b" title="strncasecmp" alt="" coords="604,476,701,503"/>
-<area shape="rect" id="node24" href="$talloc_8c.html#a8149e8d0df43fce4703108f28db5d696" title="Trim a bstr (char) buffer. " alt="" coords="589,527,716,553"/>
-<area shape="rect" id="node26" href="$rest_8c.html#aa875413a9907befed98ddb45b37344d8" title="Emulates successive libcurl calls to an encoding function. " alt="" coords="581,578,724,619"/>
-<area shape="rect" id="node30" href="$json_2base_8h.html#af3c1796f25a3c2404cf5fb6a02f4169c" title="Returns a JSON string of a list of value pairs. " alt="" coords="576,1201,729,1228"/>
-<area shape="rect" id="node31" href="$json_8c.html#ab789574a794cd84a26a3f309910a90c2" title="Returns a JSON object representation of a list of value pairs. " alt="" coords="777,1151,957,1177"/>
-<area shape="rect" id="node32" href="$json_8c.html#a63d230a90b5bf61a564aa7f01554adc5" title="Returns a JSON object representation of a list of value pairs. " alt="" coords="798,1253,937,1294"/>
-<area shape="rect" id="node33" href="$json_8c.html#a2139cfc60800ce9d81c19fc8bc962d22" title="Returns a JSON array representation of a list of value pairs. " alt="" coords="780,1319,955,1345"/>
-<area shape="rect" id="node34" href="$json_8c.html#aa13e9c59ce12765c43b9c5abce46c58b" title="Returns a JSON array of a list of value pairs. " alt="" coords="787,1370,947,1411"/>
-<area shape="rect" id="node35" href="$json_8c.html#a3c7b65c21034160cefbc34a27cdd6a67" title="Returns a JSON array of a list of value pairs. " alt="" coords="793,1085,941,1126"/>
-<area shape="rect" id="node36" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="800,1201,935,1228"/>
-<area shape="rect" id="node38" href="$cursor_8c.html#a92733b72ea218ecff0bc7808fae613b7" title="Return the item the cursor current points to. " alt="" coords="807,824,927,851"/>
-<area shape="rect" id="node39" href="$util_2pair_8h.html#ab697da43c2a96b62dd95e6931525c1ba" title="Print the value of an attribute to a string. " alt="" coords="803,758,931,799"/>
-<area shape="rect" id="node40" href="$sbuff_8c.html#aeeb2fa91afa0f72ebcfadf1c4d14df9b" title="Print using a fmt string to an sbuff. " alt="" coords="1006,816,1133,843"/>
-<area shape="rect" id="node41" href="$value_8c.html#a89adbe4d202175103db8de87cc6e9297" title="Print one boxed value to a string with quotes (where needed) " alt="" coords="1005,699,1133,741"/>
-<area shape="rect" id="node42" href="$pair__print_8c.html#a748e31d7aded90939877a4cc567a633f" title="Print one attribute and value to a string. " alt="" coords="1024,765,1115,792"/>
-<area shape="rect" id="node44" href="$lib_2curl_2io_8c.html#a975b0c58ffaf2a2d95c6796084dc3341" title="Callback to receive debugging data from libcurl. " alt="" coords="388,1135,497,1161"/>
+<area shape="rect" id="node2" href="$rest_8c.html#a038098cfc777ceac6a1c70e0ae3ab7df" title="Builds URI; performs XLAT expansions and encoding. " alt="" coords="192,107,291,133"/>
+<area shape="rect" id="node12" href="$rest_8c.html#a007704d2020b36d4326b486edc12a0a3" title="Configures request curlopts. " alt="" coords="173,639,309,665"/>
+<area shape="rect" id="node49" href="$curl_2base_8h.html#aed47f6b88d39abaac58ec084ecea3abd" title="Sends a request using libcurl. " alt="" coords="179,914,304,955"/>
+<area shape="rect" id="node3" href="$strlcpy_8c.html#a59f9599e77ee687b1daaa179f8b9a2f3" title="strlcpy" alt="" coords="1061,81,1122,108"/>
+<area shape="rect" id="node4" href="$xlat_8h.html#af2cbba970c886fb73d6ce5d4500f21dd" title="xlat_aeval" alt="" coords="402,157,483,184"/>
+<area shape="rect" id="node11" href="$rest_8c.html#ac84abfb719d7945bc7afd173755f3ab2" title="URL encodes a string. " alt="" coords="821,5,935,32"/>
+<area shape="rect" id="node5" href="$xlat__eval_8c.html#a74d8cf2e6ad59fcfb8b390c1a15d0d79" title="Replace whatever in a string. " alt="" coords="617,157,699,184"/>
+<area shape="rect" id="node6" href="$xlat_8h.html#a85829f4364557f22d8e7da7f6f5b826b" title="Tokenize an xlat expansion at runtime. " alt="" coords="795,259,961,285"/>
+<area shape="rect" id="node7" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="1052,259,1131,285"/>
+<area shape="rect" id="node10" href="$xlat__eval_8c.html#aeb47743ed8c9d8a878691668b31f622d" title="Replace whatever in a string. " alt="" coords="808,107,948,133"/>
+<area shape="rect" id="node9" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1034,836,1149,863"/>
+<area shape="rect" id="node8" href="$cursor_8c.html#a6194bc92357e84dc8720ffd5ccaaeb42" title="Remove the current item. " alt="" coords="1215,284,1337,311"/>
+<area shape="rect" id="node13" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="410,563,475,589"/>
+<area shape="rect" id="node14" href="$pool_8c.html#a0b039da90c3bff218111d75bc71c08bd" title="Connection pool get timeout. " alt="" coords="387,613,498,640"/>
+<area shape="rect" id="node15" href="$time_8h.html#ae8188323e6975efb29e14339a56d2878" title="fr_time_delta_to_msec" alt="" coords="365,664,520,691"/>
+<area shape="rect" id="node16" href="$cf__util_8c.html#a5db99282bb519c1d025b2eff5d602bfc" title="Return the second identifier of a CONF_SECTION. " alt="" coords="379,715,507,741"/>
+<area shape="rect" id="node17" href="$util_2pair_8h.html#a078d7dfa9ea0f6beae478c6c913aa4e2" title="Initialise a cursor that will return only attributes matching the specified fr_dict_attr_t. " alt="" coords="361,765,525,792"/>
+<area shape="rect" id="node19" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="1039,672,1144,699"/>
+<area shape="rect" id="node20" href="$talloc_8h.html#acb428ac33d241ad45ec389fd0770db86" title="Allocate a top level chunk with a constant name. " alt="" coords="385,917,501,944"/>
+<area shape="rect" id="node33" href="$lib_2curl_2base_8c.html#a8a8525a6337028e552f7f3b96fae9a42" title="fr_curl_easy_tls_init" alt="" coords="373,968,512,995"/>
+<area shape="rect" id="node34" href="$rest_8c.html#a047949d2716b969aaf3a78031c16f4c0" title="(Re&#45;)Initialises the data in a rlm_rest_response_t. " alt="" coords="379,1019,507,1045"/>
+<area shape="rect" id="node35" href="$rest_8c.html#ae4f8cd1f40c79482dfbd227ef93240e6" title="Processes incoming HTTP header data from libcurl. " alt="" coords="367,1069,518,1096"/>
+<area shape="rect" id="node37" href="$rest_8c.html#ae14ae22859776d71b16b53ef679d9178" title="Processes incoming HTTP body data from libcurl. " alt="" coords="373,309,512,336"/>
+<area shape="rect" id="node39" href="$rest_8c.html#a029b5e9d705f791d1efb0a9c296ee4f9" title="Configures body specific curlopts. " alt="" coords="357,360,528,387"/>
+<area shape="rect" id="node41" href="$rest_8c.html#a5353abe810dff1791de82a1a5bb032fd" title="Copies a pre&#45;expanded xlat string to the output buffer. " alt="" coords="371,411,514,437"/>
+<area shape="rect" id="node42" href="$rest_8c.html#aa46cc7c19bd58d478056390fa4d3d1e9" title="(Re&#45;)Initialises the data in a rlm_rest_request_t. " alt="" coords="383,461,502,488"/>
+<area shape="rect" id="node43" href="$rest_8c.html#a5df59094f9d05655fc2c945e6b4ae580" title="Encodes fr_pair_t linked list in JSON format. " alt="" coords="381,867,505,893"/>
+<area shape="rect" id="node46" href="$rest_8c.html#ae1dca8656b1e8c2fc0096fd316501ed0" title="Encodes fr_pair_t linked list in POST format. " alt="" coords="595,516,721,543"/>
+<area shape="rect" id="node18" href="$util_2pair_8h.html#ac46f958d24caf9bd32b1bbd930f3a709" title="Iterate over pairs with a specified da. " alt="" coords="579,659,737,685"/>
+<area shape="rect" id="node21" href="$talloc_8h.html#a3e6e2b6702148d688c1fb381cb1117eb" title="Retrieve the current talloc NULL ctx. " alt="" coords="605,1064,711,1091"/>
+<area shape="rect" id="node22" href="$talloc_8h.html#ae835f7a926a1d3da159c1e0dce86581c" title="Add an additional destructor to a talloc chunk. " alt="" coords="805,1013,951,1040"/>
+<area shape="rect" id="node25" href="$talloc_8h.html#adb92fb43a9672417f9da8e644d188b52" title="Disarm a destructor and free all memory allocated in the trigger ctxs. " alt="" coords="576,1115,740,1141"/>
+<area shape="rect" id="node26" href="$talloc_8h.html#a9e4c941cc6b24faf5b0e81b7635fdffe" title="Link two different parent and child contexts, so the child is freed before the parent. " alt="" coords="605,963,711,989"/>
+<area shape="rect" id="node29" href="$talloc_8h.html#adb7f37fae27f88ec647215c8afca9725" title="talloc_add_destructor" alt="" coords="585,1165,731,1192"/>
+<area shape="rect" id="node30" href="$talloc_8h.html#aab0c342f3705e1349f44abf78161914a" title="talloc_disarm_destructor" alt="" coords="576,811,740,837"/>
+<area shape="rect" id="node31" href="$talloc_8h.html#a21dbbfb88b4603f31754b168d6def945" title="Return a page aligned talloc memory pool. " alt="" coords="795,861,961,888"/>
+<area shape="rect" id="node32" href="$talloc_8h.html#ab287847ee1ecaeaa96d876377e92c705" title="Return a page aligned talloc memory array. " alt="" coords="809,811,947,837"/>
+<area shape="rect" id="node23" href="$talloc_8c.html#a9a557e02d8c7d178ab5458fb972b52c4" title="Called when the disarm_ctx ctx is freed. " alt="" coords="1029,1010,1154,1051"/>
+<area shape="rect" id="node24" href="$talloc_8c.html#a0f65bca77390a8fc11310342d848d178" title="Called with the fire_ctx is freed. " alt="" coords="1016,959,1167,985"/>
+<area shape="rect" id="node27" href="$talloc_8c.html#ae835f7a926a1d3da159c1e0dce86581c" title="Add an additional destructor to a talloc chunk. " alt="" coords="805,963,951,989"/>
+<area shape="rect" id="node28" href="$talloc_8c.html#a1d56d7b1166027d8ee4ddfa2353c937f" title="_talloc_link_ctx_free" alt="" coords="807,912,949,939"/>
+<area shape="rect" id="node36" href="$missing_8c.html#a3c28b90d7e1fc3e492c1fac0af04d21b" title="strncasecmp" alt="" coords="609,1216,707,1243"/>
+<area shape="rect" id="node38" href="$talloc_8c.html#a8149e8d0df43fce4703108f28db5d696" title="Trim a bstr (char) buffer. " alt="" coords="595,309,721,336"/>
+<area shape="rect" id="node40" href="$rest_8c.html#aa875413a9907befed98ddb45b37344d8" title="Emulates successive libcurl calls to an encoding function. " alt="" coords="587,361,729,402"/>
+<area shape="rect" id="node44" href="$json_2base_8h.html#af3c1796f25a3c2404cf5fb6a02f4169c" title="Returns a JSON string of a list of value pairs. " alt="" coords="581,760,735,787"/>
+<area shape="rect" id="node45" href="$json_8c.html#ab789574a794cd84a26a3f309910a90c2" title="Returns a JSON object representation of a list of value pairs. " alt="" coords="788,760,968,787"/>
+<area shape="rect" id="node47" href="$cursor_8c.html#a92733b72ea218ecff0bc7808fae613b7" title="Return the item the cursor current points to. " alt="" coords="818,567,938,593"/>
+<area shape="rect" id="node48" href="$util_2pair_8h.html#ab697da43c2a96b62dd95e6931525c1ba" title="Print the value of an attribute to a string. " alt="" coords="814,626,942,667"/>
+<area shape="rect" id="node50" href="$lib_2curl_2io_8c.html#a975b0c58ffaf2a2d95c6796084dc3341" title="Callback to receive debugging data from libcurl. " alt="" coords="388,1120,497,1147"/>
 </map>

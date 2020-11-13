@@ -2,13 +2,13 @@
 <area shape="rect" id="node2" href="$request__data_8c.html#a2dfaa4524c75719f7d11d05607e976a9" title="Get opaque data from a request. " alt="" coords="623,33,745,59"/>
 <area shape="rect" id="node3" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="865,41,958,67"/>
 <area shape="rect" id="node8" href="$server_2state_8c.html#a6c89f78cff668fcfa63038b22f78f057" title="Move all request data and session&#45;state VPs into a new state_ctx. " alt="" coords="174,429,286,455"/>
-<area shape="rect" id="node43" href="$lib_2util_2debug_8c.html#a28bc6082dfc0394e91244752c2c81471" title="Generate a talloc memory report for a context and print to stderr/stdout. " alt="" coords="164,885,296,911"/>
-<area shape="rect" id="node46" href="$atomic__queue__test_8c.html#afec5f08739b07310113e8de96c2ac6db" title="request_verify" alt="" coords="178,935,282,962"/>
+<area shape="rect" id="node47" href="$lib_2util_2debug_8c.html#a28bc6082dfc0394e91244752c2c81471" title="Generate a talloc memory report for a context and print to stderr/stdout. " alt="" coords="164,657,296,683"/>
+<area shape="rect" id="node50" href="$atomic__queue__test_8c.html#afec5f08739b07310113e8de96c2ac6db" title="request_verify" alt="" coords="178,707,282,734"/>
 <area shape="rect" id="node5" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="856,91,967,118"/>
 <area shape="rect" id="node4" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="1074,41,1170,67"/>
 <area shape="rect" id="node6" href="$dlist_8h.html#a744cb8537f617b6718254070a02f13a0" title="Check whether a list has any items. " alt="" coords="1070,142,1174,169"/>
 <area shape="rect" id="node7" href="$dlist_8h.html#a50878590aabca4bc6fc4d1f6df0e724f" title="Check if a list entry is part of a list. " alt="" coords="1053,91,1191,118"/>
-<area shape="rect" id="node9" href="$pair_8c.html#acd64c65e4d56248ce8e4dda20ab95aff" title="Free memory used by a valuepair list. " alt="" coords="629,657,739,683"/>
+<area shape="rect" id="node9" href="$pair_8c.html#acd64c65e4d56248ce8e4dda20ab95aff" title="Free memory used by a valuepair list. " alt="" coords="629,707,739,734"/>
 <area shape="rect" id="node10" href="$request__data_8c.html#abc5b2c1043bafb91eb2bb53e3173346d" title="Used for removing data from subrequests that are about to be freed. " alt="" coords="344,134,540,161"/>
 <area shape="rect" id="node14" href="$talloc_8h.html#acb428ac33d241ad45ec389fd0770db86" title="Allocate a top level chunk with a constant name. " alt="" coords="384,429,500,455"/>
 <area shape="rect" id="node28" href="$request__data_8c.html#ac4f04bba6b3641c7754e320ee3145615" title="Loop over all the request data, copying, then freeing ones matching persist state. " alt="" coords="588,185,780,227"/>
@@ -16,32 +16,36 @@
 <area shape="rect" id="node11" href="$request__data_8c.html#a1f8d06294cc21c9d3cc8d8254b4e7a70" title="Loop over all the request data, pulling out ones matching persist state. " alt="" coords="588,134,780,161"/>
 <area shape="rect" id="node13" href="$dlist_8h.html#a5d1da49f23b091e8df75b7a0256a61b3" title="Free all items in a doubly linked list (with talloc) " alt="" coords="620,83,748,110"/>
 <area shape="rect" id="node12" href="$dlist_8h.html#ae4fb05ae0fb121f4255153332d3dc477" title="Insert an item into the tail of a list. " alt="" coords="849,142,973,169"/>
-<area shape="rect" id="node15" href="$talloc_8h.html#a3e6e2b6702148d688c1fb381cb1117eb" title="Retrieve the current talloc NULL ctx. " alt="" coords="631,606,737,633"/>
-<area shape="rect" id="node16" href="$talloc_8h.html#ae835f7a926a1d3da159c1e0dce86581c" title="Add an additional destructor to a talloc chunk. " alt="" coords="838,403,985,430"/>
-<area shape="rect" id="node20" href="$talloc_8h.html#adb92fb43a9672417f9da8e644d188b52" title="Disarm a destructor and free all memory allocated in the trigger ctxs. " alt="" coords="602,251,766,278"/>
-<area shape="rect" id="node21" href="$talloc_8h.html#a9e4c941cc6b24faf5b0e81b7635fdffe" title="Link two different parent and child contexts, so the child is freed before the parent. " alt="" coords="631,454,737,481"/>
-<area shape="rect" id="node24" href="$talloc_8h.html#adb7f37fae27f88ec647215c8afca9725" title="talloc_add_destructor" alt="" coords="611,302,757,329"/>
-<area shape="rect" id="node25" href="$talloc_8h.html#aab0c342f3705e1349f44abf78161914a" title="talloc_disarm_destructor" alt="" coords="602,353,766,379"/>
-<area shape="rect" id="node26" href="$talloc_8h.html#a21dbbfb88b4603f31754b168d6def945" title="Return a page aligned talloc memory pool. " alt="" coords="828,555,995,582"/>
-<area shape="rect" id="node27" href="$talloc_8h.html#ab287847ee1ecaeaa96d876377e92c705" title="Return a page aligned talloc memory array. " alt="" coords="843,606,980,633"/>
+<area shape="rect" id="node15" href="$talloc_8h.html#a3e6e2b6702148d688c1fb381cb1117eb" title="Retrieve the current talloc NULL ctx. " alt="" coords="631,454,737,481"/>
+<area shape="rect" id="node16" href="$talloc_8h.html#ae835f7a926a1d3da159c1e0dce86581c" title="Add an additional destructor to a talloc chunk. " alt="" coords="838,353,985,379"/>
+<area shape="rect" id="node20" href="$talloc_8h.html#adb92fb43a9672417f9da8e644d188b52" title="Disarm a destructor and free all memory allocated in the trigger ctxs. " alt="" coords="602,505,766,531"/>
+<area shape="rect" id="node21" href="$talloc_8h.html#a9e4c941cc6b24faf5b0e81b7635fdffe" title="Link two different parent and child contexts, so the child is freed before the parent. " alt="" coords="631,403,737,430"/>
+<area shape="rect" id="node24" href="$talloc_8h.html#adb7f37fae27f88ec647215c8afca9725" title="talloc_add_destructor" alt="" coords="611,251,757,278"/>
+<area shape="rect" id="node25" href="$talloc_8h.html#aab0c342f3705e1349f44abf78161914a" title="talloc_disarm_destructor" alt="" coords="602,302,766,329"/>
+<area shape="rect" id="node26" href="$talloc_8h.html#a21dbbfb88b4603f31754b168d6def945" title="Return a page aligned talloc memory pool. " alt="" coords="828,606,995,633"/>
+<area shape="rect" id="node27" href="$talloc_8h.html#ab287847ee1ecaeaa96d876377e92c705" title="Return a page aligned talloc memory array. " alt="" coords="615,555,753,582"/>
 <area shape="rect" id="node17" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1065,606,1179,633"/>
-<area shape="rect" id="node18" href="$talloc_8c.html#a9a557e02d8c7d178ab5458fb972b52c4" title="Called when the disarm_ctx ctx is freed. " alt="" coords="1059,407,1185,448"/>
-<area shape="rect" id="node19" href="$talloc_8c.html#a0f65bca77390a8fc11310342d848d178" title="Called with the fire_ctx is freed. " alt="" coords="1047,494,1197,521"/>
-<area shape="rect" id="node22" href="$talloc_8c.html#ae835f7a926a1d3da159c1e0dce86581c" title="Add an additional destructor to a talloc chunk. " alt="" coords="838,505,985,531"/>
+<area shape="rect" id="node18" href="$talloc_8c.html#a9a557e02d8c7d178ab5458fb972b52c4" title="Called when the disarm_ctx ctx is freed. " alt="" coords="1059,400,1185,441"/>
+<area shape="rect" id="node19" href="$talloc_8c.html#a0f65bca77390a8fc11310342d848d178" title="Called with the fire_ctx is freed. " alt="" coords="1047,349,1197,375"/>
+<area shape="rect" id="node22" href="$talloc_8c.html#ae835f7a926a1d3da159c1e0dce86581c" title="Add an additional destructor to a talloc chunk. " alt="" coords="838,403,985,430"/>
 <area shape="rect" id="node23" href="$talloc_8c.html#a1d56d7b1166027d8ee4ddfa2353c937f" title="_talloc_link_ctx_free" alt="" coords="841,454,982,481"/>
 <area shape="rect" id="node29" href="$request__data_8c.html#a602844d07a1e520cf6c7c7ccfa357980" title="Allocate request data. " alt="" coords="846,243,977,270"/>
 <area shape="rect" id="node31" href="$dlist_8h.html#a5ce47a38257240ad2b08b746c856a276" title="Merge two lists, inserting the tail of one into the other. " alt="" coords="861,193,961,219"/>
 <area shape="rect" id="node30" href="$request__data_8c.html#a56856ea9e3799ceb396f939f41d12702" title="Ensure opaque data is freed by binding its lifetime to the request_data_t. " alt="" coords="1055,243,1189,270"/>
 <area shape="rect" id="node32" href="$dlist_8h.html#ac07928279a883700db54778383d69e77" title="Initialise a linked list without metadata. " alt="" coords="1061,193,1183,219"/>
-<area shape="rect" id="node34" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="631,707,737,734"/>
-<area shape="rect" id="node35" href="$pair_8c.html#aba344d7329bbf8b0904995129709748c" title="Copy a single valuepair. " alt="" coords="637,910,731,937"/>
-<area shape="rect" id="node40" href="$cursor_8c.html#a6e72682a046a3eeac734da6639f1817c" title="Insert a single item at the end of the list. " alt="" coords="623,758,745,785"/>
-<area shape="rect" id="node41" href="$cursor_8c.html#ac0e33de2a6f1cb5e82c4d4e4255c2b95" title="Rewind cursor to the start of the list. " alt="" coords="630,809,738,835"/>
-<area shape="rect" id="node42" href="$cursor_8c.html#ade5224aa2f81844c68753159c38fa3ee" title="Appends items from one cursor to another. " alt="" coords="626,859,742,886"/>
-<area shape="rect" id="node36" href="$pair_8c.html#a2897183dcbc65ef1b54619bd293fd735" title="Dynamically allocate a new attribute and fill in the da field. " alt="" coords="852,1011,971,1038"/>
-<area shape="rect" id="node37" href="$dict_8h.html#af5e7c4344dae37b2ae61c1b78c0cc1bc" title="Copy a known or unknown attribute to produce an unknown attribute with the specified name..." alt="" coords="1043,1037,1201,1063"/>
-<area shape="rect" id="node38" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="844,859,979,886"/>
-<area shape="rect" id="node39" href="$value_8c.html#a4fadbcd199d20611112e21b7f0da11c4" title="Copy value data verbatim duplicating any buffers. " alt="" coords="846,910,977,937"/>
-<area shape="rect" id="node44" href="$syserror_8c.html#a18747f9d648d0aeecc4a8b27ac0435aa" title="Guaranteed to be thread&#45;safe version of strerror. " alt="" coords="400,885,484,911"/>
-<area shape="rect" id="node45" href="$talloc_8c.html#a3e6e2b6702148d688c1fb381cb1117eb" title="Retrieve the current talloc NULL ctx. " alt="" coords="389,1011,495,1038"/>
+<area shape="rect" id="node34" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="631,758,737,785"/>
+<area shape="rect" id="node35" href="$pair_8c.html#aba344d7329bbf8b0904995129709748c" title="Copy a single valuepair. " alt="" coords="637,859,731,886"/>
+<area shape="rect" id="node40" href="$cursor_8c.html#a6e72682a046a3eeac734da6639f1817c" title="Insert a single item at the end of the list. " alt="" coords="1061,1037,1183,1063"/>
+<area shape="rect" id="node42" href="$cursor_8c.html#ac0e33de2a6f1cb5e82c4d4e4255c2b95" title="Rewind cursor to the start of the list. " alt="" coords="630,809,738,835"/>
+<area shape="rect" id="node43" href="$cursor_8c.html#ade5224aa2f81844c68753159c38fa3ee" title="Appends items from one cursor to another. " alt="" coords="626,935,742,962"/>
+<area shape="rect" id="node36" href="$pair_8c.html#a2897183dcbc65ef1b54619bd293fd735" title="Dynamically allocate a new attribute and fill in the da field. " alt="" coords="852,809,971,835"/>
+<area shape="rect" id="node37" href="$dict_8h.html#af5e7c4344dae37b2ae61c1b78c0cc1bc" title="Copy a known or unknown attribute to produce an unknown attribute with the specified name..." alt="" coords="1043,834,1201,861"/>
+<area shape="rect" id="node38" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="844,758,979,785"/>
+<area shape="rect" id="node39" href="$value_8c.html#a4fadbcd199d20611112e21b7f0da11c4" title="Copy value data verbatim duplicating any buffers. " alt="" coords="846,707,977,734"/>
+<area shape="rect" id="node41" href="$cursor_8c.html#a8bff1cf971c70ff3c9b5ac03bc6a7042" title="Internal function to get the last attribute. " alt="" coords="1249,1037,1332,1063"/>
+<area shape="rect" id="node44" href="$cursor_8c.html#a6194bc92357e84dc8720ffd5ccaaeb42" title="Remove the current item. " alt="" coords="850,961,973,987"/>
+<area shape="rect" id="node45" href="$cursor_8c.html#a37b02b1c14933814c7eeeba355582e41" title="Insert directly after the current item. " alt="" coords="855,1011,967,1038"/>
+<area shape="rect" id="node46" href="$cursor_8c.html#a5d942382660657c3b4cb6e9cb2b12b2c" title="Insert a single item at the start of the list. " alt="" coords="848,910,975,937"/>
+<area shape="rect" id="node48" href="$syserror_8c.html#a18747f9d648d0aeecc4a8b27ac0435aa" title="Guaranteed to be thread&#45;safe version of strerror. " alt="" coords="400,885,484,911"/>
+<area shape="rect" id="node49" href="$talloc_8c.html#a3e6e2b6702148d688c1fb381cb1117eb" title="Retrieve the current talloc NULL ctx. " alt="" coords="389,834,495,861"/>
 </map>

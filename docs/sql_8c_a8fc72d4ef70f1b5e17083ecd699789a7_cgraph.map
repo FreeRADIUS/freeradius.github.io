@@ -1,24 +1,40 @@
 <map id="sql_getvpdata" name="sql_getvpdata">
-<area shape="rect" id="node2" href="$sql_8c.html#a4af6c0c85e68a016eea0d569dc2b50bd" title="Call the driver&#39;s sql_select_query method, reconnecting if necessary. " alt="" coords="167,82,313,109"/>
-<area shape="rect" id="node17" href="$sql_8c.html#a5d48a69af545c105cbb7bec125b2985b" title="Call the driver&#39;s sql_fetch_row function. " alt="" coords="176,137,304,164"/>
-<area shape="rect" id="node18" href="$sql_8c.html#af3d5cf0827dad35d98c18cc0dc808779" title="sql_fr_pair_list_afrom_str" alt="" coords="156,288,324,314"/>
-<area shape="rect" id="node3" href="$pool_8c.html#a6b251d458c1229ed4a5f061ac6c70616" title="Get the number of connections currently in the pool. " alt="" coords="389,20,486,46"/>
-<area shape="rect" id="node4" href="$pool_8c.html#af1511bb1bd5b110243f5e53e9188e3dd" title="Reconnect a suspected inviable connection. " alt="" coords="372,71,503,112"/>
-<area shape="rect" id="node16" href="$sql_8c.html#aeda61730c10ca4d56c6c67b34e7f665b" title="Retrieve any errors from the SQL driver. " alt="" coords="373,137,502,164"/>
-<area shape="rect" id="node5" href="$pool_8c.html#a14166bb15f94ea500ee77d1e702fb6b5" title="Find a connection handle in the connection list. " alt="" coords="573,104,687,130"/>
-<area shape="rect" id="node6" href="$pool_8c.html#a405d785679ea12b6919284a0cc70e479" title="Close an existing connection. " alt="" coords="944,53,1116,80"/>
-<area shape="rect" id="node10" href="$pool_8c.html#a34653fe49349ad33c89e7a459e24293a" title="Check whether any connections need to be removed from the pool. " alt="" coords="567,53,693,80"/>
-<area shape="rect" id="node14" href="$pool_8c.html#a11f577ec1c9437bc561bace7b90d6768" title="Get a connection from the connection pool. " alt="" coords="551,154,709,181"/>
-<area shape="rect" id="node7" href="$heap_8c.html#a2071e6c3699b74317dc7968e377fdced" title="Remove a node from the heap. " alt="" coords="1177,104,1289,130"/>
-<area shape="rect" id="node8" href="$pool_8c.html#adf8965c10f53aba7de0ad83e031f8568" title="Send a connection pool trigger. " alt="" coords="1164,154,1303,181"/>
-<area shape="rect" id="node9" href="$pool_8c.html#a2d50aacfed1e9516241ca7b08a47e872" title="Removes a connection from the connection list. " alt="" coords="1170,53,1297,80"/>
-<area shape="rect" id="node11" href="$pool_8c.html#a41541ea89745dd51029d73fb008d6021" title="Spawns a new connection. " alt="" coords="761,154,892,181"/>
-<area shape="rect" id="node13" href="$pool_8c.html#a5c4d51ce852622144646a301d95bd3ec" title="Check whether a connection needs to be removed from the pool. " alt="" coords="757,53,896,80"/>
-<area shape="rect" id="node12" href="$lib_2util_2log_8h.html#a123c2202d725dbc6b308ad9a06bc91d4" title="Whether rate limiting is enabled. " alt="" coords="959,205,1101,232"/>
-<area shape="rect" id="node15" href="$heap_8c.html#ab084b77223ee54a38005dfc8113b679a" title="fr_heap_peek" alt="" coords="777,256,877,282"/>
-<area shape="rect" id="node19" href="$token_8c.html#a63da63327ca77e81fe2789b916d45c7e" title="gettoken" alt="" coords="401,414,473,441"/>
-<area shape="rect" id="node20" href="$pair__legacy_8c.html#adb5f7eea621e460b15273d711790fd94" title="Create a fr_pair_t from ASCII strings. " alt="" coords="389,262,486,289"/>
-<area shape="rect" id="node21" href="$pair__legacy_8c.html#abd956acfbb07907f6955606e151f488f" title="Mark a valuepair for xlat expansion. " alt="" coords="569,246,691,273"/>
-<area shape="rect" id="node22" href="$pair_8c.html#ab9e25c74bb9ef78b83670677679cfcdc" title="Convert string value to native attribute value. " alt="" coords="555,297,705,324"/>
-<area shape="rect" id="node23" href="$cursor_8c.html#a6e72682a046a3eeac734da6639f1817c" title="Insert a single item at the end of the list. " alt="" coords="376,364,499,390"/>
+<area shape="rect" id="node2" href="$sql_8c.html#a4af6c0c85e68a016eea0d569dc2b50bd" title="Call the driver&#39;s sql_select_query method, reconnecting if necessary. " alt="" coords="156,288,301,315"/>
+<area shape="rect" id="node18" href="$sql_8c.html#a5d48a69af545c105cbb7bec125b2985b" title="Call the driver&#39;s sql_fetch_row function. " alt="" coords="165,343,293,369"/>
+<area shape="rect" id="node19" href="$sql_8c.html#af3d5cf0827dad35d98c18cc0dc808779" title="sql_fr_pair_list_afrom_str" alt="" coords="528,487,696,513"/>
+<area shape="rect" id="node3" href="$pool_8c.html#a6b251d458c1229ed4a5f061ac6c70616" title="Get the number of connections currently in the pool. " alt="" coords="366,225,463,252"/>
+<area shape="rect" id="node4" href="$pool_8c.html#af1511bb1bd5b110243f5e53e9188e3dd" title="Reconnect a suspected inviable connection. " alt="" coords="349,277,480,318"/>
+<area shape="rect" id="node17" href="$sql_8c.html#aeda61730c10ca4d56c6c67b34e7f665b" title="Retrieve any errors from the SQL driver. " alt="" coords="350,343,479,369"/>
+<area shape="rect" id="node5" href="$pool_8c.html#a14166bb15f94ea500ee77d1e702fb6b5" title="Find a connection handle in the connection list. " alt="" coords="555,233,669,260"/>
+<area shape="rect" id="node6" href="$pool_8c.html#a405d785679ea12b6919284a0cc70e479" title="Close an existing connection. " alt="" coords="944,259,1116,285"/>
+<area shape="rect" id="node11" href="$pool_8c.html#a34653fe49349ad33c89e7a459e24293a" title="Check whether any connections need to be removed from the pool. " alt="" coords="549,284,675,311"/>
+<area shape="rect" id="node15" href="$pool_8c.html#a11f577ec1c9437bc561bace7b90d6768" title="Get a connection from the connection pool. " alt="" coords="533,157,691,184"/>
+<area shape="rect" id="node7" href="$heap_8c.html#a2071e6c3699b74317dc7968e377fdced" title="Remove a node from the heap. " alt="" coords="1201,157,1313,184"/>
+<area shape="rect" id="node9" href="$pool_8c.html#adf8965c10f53aba7de0ad83e031f8568" title="Send a connection pool trigger. " alt="" coords="1188,208,1327,235"/>
+<area shape="rect" id="node10" href="$pool_8c.html#a2d50aacfed1e9516241ca7b08a47e872" title="Removes a connection from the connection list. " alt="" coords="1194,259,1321,285"/>
+<area shape="rect" id="node8" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1385,639,1500,665"/>
+<area shape="rect" id="node12" href="$pool_8c.html#a41541ea89745dd51029d73fb008d6021" title="Spawns a new connection. " alt="" coords="748,208,879,235"/>
+<area shape="rect" id="node14" href="$pool_8c.html#a5c4d51ce852622144646a301d95bd3ec" title="Check whether a connection needs to be removed from the pool. " alt="" coords="744,259,883,285"/>
+<area shape="rect" id="node13" href="$lib_2util_2log_8h.html#a123c2202d725dbc6b308ad9a06bc91d4" title="Whether rate limiting is enabled. " alt="" coords="959,157,1101,184"/>
+<area shape="rect" id="node16" href="$heap_8c.html#ab084b77223ee54a38005dfc8113b679a" title="fr_heap_peek" alt="" coords="763,5,863,32"/>
+<area shape="rect" id="node20" href="$token_8c.html#a63da63327ca77e81fe2789b916d45c7e" title="gettoken" alt="" coords="777,411,849,437"/>
+<area shape="rect" id="node22" href="$pair__legacy_8c.html#adb5f7eea621e460b15273d711790fd94" title="Create a fr_pair_t from ASCII strings. " alt="" coords="765,740,862,767"/>
+<area shape="rect" id="node30" href="$pair_8c.html#ab9e25c74bb9ef78b83670677679cfcdc" title="Convert string value to native attribute value. " alt="" coords="1182,563,1333,589"/>
+<area shape="rect" id="node37" href="$pair__legacy_8c.html#abd956acfbb07907f6955606e151f488f" title="Mark a valuepair for xlat expansion. " alt="" coords="969,487,1091,513"/>
+<area shape="rect" id="node39" href="$cursor_8c.html#a6e72682a046a3eeac734da6639f1817c" title="Insert a single item at the end of the list. " alt="" coords="752,512,875,539"/>
+<area shape="rect" id="node21" href="$token_8c.html#a90a5bb27a8308316e330a32fcf374460" title="getthing" alt="" coords="996,411,1064,437"/>
+<area shape="rect" id="node23" href="$dict_8h.html#a9b41584ef21da4b8c62d809233f8fcaf" title="Locate a qualified fr_dict_attr_t by its name and a dictionary qualifier. " alt="" coords="931,984,1129,1011"/>
+<area shape="rect" id="node25" href="$pair__legacy_8c.html#aef4b803056679df01b49d62f204ef4c5" title="Create a valuepair from an ASCII attribute and value. " alt="" coords="952,765,1108,792"/>
+<area shape="rect" id="node31" href="$pair_8c.html#a7869a79cbea0f296a61340c95a0644ed" title="Add a VP to the end of the list. " alt="" coords="987,715,1073,741"/>
+<area shape="rect" id="node32" href="$pair_8c.html#a2897183dcbc65ef1b54619bd293fd735" title="Dynamically allocate a new attribute and fill in the da field. " alt="" coords="971,664,1089,691"/>
+<area shape="rect" id="node33" href="$pair_8c.html#aa310aed6f1b0c48333278b8aaff5d205" title="Free/zero out value (or children) of a given VP. " alt="" coords="965,1132,1095,1159"/>
+<area shape="rect" id="node36" href="$strerror_8c.html#a2f2232a184a763c76b3d87d5bea7a868" title="Add a message to an existing stack of messages. " alt="" coords="955,933,1105,960"/>
+<area shape="rect" id="node24" href="$dict__util_8c.html#a1e43e9729099648fdc9c3527c7be84b2" title="Locate a qualified fr_dict_attr_t by its name and a dictionary qualifier. " alt="" coords="1177,1035,1337,1077"/>
+<area shape="rect" id="node26" href="$pair_8c.html#ae760eec888755906c0196a13801a53df" title="Dynamically allocate a new attribute. " alt="" coords="1211,664,1303,691"/>
+<area shape="rect" id="node27" href="$dict_8h.html#a591d647dfb1dd768232ed29aa4557723" title="Create a fr_dict_attr_t from an ASCII attribute and value. " alt="" coords="1179,817,1336,858"/>
+<area shape="rect" id="node28" href="$missing_8c.html#a3c28b90d7e1fc3e492c1fac0af04d21b" title="strncasecmp" alt="" coords="1394,904,1491,931"/>
+<area shape="rect" id="node29" href="$dict_8h.html#a7c79c676c03022a0e7404ae0232bd902" title="Return the root attribute of a dictionary. " alt="" coords="1214,765,1301,792"/>
+<area shape="rect" id="node34" href="$value_8c.html#a6ea38f6b901bbcf6206f242e63d4f898" title="Clear/free any existing value. " alt="" coords="1192,1125,1323,1166"/>
+<area shape="rect" id="node35" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="1390,1161,1495,1188"/>
+<area shape="rect" id="node38" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="1190,512,1325,539"/>
 </map>

@@ -48,22 +48,22 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 728;
 var viewHeight = 119;
-var sectionId = 'dynsection-43';
+var sectionId = 'dynsection-81';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>fr_trunk_request_signal_complete</title>
-<!-- Node14781 -->
+<!-- Node5964 -->
 <g id="node1" class="node">
-<title>Node14781</title>
+<title>Node5964</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-17 0,-47 118,-47 118,-17 0,-17"/>
 <text text-anchor="start" x="8" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_trunk_request_signal</text>
 <text text-anchor="middle" x="59" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_complete</text>
 </g>
-<!-- Node14782 -->
+<!-- Node5965 -->
 <g id="node2" class="node">
-<title>Node14782</title>
+<title>Node5965</title>
 <g id="a_node2"><a xlink:href="trunk_8c.html#a649e3608119a22b5f9c997243532056a" target="_top" xlink:title="Request completed successfully, inform the API client and free the request. ">
 <polygon fill="none" stroke="#000000" points="154,-17 154,-47 257,-47 257,-17 154,-17"/>
 <text text-anchor="start" x="162" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_request_enter</text>
@@ -71,15 +71,15 @@ var sectionId = 'dynsection-43';
 </a>
 </g>
 </g>
-<!-- Node14781&#45;&gt;Node14782 -->
+<!-- Node5964&#45;&gt;Node5965 -->
 <g id="edge1" class="edge">
-<title>Node14781&#45;&gt;Node14782</title>
+<title>Node5964&#45;&gt;Node5965</title>
 <path fill="none" stroke="#191970" d="M118.1649,-32C126.5206,-32 135.1303,-32 143.5369,-32"/>
 <polygon fill="#191970" stroke="#191970" points="143.6596,-35.5001 153.6595,-32 143.6595,-28.5001 143.6596,-35.5001"/>
 </g>
-<!-- Node14783 -->
+<!-- Node5966 -->
 <g id="node3" class="node">
-<title>Node14783</title>
+<title>Node5966</title>
 <g id="a_node3"><a xlink:href="trunk_8c.html#a57c049e07e8913dafb84d76e548fa404" target="_top" xlink:title="Remove a request from all connection lists. ">
 <polygon fill="none" stroke="#000000" points="293,-39 293,-69 406,-69 406,-39 293,-39"/>
 <text text-anchor="start" x="301" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_request_remove</text>
@@ -87,30 +87,30 @@ var sectionId = 'dynsection-43';
 </a>
 </g>
 </g>
-<!-- Node14782&#45;&gt;Node14783 -->
+<!-- Node5965&#45;&gt;Node5966 -->
 <g id="edge2" class="edge">
-<title>Node14782&#45;&gt;Node14783</title>
+<title>Node5965&#45;&gt;Node5966</title>
 <path fill="none" stroke="#191970" d="M257.0806,-39.8804C265.4332,-41.1565 274.1855,-42.4936 282.8346,-43.815"/>
 <polygon fill="#191970" stroke="#191970" points="282.4964,-47.3039 292.9103,-45.3544 283.5536,-40.3842 282.4964,-47.3039"/>
 </g>
-<!-- Node15453 -->
+<!-- Node6147 -->
 <g id="node8" class="node">
-<title>Node15453</title>
+<title>Node6147</title>
 <g id="a_node8"><a xlink:href="trunk_8c.html#a0ccb4513f4a782e67c8d87c3949f7ff6" target="_top" xlink:title="If the trunk request is freed then update the target requests. ">
 <polygon fill="none" stroke="#ff0000" points="295,-.5 295,-19.5 404,-19.5 404,-.5 295,-.5"/>
 <text text-anchor="middle" x="349.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_trunk_request_free</text>
 </a>
 </g>
 </g>
-<!-- Node14782&#45;&gt;Node15453 -->
+<!-- Node5965&#45;&gt;Node6147 -->
 <g id="edge7" class="edge">
-<title>Node14782&#45;&gt;Node15453</title>
+<title>Node5965&#45;&gt;Node6147</title>
 <path fill="none" stroke="#191970" d="M257.0806,-24.1196C266.0889,-22.7434 275.5621,-21.2961 284.8694,-19.8741"/>
 <polygon fill="#191970" stroke="#191970" points="285.517,-23.3159 294.8737,-18.3457 284.4598,-16.3962 285.517,-23.3159"/>
 </g>
-<!-- Node14784 -->
+<!-- Node5967 -->
 <g id="node4" class="node">
-<title>Node14784</title>
+<title>Node5967</title>
 <g id="a_node4"><a xlink:href="trunk_8c.html#a3ebef07daa894102a5268a1ce21965b6" target="_top" xlink:title="Automatically mark a connection as active or reconnect it. ">
 <polygon fill="none" stroke="#000000" points="444.5,-64 444.5,-94 559.5,-94 559.5,-64 444.5,-64"/>
 <text text-anchor="start" x="452.5" y="-82" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_auto</text>
@@ -118,15 +118,15 @@ var sectionId = 'dynsection-43';
 </a>
 </g>
 </g>
-<!-- Node14783&#45;&gt;Node14784 -->
+<!-- Node5966&#45;&gt;Node5967 -->
 <g id="edge3" class="edge">
-<title>Node14783&#45;&gt;Node14784</title>
+<title>Node5966&#45;&gt;Node5967</title>
 <path fill="none" stroke="#191970" d="M406.2854,-63.3091C415.4272,-64.8077 424.9691,-66.372 434.3359,-67.9075"/>
 <polygon fill="#191970" stroke="#191970" points="433.9695,-71.3941 444.404,-69.558 435.102,-64.4863 433.9695,-71.3941"/>
 </g>
-<!-- Node15429 -->
+<!-- Node6123 -->
 <g id="node7" class="node">
-<title>Node15429</title>
+<title>Node6123</title>
 <g id="a_node7"><a xlink:href="trunk_8c.html#aeaad50225e220cc98d1a1cf5a5941298" target="_top" xlink:title="Update the registrations for I/O events we&#39;re interested in. ">
 <polygon fill="none" stroke="#ff0000" points="442,-15 442,-45 562,-45 562,-15 442,-15"/>
 <text text-anchor="start" x="450" y="-33" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_event</text>
@@ -134,30 +134,30 @@ var sectionId = 'dynsection-43';
 </a>
 </g>
 </g>
-<!-- Node14783&#45;&gt;Node15429 -->
+<!-- Node5966&#45;&gt;Node6123 -->
 <g id="edge6" class="edge">
-<title>Node14783&#45;&gt;Node15429</title>
+<title>Node5966&#45;&gt;Node6123</title>
 <path fill="none" stroke="#191970" d="M406.2854,-45.0633C414.624,-43.751 423.2956,-42.3863 431.8635,-41.0379"/>
 <polygon fill="#191970" stroke="#191970" points="432.5134,-44.4788 441.8477,-39.4666 431.4251,-37.5639 432.5134,-44.4788"/>
 </g>
-<!-- Node14785 -->
+<!-- Node5968 -->
 <g id="node5" class="node">
-<title>Node14785</title>
+<title>Node5968</title>
 <g id="a_node5"><a xlink:href="trunk_8c.html#a55fabb4c84da4db82026a1f13b72d373" target="_top" xlink:title="Return whether a trunk connection should currently be considered full. ">
 <polygon fill="none" stroke="#ff0000" points="598,-91.5 598,-110.5 720,-110.5 720,-91.5 598,-91.5"/>
 <text text-anchor="middle" x="659" y="-98.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_is_full</text>
 </a>
 </g>
 </g>
-<!-- Node14784&#45;&gt;Node14785 -->
+<!-- Node5967&#45;&gt;Node5968 -->
 <g id="edge4" class="edge">
-<title>Node14784&#45;&gt;Node14785</title>
+<title>Node5967&#45;&gt;Node5968</title>
 <path fill="none" stroke="#191970" d="M559.5695,-87.0671C568.6957,-88.3459 578.229,-89.6818 587.6251,-90.9984"/>
 <polygon fill="#191970" stroke="#191970" points="587.3522,-94.4943 597.7412,-92.416 588.3237,-87.562 587.3522,-94.4943"/>
 </g>
-<!-- Node14789 -->
+<!-- Node5972 -->
 <g id="node6" class="node">
-<title>Node14789</title>
+<title>Node5972</title>
 <g id="a_node6"><a xlink:href="trunk_8c.html#a77827ab1583f3a13fe628963f6282fb5" target="_top" xlink:title="Transition a connection back to the active state. ">
 <polygon fill="none" stroke="#ff0000" points="600,-42 600,-72 718,-72 718,-42 600,-42"/>
 <text text-anchor="start" x="608" y="-60" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_enter</text>
@@ -165,9 +165,9 @@ var sectionId = 'dynsection-43';
 </a>
 </g>
 </g>
-<!-- Node14784&#45;&gt;Node14789 -->
+<!-- Node5967&#45;&gt;Node5972 -->
 <g id="edge5" class="edge">
-<title>Node14784&#45;&gt;Node14789</title>
+<title>Node5967&#45;&gt;Node5972</title>
 <path fill="none" stroke="#191970" d="M559.5695,-70.9329C569.415,-69.5533 579.7343,-68.1073 589.8439,-66.6907"/>
 <polygon fill="#191970" stroke="#191970" points="590.4407,-70.1413 599.8583,-65.2874 589.4693,-63.209 590.4407,-70.1413"/>
 </g>

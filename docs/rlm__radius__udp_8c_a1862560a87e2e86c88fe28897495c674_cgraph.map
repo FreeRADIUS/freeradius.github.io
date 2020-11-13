@@ -1,101 +1,51 @@
 <map id="mod_thread_instantiate" name="mod_thread_instantiate">
-<area shape="rect" id="node2" href="$rlm__radius__udp_8c.html#aa8f09eea44c0bcbf53fb5310d945a639" title="thread_conn_alloc" alt="" coords="222,1266,349,1293"/>
-<area shape="rect" id="node30" href="$rlm__radius__udp_8c.html#a9bd46aa9222846c7ef02772a093086e6" title="thread_conn_notify" alt="" coords="433,220,565,246"/>
-<area shape="rect" id="node38" href="$rlm__radius__udp_8c.html#a0afc591a06dcc91b6558dc3482f1d991" title="request_prioritise" alt="" coords="225,2700,346,2726"/>
-<area shape="rect" id="node39" href="$rlm__radius__udp_8c.html#a3305dcbb1c5cd85ad338cd3b3f44b3e0" title="request_mux" alt="" coords="237,2649,334,2676"/>
-<area shape="rect" id="node79" href="$rlm__radius__udp_8c.html#a91734f47a4c6731f3a3cc434d41e0e57" title="request_demux" alt="" coords="443,2017,554,2044"/>
-<area shape="rect" id="node86" href="$rlm__radius__udp_8c.html#a076990ccd5eec8fbbe955e248b82e8d0" title="Clear out anything associated with the handle from the request. " alt="" coords="664,1469,813,1496"/>
-<area shape="rect" id="node87" href="$rlm__radius__udp_8c.html#a2bf14dc24b98de98e6476bb1000b6fdc" title="Response has already been written to the rctx at this point. " alt="" coords="223,2750,348,2777"/>
-<area shape="rect" id="node89" href="$rlm__radius__udp_8c.html#abdbaeb43b11ab1405bfa903d355af04a" title="Write out a canned failure. " alt="" coords="241,2801,330,2828"/>
-<area shape="rect" id="node90" href="$rlm__radius__udp_8c.html#a88a41bc5022c706c35cc47ab04b1e360" title="Remove the request from any tracking structures. " alt="" coords="683,1418,794,1445"/>
-<area shape="rect" id="node91" href="$rlm__radius__udp_8c.html#a6d95c79e5d81dfa19d62128e894ebd25" title="Explicitly free resources associated with the protocol request. " alt="" coords="238,2852,333,2878"/>
-<area shape="rect" id="node92" href="$rlm__radius__udp_8c.html#a2edcd9b8f55c29a5dc24d58be090d40b" title="A special version of the trunk/event loop glue function which always discards incoming data..." alt="" coords="433,132,565,174"/>
-<area shape="rect" id="node93" href="$rlm__radius__udp_8c.html#a06956c06159d9eb34d4ea3d3ceade2b0" title="request_mux_replicate" alt="" coords="422,2493,575,2520"/>
-<area shape="rect" id="node94" href="$rlm__radius__udp_8c.html#ac08db01f069f845cf1b67f3aaa15629b" title="Clear out anything associated with the handle from the request. " alt="" coords="211,1636,360,1678"/>
-<area shape="rect" id="node95" href="$trunk_8c.html#a92dca0b929806311bf7e3a48ab1e11ba" title="Allocate a new collection of connections. " alt="" coords="449,485,549,512"/>
-<area shape="rect" id="node3" href="$server_2connection_8c.html#ae36b3df54cae9772f57bddf92556ed46" title="Allocate a new connection. " alt="" coords="431,718,566,745"/>
-<area shape="rect" id="node10" href="$rlm__radius__udp_8c.html#a6a1ec80d89ca23c37f11e68453490df7" title="Initialise a new outbound connection. " alt="" coords="461,1106,536,1133"/>
-<area shape="rect" id="node24" href="$rlm__radius__udp_8c.html#a5101a4a901aa2d740b86bb18798fd1c9" title="Shutdown/close a file descriptor. " alt="" coords="455,2969,543,2996"/>
-<area shape="rect" id="node29" href="$rlm__radius__udp_8c.html#a4a947b2efa0b56a72392d7d9aa467503" title="Connection failed. " alt="" coords="455,1266,543,1293"/>
-<area shape="rect" id="node4" href="$server_2connection_8c.html#ae72f156597d343df355fb3ceaf30a63b" title="Close a connection if it&#39;s freed. " alt="" coords="678,896,799,922"/>
-<area shape="rect" id="node6" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="671,693,806,720"/>
-<area shape="rect" id="node7" href="$server_2connection_8c.html#a2fdbf5847f45f3f7a08dac8eea7e4e79" title="Add a callback to be executed after a state function has been called. " alt="" coords="637,744,840,770"/>
-<area shape="rect" id="node8" href="$server_2connection_8c.html#a870a2c43e1a5c7e7bbb01f447b58b87e" title="Notification function to tell connection_deferred_signal_process that the connection has been freed..." alt="" coords="645,562,832,603"/>
-<area shape="rect" id="node9" href="$server_2connection_8c.html#af50d4ad6581dc418bf3be420b845d135" title="Disable a watcher. " alt="" coords="667,627,810,668"/>
-<area shape="rect" id="node5" href="$lib_2util_2event_8c.html#a8faea09b0f0453e51f6768eb5a760e2f" title="Delete a timer event from the event list. " alt="" coords="903,1368,1049,1394"/>
-<area shape="rect" id="node11" href="$track_8c.html#ab1ac5b870078191b1894aec4365a3da7" title="Create an radius_track_t. " alt="" coords="675,2666,802,2693"/>
-<area shape="rect" id="node13" href="$socket_8c.html#aedb4ee7e748f74eb4e9927f66dd61420" title="Establish a connected UDP socket. " alt="" coords="667,946,810,973"/>
-<area shape="rect" id="node14" href="$syserror_8c.html#a18747f9d648d0aeecc4a8b27ac0435aa" title="Guaranteed to be thread&#45;safe version of strerror. " alt="" coords="934,946,1018,973"/>
-<area shape="rect" id="node15" href="$print_8c.html#a7e147976f86ad6186e417290ba6d379b" title="Special version of asprintf which implements custom format specifiers. " alt="" coords="699,1048,779,1074"/>
-<area shape="rect" id="node16" href="$rlm__radius__udp_8c.html#ac9e6d0e7a7b4762989f80915231498bf" title="Free a connection handle, closing associated resources. " alt="" coords="677,1165,801,1192"/>
-<area shape="rect" id="node17" href="$rlm__radius__udp_8c.html#af13be8fe7b2dae1d81c7bec2ae487356" title="status_check_alloc" alt="" coords="671,1941,806,1968"/>
-<area shape="rect" id="node21" href="$rlm__radius__udp_8c.html#a659461f9130fc2b89dba3fb463c94cb1" title="Connection errored. " alt="" coords="655,845,823,872"/>
-<area shape="rect" id="node23" href="$server_2connection_8c.html#acf67a4a49e02af605e43ed8709f0eaea" title="Setup the connection to change states to connected or failed based on I/O events. ..." alt="" coords="668,1099,809,1140"/>
-<area shape="rect" id="node12" href="$rand_8c.html#ae6966accae06dc7d65d4cc51b5782383" title="Return a 32&#45;bit random number. " alt="" coords="945,2869,1007,2896"/>
-<area shape="rect" id="node18" href="$pair_8c.html#ac3e6ae214c078ffe6f2648f1c12159ff" title="Find the pair with the matching DAs. " alt="" coords="912,1933,1040,1960"/>
-<area shape="rect" id="node19" href="$lib_2server_2log_8c.html#a6e8a116514560c39703face844973ee6" title="Print a list of fr_pair_ts. " alt="" coords="905,2058,1047,2085"/>
-<area shape="rect" id="node20" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="1133,2717,1239,2744"/>
-<area shape="rect" id="node22" href="$server_2connection_8c.html#afbcf2ecc866b1f1092fa70d6400fd4f3" title="Asynchronously signal the connection should be reconnected. " alt="" coords="1308,254,1449,295"/>
-<area shape="rect" id="node25" href="$track_8c.html#a06a730ac3d16bcb9019426f5ac933c87" title="Print out the state of every tracking entry. " alt="" coords="662,3181,815,3208"/>
-<area shape="rect" id="node27" href="$rlm__radius__udp_8c.html#ab2ead3734a5d2919b4a3e101b583e906" title="Log additional information about a tracking entry. " alt="" coords="661,3130,817,3157"/>
-<area shape="rect" id="node26" href="$lib_2util_2log_8c.html#a62c7f0f8ad8a391b16dc27c44b69af7e" title="Send a server log message to its destination. " alt="" coords="1159,3408,1213,3434"/>
-<area shape="rect" id="node28" href="$trunk_8c.html#a745237c24d6896132622e9e304680260" title="fr_trunk_request_state_log" alt="" coords="888,3256,1064,3282"/>
-<area shape="rect" id="node31" href="$rlm__radius__udp_8c.html#a8adab092f77f809aa9e91791df728c78" title="Read and discard data. " alt="" coords="689,241,788,268"/>
-<area shape="rect" id="node32" href="$trunk_8c.html#ae261bef1f663eb4a697804302be97a93" title="Signal a trunk connection is no longer viable. " alt="" coords="1118,1782,1254,1823"/>
-<area shape="rect" id="node33" href="$rlm__radius__udp_8c.html#ae1f20d06c7449e7cfa1f06f1ac2a28c3" title="Standard I/O read function. " alt="" coords="685,190,792,217"/>
-<area shape="rect" id="node35" href="$rlm__radius__udp_8c.html#aa0e37555a27c63df8fb64fd727cc8444" title="Standard I/O write function. " alt="" coords="687,89,790,116"/>
-<area shape="rect" id="node37" href="$rlm__radius__udp_8c.html#a4778e0321117e80fea4af480935cc084" title="Connection errored. " alt="" coords="697,140,780,166"/>
-<area shape="rect" id="node34" href="$trunk_8c.html#aa38296145eead678186a6433af330b35" title="Signal that a trunk connection is readable. " alt="" coords="908,195,1044,236"/>
-<area shape="rect" id="node36" href="$trunk_8c.html#ae4622d45fe16ab018a7ff22f77bfcbcd" title="Signal that a trunk connection is writable. " alt="" coords="908,78,1044,119"/>
-<area shape="rect" id="node40" href="$rlm__radius__udp_8c.html#ac47feadd21e5ad8c65d2842d9f3b9976" title="See if the connection is zombied. " alt="" coords="675,3357,803,3384"/>
-<area shape="rect" id="node47" href="$trunk_8c.html#a93f664d4dc57935a73ef1855900f5a5b" title="Pop a request off a connection&#39;s pending queue. " alt="" coords="671,1672,807,1714"/>
-<area shape="rect" id="node49" href="$retry_8c.html#ab554d324f6aca7d3f24ef71581030e2e" title="Initialize a retransmission counter. " alt="" coords="695,2978,782,3005"/>
-<area shape="rect" id="node53" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="459,3020,538,3046"/>
-<area shape="rect" id="node54" href="$trunk_8c.html#ac307f0d9ad6fd24637e1a27745521946" title="Signal that a trunk request failed. " alt="" coords="648,2717,829,2744"/>
-<area shape="rect" id="node56" href="$rlm__radius__udp_8c.html#a2e4884ba4c15f3bb04471f78e01d582e" title="encode" alt="" coords="707,2565,771,2592"/>
-<area shape="rect" id="node67" href="$rlm__radius__udp_8c.html#a45f4176fe54d939df52fb7faccedfc0b" title="Clear out any connection specific resources from a udp request. " alt="" coords="911,1520,1041,1546"/>
-<area shape="rect" id="node68" href="$track_8c.html#a26a9c5fc5ba5eff51437784ff7c8ac09" title="Update a tracking entry with the authentication vector. " alt="" coords="434,2802,563,2843"/>
-<area shape="rect" id="node71" href="$trunk_8c.html#a4280399df4f7f50713e75983220b6893" title="Signal that the request was written to a connection successfully. " alt="" coords="644,2818,833,2845"/>
-<area shape="rect" id="node73" href="$missing_8c.html#ad3f501692b5df0bab9ac8cadc822494d" title="Emulates the real sendmmsg in userland. " alt="" coords="695,2768,782,2794"/>
-<area shape="rect" id="node74" href="$rlm__radius__udp_8c.html#a6402c81c6dae4fb1faf035df5330c403" title="Handle retries for a request_t. " alt="" coords="441,2918,556,2945"/>
-<area shape="rect" id="node76" href="$trunk_8c.html#a72e34d33ea58c5c62d64d12c1620b819" title="Re&#45;enqueue a request on the same connection. " alt="" coords="654,3080,823,3106"/>
-<area shape="rect" id="node41" href="$trunk_8c.html#a9c2e24f88f4b711bc17d9723f53892a1" title="Signal a trunk connection cannot accept more requests. " alt="" coords="908,3742,1044,3783"/>
-<area shape="rect" id="node42" href="$trunk_8c.html#a67069d7159583ef74d1cd099f2d07f30" title="Move requests off of a connection and requeue elsewhere. " alt="" coords="908,3676,1044,3718"/>
-<area shape="rect" id="node43" href="$rlm__radius__udp_8c.html#a89ba9688fda03fcb027b5a9f84ec2fe2" title="Revive a connection after &quot;revive_interval&quot;. " alt="" coords="929,3306,1023,3333"/>
-<area shape="rect" id="node44" href="$trunk_8c.html#a2bad9ebfe3f085c0fb3faeee9e8a46b3" title="Enqueue additional requests on a specific connection. " alt="" coords="890,3611,1062,3652"/>
-<area shape="rect" id="node45" href="$server_2connection_8c.html#a07cf3e48f209e153fb5dee32cfa0d221" title="Pause processing of deferred signals. " alt="" coords="1112,3487,1260,3528"/>
-<area shape="rect" id="node46" href="$trunk_8c.html#adb084310620200de5d2f1cf1ef8f0ee7" title="Transition a request to the pending state, adding it to the backlog of an active connection. " alt="" coords="1117,3582,1255,3623"/>
-<area shape="rect" id="node48" href="$heap_8c.html#ab084b77223ee54a38005dfc8113b679a" title="fr_heap_peek" alt="" coords="926,1650,1026,1677"/>
-<area shape="rect" id="node50" href="$uint128_8h.html#a796e82a8e4335023bc110374d0916e58" title="Multiply two unsigned 64bit integers to get an unsigned 128bit integer. " alt="" coords="923,3138,1029,3165"/>
-<area shape="rect" id="node51" href="$uint128_8h.html#a2604649a09cae51f1098ec33462f8b8a" title="Returns the low bits of a 128bit integer. " alt="" coords="925,3037,1027,3064"/>
-<area shape="rect" id="node52" href="$uint128_8h.html#a8e36537627fd93478bc7aab5ebb5cea5" title="Right shift 128 bit integer. " alt="" coords="926,3088,1026,3114"/>
-<area shape="rect" id="node55" href="$trunk_8c.html#ae8f376618040ed573738a25f97a48fed" title="Request failed, inform the API client and free the request. " alt="" coords="907,2920,1045,2962"/>
-<area shape="rect" id="node57" href="$rlm__passwd_8c.html#aafaad5adfcfa5359895444961235e5b8" title="hash" alt="" coords="951,2666,1001,2693"/>
-<area shape="rect" id="node58" href="$time_8c.html#a76700f12b4b30b68e7c685f335a21e05" title="Convert an fr_time_t (internal time) to our version of unix time (wallclock time) ..." alt="" coords="905,2413,1047,2440"/>
-<area shape="rect" id="node59" href="$protocols_2radius_2base_8c.html#a6bb7136f7594121eac299907792e94d2" title="Encode VPS into a raw RADIUS packet. " alt="" coords="915,2464,1037,2490"/>
-<area shape="rect" id="node60" href="$io_2pair_8h.html#aee1975c4e2a472ffed6702e7e8952fac" title="Determine if the return code for an encoding function is a fatal error. " alt="" coords="897,2514,1055,2541"/>
-<area shape="rect" id="node61" href="$util_2pair_8h.html#a078d7dfa9ea0f6beae478c6c913aa4e2" title="Initialise a cursor that will return only attributes matching the specified fr_dict_attr_t. " alt="" coords="894,2768,1058,2794"/>
-<area shape="rect" id="node62" href="$pair_8c.html#a2897183dcbc65ef1b54619bd293fd735" title="Dynamically allocate a new attribute and fill in the da field. " alt="" coords="917,2109,1035,2136"/>
-<area shape="rect" id="node63" href="$pair_8c.html#ad6a4af5aec8fe8bac9db2211ae354989" title="Copy data into an &quot;octets&quot; data type. " alt="" coords="899,2210,1053,2237"/>
-<area shape="rect" id="node64" href="$pair_8c.html#a7869a79cbea0f296a61340c95a0644ed" title="Add a VP to the end of the list. " alt="" coords="933,2261,1019,2288"/>
-<area shape="rect" id="node65" href="$time_8h.html#a764e37b5ffca11aa97a3fcea90c4aa7b" title="fr_time_delta_to_sec" alt="" coords="905,2565,1047,2592"/>
-<area shape="rect" id="node66" href="$protocols_2radius_2base_8c.html#ac9593081313e907a61f8b286e04511d2" title="Sign a previously encoded packet. " alt="" coords="925,2616,1027,2642"/>
-<area shape="rect" id="node69" href="$rbtree_8c.html#a590147ec2ecdd6434a58eeff49e201a4" title="Delete a node from the tree, based on given data, which MUST have come from rbtree_finddata(). " alt="" coords="671,2920,807,2946"/>
-<area shape="rect" id="node70" href="$rbtree_8c.html#a79839e37a71b50c3d31a875351cc0a87" title="rbtree_insert" alt="" coords="691,2869,786,2896"/>
-<area shape="rect" id="node72" href="$trunk_8c.html#a25de4b8d6e90f9001b5bc02a0cef5980" title="Transition a request to the sent state, indicating that it&#39;s been sent in its entirety. " alt="" coords="891,2986,1061,3013"/>
-<area shape="rect" id="node75" href="$retry_8c.html#a032142df3cf21e868bdd2791742618ac" title="Initialize a retransmission counter. " alt="" coords="691,3029,786,3056"/>
-<area shape="rect" id="node78" href="$trunk_8c.html#a68df84abee6703937fcd841ef75797c7" title="Signal that a trunk request is complete. " alt="" coords="660,2448,817,2490"/>
-<area shape="rect" id="node77" href="$trunk_8c.html#ac56a1d3856d033bf437fc866c1a1cf77" title="Transition a request to the cancel state, placing it in a connection&#39;s cancellation list..." alt="" coords="907,3190,1045,3231"/>
-<area shape="rect" id="node80" href="$track_8c.html#aff3b9a11fcf2c8b75ac0d7ed8af7120f" title="Find a tracking entry from a request authenticator. " alt="" coords="660,1840,817,1866"/>
-<area shape="rect" id="node81" href="$rlm__radius__udp_8c.html#a48292d0b3f89f6c5b3e4f92c9a9031bd" title="Decode response packet data, extracting relevant information and validating the packet. " alt="" coords="707,2093,771,2120"/>
-<area shape="rect" id="node82" href="$pair_8c.html#acd64c65e4d56248ce8e4dda20ab95aff" title="Free memory used by a valuepair list. " alt="" coords="921,1984,1031,2010"/>
-<area shape="rect" id="node83" href="$rlm__radius__udp_8c.html#abac5d88dd6e2df81c6a7bd1939d14b1a" title="Deal with replies replies to status checks and possible negotiation. " alt="" coords="671,1789,806,1816"/>
-<area shape="rect" id="node84" href="$rlm__radius__udp_8c.html#ab6e25cfc6de519e287acd19605ae643e" title="Deal with Protocol&#45;Error replies, and possible negotiation. " alt="" coords="908,1861,1044,1888"/>
-<area shape="rect" id="node85" href="$pair_8c.html#a5fa73ca22e224c1973cb8d9239ea1ba5" title="Delete matching pairs from the specified list. " alt="" coords="667,2616,810,2642"/>
-<area shape="rect" id="node88" href="$interpret_8c.html#a1d05eab74116c44e4edabf4b5bd09890" title="Mark a request as resumable. " alt="" coords="408,3273,589,3300"/>
-<area shape="rect" id="node96" href="$trunk_8c.html#a44d55a4fb91e548c88147ad879a2d3e5" title="Order connections by queue depth. " alt="" coords="657,394,821,435"/>
-<area shape="rect" id="node97" href="$misc_8c.html#a792763c2bb8ec50cbdfa5554b1801f8d" title="Compares two pointers. " alt="" coords="685,460,793,486"/>
-<area shape="rect" id="node98" href="$trunk_8c.html#a1c988bd2dd9051d0fcce3b732a3d3f8b" title="Free a trunk, gracefully closing all connections. " alt="" coords="695,1621,782,1648"/>
-<area shape="rect" id="node99" href="$trunk_8c.html#a18d74b46e2dd446629de20e3ad3828a5" title="Compare two protocol requests. " alt="" coords="657,510,821,537"/>
-<area shape="rect" id="node100" href="$trunk_8c.html#a055d797a7b5348770b776a633780ee1d" title="Start the trunk running. " alt="" coords="689,342,788,369"/>
+<area shape="rect" id="node2" href="$rlm__radius__udp_8c.html#aa8f09eea44c0bcbf53fb5310d945a639" title="thread_conn_alloc" alt="" coords="224,563,351,589"/>
+<area shape="rect" id="node11" href="$rlm__radius__udp_8c.html#a9bd46aa9222846c7ef02772a093086e6" title="thread_conn_notify" alt="" coords="221,128,353,155"/>
+<area shape="rect" id="node17" href="$rlm__radius__udp_8c.html#a0afc591a06dcc91b6558dc3482f1d991" title="request_prioritise" alt="" coords="227,1523,348,1549"/>
+<area shape="rect" id="node18" href="$rlm__radius__udp_8c.html#a3305dcbb1c5cd85ad338cd3b3f44b3e0" title="request_mux" alt="" coords="239,984,336,1011"/>
+<area shape="rect" id="node36" href="$rlm__radius__udp_8c.html#a91734f47a4c6731f3a3cc434d41e0e57" title="request_demux" alt="" coords="451,1507,562,1533"/>
+<area shape="rect" id="node42" href="$rlm__radius__udp_8c.html#a076990ccd5eec8fbbe955e248b82e8d0" title="Clear out anything associated with the handle from the request. " alt="" coords="432,1797,581,1824"/>
+<area shape="rect" id="node43" href="$rlm__radius__udp_8c.html#a2bf14dc24b98de98e6476bb1000b6fdc" title="Response has already been written to the rctx at this point. " alt="" coords="225,1573,350,1600"/>
+<area shape="rect" id="node44" href="$rlm__radius__udp_8c.html#abdbaeb43b11ab1405bfa903d355af04a" title="Write out a canned failure. " alt="" coords="243,1624,332,1651"/>
+<area shape="rect" id="node45" href="$rlm__radius__udp_8c.html#a88a41bc5022c706c35cc47ab04b1e360" title="Remove the request from any tracking structures. " alt="" coords="451,1747,562,1773"/>
+<area shape="rect" id="node46" href="$rlm__radius__udp_8c.html#a6d95c79e5d81dfa19d62128e894ebd25" title="Explicitly free resources associated with the protocol request. " alt="" coords="240,1675,335,1701"/>
+<area shape="rect" id="node47" href="$rlm__radius__udp_8c.html#a2edcd9b8f55c29a5dc24d58be090d40b" title="A special version of the trunk/event loop glue function which always discards incoming data..." alt="" coords="221,201,353,242"/>
+<area shape="rect" id="node48" href="$rlm__radius__udp_8c.html#a06956c06159d9eb34d4ea3d3ceade2b0" title="request_mux_replicate" alt="" coords="211,1253,364,1280"/>
+<area shape="rect" id="node49" href="$rlm__radius__udp_8c.html#ac08db01f069f845cf1b67f3aaa15629b" title="Clear out anything associated with the handle from the request. " alt="" coords="213,1457,362,1498"/>
+<area shape="rect" id="node50" href="$trunk_8c.html#a92dca0b929806311bf7e3a48ab1e11ba" title="Allocate a new collection of connections. " alt="" coords="237,1725,337,1752"/>
+<area shape="rect" id="node3" href="$server_2connection_8c.html#ae36b3df54cae9772f57bddf92556ed46" title="Allocate a new connection. " alt="" coords="439,309,574,336"/>
+<area shape="rect" id="node4" href="$rlm__radius__udp_8c.html#a6a1ec80d89ca23c37f11e68453490df7" title="Initialise a new outbound connection. " alt="" coords="469,360,544,387"/>
+<area shape="rect" id="node6" href="$rlm__radius__udp_8c.html#a5101a4a901aa2d740b86bb18798fd1c9" title="Shutdown/close a file descriptor. " alt="" coords="463,563,551,589"/>
+<area shape="rect" id="node9" href="$rlm__radius__udp_8c.html#a4a947b2efa0b56a72392d7d9aa467503" title="Connection failed. " alt="" coords="463,1576,551,1603"/>
+<area shape="rect" id="node5" href="$syserror_8c.html#a18747f9d648d0aeecc4a8b27ac0435aa" title="Guaranteed to be thread&#45;safe version of strerror. " alt="" coords="692,385,776,412"/>
+<area shape="rect" id="node7" href="$track_8c.html#a06a730ac3d16bcb9019426f5ac933c87" title="Print out the state of every tracking entry. " alt="" coords="657,723,811,749"/>
+<area shape="rect" id="node8" href="$rlm__radius__udp_8c.html#ab2ead3734a5d2919b4a3e101b583e906" title="Log additional information about a tracking entry. " alt="" coords="656,537,812,564"/>
+<area shape="rect" id="node10" href="$lib_2util_2event_8c.html#a8faea09b0f0453e51f6768eb5a760e2f" title="Delete a timer event from the event list. " alt="" coords="661,1696,807,1723"/>
+<area shape="rect" id="node12" href="$rlm__radius__udp_8c.html#a8adab092f77f809aa9e91791df728c78" title="Read and discard data. " alt="" coords="457,107,556,133"/>
+<area shape="rect" id="node13" href="$trunk_8c.html#ae261bef1f663eb4a697804302be97a93" title="Signal a trunk connection is no longer viable. " alt="" coords="869,825,1005,866"/>
+<area shape="rect" id="node14" href="$rlm__radius__udp_8c.html#ae1f20d06c7449e7cfa1f06f1ac2a28c3" title="Standard I/O read function. " alt="" coords="453,5,560,32"/>
+<area shape="rect" id="node15" href="$rlm__radius__udp_8c.html#aa0e37555a27c63df8fb64fd727cc8444" title="Standard I/O write function. " alt="" coords="455,157,558,184"/>
+<area shape="rect" id="node16" href="$rlm__radius__udp_8c.html#a4778e0321117e80fea4af480935cc084" title="Connection errored. " alt="" coords="465,259,548,285"/>
+<area shape="rect" id="node19" href="$rlm__radius__udp_8c.html#ac47feadd21e5ad8c65d2842d9f3b9976" title="See if the connection is zombied. " alt="" coords="670,832,798,859"/>
+<area shape="rect" id="node20" href="$trunk_8c.html#a93f664d4dc57935a73ef1855900f5a5b" title="Pop a request off a connection&#39;s pending queue. " alt="" coords="439,1187,575,1229"/>
+<area shape="rect" id="node21" href="$retry_8c.html#ab554d324f6aca7d3f24ef71581030e2e" title="Initialize a retransmission counter. " alt="" coords="463,984,550,1011"/>
+<area shape="rect" id="node22" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="467,664,546,691"/>
+<area shape="rect" id="node23" href="$trunk_8c.html#ac307f0d9ad6fd24637e1a27745521946" title="Signal that a trunk request failed. " alt="" coords="416,1085,597,1112"/>
+<area shape="rect" id="node24" href="$rlm__radius__udp_8c.html#a2e4884ba4c15f3bb04471f78e01d582e" title="encode" alt="" coords="475,1456,539,1483"/>
+<area shape="rect" id="node28" href="$rlm__radius__udp_8c.html#a45f4176fe54d939df52fb7faccedfc0b" title="Clear out any connection specific resources from a udp request. " alt="" coords="873,1747,1002,1773"/>
+<area shape="rect" id="node29" href="$track_8c.html#a26a9c5fc5ba5eff51437784ff7c8ac09" title="Update a tracking entry with the authentication vector. " alt="" coords="442,715,571,757"/>
+<area shape="rect" id="node30" href="$lib_2server_2log_8c.html#a6e8a116514560c39703face844973ee6" title="Print a list of fr_pair_ts. " alt="" coords="867,1220,1008,1247"/>
+<area shape="rect" id="node31" href="$trunk_8c.html#a4280399df4f7f50713e75983220b6893" title="Signal that the request was written to a connection successfully. " alt="" coords="412,1253,601,1280"/>
+<area shape="rect" id="node32" href="$missing_8c.html#ad3f501692b5df0bab9ac8cadc822494d" title="Emulates the real sendmmsg in userland. " alt="" coords="463,1136,550,1163"/>
+<area shape="rect" id="node33" href="$rlm__radius__udp_8c.html#a6402c81c6dae4fb1faf035df5330c403" title="Handle retries for a request_t. " alt="" coords="449,883,564,909"/>
+<area shape="rect" id="node34" href="$trunk_8c.html#a72e34d33ea58c5c62d64d12c1620b819" title="Re&#45;enqueue a request on the same connection. " alt="" coords="649,933,819,960"/>
+<area shape="rect" id="node25" href="$pair_8c.html#ac3e6ae214c078ffe6f2648f1c12159ff" title="Find the pair with the matching DAs. " alt="" coords="670,1189,798,1216"/>
+<area shape="rect" id="node26" href="$pair_8c.html#a2897183dcbc65ef1b54619bd293fd735" title="Dynamically allocate a new attribute and fill in the da field. " alt="" coords="675,1291,793,1317"/>
+<area shape="rect" id="node27" href="$pair_8c.html#a7869a79cbea0f296a61340c95a0644ed" title="Add a VP to the end of the list. " alt="" coords="691,1240,777,1267"/>
+<area shape="rect" id="node35" href="$trunk_8c.html#a68df84abee6703937fcd841ef75797c7" title="Signal that a trunk request is complete. " alt="" coords="655,1123,813,1165"/>
+<area shape="rect" id="node37" href="$track_8c.html#aff3b9a11fcf2c8b75ac0d7ed8af7120f" title="Find a tracking entry from a request authenticator. " alt="" coords="655,1595,813,1621"/>
+<area shape="rect" id="node38" href="$rlm__radius__udp_8c.html#a48292d0b3f89f6c5b3e4f92c9a9031bd" title="Decode response packet data, extracting relevant information and validating the packet. " alt="" coords="702,1392,766,1419"/>
+<area shape="rect" id="node39" href="$pair_8c.html#acd64c65e4d56248ce8e4dda20ab95aff" title="Free memory used by a valuepair list. " alt="" coords="882,1417,993,1444"/>
+<area shape="rect" id="node40" href="$rlm__radius__udp_8c.html#abac5d88dd6e2df81c6a7bd1939d14b1a" title="Deal with replies replies to status checks and possible negotiation. " alt="" coords="667,1544,801,1571"/>
+<area shape="rect" id="node41" href="$rlm__radius__udp_8c.html#ab6e25cfc6de519e287acd19605ae643e" title="Deal with Protocol&#45;Error replies, and possible negotiation. " alt="" coords="869,1519,1005,1545"/>
 </map>

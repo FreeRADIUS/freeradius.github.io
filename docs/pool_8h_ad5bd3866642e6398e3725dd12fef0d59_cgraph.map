@@ -1,58 +1,51 @@
 <map id="fr_pool_copy" name="fr_pool_copy">
-<area shape="rect" id="node2" href="$pool_8c.html#ad534d61895e650a46ed2078e0dc6714a" title="Create a new connection pool. " alt="" coords="185,705,270,732"/>
-<area shape="rect" id="node54" href="$pool_8c.html#aeafb70f162af494b1cadf6887435fc49" title="Enable triggers for a connection pool. " alt="" coords="149,1877,305,1904"/>
-<area shape="rect" id="node3" href="$talloc_8c.html#a9e4c941cc6b24faf5b0e81b7635fdffe" title="Link two different parent and child contexts, so the child is freed before the parent. " alt="" coords="385,705,491,732"/>
-<area shape="rect" id="node9" href="$pool_8c.html#ad4ea2c00e4071eed4f44f51c202b0b9c" title="Order connections by reserved most recently. " alt="" coords="372,852,504,879"/>
-<area shape="rect" id="node29" href="$pool_8c.html#a10b7ddc3f4595cbb550c28c79e0a5261" title="Order connections by released longest ago. " alt="" coords="373,1096,503,1123"/>
-<area shape="rect" id="node30" href="$pool_8c.html#a44f7fb0b27217494c13b53f14711d760" title="Delete a connection pool. " alt="" coords="393,1675,483,1701"/>
-<area shape="rect" id="node35" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="999,512,1133,539"/>
-<area shape="rect" id="node36" href="$cf__parse_8c.html#a0e34ce636eb083a72c6415c4cdc0d5d2" title="Parse a configuration section into user&#45;supplied variables. " alt="" coords="377,259,499,285"/>
-<area shape="rect" id="node52" href="$acutest_8h.html#a8e9dc24bf3e8d87394046aef2654847f" title="if" alt="" coords="419,604,457,631"/>
-<area shape="rect" id="node53" href="$time_8h.html#a0dc16647a369e480c265b6354b04bc95" title="fr_time_delta_from_msec" alt="" coords="353,655,523,681"/>
-<area shape="rect" id="node4" href="$talloc_8c.html#ae835f7a926a1d3da159c1e0dce86581c" title="Add an additional destructor to a talloc chunk. " alt="" coords="583,680,730,707"/>
-<area shape="rect" id="node8" href="$talloc_8c.html#a1d56d7b1166027d8ee4ddfa2353c937f" title="_talloc_link_ctx_free" alt="" coords="586,629,727,656"/>
-<area shape="rect" id="node5" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1009,1168,1123,1195"/>
-<area shape="rect" id="node6" href="$talloc_8c.html#a9a557e02d8c7d178ab5458fb972b52c4" title="Called when the disarm_ctx ctx is freed. " alt="" coords="808,614,933,655"/>
-<area shape="rect" id="node7" href="$talloc_8c.html#a0f65bca77390a8fc11310342d848d178" title="Called with the fire_ctx is freed. " alt="" coords="795,563,946,589"/>
-<area shape="rect" id="node10" href="$time_8h.html#af21ca9b8835c6f82d516638fe8005ff7" title="Compare two fr_time_t values. " alt="" coords="609,1144,704,1171"/>
-<area shape="rect" id="node11" href="$time_8h.html#acf7323e8033dcde9f445f2c6f1f5571c" title="Convert an fr_time_t (internal time) to number of usec since the unix epoch (wallclock time) ..." alt="" coords="813,1472,928,1499"/>
-<area shape="rect" id="node12" href="$time_8h.html#a95d1edf7173ad99247f8e965c0a043ec" title="Convert an fr_time_t (internal time) to number of msec since the unix epoch (wallclock time) ..." alt="" coords="811,1523,930,1549"/>
-<area shape="rect" id="node13" href="$time_8h.html#a4e9719ac42b2661f240ade74c9511085" title="Convert an fr_time_t (internal time) to number of sec since the unix epoch (wallclock time) ..." alt="" coords="817,1573,925,1600"/>
-<area shape="rect" id="node14" href="$time_8h.html#a76700f12b4b30b68e7c685f335a21e05" title="Convert an fr_time_t (internal time) to our version of unix time (wallclock time) ..." alt="" coords="799,1624,942,1651"/>
-<area shape="rect" id="node15" href="$time_8h.html#a1ad6c669ca0e28c1c64e3677d0696fb3" title="Nanoseconds since the Unix Epoch the last time we synced internal time with wallclock time..." alt="" coords="800,731,941,773"/>
-<area shape="rect" id="node16" href="$time_8h.html#a6d494c95729684c986fc6cb6ec1a04ac" title="Convert a time_t (wallclock time) to a fr_time_t (internal time) " alt="" coords="809,797,932,824"/>
-<area shape="rect" id="node17" href="$time_8h.html#a58a37c3e4b34364a1cc5f78d6a109e5b" title="Convert msec (wallclock time) to a fr_time_t (internal time) " alt="" coords="803,848,938,875"/>
-<area shape="rect" id="node18" href="$time_8h.html#aefb4a09d845b94d8bc9a1acef80a5d8b" title="Convert usec (wallclock time) to a fr_time_t (internal time) " alt="" coords="805,899,936,925"/>
-<area shape="rect" id="node19" href="$time_8h.html#a8a78a492868542c64c5c4c6076f9a456" title="Convert a nsec (wallclock time) to a fr_time_t (internal time) " alt="" coords="805,949,936,976"/>
-<area shape="rect" id="node20" href="$time_8h.html#a6618bb376e667bf7f37ff9d168554c2a" title="Convert a timeval (wallclock time) to a fr_time_t (internal time) " alt="" coords="799,1000,943,1027"/>
-<area shape="rect" id="node21" href="$time_8h.html#aec5f680d746afeca8d3ac0e6021eed48" title="Convert a timespec (wallclock time) to a fr_time_t (internal time) " alt="" coords="793,1051,948,1077"/>
-<area shape="rect" id="node22" href="$time_8h.html#a46d737b3ab0907d11e1c5f9160acebfc" title="Return time delta from the time zone. " alt="" coords="805,1102,936,1143"/>
-<area shape="rect" id="node23" href="$time_8h.html#a7e9c4d86018ac8fdcb95bffd58b28590" title="Create fr_time_delta_t from a string. " alt="" coords="795,1168,947,1195"/>
-<area shape="rect" id="node24" href="$time_8h.html#ac5b2d91ab494f2bcc8b6ea57442d3114" title="Copy a time string (local timezone) to an sbuff. " alt="" coords="797,1219,944,1245"/>
-<area shape="rect" id="node25" href="$time_8h.html#a903ae8084945c3955d2be06ef9e1e57f" title="Copy a time string (UTC) to an sbuff. " alt="" coords="801,1269,940,1296"/>
-<area shape="rect" id="node26" href="$time_8h.html#a07e18217af252cb062891100dc491215" title="fr_time_elapsed_update" alt="" coords="791,1320,951,1347"/>
-<area shape="rect" id="node27" href="$time_8h.html#aa850617e85c63ff080e4bbdf71e93b8f" title="fr_time_elapsed_fprint" alt="" coords="795,1371,946,1397"/>
-<area shape="rect" id="node28" href="$time_8h.html#a6e005b82a64c4b67160f99687afa9aad" title="fr_time_from_utc" alt="" coords="811,1421,931,1448"/>
-<area shape="rect" id="node31" href="$pool_8c.html#a405d785679ea12b6919284a0cc70e479" title="Close an existing connection. " alt="" coords="571,1725,743,1752"/>
-<area shape="rect" id="node33" href="$pool_8c.html#adf8965c10f53aba7de0ad83e031f8568" title="Send a connection pool trigger. " alt="" coords="801,1675,940,1701"/>
-<area shape="rect" id="node32" href="$heap_8c.html#a2071e6c3699b74317dc7968e377fdced" title="Remove a node from the heap. " alt="" coords="815,1725,927,1752"/>
-<area shape="rect" id="node34" href="$pool_8c.html#a2d50aacfed1e9516241ca7b08a47e872" title="Removes a connection from the connection list. " alt="" coords="807,1776,934,1803"/>
-<area shape="rect" id="node37" href="$cf__util_8c.html#a85dc699954bc58ee5f24d3a117b6539b" title="Return the user assigned value of CONF_DATA. " alt="" coords="605,360,708,387"/>
-<area shape="rect" id="node38" href="$cf__parse_8c.html#aae8e432868057987a76a8cb1efefd467" title="Pre&#45;allocate a config section structure to allow defaults to be set. " alt="" coords="584,208,729,235"/>
-<area shape="rect" id="node43" href="$cf__parse_8c.html#a6ba54800a78f6f03791f0fa27632a158" title="Parse a subsection. " alt="" coords="585,132,728,159"/>
-<area shape="rect" id="node46" href="$cf__parse_8c.html#ac9259fd0c3c16ded200a89e0a83b87bd" title="Parses a CONF_PAIR into a C data type, with a default value. " alt="" coords="582,309,731,336"/>
-<area shape="rect" id="node51" href="$cf__parse_8c.html#a6b241d18cb4051669fd642d1674880e5" title="cf_section_parse_warn" alt="" coords="579,259,735,285"/>
-<area shape="rect" id="node39" href="$cf__util_8c.html#a2c8bfb80ce8fa2752c8f8aa636dee24f" title="Find a CONF_SECTION with name1 and optionally name2. " alt="" coords="815,157,926,184"/>
-<area shape="rect" id="node41" href="$cf__util_8c.html#a42faba7134ee8554d9f0d56e7bd79241" title="Search for a CONF_PAIR with a specific name. " alt="" coords="826,208,915,235"/>
-<area shape="rect" id="node40" href="$cf__util_8c.html#a11cfb91b7dd7bf343a4031ba7846c2ad" title="Cast a CONF_SECTION to a CONF_ITEM. " alt="" coords="1000,157,1132,184"/>
-<area shape="rect" id="node42" href="$cf__util_8c.html#a0b81abd70879f08eb45a4df377461b84" title="Cast a CONF_ITEM to a CONF_PAIR. " alt="" coords="1011,309,1121,336"/>
-<area shape="rect" id="node44" href="$cf__util_8c.html#ae802d285e3f5dee90043bc93d0e3731c" title="Return the second identifier of a CONF_SECTION. " alt="" coords="807,56,935,83"/>
-<area shape="rect" id="node45" href="$cf__util_8c.html#abefa673b8798e18b6fa9568fb67d75f5" title="Return the next matching section. " alt="" coords="799,5,942,32"/>
-<area shape="rect" id="node47" href="$cf__util_8c.html#ae74aff9c8d4732eaea7ee8cbeb2abe68" title="Find a pair with a name matching attr, after specified pair. " alt="" coords="810,360,931,387"/>
-<area shape="rect" id="node48" href="$cf__util_8c.html#aa473a0b5f676af98f320716838679017" title="Cast a CONF_PAIR to a CONF_ITEM. " alt="" coords="1011,385,1121,412"/>
-<area shape="rect" id="node49" href="$cf__parse_8c.html#ad32ae9a17b12c9f736562c2c328736cf" title="Allocate a pair using the dflt value and quotation. " alt="" coords="817,309,924,336"/>
-<area shape="rect" id="node50" href="$cf__parse_8c.html#a1b96fe1ae92715ec179dc97d842777af" title="Parses a CONF_PAIR into a C data type. " alt="" coords="801,461,940,488"/>
-<area shape="rect" id="node55" href="$talloc_8c.html#abe6e0dd358e0ace700ef1f414c96abaa" title="Free const&#39;d memory. " alt="" coords="377,1877,499,1904"/>
-<area shape="rect" id="node56" href="$pair_8c.html#acd64c65e4d56248ce8e4dda20ab95aff" title="Free memory used by a valuepair list. " alt="" coords="601,1953,712,1980"/>
-<area shape="rect" id="node57" href="$pair_8c.html#a2a3d33934f2f0f91120dfe3f381b500e" title="Duplicate a list of pairs. " alt="" coords="379,1979,497,2005"/>
+<area shape="rect" id="node2" href="$pool_8c.html#ad534d61895e650a46ed2078e0dc6714a" title="Create a new connection pool. " alt="" coords="185,637,270,664"/>
+<area shape="rect" id="node47" href="$pool_8c.html#aeafb70f162af494b1cadf6887435fc49" title="Enable triggers for a connection pool. " alt="" coords="149,840,305,867"/>
+<area shape="rect" id="node3" href="$talloc_8c.html#a9e4c941cc6b24faf5b0e81b7635fdffe" title="Link two different parent and child contexts, so the child is freed before the parent. " alt="" coords="385,637,491,664"/>
+<area shape="rect" id="node9" href="$pool_8c.html#ad4ea2c00e4071eed4f44f51c202b0b9c" title="Order connections by reserved most recently. " alt="" coords="372,688,504,715"/>
+<area shape="rect" id="node29" href="$pool_8c.html#a10b7ddc3f4595cbb550c28c79e0a5261" title="Order connections by released longest ago. " alt="" coords="373,739,503,765"/>
+<area shape="rect" id="node30" href="$pool_8c.html#a44f7fb0b27217494c13b53f14711d760" title="Delete a connection pool. " alt="" coords="393,56,483,83"/>
+<area shape="rect" id="node35" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="371,789,505,816"/>
+<area shape="rect" id="node36" href="$cf__parse_8c.html#a0e34ce636eb083a72c6415c4cdc0d5d2" title="Parse a configuration section into user&#45;supplied variables. " alt="" coords="377,208,499,235"/>
+<area shape="rect" id="node45" href="$acutest_8h.html#a8e9dc24bf3e8d87394046aef2654847f" title="if" alt="" coords="419,536,457,563"/>
+<area shape="rect" id="node46" href="$time_8h.html#a0dc16647a369e480c265b6354b04bc95" title="fr_time_delta_from_msec" alt="" coords="353,587,523,613"/>
+<area shape="rect" id="node4" href="$talloc_8c.html#ae835f7a926a1d3da159c1e0dce86581c" title="Add an additional destructor to a talloc chunk. " alt="" coords="583,397,730,424"/>
+<area shape="rect" id="node8" href="$talloc_8c.html#a1d56d7b1166027d8ee4ddfa2353c937f" title="_talloc_link_ctx_free" alt="" coords="586,637,727,664"/>
+<area shape="rect" id="node5" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="999,309,1113,336"/>
+<area shape="rect" id="node6" href="$talloc_8c.html#a9a557e02d8c7d178ab5458fb972b52c4" title="Called when the disarm_ctx ctx is freed. " alt="" coords="808,361,933,402"/>
+<area shape="rect" id="node7" href="$talloc_8c.html#a0f65bca77390a8fc11310342d848d178" title="Called with the fire_ctx is freed. " alt="" coords="795,427,946,453"/>
+<area shape="rect" id="node10" href="$time_8h.html#af21ca9b8835c6f82d516638fe8005ff7" title="Compare two fr_time_t values. " alt="" coords="609,840,704,867"/>
+<area shape="rect" id="node11" href="$time_8h.html#acf7323e8033dcde9f445f2c6f1f5571c" title="Convert an fr_time_t (internal time) to number of usec since the unix epoch (wallclock time) ..." alt="" coords="813,629,928,656"/>
+<area shape="rect" id="node12" href="$time_8h.html#a95d1edf7173ad99247f8e965c0a043ec" title="Convert an fr_time_t (internal time) to number of msec since the unix epoch (wallclock time) ..." alt="" coords="811,680,930,707"/>
+<area shape="rect" id="node13" href="$time_8h.html#a4e9719ac42b2661f240ade74c9511085" title="Convert an fr_time_t (internal time) to number of sec since the unix epoch (wallclock time) ..." alt="" coords="817,731,925,757"/>
+<area shape="rect" id="node14" href="$time_8h.html#a76700f12b4b30b68e7c685f335a21e05" title="Convert an fr_time_t (internal time) to our version of unix time (wallclock time) ..." alt="" coords="799,781,942,808"/>
+<area shape="rect" id="node15" href="$time_8h.html#a1ad6c669ca0e28c1c64e3677d0696fb3" title="Nanoseconds since the Unix Epoch the last time we synced internal time with wallclock time..." alt="" coords="800,833,941,874"/>
+<area shape="rect" id="node16" href="$time_8h.html#a6d494c95729684c986fc6cb6ec1a04ac" title="Convert a time_t (wallclock time) to a fr_time_t (internal time) " alt="" coords="809,899,932,925"/>
+<area shape="rect" id="node17" href="$time_8h.html#a58a37c3e4b34364a1cc5f78d6a109e5b" title="Convert msec (wallclock time) to a fr_time_t (internal time) " alt="" coords="803,949,938,976"/>
+<area shape="rect" id="node18" href="$time_8h.html#aefb4a09d845b94d8bc9a1acef80a5d8b" title="Convert usec (wallclock time) to a fr_time_t (internal time) " alt="" coords="805,1000,936,1027"/>
+<area shape="rect" id="node19" href="$time_8h.html#a8a78a492868542c64c5c4c6076f9a456" title="Convert a nsec (wallclock time) to a fr_time_t (internal time) " alt="" coords="805,1051,936,1077"/>
+<area shape="rect" id="node20" href="$time_8h.html#a6618bb376e667bf7f37ff9d168554c2a" title="Convert a timeval (wallclock time) to a fr_time_t (internal time) " alt="" coords="799,1101,943,1128"/>
+<area shape="rect" id="node21" href="$time_8h.html#aec5f680d746afeca8d3ac0e6021eed48" title="Convert a timespec (wallclock time) to a fr_time_t (internal time) " alt="" coords="793,1152,948,1179"/>
+<area shape="rect" id="node22" href="$time_8h.html#a46d737b3ab0907d11e1c5f9160acebfc" title="Return time delta from the time zone. " alt="" coords="805,1203,936,1245"/>
+<area shape="rect" id="node23" href="$time_8h.html#a7e9c4d86018ac8fdcb95bffd58b28590" title="Create fr_time_delta_t from a string. " alt="" coords="795,1269,947,1296"/>
+<area shape="rect" id="node24" href="$time_8h.html#ac5b2d91ab494f2bcc8b6ea57442d3114" title="Copy a time string (local timezone) to an sbuff. " alt="" coords="797,1320,944,1347"/>
+<area shape="rect" id="node25" href="$time_8h.html#a903ae8084945c3955d2be06ef9e1e57f" title="Copy a time string (UTC) to an sbuff. " alt="" coords="801,1371,940,1397"/>
+<area shape="rect" id="node26" href="$time_8h.html#a07e18217af252cb062891100dc491215" title="fr_time_elapsed_update" alt="" coords="791,477,951,504"/>
+<area shape="rect" id="node27" href="$time_8h.html#aa850617e85c63ff080e4bbdf71e93b8f" title="fr_time_elapsed_fprint" alt="" coords="795,528,946,555"/>
+<area shape="rect" id="node28" href="$time_8h.html#a6e005b82a64c4b67160f99687afa9aad" title="fr_time_from_utc" alt="" coords="811,579,931,605"/>
+<area shape="rect" id="node31" href="$pool_8c.html#a405d785679ea12b6919284a0cc70e479" title="Close an existing connection. " alt="" coords="571,56,743,83"/>
+<area shape="rect" id="node33" href="$pool_8c.html#adf8965c10f53aba7de0ad83e031f8568" title="Send a connection pool trigger. " alt="" coords="801,5,940,32"/>
+<area shape="rect" id="node32" href="$heap_8c.html#a2071e6c3699b74317dc7968e377fdced" title="Remove a node from the heap. " alt="" coords="815,56,927,83"/>
+<area shape="rect" id="node34" href="$pool_8c.html#a2d50aacfed1e9516241ca7b08a47e872" title="Removes a connection from the connection list. " alt="" coords="807,107,934,133"/>
+<area shape="rect" id="node37" href="$cf__util_8c.html#a85dc699954bc58ee5f24d3a117b6539b" title="Return the user assigned value of CONF_DATA. " alt="" coords="605,157,708,184"/>
+<area shape="rect" id="node38" href="$cf__parse_8c.html#aae8e432868057987a76a8cb1efefd467" title="Pre&#45;allocate a config section structure to allow defaults to be set. " alt="" coords="584,259,729,285"/>
+<area shape="rect" id="node41" href="$cf__parse_8c.html#a6ba54800a78f6f03791f0fa27632a158" title="Parse a subsection. " alt="" coords="585,208,728,235"/>
+<area shape="rect" id="node43" href="$cf__parse_8c.html#ac9259fd0c3c16ded200a89e0a83b87bd" title="Parses a CONF_PAIR into a C data type, with a default value. " alt="" coords="582,309,731,336"/>
+<area shape="rect" id="node44" href="$cf__parse_8c.html#a6b241d18cb4051669fd642d1674880e5" title="cf_section_parse_warn" alt="" coords="579,107,735,133"/>
+<area shape="rect" id="node39" href="$cf__util_8c.html#a2c8bfb80ce8fa2752c8f8aa636dee24f" title="Find a CONF_SECTION with name1 and optionally name2. " alt="" coords="815,208,926,235"/>
+<area shape="rect" id="node40" href="$cf__util_8c.html#a42faba7134ee8554d9f0d56e7bd79241" title="Search for a CONF_PAIR with a specific name. " alt="" coords="826,259,915,285"/>
+<area shape="rect" id="node42" href="$cf__util_8c.html#ae802d285e3f5dee90043bc93d0e3731c" title="Return the second identifier of a CONF_SECTION. " alt="" coords="807,157,935,184"/>
+<area shape="rect" id="node48" href="$talloc_8c.html#abe6e0dd358e0ace700ef1f414c96abaa" title="Free const&#39;d memory. " alt="" coords="377,941,499,968"/>
+<area shape="rect" id="node49" href="$pair_8c.html#acd64c65e4d56248ce8e4dda20ab95aff" title="Free memory used by a valuepair list. " alt="" coords="601,891,712,917"/>
+<area shape="rect" id="node50" href="$pair_8c.html#a2a3d33934f2f0f91120dfe3f381b500e" title="Duplicate a list of pairs. " alt="" coords="379,891,497,917"/>
 </map>

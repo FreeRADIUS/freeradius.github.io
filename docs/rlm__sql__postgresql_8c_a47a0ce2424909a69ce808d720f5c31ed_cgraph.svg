@@ -48,105 +48,105 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 586;
 var viewHeight = 85;
-var sectionId = 'dynsection-5';
+var sectionId = 'dynsection-9';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>sql_fetch_row</title>
-<!-- Node683 -->
+<!-- Node216 -->
 <g id="node1" class="node">
-<title>Node683</title>
+<title>Node216</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-19.5 0,-38.5 77,-38.5 77,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="38.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sql_fetch_row</text>
 </g>
-<!-- Node684 -->
+<!-- Node217 -->
 <g id="node2" class="node">
-<title>Node684</title>
+<title>Node217</title>
 <g id="a_node2"><a xlink:href="rlm__sql__postgresql_8c.html#afabccf3ac9d5134237c037f6167f19d4" target="_top" xlink:title="Free the row of the current result that&#39;s stored in the conn struct. ">
 <polygon fill="none" stroke="#000000" points="113,-38.5 113,-57.5 196,-57.5 196,-38.5 113,-38.5"/>
 <text text-anchor="middle" x="154.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">free_result_row</text>
 </a>
 </g>
 </g>
-<!-- Node683&#45;&gt;Node684 -->
+<!-- Node216&#45;&gt;Node217 -->
 <g id="edge1" class="edge">
-<title>Node683&#45;&gt;Node684</title>
+<title>Node216&#45;&gt;Node217</title>
 <path fill="none" stroke="#191970" d="M77.1263,-35.3267C85.3688,-36.6768 94.2011,-38.1235 102.8433,-39.539"/>
 <polygon fill="#191970" stroke="#191970" points="102.4201,-43.0162 112.8543,-41.1787 103.5516,-36.1083 102.4201,-43.0162"/>
 </g>
-<!-- Node689 -->
+<!-- Node222 -->
 <g id="node7" class="node">
-<title>Node689</title>
+<title>Node222</title>
 <g id="a_node7"><a xlink:href="strlcpy_8c.html#a59f9599e77ee687b1daaa179f8b9a2f3" target="_top" xlink:title="strlcpy">
 <polygon fill="none" stroke="#000000" points="131.5,-.5 131.5,-19.5 177.5,-19.5 177.5,-.5 131.5,-.5"/>
 <text text-anchor="middle" x="154.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">strlcpy</text>
 </a>
 </g>
 </g>
-<!-- Node683&#45;&gt;Node689 -->
+<!-- Node216&#45;&gt;Node222 -->
 <g id="edge6" class="edge">
-<title>Node683&#45;&gt;Node689</title>
+<title>Node216&#45;&gt;Node222</title>
 <path fill="none" stroke="#191970" d="M77.1263,-22.6733C91.4117,-20.3334 107.4686,-17.7034 121.2369,-15.4483"/>
 <polygon fill="#191970" stroke="#191970" points="121.9495,-18.8783 131.2523,-13.8078 120.818,-11.9703 121.9495,-18.8783"/>
 </g>
-<!-- Node685 -->
+<!-- Node218 -->
 <g id="node3" class="node">
-<title>Node685</title>
+<title>Node218</title>
 <g id="a_node3"><a xlink:href="rlm__sql__postgresql_8c.html#a00d6a310101abd98b315545e0e98e435" target="_top" xlink:title="sql_classify_error">
 <polygon fill="none" stroke="#000000" points="237.5,-57.5 237.5,-76.5 330.5,-76.5 330.5,-57.5 237.5,-57.5"/>
 <text text-anchor="middle" x="284" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sql_classify_error</text>
 </a>
 </g>
 </g>
-<!-- Node684&#45;&gt;Node685 -->
+<!-- Node217&#45;&gt;Node218 -->
 <g id="edge2" class="edge">
-<title>Node684&#45;&gt;Node685</title>
+<title>Node217&#45;&gt;Node218</title>
 <path fill="none" stroke="#191970" d="M196.1874,-54.1163C206.1612,-55.5796 216.9747,-57.1662 227.4932,-58.7094"/>
 <polygon fill="#191970" stroke="#191970" points="227.0483,-62.1815 237.4505,-60.1703 228.0645,-55.2557 227.0483,-62.1815"/>
 </g>
-<!-- Node686 -->
+<!-- Node219 -->
 <g id="node4" class="node">
-<title>Node686</title>
+<title>Node219</title>
 <g id="a_node4"><a xlink:href="rlm__sql_8h.html#abfdfc990ddbe5e381f1080b721281645" target="_top" xlink:title="Lookup an SQL state based on an error code returned from the SQL server or client library...">
 <polygon fill="none" stroke="#000000" points="232,-19.5 232,-38.5 336,-38.5 336,-19.5 232,-19.5"/>
 <text text-anchor="middle" x="284" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sql_state_entry_find</text>
 </a>
 </g>
 </g>
-<!-- Node684&#45;&gt;Node686 -->
+<!-- Node217&#45;&gt;Node219 -->
 <g id="edge3" class="edge">
-<title>Node684&#45;&gt;Node686</title>
+<title>Node217&#45;&gt;Node219</title>
 <path fill="none" stroke="#191970" d="M196.1874,-41.8837C204.3716,-40.6829 213.1212,-39.3992 221.8093,-38.1245"/>
 <polygon fill="#191970" stroke="#191970" points="222.5565,-41.5524 231.9425,-36.6378 221.5403,-34.6266 222.5565,-41.5524"/>
 </g>
-<!-- Node687 -->
+<!-- Node220 -->
 <g id="node5" class="node">
-<title>Node687</title>
+<title>Node220</title>
 <g id="a_node5"><a xlink:href="trie_8c.html#a9fcc4032aa90f41df95893f2aaf1bdd6" target="_top" xlink:title="Lookup a key in a trie and return user ctx, if any. ">
 <polygon fill="none" stroke="#000000" points="372,-19.5 372,-38.5 447,-38.5 447,-19.5 372,-19.5"/>
 <text text-anchor="middle" x="409.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_trie_lookup</text>
 </a>
 </g>
 </g>
-<!-- Node686&#45;&gt;Node687 -->
+<!-- Node219&#45;&gt;Node220 -->
 <g id="edge4" class="edge">
-<title>Node686&#45;&gt;Node687</title>
+<title>Node219&#45;&gt;Node220</title>
 <path fill="none" stroke="#191970" d="M336.133,-29C344.6554,-29 353.4469,-29 361.8538,-29"/>
 <polygon fill="#191970" stroke="#191970" points="361.8738,-32.5001 371.8738,-29 361.8737,-25.5001 361.8738,-32.5001"/>
 </g>
-<!-- Node688 -->
+<!-- Node221 -->
 <g id="node6" class="node">
-<title>Node688</title>
+<title>Node221</title>
 <g id="a_node6"><a xlink:href="trie_8c.html#a5c7b1cafddcd1b270bcf8c3a7ce4ac4c" target="_top" xlink:title="Match a key in a trie and return user ctx, if any. ">
 <polygon fill="none" stroke="#000000" points="483,-19.5 483,-38.5 578,-38.5 578,-19.5 483,-19.5"/>
 <text text-anchor="middle" x="530.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_trie_key_match</text>
 </a>
 </g>
 </g>
-<!-- Node687&#45;&gt;Node688 -->
+<!-- Node220&#45;&gt;Node221 -->
 <g id="edge5" class="edge">
-<title>Node687&#45;&gt;Node688</title>
+<title>Node220&#45;&gt;Node221</title>
 <path fill="none" stroke="#191970" d="M447.1219,-29C455.1997,-29 463.9156,-29 472.5617,-29"/>
 <polygon fill="#191970" stroke="#191970" points="472.6369,-32.5001 482.6369,-29 472.6368,-25.5001 472.6369,-32.5001"/>
 </g>

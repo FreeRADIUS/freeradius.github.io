@@ -54,130 +54,130 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>fr_thread_local_atexit_setup</title>
-<!-- Node16 -->
+<!-- Node17 -->
 <g id="node1" class="node">
-<title>Node16</title>
+<title>Node17</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-33 0,-63 110,-63 110,-33 0,-33"/>
 <text text-anchor="start" x="8" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_thread_local_atexit</text>
 <text text-anchor="middle" x="55" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_setup</text>
 </g>
-<!-- Node17 -->
+<!-- Node18 -->
 <g id="node2" class="node">
-<title>Node17</title>
+<title>Node18</title>
 <g id="a_node2"><a xlink:href="thread__local_8c.html#a9482a34e217333759d0a661a3008a982" target="_top" xlink:title="Talloc destructor for freeing list elements in order. ">
 <polygon fill="none" stroke="#000000" points="146,-57.5 146,-76.5 233,-76.5 233,-57.5 146,-57.5"/>
 <text text-anchor="middle" x="189.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_global_list_free</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node17 -->
+<!-- Node17&#45;&gt;Node18 -->
 <g id="edge1" class="edge">
-<title>Node16&#45;&gt;Node17</title>
+<title>Node17&#45;&gt;Node18</title>
 <path fill="none" stroke="#191970" d="M110.0944,-55.7828C118.5529,-56.9777 127.2768,-58.2101 135.7066,-59.4009"/>
 <polygon fill="#191970" stroke="#191970" points="135.4143,-62.8943 145.8056,-60.8276 136.3935,-55.9631 135.4143,-62.8943"/>
 </g>
-<!-- Node24 -->
+<!-- Node25 -->
 <g id="node9" class="node">
-<title>Node24</title>
+<title>Node25</title>
 <g id="a_node9"><a xlink:href="thread__local_8c.html#add0b2914259a0a9d5051e91fcd06e017" target="_top" xlink:title="Free any thread&#45;local exit handler lists that pthread_key failed to fre. ">
 <polygon fill="none" stroke="#000000" points="155,-19.5 155,-38.5 224,-38.5 224,-19.5 155,-19.5"/>
 <text text-anchor="middle" x="189.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_global_free</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node24 -->
+<!-- Node17&#45;&gt;Node25 -->
 <g id="edge8" class="edge">
-<title>Node16&#45;&gt;Node24</title>
+<title>Node17&#45;&gt;Node25</title>
 <path fill="none" stroke="#191970" d="M110.0944,-40.2172C121.6475,-38.5851 133.6957,-36.8831 144.8133,-35.3126"/>
 <polygon fill="#191970" stroke="#191970" points="145.3087,-38.7775 154.7208,-33.913 144.3295,-31.8463 145.3087,-38.7775"/>
 </g>
-<!-- Node18 -->
+<!-- Node19 -->
 <g id="node3" class="node">
-<title>Node18</title>
+<title>Node19</title>
 <g id="a_node3"><a xlink:href="dlist_8h.html#a5d1da49f23b091e8df75b7a0256a61b3" target="_top" xlink:title="Free all items in a doubly linked list (with talloc) ">
 <polygon fill="none" stroke="#000000" points="269,-57.5 269,-76.5 365,-76.5 365,-57.5 269,-57.5"/>
 <text text-anchor="middle" x="317" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_dlist_talloc_free</text>
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node18 -->
+<!-- Node18&#45;&gt;Node19 -->
 <g id="edge2" class="edge">
-<title>Node17&#45;&gt;Node18</title>
+<title>Node18&#45;&gt;Node19</title>
 <path fill="none" stroke="#191970" d="M233.0217,-67C241.3178,-67 250.1238,-67 258.7921,-67"/>
 <polygon fill="#191970" stroke="#191970" points="258.8659,-70.5001 268.8659,-67 258.8658,-63.5001 258.8659,-70.5001"/>
 </g>
-<!-- Node19 -->
+<!-- Node20 -->
 <g id="node4" class="node">
-<title>Node19</title>
+<title>Node20</title>
 <g id="a_node4"><a xlink:href="dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" target="_top" xlink:title="Get the next item in a list. ">
 <polygon fill="none" stroke="#000000" points="407.5,-76.5 407.5,-95.5 477.5,-95.5 477.5,-76.5 407.5,-76.5"/>
 <text text-anchor="middle" x="442.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_dlist_next</text>
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node19 -->
+<!-- Node19&#45;&gt;Node20 -->
 <g id="edge3" class="edge">
-<title>Node18&#45;&gt;Node19</title>
+<title>Node19&#45;&gt;Node20</title>
 <path fill="none" stroke="#191970" d="M365.1627,-74.2916C375.635,-75.877 386.6812,-77.5493 397.0447,-79.1183"/>
 <polygon fill="#191970" stroke="#191970" points="396.7228,-82.6094 407.1341,-80.6458 397.7707,-75.6883 396.7228,-82.6094"/>
 </g>
-<!-- Node21 -->
+<!-- Node22 -->
 <g id="node6" class="node">
-<title>Node21</title>
+<title>Node22</title>
 <g id="a_node6"><a xlink:href="dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" target="_top" xlink:title="Remove an item from the list. ">
 <polygon fill="none" stroke="#000000" points="401,-38.5 401,-57.5 484,-57.5 484,-38.5 401,-38.5"/>
 <text text-anchor="middle" x="442.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_dlist_remove</text>
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node21 -->
+<!-- Node19&#45;&gt;Node22 -->
 <g id="edge5" class="edge">
-<title>Node18&#45;&gt;Node21</title>
+<title>Node19&#45;&gt;Node22</title>
 <path fill="none" stroke="#191970" d="M365.1627,-59.7084C373.517,-58.4436 382.2365,-57.1236 390.6833,-55.8448"/>
 <polygon fill="#191970" stroke="#191970" points="391.445,-59.2694 400.8084,-54.3119 390.3971,-52.3483 391.445,-59.2694"/>
 </g>
-<!-- Node20 -->
+<!-- Node21 -->
 <g id="node5" class="node">
-<title>Node20</title>
+<title>Node21</title>
 <g id="a_node5"><a xlink:href="dlist_8h.html#a90c9ea299e869c463ab8109410112a97" target="_top" xlink:title="Return the HEAD item of a list or NULL if the list is empty. ">
 <polygon fill="none" stroke="#000000" points="536,-76.5 536,-95.5 608,-95.5 608,-76.5 536,-76.5"/>
 <text text-anchor="middle" x="572" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_dlist_head</text>
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node20 -->
+<!-- Node20&#45;&gt;Node21 -->
 <g id="edge4" class="edge">
-<title>Node19&#45;&gt;Node20</title>
+<title>Node20&#45;&gt;Node21</title>
 <path fill="none" stroke="#191970" d="M477.5446,-86C492.2917,-86 509.6636,-86 525.4611,-86"/>
 <polygon fill="#191970" stroke="#191970" points="525.5717,-89.5001 535.5716,-86 525.5716,-82.5001 525.5717,-89.5001"/>
 </g>
-<!-- Node22 -->
+<!-- Node23 -->
 <g id="node7" class="node">
-<title>Node22</title>
+<title>Node23</title>
 <g id="a_node7"><a xlink:href="dlist_8h.html#a744cb8537f617b6718254070a02f13a0" target="_top" xlink:title="Check whether a list has any items. ">
 <polygon fill="none" stroke="#000000" points="533,-38.5 533,-57.5 611,-57.5 611,-38.5 533,-38.5"/>
 <text text-anchor="middle" x="572" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_dlist_empty</text>
 </a>
 </g>
 </g>
-<!-- Node21&#45;&gt;Node22 -->
+<!-- Node22&#45;&gt;Node23 -->
 <g id="edge6" class="edge">
-<title>Node21&#45;&gt;Node22</title>
+<title>Node22&#45;&gt;Node23</title>
 <path fill="none" stroke="#191970" d="M484.1874,-48C496.3181,-48 509.6911,-48 522.2646,-48"/>
 <polygon fill="#191970" stroke="#191970" points="522.5935,-51.5001 532.5935,-48 522.5935,-44.5001 522.5935,-51.5001"/>
 </g>
-<!-- Node23 -->
+<!-- Node24 -->
 <g id="node8" class="node">
-<title>Node23</title>
+<title>Node24</title>
 <g id="a_node8"><a xlink:href="dlist_8h.html#a50878590aabca4bc6fc4d1f6df0e724f" target="_top" xlink:title="Check if a list entry is part of a list. ">
 <polygon fill="none" stroke="#000000" points="520,-.5 520,-19.5 624,-19.5 624,-.5 520,-.5"/>
 <text text-anchor="middle" x="572" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_dlist_entry_in_list</text>
 </a>
 </g>
 </g>
-<!-- Node21&#45;&gt;Node23 -->
+<!-- Node22&#45;&gt;Node24 -->
 <g id="edge7" class="edge">
-<title>Node21&#45;&gt;Node23</title>
+<title>Node22&#45;&gt;Node24</title>
 <path fill="none" stroke="#191970" d="M475.1783,-38.411C491.5888,-33.5956 511.6763,-27.7012 529.2922,-22.532"/>
 <polygon fill="#191970" stroke="#191970" points="530.7222,-25.7601 539.3321,-19.5859 528.7512,-19.0433 530.7222,-25.7601"/>
 </g>

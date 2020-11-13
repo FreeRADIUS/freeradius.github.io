@@ -1,57 +1,51 @@
 <map id="_request_alloc" name="_request_alloc">
-<area shape="rect" id="node2" href="$request_8c.html#aeea11651fb383481003c2dc32f41e300" title="Free any free requests when the thread is joined. " alt="" coords="160,298,285,339"/>
-<area shape="rect" id="node3" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="362,251,458,277"/>
-<area shape="rect" id="node4" href="$request_8c.html#ae39d22a554c5688da89e0db1547ed639" title="Callback for freeing a request struct. " alt="" coords="172,415,273,441"/>
-<area shape="rect" id="node9" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="167,364,278,391"/>
-<area shape="rect" id="node11" href="$request_8c.html#a9baa7dbfa1c7c1d42524ad9e4ef12c2f" title="Setup logging and other fields for a request. " alt="" coords="178,672,267,699"/>
-<area shape="rect" id="node56" href="$talloc_8c.html#a9e4c941cc6b24faf5b0e81b7635fdffe" title="Link two different parent and child contexts, so the child is freed before the parent. " alt="" coords="791,1323,896,1349"/>
-<area shape="rect" id="node5" href="$dlist_8h.html#a50878590aabca4bc6fc4d1f6df0e724f" title="Check if a list entry is part of a list. " alt="" coords="341,360,479,387"/>
-<area shape="rect" id="node6" href="$dlist_8h.html#a667760605b0fab66234c92f49807e3fb" title="Remove an item from the dlist when we don&#39;t have access to the head. " alt="" coords="341,512,479,539"/>
-<area shape="rect" id="node7" href="$dlist_8h.html#ad852b167828d7848ed99ee9cae167218" title="Return the number of elements in the dlist. " alt="" coords="333,411,487,437"/>
-<area shape="rect" id="node8" href="$dlist_8h.html#aca8eed7f7758b61446174a5a4d54e7b4" title="Insert an item into the head of a list. " alt="" coords="343,461,477,488"/>
-<area shape="rect" id="node10" href="$dlist_8h.html#a744cb8537f617b6718254070a02f13a0" title="Check whether a list has any items. " alt="" coords="358,309,462,336"/>
-<area shape="rect" id="node12" href="$interpret_8c.html#ae01fe97522f09f26e617eb9abcb77231" title="Allocate a new unlang stack. " alt="" coords="333,665,487,706"/>
-<area shape="rect" id="node13" href="$request__data_8c.html#a57ffec90d04503c62b3bbc9a5fc71648" title="request_data_list_init" alt="" coords="337,731,483,757"/>
-<area shape="rect" id="node14" href="$talloc_8h.html#acb428ac33d241ad45ec389fd0770db86" title="Allocate a top level chunk with a constant name. " alt="" coords="566,1069,682,1096"/>
-<area shape="rect" id="node30" href="$request_8c.html#afdb9d9e375c7562690a7c90caccbfe6d" title="_state_ctx_free" alt="" coords="354,832,466,859"/>
-<area shape="rect" id="node31" href="$lib_2server_2log_8c.html#ae2e63702076a45ad419fd011a8d1cf1f" title="Send a log message to its destination, possibly including fields from the request. " alt="" coords="362,563,458,589"/>
-<area shape="rect" id="node55" href="$dlist_8h.html#ac07928279a883700db54778383d69e77" title="Initialise a linked list without metadata. " alt="" coords="349,613,471,640"/>
-<area shape="rect" id="node15" href="$talloc_8h.html#a3e6e2b6702148d688c1fb381cb1117eb" title="Retrieve the current talloc NULL ctx. " alt="" coords="791,1171,896,1197"/>
-<area shape="rect" id="node16" href="$talloc_8h.html#ae835f7a926a1d3da159c1e0dce86581c" title="Add an additional destructor to a talloc chunk. " alt="" coords="983,1219,1130,1245"/>
-<area shape="rect" id="node22" href="$talloc_8h.html#adb92fb43a9672417f9da8e644d188b52" title="Disarm a destructor and free all memory allocated in the trigger ctxs. " alt="" coords="761,1019,925,1045"/>
-<area shape="rect" id="node23" href="$talloc_8h.html#a9e4c941cc6b24faf5b0e81b7635fdffe" title="Link two different parent and child contexts, so the child is freed before the parent. " alt="" coords="791,1272,896,1299"/>
-<area shape="rect" id="node26" href="$talloc_8h.html#adb7f37fae27f88ec647215c8afca9725" title="talloc_add_destructor" alt="" coords="770,1069,917,1096"/>
-<area shape="rect" id="node27" href="$talloc_8h.html#aab0c342f3705e1349f44abf78161914a" title="talloc_disarm_destructor" alt="" coords="761,1120,925,1147"/>
-<area shape="rect" id="node28" href="$talloc_8h.html#a21dbbfb88b4603f31754b168d6def945" title="Return a page aligned talloc memory pool. " alt="" coords="973,917,1140,944"/>
-<area shape="rect" id="node29" href="$talloc_8h.html#ab287847ee1ecaeaa96d876377e92c705" title="Return a page aligned talloc memory array. " alt="" coords="988,968,1125,995"/>
-<area shape="rect" id="node17" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1206,867,1321,893"/>
-<area shape="rect" id="node20" href="$talloc_8c.html#a9a557e02d8c7d178ab5458fb972b52c4" title="Called when the disarm_ctx ctx is freed. " alt="" coords="1201,1269,1326,1310"/>
-<area shape="rect" id="node21" href="$talloc_8c.html#a0f65bca77390a8fc11310342d848d178" title="Called with the fire_ctx is freed. " alt="" coords="1188,1217,1339,1244"/>
-<area shape="rect" id="node18" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="1387,613,1456,640"/>
-<area shape="rect" id="node19" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="1389,424,1453,451"/>
-<area shape="rect" id="node24" href="$talloc_8c.html#ae835f7a926a1d3da159c1e0dce86581c" title="Add an additional destructor to a talloc chunk. " alt="" coords="983,1272,1130,1299"/>
-<area shape="rect" id="node25" href="$talloc_8c.html#a1d56d7b1166027d8ee4ddfa2353c937f" title="_talloc_link_ctx_free" alt="" coords="986,1323,1127,1349"/>
-<area shape="rect" id="node32" href="$lib_2server_2log_8c.html#aaae4c59a97fc4aa20df232613b517f8b" title="Whether a request specific debug message should be logged. " alt="" coords="555,765,693,792"/>
-<area shape="rect" id="node33" href="$strerror_8c.html#a2c8e65d6d4b73fb705cc023f60acb099" title="Print the current error to stderr with a prefix. " alt="" coords="1228,664,1299,691"/>
-<area shape="rect" id="node34" href="$lib_2server_2log_8c.html#a4ed631903d12823b4112219a8a79cce5" title="Cleanup the memory pool used by vlog_request. " alt="" coords="535,816,713,843"/>
-<area shape="rect" id="node35" href="$fopencookie_8c.html#afe0dd82cee59d36d7afe7f46269e9e06" title="fopencookie" alt="" coords="578,107,670,133"/>
-<area shape="rect" id="node40" href="$xlat_8h.html#af2cbba970c886fb73d6ce5d4500f21dd" title="xlat_aeval" alt="" coords="583,259,665,285"/>
-<area shape="rect" id="node42" href="$lib_2server_2util_8c.html#ad143c884d8e4928d8b6c828ed8c66320" title="Escapes the raw string such that it should be safe to use as part of a file path. ..." alt="" coords="771,512,916,539"/>
-<area shape="rect" id="node46" href="$file_8c.html#a0127ba552c0477db5f120572bd2c2df9" title="Create directories that are missing in the specified path. " alt="" coords="589,867,659,893"/>
-<area shape="rect" id="node49" href="$syserror_8c.html#a18747f9d648d0aeecc4a8b27ac0435aa" title="Guaranteed to be thread&#45;safe version of strerror. " alt="" coords="1015,715,1099,741"/>
-<area shape="rect" id="node50" href="$talloc_8c.html#aba1ce57098bd0d4f569907465358cff2" title="Call talloc vasprintf, setting the type on the new chunk correctly. " alt="" coords="1192,373,1335,400"/>
-<area shape="rect" id="node51" href="$print_8c.html#a27ae94b5a4c77de49aa2f387765a4d58" title="Special version of vasprintf which implements custom format specifiers. " alt="" coords="1013,360,1100,387"/>
-<area shape="rect" id="node52" href="$missing_8c.html#a193959a40169beb14eeca194a55d361d" title="gmtime_r" alt="" coords="1019,563,1095,589"/>
-<area shape="rect" id="node53" href="$lib_2server_2log_8c.html#a58aa2fc1737b71ec05a55865403ba0eb" title="Send a server log message to its destination without evaluating its debug level. " alt="" coords="581,461,667,488"/>
-<area shape="rect" id="node36" href="$fopencookie_8c.html#a66b3ab6a1f93b946f57b366cf812bc5d" title="Wrap fopencookie read function. " alt="" coords="816,5,871,32"/>
-<area shape="rect" id="node37" href="$fopencookie_8c.html#a261592eff73ddc8a25542a9ffe6551d9" title="Wrap fopencookie write function. " alt="" coords="815,56,872,83"/>
-<area shape="rect" id="node38" href="$fopencookie_8c.html#a420dfde3b14364714c7d8bfec1acadb6" title="Wrap fopencookie seek function. " alt="" coords="815,107,872,133"/>
-<area shape="rect" id="node39" href="$fopencookie_8c.html#a342cf375655e3354ad4bce29cc3e042e" title="Wrap fopencookie close function and free our fr_funopen_cookie_t. " alt="" coords="813,157,873,184"/>
-<area shape="rect" id="node41" href="$xlat__eval_8c.html#a74d8cf2e6ad59fcfb8b390c1a15d0d79" title="Replace whatever in a string. " alt="" coords="803,259,884,285"/>
-<area shape="rect" id="node43" href="$print_8c.html#a69fbdf99ae311e5900c854a2247c51b8" title="Checks for utf&#45;8, taken from http://www.w3.org/International/questions/qa&#45;forms&#45;utf&#45;8. " alt="" coords="1011,411,1102,437"/>
-<area shape="rect" id="node44" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="1231,537,1296,564"/>
-<area shape="rect" id="node45" href="$hex_8c.html#a6f5a62977bc0e4b94129f1c2c673f02e" title="Convert binary data to a hex string. " alt="" coords="1015,461,1098,488"/>
-<area shape="rect" id="node47" href="$talloc_8c.html#a6359458838bb8ee3881b1dbe8e6519b7" title="Binary safe strndup function. " alt="" coords="788,765,899,792"/>
-<area shape="rect" id="node48" href="$file_8c.html#af7bfdabd5e2dfdbaf31f8f99f3407b6a" title="_fr_mkdir" alt="" coords="805,816,881,843"/>
-<area shape="rect" id="node54" href="$lib_2util_2log_8c.html#a787775b366183a1316a677709b14c7dc" title="Send a server log message to its destination. " alt="" coords="813,461,874,488"/>
+<area shape="rect" id="node2" href="$request_8c.html#aeea11651fb383481003c2dc32f41e300" title="Free any free requests when the thread is joined. " alt="" coords="160,53,285,94"/>
+<area shape="rect" id="node3" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="362,5,458,32"/>
+<area shape="rect" id="node4" href="$request_8c.html#ae39d22a554c5688da89e0db1547ed639" title="Callback for freeing a request struct. " alt="" coords="172,169,273,196"/>
+<area shape="rect" id="node9" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="167,119,278,145"/>
+<area shape="rect" id="node11" href="$request_8c.html#a9baa7dbfa1c7c1d42524ad9e4ef12c2f" title="Setup logging and other fields for a request. " alt="" coords="178,477,267,504"/>
+<area shape="rect" id="node50" href="$talloc_8c.html#a9e4c941cc6b24faf5b0e81b7635fdffe" title="Link two different parent and child contexts, so the child is freed before the parent. " alt="" coords="565,325,671,352"/>
+<area shape="rect" id="node5" href="$dlist_8h.html#a50878590aabca4bc6fc4d1f6df0e724f" title="Check if a list entry is part of a list. " alt="" coords="341,115,479,141"/>
+<area shape="rect" id="node6" href="$dlist_8h.html#a667760605b0fab66234c92f49807e3fb" title="Remove an item from the dlist when we don&#39;t have access to the head. " alt="" coords="341,267,479,293"/>
+<area shape="rect" id="node7" href="$dlist_8h.html#ad852b167828d7848ed99ee9cae167218" title="Return the number of elements in the dlist. " alt="" coords="333,165,487,192"/>
+<area shape="rect" id="node8" href="$dlist_8h.html#aca8eed7f7758b61446174a5a4d54e7b4" title="Insert an item into the head of a list. " alt="" coords="343,216,477,243"/>
+<area shape="rect" id="node10" href="$dlist_8h.html#a744cb8537f617b6718254070a02f13a0" title="Check whether a list has any items. " alt="" coords="358,64,462,91"/>
+<area shape="rect" id="node12" href="$interpret_8c.html#ae01fe97522f09f26e617eb9abcb77231" title="Allocate a new unlang stack. " alt="" coords="333,470,487,511"/>
+<area shape="rect" id="node13" href="$request__data_8c.html#a57ffec90d04503c62b3bbc9a5fc71648" title="request_data_list_init" alt="" coords="337,536,483,563"/>
+<area shape="rect" id="node14" href="$talloc_8h.html#acb428ac33d241ad45ec389fd0770db86" title="Allocate a top level chunk with a constant name. " alt="" coords="352,587,468,613"/>
+<area shape="rect" id="node30" href="$request_8c.html#afdb9d9e375c7562690a7c90caccbfe6d" title="_state_ctx_free" alt="" coords="354,368,466,395"/>
+<area shape="rect" id="node31" href="$lib_2server_2log_8c.html#ae2e63702076a45ad419fd011a8d1cf1f" title="Send a log message to its destination, possibly including fields from the request. " alt="" coords="570,883,666,909"/>
+<area shape="rect" id="node49" href="$dlist_8h.html#ac07928279a883700db54778383d69e77" title="Initialise a linked list without metadata. " alt="" coords="349,419,471,445"/>
+<area shape="rect" id="node15" href="$talloc_8h.html#a3e6e2b6702148d688c1fb381cb1117eb" title="Retrieve the current talloc NULL ctx. " alt="" coords="565,528,671,555"/>
+<area shape="rect" id="node16" href="$talloc_8h.html#ae835f7a926a1d3da159c1e0dce86581c" title="Add an additional destructor to a talloc chunk. " alt="" coords="765,452,912,479"/>
+<area shape="rect" id="node22" href="$talloc_8h.html#adb92fb43a9672417f9da8e644d188b52" title="Disarm a destructor and free all memory allocated in the trigger ctxs. " alt="" coords="536,427,700,453"/>
+<area shape="rect" id="node23" href="$talloc_8h.html#a9e4c941cc6b24faf5b0e81b7635fdffe" title="Link two different parent and child contexts, so the child is freed before the parent. " alt="" coords="565,376,671,403"/>
+<area shape="rect" id="node26" href="$talloc_8h.html#adb7f37fae27f88ec647215c8afca9725" title="talloc_add_destructor" alt="" coords="545,477,691,504"/>
+<area shape="rect" id="node27" href="$talloc_8h.html#aab0c342f3705e1349f44abf78161914a" title="talloc_disarm_destructor" alt="" coords="536,629,700,656"/>
+<area shape="rect" id="node28" href="$talloc_8h.html#a21dbbfb88b4603f31754b168d6def945" title="Return a page aligned talloc memory pool. " alt="" coords="535,731,701,757"/>
+<area shape="rect" id="node29" href="$talloc_8h.html#ab287847ee1ecaeaa96d876377e92c705" title="Return a page aligned talloc memory array. " alt="" coords="549,680,687,707"/>
+<area shape="rect" id="node17" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="994,579,1109,605"/>
+<area shape="rect" id="node20" href="$talloc_8c.html#a9a557e02d8c7d178ab5458fb972b52c4" title="Called when the disarm_ctx ctx is freed. " alt="" coords="989,354,1114,395"/>
+<area shape="rect" id="node21" href="$talloc_8c.html#a0f65bca77390a8fc11310342d848d178" title="Called with the fire_ctx is freed. " alt="" coords="976,441,1127,468"/>
+<area shape="rect" id="node18" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="1175,693,1244,720"/>
+<area shape="rect" id="node19" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="1177,756,1241,783"/>
+<area shape="rect" id="node24" href="$talloc_8c.html#ae835f7a926a1d3da159c1e0dce86581c" title="Add an additional destructor to a talloc chunk. " alt="" coords="765,351,912,377"/>
+<area shape="rect" id="node25" href="$talloc_8c.html#a1d56d7b1166027d8ee4ddfa2353c937f" title="_talloc_link_ctx_free" alt="" coords="768,401,909,428"/>
+<area shape="rect" id="node32" href="$lib_2server_2log_8c.html#aaae4c59a97fc4aa20df232613b517f8b" title="Whether a request specific debug message should be logged. " alt="" coords="770,807,907,833"/>
+<area shape="rect" id="node33" href="$strerror_8c.html#a2c8e65d6d4b73fb705cc023f60acb099" title="Print the current error to stderr with a prefix. " alt="" coords="1016,731,1087,757"/>
+<area shape="rect" id="node34" href="$lib_2server_2log_8c.html#a4ed631903d12823b4112219a8a79cce5" title="Cleanup the memory pool used by vlog_request. " alt="" coords="749,959,928,985"/>
+<area shape="rect" id="node35" href="$fopencookie_8c.html#afe0dd82cee59d36d7afe7f46269e9e06" title="fopencookie" alt="" coords="793,1161,885,1188"/>
+<area shape="rect" id="node40" href="$xlat_8h.html#af2cbba970c886fb73d6ce5d4500f21dd" title="xlat_aeval" alt="" coords="798,1237,879,1264"/>
+<area shape="rect" id="node42" href="$lib_2server_2util_8c.html#ad143c884d8e4928d8b6c828ed8c66320" title="Escapes the raw string such that it should be safe to use as part of a file path. ..." alt="" coords="766,1060,911,1087"/>
+<area shape="rect" id="node43" href="$file_8c.html#a0127ba552c0477db5f120572bd2c2df9" title="Create directories that are missing in the specified path. " alt="" coords="804,604,873,631"/>
+<area shape="rect" id="node44" href="$syserror_8c.html#a18747f9d648d0aeecc4a8b27ac0435aa" title="Guaranteed to be thread&#45;safe version of strerror. " alt="" coords="797,705,881,732"/>
+<area shape="rect" id="node45" href="$talloc_8c.html#aba1ce57098bd0d4f569907465358cff2" title="Call talloc vasprintf, setting the type on the new chunk correctly. " alt="" coords="980,832,1123,859"/>
+<area shape="rect" id="node46" href="$print_8c.html#a27ae94b5a4c77de49aa2f387765a4d58" title="Special version of vasprintf which implements custom format specifiers. " alt="" coords="795,857,882,884"/>
+<area shape="rect" id="node47" href="$missing_8c.html#a193959a40169beb14eeca194a55d361d" title="gmtime_r" alt="" coords="801,1111,877,1137"/>
+<area shape="rect" id="node48" href="$lib_2server_2log_8c.html#a58aa2fc1737b71ec05a55865403ba0eb" title="Send a server log message to its destination without evaluating its debug level. " alt="" coords="1008,680,1095,707"/>
+<area shape="rect" id="node36" href="$fopencookie_8c.html#a66b3ab6a1f93b946f57b366cf812bc5d" title="Wrap fopencookie read function. " alt="" coords="1024,1212,1079,1239"/>
+<area shape="rect" id="node37" href="$fopencookie_8c.html#a261592eff73ddc8a25542a9ffe6551d9" title="Wrap fopencookie write function. " alt="" coords="1023,1060,1080,1087"/>
+<area shape="rect" id="node38" href="$fopencookie_8c.html#a420dfde3b14364714c7d8bfec1acadb6" title="Wrap fopencookie seek function. " alt="" coords="1023,1111,1080,1137"/>
+<area shape="rect" id="node39" href="$fopencookie_8c.html#a342cf375655e3354ad4bce29cc3e042e" title="Wrap fopencookie close function and free our fr_funopen_cookie_t. " alt="" coords="1021,1161,1081,1188"/>
+<area shape="rect" id="node41" href="$xlat__eval_8c.html#a74d8cf2e6ad59fcfb8b390c1a15d0d79" title="Replace whatever in a string. " alt="" coords="1011,1263,1092,1289"/>
 </map>

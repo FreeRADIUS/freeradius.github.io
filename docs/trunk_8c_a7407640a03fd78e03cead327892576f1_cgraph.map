@@ -1,58 +1,51 @@
 <map id="_trunk_timer" name="_trunk_timer">
-<area shape="rect" id="node2" href="$trunk_8c.html#a8fb6d1576f81b578b3090bfa8bb3c366" title="Implements the algorithm we use to manage requests per connection levels. " alt="" coords="148,1108,252,1135"/>
-<area shape="rect" id="node3" href="$dlist_8h.html#a728a6246588e70e075b074b3635d2663" title="Return the TAIL item of a list or NULL if the list is empty. " alt="" coords="1513,93,1599,120"/>
-<area shape="rect" id="node4" href="$trunk_8c.html#a0eea2108f3aaf7a16ae8b86404c927fc" title="Close connections in a particular connection list if they have no requests associated with them..." alt="" coords="785,230,944,271"/>
-<area shape="rect" id="node6" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="1949,865,2045,892"/>
-<area shape="rect" id="node7" href="$trunk_8c.html#a4a0a08064485793b003756b197ca6622" title="Return the count number of requests associated with a trunk connection. " alt="" coords="2123,1131,2277,1173"/>
-<area shape="rect" id="node18" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="1727,1312,1838,1339"/>
-<area shape="rect" id="node21" href="$trunk_8c.html#a67e6ccfbaf63a45dbae642ebe11bfa0e" title="Return the count number of connections in the specified states. " alt="" coords="1929,129,2065,170"/>
-<area shape="rect" id="node22" href="$trunk_8c.html#a3da6a65cff3b03e18942d9036c5c3a0a" title="Update timestamps for when we last had a transition from above target to below target or vice versa..." alt="" coords="1716,187,1849,229"/>
-<area shape="rect" id="node26" href="$trunk_8c.html#a62baa359a34e9d6dd05554c3e20c8caa" title="Attempt to spawn a new connection. " alt="" coords="300,1108,467,1135"/>
-<area shape="rect" id="node41" href="$trunk_8c.html#a77827ab1583f3a13fe628963f6282fb5" title="Transition a connection back to the active state. " alt="" coords="1022,1159,1179,1201"/>
-<area shape="rect" id="node42" href="$trunk_8c.html#af52d32b27b789380f99dc5fc1ec73211" title="Transition a connection to the inactive&#45;draining state. " alt="" coords="1249,1237,1407,1278"/>
-<area shape="rect" id="node53" href="$trunk_8c.html#a55fabb4c84da4db82026a1f13b72d373" title="Return whether a trunk connection should currently be considered full. " alt="" coords="302,1871,465,1897"/>
-<area shape="rect" id="node54" href="$trunk_8c.html#ab6fc19d1e914bf05a27300a5875151a5" title="Transition a connection to the full state. " alt="" coords="1237,1485,1419,1512"/>
-<area shape="rect" id="node55" href="$server_2connection_8c.html#a42afdd9546a5fc31cad057c4d35087de" title="Shuts down a connection ungracefully. " alt="" coords="1016,471,1185,497"/>
-<area shape="rect" id="node56" href="$heap_8c.html#aeddfd9fa9c01d978862ba5453c68838b" title="fr_heap_peek_tail" alt="" coords="321,1972,445,1999"/>
-<area shape="rect" id="node57" href="$trunk_8c.html#a7ec4ee0e51060a8296d598b4ee3449d6" title="Transition a connection to the draining state. " alt="" coords="1249,1419,1407,1461"/>
-<area shape="rect" id="node5" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="1736,865,1829,892"/>
-<area shape="rect" id="node10" href="$dlist_8h.html#abe93afad3db33fe922c0ea660220714b" title="Get the previous item in a list. " alt="" coords="1054,93,1147,120"/>
-<area shape="rect" id="node11" href="$server_2connection_8c.html#a9bd0486184c02cdf98d97ca6e76896f1" title="Shuts down a connection gracefully. " alt="" coords="1030,522,1171,563"/>
-<area shape="rect" id="node8" href="$heap_8c.html#a3090137dd1e54a14bf4fc24f373c7627" title="fr_heap_num_elements" alt="" coords="2325,661,2483,688"/>
-<area shape="rect" id="node9" href="$dlist_8h.html#ad852b167828d7848ed99ee9cae167218" title="Return the number of elements in the dlist. " alt="" coords="2327,373,2481,400"/>
-<area shape="rect" id="node12" href="$server_2connection_8c.html#a615bf4dd630434e4f92022788d483d1c" title="Add a deferred signal to the signal list. " alt="" coords="1259,347,1397,389"/>
-<area shape="rect" id="node14" href="$server_2connection_8c.html#a4eaa49b6658a8727efa7226eac801e2f" title="Enter the halted state. " alt="" coords="1249,413,1407,454"/>
-<area shape="rect" id="node16" href="$server_2connection_8c.html#a9f09116421b7082c0a8a83c41af0aaad" title="Gracefully shutdown the handle. " alt="" coords="1249,581,1407,622"/>
-<area shape="rect" id="node17" href="$server_2connection_8c.html#a2500bf7158640de3844357f669196f9b" title="Close the connection, then wait for another state change. " alt="" coords="1477,522,1635,563"/>
-<area shape="rect" id="node13" href="$dlist_8h.html#ae4fb05ae0fb121f4255153332d3dc477" title="Insert an item into the tail of a list. " alt="" coords="1935,920,2059,947"/>
-<area shape="rect" id="node15" href="$lib_2util_2event_8c.html#a8faea09b0f0453e51f6768eb5a760e2f" title="Delete a timer event from the event list. " alt="" coords="1709,529,1856,556"/>
-<area shape="rect" id="node19" href="$dlist_8h.html#a744cb8537f617b6718254070a02f13a0" title="Check whether a list has any items. " alt="" coords="1945,1337,2049,1364"/>
-<area shape="rect" id="node20" href="$dlist_8h.html#a50878590aabca4bc6fc4d1f6df0e724f" title="Check if a list entry is part of a list. " alt="" coords="1928,1287,2067,1313"/>
-<area shape="rect" id="node23" href="$trunk_8c.html#a6dcfa1464e022ec96b90b8c975fe13b4" title="Return a count of requests on a connection in a specific state. " alt="" coords="1920,211,2075,253"/>
-<area shape="rect" id="node24" href="$heap_8c.html#a9a04655b8bdf23b47217503f2a10be13" title="Iterate over entries in heap. " alt="" coords="2143,228,2257,255"/>
-<area shape="rect" id="node25" href="$heap_8c.html#a8c4f8f4f8b2e7ae0c6517812988ef81a" title="Get the next entry in a heap. " alt="" coords="2139,279,2261,305"/>
-<area shape="rect" id="node27" href="$trunk_8c.html#a18d74b46e2dd446629de20e3ad3828a5" title="Compare two protocol requests. " alt="" coords="534,1133,698,1160"/>
-<area shape="rect" id="node28" href="$server_2connection_8c.html#a84be71552dca4296e3b987ec4f6afeeb" title="Add a callback to be executed before a state function has been called. " alt="" coords="519,651,713,677"/>
-<area shape="rect" id="node30" href="$trunk_8c.html#a7594acf7604e0bcec4cb67ec9927ac00" title="Connection transitioned to the the init state. " alt="" coords="1014,1443,1187,1469"/>
-<area shape="rect" id="node33" href="$server_2connection_8c.html#a2fdbf5847f45f3f7a08dac8eea7e4e79" title="Add a callback to be executed after a state function has been called. " alt="" coords="515,600,717,627"/>
-<area shape="rect" id="node34" href="$trunk_8c.html#a042d6051155af0dfef9dda606fbff1b7" title="Connection transitioned to the connecting state. " alt="" coords="1253,1638,1403,1679"/>
-<area shape="rect" id="node35" href="$trunk_8c.html#ad121aefa7ec92e92c50dcfc320181c43" title="Connection transitioned to the connected state. " alt="" coords="790,1210,939,1251"/>
-<area shape="rect" id="node44" href="$trunk_8c.html#a35dbfa78abd25abe57c4e65bf7c82a1e" title="Connection failed after it was connected. " alt="" coords="1253,799,1403,841"/>
-<area shape="rect" id="node46" href="$trunk_8c.html#a504ef2d489a87b1b99629e7b8d0733b0" title="Connection failed. " alt="" coords="1026,698,1175,739"/>
-<area shape="rect" id="node47" href="$trunk_8c.html#a3cf8514dfb66111bc5ebb69c1ade7232" title="Connection transitioned to the shutdown state. " alt="" coords="790,1275,939,1317"/>
-<area shape="rect" id="node48" href="$trunk_8c.html#ae86c3373f24f656cab9cc0392646c845" title="Connection transitioned to the halted state. " alt="" coords="1253,1703,1403,1745"/>
-<area shape="rect" id="node49" href="$trunk_8c.html#a213ea6729e8bcd5958923a9bdbc743c9" title="Free a connection. " alt="" coords="537,1083,695,1109"/>
-<area shape="rect" id="node52" href="$server_2connection_8c.html#a57cdf87c62af02f671cfc702c7039c8b" title="Asynchronously signal a halted connection to start. " alt="" coords="533,549,699,576"/>
-<area shape="rect" id="node29" href="$server_2connection_8c.html#a2d6f1844c634569f92d3edf09d80e157" title="Add a watch entry to the pre/post[state] list. " alt="" coords="787,601,942,628"/>
-<area shape="rect" id="node31" href="$trunk_8c.html#af55aeabd0743377eb3f519244d2f10d6" title="Remove a trunk connection from whichever list it&#39;s currently in. " alt="" coords="1471,1389,1641,1416"/>
-<area shape="rect" id="node32" href="$dlist_8h.html#aca8eed7f7758b61446174a5a4d54e7b4" title="Insert an item into the head of a list. " alt="" coords="1489,1339,1623,1365"/>
-<area shape="rect" id="node36" href="$trunk_8c.html#aa7dc82680fd0d29e86525577b75de5b4" title="Trigger a reconnection of the trunk connection. " alt="" coords="1012,1225,1189,1266"/>
-<area shape="rect" id="node37" href="$trunk_8c.html#aeb5ec74157948b2fb10874aa5b3fe3d6" title="Transition a connection to the draining&#45;to&#45;reconnect state. " alt="" coords="1249,1302,1407,1343"/>
-<area shape="rect" id="node38" href="$trunk_8c.html#ac2fe6b5bbb2452eda599a3fc16472d4d" title="Remove requests in specified states from a connection, attempting to distribute them to new connectio..." alt="" coords="1467,1018,1645,1059"/>
-<area shape="rect" id="node39" href="$trunk_8c.html#a8b49aca0aebe6b7a37e522a1ac715336" title="Shift requests in the specified states onto new connections. " alt="" coords="1693,917,1872,958"/>
-<area shape="rect" id="node40" href="$trunk_8c.html#ae8f376618040ed573738a25f97a48fed" title="Request failed, inform the API client and free the request. " alt="" coords="1714,1034,1851,1075"/>
-<area shape="rect" id="node43" href="$trunk_8c.html#a53fb27629f37ae75ba241d33cb7f33ca" title="Drain the backlog of as many requests as possible. " alt="" coords="1487,967,1625,993"/>
-<area shape="rect" id="node45" href="$trunk_8c.html#aeaad50225e220cc98d1a1cf5a5941298" title="Update the registrations for I/O events we&#39;re interested in. " alt="" coords="1703,749,1863,790"/>
-<area shape="rect" id="node50" href="$server_2connection_8c.html#a0bbd2123b0e7571edb9b539861927833" title="Remove a watch function from a pre list. " alt="" coords="769,905,960,932"/>
-<area shape="rect" id="node51" href="$server_2connection_8c.html#ab770da6283ae5450ef2240c9f466afab" title="Remove a watch function from a post list. " alt="" coords="765,956,964,983"/>
+<area shape="rect" id="node2" href="$trunk_8c.html#a8fb6d1576f81b578b3090bfa8bb3c366" title="Implements the algorithm we use to manage requests per connection levels. " alt="" coords="148,1018,252,1045"/>
+<area shape="rect" id="node3" href="$dlist_8h.html#a728a6246588e70e075b074b3635d2663" title="Return the TAIL item of a list or NULL if the list is empty. " alt="" coords="1488,145,1573,171"/>
+<area shape="rect" id="node4" href="$trunk_8c.html#a0eea2108f3aaf7a16ae8b86404c927fc" title="Close connections in a particular connection list if they have no requests associated with them..." alt="" coords="773,320,931,361"/>
+<area shape="rect" id="node6" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="1892,685,1988,711"/>
+<area shape="rect" id="node7" href="$trunk_8c.html#a4a0a08064485793b003756b197ca6622" title="Return the count number of requests associated with a trunk connection. " alt="" coords="2065,843,2220,884"/>
+<area shape="rect" id="node17" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="1686,1069,1797,1095"/>
+<area shape="rect" id="node20" href="$trunk_8c.html#a67e6ccfbaf63a45dbae642ebe11bfa0e" title="Return the count number of connections in the specified states. " alt="" coords="1872,488,2008,529"/>
+<area shape="rect" id="node21" href="$trunk_8c.html#a3da6a65cff3b03e18942d9036c5c3a0a" title="Update timestamps for when we last had a transition from above target to below target or vice versa..." alt="" coords="1675,547,1808,588"/>
+<area shape="rect" id="node25" href="$trunk_8c.html#a62baa359a34e9d6dd05554c3e20c8caa" title="Attempt to spawn a new connection. " alt="" coords="300,733,467,759"/>
+<area shape="rect" id="node36" href="$trunk_8c.html#a77827ab1583f3a13fe628963f6282fb5" title="Transition a connection back to the active state. " alt="" coords="997,1019,1154,1060"/>
+<area shape="rect" id="node37" href="$trunk_8c.html#af52d32b27b789380f99dc5fc1ec73211" title="Transition a connection to the inactive&#45;draining state. " alt="" coords="1224,1069,1381,1111"/>
+<area shape="rect" id="node46" href="$trunk_8c.html#a55fabb4c84da4db82026a1f13b72d373" title="Return whether a trunk connection should currently be considered full. " alt="" coords="302,1606,465,1633"/>
+<area shape="rect" id="node47" href="$trunk_8c.html#ab6fc19d1e914bf05a27300a5875151a5" title="Transition a connection to the full state. " alt="" coords="1212,1318,1393,1345"/>
+<area shape="rect" id="node48" href="$server_2connection_8c.html#a42afdd9546a5fc31cad057c4d35087de" title="Shuts down a connection ungracefully. " alt="" coords="991,211,1160,238"/>
+<area shape="rect" id="node49" href="$heap_8c.html#aeddfd9fa9c01d978862ba5453c68838b" title="fr_heap_peek_tail" alt="" coords="321,1657,445,1683"/>
+<area shape="rect" id="node50" href="$trunk_8c.html#a7ec4ee0e51060a8296d598b4ee3449d6" title="Transition a connection to the draining state. " alt="" coords="1224,1252,1381,1293"/>
+<area shape="rect" id="node5" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="1695,698,1788,725"/>
+<area shape="rect" id="node10" href="$dlist_8h.html#abe93afad3db33fe922c0ea660220714b" title="Get the previous item in a list. " alt="" coords="1029,153,1122,179"/>
+<area shape="rect" id="node11" href="$server_2connection_8c.html#a9bd0486184c02cdf98d97ca6e76896f1" title="Shuts down a connection gracefully. " alt="" coords="1005,380,1146,421"/>
+<area shape="rect" id="node8" href="$heap_8c.html#a3090137dd1e54a14bf4fc24f373c7627" title="fr_heap_num_elements" alt="" coords="2268,673,2425,699"/>
+<area shape="rect" id="node9" href="$dlist_8h.html#ad852b167828d7848ed99ee9cae167218" title="Return the number of elements in the dlist. " alt="" coords="2270,559,2423,586"/>
+<area shape="rect" id="node12" href="$server_2connection_8c.html#a615bf4dd630434e4f92022788d483d1c" title="Add a deferred signal to the signal list. " alt="" coords="1233,247,1372,288"/>
+<area shape="rect" id="node13" href="$server_2connection_8c.html#a4eaa49b6658a8727efa7226eac801e2f" title="Enter the halted state. " alt="" coords="1224,364,1381,405"/>
+<area shape="rect" id="node15" href="$server_2connection_8c.html#a9f09116421b7082c0a8a83c41af0aaad" title="Gracefully shutdown the handle. " alt="" coords="1224,429,1381,471"/>
+<area shape="rect" id="node16" href="$server_2connection_8c.html#a2500bf7158640de3844357f669196f9b" title="Close the connection, then wait for another state change. " alt="" coords="1452,429,1609,471"/>
+<area shape="rect" id="node14" href="$lib_2util_2event_8c.html#a8faea09b0f0453e51f6768eb5a760e2f" title="Delete a timer event from the event list. " alt="" coords="1668,437,1815,463"/>
+<area shape="rect" id="node18" href="$dlist_8h.html#a744cb8537f617b6718254070a02f13a0" title="Check whether a list has any items. " alt="" coords="1888,1069,1992,1095"/>
+<area shape="rect" id="node19" href="$dlist_8h.html#a50878590aabca4bc6fc4d1f6df0e724f" title="Check if a list entry is part of a list. " alt="" coords="1871,1005,2009,1031"/>
+<area shape="rect" id="node22" href="$trunk_8c.html#a6dcfa1464e022ec96b90b8c975fe13b4" title="Return a count of requests on a connection in a specific state. " alt="" coords="1863,560,2017,601"/>
+<area shape="rect" id="node23" href="$heap_8c.html#a9a04655b8bdf23b47217503f2a10be13" title="Iterate over entries in heap. " alt="" coords="2085,683,2200,710"/>
+<area shape="rect" id="node24" href="$heap_8c.html#a8c4f8f4f8b2e7ae0c6517812988ef81a" title="Get the next entry in a heap. " alt="" coords="2081,633,2204,659"/>
+<area shape="rect" id="node26" href="$trunk_8c.html#a18d74b46e2dd446629de20e3ad3828a5" title="Compare two protocol requests. " alt="" coords="534,631,698,658"/>
+<area shape="rect" id="node27" href="$server_2connection_8c.html#a84be71552dca4296e3b987ec4f6afeeb" title="Add a callback to be executed before a state function has been called. " alt="" coords="519,581,713,607"/>
+<area shape="rect" id="node29" href="$trunk_8c.html#a7594acf7604e0bcec4cb67ec9927ac00" title="Connection transitioned to the the init state. " alt="" coords="765,1170,939,1197"/>
+<area shape="rect" id="node32" href="$server_2connection_8c.html#a2fdbf5847f45f3f7a08dac8eea7e4e79" title="Add a callback to be executed after a state function has been called. " alt="" coords="515,530,717,557"/>
+<area shape="rect" id="node33" href="$trunk_8c.html#a042d6051155af0dfef9dda606fbff1b7" title="Connection transitioned to the connecting state. " alt="" coords="1228,1135,1377,1176"/>
+<area shape="rect" id="node34" href="$trunk_8c.html#ad121aefa7ec92e92c50dcfc320181c43" title="Connection transitioned to the connected state. " alt="" coords="777,749,927,791"/>
+<area shape="rect" id="node40" href="$trunk_8c.html#a35dbfa78abd25abe57c4e65bf7c82a1e" title="Connection failed after it was connected. " alt="" coords="1228,851,1377,892"/>
+<area shape="rect" id="node41" href="$trunk_8c.html#a504ef2d489a87b1b99629e7b8d0733b0" title="Connection failed. " alt="" coords="1001,565,1150,607"/>
+<area shape="rect" id="node42" href="$trunk_8c.html#a3cf8514dfb66111bc5ebb69c1ade7232" title="Connection transitioned to the shutdown state. " alt="" coords="777,632,927,673"/>
+<area shape="rect" id="node43" href="$trunk_8c.html#ae86c3373f24f656cab9cc0392646c845" title="Connection transitioned to the halted state. " alt="" coords="777,1272,927,1313"/>
+<area shape="rect" id="node44" href="$trunk_8c.html#a213ea6729e8bcd5958923a9bdbc743c9" title="Free a connection. " alt="" coords="537,866,695,893"/>
+<area shape="rect" id="node45" href="$server_2connection_8c.html#a57cdf87c62af02f671cfc702c7039c8b" title="Asynchronously signal a halted connection to start. " alt="" coords="533,378,699,405"/>
+<area shape="rect" id="node28" href="$server_2connection_8c.html#a2d6f1844c634569f92d3edf09d80e157" title="Add a watch entry to the pre/post[state] list. " alt="" coords="775,530,929,557"/>
+<area shape="rect" id="node30" href="$trunk_8c.html#af55aeabd0743377eb3f519244d2f10d6" title="Remove a trunk connection from whichever list it&#39;s currently in. " alt="" coords="1445,1259,1616,1286"/>
+<area shape="rect" id="node31" href="$dlist_8h.html#aca8eed7f7758b61446174a5a4d54e7b4" title="Insert an item into the head of a list. " alt="" coords="1463,1191,1598,1218"/>
+<area shape="rect" id="node35" href="$trunk_8c.html#aa7dc82680fd0d29e86525577b75de5b4" title="Trigger a reconnection of the trunk connection. " alt="" coords="987,683,1164,724"/>
+<area shape="rect" id="node39" href="$trunk_8c.html#a53fb27629f37ae75ba241d33cb7f33ca" title="Drain the backlog of as many requests as possible. " alt="" coords="1233,749,1372,775"/>
+<area shape="rect" id="node38" href="$trunk_8c.html#ac2fe6b5bbb2452eda599a3fc16472d4d" title="Remove requests in specified states from a connection, attempting to distribute them to new connectio..." alt="" coords="1441,901,1620,943"/>
 </map>

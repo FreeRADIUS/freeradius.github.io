@@ -1,36 +1,51 @@
 <map id="ldap_xlat" name="ldap_xlat">
-<area shape="rect" id="node2" href="$rlm__cache__memcached_8c.html#ac601ce5a5e629ad79520a83f59594307" title="Get a memcached handle. " alt="" coords="170,293,277,320"/>
-<area shape="rect" id="node13" href="$ldap_2base_8h.html#a47f2f663944b67e92cbf483296e65b66" title="Parse a subset (just server side sort for now) of LDAP URL extensions. " alt="" coords="128,431,319,457"/>
-<area shape="rect" id="node14" href="$lib_2ldap_2base_8c.html#a953f19b0fa98127605b3264aa15bc32b" title="Search for something in the LDAP directory. " alt="" coords="170,932,277,959"/>
-<area shape="rect" id="node24" href="$conn_8c.html#a6f72f92ce5f6ef034713458f500fdb70" title="Releases an LDAP socket back to the connection pool. " alt="" coords="142,380,305,407"/>
-<area shape="rect" id="node3" href="$pool_8c.html#a75e7ac5bfdae66159d35be3825d5b0b1" title="Reserve a connection in the connection pool. " alt="" coords="367,208,523,235"/>
-<area shape="rect" id="node4" href="$pool_8c.html#a11f577ec1c9437bc561bace7b90d6768" title="Get a connection from the connection pool. " alt="" coords="571,187,729,213"/>
-<area shape="rect" id="node5" href="$heap_8c.html#ab084b77223ee54a38005dfc8113b679a" title="fr_heap_peek" alt="" coords="803,35,903,61"/>
-<area shape="rect" id="node6" href="$pool_8c.html#a5c4d51ce852622144646a301d95bd3ec" title="Check whether a connection needs to be removed from the pool. " alt="" coords="783,237,922,264"/>
-<area shape="rect" id="node8" href="$heap_8c.html#a2071e6c3699b74317dc7968e377fdced" title="Remove a node from the heap. " alt="" coords="1209,111,1321,137"/>
-<area shape="rect" id="node9" href="$pool_8c.html#adf8965c10f53aba7de0ad83e031f8568" title="Send a connection pool trigger. " alt="" coords="1196,231,1335,257"/>
-<area shape="rect" id="node10" href="$lib_2util_2log_8h.html#a123c2202d725dbc6b308ad9a06bc91d4" title="Whether rate limiting is enabled. " alt="" coords="991,249,1133,276"/>
-<area shape="rect" id="node11" href="$pool_8c.html#a41541ea89745dd51029d73fb008d6021" title="Spawns a new connection. " alt="" coords="787,339,918,365"/>
-<area shape="rect" id="node7" href="$pool_8c.html#a405d785679ea12b6919284a0cc70e479" title="Close an existing connection. " alt="" coords="976,136,1148,163"/>
-<area shape="rect" id="node12" href="$heap_8c.html#a09453d7e857bdc6018b0bf3a3502610f" title="Insert a new element into the heap. " alt="" coords="1010,383,1114,409"/>
-<area shape="rect" id="node15" href="$ldap_2base_8h.html#a4565ef54c173ef77d6874b3f322b86ad" title="Merge connection and call specific client and server controls. " alt="" coords="777,1075,928,1101"/>
-<area shape="rect" id="node16" href="$lib_2ldap_2base_8c.html#ade9de5d1b6141426e59bd696faf21a60" title="Prints information to the debug log on the current timeout settings. " alt="" coords="573,1008,727,1035"/>
-<area shape="rect" id="node18" href="$lib_2ldap_2base_8c.html#a9216d61f2c1b0b186ed99717d01158d1" title="Bind to the LDAP directory as a user. " alt="" coords="399,957,491,984"/>
-<area shape="rect" id="node22" href="$lib_2ldap_2base_8c.html#a54a1edb5cd40ac6a4531368ae9b796b8" title="Parse response from LDAP server dealing with any errors. " alt="" coords="803,856,903,883"/>
-<area shape="rect" id="node23" href="$lib_2ldap_2base_8c.html#a3a421304ce24f24ecc5b8079d2790d99" title="Return the error string associated with a handle. " alt="" coords="387,907,503,933"/>
-<area shape="rect" id="node17" href="$time_8h.html#ac062db095941b84b63f4c71e6ee52e26" title="fr_time_delta_from\l_timeval" alt="" coords="787,1009,918,1050"/>
-<area shape="rect" id="node19" href="$sasl__s_8c.html#a1e14b1c3d8a5bddd0309b5c9d8f60eda" title="Initiate an LDAP interactive bind. " alt="" coords="571,957,729,984"/>
-<area shape="rect" id="node20" href="$sasl__s_8c.html#a7ef1b2b3ed37bc8df416966fb141b84b" title="Callback for fr_ldap_sasl_interactive_bind. " alt="" coords="801,907,904,933"/>
-<area shape="rect" id="node21" href="$lib_2ldap_2base_8c.html#a0b23116cb2c3079e9abc1ed87cbf36ec" title="Perform basic parsing of multiple types of messages, checking for error conditions. " alt="" coords="994,907,1130,933"/>
-<area shape="rect" id="node25" href="$ldap_2base_8h.html#a27ff26e238a6bb4e16f9bed408dd9528" title="Clear and free any controls associated with a connection. " alt="" coords="373,615,516,641"/>
-<area shape="rect" id="node32" href="$pool_8c.html#a8e041afb94fecd27acff57ef29850403" title="Delete a connection from the connection pool. " alt="" coords="379,290,510,331"/>
-<area shape="rect" id="node35" href="$pool_8c.html#a350d125044416cf2309470d9d6a43a3f" title="Release a connection. " alt="" coords="379,373,510,414"/>
-<area shape="rect" id="node26" href="$ldap_2base_8h.html#a0a3d14b6850f214f242cbdc7631f9f58" title="fr_ldap_control_add\l_session_tracking" alt="" coords="583,673,717,714"/>
-<area shape="rect" id="node27" href="$radwho_8c.html#a34f44445cec09523beab307ed12a0c63" title="hostname" alt="" coords="611,739,689,765"/>
-<area shape="rect" id="node28" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="800,644,905,671"/>
-<area shape="rect" id="node29" href="$dict_8h.html#ab4abf3bf9320fe063c8031c515daf937" title="Return true if this attribute is parented directly off the dictionary root. " alt="" coords="587,542,713,583"/>
-<area shape="rect" id="node30" href="$util_2pair_8h.html#ab697da43c2a96b62dd95e6931525c1ba" title="Print the value of an attribute to a string. " alt="" coords="586,790,714,831"/>
-<area shape="rect" id="node31" href="$ldap_2control_8c.html#a84eddf16fa104203b20e6c93c003549f" title="Add a serverctrl to a connection handle. " alt="" coords="583,607,717,649"/>
-<area shape="rect" id="node33" href="$pool_8c.html#a14166bb15f94ea500ee77d1e702fb6b5" title="Find a connection handle in the connection list. " alt="" coords="593,288,707,315"/>
-<area shape="rect" id="node34" href="$pool_8c.html#a34653fe49349ad33c89e7a459e24293a" title="Check whether any connections need to be removed from the pool. " alt="" coords="587,339,713,365"/>
+<area shape="rect" id="node2" href="$rlm__cache__memcached_8c.html#ac601ce5a5e629ad79520a83f59594307" title="Get a memcached handle. " alt="" coords="170,274,277,300"/>
+<area shape="rect" id="node13" href="$ldap_2base_8h.html#a47f2f663944b67e92cbf483296e65b66" title="Parse a subset (just server side sort for now) of LDAP URL extensions. " alt="" coords="128,411,319,438"/>
+<area shape="rect" id="node14" href="$lib_2ldap_2base_8c.html#a953f19b0fa98127605b3264aa15bc32b" title="Search for something in the LDAP directory. " alt="" coords="170,1451,277,1478"/>
+<area shape="rect" id="node24" href="$conn_8c.html#a6f72f92ce5f6ef034713458f500fdb70" title="Releases an LDAP socket back to the connection pool. " alt="" coords="142,360,305,387"/>
+<area shape="rect" id="node3" href="$pool_8c.html#a75e7ac5bfdae66159d35be3825d5b0b1" title="Reserve a connection in the connection pool. " alt="" coords="367,188,523,215"/>
+<area shape="rect" id="node4" href="$pool_8c.html#a11f577ec1c9437bc561bace7b90d6768" title="Get a connection from the connection pool. " alt="" coords="571,167,729,194"/>
+<area shape="rect" id="node5" href="$heap_8c.html#ab084b77223ee54a38005dfc8113b679a" title="fr_heap_peek" alt="" coords="827,66,927,92"/>
+<area shape="rect" id="node6" href="$pool_8c.html#a5c4d51ce852622144646a301d95bd3ec" title="Check whether a connection needs to be removed from the pool. " alt="" coords="807,218,946,244"/>
+<area shape="rect" id="node8" href="$heap_8c.html#a2071e6c3699b74317dc7968e377fdced" title="Remove a node from the heap. " alt="" coords="1257,22,1369,48"/>
+<area shape="rect" id="node9" href="$pool_8c.html#adf8965c10f53aba7de0ad83e031f8568" title="Send a connection pool trigger. " alt="" coords="1244,160,1383,187"/>
+<area shape="rect" id="node10" href="$lib_2util_2log_8h.html#a123c2202d725dbc6b308ad9a06bc91d4" title="Whether rate limiting is enabled. " alt="" coords="1039,192,1181,219"/>
+<area shape="rect" id="node11" href="$pool_8c.html#a41541ea89745dd51029d73fb008d6021" title="Spawns a new connection. " alt="" coords="811,319,942,346"/>
+<area shape="rect" id="node7" href="$pool_8c.html#a405d785679ea12b6919284a0cc70e479" title="Close an existing connection. " alt="" coords="1024,66,1196,92"/>
+<area shape="rect" id="node12" href="$heap_8c.html#a09453d7e857bdc6018b0bf3a3502610f" title="Insert a new element into the heap. " alt="" coords="1058,358,1162,384"/>
+<area shape="rect" id="node15" href="$ldap_2base_8h.html#a4565ef54c173ef77d6874b3f322b86ad" title="Merge connection and call specific client and server controls. " alt="" coords="801,1527,952,1554"/>
+<area shape="rect" id="node16" href="$lib_2ldap_2base_8c.html#ade9de5d1b6141426e59bd696faf21a60" title="Prints information to the debug log on the current timeout settings. " alt="" coords="573,1578,727,1604"/>
+<area shape="rect" id="node18" href="$lib_2ldap_2base_8c.html#a9216d61f2c1b0b186ed99717d01158d1" title="Bind to the LDAP directory as a user. " alt="" coords="399,1476,491,1503"/>
+<area shape="rect" id="node22" href="$lib_2ldap_2base_8c.html#a54a1edb5cd40ac6a4531368ae9b796b8" title="Parse response from LDAP server dealing with any errors. " alt="" coords="827,1375,927,1402"/>
+<area shape="rect" id="node23" href="$lib_2ldap_2base_8c.html#a3a421304ce24f24ecc5b8079d2790d99" title="Return the error string associated with a handle. " alt="" coords="387,1426,503,1452"/>
+<area shape="rect" id="node17" href="$time_8h.html#ac062db095941b84b63f4c71e6ee52e26" title="fr_time_delta_from\l_timeval" alt="" coords="811,1578,942,1620"/>
+<area shape="rect" id="node19" href="$sasl__s_8c.html#a1e14b1c3d8a5bddd0309b5c9d8f60eda" title="Initiate an LDAP interactive bind. " alt="" coords="571,1476,729,1503"/>
+<area shape="rect" id="node20" href="$sasl__s_8c.html#a7ef1b2b3ed37bc8df416966fb141b84b" title="Callback for fr_ldap_sasl_interactive_bind. " alt="" coords="825,1426,928,1452"/>
+<area shape="rect" id="node21" href="$lib_2ldap_2base_8c.html#a0b23116cb2c3079e9abc1ed87cbf36ec" title="Perform basic parsing of multiple types of messages, checking for error conditions. " alt="" coords="1042,1426,1178,1452"/>
+<area shape="rect" id="node25" href="$ldap_2base_8h.html#a27ff26e238a6bb4e16f9bed408dd9528" title="Clear and free any controls associated with a connection. " alt="" coords="373,1071,516,1098"/>
+<area shape="rect" id="node47" href="$pool_8c.html#a8e041afb94fecd27acff57ef29850403" title="Delete a connection from the connection pool. " alt="" coords="379,270,510,312"/>
+<area shape="rect" id="node50" href="$pool_8c.html#a350d125044416cf2309470d9d6a43a3f" title="Release a connection. " alt="" coords="379,353,510,394"/>
+<area shape="rect" id="node26" href="$ldap_2base_8h.html#a0a3d14b6850f214f242cbdc7631f9f58" title="fr_ldap_control_add\l_session_tracking" alt="" coords="583,1129,717,1170"/>
+<area shape="rect" id="node27" href="$radwho_8c.html#a34f44445cec09523beab307ed12a0c63" title="hostname" alt="" coords="611,1195,689,1222"/>
+<area shape="rect" id="node28" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="824,1324,929,1351"/>
+<area shape="rect" id="node29" href="$dict_8h.html#ab4abf3bf9320fe063c8031c515daf937" title="Return true if this attribute is parented directly off the dictionary root. " alt="" coords="587,864,713,905"/>
+<area shape="rect" id="node45" href="$util_2pair_8h.html#ab697da43c2a96b62dd95e6931525c1ba" title="Print the value of an attribute to a string. " alt="" coords="586,1288,714,1329"/>
+<area shape="rect" id="node46" href="$ldap_2control_8c.html#a84eddf16fa104203b20e6c93c003549f" title="Add a serverctrl to a connection handle. " alt="" coords="583,1064,717,1105"/>
+<area shape="rect" id="node30" href="$dict_8h.html#ac8583a7486301585f0dff12b9996249f" title="Look up a vendor by one of its child attributes. " alt="" coords="803,639,950,666"/>
+<area shape="rect" id="node31" href="$dict_8h.html#ae26e4cf06cf14ff8c1b48dda13c8634e" title="Look up a vendor by its name. " alt="" coords="795,690,959,716"/>
+<area shape="rect" id="node32" href="$dict_8h.html#a28b934c7edc2871f81e64c730af1d5f2" title="Look up a vendor by its PEN. " alt="" coords="798,740,955,767"/>
+<area shape="rect" id="node33" href="$dict_8h.html#a5330c24387243f560593a7c3708a22d2" title="Return vendor attribute for the specified dictionary and pen. " alt="" coords="787,791,966,818"/>
+<area shape="rect" id="node34" href="$dict_8h.html#a922675a104fcda1c59c8d533003590fa" title="Look up a dictionary attribute by a name embedded in another string. " alt="" coords="805,842,949,884"/>
+<area shape="rect" id="node35" href="$dict_8h.html#ae03d1c9a23982e392f1d3160a3fbcc54" title="Locate a fr_dict_attr_t by its name. " alt="" coords="805,908,949,935"/>
+<area shape="rect" id="node36" href="$dict_8h.html#a1e43e9729099648fdc9c3527c7be84b2" title="Locate a qualified fr_dict_attr_t by its name and a dictionary qualifier. " alt="" coords="797,960,957,1001"/>
+<area shape="rect" id="node37" href="$dict_8h.html#a9b41584ef21da4b8c62d809233f8fcaf" title="Locate a qualified fr_dict_attr_t by its name and a dictionary qualifier. " alt="" coords="777,1026,976,1052"/>
+<area shape="rect" id="node38" href="$dict_8h.html#a9f8ce015b2bc0fb28a19648a32eea6de" title="Lookup a attribute by its its vendor and attribute numbers and data type. " alt="" coords="808,1076,945,1103"/>
+<area shape="rect" id="node39" href="$dict_8h.html#a42720054d966f39fb0cb1a9d8dcc4b60" title="Check if a child attribute exists in a parent using a pointer (da) " alt="" coords="817,1128,936,1169"/>
+<area shape="rect" id="node40" href="$dict_8h.html#ade71dd6bfb60945aa34a7f0d5286d6c1" title="Check if a child attribute exists in a parent using an attribute number. " alt="" coords="817,1193,936,1234"/>
+<area shape="rect" id="node41" href="$dict_8h.html#a69a971170cf47748f3584afa0ca04c85" title="Look up an attribute by name in the dictionary that contains the parent. " alt="" coords="814,1258,939,1300"/>
+<area shape="rect" id="node42" href="$dict_8h.html#ad4be4d603ba290a5b8781ec7110b6ba4" title="Lookup the structure representing an enum value in a fr_dict_attr_t. " alt="" coords="799,471,955,498"/>
+<area shape="rect" id="node43" href="$dict_8h.html#af2f7f04c5d61a20e629b4335364a659f" title="Lookup the name of an enum value in a fr_dict_attr_t. " alt="" coords="798,522,955,564"/>
+<area shape="rect" id="node44" href="$dict_8h.html#ab55d8dc01594b2f69faf5eb33b425f22" title="fr_dict_enum_by_name" alt="" coords="798,588,955,615"/>
+<area shape="rect" id="node48" href="$pool_8c.html#a14166bb15f94ea500ee77d1e702fb6b5" title="Find a connection handle in the connection list. " alt="" coords="593,268,707,295"/>
+<area shape="rect" id="node49" href="$pool_8c.html#a34653fe49349ad33c89e7a459e24293a" title="Check whether any connections need to be removed from the pool. " alt="" coords="587,319,713,346"/>
 </map>

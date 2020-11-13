@@ -1,0 +1,43 @@
+<map id="trunk_connection_event_update" name="trunk_connection_event_update">
+<area shape="rect" id="node2" href="$trunk_8c.html#a57c049e07e8913dafb84d76e548fa404" title="Remove a request from all connection lists. " alt="" coords="223,540,373,581"/>
+<area shape="rect" id="node6" href="$trunk_8c.html#a35dbfa78abd25abe57c4e65bf7c82a1e" title="Connection failed after it was connected. " alt="" coords="1118,984,1267,1025"/>
+<area shape="rect" id="node31" href="$trunk_8c.html#adb084310620200de5d2f1cf1ef8f0ee7" title="Transition a request to the pending state, adding it to the backlog of an active connection. " alt="" coords="229,729,367,771"/>
+<area shape="rect" id="node38" href="$trunk_8c.html#a25de4b8d6e90f9001b5bc02a0cef5980" title="Transition a request to the sent state, indicating that it&#39;s been sent in its entirety. " alt="" coords="213,678,383,705"/>
+<area shape="rect" id="node39" href="$trunk_8c.html#ac56a1d3856d033bf437fc866c1a1cf77" title="Transition a request to the cancel state, placing it in a connection&#39;s cancellation list..." alt="" coords="448,671,585,712"/>
+<area shape="rect" id="node40" href="$trunk_8c.html#a99d11ac4bceeb1d2ccbc2efd9359b6b0" title="Transition a request to the cancel_sent state, placing it in a connection&#39;s cancel_sent list..." alt="" coords="229,240,367,281"/>
+<area shape="rect" id="node3" href="$trunk_8c.html#a0832cb5699c225cb2dcca015bbdbcf22" title="Transition a request to the unassigned state, in preparation for re&#45;assignment. " alt="" coords="448,605,585,647"/>
+<area shape="rect" id="node13" href="$trunk_8c.html#a1a3ae979a41f483d1429f5067c7cabdb" title="Cancellation was acked, the request is complete, free it. " alt="" coords="448,71,585,112"/>
+<area shape="rect" id="node17" href="$trunk_8c.html#a649e3608119a22b5f9c997243532056a" title="Request completed successfully, inform the API client and free the request. " alt="" coords="448,136,585,177"/>
+<area shape="rect" id="node25" href="$trunk_8c.html#ae8f376618040ed573738a25f97a48fed" title="Request failed, inform the API client and free the request. " alt="" coords="448,540,585,581"/>
+<area shape="rect" id="node4" href="$trunk_8c.html#a8b49aca0aebe6b7a37e522a1ac715336" title="Shift requests in the specified states onto new connections. " alt="" coords="652,925,831,967"/>
+<area shape="rect" id="node8" href="$trunk_8h.html#a22df6123e7ec90e1fafbdab2ed388774" title="Cancel a trunk request. " alt="" coords="663,605,820,647"/>
+<area shape="rect" id="node5" href="$trunk_8c.html#ac2fe6b5bbb2452eda599a3fc16472d4d" title="Remove requests in specified states from a connection, attempting to distribute them to new connectio..." alt="" coords="880,984,1059,1025"/>
+<area shape="rect" id="node7" href="$trunk_8c.html#a213ea6729e8bcd5958923a9bdbc743c9" title="Free a connection. " alt="" coords="1339,933,1497,959"/>
+<area shape="rect" id="node9" href="$trunk__tests_8c.html#aca4a0f0586735ef2ff7ee21f9168c31f" title="test_enqueue_cancellation\l_points" alt="" coords="1330,161,1506,203"/>
+<area shape="rect" id="node10" href="$trunk__tests_8c.html#a52ded7a456573197fcf63348ee390e1f" title="test_partial_to_complete\l_states" alt="" coords="1336,227,1500,268"/>
+<area shape="rect" id="node11" href="$trunk__tests_8c.html#ad4359b420b8d4149473d4ec7b55fd30b" title="test_requeue_on_reconnect" alt="" coords="1327,293,1509,319"/>
+<area shape="rect" id="node12" href="$rlm__radius__udp_8c.html#a144d1f17506093a315fb0830b739a1ee" title="mod_signal" alt="" coords="925,773,1013,799"/>
+<area shape="rect" id="node14" href="$trunk_8h.html#af3a9f060ab945a71549c963550409e87" title="Signal that a remote server acked our cancellation. " alt="" coords="663,67,820,108"/>
+<area shape="rect" id="node15" href="$trunk__tests_8c.html#a44cb79ca41b2267d8db77ca7d6e28e01" title="test_demux" alt="" coords="924,63,1015,90"/>
+<area shape="rect" id="node16" href="$trunk__tests_8c.html#a56a39a13b6c03335982f3340bfad866b" title="test_setup_trunk" alt="" coords="1133,121,1252,147"/>
+<area shape="rect" id="node18" href="$trunk_8h.html#a68df84abee6703937fcd841ef75797c7" title="Signal that a trunk request is complete. " alt="" coords="663,301,820,343"/>
+<area shape="rect" id="node19" href="$pipeline_8c.html#a73fcd0988bffc12a966e1dbdccb40ae2" title="Callback for for receiving Redis replies. " alt="" coords="892,317,1047,343"/>
+<area shape="rect" id="node21" href="$rlm__radius__udp_8c.html#a6402c81c6dae4fb1faf035df5330c403" title="Handle retries for a request_t. " alt="" coords="912,722,1027,749"/>
+<area shape="rect" id="node23" href="$rlm__radius__udp_8c.html#a06956c06159d9eb34d4ea3d3ceade2b0" title="request_mux_replicate" alt="" coords="893,469,1046,495"/>
+<area shape="rect" id="node24" href="$rlm__radius__udp_8c.html#a91734f47a4c6731f3a3cc434d41e0e57" title="request_demux" alt="" coords="1137,285,1248,311"/>
+<area shape="rect" id="node20" href="$pipeline_8c.html#ad4f604d6060fb90d10347fc70af5ec7b" title="Enqueue one or more command sets onto a redis handle. " alt="" coords="1123,361,1263,387"/>
+<area shape="rect" id="node22" href="$rlm__radius__udp_8c.html#a3305dcbb1c5cd85ad338cd3b3f44b3e0" title="request_mux" alt="" coords="1144,697,1241,723"/>
+<area shape="rect" id="node26" href="$trunk_8h.html#ac307f0d9ad6fd24637e1a27745521946" title="Signal that a trunk request failed. " alt="" coords="651,463,832,490"/>
+<area shape="rect" id="node27" href="$trunk_8h.html#a72e34d33ea58c5c62d64d12c1620b819" title="Re&#45;enqueue a request on the same connection. " alt="" coords="657,671,826,698"/>
+<area shape="rect" id="node28" href="$trunk_8c.html#a53fb27629f37ae75ba241d33cb7f33ca" title="Drain the backlog of as many requests as possible. " alt="" coords="672,874,811,901"/>
+<area shape="rect" id="node29" href="$trunk_8c.html#a1c988bd2dd9051d0fcce3b732a3d3f8b" title="Free a trunk, gracefully closing all connections. " alt="" coords="698,229,785,255"/>
+<area shape="rect" id="node30" href="$trunk_8h.html#a1327562f580bfb76e6a2839d8bd2f7ca" title="Allocate a new collection of connections. " alt="" coords="919,114,1019,141"/>
+<area shape="rect" id="node32" href="$trunk_8c.html#a44f207c0dae5e3f74d531c1548305ba4" title="Enqueue a request which has never been assigned to a connection or was previously cancelled..." alt="" coords="438,867,595,908"/>
+<area shape="rect" id="node33" href="$trunk_8h.html#ac02777d6e72e7f5ee93cf25b18b8d9e6" title="Enqueue a request that needs data written to the trunk. " alt="" coords="1107,234,1279,261"/>
+<area shape="rect" id="node34" href="$trunk_8h.html#a9e426e665d3583a76e1e383ebd778e01" title="Enqueue additional requests on a specific connection. " alt="" coords="431,475,603,516"/>
+<area shape="rect" id="node35" href="$rlm__radius__udp_8c.html#ac47feadd21e5ad8c65d2842d9f3b9976" title="See if the connection is zombied. " alt="" coords="677,722,805,749"/>
+<area shape="rect" id="node36" href="$rlm__radius__udp_8c.html#a8612871b975750cb049e327ffe9862f9" title="Handle retries for a status check. " alt="" coords="675,410,807,437"/>
+<area shape="rect" id="node37" href="$rlm__radius__udp_8c.html#abac5d88dd6e2df81c6a7bd1939d14b1a" title="Deal with replies replies to status checks and possible negotiation. " alt="" coords="902,266,1037,293"/>
+<area shape="rect" id="node41" href="$trunk_8h.html#a11334935e79d8a96c5a0e77b37c93dd3" title="Signal that a remote server has been notified of the cancellation. " alt="" coords="438,5,595,47"/>
+<area shape="rect" id="node42" href="$trunk__tests_8c.html#a62b9baca9acbc27e24ce5d67e8e6b452" title="test_cancel_mux" alt="" coords="909,13,1030,39"/>
+</map>

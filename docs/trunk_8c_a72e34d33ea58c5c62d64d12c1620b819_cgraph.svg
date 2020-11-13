@@ -48,21 +48,21 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 737;
 var viewHeight = 256;
-var sectionId = 'dynsection-38';
+var sectionId = 'dynsection-71';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>fr_trunk_request_requeue</title>
-<!-- Node12611 -->
+<!-- Node5214 -->
 <g id="node1" class="node">
-<title>Node12611</title>
+<title>Node5214</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-86.2707 0,-105.2707 127,-105.2707 127,-86.2707 0,-86.2707"/>
 <text text-anchor="middle" x="63.5" y="-93.2707" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_trunk_request_requeue</text>
 </g>
-<!-- Node12612 -->
+<!-- Node5215 -->
 <g id="node2" class="node">
-<title>Node12612</title>
+<title>Node5215</title>
 <g id="a_node2"><a xlink:href="trunk_8c.html#ae8f376618040ed573738a25f97a48fed" target="_top" xlink:title="Request failed, inform the API client and free the request. ">
 <polygon fill="none" stroke="#000000" points="163,-162.7707 163,-192.7707 266,-192.7707 266,-162.7707 163,-162.7707"/>
 <text text-anchor="start" x="171" y="-180.7707" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_request_enter</text>
@@ -70,15 +70,15 @@ var sectionId = 'dynsection-38';
 </a>
 </g>
 </g>
-<!-- Node12611&#45;&gt;Node12612 -->
+<!-- Node5214&#45;&gt;Node5215 -->
 <g id="edge1" class="edge">
-<title>Node12611&#45;&gt;Node12612</title>
+<title>Node5214&#45;&gt;Node5215</title>
 <path fill="none" stroke="#191970" d="M81.1171,-105.3377C104.6654,-118.1254 146.9883,-141.1088 177.6571,-157.7634"/>
 <polygon fill="#191970" stroke="#191970" points="176.309,-161.014 186.7672,-162.7105 179.6496,-154.8625 176.309,-161.014"/>
 </g>
-<!-- Node13253 -->
+<!-- Node5367 -->
 <g id="node8" class="node">
-<title>Node13253</title>
+<title>Node5367</title>
 <g id="a_node8"><a xlink:href="server_2connection_8c.html#a07cf3e48f209e153fb5dee32cfa0d221" target="_top" xlink:title="Pause processing of deferred signals. ">
 <polygon fill="none" stroke="#000000" points="612.5,-90.7707 612.5,-120.7707 723.5,-120.7707 723.5,-90.7707 612.5,-90.7707"/>
 <text text-anchor="start" x="620.5" y="-108.7707" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_connection_signals</text>
@@ -86,15 +86,15 @@ var sectionId = 'dynsection-38';
 </a>
 </g>
 </g>
-<!-- Node12611&#45;&gt;Node13253 -->
+<!-- Node5214&#45;&gt;Node5367 -->
 <g id="edge10" class="edge">
-<title>Node12611&#45;&gt;Node13253</title>
+<title>Node5214&#45;&gt;Node5367</title>
 <path fill="none" stroke="#191970" d="M127.1652,-102.5086C139.0674,-103.6719 151.4074,-104.8132 163,-105.7707 343.7619,-120.7015 389.8166,-123.1581 571,-114.7707 581.1783,-114.2996 591.9381,-113.5517 602.442,-112.6835"/>
 <polygon fill="#191970" stroke="#191970" points="602.7469,-116.1703 612.4071,-111.8193 602.142,-109.1965 602.7469,-116.1703"/>
 </g>
-<!-- Node13260 -->
+<!-- Node5374 -->
 <g id="node9" class="node">
-<title>Node13260</title>
+<title>Node5374</title>
 <g id="a_node9"><a xlink:href="server_2connection_8c.html#a4d82ac070ca65d717d16a833b1bf5032" target="_top" xlink:title="Resume processing of deferred signals. ">
 <polygon fill="none" stroke="#ff0000" points="612.5,-25.7707 612.5,-55.7707 723.5,-55.7707 723.5,-25.7707 612.5,-25.7707"/>
 <text text-anchor="start" x="620.5" y="-43.7707" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_connection_signals</text>
@@ -102,15 +102,15 @@ var sectionId = 'dynsection-38';
 </a>
 </g>
 </g>
-<!-- Node12611&#45;&gt;Node13260 -->
+<!-- Node5214&#45;&gt;Node5374 -->
 <g id="edge15" class="edge">
-<title>Node12611&#45;&gt;Node13260</title>
+<title>Node5214&#45;&gt;Node5374</title>
 <path fill="none" stroke="#191970" d="M72.8478,-86.2492C89.3013,-70.2508 125.2819,-38.5692 163,-26.7707 314.385,20.5835 503.9071,-5.9555 602.132,-25.6175"/>
 <polygon fill="#191970" stroke="#191970" points="601.7135,-29.1042 612.2116,-27.6756 603.1139,-22.2457 601.7135,-29.1042"/>
 </g>
-<!-- Node13258 -->
+<!-- Node5372 -->
 <g id="node11" class="node">
-<title>Node13258</title>
+<title>Node5372</title>
 <g id="a_node11"><a xlink:href="trunk_8c.html#ac56a1d3856d033bf437fc866c1a1cf77" target="_top" xlink:title="Transition a request to the cancel state, placing it in a connection&#39;s cancellation list...">
 <polygon fill="none" stroke="#ff0000" points="307,-74.7707 307,-104.7707 410,-104.7707 410,-74.7707 307,-74.7707"/>
 <text text-anchor="start" x="315" y="-92.7707" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_request_enter</text>
@@ -118,15 +118,15 @@ var sectionId = 'dynsection-38';
 </a>
 </g>
 </g>
-<!-- Node12611&#45;&gt;Node13258 -->
+<!-- Node5214&#45;&gt;Node5372 -->
 <g id="edge11" class="edge">
-<title>Node12611&#45;&gt;Node13258</title>
+<title>Node5214&#45;&gt;Node5372</title>
 <path fill="none" stroke="#191970" d="M127.1474,-94.4762C177.2749,-93.4567 246.7505,-92.0436 296.4586,-91.0326"/>
 <polygon fill="#191970" stroke="#191970" points="296.8249,-94.526 306.7516,-90.8233 296.6825,-87.5274 296.8249,-94.526"/>
 </g>
-<!-- Node13282 -->
+<!-- Node5396 -->
 <g id="node12" class="node">
-<title>Node13282</title>
+<title>Node5396</title>
 <g id="a_node12"><a xlink:href="trunk_8c.html#adb084310620200de5d2f1cf1ef8f0ee7" target="_top" xlink:title="Transition a request to the pending state, adding it to the backlog of an active connection. ">
 <polygon fill="none" stroke="#ff0000" points="163,-36.7707 163,-66.7707 266,-66.7707 266,-36.7707 163,-36.7707"/>
 <text text-anchor="start" x="171" y="-54.7707" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_request_enter</text>
@@ -134,15 +134,15 @@ var sectionId = 'dynsection-38';
 </a>
 </g>
 </g>
-<!-- Node12611&#45;&gt;Node13282 -->
+<!-- Node5214&#45;&gt;Node5396 -->
 <g id="edge13" class="edge">
-<title>Node12611&#45;&gt;Node13282</title>
+<title>Node5214&#45;&gt;Node5396</title>
 <path fill="none" stroke="#191970" d="M96.2648,-86.2234C112.8861,-81.3801 133.6277,-75.3362 153.0772,-69.6688"/>
 <polygon fill="#191970" stroke="#191970" points="154.1769,-72.994 162.7984,-66.8361 152.2185,-66.2735 154.1769,-72.994"/>
 </g>
-<!-- Node12613 -->
+<!-- Node5216 -->
 <g id="node3" class="node">
-<title>Node12613</title>
+<title>Node5216</title>
 <g id="a_node3"><a xlink:href="trunk_8c.html#a57c049e07e8913dafb84d76e548fa404" target="_top" xlink:title="Remove a request from all connection lists. ">
 <polygon fill="none" stroke="#000000" points="302,-200.7707 302,-230.7707 415,-230.7707 415,-200.7707 302,-200.7707"/>
 <text text-anchor="start" x="310" y="-218.7707" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_request_remove</text>
@@ -150,30 +150,30 @@ var sectionId = 'dynsection-38';
 </a>
 </g>
 </g>
-<!-- Node12612&#45;&gt;Node12613 -->
+<!-- Node5215&#45;&gt;Node5216 -->
 <g id="edge2" class="edge">
-<title>Node12612&#45;&gt;Node12613</title>
+<title>Node5215&#45;&gt;Node5216</title>
 <path fill="none" stroke="#191970" d="M266.0806,-191.3823C274.524,-193.6104 283.3758,-195.9463 292.1166,-198.2529"/>
 <polygon fill="#191970" stroke="#191970" points="291.3482,-201.6699 301.9103,-200.8374 293.1344,-194.9016 291.3482,-201.6699"/>
 </g>
-<!-- Node13320 -->
+<!-- Node5434 -->
 <g id="node10" class="node">
-<title>Node13320</title>
+<title>Node5434</title>
 <g id="a_node10"><a xlink:href="trunk_8c.html#a0ccb4513f4a782e67c8d87c3949f7ff6" target="_top" xlink:title="If the trunk request is freed then update the target requests. ">
 <polygon fill="none" stroke="#ff0000" points="304,-162.2707 304,-181.2707 413,-181.2707 413,-162.2707 304,-162.2707"/>
 <text text-anchor="middle" x="358.5" y="-169.2707" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_trunk_request_free</text>
 </a>
 </g>
 </g>
-<!-- Node12612&#45;&gt;Node13320 -->
+<!-- Node5215&#45;&gt;Node5434 -->
 <g id="edge9" class="edge">
-<title>Node12612&#45;&gt;Node13320</title>
+<title>Node5215&#45;&gt;Node5434</title>
 <path fill="none" stroke="#191970" d="M266.0806,-175.6216C275.0889,-175.2462 284.5621,-174.8515 293.8694,-174.4637"/>
 <polygon fill="#191970" stroke="#191970" points="294.0281,-177.9602 303.8737,-174.0468 293.7366,-170.9663 294.0281,-177.9602"/>
 </g>
-<!-- Node12614 -->
+<!-- Node5217 -->
 <g id="node4" class="node">
-<title>Node12614</title>
+<title>Node5217</title>
 <g id="a_node4"><a xlink:href="trunk_8c.html#a3ebef07daa894102a5268a1ce21965b6" target="_top" xlink:title="Automatically mark a connection as active or reconnect it. ">
 <polygon fill="none" stroke="#000000" points="453.5,-200.7707 453.5,-230.7707 568.5,-230.7707 568.5,-200.7707 453.5,-200.7707"/>
 <text text-anchor="start" x="461.5" y="-218.7707" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_auto</text>
@@ -181,15 +181,15 @@ var sectionId = 'dynsection-38';
 </a>
 </g>
 </g>
-<!-- Node12613&#45;&gt;Node12614 -->
+<!-- Node5216&#45;&gt;Node5217 -->
 <g id="edge3" class="edge">
-<title>Node12613&#45;&gt;Node12614</title>
+<title>Node5216&#45;&gt;Node5217</title>
 <path fill="none" stroke="#191970" d="M415.2854,-215.7707C424.4272,-215.7707 433.9691,-215.7707 443.3359,-215.7707"/>
 <polygon fill="#191970" stroke="#191970" points="443.4041,-219.2708 453.404,-215.7707 443.404,-212.2708 443.4041,-219.2708"/>
 </g>
-<!-- Node13259 -->
+<!-- Node5373 -->
 <g id="node7" class="node">
-<title>Node13259</title>
+<title>Node5373</title>
 <g id="a_node7"><a xlink:href="trunk_8c.html#aeaad50225e220cc98d1a1cf5a5941298" target="_top" xlink:title="Update the registrations for I/O events we&#39;re interested in. ">
 <polygon fill="none" stroke="#ff0000" points="451,-74.7707 451,-104.7707 571,-104.7707 571,-74.7707 451,-74.7707"/>
 <text text-anchor="start" x="459" y="-92.7707" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_event</text>
@@ -197,30 +197,30 @@ var sectionId = 'dynsection-38';
 </a>
 </g>
 </g>
-<!-- Node12613&#45;&gt;Node13259 -->
+<!-- Node5216&#45;&gt;Node5373 -->
 <g id="edge6" class="edge">
-<title>Node12613&#45;&gt;Node13259</title>
+<title>Node5216&#45;&gt;Node5373</title>
 <path fill="none" stroke="#191970" d="M397.8913,-200.7645C403.8397,-197.8192 409.7385,-194.477 415,-190.7707 446.3917,-168.6583 475.7606,-135.14 493.5478,-112.8597"/>
 <polygon fill="#191970" stroke="#191970" points="496.3594,-114.9462 499.7778,-104.918 490.8518,-110.6257 496.3594,-114.9462"/>
 </g>
-<!-- Node12615 -->
+<!-- Node5218 -->
 <g id="node5" class="node">
-<title>Node12615</title>
+<title>Node5218</title>
 <g id="a_node5"><a xlink:href="trunk_8c.html#a55fabb4c84da4db82026a1f13b72d373" target="_top" xlink:title="Return whether a trunk connection should currently be considered full. ">
 <polygon fill="none" stroke="#ff0000" points="607,-228.2707 607,-247.2707 729,-247.2707 729,-228.2707 607,-228.2707"/>
 <text text-anchor="middle" x="668" y="-235.2707" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_is_full</text>
 </a>
 </g>
 </g>
-<!-- Node12614&#45;&gt;Node12615 -->
+<!-- Node5217&#45;&gt;Node5218 -->
 <g id="edge4" class="edge">
-<title>Node12614&#45;&gt;Node12615</title>
+<title>Node5217&#45;&gt;Node5218</title>
 <path fill="none" stroke="#191970" d="M568.5695,-223.8378C577.6957,-225.1166 587.229,-226.4525 596.6251,-227.7692"/>
 <polygon fill="#191970" stroke="#191970" points="596.3522,-231.265 606.7412,-229.1867 597.3237,-224.3328 596.3522,-231.265"/>
 </g>
-<!-- Node12619 -->
+<!-- Node5222 -->
 <g id="node6" class="node">
-<title>Node12619</title>
+<title>Node5222</title>
 <g id="a_node6"><a xlink:href="trunk_8c.html#a77827ab1583f3a13fe628963f6282fb5" target="_top" xlink:title="Transition a connection back to the active state. ">
 <polygon fill="none" stroke="#ff0000" points="609,-178.7707 609,-208.7707 727,-208.7707 727,-178.7707 609,-178.7707"/>
 <text text-anchor="start" x="617" y="-196.7707" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_enter</text>
@@ -228,33 +228,33 @@ var sectionId = 'dynsection-38';
 </a>
 </g>
 </g>
-<!-- Node12614&#45;&gt;Node12619 -->
+<!-- Node5217&#45;&gt;Node5222 -->
 <g id="edge5" class="edge">
-<title>Node12614&#45;&gt;Node12619</title>
+<title>Node5217&#45;&gt;Node5222</title>
 <path fill="none" stroke="#191970" d="M568.5695,-207.7037C578.415,-206.3241 588.7343,-204.878 598.8439,-203.4614"/>
 <polygon fill="#191970" stroke="#191970" points="599.4407,-206.9121 608.8583,-202.0581 598.4693,-199.9798 599.4407,-206.9121"/>
 </g>
-<!-- Node13259&#45;&gt;Node13253 -->
+<!-- Node5373&#45;&gt;Node5367 -->
 <g id="edge7" class="edge">
-<title>Node13259&#45;&gt;Node13253</title>
+<title>Node5373&#45;&gt;Node5367</title>
 <path fill="none" stroke="#191970" d="M571.2513,-95.911C581.3688,-96.9421 591.9144,-98.0168 602.1642,-99.0614"/>
 <polygon fill="#191970" stroke="#191970" points="601.9852,-102.5612 612.2886,-100.0931 602.695,-95.5972 601.9852,-102.5612"/>
 </g>
-<!-- Node13259&#45;&gt;Node13260 -->
+<!-- Node5373&#45;&gt;Node5374 -->
 <g id="edge8" class="edge">
-<title>Node13259&#45;&gt;Node13260</title>
+<title>Node5373&#45;&gt;Node5374</title>
 <path fill="none" stroke="#191970" d="M559.3862,-74.6693C575.4287,-69.6624 593.4488,-64.0383 610.131,-58.8318"/>
 <polygon fill="#191970" stroke="#191970" points="611.2704,-62.1427 619.7735,-55.8223 609.1849,-55.4606 611.2704,-62.1427"/>
 </g>
-<!-- Node13258&#45;&gt;Node13259 -->
+<!-- Node5372&#45;&gt;Node5373 -->
 <g id="edge12" class="edge">
-<title>Node13258&#45;&gt;Node13259</title>
+<title>Node5372&#45;&gt;Node5373</title>
 <path fill="none" stroke="#191970" d="M410.1295,-89.7707C419.9154,-89.7707 430.3073,-89.7707 440.5583,-89.7707"/>
 <polygon fill="#191970" stroke="#191970" points="440.7348,-93.2708 450.7348,-89.7707 440.7348,-86.2708 440.7348,-93.2708"/>
 </g>
-<!-- Node13282&#45;&gt;Node13259 -->
+<!-- Node5396&#45;&gt;Node5373 -->
 <g id="edge14" class="edge">
-<title>Node13282&#45;&gt;Node13259</title>
+<title>Node5396&#45;&gt;Node5373</title>
 <path fill="none" stroke="#191970" d="M266.2919,-52.8974C306.9443,-54.3804 364.8567,-57.8152 415,-65.7707 425.7822,-67.4814 437.1269,-69.8217 448.0903,-72.3735"/>
 <polygon fill="#191970" stroke="#191970" points="447.4831,-75.8272 458.0245,-74.7645 449.1212,-69.0216 447.4831,-75.8272"/>
 </g>

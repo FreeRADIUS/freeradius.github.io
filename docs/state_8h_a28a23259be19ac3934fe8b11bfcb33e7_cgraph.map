@@ -1,42 +1,51 @@
 <map id="fr_request_to_state" name="fr_request_to_state">
-<area shape="rect" id="node2" href="$request__data_8c.html#a57ffec90d04503c62b3bbc9a5fc71648" title="request_data_list_init" alt="" coords="432,337,577,364"/>
-<area shape="rect" id="node3" href="$request__data_8c.html#a1f8d06294cc21c9d3cc8d8254b4e7a70" title="Loop over all the request data, pulling out ones matching persist state. " alt="" coords="188,388,380,414"/>
-<area shape="rect" id="node7" href="$dlist_8h.html#a744cb8537f617b6718254070a02f13a0" title="Check whether a list has any items. " alt="" coords="831,234,935,261"/>
-<area shape="rect" id="node10" href="$lib_2server_2log_8c.html#a6e8a116514560c39703face844973ee6" title="Print a list of fr_pair_ts. " alt="" coords="213,1148,355,1174"/>
-<area shape="rect" id="node14" href="$pair_8c.html#ac3e6ae214c078ffe6f2648f1c12159ff" title="Find the pair with the matching DAs. " alt="" coords="441,1097,569,1124"/>
-<area shape="rect" id="node15" href="$server_2state_8c.html#a3b560355cfbc114158e057d420c0bdfe" title="Find the entry, based on the State attribute. " alt="" coords="227,185,341,212"/>
-<area shape="rect" id="node23" href="$server_2state_8c.html#af28798ea9b332fd9f7ecf24557b5aac5" title="Create a new state entry. " alt="" coords="219,616,349,642"/>
-<area shape="rect" id="node39" href="$request__data_8c.html#a5ee53cbfea731f69e927f9870014643d" title="Add request data back to a request. " alt="" coords="212,45,356,72"/>
-<area shape="rect" id="node40" href="$dlist_8h.html#a5ce47a38257240ad2b08b746c856a276" title="Merge two lists, inserting the tail of one into the other. " alt="" coords="455,33,555,60"/>
-<area shape="rect" id="node4" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="458,388,551,414"/>
-<area shape="rect" id="node6" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="642,590,753,617"/>
-<area shape="rect" id="node9" href="$dlist_8h.html#ae4fb05ae0fb121f4255153332d3dc477" title="Insert an item into the tail of a list. " alt="" coords="443,438,567,465"/>
-<area shape="rect" id="node5" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="649,540,745,566"/>
-<area shape="rect" id="node8" href="$dlist_8h.html#a50878590aabca4bc6fc4d1f6df0e724f" title="Check if a list entry is part of a list. " alt="" coords="813,590,952,617"/>
-<area shape="rect" id="node11" href="$lib_2server_2log_8c.html#aaae4c59a97fc4aa20df232613b517f8b" title="Whether a request specific debug message should be logged. " alt="" coords="436,1198,573,1225"/>
-<area shape="rect" id="node12" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="645,1046,750,1073"/>
-<area shape="rect" id="node13" href="$cursor_8c.html#a45a517ea8503ebd7ee4dd286ffb59b90" title="Internal function to get the next item. " alt="" coords="837,1046,928,1073"/>
-<area shape="rect" id="node16" href="$md5_8c.html#a9c69c4f7d4df0948bc0d5ddf5a650982" title="Calculate the MD5 hash of the contents of a buffer. " alt="" coords="458,185,551,212"/>
-<area shape="rect" id="node17" href="$hash_8c.html#aa4f59c815ec14f6916a8a30155143453" title="fr_hash_string" alt="" coords="453,236,557,262"/>
-<area shape="rect" id="node20" href="$cf__util_8c.html#a5db99282bb519c1d025b2eff5d602bfc" title="Return the second identifier of a CONF_SECTION. " alt="" coords="441,134,569,161"/>
-<area shape="rect" id="node21" href="$rbtree_8c.html#ac6772a18f3e04b23f71ad7994c7587ed" title="Find an element in the tree, returning the data, not the node. " alt="" coords="643,248,751,274"/>
-<area shape="rect" id="node18" href="$rlm__passwd_8c.html#aafaad5adfcfa5359895444961235e5b8" title="hash" alt="" coords="1009,794,1059,821"/>
-<area shape="rect" id="node19" href="$misc_8c.html#a1f8e51b2cfcfdab9687fec048bfbdfd3" title="Multiply with modulo wrap. " alt="" coords="1116,794,1231,821"/>
-<area shape="rect" id="node22" href="$rbtree_8c.html#a42e213e269dd59ffb2e993bbd25e4336" title="rbtree_find" alt="" coords="841,400,924,426"/>
-<area shape="rect" id="node24" href="$server_2state_8c.html#a74769245f89aa81ce264e9421d24fef5" title="Unlink an entry and remove if from the tree. " alt="" coords="441,844,569,870"/>
-<area shape="rect" id="node27" href="$rbtree_8c.html#a05ca35e9532c98afa6d2af1c57c25765" title="rbtree_num_elements" alt="" coords="431,894,578,921"/>
-<area shape="rect" id="node28" href="$server_2state_8c.html#a4e90c52255a25ce59d17a22840e51165" title="Frees any data associated with a state. " alt="" coords="443,996,566,1022"/>
-<area shape="rect" id="node29" href="$rand_8c.html#ae6966accae06dc7d65d4cc51b5782383" title="Return a 32&#45;bit random number. " alt="" coords="473,945,536,972"/>
-<area shape="rect" id="node34" href="$pair_8c.html#a2897183dcbc65ef1b54619bd293fd735" title="Dynamically allocate a new attribute and fill in the da field. " alt="" coords="445,641,564,668"/>
-<area shape="rect" id="node35" href="$pair_8c.html#ad6a4af5aec8fe8bac9db2211ae354989" title="Copy data into an &quot;octets&quot; data type. " alt="" coords="428,692,581,718"/>
-<area shape="rect" id="node36" href="$pair_8c.html#a7869a79cbea0f296a61340c95a0644ed" title="Add a VP to the end of the list. " alt="" coords="461,742,548,769"/>
-<area shape="rect" id="node37" href="$rbtree_8c.html#a79839e37a71b50c3d31a875351cc0a87" title="rbtree_insert" alt="" coords="457,793,552,820"/>
-<area shape="rect" id="node38" href="$pair_8c.html#a5fa73ca22e224c1973cb8d9239ea1ba5" title="Delete matching pairs from the specified list. " alt="" coords="433,1046,576,1073"/>
-<area shape="rect" id="node25" href="$rbtree_8c.html#a590147ec2ecdd6434a58eeff49e201a4" title="Delete a node from the tree, based on given data, which MUST have come from rbtree_finddata(). " alt="" coords="629,705,765,732"/>
-<area shape="rect" id="node26" href="$rbtree_8c.html#a78c07808d0a90337099b2967a774cb74" title="rbtree_delete" alt="" coords="834,705,931,732"/>
-<area shape="rect" id="node30" href="$rand_8c.html#a6fa61f21cc29c57c251db3696037ae1c" title="Seed the random number generator. " alt="" coords="649,920,746,946"/>
-<area shape="rect" id="node32" href="$isaac_8c.html#aa59f7e1d100e8c1b3c003e18085e0638" title="fr_isaac" alt="" coords="1000,945,1068,972"/>
-<area shape="rect" id="node31" href="$isaac_8c.html#a397c42de24ad86f9d3d899957e33e679" title="fr_rand_init" alt="" coords="839,920,926,946"/>
-<area shape="rect" id="node33" href="$hash_8c.html#a363755f48e86b542a7ea4da43c79c6a7" title="fr_hash_update" alt="" coords="827,794,938,821"/>
-<area shape="rect" id="node41" href="$dlist_8h.html#ac07928279a883700db54778383d69e77" title="Initialise a linked list without metadata. " alt="" coords="637,33,758,60"/>
+<area shape="rect" id="node2" href="$request__data_8c.html#a57ffec90d04503c62b3bbc9a5fc71648" title="request_data_list_init" alt="" coords="432,360,577,387"/>
+<area shape="rect" id="node3" href="$request__data_8c.html#a1f8d06294cc21c9d3cc8d8254b4e7a70" title="Loop over all the request data, pulling out ones matching persist state. " alt="" coords="188,448,380,475"/>
+<area shape="rect" id="node7" href="$dlist_8h.html#a744cb8537f617b6718254070a02f13a0" title="Check whether a list has any items. " alt="" coords="859,1247,963,1273"/>
+<area shape="rect" id="node10" href="$lib_2server_2log_8c.html#a6e8a116514560c39703face844973ee6" title="Print a list of fr_pair_ts. " alt="" coords="213,107,355,133"/>
+<area shape="rect" id="node14" href="$pair_8c.html#ac3e6ae214c078ffe6f2648f1c12159ff" title="Find the pair with the matching DAs. " alt="" coords="441,512,569,539"/>
+<area shape="rect" id="node15" href="$server_2state_8c.html#a3b560355cfbc114158e057d420c0bdfe" title="Find the entry, based on the State attribute. " alt="" coords="227,208,341,235"/>
+<area shape="rect" id="node23" href="$server_2state_8c.html#af28798ea9b332fd9f7ecf24557b5aac5" title="Create a new state entry. " alt="" coords="219,639,349,665"/>
+<area shape="rect" id="node48" href="$request__data_8c.html#a5ee53cbfea731f69e927f9870014643d" title="Add request data back to a request. " alt="" coords="212,1373,356,1400"/>
+<area shape="rect" id="node49" href="$dlist_8h.html#a5ce47a38257240ad2b08b746c856a276" title="Merge two lists, inserting the tail of one into the other. " alt="" coords="455,1348,555,1375"/>
+<area shape="rect" id="node4" href="$dlist_8h.html#a40536da1ca43d3e72807a3bf8a9b7841" title="Get the next item in a list. " alt="" coords="458,411,551,437"/>
+<area shape="rect" id="node6" href="$dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" title="Remove an item from the list. " alt="" coords="656,715,767,741"/>
+<area shape="rect" id="node9" href="$dlist_8h.html#ae4fb05ae0fb121f4255153332d3dc477" title="Insert an item into the tail of a list. " alt="" coords="443,461,567,488"/>
+<area shape="rect" id="node5" href="$dlist_8h.html#a90c9ea299e869c463ab8109410112a97" title="Return the HEAD item of a list or NULL if the list is empty. " alt="" coords="663,431,759,457"/>
+<area shape="rect" id="node8" href="$dlist_8h.html#a50878590aabca4bc6fc4d1f6df0e724f" title="Check if a list entry is part of a list. " alt="" coords="841,589,980,616"/>
+<area shape="rect" id="node11" href="$lib_2server_2log_8c.html#aaae4c59a97fc4aa20df232613b517f8b" title="Whether a request specific debug message should be logged. " alt="" coords="436,5,573,32"/>
+<area shape="rect" id="node12" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="659,500,764,527"/>
+<area shape="rect" id="node13" href="$cursor_8c.html#a45a517ea8503ebd7ee4dd286ffb59b90" title="Internal function to get the next item. " alt="" coords="865,488,956,515"/>
+<area shape="rect" id="node16" href="$md5_8c.html#a9c69c4f7d4df0948bc0d5ddf5a650982" title="Calculate the MD5 hash of the contents of a buffer. " alt="" coords="458,208,551,235"/>
+<area shape="rect" id="node17" href="$hash_8c.html#aa4f59c815ec14f6916a8a30155143453" title="fr_hash_string" alt="" coords="453,157,557,184"/>
+<area shape="rect" id="node20" href="$cf__util_8c.html#a5db99282bb519c1d025b2eff5d602bfc" title="Return the second identifier of a CONF_SECTION. " alt="" coords="441,259,569,285"/>
+<area shape="rect" id="node21" href="$rbtree_8c.html#ac6772a18f3e04b23f71ad7994c7587ed" title="Find an element in the tree, returning the data, not the node. " alt="" coords="657,295,765,321"/>
+<area shape="rect" id="node18" href="$rlm__passwd_8c.html#aafaad5adfcfa5359895444961235e5b8" title="hash" alt="" coords="1037,640,1087,667"/>
+<area shape="rect" id="node19" href="$misc_8c.html#a1f8e51b2cfcfdab9687fec048bfbdfd3" title="Multiply with modulo wrap. " alt="" coords="1144,640,1259,667"/>
+<area shape="rect" id="node22" href="$rbtree_8c.html#a42e213e269dd59ffb2e993bbd25e4336" title="rbtree_find" alt="" coords="869,365,952,392"/>
+<area shape="rect" id="node24" href="$server_2state_8c.html#a74769245f89aa81ce264e9421d24fef5" title="Unlink an entry and remove if from the tree. " alt="" coords="441,715,569,741"/>
+<area shape="rect" id="node27" href="$rbtree_8c.html#a05ca35e9532c98afa6d2af1c57c25765" title="rbtree_num_elements" alt="" coords="431,917,578,944"/>
+<area shape="rect" id="node28" href="$server_2state_8c.html#a4e90c52255a25ce59d17a22840e51165" title="Frees any data associated with a state. " alt="" coords="443,613,566,640"/>
+<area shape="rect" id="node29" href="$rand_8c.html#ae6966accae06dc7d65d4cc51b5782383" title="Return a 32&#45;bit random number. " alt="" coords="473,816,536,843"/>
+<area shape="rect" id="node34" href="$pair_8c.html#a2897183dcbc65ef1b54619bd293fd735" title="Dynamically allocate a new attribute and fill in the da field. " alt="" coords="445,968,564,995"/>
+<area shape="rect" id="node39" href="$pair_8c.html#ad6a4af5aec8fe8bac9db2211ae354989" title="Copy data into an &quot;octets&quot; data type. " alt="" coords="428,1069,581,1096"/>
+<area shape="rect" id="node42" href="$pair_8c.html#a7869a79cbea0f296a61340c95a0644ed" title="Add a VP to the end of the list. " alt="" coords="461,1019,548,1045"/>
+<area shape="rect" id="node43" href="$rbtree_8c.html#a79839e37a71b50c3d31a875351cc0a87" title="rbtree_insert" alt="" coords="457,867,552,893"/>
+<area shape="rect" id="node45" href="$pair_8c.html#a5fa73ca22e224c1973cb8d9239ea1ba5" title="Delete matching pairs from the specified list. " alt="" coords="433,664,576,691"/>
+<area shape="rect" id="node25" href="$rbtree_8c.html#a590147ec2ecdd6434a58eeff49e201a4" title="Delete a node from the tree, based on given data, which MUST have come from rbtree_finddata(). " alt="" coords="643,664,779,691"/>
+<area shape="rect" id="node26" href="$rbtree_8c.html#a78c07808d0a90337099b2967a774cb74" title="rbtree_delete" alt="" coords="862,539,959,565"/>
+<area shape="rect" id="node30" href="$rand_8c.html#a6fa61f21cc29c57c251db3696037ae1c" title="Seed the random number generator. " alt="" coords="663,765,760,792"/>
+<area shape="rect" id="node32" href="$isaac_8c.html#aa59f7e1d100e8c1b3c003e18085e0638" title="fr_isaac" alt="" coords="1028,791,1096,817"/>
+<area shape="rect" id="node31" href="$isaac_8c.html#a397c42de24ad86f9d3d899957e33e679" title="fr_rand_init" alt="" coords="867,765,954,792"/>
+<area shape="rect" id="node33" href="$hash_8c.html#a363755f48e86b542a7ea4da43c79c6a7" title="fr_hash_update" alt="" coords="855,691,966,717"/>
+<area shape="rect" id="node35" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="853,943,968,969"/>
+<area shape="rect" id="node36" href="$pair_8c.html#ae760eec888755906c0196a13801a53df" title="Dynamically allocate a new attribute. " alt="" coords="665,917,757,944"/>
+<area shape="rect" id="node37" href="$dict_8h.html#af5e7c4344dae37b2ae61c1b78c0cc1bc" title="Copy a known or unknown attribute to produce an unknown attribute with the specified name..." alt="" coords="632,1019,791,1045"/>
+<area shape="rect" id="node38" href="$value_8h.html#ab2f9fbd42c467414fa4e5c3793fb3572" title="Initialise a fr_value_box_t. " alt="" coords="851,1120,971,1147"/>
+<area shape="rect" id="node40" href="$value_8c.html#ad5da2574fed047b3ae861999d06c38ac" title="Clear/free any existing value and metadata. " alt="" coords="646,1171,777,1197"/>
+<area shape="rect" id="node41" href="$value_8c.html#af7e5339e09823aff580c0ac63c5d5c84" title="Copy a buffer to a fr_value_box_t. " alt="" coords="635,1069,788,1096"/>
+<area shape="rect" id="node44" href="$rbtree_8c.html#a4eed40c77b050e68b00cf9d6334db2c4" title="Insert an element into the tree. " alt="" coords="647,867,776,893"/>
+<area shape="rect" id="node46" href="$util_2pair_8h.html#a078d7dfa9ea0f6beae478c6c913aa4e2" title="Initialise a cursor that will return only attributes matching the specified fr_dict_attr_t. " alt="" coords="629,613,793,640"/>
+<area shape="rect" id="node47" href="$cursor_8h.html#ae89f379d1f6985ee4335586e0acd0df6" title="talloc_free the current item " alt="" coords="644,563,779,589"/>
+<area shape="rect" id="node50" href="$dlist_8h.html#ac07928279a883700db54778383d69e77" title="Initialise a linked list without metadata. " alt="" coords="651,1373,772,1400"/>
 </map>

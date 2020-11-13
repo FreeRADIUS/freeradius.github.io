@@ -8,16 +8,16 @@
  viewBox="0.00 0.00 744.00 345.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 341)">
 <title>trunk_connection_requests_dequeue</title>
-<!-- Node25100 -->
+<!-- Node9931 -->
 <g id="node1" class="node">
-<title>Node25100</title>
+<title>Node9931</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-109 0,-139 134,-139 134,-109 0,-109"/>
 <text text-anchor="start" x="8" y="-127" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_requests</text>
 <text text-anchor="middle" x="67" y="-116" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_dequeue</text>
 </g>
-<!-- Node25101 -->
+<!-- Node9932 -->
 <g id="node2" class="node">
-<title>Node25101</title>
+<title>Node9932</title>
 <g id="a_node2"><a xlink:href="trunk_8c.html#a0832cb5699c225cb2dcca015bbdbcf22" target="_top" xlink:title="Transition a request to the unassigned state, in preparation for re&#45;assignment. ">
 <polygon fill="none" stroke="#000000" points="170,-202 170,-232 273,-232 273,-202 170,-202"/>
 <text text-anchor="start" x="178" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_request_enter</text>
@@ -25,15 +25,15 @@
 </a>
 </g>
 </g>
-<!-- Node25100&#45;&gt;Node25101 -->
+<!-- Node9931&#45;&gt;Node9932 -->
 <g id="edge1" class="edge">
-<title>Node25100&#45;&gt;Node25101</title>
+<title>Node9931&#45;&gt;Node9932</title>
 <path fill="none" stroke="#191970" d="M87.701,-139.2532C108.0821,-153.934 140.3731,-176.3045 170,-193 172.664,-194.5012 175.438,-195.9908 178.2563,-197.4496"/>
 <polygon fill="#191970" stroke="#191970" points="176.8178,-200.6433 187.328,-201.9801 179.9454,-194.3809 176.8178,-200.6433"/>
 </g>
-<!-- Node25742 -->
+<!-- Node10084 -->
 <g id="node8" class="node">
-<title>Node25742</title>
+<title>Node10084</title>
 <g id="a_node8"><a xlink:href="server_2connection_8c.html#a07cf3e48f209e153fb5dee32cfa0d221" target="_top" xlink:title="Pause processing of deferred signals. ">
 <polygon fill="none" stroke="#000000" points="619.5,-197 619.5,-227 730.5,-227 730.5,-197 619.5,-197"/>
 <text text-anchor="start" x="627.5" y="-215" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_connection_signals</text>
@@ -41,15 +41,15 @@
 </a>
 </g>
 </g>
-<!-- Node25100&#45;&gt;Node25742 -->
+<!-- Node9931&#45;&gt;Node10084 -->
 <g id="edge11" class="edge">
-<title>Node25100&#45;&gt;Node25742</title>
+<title>Node9931&#45;&gt;Node10084</title>
 <path fill="none" stroke="#191970" d="M74.6293,-139.2226C89.0103,-165.9778 122.9639,-220.6224 170,-242 322.9045,-311.494 529.165,-260.4234 623.7449,-230.1336"/>
 <polygon fill="#191970" stroke="#191970" points="624.9349,-233.4271 633.3594,-227.0022 622.7671,-226.7712 624.9349,-233.4271"/>
 </g>
-<!-- Node25755 -->
+<!-- Node10097 -->
 <g id="node9" class="node">
-<title>Node25755</title>
+<title>Node10097</title>
 <g id="a_node9"><a xlink:href="server_2connection_8c.html#a4d82ac070ca65d717d16a833b1bf5032" target="_top" xlink:title="Resume processing of deferred signals. ">
 <polygon fill="none" stroke="#ff0000" points="619.5,-129 619.5,-159 730.5,-159 730.5,-129 619.5,-129"/>
 <text text-anchor="start" x="627.5" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_connection_signals</text>
@@ -57,45 +57,45 @@
 </a>
 </g>
 </g>
-<!-- Node25100&#45;&gt;Node25755 -->
+<!-- Node9931&#45;&gt;Node10097 -->
 <g id="edge15" class="edge">
-<title>Node25100&#45;&gt;Node25755</title>
+<title>Node9931&#45;&gt;Node10097</title>
 <path fill="none" stroke="#191970" d="M134.2324,-118.7128C182.765,-115.1697 249.8855,-110.8303 309,-109 359.1982,-107.4458 371.8964,-105.5508 422,-109 486.0749,-113.4111 558.6348,-124.035 609.5661,-132.4292"/>
 <polygon fill="#191970" stroke="#191970" points="609.016,-135.8857 619.4551,-134.0759 610.1658,-128.9808 609.016,-135.8857"/>
 </g>
-<!-- Node25750 -->
+<!-- Node10092 -->
 <g id="node10" class="node">
-<title>Node25750</title>
+<title>Node10092</title>
 <g id="a_node10"><a xlink:href="dlist_8h.html#ae4fb05ae0fb121f4255153332d3dc477" target="_top" xlink:title="Insert an item into the tail of a list. ">
 <polygon fill="none" stroke="#000000" points="319,-118.5 319,-137.5 412,-137.5 412,-118.5 319,-118.5"/>
 <text text-anchor="middle" x="365.5" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_dlist_insert_tail</text>
 </a>
 </g>
 </g>
-<!-- Node25100&#45;&gt;Node25750 -->
+<!-- Node9931&#45;&gt;Node10092 -->
 <g id="edge9" class="edge">
-<title>Node25100&#45;&gt;Node25750</title>
+<title>Node9931&#45;&gt;Node10092</title>
 <path fill="none" stroke="#191970" d="M134.3614,-124.9027C186.8558,-125.6061 258.9254,-126.5719 308.5632,-127.237"/>
 <polygon fill="#191970" stroke="#191970" points="308.7538,-130.7398 318.7998,-127.3742 308.8476,-123.7404 308.7538,-130.7398"/>
 </g>
-<!-- Node25779 -->
+<!-- Node10121 -->
 <g id="node11" class="node">
-<title>Node25779</title>
+<title>Node10121</title>
 <g id="a_node11"><a xlink:href="heap_8c.html#ab084b77223ee54a38005dfc8113b679a" target="_top" xlink:title="fr_heap_peek">
 <polygon fill="none" stroke="#000000" points="184,-38.5 184,-57.5 259,-57.5 259,-38.5 184,-38.5"/>
 <text text-anchor="middle" x="221.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_heap_peek</text>
 </a>
 </g>
 </g>
-<!-- Node25100&#45;&gt;Node25779 -->
+<!-- Node9931&#45;&gt;Node10121 -->
 <g id="edge10" class="edge">
-<title>Node25100&#45;&gt;Node25779</title>
+<title>Node9931&#45;&gt;Node10121</title>
 <path fill="none" stroke="#191970" d="M96.1805,-108.961C116.7368,-98.4422 144.95,-84.1565 170,-72 176.8333,-68.6839 184.2151,-65.1914 191.1973,-61.9285"/>
 <polygon fill="#191970" stroke="#191970" points="192.7885,-65.0486 200.3816,-57.6598 189.838,-58.7008 192.7885,-65.0486"/>
 </g>
-<!-- Node25809 -->
+<!-- Node10151 -->
 <g id="node12" class="node">
-<title>Node25809</title>
+<title>Node10151</title>
 <g id="a_node12"><a xlink:href="trunk_8c.html#ac56a1d3856d033bf437fc866c1a1cf77" target="_top" xlink:title="Transition a request to the cancel state, placing it in a connection&#39;s cancellation list...">
 <polygon fill="none" stroke="#000000" points="170,-153 170,-183 273,-183 273,-153 170,-153"/>
 <text text-anchor="start" x="178" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_request_enter</text>
@@ -103,30 +103,30 @@
 </a>
 </g>
 </g>
-<!-- Node25100&#45;&gt;Node25809 -->
+<!-- Node9931&#45;&gt;Node10151 -->
 <g id="edge12" class="edge">
-<title>Node25100&#45;&gt;Node25809</title>
+<title>Node9931&#45;&gt;Node10151</title>
 <path fill="none" stroke="#191970" d="M119.738,-139.0192C132.6252,-142.6894 146.5277,-146.6487 159.7924,-150.4263"/>
 <polygon fill="#191970" stroke="#191970" points="159.2081,-153.899 169.7844,-153.2719 161.1254,-147.1667 159.2081,-153.899"/>
 </g>
-<!-- Node25139 -->
+<!-- Node9970 -->
 <g id="node13" class="node">
-<title>Node25139</title>
+<title>Node9970</title>
 <g id="a_node13"><a xlink:href="dlist_8h.html#a90c9ea299e869c463ab8109410112a97" target="_top" xlink:title="Return the HEAD item of a list or NULL if the list is empty. ">
 <polygon fill="none" stroke="#000000" points="185.5,-.5 185.5,-19.5 257.5,-19.5 257.5,-.5 185.5,-.5"/>
 <text text-anchor="middle" x="221.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_dlist_head</text>
 </a>
 </g>
 </g>
-<!-- Node25100&#45;&gt;Node25139 -->
+<!-- Node9931&#45;&gt;Node9970 -->
 <g id="edge16" class="edge">
-<title>Node25100&#45;&gt;Node25139</title>
+<title>Node9931&#45;&gt;Node9970</title>
 <path fill="none" stroke="#191970" d="M79.8802,-108.8647C98.0951,-88.2869 133.2745,-51.4776 170,-29 173.1955,-27.0442 176.624,-25.2411 180.1387,-23.5898"/>
 <polygon fill="#191970" stroke="#191970" points="181.7211,-26.7198 189.5424,-19.5729 178.9713,-20.2825 181.7211,-26.7198"/>
 </g>
-<!-- Node25102 -->
+<!-- Node9933 -->
 <g id="node3" class="node">
-<title>Node25102</title>
+<title>Node9933</title>
 <g id="a_node3"><a xlink:href="trunk_8c.html#a57c049e07e8913dafb84d76e548fa404" target="_top" xlink:title="Remove a request from all connection lists. ">
 <polygon fill="none" stroke="#000000" points="309,-202 309,-232 422,-232 422,-202 309,-202"/>
 <text text-anchor="start" x="317" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_request_remove</text>
@@ -134,15 +134,15 @@
 </a>
 </g>
 </g>
-<!-- Node25101&#45;&gt;Node25102 -->
+<!-- Node9932&#45;&gt;Node9933 -->
 <g id="edge2" class="edge">
-<title>Node25101&#45;&gt;Node25102</title>
+<title>Node9932&#45;&gt;Node9933</title>
 <path fill="none" stroke="#191970" d="M273.0806,-217C281.4332,-217 290.1855,-217 298.8346,-217"/>
 <polygon fill="#191970" stroke="#191970" points="298.9104,-220.5001 308.9103,-217 298.9103,-213.5001 298.9104,-220.5001"/>
 </g>
-<!-- Node25103 -->
+<!-- Node9934 -->
 <g id="node4" class="node">
-<title>Node25103</title>
+<title>Node9934</title>
 <g id="a_node4"><a xlink:href="trunk_8c.html#a3ebef07daa894102a5268a1ce21965b6" target="_top" xlink:title="Automatically mark a connection as active or reconnect it. ">
 <polygon fill="none" stroke="#000000" points="460.5,-290 460.5,-320 575.5,-320 575.5,-290 460.5,-290"/>
 <text text-anchor="start" x="468.5" y="-308" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_auto</text>
@@ -150,15 +150,15 @@
 </a>
 </g>
 </g>
-<!-- Node25102&#45;&gt;Node25103 -->
+<!-- Node9933&#45;&gt;Node9934 -->
 <g id="edge3" class="edge">
-<title>Node25102&#45;&gt;Node25103</title>
+<title>Node9933&#45;&gt;Node9934</title>
 <path fill="none" stroke="#191970" d="M391.7157,-232.1277C416.8878,-246.6533 455.0852,-268.6951 482.8787,-284.7333"/>
 <polygon fill="#191970" stroke="#191970" points="481.461,-287.9561 491.8717,-289.9227 484.9596,-281.8931 481.461,-287.9561"/>
 </g>
-<!-- Node25754 -->
+<!-- Node10096 -->
 <g id="node7" class="node">
-<title>Node25754</title>
+<title>Node10096</title>
 <g id="a_node7"><a xlink:href="trunk_8c.html#aeaad50225e220cc98d1a1cf5a5941298" target="_top" xlink:title="Update the registrations for I/O events we&#39;re interested in. ">
 <polygon fill="none" stroke="#ff0000" points="458,-178 458,-208 578,-208 578,-178 458,-178"/>
 <text text-anchor="start" x="466" y="-196" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_event</text>
@@ -166,30 +166,30 @@
 </a>
 </g>
 </g>
-<!-- Node25102&#45;&gt;Node25754 -->
+<!-- Node9933&#45;&gt;Node10096 -->
 <g id="edge6" class="edge">
-<title>Node25102&#45;&gt;Node25754</title>
+<title>Node9933&#45;&gt;Node10096</title>
 <path fill="none" stroke="#191970" d="M422.2854,-208.0633C430.624,-206.751 439.2956,-205.3863 447.8635,-204.0379"/>
 <polygon fill="#191970" stroke="#191970" points="448.5134,-207.4788 457.8477,-202.4666 447.4251,-200.5639 448.5134,-207.4788"/>
 </g>
-<!-- Node25104 -->
+<!-- Node9935 -->
 <g id="node5" class="node">
-<title>Node25104</title>
+<title>Node9935</title>
 <g id="a_node5"><a xlink:href="trunk_8c.html#a55fabb4c84da4db82026a1f13b72d373" target="_top" xlink:title="Return whether a trunk connection should currently be considered full. ">
 <polygon fill="none" stroke="#ff0000" points="614,-317.5 614,-336.5 736,-336.5 736,-317.5 614,-317.5"/>
 <text text-anchor="middle" x="675" y="-324.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_is_full</text>
 </a>
 </g>
 </g>
-<!-- Node25103&#45;&gt;Node25104 -->
+<!-- Node9934&#45;&gt;Node9935 -->
 <g id="edge4" class="edge">
-<title>Node25103&#45;&gt;Node25104</title>
+<title>Node9934&#45;&gt;Node9935</title>
 <path fill="none" stroke="#191970" d="M575.5695,-313.0671C584.6957,-314.3459 594.229,-315.6818 603.6251,-316.9984"/>
 <polygon fill="#191970" stroke="#191970" points="603.3522,-320.4943 613.7412,-318.416 604.3237,-313.562 603.3522,-320.4943"/>
 </g>
-<!-- Node25108 -->
+<!-- Node9939 -->
 <g id="node6" class="node">
-<title>Node25108</title>
+<title>Node9939</title>
 <g id="a_node6"><a xlink:href="trunk_8c.html#a77827ab1583f3a13fe628963f6282fb5" target="_top" xlink:title="Transition a connection back to the active state. ">
 <polygon fill="none" stroke="#ff0000" points="616,-268 616,-298 734,-298 734,-268 616,-268"/>
 <text text-anchor="start" x="624" y="-286" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">trunk_connection_enter</text>
@@ -197,33 +197,33 @@
 </a>
 </g>
 </g>
-<!-- Node25103&#45;&gt;Node25108 -->
+<!-- Node9934&#45;&gt;Node9939 -->
 <g id="edge5" class="edge">
-<title>Node25103&#45;&gt;Node25108</title>
+<title>Node9934&#45;&gt;Node9939</title>
 <path fill="none" stroke="#191970" d="M575.5695,-296.9329C585.415,-295.5533 595.7343,-294.1073 605.8439,-292.6907"/>
 <polygon fill="#191970" stroke="#191970" points="606.4407,-296.1413 615.8583,-291.2874 605.4693,-289.209 606.4407,-296.1413"/>
 </g>
-<!-- Node25754&#45;&gt;Node25742 -->
+<!-- Node10096&#45;&gt;Node10084 -->
 <g id="edge7" class="edge">
-<title>Node25754&#45;&gt;Node25742</title>
+<title>Node10096&#45;&gt;Node10084</title>
 <path fill="none" stroke="#191970" d="M578.2513,-200.2916C588.3688,-201.516 598.9144,-202.7922 609.1642,-204.0326"/>
 <polygon fill="#191970" stroke="#191970" points="608.9405,-207.531 619.2886,-205.2579 609.7815,-200.5817 608.9405,-207.531"/>
 </g>
-<!-- Node25754&#45;&gt;Node25755 -->
+<!-- Node10096&#45;&gt;Node10097 -->
 <g id="edge8" class="edge">
-<title>Node25754&#45;&gt;Node25755</title>
+<title>Node10096&#45;&gt;Node10097</title>
 <path fill="none" stroke="#191970" d="M566.3862,-177.8986C582.4287,-172.8917 600.4488,-167.2676 617.131,-162.061"/>
 <polygon fill="#191970" stroke="#191970" points="618.2704,-165.372 626.7735,-159.0516 616.1849,-158.6899 618.2704,-165.372"/>
 </g>
-<!-- Node25809&#45;&gt;Node25754 -->
+<!-- Node10151&#45;&gt;Node10096 -->
 <g id="edge14" class="edge">
-<title>Node25809&#45;&gt;Node25754</title>
+<title>Node10151&#45;&gt;Node10096</title>
 <path fill="none" stroke="#191970" d="M273.1464,-172.3547C321.4663,-176.4289 394.0375,-182.5479 447.6377,-187.0673"/>
 <polygon fill="#191970" stroke="#191970" points="447.4944,-190.5675 457.7532,-187.9202 448.0826,-183.5923 447.4944,-190.5675"/>
 </g>
-<!-- Node25809&#45;&gt;Node25750 -->
+<!-- Node10151&#45;&gt;Node10092 -->
 <g id="edge13" class="edge">
-<title>Node25809&#45;&gt;Node25750</title>
+<title>Node10151&#45;&gt;Node10092</title>
 <path fill="none" stroke="#191970" d="M273.0806,-153.6721C288.8363,-149.2955 306.0142,-144.5238 321.2388,-140.2948"/>
 <polygon fill="#191970" stroke="#191970" points="322.2284,-143.6525 330.9268,-137.6037 320.3549,-136.9079 322.2284,-143.6525"/>
 </g>

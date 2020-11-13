@@ -1,101 +1,47 @@
 <map id="fr_fault_setup" name="fr_fault_setup">
-<area shape="rect" id="node2" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="625,2007,690,2034"/>
-<area shape="rect" id="node26" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1975,1614,2089,1640"/>
-<area shape="rect" id="node28" href="$strlcpy_8c.html#a59f9599e77ee687b1daaa179f8b9a2f3" title="strlcpy" alt="" coords="1579,1791,1640,1818"/>
-<area shape="rect" id="node87" href="$lib_2util_2debug_8c.html#a028a26bf7b1a86842583607fe1bf67bb" title="Check to see if panic_action file is world writable. " alt="" coords="361,1943,543,1970"/>
-<area shape="rect" id="node88" href="$lib_2util_2debug_8c.html#a7fddecee0681d9fe5e73fbed0a79d99c" title="fr_get_debug_state" alt="" coords="591,2500,724,2527"/>
-<area shape="rect" id="node89" href="$lib_2util_2debug_8c.html#accb6786a2592c15ac4897a18bc0ec2d1" title="Wrapper to pass talloc log output to our fr_fault_log function. " alt="" coords="185,2551,283,2578"/>
-<area shape="rect" id="node92" href="$misc_8c.html#a0ef44c7d8222a02c6fd736929d0662f2" title="Sets a signal handler using sigaction if available, else signal. " alt="" coords="1138,2044,1234,2071"/>
-<area shape="rect" id="node93" href="$lib_2util_2debug_8c.html#a6db691b2bb242dfba0bedcfa14ca70a9" title="Prints a simple backtrace (if execinfo is available) and calls panic_action if set. " alt="" coords="203,2120,265,2147"/>
-<area shape="rect" id="node98" href="$lib_2util_2debug_8c.html#ac453b0d5bbc662ead9bb53d00e553d8f" title="Callback executed on fatal talloc error. " alt="" coords="604,2196,711,2223"/>
-<area shape="rect" id="node99" href="$lib_2util_2debug_8c.html#a1a2961be7bed5bfaa9cb8e23fe16c986" title="Disable the null tracking context when a talloc chunk is freed. " alt="" coords="155,2602,313,2644"/>
-<area shape="rect" id="node3" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="2159,1360,2229,1387"/>
-<area shape="rect" id="node4" href="$snprintf_8c.html#a242a1ad85c2e07e0d5d73b6342d97f13" title="vsnprintf" alt="" coords="772,2779,844,2806"/>
-<area shape="rect" id="node14" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="2162,879,2226,906"/>
-<area shape="rect" id="node15" href="$radclient_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="783,1031,833,1058"/>
-<area shape="rect" id="node5" href="$snprintf_8c.html#a5e332567c91e575955830fc977e9fba7" title="conv_flag" alt="" coords="2155,3019,2233,3046"/>
-<area shape="rect" id="node6" href="$snprintf_8c.html#a288e35a7e3ff8edbceab28da4d5b3804" title="floating" alt="" coords="1789,2754,1853,2780"/>
-<area shape="rect" id="node7" href="$snprintf_8c.html#a9b7362c605cc52163800c90eee10c402" title="exponent" alt="" coords="1995,2728,2069,2755"/>
-<area shape="rect" id="node8" href="$snprintf_8c.html#a1ad9bbbd459a4ec1b201e3d357ab2eb3" title="log_10" alt="" coords="2164,2691,2224,2718"/>
-<area shape="rect" id="node9" href="$snprintf_8c.html#af6234510a860429ad7e8c354e5ede4af" title="float64" alt="" coords="941,2855,1002,2882"/>
-<area shape="rect" id="node10" href="$snprintf_8c.html#a334bc8b68b1dabe66676ea892aade3f7" title="octal" alt="" coords="1161,2855,1211,2882"/>
-<area shape="rect" id="node11" href="$snprintf_8c.html#acd8da45b6ecc250a4e6e118bd981d311" title="hexa" alt="" coords="1378,2880,1429,2907"/>
-<area shape="rect" id="node12" href="$snprintf_8c.html#a88621cc8266f205bfa9f686cdfd9eb1c" title="strings" alt="" coords="1579,2880,1640,2907"/>
-<area shape="rect" id="node13" href="$acutest_8h.html#a8e9dc24bf3e8d87394046aef2654847f" title="if" alt="" coords="952,2602,991,2628"/>
-<area shape="rect" id="node16" href="$thread__local_8c.html#ab876970f5f6bb1be1d3278a42414118c" title="Setup the atexit handler, should be called at the start of a program&#39;s execution. ..." alt="" coords="898,290,1045,332"/>
-<area shape="rect" id="node19" href="$strerror_8c.html#a2c8e65d6d4b73fb705cc023f60acb099" title="Print the current error to stderr with a prefix. " alt="" coords="1574,879,1645,906"/>
-<area shape="rect" id="node22" href="$radclient_8c.html#a7da17a463485d8e56c4afa4f1040bd8b" title="filename_cmp" alt="" coords="920,188,1023,215"/>
-<area shape="rect" id="node23" href="$radclient_8c.html#a854a7a8a291faf5fa69061c3652e4f71" title="usage" alt="" coords="943,239,1000,266"/>
-<area shape="rect" id="node24" href="$rbtree_8c.html#a79839e37a71b50c3d31a875351cc0a87" title="rbtree_insert" alt="" coords="1356,1994,1451,2020"/>
-<area shape="rect" id="node27" href="$syserror_8c.html#a18747f9d648d0aeecc4a8b27ac0435aa" title="Guaranteed to be thread&#45;safe version of strerror. " alt="" coords="1361,1791,1445,1818"/>
-<area shape="rect" id="node29" href="$time_8c.html#a7e9c4d86018ac8fdcb95bffd58b28590" title="Create fr_time_delta_t from a string. " alt="" coords="1533,1588,1685,1615"/>
-<area shape="rect" id="node30" href="$version_8c.html#af0e1a18780de1ee568ef8c8c768a0604" title="Check if the application linking to the library has the correct magic number. " alt="" coords="1542,1943,1677,1970"/>
-<area shape="rect" id="node31" href="$dict_8h.html#a576424afb26db7b1dbdd765fe99b170b" title="Initialise the global protocol hashes. " alt="" coords="1535,332,1683,359"/>
-<area shape="rect" id="node43" href="$protocols_2radius_2base_8c.html#a241f056400c3681fd36819ca86eb0489" title="fr_radius_init" alt="" coords="923,1183,1019,1210"/>
-<area shape="rect" id="node44" href="$dict_8h.html#a10a10d51e32b7c32cd3226eb3a20c5e3" title="Process a dict_autoload element to load a protocol. " alt="" coords="1129,1538,1243,1564"/>
-<area shape="rect" id="node45" href="$dict_8h.html#a9f3bf5c0208b67be69551a3f2ac6b0e6" title="Process a dict_attr_autoload element to load/verify a dictionary attribute. " alt="" coords="1539,1284,1679,1311"/>
-<area shape="rect" id="node46" href="$dict_8h.html#af02d9b5797d2d60942a51ed08952afd2" title="Decrement the reference count on a previously loaded dictionary. " alt="" coords="1130,458,1242,484"/>
-<area shape="rect" id="node47" href="$dict_8h.html#ac57f9ce40c1dbc95e8e6edf9504b5ef5" title="Read supplementary attribute definitions into an existing dictionary. " alt="" coords="926,87,1017,114"/>
-<area shape="rect" id="node50" href="$dict_8h.html#ab2cd67ffaab177af17a0688d09d1fcfd" title="Coerce to non&#45;const. " alt="" coords="916,1284,1027,1311"/>
-<area shape="rect" id="node52" href="$lib_2util_2log_8c.html#a887be94e106ad80c21640f61b47a7f24" title="Drain any outstanding messages from the fr_strerror buffers. " alt="" coords="1774,79,1869,106"/>
-<area shape="rect" id="node54" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="1364,443,1443,470"/>
-<area shape="rect" id="node55" href="$inet_8c.html#a6b12a3645d11b8b1b2101eac40ca0943" title="Parses IPv4/6 address + port, to fr_ipaddr_t and integer (port) " alt="" coords="1344,1531,1463,1558"/>
-<area shape="rect" id="node58" href="$radclient_8c.html#a8d434d390970d44abffcd15b9106d97f" title="radclient_get_code" alt="" coords="1338,544,1469,571"/>
-<area shape="rect" id="node60" href="$radclient_8c.html#a1ea84a1755f351476e22fce948ba47ec" title="radclient_get_port" alt="" coords="1341,494,1466,520"/>
-<area shape="rect" id="node61" href="$rbtree_8c.html#a05ca35e9532c98afa6d2af1c57c25765" title="rbtree_num_elements" alt="" coords="1113,596,1259,623"/>
-<area shape="rect" id="node62" href="$radclient_8c.html#ab4cca4fd92a993cf7634a98235ede21e" title="radclient_init" alt="" coords="1139,1031,1233,1058"/>
-<area shape="rect" id="node72" href="$rbtree_8c.html#a3152a4d0a82814f872f93d5ce1a5186c" title="rbtree_walk" alt="" coords="927,508,1016,535"/>
-<area shape="rect" id="node73" href="$radclient_8c.html#a03592a6d2dc36eb8acbaacf8830527f2" title="filename_walk" alt="" coords="919,1031,1024,1058"/>
-<area shape="rect" id="node74" href="$socket_8c.html#af9431bac87dba0fce4119b6cdabaa54d" title="Establish a connected TCP socket. " alt="" coords="1117,1791,1255,1818"/>
-<area shape="rect" id="node75" href="$socket_8c.html#a7fbf9c90e7ccd75b3020cd176d6e8f6a" title="Open an IPv4/IPv6 unconnected UDP socket. " alt="" coords="1113,1842,1259,1868"/>
-<area shape="rect" id="node76" href="$socket_8c.html#acca26db930ededbe9cd8a212773673b9" title="Bind a UDP/TCP v4/v6 socket to a given ipaddr src port, and interface. " alt="" coords="1133,1183,1239,1210"/>
-<area shape="rect" id="node77" href="$list_8c.html#a819a7f03c35470cf1b10ebd1aa170f1b" title="fr_packet_list_create" alt="" coords="900,727,1043,754"/>
-<area shape="rect" id="node78" href="$list_8c.html#a1807b6ff80aea6e0a25bcaa7ee433638" title="fr_packet_list_free" alt="" coords="1121,702,1251,728"/>
-<area shape="rect" id="node79" href="$list_8c.html#ac6cef27e9a2c41a15889ccde723d841d" title="fr_packet_list_socket_add" alt="" coords="1099,1740,1273,1767"/>
-<area shape="rect" id="node80" href="$radclient_8c.html#a23603af073373c501407f0fbb9864f88" title="radclient_sane" alt="" coords="918,1386,1025,1412"/>
-<area shape="rect" id="node81" href="$radclient_8c.html#a5c1612d6df50acd62840e79a923a4637" title="recv_one_packet" alt="" coords="1125,980,1247,1007"/>
-<area shape="rect" id="node82" href="$radclient_8c.html#a176efa61331731043767abb77e3db234" title="send_one_packet" alt="" coords="909,1690,1033,1716"/>
-<area shape="rect" id="node83" href="$rand_8c.html#ae6966accae06dc7d65d4cc51b5782383" title="Return a 32&#45;bit random number. " alt="" coords="1155,1639,1217,1666"/>
-<area shape="rect" id="node84" href="$time_8h.html#a3f87b408dfcb4d3212d1c8831ed360cd" title="fr_time_delta_from_sec" alt="" coords="892,1487,1051,1514"/>
-<area shape="rect" id="node85" href="$list_8c.html#aebe764c795a232ea5aca29c9ffa0f518" title="fr_packet_list_num\l_elements" alt="" coords="905,560,1037,601"/>
-<area shape="rect" id="node86" href="$protocols_2radius_2base_8c.html#a0d276f51c6b11597d7088cb20c5aff4f" title="fr_radius_free" alt="" coords="921,407,1022,434"/>
-<area shape="rect" id="node17" href="$thread__local_8c.html#a9482a34e217333759d0a661a3008a982" title="Talloc destructor for freeing list elements in order. " alt="" coords="1128,294,1244,320"/>
-<area shape="rect" id="node18" href="$thread__local_8c.html#add0b2914259a0a9d5051e91fcd06e017" title="Free any thread&#45;local exit handler lists that pthread_key failed to fre. " alt="" coords="1140,344,1232,371"/>
-<area shape="rect" id="node20" href="$strerror_8c.html#a4bdc99630960307e43639975cd3c5f0d" title="Pop the last library error with marker information. " alt="" coords="1745,828,1898,855"/>
-<area shape="rect" id="node21" href="$cursor_8c.html#a6194bc92357e84dc8720ffd5ccaaeb42" title="Remove the current item. " alt="" coords="1971,778,2093,804"/>
-<area shape="rect" id="node25" href="$rbtree_8c.html#a4eed40c77b050e68b00cf9d6334db2c4" title="Insert an element into the tree. " alt="" coords="1545,1994,1674,2020"/>
-<area shape="rect" id="node32" href="$hash_8c.html#a6974f4e57e045e0288676bfe037e217d" title="fr_hash_table_create" alt="" coords="1750,383,1893,410"/>
-<area shape="rect" id="node33" href="$dict__util_8c.html#aa6a050af9f8b085423db3dcb7f35df36" title="Wrap name hash function for fr_dict_protocol_t. " alt="" coords="1736,434,1907,460"/>
-<area shape="rect" id="node34" href="$dict__util_8c.html#a6428c35cc0944386b4659ad1071ef043" title="Compare two protocol names. " alt="" coords="1738,180,1905,207"/>
-<area shape="rect" id="node35" href="$dict__util_8c.html#a1d8de2e8b8e80e97d7e5c914a95ded70" title="Hash a protocol number. " alt="" coords="1740,231,1903,258"/>
-<area shape="rect" id="node36" href="$dict__util_8c.html#a77e422b32cb6360fb03d76718c60ae64" title="Compare two protocol numbers. " alt="" coords="1741,282,1901,308"/>
-<area shape="rect" id="node37" href="$dl_8c.html#a239fa469ef00fbaeb21effc648a2dfdc" title="Initialise structures needed by the dynamic linker. " alt="" coords="1772,1082,1871,1108"/>
-<area shape="rect" id="node38" href="$dl_8c.html#aab2f0ca03c499a4b168b41c9fbb4f1a3" title="Register a callback to execute when a dl with a particular symbol is first loaded. " alt="" coords="1733,130,1909,156"/>
-<area shape="rect" id="node40" href="$dict__util_8c.html#a5abc41b33f278b2bb64d7542fdf39c78" title="Callback to automatically load validation routines for dictionaries. " alt="" coords="1761,332,1881,359"/>
-<area shape="rect" id="node41" href="$dict__util_8c.html#a9a178020b219eb22d996111b9ee99a6b" title="_dict_global_free" alt="" coords="1761,980,1881,1007"/>
-<area shape="rect" id="node39" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="1979,332,2085,359"/>
-<area shape="rect" id="node42" href="$strerror_8c.html#a2f2232a184a763c76b3d87d5bea7a868" title="Add a message to an existing stack of messages. " alt="" coords="1957,1132,2107,1159"/>
-<area shape="rect" id="node48" href="$dict_8h.html#a7c79c676c03022a0e7404ae0232bd902" title="Return the root attribute of a dictionary. " alt="" coords="1143,138,1229,164"/>
-<area shape="rect" id="node49" href="$dict__tokenize_8c.html#a68539ee3162ef52bd4fa5b3b87dd3ece" title="dict_from_file" alt="" coords="1136,87,1236,114"/>
-<area shape="rect" id="node51" href="$dict__util_8c.html#a7c79c676c03022a0e7404ae0232bd902" title="Return the root attribute of a dictionary. " alt="" coords="1143,1335,1229,1362"/>
-<area shape="rect" id="node53" href="$lib_2util_2log_8c.html#a8ed2b7814dc328667424f22ab66463ce" title="Drain any outstanding messages from the fr_strerror buffers. " alt="" coords="1981,155,2083,182"/>
-<area shape="rect" id="node56" href="$inet_8c.html#a30e75e7a6db079b3de362c0fa66c4647" title="Parse an IPv6 address or IPv6 prefix in presentation format (and others) " alt="" coords="1773,1487,1870,1514"/>
-<area shape="rect" id="node57" href="$inet_8c.html#a692de3948a6ce6349acb797b86a3fb29" title="Simple wrapper to decide whether an IP value is v4 or v6 and call the appropriate parser..." alt="" coords="1564,1386,1655,1412"/>
-<area shape="rect" id="node59" href="$radclient_8c.html#a1961b6e22340f77540869586eabeeaef" title="getport" alt="" coords="1578,636,1641,663"/>
-<area shape="rect" id="node63" href="$lib_2util_2packet_8c.html#a423eb650322af201d32466ae0c6a6c10" title="Allocate a new fr_radius_packet_t. " alt="" coords="1556,1176,1663,1203"/>
-<area shape="rect" id="node64" href="$pair__legacy_8c.html#a6b735a8f873ae15babc0a65d9bb47d39" title="fr_pair_list_afrom_file" alt="" coords="1330,923,1477,950"/>
-<area shape="rect" id="node65" href="$value_8c.html#a4a254ead05a0af32769aee9e3da02238" title="Convert string value to a fr_value_box_t type. " alt="" coords="1328,1430,1479,1456"/>
-<area shape="rect" id="node66" href="$cursor_8c.html#a92733b72ea218ecff0bc7808fae613b7" title="Return the item the cursor current points to. " alt="" coords="1343,974,1463,1000"/>
-<area shape="rect" id="node67" href="$pair_8c.html#acc50c595dbf119f3e709aa0e60520f61" title="Sort a linked list of fr_pair_ts using merge sort. " alt="" coords="1348,670,1459,696"/>
-<area shape="rect" id="node68" href="$pair_8c.html#ae84505fa3c30f3122e619dd88f6087b0" title="Order attributes by their da, and tag. " alt="" coords="1337,720,1469,747"/>
-<area shape="rect" id="node69" href="$radclient_8c.html#ac32f17ca91b6983d53f5b23b043ac759" title="already_hex" alt="" coords="1357,1024,1449,1051"/>
-<area shape="rect" id="node70" href="$pair_8c.html#a94b766c393971cb82e7208df7d1d5d95" title="Copy data into a &quot;string&quot; type value pair. " alt="" coords="1327,1075,1480,1102"/>
-<area shape="rect" id="node71" href="$radclient_8c.html#a1ecc5636a44a38306b6862c083e362af" title="_rc_request_free" alt="" coords="1344,1126,1463,1152"/>
-<area shape="rect" id="node90" href="$lib_2util_2debug_8c.html#afc1d118c4bc6daee42e1bbdd1a483b5e" title="Log output to the fr_fault_log_fd. " alt="" coords="1989,2526,2075,2552"/>
-<area shape="rect" id="node91" href="$missing_8c.html#a71a0b8201763590a9d4914a3bb9e83b7" title="vdprintf" alt="" coords="2161,2526,2227,2552"/>
-<area shape="rect" id="node94" href="$lib_2util_2debug_8c.html#adf89acfbb384aeec5b0b47cec67969dc" title="Get the processes dumpable flag. " alt="" coords="1321,2298,1485,2324"/>
-<area shape="rect" id="node95" href="$lib_2util_2debug_8c.html#a408d4cc939bcfad7e28b75da3b962558" title="Set the dumpable flag, also controls whether processes can PATTACH. " alt="" coords="1104,2247,1268,2274"/>
-<area shape="rect" id="node96" href="$misc_8c.html#a00fca20102f76c9546f14121400eb4de" title="Uninstall a signal for a specific handler. " alt="" coords="397,2095,507,2122"/>
-<area shape="rect" id="node97" href="$lib_2util_2debug_8c.html#a350831691679c1350f8cd2b6342f67d5" title="Callback executed on fatal talloc error. " alt="" coords="376,2196,528,2223"/>
-<area shape="rect" id="node100" href="$lib_2util_2debug_8c.html#a076892064359b5723ae95c4fa5bb582a" title="_disable_null_tracking" alt="" coords="377,2610,527,2636"/>
+<area shape="rect" id="node2" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="827,867,893,893"/>
+<area shape="rect" id="node16" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="803,360,917,387"/>
+<area shape="rect" id="node31" href="$strlcpy_8c.html#a59f9599e77ee687b1daaa179f8b9a2f3" title="strlcpy" alt="" coords="829,917,891,944"/>
+<area shape="rect" id="node32" href="$lib_2util_2debug_8c.html#a028a26bf7b1a86842583607fe1bf67bb" title="Check to see if panic_action file is world writable. " alt="" coords="573,664,755,691"/>
+<area shape="rect" id="node33" href="$lib_2util_2debug_8c.html#a7fddecee0681d9fe5e73fbed0a79d99c" title="fr_get_debug_state" alt="" coords="167,372,301,399"/>
+<area shape="rect" id="node34" href="$lib_2util_2debug_8c.html#accb6786a2592c15ac4897a18bc0ec2d1" title="Wrapper to pass talloc log output to our fr_fault_log function. " alt="" coords="185,1069,283,1096"/>
+<area shape="rect" id="node37" href="$misc_8c.html#a0ef44c7d8222a02c6fd736929d0662f2" title="Sets a signal handler using sigaction if available, else signal. " alt="" coords="395,461,491,488"/>
+<area shape="rect" id="node39" href="$lib_2util_2debug_8c.html#a6db691b2bb242dfba0bedcfa14ca70a9" title="Prints a simple backtrace (if execinfo is available) and calls panic_action if set. " alt="" coords="203,689,265,716"/>
+<area shape="rect" id="node44" href="$lib_2util_2debug_8c.html#ac453b0d5bbc662ead9bb53d00e553d8f" title="Callback executed on fatal talloc error. " alt="" coords="611,765,717,792"/>
+<area shape="rect" id="node45" href="$lib_2util_2debug_8c.html#a1a2961be7bed5bfaa9cb8e23fe16c986" title="Disable the null tracking context when a talloc chunk is freed. " alt="" coords="155,1121,313,1162"/>
+<area shape="rect" id="node3" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="1549,841,1618,868"/>
+<area shape="rect" id="node4" href="$snprintf_8c.html#a242a1ad85c2e07e0d5d73b6342d97f13" title="vsnprintf" alt="" coords="990,1297,1062,1324"/>
+<area shape="rect" id="node14" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="1551,487,1615,513"/>
+<area shape="rect" id="node15" href="$radclient_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1001,816,1051,843"/>
+<area shape="rect" id="node5" href="$snprintf_8c.html#a5e332567c91e575955830fc977e9fba7" title="conv_flag" alt="" coords="2043,1537,2121,1564"/>
+<area shape="rect" id="node6" href="$snprintf_8c.html#a288e35a7e3ff8edbceab28da4d5b3804" title="floating" alt="" coords="1808,1399,1872,1425"/>
+<area shape="rect" id="node7" href="$snprintf_8c.html#a9b7362c605cc52163800c90eee10c402" title="exponent" alt="" coords="1920,1437,1995,1464"/>
+<area shape="rect" id="node8" href="$snprintf_8c.html#a1ad9bbbd459a4ec1b201e3d357ab2eb3" title="log_10" alt="" coords="2052,1260,2112,1287"/>
+<area shape="rect" id="node9" href="$snprintf_8c.html#af6234510a860429ad7e8c354e5ede4af" title="float64" alt="" coords="1167,1272,1229,1299"/>
+<area shape="rect" id="node10" href="$snprintf_8c.html#a334bc8b68b1dabe66676ea892aade3f7" title="octal" alt="" coords="1363,1323,1414,1349"/>
+<area shape="rect" id="node11" href="$snprintf_8c.html#acd8da45b6ecc250a4e6e118bd981d311" title="hexa" alt="" coords="1558,1373,1609,1400"/>
+<area shape="rect" id="node12" href="$snprintf_8c.html#a88621cc8266f205bfa9f686cdfd9eb1c" title="strings" alt="" coords="1699,1399,1760,1425"/>
+<area shape="rect" id="node13" href="$acutest_8h.html#a8e9dc24bf3e8d87394046aef2654847f" title="if" alt="" coords="1179,1171,1217,1197"/>
+<area shape="rect" id="node17" href="$strerror_8c.html#a193b1e0b3712e3bbee338812c06af482" title="fr_strerror_vprintf" alt="" coords="965,411,1087,437"/>
+<area shape="rect" id="node18" href="$strerror_8c.html#a42c2cc9f76fb9dac723a1903c181e1c7" title="Initialise thread local storage. " alt="" coords="1147,613,1249,640"/>
+<area shape="rect" id="node19" href="$strerror_8c.html#a2c8e65d6d4b73fb705cc023f60acb099" title="Print the current error to stderr with a prefix. " alt="" coords="1353,715,1424,741"/>
+<area shape="rect" id="node21" href="$strerror_8c.html#a9d878c1ddb1b385cdaf6523fff68529c" title="Reset cursor state. " alt="" coords="1527,664,1640,691"/>
+<area shape="rect" id="node22" href="$print_8c.html#a27ae94b5a4c77de49aa2f387765a4d58" title="Special version of vasprintf which implements custom format specifiers. " alt="" coords="1155,233,1241,260"/>
+<area shape="rect" id="node30" href="$cursor_8c.html#a5d942382660657c3b4cb6e9cb2b12b2c" title="Insert a single item at the start of the list. " alt="" coords="1135,461,1261,488"/>
+<area shape="rect" id="node20" href="$strerror_8c.html#afe66becac3be1b0b82b90889d27fcf99" title="_fr_logging_free" alt="" coords="1331,613,1446,640"/>
+<area shape="rect" id="node23" href="$value_8h.html#a878e0abfce7189a1784cdf15bc9fc3a3" title="fr_value_box_aprint" alt="" coords="1516,69,1651,96"/>
+<area shape="rect" id="node24" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="1516,145,1651,172"/>
+<area shape="rect" id="node25" href="$value_8c.html#a3a0550d465b81917f8b0c69a3373163e" title="Convert one type of fr_value_box_t to another. " alt="" coords="1325,5,1453,32"/>
+<area shape="rect" id="node26" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="1349,512,1428,539"/>
+<area shape="rect" id="node27" href="$value_8c.html#ad5da2574fed047b3ae861999d06c38ac" title="Clear/free any existing value and metadata. " alt="" coords="1323,259,1454,285"/>
+<area shape="rect" id="node28" href="$value_8c.html#a1064a346792dc1e5ecf05d04b4c1af55" title="Concatenate the string representations of a list of value boxes together. " alt="" coords="1309,107,1468,133"/>
+<area shape="rect" id="node29" href="$util_2pair_8h.html#acfe6934363fefdc67e14fc08a205952b" title="fr_pair_aprint" alt="" coords="1340,309,1437,336"/>
+<area shape="rect" id="node35" href="$lib_2util_2debug_8c.html#afc1d118c4bc6daee42e1bbdd1a483b5e" title="Log output to the fr_fault_log_fd. " alt="" coords="1345,917,1432,944"/>
+<area shape="rect" id="node36" href="$missing_8c.html#a71a0b8201763590a9d4914a3bb9e83b7" title="vdprintf" alt="" coords="1551,917,1616,944"/>
+<area shape="rect" id="node38" href="$syserror_8c.html#a18747f9d648d0aeecc4a8b27ac0435aa" title="Guaranteed to be thread&#45;safe version of strerror. " alt="" coords="622,613,706,640"/>
+<area shape="rect" id="node40" href="$lib_2util_2debug_8c.html#adf89acfbb384aeec5b0b47cec67969dc" title="Get the processes dumpable flag. " alt="" coords="582,360,746,387"/>
+<area shape="rect" id="node41" href="$lib_2util_2debug_8c.html#a408d4cc939bcfad7e28b75da3b962558" title="Set the dumpable flag, also controls whether processes can PATTACH. " alt="" coords="361,411,525,437"/>
+<area shape="rect" id="node42" href="$misc_8c.html#a00fca20102f76c9546f14121400eb4de" title="Uninstall a signal for a specific handler. " alt="" coords="388,613,499,640"/>
+<area shape="rect" id="node43" href="$lib_2util_2debug_8c.html#a350831691679c1350f8cd2b6342f67d5" title="Callback executed on fatal talloc error. " alt="" coords="367,715,519,741"/>
+<area shape="rect" id="node46" href="$lib_2util_2debug_8c.html#a076892064359b5723ae95c4fa5bb582a" title="_disable_null_tracking" alt="" coords="368,1128,519,1155"/>
 </map>

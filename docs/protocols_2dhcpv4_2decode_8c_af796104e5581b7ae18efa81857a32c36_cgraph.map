@@ -1,38 +1,51 @@
 <map id="fr_dhcpv4_decode_proto" name="fr_dhcpv4_decode_proto">
-<area shape="rect" id="node2" href="$protocols_2dhcpv4_2base_8c.html#a1db51eb9443d33d68d70c649ceba88c6" title="Check received DHCP request is valid and build fr_radius_packet_t structure if it is..." alt="" coords="1197,67,1297,94"/>
-<area shape="rect" id="node14" href="$dhcpv4_8h.html#ad0a23cd10d1d47c153e694d7fd803867" title="fr_dhcpv4_decode" alt="" coords="217,387,345,414"/>
-<area shape="rect" id="node3" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1570,354,1685,380"/>
-<area shape="rect" id="node13" href="$dhcpv4_8h.html#ac3ff3610a619c3e3d4678c12489548c9" title="Retrieve a DHCP option from a raw packet buffer. " alt="" coords="1366,118,1517,160"/>
-<area shape="rect" id="node4" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="2276,67,2345,94"/>
-<area shape="rect" id="node5" href="$strerror_8c.html#a193b1e0b3712e3bbee338812c06af482" title="fr_strerror_vprintf" alt="" coords="1735,270,1856,296"/>
-<area shape="rect" id="node8" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="2279,320,2343,347"/>
-<area shape="rect" id="node6" href="$strerror_8c.html#a42c2cc9f76fb9dac723a1903c181e1c7" title="Initialise thread local storage. " alt="" coords="1916,168,2019,195"/>
-<area shape="rect" id="node7" href="$strerror_8c.html#a2c8e65d6d4b73fb705cc023f60acb099" title="Print the current error to stderr with a prefix. " alt="" coords="2118,118,2189,144"/>
-<area shape="rect" id="node9" href="$strerror_8c.html#a9d878c1ddb1b385cdaf6523fff68529c" title="Reset cursor state. " alt="" coords="2097,194,2210,220"/>
-<area shape="rect" id="node10" href="$print_8c.html#a27ae94b5a4c77de49aa2f387765a4d58" title="Special version of vasprintf which implements custom format specifiers. " alt="" coords="1924,422,2011,448"/>
-<area shape="rect" id="node12" href="$cursor_8c.html#a5d942382660657c3b4cb6e9cb2b12b2c" title="Insert a single item at the start of the list. " alt="" coords="1904,270,2031,296"/>
-<area shape="rect" id="node11" href="$value_8c.html#a3a0550d465b81917f8b0c69a3373163e" title="Convert one type of fr_value_box_t to another. " alt="" coords="2089,472,2217,499"/>
-<area shape="rect" id="node15" href="$pair_8c.html#a2897183dcbc65ef1b54619bd293fd735" title="Dynamically allocate a new attribute and fill in the da field. " alt="" coords="1013,286,1132,312"/>
-<area shape="rect" id="node16" href="$strerror_8c.html#a2f2232a184a763c76b3d87d5bea7a868" title="Add a message to an existing stack of messages. " alt="" coords="2079,16,2228,43"/>
-<area shape="rect" id="node17" href="$cursor_8c.html#ac0e33de2a6f1cb5e82c4d4e4255c2b95" title="Rewind cursor to the start of the list. " alt="" coords="425,387,533,414"/>
-<area shape="rect" id="node18" href="$cursor_8c.html#a4063f03b77486d37515dc637f18de69d" title="Free the current item and all items after it. " alt="" coords="415,438,542,464"/>
-<area shape="rect" id="node20" href="$pair_8c.html#acef35ba3cb2e396515cba5e01ca776ff" title="Mark malformed or unrecognised attributed as unknown. " alt="" coords="1180,548,1315,575"/>
-<area shape="rect" id="node25" href="$pair_8c.html#a94b766c393971cb82e7208df7d1d5d95" title="Copy data into a &quot;string&quot; type value pair. " alt="" coords="402,539,555,566"/>
-<area shape="rect" id="node26" href="$pair_8c.html#ad6a4af5aec8fe8bac9db2211ae354989" title="Copy data into an &quot;octets&quot; data type. " alt="" coords="402,590,555,616"/>
-<area shape="rect" id="node27" href="$value_8c.html#ae02199d4f2a1aa2a8d6d617f1b072f20" title="Decode a fr_value_box_t from serialized binary data. " alt="" coords="783,343,965,370"/>
-<area shape="rect" id="node28" href="$cursor_8c.html#a6e72682a046a3eeac734da6639f1817c" title="Insert a single item at the end of the list. " alt="" coords="417,691,540,718"/>
-<area shape="rect" id="node29" href="$protocols_2dhcpv4_2decode_8c.html#aa4f678bb92ce10ebee2a79b8de5d2b2a" title="Decode DHCP option. " alt="" coords="393,640,564,667"/>
-<area shape="rect" id="node36" href="$pair_8c.html#ac3e6ae214c078ffe6f2648f1c12159ff" title="Find the pair with the matching DAs. " alt="" coords="415,134,543,160"/>
-<area shape="rect" id="node37" href="$pair_8c.html#a5fa73ca22e224c1973cb8d9239ea1ba5" title="Delete matching pairs from the specified list. " alt="" coords="407,235,550,262"/>
-<area shape="rect" id="node19" href="$cursor_8c.html#a6194bc92357e84dc8720ffd5ccaaeb42" title="Remove the current item. " alt="" coords="612,387,735,414"/>
-<area shape="rect" id="node21" href="$dict_8h.html#a55644eb5b75ecb783881d0b3a3294192" title="Allocates an unknown attribute. " alt="" coords="1363,598,1520,640"/>
-<area shape="rect" id="node23" href="$dict__ext_8h.html#affb00364829956930ef20d851f569aab" title="Return the vendor number for an attribute. " alt="" coords="1373,533,1509,574"/>
-<area shape="rect" id="node24" href="$dict_8h.html#a097b7c156d8149666eec5bdf2a1e0d9d" title="Free dynamically allocated (unknown attributes) " alt="" coords="1368,818,1515,844"/>
-<area shape="rect" id="node22" href="$dict_8h.html#ade71dd6bfb60945aa34a7f0d5286d6c1" title="Check if a child attribute exists in a parent using an attribute number. " alt="" coords="1568,817,1687,858"/>
-<area shape="rect" id="node30" href="$dict_8h.html#a7c79c676c03022a0e7404ae0232bd902" title="Return the root attribute of a dictionary. " alt="" coords="630,779,717,806"/>
-<area shape="rect" id="node31" href="$protocols_2dhcpv4_2decode_8c.html#a34641dcc1f0c2d05d6181ffb4b7a57fe" title="decode_vsa" alt="" coords="627,728,719,755"/>
-<area shape="rect" id="node33" href="$protocols_2dhcpv4_2decode_8c.html#ae7fdf80b2344031e56ef67ea94d153d7" title="decode_value" alt="" coords="1021,691,1124,718"/>
-<area shape="rect" id="node32" href="$protocols_2dhcpv4_2decode_8c.html#a7776ab201180f73b9fae09cc722324e4" title="decode_raw" alt="" coords="828,808,920,835"/>
-<area shape="rect" id="node34" href="$protocols_2dhcpv4_2decode_8c.html#a0c249744789efd0ae4efb33ed48b1951" title="RFC 4243 Vendor Specific Suboptions. " alt="" coords="1205,724,1290,751"/>
-<area shape="rect" id="node35" href="$dict_8h.html#ab37cbda91e1af968176eb5d23868282a" title="Build an unknown vendor, parented by a VSA attribute. " alt="" coords="793,692,955,733"/>
+<area shape="rect" id="node2" href="$protocols_2dhcpv4_2base_8c.html#a1db51eb9443d33d68d70c649ceba88c6" title="Check received DHCP request is valid and build fr_radius_packet_t structure if it is..." alt="" coords="435,162,535,189"/>
+<area shape="rect" id="node16" href="$dhcpv4_8h.html#ad0a23cd10d1d47c153e694d7fd803867" title="fr_dhcpv4_decode" alt="" coords="217,851,345,878"/>
+<area shape="rect" id="node3" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="859,569,973,595"/>
+<area shape="rect" id="node15" href="$dhcpv4_8h.html#ac3ff3610a619c3e3d4678c12489548c9" title="Retrieve a DHCP option from a raw packet buffer. " alt="" coords="633,96,784,137"/>
+<area shape="rect" id="node4" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="1607,294,1676,321"/>
+<area shape="rect" id="node5" href="$strerror_8c.html#a193b1e0b3712e3bbee338812c06af482" title="fr_strerror_vprintf" alt="" coords="1056,522,1177,549"/>
+<area shape="rect" id="node8" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="1609,623,1673,650"/>
+<area shape="rect" id="node6" href="$strerror_8c.html#a42c2cc9f76fb9dac723a1903c181e1c7" title="Initialise thread local storage. " alt="" coords="1245,497,1348,523"/>
+<area shape="rect" id="node7" href="$strerror_8c.html#a2c8e65d6d4b73fb705cc023f60acb099" title="Print the current error to stderr with a prefix. " alt="" coords="1429,497,1499,523"/>
+<area shape="rect" id="node9" href="$strerror_8c.html#a9d878c1ddb1b385cdaf6523fff68529c" title="Reset cursor state. " alt="" coords="1407,421,1521,447"/>
+<area shape="rect" id="node10" href="$print_8c.html#a27ae94b5a4c77de49aa2f387765a4d58" title="Special version of vasprintf which implements custom format specifiers. " alt="" coords="1253,750,1340,777"/>
+<area shape="rect" id="node11" href="$value_8c.html#a3a0550d465b81917f8b0c69a3373163e" title="Convert one type of fr_value_box_t to another. " alt="" coords="1400,826,1528,853"/>
+<area shape="rect" id="node14" href="$value_8c.html#ad5da2574fed047b3ae861999d06c38ac" title="Clear/free any existing value and metadata. " alt="" coords="1399,902,1529,929"/>
+<area shape="rect" id="node12" href="$value_8c.html#a065070f212d94637ae729855d7cc2237" title="Performs byte order reversal for types that need it. " alt="" coords="1577,953,1705,979"/>
+<area shape="rect" id="node13" href="$value_8h.html#ab2f9fbd42c467414fa4e5c3793fb3572" title="Initialise a fr_value_box_t. " alt="" coords="1753,978,1873,1005"/>
+<area shape="rect" id="node17" href="$pair_8c.html#a2897183dcbc65ef1b54619bd293fd735" title="Dynamically allocate a new attribute and fill in the da field. " alt="" coords="425,289,544,315"/>
+<area shape="rect" id="node20" href="$strerror_8c.html#a2f2232a184a763c76b3d87d5bea7a868" title="Add a message to an existing stack of messages. " alt="" coords="841,294,991,321"/>
+<area shape="rect" id="node22" href="$cursor_8c.html#ac0e33de2a6f1cb5e82c4d4e4255c2b95" title="Rewind cursor to the start of the list. " alt="" coords="1243,1459,1351,1486"/>
+<area shape="rect" id="node24" href="$cursor_8c.html#a4063f03b77486d37515dc637f18de69d" title="Free the current item and all items after it. " alt="" coords="853,1510,979,1537"/>
+<area shape="rect" id="node26" href="$pair_8c.html#acef35ba3cb2e396515cba5e01ca776ff" title="Mark malformed or unrecognised attributed as unknown. " alt="" coords="417,507,552,534"/>
+<area shape="rect" id="node31" href="$pair_8c.html#a94b766c393971cb82e7208df7d1d5d95" title="Copy data into a &quot;string&quot; type value pair. " alt="" coords="408,1003,561,1030"/>
+<area shape="rect" id="node33" href="$pair_8c.html#ad6a4af5aec8fe8bac9db2211ae354989" title="Copy data into an &quot;octets&quot; data type. " alt="" coords="408,902,561,929"/>
+<area shape="rect" id="node35" href="$value_8c.html#ae02199d4f2a1aa2a8d6d617f1b072f20" title="Decode a fr_value_box_t from serialized binary data. " alt="" coords="393,1181,576,1207"/>
+<area shape="rect" id="node40" href="$cursor_8c.html#a6e72682a046a3eeac734da6639f1817c" title="Insert a single item at the end of the list. " alt="" coords="855,1561,977,1587"/>
+<area shape="rect" id="node42" href="$protocols_2dhcpv4_2decode_8c.html#aa4f678bb92ce10ebee2a79b8de5d2b2a" title="Decode DHCP option. " alt="" coords="399,649,570,675"/>
+<area shape="rect" id="node46" href="$pair_8c.html#ac3e6ae214c078ffe6f2648f1c12159ff" title="Find the pair with the matching DAs. " alt="" coords="421,238,549,265"/>
+<area shape="rect" id="node47" href="$pair_8c.html#a5fa73ca22e224c1973cb8d9239ea1ba5" title="Delete matching pairs from the specified list. " alt="" coords="413,1637,556,1663"/>
+<area shape="rect" id="node18" href="$pair_8c.html#ae760eec888755906c0196a13801a53df" title="Dynamically allocate a new attribute. " alt="" coords="663,314,755,341"/>
+<area shape="rect" id="node19" href="$dict_8h.html#af5e7c4344dae37b2ae61c1b78c0cc1bc" title="Copy a known or unknown attribute to produce an unknown attribute with the specified name..." alt="" coords="629,213,788,239"/>
+<area shape="rect" id="node21" href="$strerror_8c.html#a986fb6cf52b0bb19d3a1a0d815d8dd5e" title="Add a message to an existing stack of messages. " alt="" coords="1039,623,1195,650"/>
+<area shape="rect" id="node23" href="$cursor_8c.html#a45a517ea8503ebd7ee4dd286ffb59b90" title="Internal function to get the next item. " alt="" coords="1419,1535,1509,1562"/>
+<area shape="rect" id="node25" href="$cursor_8c.html#a6194bc92357e84dc8720ffd5ccaaeb42" title="Remove the current item. " alt="" coords="1055,1510,1178,1537"/>
+<area shape="rect" id="node27" href="$dict_8h.html#a55644eb5b75ecb783881d0b3a3294192" title="Allocates an unknown attribute. " alt="" coords="630,532,787,573"/>
+<area shape="rect" id="node29" href="$dict__ext_8h.html#affb00364829956930ef20d851f569aab" title="Return the vendor number for an attribute. " alt="" coords="641,467,777,508"/>
+<area shape="rect" id="node30" href="$dict_8h.html#a097b7c156d8149666eec5bdf2a1e0d9d" title="Free dynamically allocated (unknown attributes) " alt="" coords="635,415,782,442"/>
+<area shape="rect" id="node28" href="$dict_8h.html#ade71dd6bfb60945aa34a7f0d5286d6c1" title="Check if a child attribute exists in a parent using an attribute number. " alt="" coords="857,743,975,784"/>
+<area shape="rect" id="node32" href="$value_8c.html#ae0b1761c6357b230478529a2293f4bf6" title="Copy a string to to a fr_value_box_t. " alt="" coords="632,1105,785,1131"/>
+<area shape="rect" id="node34" href="$value_8c.html#af7e5339e09823aff580c0ac63c5d5c84" title="Copy a buffer to a fr_value_box_t. " alt="" coords="632,953,785,979"/>
+<area shape="rect" id="node36" href="$dbuff_8c.html#a6e56446e714b3c7a19bf9537185674ec" title="min" alt="" coords="687,1358,730,1385"/>
+<area shape="rect" id="node37" href="$time_8h.html#a3f87b408dfcb4d3212d1c8831ed360cd" title="fr_time_delta_from_sec" alt="" coords="629,1206,788,1233"/>
+<area shape="rect" id="node38" href="$time_8h.html#a0dc16647a369e480c265b6354b04bc95" title="fr_time_delta_from_msec" alt="" coords="624,1257,793,1283"/>
+<area shape="rect" id="node39" href="$time_8h.html#adc009022f3682ade407df270bfc7c496" title="fr_time_delta_from_usec" alt="" coords="626,1307,791,1334"/>
+<area shape="rect" id="node41" href="$cursor_8c.html#a8bff1cf971c70ff3c9b5ac03bc6a7042" title="Internal function to get the last attribute. " alt="" coords="1075,1561,1158,1587"/>
+<area shape="rect" id="node43" href="$dict_8h.html#a7c79c676c03022a0e7404ae0232bd902" title="Return the root attribute of a dictionary. " alt="" coords="665,699,752,726"/>
+<area shape="rect" id="node44" href="$protocols_2dhcpv4_2decode_8c.html#a34641dcc1f0c2d05d6181ffb4b7a57fe" title="decode_vsa" alt="" coords="663,750,755,777"/>
+<area shape="rect" id="node45" href="$protocols_2dhcpv4_2decode_8c.html#ae7fdf80b2344031e56ef67ea94d153d7" title="decode_value" alt="" coords="657,649,760,675"/>
+<area shape="rect" id="node48" href="$util_2pair_8h.html#a078d7dfa9ea0f6beae478c6c913aa4e2" title="Initialise a cursor that will return only attributes matching the specified fr_dict_attr_t. " alt="" coords="627,1713,791,1739"/>
+<area shape="rect" id="node49" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="1244,1611,1349,1638"/>
+<area shape="rect" id="node50" href="$cursor_8h.html#ae89f379d1f6985ee4335586e0acd0df6" title="talloc_free the current item " alt="" coords="641,1662,776,1689"/>
 </map>

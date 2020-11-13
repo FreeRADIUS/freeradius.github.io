@@ -1,101 +1,51 @@
 <map id="compile_item" name="compile_item">
-<area shape="rect" id="node2" href="$cf__util_8c.html#ac62896418466fa77d420ce305760d89f" title="Determine if CONF_ITEM is a CONF_SECTION. " alt="" coords="820,2688,951,2715"/>
-<area shape="rect" id="node3" href="$cf__util_8c.html#aab50ea84d9d2e1a6305416daee9206b8" title="Cast a CONF_ITEM to a CONF_SECTION. " alt="" coords="819,2637,951,2664"/>
-<area shape="rect" id="node4" href="$cf__util_8c.html#ae802d285e3f5dee90043bc93d0e3731c" title="Return the second identifier of a CONF_SECTION. " alt="" coords="821,3144,949,3171"/>
-<area shape="rect" id="node5" href="$cf__util_8c.html#a0a71c4d20c31efd33b43308c25a9bef7" title="Determine if CONF_ITEM is a CONF_PAIR. " alt="" coords="830,2815,941,2841"/>
-<area shape="rect" id="node6" href="$cf__util_8c.html#a0b81abd70879f08eb45a4df377461b84" title="Cast a CONF_ITEM to a CONF_PAIR. " alt="" coords="830,2739,941,2765"/>
-<area shape="rect" id="node7" href="$cf__util_8c.html#a187b41a9251efe3956a13189a0d08723" title="Return the attr of a CONF_PAIR. " alt="" coords="842,2587,929,2613"/>
-<area shape="rect" id="node8" href="$cf__util_8c.html#a6009a34d7c2ce9c90082595491a17339" title="Return the value of a CONF_PAIR. " alt="" coords="836,3068,935,3095"/>
-<area shape="rect" id="node9" href="$cf__util_8c.html#a143827ea1b6125c79b68800874881ca6" title="Return the value (lhs) quoting of a pair. " alt="" coords="371,2333,497,2360"/>
-<area shape="rect" id="node10" href="$compile_8c.html#a01f090f7da5123544bf98560e1670673" title="compile_tmpl" alt="" coords="180,2207,279,2233"/>
-<area shape="rect" id="node81" href="$compile_8c.html#a5373c9a3571fd2b7fe3ba222148105f6" title="Load a named module from &quot;instantiate&quot; or &quot;policy&quot;. " alt="" coords="152,2587,307,2613"/>
-<area shape="rect" id="node82" href="$cf__util_8c.html#a2c8bfb80ce8fa2752c8f8aa636dee24f" title="Find a CONF_SECTION with name1 and optionally name2. " alt="" coords="379,2485,489,2512"/>
-<area shape="rect" id="node86" href="$strlcpy_8c.html#a59f9599e77ee687b1daaa179f8b9a2f3" title="strlcpy" alt="" coords="199,3245,260,3272"/>
-<area shape="rect" id="node87" href="$compile_8c.html#a0f93dc26c243959b1cd747e7cf1df1bb" title="compile_function" alt="" coords="169,2941,289,2968"/>
-<area shape="rect" id="node94" href="$src_2lib_2server_2module_8c.html#a8438c4d8bae55f3f479c2d9176c0e3a0" title="Find an existing module instance and verify it implements the specified method. " alt="" coords="577,259,729,301"/>
-<area shape="rect" id="node97" href="$compile_8c.html#a3896c430272ad687050529696248b4f7" title="compile_module" alt="" coords="376,157,492,184"/>
-<area shape="rect" id="node11" href="$unlang__priv_8h.html#a5fd8144991b05a0cde9a3f8b9447c82c" title="unlang_tmpl_to_generic" alt="" coords="355,1111,513,1137"/>
-<area shape="rect" id="node24" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="1053,2333,1132,2360"/>
-<area shape="rect" id="node66" href="$server_2tmpl_8h.html#a6b3010a6d2e24fcf39a9d08ea154be08" title="Convert an arbitrary string into a tmpl_t. " alt="" coords="588,2131,719,2157"/>
-<area shape="rect" id="node79" href="$lib_2util_2log_8c.html#af7c9a7c610ae18dd76a8c9b752844be8" title="Canonicalize error strings, removing tabs, and generate spaces for error marker. " alt="" coords="363,2232,505,2259"/>
-<area shape="rect" id="node80" href="$compile_8c.html#a859bb21dfc0ada54aa762c3b7b72757a" title="compile_action_defaults" alt="" coords="804,325,967,352"/>
-<area shape="rect" id="node12" href="$unlang__priv_8h.html#a06f6fba9b6f8a9831a34c445ff1ecb9f" title="Push a new frame onto the stack. " alt="" coords="579,427,728,453"/>
-<area shape="rect" id="node15" href="$unlang__priv_8h.html#afca374bf312b3030a8d1435be0513d26" title="unlang_op_init" alt="" coords="601,655,706,681"/>
-<area shape="rect" id="node16" href="$unlang__priv_8h.html#a6a4ba1df6e016828f58b23d971d33b43" title="unlang_op_free" alt="" coords="598,705,709,732"/>
-<area shape="rect" id="node17" href="$unlang__priv_8h.html#a6ab135991d0c8e21b9b4fb94c619311f" title="unlang_io_process_interpret" alt="" coords="561,933,745,960"/>
-<area shape="rect" id="node18" href="$unlang__priv_8h.html#a74fd54c7579e06817b3c8ca6a3344105" title="Allocate a child request based on the parent. " alt="" coords="579,495,727,537"/>
-<area shape="rect" id="node20" href="$unlang__priv_8h.html#a49588eeff94b32b52512db36db55b59b" title="unlang_call_init" alt="" coords="598,1647,709,1673"/>
-<area shape="rect" id="node26" href="$unlang__priv_8h.html#aefcb135b6bd137ddb87d6bf2cd31b94c" title="unlang_caller_init" alt="" coords="592,1491,715,1517"/>
-<area shape="rect" id="node29" href="$unlang__priv_8h.html#a4f01593ae92ed91382415d09ea90c904" title="unlang_condition_init" alt="" coords="582,1035,725,1061"/>
-<area shape="rect" id="node31" href="$unlang__priv_8h.html#aee5ff52c892e2e6b6f21730cd93f99f6" title="unlang_foreach_init" alt="" coords="586,857,721,884"/>
-<area shape="rect" id="node39" href="$unlang__priv_8h.html#a77e7ad7fd3638ddd6461ff63be3a19c4" title="unlang_foreach_free" alt="" coords="584,756,723,783"/>
-<area shape="rect" id="node41" href="$unlang__priv_8h.html#ac370b76fc93b1f10b0ba0ead67a5588f" title="unlang_function_init" alt="" coords="585,984,722,1011"/>
-<area shape="rect" id="node43" href="$unlang__priv_8h.html#a7123f761a5402d204901fc6f1c0a92f2" title="unlang_group_init" alt="" coords="592,1085,715,1112"/>
-<area shape="rect" id="node45" href="$unlang__priv_8h.html#a6b84f208ed5faa4823cb093c2b3cc6a2" title="unlang_load_balance_init" alt="" coords="570,1288,737,1315"/>
-<area shape="rect" id="node47" href="$unlang__priv_8h.html#a4acb4f0c9e4b6bbaf8be96f442bf5d2a" title="unlang_map_init" alt="" coords="595,1136,711,1163"/>
-<area shape="rect" id="node50" href="$unlang__priv_8h.html#aacac2f2ef83343ae1a0651c3e709fa7f" title="unlang_module_init" alt="" coords="587,1339,720,1365"/>
-<area shape="rect" id="node53" href="$unlang__priv_8h.html#a8e6b3d4cbbd2ad8bbbe7e8e3c08eb8ed" title="unlang_return_init" alt="" coords="591,1389,715,1416"/>
-<area shape="rect" id="node55" href="$unlang__priv_8h.html#a778d7f18c3477464408e669b55b131f9" title="unlang_parallel_init" alt="" coords="587,1440,719,1467"/>
-<area shape="rect" id="node58" href="$unlang__priv_8h.html#a3404ea4ea923c7da0dbc6f57a5d0e5c4" title="unlang_subrequest_op_init" alt="" coords="565,1596,741,1623"/>
-<area shape="rect" id="node63" href="$unlang__priv_8h.html#aeae12a7f6042439203caf744c2698050" title="unlang_subrequest_op_free" alt="" coords="563,604,744,631"/>
-<area shape="rect" id="node64" href="$unlang__priv_8h.html#a12512095434e22f5438a21735f75dea6" title="unlang_switch_init" alt="" coords="589,1237,718,1264"/>
-<area shape="rect" id="node65" href="$unlang__priv_8h.html#a2d20f42893c832b4b262f9d55fbf5123" title="unlang_tmpl_init_shallow" alt="" coords="570,1187,737,1213"/>
-<area shape="rect" id="node13" href="$unlang__priv_8h.html#aa4c8f320f83d5d13551043fd92198e87" title="top_frame_set" alt="" coords="833,427,938,453"/>
-<area shape="rect" id="node14" href="$interpret_8c.html#a42aa39726319d6ee4ff8119d4aa42ec8" title="frame_state_init" alt="" coords="828,376,943,403"/>
-<area shape="rect" id="node19" href="$lib_2unlang_2io_8c.html#a7c747bc4b53263b7d9c0eb67e1165caa" title="Run the interpreter after creating a subrequest. " alt="" coords="793,477,977,504"/>
-<area shape="rect" id="node21" href="$lib_2unlang_2base_8c.html#a0ecfcb4b05d880692f9648311b7989e0" title="Register an operation with the interpreter. " alt="" coords="830,1237,941,1264"/>
-<area shape="rect" id="node22" href="$call_8c.html#a92568bf8b8795615bfed590d95ab15d2" title="unlang_call_frame_init" alt="" coords="810,2333,961,2360"/>
-<area shape="rect" id="node23" href="$cf__util_8c.html#a5db99282bb519c1d025b2eff5d602bfc" title="Return the second identifier of a CONF_SECTION. " alt="" coords="1029,3245,1157,3272"/>
-<area shape="rect" id="node25" href="$cursor_8c.html#ac0e33de2a6f1cb5e82c4d4e4255c2b95" title="Rewind cursor to the start of the list. " alt="" coords="1208,2089,1316,2116"/>
-<area shape="rect" id="node27" href="$caller_8c.html#a8ae11d25eb0af830e0f5d9ccb057bd40" title="unlang_caller" alt="" coords="836,1592,935,1619"/>
-<area shape="rect" id="node28" href="$group_8c.html#a56a2028da21c88303189b3baa9cdb11e" title="unlang_group" alt="" coords="1043,1035,1142,1061"/>
-<area shape="rect" id="node30" href="$condition_8c.html#a7f18796266990795b1dc27c19f334dca" title="unlang_if" alt="" coords="848,984,923,1011"/>
-<area shape="rect" id="node32" href="$xlat_8h.html#a1ddb137dc14241c9b74b7675075f5161" title="Register an old style xlat function. " alt="" coords="816,579,955,605"/>
-<area shape="rect" id="node35" href="$group__xlat__functions.html#ga862afae5f156a5da8b35e439774bbd32" title="Implements the Foreach&#45;Variable&#45;X. " alt="" coords="816,731,955,757"/>
-<area shape="rect" id="node36" href="$xlat_8h.html#acbc709cfd9ef4ef3e91cc835dbd2ab1a" title="Mark an xlat function as internal. " alt="" coords="839,781,931,808"/>
-<area shape="rect" id="node37" href="$foreach_8c.html#a1ea3a1c39a196f3cff4f58d2d7920472" title="unlang_foreach" alt="" coords="830,832,941,859"/>
-<area shape="rect" id="node38" href="$foreach_8c.html#a3e42e33412cdd8a870603d4e45185f88" title="unlang_break" alt="" coords="836,680,935,707"/>
-<area shape="rect" id="node33" href="$rbtree_8c.html#ac6772a18f3e04b23f71ad7994c7587ed" title="Find an element in the tree, returning the data, not the node. " alt="" coords="1039,528,1147,555"/>
-<area shape="rect" id="node34" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="1025,317,1160,344"/>
-<area shape="rect" id="node40" href="$xlat_8h.html#a8a733f13790efdab80e73984551e5458" title="Unregister an xlat function. " alt="" coords="832,528,939,555"/>
-<area shape="rect" id="node42" href="$function_8c.html#a77fd8de4244e04a40f9ae9325b79a0fc" title="Call a generic function. " alt="" coords="815,883,955,909"/>
-<area shape="rect" id="node44" href="$group_8c.html#a4b352c5c69d23dfce43c0a827e8e3095" title="unlang_policy" alt="" coords="835,1035,936,1061"/>
-<area shape="rect" id="node46" href="$load__balance_8c.html#a7ef45cdb2a042b7fcde705bac693e181" title="unlang_load_balance" alt="" coords="814,1288,957,1315"/>
-<area shape="rect" id="node48" href="$lib_2unlang_2map_8c.html#a556b6df1933cba6c5980602a1ae115b4" title="Execute an update block. " alt="" coords="802,1187,969,1213"/>
-<area shape="rect" id="node49" href="$lib_2unlang_2map_8c.html#ae2f1d63a1f0c479530fde5490a59e861" title="unlang_map_state_init" alt="" coords="809,1136,961,1163"/>
-<area shape="rect" id="node51" href="$src_2lib_2unlang_2module_8c.html#af5ae86de14150b496eb2d1f0e5d06882" title="unlang_module" alt="" coords="831,1339,940,1365"/>
-<area shape="rect" id="node52" href="$src_2lib_2unlang_2module_8c.html#a630369b7f8cbd6e00042f2ca153f241e" title="Send a signal (usually stop) to a request. " alt="" coords="810,1389,961,1416"/>
-<area shape="rect" id="node54" href="$return_8c.html#a6f0e270047810f8095640a4dee2652a4" title="unlang_return" alt="" coords="835,1440,935,1467"/>
-<area shape="rect" id="node56" href="$parallel_8c.html#a5cb8fe19338eea9075c68dc0cd12ca11" title="unlang_parallel" alt="" coords="831,1541,939,1568"/>
-<area shape="rect" id="node57" href="$parallel_8c.html#a8a3e18dda1e087f49832dd18bfa66103" title="Send a signal from parent request to all of it&#39;s children. " alt="" coords="811,1491,960,1517"/>
-<area shape="rect" id="node59" href="$dict_8h.html#a10a10d51e32b7c32cd3226eb3a20c5e3" title="Process a dict_autoload element to load a protocol. " alt="" coords="828,1709,943,1736"/>
-<area shape="rect" id="node61" href="$dict_8h.html#a9f3bf5c0208b67be69551a3f2ac6b0e6" title="Process a dict_attr_autoload element to load/verify a dictionary attribute. " alt="" coords="815,1811,955,1837"/>
-<area shape="rect" id="node62" href="$subrequest__priv_8h.html#a2158676345c7a6d964263704448f845e" title="Cast a subrequest keyword extension to a group structure. " alt="" coords="811,1643,960,1685"/>
-<area shape="rect" id="node60" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1035,1979,1150,2005"/>
-<area shape="rect" id="node67" href="$tmpl__tokenize_8c.html#a4d47ea8e23c48f5da3446f9a9f93de38" title="Parse a string into a TMPL_TYPE_ATTR_* or TMPL_TYPE_LIST type tmpl_t. " alt="" coords="807,1928,963,1955"/>
-<area shape="rect" id="node68" href="$tmpl__tokenize_8c.html#a47f675320b09b814dae37c50f1e9dd42" title="Create a new heap allocated tmpl_t. " alt="" coords="831,2384,939,2411"/>
-<area shape="rect" id="node69" href="$xlat_8h.html#aa8cdfeefc1361ab8aedc5c31160647ae" title="Tokenize an xlat expansion. " alt="" coords="836,2435,935,2461"/>
-<area shape="rect" id="node70" href="$xlat_8h.html#a85829f4364557f22d8e7da7f6f5b826b" title="Tokenize an xlat expansion at runtime. " alt="" coords="802,2283,969,2309"/>
-<area shape="rect" id="node71" href="$tmpl__tokenize_8c.html#a19811d2995faa774b875c093a453bc85" title="Initialise a tmpl using a literal string to create the name. " alt="" coords="850,2485,921,2512"/>
-<area shape="rect" id="node72" href="$tmpl__tokenize_8c.html#a0704138f98f9281d31b85eae9c4ed34d" title="Parse a truth value. " alt="" coords="805,2029,966,2056"/>
-<area shape="rect" id="node73" href="$tmpl__tokenize_8c.html#a865596da97a144f32c49dac1505bbca9" title="Parse bareword as an octet string. " alt="" coords="799,2080,972,2107"/>
-<area shape="rect" id="node74" href="$tmpl__tokenize_8c.html#afa4b839f5c7fc54a6d46bc007aae5cae" title="Parse bareword as an IPv4 address or prefix. " alt="" coords="805,2131,966,2157"/>
-<area shape="rect" id="node75" href="$tmpl__tokenize_8c.html#a2320e2b41d1c0db5c20812cc47be2d91" title="Parse bareword as an IPv6 address or prefix. " alt="" coords="805,2181,966,2208"/>
-<area shape="rect" id="node76" href="$tmpl__tokenize_8c.html#a2841b5c1ac46afb7fef477f05d5cf477" title="Try and parse signed or unsigned integers. " alt="" coords="819,1862,952,1903"/>
-<area shape="rect" id="node77" href="$xlat_8h.html#a87248f91e04cca74cc76aaa67fb96730" title="Convert an xlat node to an unescaped literal string and free the original node. " alt="" coords="836,2232,935,2259"/>
-<area shape="rect" id="node78" href="$xlat_8h.html#acaa9d8f4abdfd966e584f84e12428a00" title="Tokenize an xlat expansion into a series of XLAT_TYPE_CHILD arguments. " alt="" coords="820,1760,951,1787"/>
-<area shape="rect" id="node84" href="$cf__util_8c.html#a11cfb91b7dd7bf343a4031ba7846c2ad" title="Cast a CONF_SECTION to a CONF_ITEM. " alt="" coords="587,2688,719,2715"/>
-<area shape="rect" id="node85" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="401,2587,467,2613"/>
-<area shape="rect" id="node83" href="$cf__util_8c.html#aba0182314085bc7d3e26d74b7c6d2e22" title="Return the next child that&#39;s of the specified type with the specified identifiers. " alt="" coords="623,807,684,833"/>
-<area shape="rect" id="node88" href="$compile_8c.html#a95e4711dc2211362dbcb64f12c7ba267" title="compile_section" alt="" coords="376,2992,492,3019"/>
-<area shape="rect" id="node93" href="$compile_8c.html#af06622cd1a840f251ab72d06f885c658" title="compile_action_section" alt="" coords="574,2637,733,2664"/>
-<area shape="rect" id="node89" href="$compile_8c.html#af5df3878cfa04ad004fe5e22838bca68" title="group_allocate" alt="" coords="600,3043,707,3069"/>
-<area shape="rect" id="node90" href="$unlang__priv_8h.html#a52890e71e5baf575ea56415383a5def9" title="unlang_group_to_generic" alt="" coords="802,2992,969,3019"/>
-<area shape="rect" id="node91" href="$talloc_8c.html#aba1ce57098bd0d4f569907465358cff2" title="Call talloc vasprintf, setting the type on the new chunk correctly. " alt="" coords="582,2941,725,2968"/>
-<area shape="rect" id="node92" href="$compile_8c.html#a95cc95f91f2eb4d4e3f3e8f3cb33ac40" title="compile_children" alt="" coords="594,2789,713,2816"/>
-<area shape="rect" id="node95" href="$src_2lib_2server_2module_8c.html#aa6909576b19ced42b125701cb404a9f2" title="Find an existing module instance by its name and parent. " alt="" coords="823,208,947,235"/>
-<area shape="rect" id="node96" href="$virtual__servers_8c.html#a70bd1b06f454869a88c0a2fc592e5fd3" title="Find the component for a section. " alt="" coords="811,259,960,301"/>
-<area shape="rect" id="node98" href="$dict_8h.html#aafea465d1424c7fd3477732877bd6016" title="fr_dict_internal" alt="" coords="600,5,707,32"/>
-<area shape="rect" id="node99" href="$dict_8h.html#a7c79c676c03022a0e7404ae0232bd902" title="Return the root attribute of a dictionary. " alt="" coords="610,56,697,83"/>
-<area shape="rect" id="node100" href="$module__priv_8h.html#a7a9c7d05df9e222337a87e57a5e9378a" title="unlang_module_to_generic" alt="" coords="565,107,741,133"/>
+<area shape="rect" id="node2" href="$cf__util_8c.html#ac62896418466fa77d420ce305760d89f" title="Determine if CONF_ITEM is a CONF_SECTION. " alt="" coords="605,271,736,297"/>
+<area shape="rect" id="node3" href="$cf__util_8c.html#aab50ea84d9d2e1a6305416daee9206b8" title="Cast a CONF_ITEM to a CONF_SECTION. " alt="" coords="605,56,737,83"/>
+<area shape="rect" id="node4" href="$cf__util_8c.html#ae802d285e3f5dee90043bc93d0e3731c" title="Return the second identifier of a CONF_SECTION. " alt="" coords="607,625,735,652"/>
+<area shape="rect" id="node5" href="$cf__util_8c.html#a0a71c4d20c31efd33b43308c25a9bef7" title="Determine if CONF_ITEM is a CONF_PAIR. " alt="" coords="615,411,726,437"/>
+<area shape="rect" id="node6" href="$cf__util_8c.html#a0b81abd70879f08eb45a4df377461b84" title="Cast a CONF_ITEM to a CONF_PAIR. " alt="" coords="615,499,726,525"/>
+<area shape="rect" id="node7" href="$cf__util_8c.html#a187b41a9251efe3956a13189a0d08723" title="Return the attr of a CONF_PAIR. " alt="" coords="399,917,486,944"/>
+<area shape="rect" id="node8" href="$cf__util_8c.html#a6009a34d7c2ce9c90082595491a17339" title="Return the value of a CONF_PAIR. " alt="" coords="180,1069,279,1096"/>
+<area shape="rect" id="node9" href="$cf__util_8c.html#a143827ea1b6125c79b68800874881ca6" title="Return the value (lhs) quoting of a pair. " alt="" coords="379,968,506,995"/>
+<area shape="rect" id="node10" href="$compile_8c.html#a01f090f7da5123544bf98560e1670673" title="compile_tmpl" alt="" coords="180,1019,279,1045"/>
+<area shape="rect" id="node33" href="$compile_8c.html#a5373c9a3571fd2b7fe3ba222148105f6" title="Load a named module from &quot;instantiate&quot; or &quot;policy&quot;. " alt="" coords="152,145,307,172"/>
+<area shape="rect" id="node34" href="$cf__util_8c.html#a2c8bfb80ce8fa2752c8f8aa636dee24f" title="Find a CONF_SECTION with name1 and optionally name2. " alt="" coords="387,56,498,83"/>
+<area shape="rect" id="node38" href="$strlcpy_8c.html#a59f9599e77ee687b1daaa179f8b9a2f3" title="strlcpy" alt="" coords="199,1120,260,1147"/>
+<area shape="rect" id="node39" href="$compile_8c.html#a0f93dc26c243959b1cd747e7cf1df1bb" title="compile_function" alt="" coords="169,411,289,437"/>
+<area shape="rect" id="node43" href="$src_2lib_2server_2module_8c.html#a8438c4d8bae55f3f479c2d9176c0e3a0" title="Find an existing module instance and verify it implements the specified method. " alt="" coords="153,1214,305,1255"/>
+<area shape="rect" id="node46" href="$compile_8c.html#a3896c430272ad687050529696248b4f7" title="compile_module" alt="" coords="171,664,287,691"/>
+<area shape="rect" id="node11" href="$unlang__priv_8h.html#a5fd8144991b05a0cde9a3f8b9447c82c" title="unlang_tmpl_to_generic" alt="" coords="363,1120,522,1147"/>
+<area shape="rect" id="node29" href="$server_2tmpl_8h.html#a6b3010a6d2e24fcf39a9d08ea154be08" title="Convert an arbitrary string into a tmpl_t. " alt="" coords="377,1171,508,1197"/>
+<area shape="rect" id="node30" href="$lib_2util_2log_8c.html#af7c9a7c610ae18dd76a8c9b752844be8" title="Canonicalize error strings, removing tabs, and generate spaces for error marker. " alt="" coords="371,1019,514,1045"/>
+<area shape="rect" id="node31" href="$strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e" title="Get the last library error. " alt="" coords="403,1069,482,1096"/>
+<area shape="rect" id="node32" href="$compile_8c.html#a859bb21dfc0ada54aa762c3b7b72757a" title="compile_action_defaults" alt="" coords="361,765,524,792"/>
+<area shape="rect" id="node12" href="$unlang__priv_8h.html#a06f6fba9b6f8a9831a34c445ff1ecb9f" title="Push a new frame onto the stack. " alt="" coords="596,1069,745,1096"/>
+<area shape="rect" id="node13" href="$unlang__priv_8h.html#afca374bf312b3030a8d1435be0513d26" title="unlang_op_init" alt="" coords="618,1120,723,1147"/>
+<area shape="rect" id="node14" href="$unlang__priv_8h.html#a6a4ba1df6e016828f58b23d971d33b43" title="unlang_op_free" alt="" coords="615,1171,726,1197"/>
+<area shape="rect" id="node15" href="$unlang__priv_8h.html#a6ab135991d0c8e21b9b4fb94c619311f" title="unlang_io_process_interpret" alt="" coords="579,1221,763,1248"/>
+<area shape="rect" id="node16" href="$unlang__priv_8h.html#a74fd54c7579e06817b3c8ca6a3344105" title="Allocate a child request based on the parent. " alt="" coords="597,1273,745,1314"/>
+<area shape="rect" id="node17" href="$unlang__priv_8h.html#a49588eeff94b32b52512db36db55b59b" title="unlang_call_init" alt="" coords="615,1339,726,1365"/>
+<area shape="rect" id="node18" href="$unlang__priv_8h.html#aefcb135b6bd137ddb87d6bf2cd31b94c" title="unlang_caller_init" alt="" coords="609,1389,732,1416"/>
+<area shape="rect" id="node19" href="$unlang__priv_8h.html#a4f01593ae92ed91382415d09ea90c904" title="unlang_condition_init" alt="" coords="599,1440,742,1467"/>
+<area shape="rect" id="node20" href="$unlang__priv_8h.html#aee5ff52c892e2e6b6f21730cd93f99f6" title="unlang_foreach_init" alt="" coords="603,1491,738,1517"/>
+<area shape="rect" id="node21" href="$unlang__priv_8h.html#a77e7ad7fd3638ddd6461ff63be3a19c4" title="unlang_foreach_free" alt="" coords="601,1541,740,1568"/>
+<area shape="rect" id="node22" href="$unlang__priv_8h.html#ac370b76fc93b1f10b0ba0ead67a5588f" title="unlang_function_init" alt="" coords="602,715,739,741"/>
+<area shape="rect" id="node23" href="$unlang__priv_8h.html#a7123f761a5402d204901fc6f1c0a92f2" title="unlang_group_init" alt="" coords="609,765,732,792"/>
+<area shape="rect" id="node24" href="$unlang__priv_8h.html#a6b84f208ed5faa4823cb093c2b3cc6a2" title="unlang_load_balance_init" alt="" coords="587,816,754,843"/>
+<area shape="rect" id="node25" href="$unlang__priv_8h.html#a4acb4f0c9e4b6bbaf8be96f442bf5d2a" title="unlang_map_init" alt="" coords="613,867,729,893"/>
+<area shape="rect" id="node26" href="$unlang__priv_8h.html#aacac2f2ef83343ae1a0651c3e709fa7f" title="unlang_module_init" alt="" coords="604,917,737,944"/>
+<area shape="rect" id="node27" href="$unlang__priv_8h.html#a8e6b3d4cbbd2ad8bbbe7e8e3c08eb8ed" title="unlang_return_init" alt="" coords="609,968,733,995"/>
+<area shape="rect" id="node28" href="$unlang__priv_8h.html#a778d7f18c3477464408e669b55b131f9" title="unlang_parallel_init" alt="" coords="605,1019,737,1045"/>
+<area shape="rect" id="node36" href="$cf__util_8c.html#a11cfb91b7dd7bf343a4031ba7846c2ad" title="Cast a CONF_SECTION to a CONF_ITEM. " alt="" coords="605,107,737,133"/>
+<area shape="rect" id="node37" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="410,157,475,184"/>
+<area shape="rect" id="node35" href="$cf__util_8c.html#aba0182314085bc7d3e26d74b7c6d2e22" title="Return the next child that&#39;s of the specified type with the specified identifiers. " alt="" coords="640,5,701,32"/>
+<area shape="rect" id="node40" href="$cf__util_8c.html#a5db99282bb519c1d025b2eff5d602bfc" title="Return the second identifier of a CONF_SECTION. " alt="" coords="607,347,735,373"/>
+<area shape="rect" id="node41" href="$compile_8c.html#a95e4711dc2211362dbcb64f12c7ba267" title="compile_section" alt="" coords="385,461,501,488"/>
+<area shape="rect" id="node42" href="$compile_8c.html#af06622cd1a840f251ab72d06f885c658" title="compile_action_section" alt="" coords="363,411,522,437"/>
+<area shape="rect" id="node44" href="$src_2lib_2server_2module_8c.html#aa6909576b19ced42b125701cb404a9f2" title="Find an existing module instance by its name and parent. " alt="" coords="381,1221,505,1248"/>
+<area shape="rect" id="node45" href="$virtual__servers_8c.html#a70bd1b06f454869a88c0a2fc592e5fd3" title="Find the component for a section. " alt="" coords="368,1273,517,1314"/>
+<area shape="rect" id="node47" href="$dict_8h.html#aafea465d1424c7fd3477732877bd6016" title="fr_dict_internal" alt="" coords="389,664,496,691"/>
+<area shape="rect" id="node48" href="$dict_8h.html#a7c79c676c03022a0e7404ae0232bd902" title="Return the root attribute of a dictionary. " alt="" coords="399,715,486,741"/>
+<area shape="rect" id="node49" href="$module__priv_8h.html#a7a9c7d05df9e222337a87e57a5e9378a" title="unlang_module_to_generic" alt="" coords="355,563,531,589"/>
+<area shape="rect" id="node50" href="$talloc_8c.html#a3536feb85c89aa239851ef0830b72e64" title="Call talloc_strdup, setting the type on the new chunk correctly. " alt="" coords="375,613,510,640"/>
 </map>

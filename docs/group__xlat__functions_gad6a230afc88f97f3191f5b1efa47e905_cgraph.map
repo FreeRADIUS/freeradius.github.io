@@ -1,101 +1,51 @@
 <map id="redis_xlat" name="redis_xlat">
-<area shape="rect" id="node2" href="$inet_8c.html#a6b12a3645d11b8b1b2101eac40ca0943" title="Parses IPv4/6 address + port, to fr_ipaddr_t and integer (port) " alt="" coords="799,867,917,893"/>
-<area shape="rect" id="node12" href="$value_8c.html#ad5da2574fed047b3ae861999d06c38ac" title="Clear/free any existing value and metadata. " alt="" coords="2197,3433,2327,3460"/>
-<area shape="rect" id="node19" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="1646,2800,1711,2827"/>
-<area shape="rect" id="node26" href="$cluster_8c.html#a7eb8f6d14fe9d19bc3caae6c17cd3b21" title="Get the pool associated with a node in the cluster. " alt="" coords="575,3113,717,3154"/>
-<area shape="rect" id="node49" href="$redis_2base_8h.html#a782179a40a4afcd30de56e7f803f9ae6" title="Wrap freeReplyObject so we consistently check for NULL pointers. " alt="" coords="1232,1171,1361,1197"/>
-<area shape="rect" id="node69" href="$pool_8c.html#a75e7ac5bfdae66159d35be3825d5b0b1" title="Reserve a connection in the connection pool. " alt="" coords="568,943,724,969"/>
-<area shape="rect" id="node72" href="$lib_2server_2util_8c.html#abeffda073f301a8b011de015b698ce7a" title="Split string into words and expand each one. " alt="" coords="799,107,917,133"/>
-<area shape="rect" id="node78" href="$pool_8c.html#a350d125044416cf2309470d9d6a43a3f" title="Release a connection. " alt="" coords="581,1366,711,1407"/>
-<area shape="rect" id="node81" href="$redis_2base_8h.html#a8d50cc44bc2c01ee467592f85fa79c5e" title="Check the reply for errors. " alt="" coords="1211,613,1383,640"/>
-<area shape="rect" id="node82" href="$rlm__redis_8c.html#a14bd70355214984bcdbc39c67897997d" title="Change the state of a connection to READONLY execute a command and switch to READWRITE. " alt="" coords="985,563,1163,589"/>
-<area shape="rect" id="node83" href="$redis_2base_8h.html#aa13699b4e785d39a92e4af83cf2c1d64" title="Convert a string or integer type to fr_value_box_t of specified type. " alt="" coords="1953,3492,2137,3519"/>
-<area shape="rect" id="node85" href="$pool_8c.html#a8e041afb94fecd27acff57ef29850403" title="Delete a connection from the connection pool. " alt="" coords="581,1449,711,1490"/>
-<area shape="rect" id="node86" href="$cluster_8c.html#ac292207b4d5816986eb8e4457791b491" title="Resolve a key to a pool, and reserve a connection in that pool. " alt="" coords="136,841,307,868"/>
-<area shape="rect" id="node97" href="$cluster_8c.html#a02e48068a3e77ab228e414708b5543ee" title="Get the next connection to attempt a command against. " alt="" coords="132,1212,311,1239"/>
-<area shape="rect" id="node3" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="1621,1500,1736,1527"/>
-<area shape="rect" id="node15" href="$inet_8c.html#a30e75e7a6db079b3de362c0fa66c4647" title="Parse an IPv6 address or IPv6 prefix in presentation format (and others) " alt="" coords="1248,816,1345,843"/>
-<area shape="rect" id="node16" href="$inet_8c.html#a692de3948a6ce6349acb797b86a3fb29" title="Simple wrapper to decide whether an IP value is v4 or v6 and call the appropriate parser..." alt="" coords="1029,867,1119,893"/>
-<area shape="rect" id="node25" href="$strlcpy_8c.html#a59f9599e77ee687b1daaa179f8b9a2f3" title="strlcpy" alt="" coords="1043,259,1105,285"/>
-<area shape="rect" id="node4" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="2412,2699,2481,2725"/>
-<area shape="rect" id="node5" href="$strerror_8c.html#a193b1e0b3712e3bbee338812c06af482" title="fr_strerror_vprintf" alt="" coords="1784,2445,1905,2472"/>
-<area shape="rect" id="node8" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="2415,2547,2479,2573"/>
-<area shape="rect" id="node6" href="$strerror_8c.html#a42c2cc9f76fb9dac723a1903c181e1c7" title="Initialise thread local storage. " alt="" coords="1994,2445,2097,2472"/>
-<area shape="rect" id="node7" href="$strerror_8c.html#a2c8e65d6d4b73fb705cc023f60acb099" title="Print the current error to stderr with a prefix. " alt="" coords="2227,2496,2297,2523"/>
-<area shape="rect" id="node9" href="$strerror_8c.html#a9d878c1ddb1b385cdaf6523fff68529c" title="Reset cursor state. " alt="" coords="2205,2395,2319,2421"/>
-<area shape="rect" id="node10" href="$print_8c.html#a27ae94b5a4c77de49aa2f387765a4d58" title="Special version of vasprintf which implements custom format specifiers. " alt="" coords="2002,2597,2089,2624"/>
-<area shape="rect" id="node14" href="$cursor_8c.html#a5d942382660657c3b4cb6e9cb2b12b2c" title="Insert a single item at the start of the list. " alt="" coords="1982,2395,2109,2421"/>
-<area shape="rect" id="node11" href="$value_8c.html#a3a0550d465b81917f8b0c69a3373163e" title="Convert one type of fr_value_box_t to another. " alt="" coords="2198,2597,2326,2624"/>
-<area shape="rect" id="node13" href="$value_8h.html#ab2f9fbd42c467414fa4e5c3793fb3572" title="Initialise a fr_value_box_t. " alt="" coords="2387,3463,2507,3489"/>
-<area shape="rect" id="node17" href="$radwho_8c.html#a34f44445cec09523beab307ed12a0c63" title="hostname" alt="" coords="1257,2691,1336,2717"/>
-<area shape="rect" id="node18" href="$missing_8c.html#aa30bf1e64a9330be8a9863b70881ee06" title="inet_ntop" alt="" coords="1465,3036,1539,3063"/>
-<area shape="rect" id="node20" href="$radclient_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1819,1348,1870,1375"/>
-<area shape="rect" id="node21" href="$rbtree_8c.html#a79839e37a71b50c3d31a875351cc0a87" title="rbtree_insert" alt="" coords="1998,3391,2093,3417"/>
-<area shape="rect" id="node22" href="$rbtree_8c.html#a05ca35e9532c98afa6d2af1c57c25765" title="rbtree_num_elements" alt="" coords="1972,917,2119,944"/>
-<area shape="rect" id="node23" href="$rbtree_8c.html#a3152a4d0a82814f872f93d5ce1a5186c" title="rbtree_walk" alt="" coords="2001,968,2090,995"/>
-<area shape="rect" id="node24" href="$rand_8c.html#ae6966accae06dc7d65d4cc51b5782383" title="Return a 32&#45;bit random number. " alt="" coords="2014,360,2077,387"/>
-<area shape="rect" id="node27" href="$rbtree_8c.html#ac6772a18f3e04b23f71ad7994c7587ed" title="Find an element in the tree, returning the data, not the node. " alt="" coords="1448,2884,1556,2911"/>
-<area shape="rect" id="node28" href="$fifo_8c.html#a22b989f9f12cb68af574895bbf12e7ae" title="Examine the next element that would be popped. " alt="" coords="813,2463,903,2489"/>
-<area shape="rect" id="node29" href="$cluster_8c.html#a2c73b18c41ba2a09719df3a9b7d66c2e" title="Establish a connection to a cluster node. " alt="" coords="783,2412,933,2439"/>
-<area shape="rect" id="node66" href="$fifo_8c.html#ab14bc3c23289ba6443f05581d72e9a91" title="Pop data off of the fifo. " alt="" coords="1033,3011,1115,3037"/>
-<area shape="rect" id="node67" href="$fifo_8c.html#a8ec8c40ef16cc9a67788e6bf4c5fb4f5" title="Return the number of elements in the fifo queue. " alt="" coords="785,2909,931,2936"/>
-<area shape="rect" id="node30" href="$cf__util_8c.html#a2c8bfb80ce8fa2752c8f8aa636dee24f" title="Find a CONF_SECTION with name1 and optionally name2. " alt="" coords="1019,2707,1129,2733"/>
-<area shape="rect" id="node34" href="$cf__util_8c.html#ad1fd0da46ca6a5dc369aae2d6734558c" title="Duplicate a configuration section. " alt="" coords="1019,2224,1129,2251"/>
-<area shape="rect" id="node44" href="$pool_8c.html#ad534d61895e650a46ed2078e0dc6714a" title="Create a new connection pool. " alt="" coords="1031,2387,1117,2413"/>
-<area shape="rect" id="node48" href="$cluster_8c.html#a9e404a7e34498f81c83423409b7b8431" title="Create a new connection to a Redis node. " alt="" coords="1001,1678,1147,1719"/>
-<area shape="rect" id="node50" href="$pool_8c.html#adf28ee710f147c7d0d6153a617698b5d" title="Set a reconnection callback for the connection pool. " alt="" coords="995,2048,1153,2075"/>
-<area shape="rect" id="node51" href="$cluster_8c.html#a8e311d208f7ff97416b2b4d4f172e859" title="Reconnect callback to apply new pool config. " alt="" coords="1007,2539,1141,2581"/>
-<area shape="rect" id="node52" href="$trigger_8c.html#a0b476d570e9bcee0291912ebfe1f6731" title="Create trigger arguments to describe the server the pool connects to. " alt="" coords="1231,2742,1362,2783"/>
-<area shape="rect" id="node53" href="$pair_8c.html#a2a3d33934f2f0f91120dfe3f381b500e" title="Duplicate a list of pairs. " alt="" coords="1443,2539,1561,2565"/>
-<area shape="rect" id="node54" href="$pair_8c.html#acd64c65e4d56248ce8e4dda20ab95aff" title="Free memory used by a valuepair list. " alt="" coords="1623,2615,1734,2641"/>
-<area shape="rect" id="node55" href="$pool_8c.html#aeafb70f162af494b1cadf6887435fc49" title="Enable triggers for a connection pool. " alt="" coords="1219,2589,1375,2616"/>
-<area shape="rect" id="node56" href="$trigger_8c.html#af14a20b41c63390b8d08ea104c3cec6e" title="Return whether triggers are enabled. " alt="" coords="1019,2099,1129,2125"/>
-<area shape="rect" id="node57" href="$pool_8c.html#a0c11a25b05c71aab4392cb778959e7ce" title="fr_pool_start" alt="" coords="1027,2149,1121,2176"/>
-<area shape="rect" id="node62" href="$pool_8c.html#a6b87c78e8f39bd2704842359db2f263c" title="Mark connections for reconnection, and spawn at least &#39;start&#39; connections. " alt="" coords="1011,1795,1137,1821"/>
-<area shape="rect" id="node31" href="$cf__util_8c.html#aab50ea84d9d2e1a6305416daee9206b8" title="Cast a CONF_ITEM to a CONF_SECTION. " alt="" coords="1231,2336,1363,2363"/>
-<area shape="rect" id="node32" href="$cf__util_8c.html#aba0182314085bc7d3e26d74b7c6d2e22" title="Return the next child that&#39;s of the specified type with the specified identifiers. " alt="" coords="1266,2859,1327,2885"/>
-<area shape="rect" id="node33" href="$cf__util_8c.html#a11cfb91b7dd7bf343a4031ba7846c2ad" title="Cast a CONF_SECTION to a CONF_ITEM. " alt="" coords="1231,2909,1363,2936"/>
-<area shape="rect" id="node35" href="$cursor_8c.html#acd758b6cc6201e9e2bcd8a2791d367f5" title="Copy cursor parameters and state. " alt="" coords="1243,1880,1351,1907"/>
-<area shape="rect" id="node36" href="$cursor_8c.html#ac0e33de2a6f1cb5e82c4d4e4255c2b95" title="Rewind cursor to the start of the list. " alt="" coords="1625,2387,1733,2413"/>
-<area shape="rect" id="node37" href="$cursor_8c.html#af6c2090d1e00319075d6def5aa2666fd" title="Advanced the cursor to the next item. " alt="" coords="1626,2260,1731,2287"/>
-<area shape="rect" id="node38" href="$cf__util_8c.html#ae802d285e3f5dee90043bc93d0e3731c" title="Return the second identifier of a CONF_SECTION. " alt="" coords="1233,1829,1361,1856"/>
-<area shape="rect" id="node39" href="$cf__util_8c.html#a5db99282bb519c1d025b2eff5d602bfc" title="Return the second identifier of a CONF_SECTION. " alt="" coords="1233,1931,1361,1957"/>
-<area shape="rect" id="node40" href="$cf__util_8c.html#ad120432979eb4955e74ac67f943723e8" title="Add a section as a child of another section. " alt="" coords="1241,1981,1352,2008"/>
-<area shape="rect" id="node41" href="$cf__util_8c.html#af6b6a4458b406b139e3512909b4232b6" title="Duplicate a CONF_PAIR. " alt="" coords="1252,2032,1341,2059"/>
-<area shape="rect" id="node42" href="$cf__util_8c.html#a0b81abd70879f08eb45a4df377461b84" title="Cast a CONF_ITEM to a CONF_PAIR. " alt="" coords="1241,2083,1352,2109"/>
-<area shape="rect" id="node43" href="$cf__util_8c.html#aa91ecf14c15306b455c376ed484f9b13" title="Add a configuration pair to a section. " alt="" coords="1252,2133,1341,2160"/>
-<area shape="rect" id="node45" href="$talloc_8c.html#a9e4c941cc6b24faf5b0e81b7635fdffe" title="Link two different parent and child contexts, so the child is freed before the parent. " alt="" coords="1449,2285,1555,2312"/>
-<area shape="rect" id="node46" href="$pool_8c.html#ad4ea2c00e4071eed4f44f51c202b0b9c" title="Order connections by reserved most recently. " alt="" coords="1231,2387,1363,2413"/>
-<area shape="rect" id="node47" href="$pool_8c.html#a10b7ddc3f4595cbb550c28c79e0a5261" title="Order connections by released longest ago. " alt="" coords="1231,2437,1362,2464"/>
-<area shape="rect" id="node58" href="$pool_8c.html#a41541ea89745dd51029d73fb008d6021" title="Spawns a new connection. " alt="" coords="1231,1576,1362,1603"/>
-<area shape="rect" id="node60" href="$pool_8c.html#adf8965c10f53aba7de0ad83e031f8568" title="Send a connection pool trigger. " alt="" coords="1433,1551,1571,1577"/>
-<area shape="rect" id="node59" href="$lib_2util_2log_8h.html#a123c2202d725dbc6b308ad9a06bc91d4" title="Whether rate limiting is enabled. " alt="" coords="1431,1449,1573,1476"/>
-<area shape="rect" id="node61" href="$heap_8c.html#a09453d7e857bdc6018b0bf3a3502610f" title="Insert a new element into the heap. " alt="" coords="1450,1500,1554,1527"/>
-<area shape="rect" id="node63" href="$heap_8c.html#ab084b77223ee54a38005dfc8113b679a" title="fr_heap_peek" alt="" coords="1247,1323,1347,1349"/>
-<area shape="rect" id="node64" href="$pool_8c.html#a405d785679ea12b6919284a0cc70e479" title="Close an existing connection. " alt="" coords="1211,1475,1383,1501"/>
-<area shape="rect" id="node65" href="$heap_8c.html#a2071e6c3699b74317dc7968e377fdced" title="Remove a node from the heap. " alt="" coords="1446,1399,1558,1425"/>
-<area shape="rect" id="node68" href="$fifo_8c.html#ac8148b1a75363133a0439ae0df0bedd3" title="Push data onto the fifo. " alt="" coords="1029,2909,1119,2936"/>
-<area shape="rect" id="node70" href="$pool_8c.html#a11f577ec1c9437bc561bace7b90d6768" title="Get a connection from the connection pool. " alt="" coords="779,1120,937,1147"/>
-<area shape="rect" id="node71" href="$pool_8c.html#a5c4d51ce852622144646a301d95bd3ec" title="Check whether a connection needs to be removed from the pool. " alt="" coords="1005,1525,1143,1552"/>
-<area shape="rect" id="node73" href="$lib_2server_2util_8c.html#ae535d51280f24507774e2eb2002f1082" title="rad_copy_string_bare" alt="" coords="1001,107,1147,133"/>
-<area shape="rect" id="node74" href="$lib_2server_2util_8c.html#a71c9d079d7b6ffbc39fcdcffb32a89e4" title="rad_copy_variable" alt="" coords="1011,5,1137,32"/>
-<area shape="rect" id="node76" href="$xlat_8h.html#a52207602ebb6b7727bdb69f95e837f7f" title="xlat_eval" alt="" coords="1037,56,1111,83"/>
-<area shape="rect" id="node75" href="$lib_2server_2util_8c.html#a5eb5370566f4b77b9e3cdd9625019163" title="rad_copy_string" alt="" coords="1239,5,1354,32"/>
-<area shape="rect" id="node77" href="$xlat__eval_8c.html#a74d8cf2e6ad59fcfb8b390c1a15d0d79" title="Replace whatever in a string. " alt="" coords="1256,56,1337,83"/>
-<area shape="rect" id="node79" href="$pool_8c.html#a14166bb15f94ea500ee77d1e702fb6b5" title="Find a connection handle in the connection list. " alt="" coords="801,1424,915,1451"/>
-<area shape="rect" id="node80" href="$pool_8c.html#a34653fe49349ad33c89e7a459e24293a" title="Check whether any connections need to be removed from the pool. " alt="" coords="795,1576,921,1603"/>
-<area shape="rect" id="node84" href="$value_8c.html#af675e0a826689eeb4ee6a593de6c457d" title="Assign a string to to a fr_value_box_t. " alt="" coords="2185,3485,2339,3526"/>
-<area shape="rect" id="node87" href="$cluster_8c.html#a42089316968a1f9599a92ae67dd79ee5" title="Implements the key slot selection scheme used by freeradius. " alt="" coords="367,505,505,546"/>
-<area shape="rect" id="node89" href="$cluster_8c.html#a41749370374d5c9bb23aebced0817386" title="Attempt to find a live pool in the cluster. " alt="" coords="361,816,511,843"/>
-<area shape="rect" id="node94" href="$cluster_8c.html#ab17f60095577fae39f1d708d92536594" title="Perform a runtime remap of the cluster. " alt="" coords="359,1161,513,1188"/>
-<area shape="rect" id="node88" href="$cluster_8c.html#a3c0d451a4e820f097ddcda88d8613aac" title="Resolve key to key slot. " alt="" coords="584,461,708,488"/>
-<area shape="rect" id="node90" href="$cluster_8c.html#a24277898be92e15d2a83609333f0ba8b" title="Walk all used pools adding them to the live node list. " alt="" coords="579,816,713,843"/>
-<area shape="rect" id="node92" href="$cluster_8c.html#aa0b0090317c51ebde20847dd293c2db4" title="Try to determine the health of a cluster node passively by examining its pool state. " alt="" coords="561,563,731,589"/>
-<area shape="rect" id="node93" href="$cluster_8c.html#aa2e3907f33250de6cc7e66adad0f4377" title="Issue a ping request against a cluster node. " alt="" coords="1011,613,1137,640"/>
-<area shape="rect" id="node91" href="$pool_8c.html#a6b251d458c1229ed4a5f061ac6c70616" title="Get the number of connections currently in the pool. " alt="" coords="809,816,907,843"/>
-<area shape="rect" id="node95" href="$cluster_8c.html#a010b9b97335d882b7becb494a6c9b0cc" title="Learn a new cluster layout by querying the node that issued the &#45;MOVE. " alt="" coords="1015,968,1133,995"/>
-<area shape="rect" id="node96" href="$cluster_8c.html#ab434868c42486ab9876b2043c26439f2" title="Apply a cluster map received from a cluster node. " alt="" coords="581,1997,711,2024"/>
-<area shape="rect" id="node98" href="$redis_2base_8h.html#a6724426668143b733c8b8460f2635f41" title="Print the response data in a useful treelike form. " alt="" coords="370,1364,502,1391"/>
-<area shape="rect" id="node99" href="$cluster_8c.html#a4030e10e7438e81a42623a42beb18e42" title="Retrieve or associate a node with the server indicated in the redirect. " alt="" coords="381,2412,491,2439"/>
-<area shape="rect" id="node100" href="$cluster_8c.html#a41047732e0ed1cb4b556eee169110e76" title="Parse a &#45;MOVED or &#45;ASK redirect. " alt="" coords="565,1881,727,1922"/>
+<area shape="rect" id="node2" href="$inet_8c.html#a6b12a3645d11b8b1b2101eac40ca0943" title="Parses IPv4/6 address + port, to fr_ipaddr_t and integer (port) " alt="" coords="165,499,283,525"/>
+<area shape="rect" id="node10" href="$snprintf_8c.html#a8da10a1735da7051de5c298ca7448eee" title="snprintf" alt="" coords="1371,859,1436,885"/>
+<area shape="rect" id="node13" href="$cluster_8c.html#a7eb8f6d14fe9d19bc3caae6c17cd3b21" title="Get the pool associated with a node in the cluster. " alt="" coords="379,897,521,938"/>
+<area shape="rect" id="node21" href="$pool_8c.html#a75e7ac5bfdae66159d35be3825d5b0b1" title="Reserve a connection in the connection pool. " alt="" coords="584,1525,740,1552"/>
+<area shape="rect" id="node24" href="$lib_2server_2util_8c.html#abeffda073f301a8b011de015b698ce7a" title="Split string into words and expand each one. " alt="" coords="165,271,283,297"/>
+<area shape="rect" id="node28" href="$pool_8c.html#a350d125044416cf2309470d9d6a43a3f" title="Release a connection. " alt="" coords="597,1283,727,1325"/>
+<area shape="rect" id="node33" href="$redis_2base_8h.html#a8d50cc44bc2c01ee467592f85fa79c5e" title="Check the reply for errors. " alt="" coords="364,397,536,424"/>
+<area shape="rect" id="node34" href="$rlm__redis_8c.html#a14bd70355214984bcdbc39c67897997d" title="Change the state of a connection to READONLY execute a command and switch to READWRITE. " alt="" coords="135,549,313,576"/>
+<area shape="rect" id="node35" href="$redis_2base_8h.html#a782179a40a4afcd30de56e7f803f9ae6" title="Wrap freeReplyObject so we consistently check for NULL pointers. " alt="" coords="597,651,727,677"/>
+<area shape="rect" id="node36" href="$redis_2base_8h.html#aa13699b4e785d39a92e4af83cf2c1d64" title="Convert a string or integer type to fr_value_box_t of specified type. " alt="" coords="132,93,316,120"/>
+<area shape="rect" id="node40" href="$value_8c.html#ad5da2574fed047b3ae861999d06c38ac" title="Clear/free any existing value and metadata. " alt="" coords="159,9,289,36"/>
+<area shape="rect" id="node41" href="$pool_8c.html#a8e041afb94fecd27acff57ef29850403" title="Delete a connection from the connection pool. " alt="" coords="597,1349,727,1390"/>
+<area shape="rect" id="node42" href="$cluster_8c.html#ac292207b4d5816986eb8e4457791b491" title="Resolve a key to a pool, and reserve a connection in that pool. " alt="" coords="139,1397,309,1424"/>
+<area shape="rect" id="node47" href="$cluster_8c.html#a02e48068a3e77ab228e414708b5543ee" title="Get the next connection to attempt a command against. " alt="" coords="135,1064,313,1091"/>
+<area shape="rect" id="node3" href="$strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" title="Log to thread local error buffer. " alt="" coords="993,499,1107,525"/>
+<area shape="rect" id="node6" href="$inet_8c.html#a30e75e7a6db079b3de362c0fa66c4647" title="Parse an IPv6 address or IPv6 prefix in presentation format (and others) " alt="" coords="613,499,711,525"/>
+<area shape="rect" id="node7" href="$inet_8c.html#a692de3948a6ce6349acb797b86a3fb29" title="Simple wrapper to decide whether an IP value is v4 or v6 and call the appropriate parser..." alt="" coords="405,549,495,576"/>
+<area shape="rect" id="node12" href="$strlcpy_8c.html#a59f9599e77ee687b1daaa179f8b9a2f3" title="strlcpy" alt="" coords="419,347,481,373"/>
+<area shape="rect" id="node4" href="$acutest_8h.html#aecf9a9be8105efb1454cd8c1ef6cb1c5" title="va_start" alt="" coords="1484,819,1553,845"/>
+<area shape="rect" id="node5" href="$acutest_8h.html#a36af1f79dd6adf0809c21e76535034d5" title="va_end" alt="" coords="1487,616,1551,643"/>
+<area shape="rect" id="node8" href="$radwho_8c.html#a34f44445cec09523beab307ed12a0c63" title="hostname" alt="" coords="623,752,701,779"/>
+<area shape="rect" id="node9" href="$missing_8c.html#aa30bf1e64a9330be8a9863b70881ee06" title="inet_ntop" alt="" coords="815,859,889,885"/>
+<area shape="rect" id="node11" href="$radclient_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1493,900,1544,927"/>
+<area shape="rect" id="node14" href="$rbtree_8c.html#ac6772a18f3e04b23f71ad7994c7587ed" title="Find an element in the tree, returning the data, not the node. " alt="" coords="608,1131,716,1157"/>
+<area shape="rect" id="node15" href="$fifo_8c.html#a22b989f9f12cb68af574895bbf12e7ae" title="Examine the next element that would be popped. " alt="" coords="617,1080,707,1107"/>
+<area shape="rect" id="node16" href="$cluster_8c.html#a2c73b18c41ba2a09719df3a9b7d66c2e" title="Establish a connection to a cluster node. " alt="" coords="587,904,737,931"/>
+<area shape="rect" id="node17" href="$rbtree_8c.html#a79839e37a71b50c3d31a875351cc0a87" title="rbtree_insert" alt="" coords="615,1181,709,1208"/>
+<area shape="rect" id="node18" href="$fifo_8c.html#ab14bc3c23289ba6443f05581d72e9a91" title="Pop data off of the fifo. " alt="" coords="811,1029,893,1056"/>
+<area shape="rect" id="node19" href="$rbtree_8c.html#a05ca35e9532c98afa6d2af1c57c25765" title="rbtree_num_elements" alt="" coords="589,1415,735,1441"/>
+<area shape="rect" id="node20" href="$fifo_8c.html#a8ec8c40ef16cc9a67788e6bf4c5fb4f5" title="Return the number of elements in the fifo queue. " alt="" coords="589,979,735,1005"/>
+<area shape="rect" id="node22" href="$pool_8c.html#a11f577ec1c9437bc561bace7b90d6768" title="Get a connection from the connection pool. " alt="" coords="971,1424,1129,1451"/>
+<area shape="rect" id="node23" href="$pool_8c.html#adf8965c10f53aba7de0ad83e031f8568" title="Send a connection pool trigger. " alt="" coords="1184,1297,1323,1324"/>
+<area shape="rect" id="node25" href="$lib_2server_2util_8c.html#ae535d51280f24507774e2eb2002f1082" title="rad_copy_string_bare" alt="" coords="377,144,523,171"/>
+<area shape="rect" id="node26" href="$lib_2server_2util_8c.html#a71c9d079d7b6ffbc39fcdcffb32a89e4" title="rad_copy_variable" alt="" coords="387,195,513,221"/>
+<area shape="rect" id="node27" href="$xlat_8h.html#a52207602ebb6b7727bdb69f95e837f7f" title="xlat_eval" alt="" coords="413,245,487,272"/>
+<area shape="rect" id="node29" href="$pool_8c.html#a14166bb15f94ea500ee77d1e702fb6b5" title="Find a connection handle in the connection list. " alt="" coords="795,1297,909,1324"/>
+<area shape="rect" id="node30" href="$heap_8c.html#a09453d7e857bdc6018b0bf3a3502610f" title="Insert a new element into the heap. " alt="" coords="800,1135,904,1161"/>
+<area shape="rect" id="node31" href="$pool_8c.html#a34653fe49349ad33c89e7a459e24293a" title="Check whether any connections need to be removed from the pool. " alt="" coords="789,1348,915,1375"/>
+<area shape="rect" id="node32" href="$pool_8c.html#a405d785679ea12b6919284a0cc70e479" title="Close an existing connection. " alt="" coords="964,1348,1136,1375"/>
+<area shape="rect" id="node37" href="$value_8c.html#af675e0a826689eeb4ee6a593de6c457d" title="Assign a string to to a fr_value_box_t. " alt="" coords="373,27,527,69"/>
+<area shape="rect" id="node39" href="$value_8c.html#a3a0550d465b81917f8b0c69a3373163e" title="Convert one type of fr_value_box_t to another. " alt="" coords="788,169,916,196"/>
+<area shape="rect" id="node38" href="$value_8h.html#ab2f9fbd42c467414fa4e5c3793fb3572" title="Initialise a fr_value_box_t. " alt="" coords="602,5,722,32"/>
+<area shape="rect" id="node43" href="$cluster_8c.html#a42089316968a1f9599a92ae67dd79ee5" title="Implements the key slot selection scheme used by freeradius. " alt="" coords="381,1419,519,1461"/>
+<area shape="rect" id="node44" href="$rand_8c.html#ae6966accae06dc7d65d4cc51b5782383" title="Return a 32&#45;bit random number. " alt="" coords="631,1465,693,1492"/>
+<area shape="rect" id="node45" href="$cluster_8c.html#a41749370374d5c9bb23aebced0817386" title="Attempt to find a live pool in the cluster. " alt="" coords="375,1368,525,1395"/>
+<area shape="rect" id="node46" href="$cluster_8c.html#ab17f60095577fae39f1d708d92536594" title="Perform a runtime remap of the cluster. " alt="" coords="373,845,527,872"/>
+<area shape="rect" id="node48" href="$redis_2base_8h.html#a6724426668143b733c8b8460f2635f41" title="Print the response data in a useful treelike form. " alt="" coords="384,963,516,989"/>
+<area shape="rect" id="node49" href="$cluster_8c.html#a4030e10e7438e81a42623a42beb18e42" title="Retrieve or associate a node with the server indicated in the redirect. " alt="" coords="395,1064,505,1091"/>
+<area shape="rect" id="node50" href="$pool_8c.html#a6b251d458c1229ed4a5f061ac6c70616" title="Get the number of connections currently in the pool. " alt="" coords="401,1013,499,1040"/>
 </map>
