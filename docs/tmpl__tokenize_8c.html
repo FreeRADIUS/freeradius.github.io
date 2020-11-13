@@ -102,6 +102,10 @@ Functions</h2></td></tr>
 <tr class="separator:a40583b068a0e227fff37ff52002c34a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8feb94afd345bf74b0a25bab42883c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tmpl__tokenize_8c.html#af8feb94afd345bf74b0a25bab42883c3">tmpl_attr_debug</a> (<a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1f259dd7dff0be6d621f691">tmpl_t</a> const *vpt)</td></tr>
 <tr class="separator:af8feb94afd345bf74b0a25bab42883c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a754f20123d5de9e810c6ccfbe736795b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tmpl__tokenize_8c.html#a754f20123d5de9e810c6ccfbe736795b">tmpl_attr_ref_debug</a> (const <a class="el" href="server_2tmpl_8h.html#structtmpl__attr__t">tmpl_attr_t</a> *ar, int i)</td></tr>
+<tr class="separator:a754f20123d5de9e810c6ccfbe736795b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4d3da0072d1888d1ca99ab366ce5aeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tmpl__tokenize_8c.html#ae4d3da0072d1888d1ca99ab366ce5aeb">tmpl_attr_ref_list_debug</a> (<a class="el" href="dlist_8h.html#structfr__dlist__head__t">fr_dlist_head_t</a> const *ar_head)</td></tr>
+<tr class="separator:ae4d3da0072d1888d1ca99ab366ce5aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fddf769782c1410b86f0753bc39b89a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tmpl__tokenize_8c.html#a8fddf769782c1410b86f0753bc39b89a">tmpl_debug</a> (<a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1f259dd7dff0be6d621f691">tmpl_t</a> const *vpt)</td></tr>
 <tr class="separator:a8fddf769782c1410b86f0753bc39b89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e35940dece089743b2cbf23c7b5ff72"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tmpl__tokenize_8c.html#a0e35940dece089743b2cbf23c7b5ff72">tmpl_preparse</a> (char const **<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, size_t *outlen, char const *<a class="el" href="value_8h.html#a47ef05ec8d75829006b7eba839c1b603">in</a>, size_t <a class="el" href="value_8h.html#a26bd6a430c456629c00363322491f55a">inlen</a>, <a class="el" href="token_8h.html#a946319d7782128ef7a776e118ad1fe60">fr_token_t</a> *type, char const **error, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const **castda, bool require_regex, bool allow_xlat)</td></tr>
@@ -360,7 +364,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> template functions </p>
-<dl class="section rcs"><dt>Id</dt><dd>9414913518ebe9d501c6002a38616f17550dc5e5 </dd></dl>
+<dl class="section rcs"><dt>Id</dt><dd>bb584ff9313721214bdf812b94e0d34373f034bb </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>2014-2020 The FreeRADIUS server project </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
@@ -397,7 +401,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l04023">4023</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l04032">4032</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -421,7 +425,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
 <tr><td class="fieldname"><a id="a1147f2869f9e8351aa7ae5bed8cb9304a4a18e707e9408b97a572852b8251e2fe"></a>TMPL_ATTR_REF_BAD_FILTER&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01111">1111</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01120">1120</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -460,7 +464,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03101">3101</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03110">3110</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -530,7 +534,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
 <dd>
 <a class="el" href="tmpl__eval_8c.html#a80ce216372666e559a75ad5b17a919bf" title="Resolve attribute pair_list_t value to an attribute list. ">radius_list</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00315">315</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00324">324</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -592,7 +596,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
 <dd>
 <a class="el" href="tmpl__tokenize_8c.html#acab76c44e870a658cc6e4e7095b87bba" title="Map keywords to request_ref_t values. ">request_ref_table</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00393">393</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00402">402</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -661,7 +665,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Unlike <a class="el" href="tmpl__tokenize_8c.html#a4d47ea8e23c48f5da3446f9a9f93de38" title="Parse a string into a TMPL_TYPE_ATTR_* or TMPL_TYPE_LIST type tmpl_t. ">tmpl_afrom_attr_substr</a> this function will error out if the entire name string isn't parsed. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01972">1972</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01981">1981</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
@@ -759,7 +763,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01799">1799</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01808">1808</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
@@ -841,7 +845,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02007">2007</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02016">2016</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
@@ -923,7 +927,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02285">2285</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02294">2294</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
@@ -1005,7 +1009,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02104">2104</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02113">2113</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
@@ -1087,7 +1091,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02171">2171</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02180">2180</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-15-summary" class="dynsummary" style="display:block;">
@@ -1170,7 +1174,7 @@ Print the contents of a #tmpl_t</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02045">2045</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02054">2054</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
@@ -1266,7 +1270,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 <dd>
 <a class="el" href="tmpl__tokenize_8c.html#a4d47ea8e23c48f5da3446f9a9f93de38" title="Parse a string into a TMPL_TYPE_ATTR_* or TMPL_TYPE_LIST type tmpl_t. ">tmpl_afrom_attr_substr</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02387">2387</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02396">2396</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-19-summary" class="dynsummary" style="display:block;">
@@ -1340,7 +1344,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00690">690</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00699">699</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
@@ -1417,7 +1421,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the newly allocated <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1f259dd7dff0be6d621f691">tmpl_t</a>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00613">613</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00622">622</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-23-summary" class="dynsummary" style="display:block;">
@@ -1465,7 +1469,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 <p>Must be later initialised with a tmpl_init_* function.</p>
 <p>This function is provided to allow tmpls to be pre-allocated for talloc purposes before their name is known. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00587">587</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00596">596</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-25-summary" class="dynsummary" style="display:block;">
@@ -1497,7 +1501,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 <p>If the tmpl is needs_async, then it is async If the tmpl is not needs_async, then it will not yield</p>
 <p>If the tmpl yields, then async is required. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l04453">4453</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l04462">4462</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-26-summary" class="dynsummary" style="display:block;">
@@ -1546,7 +1550,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 <p>Convert an abstract da into a concrete one. </p>
 <p>Usually used to fixup combo ip addresses </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03147">3147</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03156">3156</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-28-summary" class="dynsummary" style="display:block;">
@@ -1602,7 +1606,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 
 <p>Allocate a new attribute reference and add it to the end of the attribute reference list. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00658">658</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00667">667</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-30-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-30-summary" class="dynsummary" style="display:block;">
@@ -1712,7 +1716,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01350">1350</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01359">1359</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-32-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-32-summary" class="dynsummary" style="display:block;">
@@ -1811,7 +1815,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01241">1241</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01250">1250</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-34-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-34-summary" class="dynsummary" style="display:block;">
@@ -1871,7 +1875,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 
 <p>Create a new tmpl from a list tmpl and a da. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00927">927</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00936">936</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-36-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-36-summary" class="dynsummary" style="display:block;">
@@ -1919,7 +1923,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 
 <p>Copy a list of attribute and request references from one tmpl to another. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00720">720</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00729">729</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-38-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-38-summary" class="dynsummary" style="display:block;">
@@ -1955,13 +1959,13 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00110">110</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00177">177</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-40-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-40-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_af8feb94afd345bf74b0a25bab42883c3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_af8feb94afd345bf74b0a25bab42883c3_cgraph.svg" width="100%" height="445"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2020,7 +2024,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01130">1130</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01139">1139</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-42-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-42-summary" class="dynsummary" style="display:block;">
@@ -2096,7 +2100,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01159">1159</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01168">1168</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-44-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-44-summary" class="dynsummary" style="display:block;">
@@ -2170,7 +2174,7 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03339">3339</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03348">3348</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 <div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-46-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-46-summary" class="dynsummary" style="display:block;">
@@ -2185,6 +2189,88 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 </div>
 <div id="dynsection-47-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a285a1e009d0f6dd958439341032f0c8f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a754f20123d5de9e810c6ccfbe736795b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a754f20123d5de9e810c6ccfbe736795b">&#9670;&nbsp;</a></span>tmpl_attr_ref_debug()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tmpl_attr_ref_debug </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="server_2tmpl_8h.html#structtmpl__attr__t">tmpl_attr_t</a> *&#160;</td>
+          <td class="paramname"><em>ar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00110">110</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-48-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-48-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a754f20123d5de9e810c6ccfbe736795b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-49-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-49-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a754f20123d5de9e810c6ccfbe736795b_icgraph.svg" width="100%" height="412"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae4d3da0072d1888d1ca99ab366ce5aeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4d3da0072d1888d1ca99ab366ce5aeb">&#9670;&nbsp;</a></span>tmpl_attr_ref_list_debug()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tmpl_attr_ref_list_debug </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="dlist_8h.html#structfr__dlist__head__t">fr_dlist_head_t</a> const *&#160;</td>
+          <td class="paramname"><em>ar_head</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00162">162</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-50-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-50-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_ae4d3da0072d1888d1ca99ab366ce5aeb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-51-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-51-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_ae4d3da0072d1888d1ca99ab366ce5aeb_icgraph.svg" width="100%" height="497"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -2217,20 +2303,20 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 <p>Resolve an unresolved attribute. </p>
 <p>Multi-pass parsing fixups for attribute references. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02844">2844</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-48-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02853">2853</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-52" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-52-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-52-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-48-content" class="dyncontent" style="display:none;">
+<div id="dynsection-52-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_afdbd075c17ad412bf99489ac7b0445db_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-49-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-53" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-53-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-53-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-49-content" class="dyncontent" style="display:none;">
+<div id="dynsection-53-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_afdbd075c17ad412bf99489ac7b0445db_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2271,20 +2357,20 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 
 <p>Rewrite the leaf's instance number. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00874">874</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-50-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00883">883</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-54" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-54-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-54-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-50-content" class="dyncontent" style="display:none;">
+<div id="dynsection-54-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_aae193797561b25c5299f92cdacb40371_cgraph.svg" width="391" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-51-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-55-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-55-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-51-content" class="dyncontent" style="display:none;">
+<div id="dynsection-55-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_aae193797561b25c5299f92cdacb40371_icgraph.svg" width="540" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2325,12 +2411,12 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 
 <p>Rewrite all instances of an array number. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00891">891</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-52" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-52-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-52-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00900">900</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-56" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-56-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-56-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-52-content" class="dyncontent" style="display:none;">
+<div id="dynsection-56-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a137eb3bcc2f90fee514cabef67609262_cgraph.svg" width="447" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2365,20 +2451,20 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 
 <p>Replace the current attribute reference. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00774">774</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-53" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-53-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-53-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00783">783</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-57-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-57-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-53-content" class="dyncontent" style="display:none;">
+<div id="dynsection-57-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a19472cb8c47890aaddc6e4724e92967b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-54" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-54-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-54-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-58" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-58-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-58-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-54-content" class="dyncontent" style="display:none;">
+<div id="dynsection-58-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a19472cb8c47890aaddc6e4724e92967b_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2413,20 +2499,20 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 
 <p>Replace the leaf attribute only. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00806">806</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-55-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-55-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00815">815</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-59-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-59-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-55-content" class="dyncontent" style="display:none;">
+<div id="dynsection-59-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_ad059121137bec2ae641f7174f5d484b6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-56" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-56-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-56-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-60" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-60-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-60-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-56-content" class="dyncontent" style="display:none;">
+<div id="dynsection-60-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_ad059121137bec2ae641f7174f5d484b6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2459,20 +2545,20 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00854">854</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-57-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-57-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00863">863</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-61-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-61-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-57-content" class="dyncontent" style="display:none;">
+<div id="dynsection-61-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_afa4a6186362f79c66e1699dda215451a_cgraph.svg" width="520" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-58" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-58-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-58-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-62" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-62-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-62-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-58-content" class="dyncontent" style="display:none;">
+<div id="dynsection-62-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_afa4a6186362f79c66e1699dda215451a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2505,12 +2591,12 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00917">917</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-59-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-59-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00926">926</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-63-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-63-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-59-content" class="dyncontent" style="display:none;">
+<div id="dynsection-63-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_ac89fbcda4ee4f235c1ec99649b6e339d_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2545,20 +2631,20 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 
 <p>Set the request for an attribute ref. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00905">905</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-60" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-60-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-60-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00914">914</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-64" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-64-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-64-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-60-content" class="dyncontent" style="display:none;">
+<div id="dynsection-64-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a486d4d28fd27960925a5d34c5de8964f_cgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-61-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-61-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-65" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-65-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-65-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-61-content" class="dyncontent" style="display:none;">
+<div id="dynsection-65-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a486d4d28fd27960925a5d34c5de8964f_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2583,20 +2669,20 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 
 <p>Covert the leaf attribute of a tmpl to a unknown/raw type. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03138">3138</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-62" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-62-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-62-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03147">3147</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-66" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-66-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-66-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-62-content" class="dyncontent" style="display:none;">
+<div id="dynsection-66-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a65c990de56be8971e6f29635ef581c37_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-63-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-63-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-67" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-67-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-67-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-63-content" class="dyncontent" style="display:none;">
+<div id="dynsection-67-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a65c990de56be8971e6f29635ef581c37_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2639,20 +2725,20 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03074">3074</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-64" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-64-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-64-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03083">3083</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-68" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-68-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-68-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-64-content" class="dyncontent" style="display:none;">
+<div id="dynsection-68-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_aefcada92f45600d399183df23d6cba4a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-65" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-65-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-65-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-69" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-69-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-69-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-65-content" class="dyncontent" style="display:none;">
+<div id="dynsection-69-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_aefcada92f45600d399183df23d6cba4a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2689,20 +2775,20 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03187">3187</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-66" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-66-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-66-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03196">3196</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-70" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-70-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-70-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-66-content" class="dyncontent" style="display:none;">
+<div id="dynsection-70-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a33bf8c19d665ebe817b41754f1a97a6e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-67" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-67-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-67-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-71" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-71-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-71-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-67-content" class="dyncontent" style="display:none;">
+<div id="dynsection-71-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a33bf8c19d665ebe817b41754f1a97a6e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2765,20 +2851,20 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03253">3253</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-68" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-68-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-68-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03262">3262</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-72" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-72-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-72-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-68-content" class="dyncontent" style="display:none;">
+<div id="dynsection-72-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_acb2ff6650f62a88744a7b1589880ddf5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-69" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-69-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-69-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-73" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-73-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-73-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-69-content" class="dyncontent" style="display:none;">
+<div id="dynsection-73-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_acb2ff6650f62a88744a7b1589880ddf5_icgraph.svg" width="338" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2826,20 +2912,20 @@ For details of attribute parsing see <a class="el" href="tmpl__tokenize_8c.html#
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02662">2662</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-70" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-70-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-70-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02671">2671</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-74" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-74-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-74-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-70-content" class="dyncontent" style="display:none;">
+<div id="dynsection-74-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_aab59fb0ae50c198d833fd50c5e1f7b26_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-71" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-71-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-71-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-75" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-75-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-75-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-71-content" class="dyncontent" style="display:none;">
+<div id="dynsection-75-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_aab59fb0ae50c198d833fd50c5e1f7b26_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2896,20 +2982,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02769">2769</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-72" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-72-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-72-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02778">2778</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-76" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-76-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-76-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-72-content" class="dyncontent" style="display:none;">
+<div id="dynsection-76-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_ae99fdc116c2a57a62efa7533a162e0ad_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-73" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-73-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-73-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-77" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-77-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-77-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-73-content" class="dyncontent" style="display:none;">
+<div id="dynsection-77-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_ae99fdc116c2a57a62efa7533a162e0ad_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2956,20 +3042,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02699">2699</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-74" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-74-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-74-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02708">2708</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-78" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-78-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-78-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-74-content" class="dyncontent" style="display:none;">
+<div id="dynsection-78-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_af64bad8c8ba23c0a6c4ad31682fb848f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-75" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-75-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-75-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-79" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-79-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-79-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-75-content" class="dyncontent" style="display:none;">
+<div id="dynsection-79-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_af64bad8c8ba23c0a6c4ad31682fb848f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2992,20 +3078,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00207">207</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-76" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-76-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-76-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00216">216</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-80" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-80-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-80-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-76-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a8fddf769782c1410b86f0753bc39b89a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-80-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a8fddf769782c1410b86f0753bc39b89a_cgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-77" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-77-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-77-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-81" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-81-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-81-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-77-content" class="dyncontent" style="display:none;">
+<div id="dynsection-81-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a8fddf769782c1410b86f0753bc39b89a_icgraph.svg" width="350" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -3069,20 +3155,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the newly initialised tmpl. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00571">571</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-78" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-78-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-78-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00580">580</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-82" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-82-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-82-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-78-content" class="dyncontent" style="display:none;">
+<div id="dynsection-82-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a19811d2995faa774b875c093a453bc85_cgraph.svg" width="410" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-79" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-79-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-79-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-83" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-83-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-83-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-79-content" class="dyncontent" style="display:none;">
+<div id="dynsection-83-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a19811d2995faa774b875c093a453bc85_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3146,12 +3232,12 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the newly initialised tmpl. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00523">523</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-80" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-80-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-80-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00532">532</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-84" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-84-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-84-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-80-content" class="dyncontent" style="display:none;">
+<div id="dynsection-84-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_ad4de039c0cf5045c11ae08e25c5ed822_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3216,20 +3302,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a pointer to the initialised <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1f259dd7dff0be6d621f691">tmpl_t</a>. The same value as vpt. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00552">552</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-81" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-81-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-81-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00561">561</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-85" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-85-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-85-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-81-content" class="dyncontent" style="display:none;">
+<div id="dynsection-85-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a287c154cb0ad6da4a6027e762aa2de72_cgraph.svg" width="344" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-82" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-82-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-82-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-86" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-86-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-86-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-82-content" class="dyncontent" style="display:none;">
+<div id="dynsection-86-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a287c154cb0ad6da4a6027e762aa2de72_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3327,20 +3413,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l04047">4047</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-83" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-83-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-83-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l04056">4056</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-87" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-87-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-87-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-83-content" class="dyncontent" style="display:none;">
+<div id="dynsection-87-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a0e35940dece089743b2cbf23c7b5ff72_cgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-84" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-84-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-84-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-88" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-88-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-88-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-84-content" class="dyncontent" style="display:none;">
+<div id="dynsection-88-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a0e35940dece089743b2cbf23c7b5ff72_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3410,20 +3496,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03517">3517</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-85" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-85-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-85-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03526">3526</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-89" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-89-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-89-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-85-content" class="dyncontent" style="display:none;">
+<div id="dynsection-89-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a09b91288d539f3d364aee2327899a7c7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-86" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-86-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-86-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-90" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-90-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-90-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-86-content" class="dyncontent" style="display:none;">
+<div id="dynsection-90-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a09b91288d539f3d364aee2327899a7c7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3485,20 +3571,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03597">3597</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-87" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-87-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-87-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03606">3606</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-91" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-91-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-91-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-87-content" class="dyncontent" style="display:none;">
+<div id="dynsection-91-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_af3146f39ade8627025d1a11e277b48a1_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-88" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-88-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-88-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-92" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-92-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-92-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-88-content" class="dyncontent" style="display:none;">
+<div id="dynsection-92-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_af3146f39ade8627025d1a11e277b48a1_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3541,20 +3627,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 
 <p>Allocate a new request reference and add it to the end of the attribute reference list. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00635">635</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-89" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-89-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-89-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00644">644</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-93" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-93-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-93-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-89-content" class="dyncontent" style="display:none;">
+<div id="dynsection-93-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_aa3efdc09f404512460dbf93bd5ce1279_cgraph.svg" width="335" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-90" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-90-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-90-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-94" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-94-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-94-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-90-content" class="dyncontent" style="display:none;">
+<div id="dynsection-94-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_aa3efdc09f404512460dbf93bd5ce1279_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3625,20 +3711,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01669">1669</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-91" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-91-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-91-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01678">1678</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-95" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-95-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-95-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-91-content" class="dyncontent" style="display:none;">
+<div id="dynsection-95-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a622d15ce8a833215c0f4e05bc65366a9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-92" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-92-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-92-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-96" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-96-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-96-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-92-content" class="dyncontent" style="display:none;">
+<div id="dynsection-96-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a622d15ce8a833215c0f4e05bc65366a9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3674,20 +3760,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02958">2958</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-93" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-93-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-93-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02967">2967</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-97" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-97-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-97-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-93-content" class="dyncontent" style="display:none;">
+<div id="dynsection-97-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a4fe93363d652e23d9ee31fd1e2c33c57_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-94" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-94-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-94-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-98" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-98-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-98-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-94-content" class="dyncontent" style="display:none;">
+<div id="dynsection-98-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a4fe93363d652e23d9ee31fd1e2c33c57_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3743,20 +3829,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00503">503</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-95" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-95-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-95-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00512">512</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-99" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-99-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-99-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-95-content" class="dyncontent" style="display:none;">
+<div id="dynsection-99-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a607abcae843d45f96c25f2923345c055_cgraph.svg" width="291" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-96" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-96-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-96-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-100" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-100-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-100-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-96-content" class="dyncontent" style="display:none;">
+<div id="dynsection-100-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a607abcae843d45f96c25f2923345c055_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3812,20 +3898,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00462">462</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-97" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-97-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-97-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00471">471</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-101" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-101-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-101-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-97-content" class="dyncontent" style="display:none;">
+<div id="dynsection-101-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a18e3abf48a2faaa0a9c2156f9ca845fb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-98" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-98-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-98-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-102" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-102-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-102-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-98-content" class="dyncontent" style="display:none;">
+<div id="dynsection-102-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a18e3abf48a2faaa0a9c2156f9ca845fb_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3881,12 +3967,12 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00486">486</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-99" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-99-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-99-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00495">495</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-103" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-103-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-103-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-99-content" class="dyncontent" style="display:none;">
+<div id="dynsection-103-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a902e2d48f72c933638f5fe1f3ec0dadf_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3941,20 +4027,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01092">1092</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-100" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-100-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-100-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01101">1101</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-104" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-104-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-104-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-100-content" class="dyncontent" style="display:none;">
+<div id="dynsection-104-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a7a3ea7910c08c1254be413d032af6055_cgraph.svg" width="552" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-101" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-101-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-101-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-105" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-105-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-105-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-101-content" class="dyncontent" style="display:none;">
+<div id="dynsection-105-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a7a3ea7910c08c1254be413d032af6055_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3997,12 +4083,12 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 
 <p>Initialise fields inside a tmpl depending on its type. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00429">429</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-102" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-102-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-102-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00438">438</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-106" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-106-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-106-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-102-content" class="dyncontent" style="display:none;">
+<div id="dynsection-106-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a154e149950c64a0aa0a58f80c41dac7f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -4034,12 +4120,12 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03008">3008</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-103" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-103-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-103-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l03017">3017</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-107" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-107-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-107-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-103-content" class="dyncontent" style="display:none;">
+<div id="dynsection-107-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a0e61acbfa1cb7f82f1233670bbf29722_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -4090,20 +4176,20 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02940">2940</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
-<div id="dynsection-104" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-104-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-104-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l02949">2949</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<div id="dynsection-108" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-108-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-108-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-104-content" class="dyncontent" style="display:none;">
+<div id="dynsection-108-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a1b61cf929aaf81cbd6ffc25a8040e72a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-105" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-105-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-105-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-109" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-109-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-109-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-105-content" class="dyncontent" style="display:none;">
+<div id="dynsection-109-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="tmpl__tokenize_8c_a1b61cf929aaf81cbd6ffc25a8040e72a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -4230,7 +4316,7 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 <p>Because this is getting to be a ridiculous number of parsing rules to pass in via arguments.</p>
 <p>Defaults are used if a NULL rules pointer is passed to the parsing function. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00981">981</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00990">990</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4325,7 +4411,7 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .escapes = &amp;<a class="code" href="value_8c.html#a9b039e5343bc4c4ed950b283bc0db8c0">fr_value_unescape_backtick</a>,</div><div class="line">        .terminals = &amp;<a class="code" href="sbuff_8h.html#ae80e10794dff4c804273cd5c9254287c">FR_SBUFF_TERM</a>(<span class="stringliteral">&quot;`&quot;</span>)</div><div class="line">}</div><div class="ttc" id="value_8c_html_a9b039e5343bc4c4ed950b283bc0db8c0"><div class="ttname"><a href="value_8c.html#a9b039e5343bc4c4ed950b283bc0db8c0">fr_value_unescape_backtick</a></div><div class="ttdeci">fr_sbuff_unescape_rules_t fr_value_unescape_backtick</div><div class="ttdef"><b>Definition:</b> <a href="value_8c_source.html#l00374">value.c:374</a></div></div>
 <div class="ttc" id="sbuff_8h_html_ae80e10794dff4c804273cd5c9254287c"><div class="ttname"><a href="sbuff_8h.html#ae80e10794dff4c804273cd5c9254287c">FR_SBUFF_TERM</a></div><div class="ttdeci">#define FR_SBUFF_TERM(_str)</div><div class="ttdoc">Initialise a terminal structure with a single string. </div><div class="ttdef"><b>Definition:</b> <a href="sbuff_8h_source.html#l00138">sbuff.h:138</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01063">1063</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01072">1072</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4342,7 +4428,7 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .escapes = &amp;<a class="code" href="value_8c.html#a9b039e5343bc4c4ed950b283bc0db8c0">fr_value_unescape_backtick</a></div><div class="line">}</div><div class="ttc" id="value_8c_html_a9b039e5343bc4c4ed950b283bc0db8c0"><div class="ttname"><a href="value_8c.html#a9b039e5343bc4c4ed950b283bc0db8c0">fr_value_unescape_backtick</a></div><div class="ttdeci">fr_sbuff_unescape_rules_t fr_value_unescape_backtick</div><div class="ttdef"><b>Definition:</b> <a href="value_8c_source.html#l00374">value.c:374</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01006">1006</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01015">1015</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4361,7 +4447,7 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 <div class="ttc" id="sbuff_8h_html_structfr__sbuff__unescape__rules__t"><div class="ttname"><a href="sbuff_8h.html#structfr__sbuff__unescape__rules__t">fr_sbuff_unescape_rules_t</a></div><div class="ttdoc">Set of parsing rules for *unescape_until functions. </div><div class="ttdef"><b>Definition:</b> <a href="sbuff_8h_source.html#l00159">sbuff.h:159</a></div></div>
 <div class="ttc" id="build_8h_html_a2c7b7cca6314b99cc417bde2ce3542a4"><div class="ttname"><a href="build_8h.html#a2c7b7cca6314b99cc417bde2ce3542a4">L</a></div><div class="ttdeci">#define L(_str)</div><div class="ttdef"><b>Definition:</b> <a href="build_8h_source.html#l00078">build.h:78</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01026">1026</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01035">1035</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4380,7 +4466,7 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 <p>Default formatting rules. </p>
 <p>Control token termination, escaping and how the tmpl is printed. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00990">990</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00999">999</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4398,7 +4484,7 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .escapes = &amp;<a class="code" href="value_8c.html#aed67c6db34b4cbcd44e4aea7030e5b9a">fr_value_unescape_double</a>,</div><div class="line">        .terminals = &amp;<a class="code" href="sbuff_8h.html#ae80e10794dff4c804273cd5c9254287c">FR_SBUFF_TERM</a>(<span class="stringliteral">&quot;\&quot;&quot;</span>)</div><div class="line">}</div><div class="ttc" id="value_8c_html_aed67c6db34b4cbcd44e4aea7030e5b9a"><div class="ttname"><a href="value_8c.html#aed67c6db34b4cbcd44e4aea7030e5b9a">fr_value_unescape_double</a></div><div class="ttdeci">fr_sbuff_unescape_rules_t fr_value_unescape_double</div><div class="ttdef"><b>Definition:</b> <a href="value_8c_source.html#l00323">value.c:323</a></div></div>
 <div class="ttc" id="sbuff_8h_html_ae80e10794dff4c804273cd5c9254287c"><div class="ttname"><a href="sbuff_8h.html#ae80e10794dff4c804273cd5c9254287c">FR_SBUFF_TERM</a></div><div class="ttdeci">#define FR_SBUFF_TERM(_str)</div><div class="ttdoc">Initialise a terminal structure with a single string. </div><div class="ttdef"><b>Definition:</b> <a href="sbuff_8h_source.html#l00138">sbuff.h:138</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01048">1048</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01057">1057</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4415,7 +4501,7 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .escapes = &amp;<a class="code" href="value_8c.html#aed67c6db34b4cbcd44e4aea7030e5b9a">fr_value_unescape_double</a></div><div class="line">}</div><div class="ttc" id="value_8c_html_aed67c6db34b4cbcd44e4aea7030e5b9a"><div class="ttname"><a href="value_8c.html#aed67c6db34b4cbcd44e4aea7030e5b9a">fr_value_unescape_double</a></div><div class="ttdeci">fr_sbuff_unescape_rules_t fr_value_unescape_double</div><div class="ttdef"><b>Definition:</b> <a href="value_8c_source.html#l00323">value.c:323</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00994">994</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01003">1003</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4430,22 +4516,22 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a598bd182fbb99a2f9a9f83aa8ca2dab6">T_BARE_WORD</a>]                   = &amp;<a class="code" href="tmpl__tokenize_8c.html#aa9c556f2671fc2bbc832121be2439b11">tmpl_parse_rules_bareword_quoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a97ed5966ccf2732cad3a1112efae0483">T_DOUBLE_QUOTED_STRING</a>]        = &amp;<a class="code" href="tmpl__tokenize_8c.html#a17376b30feca0fbd225c3ad72c71c9ca">tmpl_parse_rules_double_quoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a4350224762c9479edfa380d21b845945">T_SINGLE_QUOTED_STRING</a>]        = &amp;<a class="code" href="tmpl__tokenize_8c.html#a2ef27de5b65cbc88ff2c60a9ff9635b5">tmpl_parse_rules_single_quoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7ad706501ea3c94b3e85bd68abb70d5fcc">T_SOLIDUS_QUOTED_STRING</a>]       = &amp;<a class="code" href="tmpl__tokenize_8c.html#a5da01f3cde18dbdc57f70f1829f0fc5d">tmpl_parse_rules_solidus_quoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a70ca3e65d64eda639383c3dd4c43a305">T_BACK_QUOTED_STRING</a>]          = &amp;<a class="code" href="tmpl__tokenize_8c.html#a5e8ed40b3455449b8c9d6be6d655b98f">tmpl_parse_rules_backtick_quoted</a></div><div class="line">}</div><div class="ttc" id="tmpl__tokenize_8c_html_aa9c556f2671fc2bbc832121be2439b11"><div class="ttname"><a href="tmpl__tokenize_8c.html#aa9c556f2671fc2bbc832121be2439b11">tmpl_parse_rules_bareword_quoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_bareword_quoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01026">tmpl_tokenize.c:1026</a></div></div>
-<div class="ttc" id="tmpl__tokenize_8c_html_a5e8ed40b3455449b8c9d6be6d655b98f"><div class="ttname"><a href="tmpl__tokenize_8c.html#a5e8ed40b3455449b8c9d6be6d655b98f">tmpl_parse_rules_backtick_quoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_backtick_quoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01063">tmpl_tokenize.c:1063</a></div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a598bd182fbb99a2f9a9f83aa8ca2dab6">T_BARE_WORD</a>]                   = &amp;<a class="code" href="tmpl__tokenize_8c.html#aa9c556f2671fc2bbc832121be2439b11">tmpl_parse_rules_bareword_quoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a97ed5966ccf2732cad3a1112efae0483">T_DOUBLE_QUOTED_STRING</a>]        = &amp;<a class="code" href="tmpl__tokenize_8c.html#a17376b30feca0fbd225c3ad72c71c9ca">tmpl_parse_rules_double_quoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a4350224762c9479edfa380d21b845945">T_SINGLE_QUOTED_STRING</a>]        = &amp;<a class="code" href="tmpl__tokenize_8c.html#a2ef27de5b65cbc88ff2c60a9ff9635b5">tmpl_parse_rules_single_quoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7ad706501ea3c94b3e85bd68abb70d5fcc">T_SOLIDUS_QUOTED_STRING</a>]       = &amp;<a class="code" href="tmpl__tokenize_8c.html#a5da01f3cde18dbdc57f70f1829f0fc5d">tmpl_parse_rules_solidus_quoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a70ca3e65d64eda639383c3dd4c43a305">T_BACK_QUOTED_STRING</a>]          = &amp;<a class="code" href="tmpl__tokenize_8c.html#a5e8ed40b3455449b8c9d6be6d655b98f">tmpl_parse_rules_backtick_quoted</a></div><div class="line">}</div><div class="ttc" id="tmpl__tokenize_8c_html_aa9c556f2671fc2bbc832121be2439b11"><div class="ttname"><a href="tmpl__tokenize_8c.html#aa9c556f2671fc2bbc832121be2439b11">tmpl_parse_rules_bareword_quoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_bareword_quoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01035">tmpl_tokenize.c:1035</a></div></div>
+<div class="ttc" id="tmpl__tokenize_8c_html_a5e8ed40b3455449b8c9d6be6d655b98f"><div class="ttname"><a href="tmpl__tokenize_8c.html#a5e8ed40b3455449b8c9d6be6d655b98f">tmpl_parse_rules_backtick_quoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_backtick_quoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01072">tmpl_tokenize.c:1072</a></div></div>
 <div class="ttc" id="token_8h_html_a28164fda426e3d8b88ae9b52bffafde7a97ed5966ccf2732cad3a1112efae0483"><div class="ttname"><a href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a97ed5966ccf2732cad3a1112efae0483">T_DOUBLE_QUOTED_STRING</a></div><div class="ttdef"><b>Definition:</b> <a href="token_8h_source.html#l00065">token.h:65</a></div></div>
 <div class="ttc" id="token_8h_html_a28164fda426e3d8b88ae9b52bffafde7a4350224762c9479edfa380d21b845945"><div class="ttname"><a href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a4350224762c9479edfa380d21b845945">T_SINGLE_QUOTED_STRING</a></div><div class="ttdef"><b>Definition:</b> <a href="token_8h_source.html#l00066">token.h:66</a></div></div>
-<div class="ttc" id="tmpl__tokenize_8c_html_a17376b30feca0fbd225c3ad72c71c9ca"><div class="ttname"><a href="tmpl__tokenize_8c.html#a17376b30feca0fbd225c3ad72c71c9ca">tmpl_parse_rules_double_quoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_double_quoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01048">tmpl_tokenize.c:1048</a></div></div>
-<div class="ttc" id="tmpl__tokenize_8c_html_a5da01f3cde18dbdc57f70f1829f0fc5d"><div class="ttname"><a href="tmpl__tokenize_8c.html#a5da01f3cde18dbdc57f70f1829f0fc5d">tmpl_parse_rules_solidus_quoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_solidus_quoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01058">tmpl_tokenize.c:1058</a></div></div>
+<div class="ttc" id="tmpl__tokenize_8c_html_a17376b30feca0fbd225c3ad72c71c9ca"><div class="ttname"><a href="tmpl__tokenize_8c.html#a17376b30feca0fbd225c3ad72c71c9ca">tmpl_parse_rules_double_quoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_double_quoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01057">tmpl_tokenize.c:1057</a></div></div>
+<div class="ttc" id="tmpl__tokenize_8c_html_a5da01f3cde18dbdc57f70f1829f0fc5d"><div class="ttname"><a href="tmpl__tokenize_8c.html#a5da01f3cde18dbdc57f70f1829f0fc5d">tmpl_parse_rules_solidus_quoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_solidus_quoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01067">tmpl_tokenize.c:1067</a></div></div>
 <div class="ttc" id="token_8h_html_a28164fda426e3d8b88ae9b52bffafde7a598bd182fbb99a2f9a9f83aa8ca2dab6"><div class="ttname"><a href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a598bd182fbb99a2f9a9f83aa8ca2dab6">T_BARE_WORD</a></div><div class="ttdef"><b>Definition:</b> <a href="token_8h_source.html#l00064">token.h:64</a></div></div>
 <div class="ttc" id="token_8h_html_a28164fda426e3d8b88ae9b52bffafde7a70ca3e65d64eda639383c3dd4c43a305"><div class="ttname"><a href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a70ca3e65d64eda639383c3dd4c43a305">T_BACK_QUOTED_STRING</a></div><div class="ttdef"><b>Definition:</b> <a href="token_8h_source.html#l00067">token.h:67</a></div></div>
-<div class="ttc" id="tmpl__tokenize_8c_html_a2ef27de5b65cbc88ff2c60a9ff9635b5"><div class="ttname"><a href="tmpl__tokenize_8c.html#a2ef27de5b65cbc88ff2c60a9ff9635b5">tmpl_parse_rules_single_quoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_single_quoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01053">tmpl_tokenize.c:1053</a></div></div>
+<div class="ttc" id="tmpl__tokenize_8c_html_a2ef27de5b65cbc88ff2c60a9ff9635b5"><div class="ttname"><a href="tmpl__tokenize_8c.html#a2ef27de5b65cbc88ff2c60a9ff9635b5">tmpl_parse_rules_single_quoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_single_quoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01062">tmpl_tokenize.c:1062</a></div></div>
 <div class="ttc" id="token_8h_html_a28164fda426e3d8b88ae9b52bffafde7ad706501ea3c94b3e85bd68abb70d5fcc"><div class="ttname"><a href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7ad706501ea3c94b3e85bd68abb70d5fcc">T_SOLIDUS_QUOTED_STRING</a></div><div class="ttdef"><b>Definition:</b> <a href="token_8h_source.html#l00068">token.h:68</a></div></div>
 </div><!-- fragment -->
 <p>Parse rules for quoted strings. </p>
 <p>These parse rules should be used for internal parsing functions that are working with configuration files.</p>
 <p>They include appropriate quote terminals to force functions parsing quoted strings to return when they reach a quote character. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01076">1076</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01085">1085</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4463,7 +4549,7 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .escapes = &amp;<a class="code" href="value_8c.html#ab6b7b4fd888b840854108b18adf315d0">fr_value_unescape_single</a>,</div><div class="line">        .terminals = &amp;<a class="code" href="sbuff_8h.html#ae80e10794dff4c804273cd5c9254287c">FR_SBUFF_TERM</a>(<span class="stringliteral">&quot;&#39;&quot;</span>)</div><div class="line">}</div><div class="ttc" id="sbuff_8h_html_ae80e10794dff4c804273cd5c9254287c"><div class="ttname"><a href="sbuff_8h.html#ae80e10794dff4c804273cd5c9254287c">FR_SBUFF_TERM</a></div><div class="ttdeci">#define FR_SBUFF_TERM(_str)</div><div class="ttdoc">Initialise a terminal structure with a single string. </div><div class="ttdef"><b>Definition:</b> <a href="sbuff_8h_source.html#l00138">sbuff.h:138</a></div></div>
 <div class="ttc" id="value_8c_html_ab6b7b4fd888b840854108b18adf315d0"><div class="ttname"><a href="value_8c.html#ab6b7b4fd888b840854108b18adf315d0">fr_value_unescape_single</a></div><div class="ttdeci">fr_sbuff_unescape_rules_t fr_value_unescape_single</div><div class="ttdef"><b>Definition:</b> <a href="value_8c_source.html#l00342">value.c:342</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01053">1053</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01062">1062</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4480,7 +4566,7 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .escapes = &amp;<a class="code" href="value_8c.html#ab6b7b4fd888b840854108b18adf315d0">fr_value_unescape_single</a></div><div class="line">}</div><div class="ttc" id="value_8c_html_ab6b7b4fd888b840854108b18adf315d0"><div class="ttname"><a href="value_8c.html#ab6b7b4fd888b840854108b18adf315d0">fr_value_unescape_single</a></div><div class="ttdeci">fr_sbuff_unescape_rules_t fr_value_unescape_single</div><div class="ttdef"><b>Definition:</b> <a href="value_8c_source.html#l00342">value.c:342</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l00998">998</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01007">1007</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4498,7 +4584,7 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .escapes = &amp;<a class="code" href="value_8c.html#a5540564942dc86e0af23dc05afc96f54">fr_value_unescape_solidus</a>,</div><div class="line">        .terminals = &amp;<a class="code" href="sbuff_8h.html#ae80e10794dff4c804273cd5c9254287c">FR_SBUFF_TERM</a>(<span class="stringliteral">&quot;/&quot;</span>)</div><div class="line">}</div><div class="ttc" id="value_8c_html_a5540564942dc86e0af23dc05afc96f54"><div class="ttname"><a href="value_8c.html#a5540564942dc86e0af23dc05afc96f54">fr_value_unescape_solidus</a></div><div class="ttdeci">fr_sbuff_unescape_rules_t fr_value_unescape_solidus</div><div class="ttdef"><b>Definition:</b> <a href="value_8c_source.html#l00353">value.c:353</a></div></div>
 <div class="ttc" id="sbuff_8h_html_ae80e10794dff4c804273cd5c9254287c"><div class="ttname"><a href="sbuff_8h.html#ae80e10794dff4c804273cd5c9254287c">FR_SBUFF_TERM</a></div><div class="ttdeci">#define FR_SBUFF_TERM(_str)</div><div class="ttdoc">Initialise a terminal structure with a single string. </div><div class="ttdef"><b>Definition:</b> <a href="sbuff_8h_source.html#l00138">sbuff.h:138</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01058">1058</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01067">1067</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4515,7 +4601,7 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .escapes = &amp;<a class="code" href="value_8c.html#a5540564942dc86e0af23dc05afc96f54">fr_value_unescape_solidus</a></div><div class="line">}</div><div class="ttc" id="value_8c_html_a5540564942dc86e0af23dc05afc96f54"><div class="ttname"><a href="value_8c.html#a5540564942dc86e0af23dc05afc96f54">fr_value_unescape_solidus</a></div><div class="ttdeci">fr_sbuff_unescape_rules_t fr_value_unescape_solidus</div><div class="ttdef"><b>Definition:</b> <a href="value_8c_source.html#l00353">value.c:353</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01002">1002</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01011">1011</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4530,22 +4616,22 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a598bd182fbb99a2f9a9f83aa8ca2dab6">T_BARE_WORD</a>]                   = &amp;<a class="code" href="tmpl__tokenize_8c.html#ae0450e31e5879cfba88ac36fa09329d2">tmpl_parse_rules_bareword_unquoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a97ed5966ccf2732cad3a1112efae0483">T_DOUBLE_QUOTED_STRING</a>]        = &amp;<a class="code" href="tmpl__tokenize_8c.html#aeb783a8fc703869d1ea9c1022a7c7680">tmpl_parse_rules_double_unquoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a4350224762c9479edfa380d21b845945">T_SINGLE_QUOTED_STRING</a>]        = &amp;<a class="code" href="tmpl__tokenize_8c.html#a36bce1e1d6dda427c363896da80f0510">tmpl_parse_rules_single_unquoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7ad706501ea3c94b3e85bd68abb70d5fcc">T_SOLIDUS_QUOTED_STRING</a>]       = &amp;<a class="code" href="tmpl__tokenize_8c.html#a3ef7b5d9fa9995d8b27cae5e7f6b1454">tmpl_parse_rules_solidus_unquoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a70ca3e65d64eda639383c3dd4c43a305">T_BACK_QUOTED_STRING</a>]          = &amp;<a class="code" href="tmpl__tokenize_8c.html#ae065ec0d88087dcb9244d90a6cf0cc9f">tmpl_parse_rules_backtick_unquoted</a></div><div class="line">}</div><div class="ttc" id="tmpl__tokenize_8c_html_a3ef7b5d9fa9995d8b27cae5e7f6b1454"><div class="ttname"><a href="tmpl__tokenize_8c.html#a3ef7b5d9fa9995d8b27cae5e7f6b1454">tmpl_parse_rules_solidus_unquoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_solidus_unquoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01002">tmpl_tokenize.c:1002</a></div></div>
-<div class="ttc" id="tmpl__tokenize_8c_html_ae065ec0d88087dcb9244d90a6cf0cc9f"><div class="ttname"><a href="tmpl__tokenize_8c.html#ae065ec0d88087dcb9244d90a6cf0cc9f">tmpl_parse_rules_backtick_unquoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_backtick_unquoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01006">tmpl_tokenize.c:1006</a></div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a598bd182fbb99a2f9a9f83aa8ca2dab6">T_BARE_WORD</a>]                   = &amp;<a class="code" href="tmpl__tokenize_8c.html#ae0450e31e5879cfba88ac36fa09329d2">tmpl_parse_rules_bareword_unquoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a97ed5966ccf2732cad3a1112efae0483">T_DOUBLE_QUOTED_STRING</a>]        = &amp;<a class="code" href="tmpl__tokenize_8c.html#aeb783a8fc703869d1ea9c1022a7c7680">tmpl_parse_rules_double_unquoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a4350224762c9479edfa380d21b845945">T_SINGLE_QUOTED_STRING</a>]        = &amp;<a class="code" href="tmpl__tokenize_8c.html#a36bce1e1d6dda427c363896da80f0510">tmpl_parse_rules_single_unquoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7ad706501ea3c94b3e85bd68abb70d5fcc">T_SOLIDUS_QUOTED_STRING</a>]       = &amp;<a class="code" href="tmpl__tokenize_8c.html#a3ef7b5d9fa9995d8b27cae5e7f6b1454">tmpl_parse_rules_solidus_unquoted</a>,</div><div class="line">        [<a class="code" href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a70ca3e65d64eda639383c3dd4c43a305">T_BACK_QUOTED_STRING</a>]          = &amp;<a class="code" href="tmpl__tokenize_8c.html#ae065ec0d88087dcb9244d90a6cf0cc9f">tmpl_parse_rules_backtick_unquoted</a></div><div class="line">}</div><div class="ttc" id="tmpl__tokenize_8c_html_a3ef7b5d9fa9995d8b27cae5e7f6b1454"><div class="ttname"><a href="tmpl__tokenize_8c.html#a3ef7b5d9fa9995d8b27cae5e7f6b1454">tmpl_parse_rules_solidus_unquoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_solidus_unquoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01011">tmpl_tokenize.c:1011</a></div></div>
+<div class="ttc" id="tmpl__tokenize_8c_html_ae065ec0d88087dcb9244d90a6cf0cc9f"><div class="ttname"><a href="tmpl__tokenize_8c.html#ae065ec0d88087dcb9244d90a6cf0cc9f">tmpl_parse_rules_backtick_unquoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_backtick_unquoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01015">tmpl_tokenize.c:1015</a></div></div>
 <div class="ttc" id="token_8h_html_a28164fda426e3d8b88ae9b52bffafde7a97ed5966ccf2732cad3a1112efae0483"><div class="ttname"><a href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a97ed5966ccf2732cad3a1112efae0483">T_DOUBLE_QUOTED_STRING</a></div><div class="ttdef"><b>Definition:</b> <a href="token_8h_source.html#l00065">token.h:65</a></div></div>
 <div class="ttc" id="token_8h_html_a28164fda426e3d8b88ae9b52bffafde7a4350224762c9479edfa380d21b845945"><div class="ttname"><a href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a4350224762c9479edfa380d21b845945">T_SINGLE_QUOTED_STRING</a></div><div class="ttdef"><b>Definition:</b> <a href="token_8h_source.html#l00066">token.h:66</a></div></div>
 <div class="ttc" id="token_8h_html_a28164fda426e3d8b88ae9b52bffafde7a598bd182fbb99a2f9a9f83aa8ca2dab6"><div class="ttname"><a href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a598bd182fbb99a2f9a9f83aa8ca2dab6">T_BARE_WORD</a></div><div class="ttdef"><b>Definition:</b> <a href="token_8h_source.html#l00064">token.h:64</a></div></div>
-<div class="ttc" id="tmpl__tokenize_8c_html_aeb783a8fc703869d1ea9c1022a7c7680"><div class="ttname"><a href="tmpl__tokenize_8c.html#aeb783a8fc703869d1ea9c1022a7c7680">tmpl_parse_rules_double_unquoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_double_unquoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l00994">tmpl_tokenize.c:994</a></div></div>
-<div class="ttc" id="tmpl__tokenize_8c_html_ae0450e31e5879cfba88ac36fa09329d2"><div class="ttname"><a href="tmpl__tokenize_8c.html#ae0450e31e5879cfba88ac36fa09329d2">tmpl_parse_rules_bareword_unquoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_bareword_unquoted</div><div class="ttdoc">Default formatting rules. </div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l00990">tmpl_tokenize.c:990</a></div></div>
+<div class="ttc" id="tmpl__tokenize_8c_html_aeb783a8fc703869d1ea9c1022a7c7680"><div class="ttname"><a href="tmpl__tokenize_8c.html#aeb783a8fc703869d1ea9c1022a7c7680">tmpl_parse_rules_double_unquoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_double_unquoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01003">tmpl_tokenize.c:1003</a></div></div>
+<div class="ttc" id="tmpl__tokenize_8c_html_ae0450e31e5879cfba88ac36fa09329d2"><div class="ttname"><a href="tmpl__tokenize_8c.html#ae0450e31e5879cfba88ac36fa09329d2">tmpl_parse_rules_bareword_unquoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_bareword_unquoted</div><div class="ttdoc">Default formatting rules. </div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l00999">tmpl_tokenize.c:999</a></div></div>
 <div class="ttc" id="token_8h_html_a28164fda426e3d8b88ae9b52bffafde7a70ca3e65d64eda639383c3dd4c43a305"><div class="ttname"><a href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7a70ca3e65d64eda639383c3dd4c43a305">T_BACK_QUOTED_STRING</a></div><div class="ttdef"><b>Definition:</b> <a href="token_8h_source.html#l00067">token.h:67</a></div></div>
 <div class="ttc" id="token_8h_html_a28164fda426e3d8b88ae9b52bffafde7ad706501ea3c94b3e85bd68abb70d5fcc"><div class="ttname"><a href="token_8h.html#a28164fda426e3d8b88ae9b52bffafde7ad706501ea3c94b3e85bd68abb70d5fcc">T_SOLIDUS_QUOTED_STRING</a></div><div class="ttdef"><b>Definition:</b> <a href="token_8h_source.html#l00068">token.h:68</a></div></div>
-<div class="ttc" id="tmpl__tokenize_8c_html_a36bce1e1d6dda427c363896da80f0510"><div class="ttname"><a href="tmpl__tokenize_8c.html#a36bce1e1d6dda427c363896da80f0510">tmpl_parse_rules_single_unquoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_single_unquoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l00998">tmpl_tokenize.c:998</a></div></div>
+<div class="ttc" id="tmpl__tokenize_8c_html_a36bce1e1d6dda427c363896da80f0510"><div class="ttname"><a href="tmpl__tokenize_8c.html#a36bce1e1d6dda427c363896da80f0510">tmpl_parse_rules_single_unquoted</a></div><div class="ttdeci">fr_sbuff_parse_rules_t const tmpl_parse_rules_single_unquoted</div><div class="ttdef"><b>Definition:</b> <a href="tmpl__tokenize_8c_source.html#l01007">tmpl_tokenize.c:1007</a></div></div>
 </div><!-- fragment -->
 <p>Parse rules for non-quoted strings. </p>
 <p>These parse rules should be used for processing escape sequences in data from external data sources like SQL databases and REST APIs.</p>
 <p>They do not include terminals to stop parsing as it assumes the values are discreet, and not wrapped in quotes. </p>
 
-<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01018">1018</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tmpl__tokenize_8c_source.html#l01027">1027</a> of file <a class="el" href="tmpl__tokenize_8c_source.html">tmpl_tokenize.c</a>.</p>
 
 </div>
 </div>
@@ -4602,7 +4688,7 @@ Irrespective of whether the <a class="el" href="server_2tmpl_8h.html#ab59ad3d0e1
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2020 15:34:06 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 17:46:25 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

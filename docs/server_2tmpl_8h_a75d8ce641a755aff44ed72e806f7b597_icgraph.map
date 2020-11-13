@@ -1,9 +1,42 @@
 <map id="tmpl_extents_build_to_leaf" name="tmpl_extents_build_to_leaf">
-<area shape="rect" id="node2" href="$subrequest_8c.html#a1ed0545b2bc4e7d6556818b987a59984" title="Process a subrequest until it either detaches, or is done. " alt="" coords="184,35,368,61"/>
-<area shape="rect" id="node3" href="$subrequest_8c.html#a24bc2d461a1834c4b3d0cd235dc52ec4" title="unlang_subrequest_start" alt="" coords="416,35,580,61"/>
-<area shape="rect" id="node4" href="$subrequest_8c.html#aad6971d247ee77ff4b5c4b7229af5529" title="unlang_subrequest_state_init" alt="" coords="628,5,819,32"/>
-<area shape="rect" id="node6" href="$subrequest__priv_8h.html#acd1679462f7f1ebb82181a282c6240b1" title="Push a pre&#45;existing child back onto the stack as a subrequest. " alt="" coords="640,60,807,87"/>
-<area shape="rect" id="node5" href="$unlang__priv_8h.html#a3404ea4ea923c7da0dbc6f57a5d0e5c4" title="unlang_subrequest_op_init" alt="" coords="1064,64,1240,91"/>
-<area shape="rect" id="node7" href="$unlang_2module_8h.html#a242ed1c8d3c8ce6174df1e79a99fbbe9" title="Yield, spawning a child request, and resuming once the child request is complete. ..." alt="" coords="870,53,1013,94"/>
-<area shape="rect" id="node8" href="$subrequest__priv_8h.html#a2158676345c7a6d964263704448f845e" title="Cast a subrequest keyword extension to a group structure. " alt="" coords="867,118,1016,159"/>
+<area shape="rect" id="node2" href="$map_8h.html#aa009f814e72685cac7c2f42a0dd95453" title="Convert map_t to fr_pair_t (s) and add them to a request_t. " alt="" coords="219,527,333,554"/>
+<area shape="rect" id="node35" href="$subrequest_8c.html#a1ed0545b2bc4e7d6556818b987a59984" title="Process a subrequest until it either detaches, or is done. " alt="" coords="184,679,368,706"/>
+<area shape="rect" id="node3" href="$lib_2ldap_2map_8c.html#a65af04c9c8f3c18824793cc7bb373d6f" title="Convert attribute map into valuepairs. " alt="" coords="441,122,555,149"/>
+<area shape="rect" id="node10" href="$group__xlat__functions.html#gad326850e301c5fef2184d28c9364cdb1" title="Processes fmt as a map string and applies it to the current request. " alt="" coords="445,325,551,351"/>
+<area shape="rect" id="node11" href="$rlm__cache_8c.html#aca76ab63ae182ce2d790632e50153dfe" title="Merge a cached entry into a request_t. " alt="" coords="448,375,548,402"/>
+<area shape="rect" id="node17" href="$rlm__client_8c.html#a7f351cb74f53d5ac399099bba60f7f26" title="Map multiple attributes from a client into the request. " alt="" coords="439,426,557,453"/>
+<area shape="rect" id="node19" href="$rlm__csv_8c.html#a4d718c5e032b3cd12a5ed11b6dacdd01" title="Perform a search and map the result of the search to server attributes. " alt="" coords="439,477,557,503"/>
+<area shape="rect" id="node23" href="$rlm__json_8c.html#a4688e26fbd17f3ed5fee0f205e3cf13e" title="Parses a JSON string, and executes jpath queries against it to map values to attributes. " alt="" coords="443,527,553,554"/>
+<area shape="rect" id="node25" href="$rlm__radius__udp_8c.html#af13be8fe7b2dae1d81c7bec2ae487356" title="status_check_alloc" alt="" coords="431,578,565,605"/>
+<area shape="rect" id="node28" href="$rlm__redis__ippool_8c.html#ab2c2cf71d32e4dd26d34f3e07e4f30d5" title="Allocate a new IP address from a pool. " alt="" coords="427,629,569,655"/>
+<area shape="rect" id="node29" href="$rlm__redis__ippool_8c.html#a0e17beda5942fe3b843a7fa84ba3e0d5" title="mod_action" alt="" coords="679,679,768,706"/>
+<area shape="rect" id="node34" href="$rlm__redis__ippool_8c.html#a222ac1104a9562b65c8ac5a8416f9ea4" title="Update an existing IP address in a pool. " alt="" coords="429,730,567,757"/>
+<area shape="rect" id="node4" href="$ldap_2base_8h.html#a09b17dbd44c20ca295df56d5987d9da6" title="Inline function to copy pointers from a berval to a valuebox. " alt="" coords="644,5,803,47"/>
+<area shape="rect" id="node6" href="$proto__ldap__sync_8c.html#acfdd5215e3551df5566a8dd59952285c" title="Process an entry modification operation. " alt="" coords="661,71,786,98"/>
+<area shape="rect" id="node8" href="$rlm__ldap_8c.html#aa6d8d6db55fe40a836d60a033975e563" title="Search for and apply an LDAP profile. " alt="" coords="651,122,796,149"/>
+<area shape="rect" id="node9" href="$rlm__ldap_8c.html#a9ef7a569b6f2f01a9ba088072c54e516" title="mod_authorize" alt="" coords="897,122,1003,149"/>
+<area shape="rect" id="node5" href="$sync_8c.html#a1f0346c509a0282581842cc8ebd2ef0e" title="Handle a LDAP_RES_SEARCH_ENTRY (SearchResultEntry) or LDAP_RES_SEARCH_REFRENCE (SearchResultReference..." alt="" coords="875,5,1025,47"/>
+<area shape="rect" id="node7" href="$proto__ldap__sync_8c.html#a8d3763cec30fc43e1b0b6c48ea872966" title="Parse socket configuration. " alt="" coords="867,71,1033,98"/>
+<area shape="rect" id="node12" href="$rlm__cache_8c.html#a81814aa1fda1603c3b048327dd521287" title="Free memory associated with a cache entry. " alt="" coords="680,274,767,301"/>
+<area shape="rect" id="node14" href="$rlm__cache_8c.html#a63fd5be2746409f3830c831aa6eeb487" title="Do caching checks. " alt="" coords="1305,274,1408,301"/>
+<area shape="rect" id="node16" href="$rlm__cache_8c.html#af26b5307df1a7f7d15f2b9059ce7314c" title="Create and insert a cache entry. " alt="" coords="902,325,998,351"/>
+<area shape="rect" id="node13" href="$rlm__cache_8c.html#a9745f7682acc912bbe753527de9b0921" title="Find a cached entry. " alt="" coords="907,173,993,199"/>
+<area shape="rect" id="node15" href="$group__xlat__functions.html#ga4c388b7d879ed3f7e09623c41e97d304" title="Allow single attribute values to be retrieved from the cache. " alt="" coords="1127,223,1212,250"/>
+<area shape="rect" id="node18" href="$rlm__client_8c.html#aaf8ab2f81db37f055630d1ef91f5e5a8" title="mod_bootstrap" alt="" coords="669,426,777,453"/>
+<area shape="rect" id="node20" href="$rlm__csv_8c.html#a16c76f57f127862e8bbe4b46245ada42" title="Perform a search and map the result of the search to server attributes. " alt="" coords="668,477,779,503"/>
+<area shape="rect" id="node22" href="$rlm__csv_8c.html#a1ee517a20d1254bcde78063a1e36840c" title="mod_process" alt="" coords="673,527,773,554"/>
+<area shape="rect" id="node21" href="$rlm__csv_8c.html#a9609ab2a4bc7986ec4f346b365737a42" title="mod_bootstrap" alt="" coords="896,477,1004,503"/>
+<area shape="rect" id="node24" href="$rlm__json_8c.html#a9609ab2a4bc7986ec4f346b365737a42" title="mod_bootstrap" alt="" coords="669,578,777,605"/>
+<area shape="rect" id="node26" href="$rlm__radius__udp_8c.html#a6a1ec80d89ca23c37f11e68453490df7" title="Initialise a new outbound connection. " alt="" coords="686,629,761,655"/>
+<area shape="rect" id="node27" href="$rlm__radius__udp_8c.html#aa8f09eea44c0bcbf53fb5310d945a639" title="thread_conn_alloc" alt="" coords="887,553,1013,579"/>
+<area shape="rect" id="node30" href="$rlm__redis__ippool_8c.html#a9746e2f556bcc77ccc75bb356086ed15" title="mod_accounting" alt="" coords="891,603,1009,630"/>
+<area shape="rect" id="node31" href="$rlm__redis__ippool_8c.html#a9ef7a569b6f2f01a9ba088072c54e516" title="mod_authorize" alt="" coords="897,654,1003,681"/>
+<area shape="rect" id="node32" href="$rlm__redis__ippool_8c.html#afdf6220a949e3c5c9b5cdafc6bb60513" title="mod_post_auth" alt="" coords="895,705,1005,731"/>
+<area shape="rect" id="node33" href="$rlm__redis__ippool_8c.html#aa12987ade8fb86ee13044678f2fa7d96" title="mod_request" alt="" coords="901,755,999,782"/>
+<area shape="rect" id="node36" href="$subrequest_8c.html#a24bc2d461a1834c4b3d0cd235dc52ec4" title="unlang_subrequest_start" alt="" coords="416,806,580,833"/>
+<area shape="rect" id="node37" href="$subrequest_8c.html#aad6971d247ee77ff4b5c4b7229af5529" title="unlang_subrequest_state_init" alt="" coords="628,806,819,833"/>
+<area shape="rect" id="node39" href="$subrequest__priv_8h.html#acd1679462f7f1ebb82181a282c6240b1" title="Push a pre&#45;existing child back onto the stack as a subrequest. " alt="" coords="640,865,807,891"/>
+<area shape="rect" id="node38" href="$unlang__priv_8h.html#a3404ea4ea923c7da0dbc6f57a5d0e5c4" title="unlang_subrequest_op_init" alt="" coords="1081,867,1257,894"/>
+<area shape="rect" id="node40" href="$unlang_2module_8h.html#a242ed1c8d3c8ce6174df1e79a99fbbe9" title="Yield, spawning a child request, and resuming once the child request is complete. ..." alt="" coords="879,857,1021,899"/>
+<area shape="rect" id="node41" href="$subrequest__priv_8h.html#a2158676345c7a6d964263704448f845e" title="Cast a subrequest keyword extension to a group structure. " alt="" coords="875,923,1025,964"/>
 </map>
