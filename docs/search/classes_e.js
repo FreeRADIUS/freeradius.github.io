@@ -10,7 +10,6 @@ var searchData=
   ['proto_5farp_5fethernet_5fthread_5ft',['proto_arp_ethernet_thread_t',['../proto__arp__ethernet_8c.html#structproto__arp__ethernet__thread__t',1,'']]],
   ['proto_5farp_5ft',['proto_arp_t',['../proto__arp_8h.html#structproto__arp__t',1,'']]],
   ['proto_5fcontrol_5ft',['proto_control_t',['../proto__control_8h.html#structproto__control__t',1,'']]],
-  ['proto_5fcontrol_5ftcp_5ft',['proto_control_tcp_t',['../proto__control__tcp_8c.html#structproto__control__tcp__t',1,'']]],
   ['proto_5fcontrol_5funix_5ft',['proto_control_unix_t',['../proto__control__unix_8c.html#structproto__control__unix__t',1,'']]],
   ['proto_5fcontrol_5funix_5fthread_5ft',['proto_control_unix_thread_t',['../proto__control__unix_8c.html#structproto__control__unix__thread__t',1,'']]],
   ['proto_5fdetail_5fprocess_5ft',['proto_detail_process_t',['../proto__detail_8h.html#structproto__detail__process__t',1,'']]],

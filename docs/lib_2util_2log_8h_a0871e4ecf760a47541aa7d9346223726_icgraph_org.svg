@@ -8,111 +8,111 @@
  viewBox="0.00 0.00 715.00 290.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 286)">
 <title>fr_log_hex_marker</title>
-<!-- Node557 -->
+<!-- Node556 -->
 <g id="node1" class="node">
-<title>Node557</title>
+<title>Node556</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-188.5 0,-207.5 97,-207.5 97,-188.5 0,-188.5"/>
 <text text-anchor="middle" x="48.5" y="-195.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_log_hex_marker</text>
 </g>
-<!-- Node558 -->
+<!-- Node557 -->
 <g id="node2" class="node">
-<title>Node558</title>
+<title>Node557</title>
 <g id="a_node2"><a xlink:href="lib_2util_2log_8h.html#a123c2202d725dbc6b308ad9a06bc91d4" target="_top" xlink:title="Whether rate limiting is enabled. ">
 <polygon fill="none" stroke="#000000" points="133,-188.5 133,-207.5 240,-207.5 240,-188.5 133,-188.5"/>
 <text text-anchor="middle" x="186.5" y="-195.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_rate_limit_enabled</text>
 </a>
 </g>
 </g>
-<!-- Node557&#45;&gt;Node558 -->
+<!-- Node556&#45;&gt;Node557 -->
 <g id="edge1" class="edge">
-<title>Node557&#45;&gt;Node558</title>
+<title>Node556&#45;&gt;Node557</title>
 <path fill="none" stroke="#191970" d="M107.2854,-198C115.7044,-198 124.3309,-198 132.6485,-198"/>
 <polygon fill="#191970" stroke="#191970" points="107.1537,-194.5001 97.1536,-198 107.1536,-201.5001 107.1537,-194.5001"/>
 </g>
-<!-- Node559 -->
+<!-- Node558 -->
 <g id="node3" class="node">
-<title>Node559</title>
+<title>Node558</title>
 <g id="a_node3"><a xlink:href="pool_8c.html#a41541ea89745dd51029d73fb008d6021" target="_top" xlink:title="Spawns a new connection. ">
 <polygon fill="none" stroke="#000000" points="276,-169.5 276,-188.5 374,-188.5 374,-169.5 276,-169.5"/>
 <text text-anchor="middle" x="325" y="-176.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">connection_spawn</text>
 </a>
 </g>
 </g>
-<!-- Node558&#45;&gt;Node559 -->
+<!-- Node557&#45;&gt;Node558 -->
 <g id="edge2" class="edge">
-<title>Node558&#45;&gt;Node559</title>
+<title>Node557&#45;&gt;Node558</title>
 <path fill="none" stroke="#191970" d="M250.057,-189.281C258.6568,-188.1012 267.3746,-186.9053 275.6749,-185.7666"/>
 <polygon fill="#191970" stroke="#191970" points="249.4792,-185.8274 240.0477,-190.6541 250.4306,-192.7624 249.4792,-185.8274"/>
 </g>
-<!-- Node666 -->
+<!-- Node665 -->
 <g id="node8" class="node">
-<title>Node666</title>
+<title>Node665</title>
 <g id="a_node8"><a xlink:href="pool_8c.html#a11f577ec1c9437bc561bace7b90d6768" target="_top" xlink:title="Get a connection from the connection pool. ">
 <polygon fill="none" stroke="#000000" points="410,-215.5 410,-234.5 529,-234.5 529,-215.5 410,-215.5"/>
 <text text-anchor="middle" x="469.5" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">connection_get_internal</text>
 </a>
 </g>
 </g>
-<!-- Node558&#45;&gt;Node666 -->
+<!-- Node557&#45;&gt;Node665 -->
 <g id="edge16" class="edge">
-<title>Node558&#45;&gt;Node666</title>
+<title>Node557&#45;&gt;Node665</title>
 <path fill="none" stroke="#191970" d="M250.2921,-204.0862C298.0833,-208.6458 363.0175,-214.8409 409.7923,-219.3035"/>
 <polygon fill="#191970" stroke="#191970" points="250.3501,-200.5759 240.0628,-203.1102 249.6852,-207.5443 250.3501,-200.5759"/>
 </g>
-<!-- Node560 -->
+<!-- Node559 -->
 <g id="node4" class="node">
-<title>Node560</title>
+<title>Node559</title>
 <g id="a_node4"><a xlink:href="pool_8c.html#a34653fe49349ad33c89e7a459e24293a" target="_top" xlink:title="Check whether any connections need to be removed from the pool. ">
 <polygon fill="none" stroke="#000000" points="422,-169.5 422,-188.5 517,-188.5 517,-169.5 422,-169.5"/>
 <text text-anchor="middle" x="469.5" y="-176.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">connection_check</text>
 </a>
 </g>
 </g>
-<!-- Node559&#45;&gt;Node560 -->
+<!-- Node558&#45;&gt;Node559 -->
 <g id="edge3" class="edge">
-<title>Node559&#45;&gt;Node560</title>
+<title>Node558&#45;&gt;Node559</title>
 <path fill="none" stroke="#191970" d="M384.5997,-179C397.016,-179 409.9468,-179 421.8631,-179"/>
 <polygon fill="#191970" stroke="#191970" points="384.3246,-175.5001 374.3246,-179 384.3245,-182.5001 384.3246,-175.5001"/>
 </g>
-<!-- Node559&#45;&gt;Node666 -->
+<!-- Node558&#45;&gt;Node665 -->
 <g id="edge7" class="edge">
-<title>Node559&#45;&gt;Node666</title>
+<title>Node558&#45;&gt;Node665</title>
 <path fill="none" stroke="#191970" d="M364.6816,-191.6322C388.3468,-199.1657 417.9073,-208.576 439.5979,-215.481"/>
 <polygon fill="#191970" stroke="#191970" points="365.531,-188.2296 354.9405,-188.5312 363.4076,-194.8998 365.531,-188.2296"/>
 </g>
-<!-- Node669 -->
+<!-- Node668 -->
 <g id="node10" class="node">
-<title>Node669</title>
+<title>Node668</title>
 <g id="a_node10"><a xlink:href="pool_8h.html#a0c11a25b05c71aab4392cb778959e7ce" target="_top" xlink:title="fr_pool_start">
 <polygon fill="none" stroke="#000000" points="434,-67.5 434,-86.5 505,-86.5 505,-67.5 434,-67.5"/>
 <text text-anchor="middle" x="469.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_pool_start</text>
 </a>
 </g>
 </g>
-<!-- Node559&#45;&gt;Node669 -->
+<!-- Node558&#45;&gt;Node668 -->
 <g id="edge10" class="edge">
-<title>Node559&#45;&gt;Node669</title>
+<title>Node558&#45;&gt;Node668</title>
 <path fill="none" stroke="#191970" d="M346.8041,-163.6089C377.0154,-142.2832 430.7179,-104.3756 455.8366,-86.6447"/>
 <polygon fill="#191970" stroke="#191970" points="344.7455,-160.7778 338.5942,-169.4041 348.7823,-166.4966 344.7455,-160.7778"/>
 </g>
-<!-- Node677 -->
+<!-- Node676 -->
 <g id="node14" class="node">
-<title>Node677</title>
+<title>Node676</title>
 <g id="a_node14"><a xlink:href="pool_8h.html#a6b87c78e8f39bd2704842359db2f263c" target="_top" xlink:title="Mark connections for reconnection, and spawn at least &#39;start&#39; connections. ">
 <polygon fill="none" stroke="#000000" points="422.5,-10.5 422.5,-29.5 516.5,-29.5 516.5,-10.5 422.5,-10.5"/>
 <text text-anchor="middle" x="469.5" y="-17.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_pool_reconnect</text>
 </a>
 </g>
 </g>
-<!-- Node559&#45;&gt;Node677 -->
+<!-- Node558&#45;&gt;Node676 -->
 <g id="edge14" class="edge">
-<title>Node559&#45;&gt;Node677</title>
+<title>Node558&#45;&gt;Node676</title>
 <path fill="none" stroke="#191970" d="M335.0141,-160.3305C349.2427,-135.0061 377.2509,-89.338 410,-58 422.0436,-46.4754 438.0833,-36.4711 450.4743,-29.6243"/>
 <polygon fill="#191970" stroke="#191970" points="331.8553,-158.8109 330.0973,-169.2589 337.987,-162.1876 331.8553,-158.8109"/>
 </g>
-<!-- Node561 -->
+<!-- Node560 -->
 <g id="node5" class="node">
-<title>Node561</title>
+<title>Node560</title>
 <g id="a_node5"><a xlink:href="pool_8h.html#a350d125044416cf2309470d9d6a43a3f" target="_top" xlink:title="Release a connection. ">
 <polygon fill="none" stroke="#ff0000" points="587,-115 587,-145 685,-145 685,-115 587,-115"/>
 <text text-anchor="start" x="595" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_pool_connection</text>
@@ -120,15 +120,15 @@
 </a>
 </g>
 </g>
-<!-- Node560&#45;&gt;Node561 -->
+<!-- Node559&#45;&gt;Node560 -->
 <g id="edge4" class="edge">
-<title>Node560&#45;&gt;Node561</title>
+<title>Node559&#45;&gt;Node560</title>
 <path fill="none" stroke="#191970" d="M511.7569,-166.564C534.6257,-159.8339 562.9942,-151.4852 586.8476,-144.4653"/>
 <polygon fill="#191970" stroke="#191970" points="510.6032,-163.2551 501.9981,-169.436 512.5795,-169.9703 510.6032,-163.2551"/>
 </g>
-<!-- Node658 -->
+<!-- Node657 -->
 <g id="node6" class="node">
-<title>Node658</title>
+<title>Node657</title>
 <g id="a_node6"><a xlink:href="pool_8h.html#af1511bb1bd5b110243f5e53e9188e3dd" target="_top" xlink:title="Reconnect a suspected inviable connection. ">
 <polygon fill="none" stroke="#ff0000" points="587,-213 587,-243 685,-243 685,-213 587,-213"/>
 <text text-anchor="start" x="595" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_pool_connection</text>
@@ -136,15 +136,15 @@
 </a>
 </g>
 </g>
-<!-- Node560&#45;&gt;Node658 -->
+<!-- Node559&#45;&gt;Node657 -->
 <g id="edge5" class="edge">
-<title>Node560&#45;&gt;Node658</title>
+<title>Node559&#45;&gt;Node657</title>
 <path fill="none" stroke="#191970" d="M511.7569,-191.436C534.6257,-198.1661 562.9942,-206.5148 586.8476,-213.5347"/>
 <polygon fill="#191970" stroke="#191970" points="512.5795,-188.0297 501.9981,-188.564 510.6032,-194.7449 512.5795,-188.0297"/>
 </g>
-<!-- Node665 -->
+<!-- Node664 -->
 <g id="node7" class="node">
-<title>Node665</title>
+<title>Node664</title>
 <g id="a_node7"><a xlink:href="pool_8h.html#a8e041afb94fecd27acff57ef29850403" target="_top" xlink:title="Delete a connection from the connection pool. ">
 <polygon fill="none" stroke="#ff0000" points="587,-164 587,-194 685,-194 685,-164 587,-164"/>
 <text text-anchor="start" x="595" y="-182" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_pool_connection</text>
@@ -152,81 +152,81 @@
 </a>
 </g>
 </g>
-<!-- Node560&#45;&gt;Node665 -->
+<!-- Node559&#45;&gt;Node664 -->
 <g id="edge6" class="edge">
-<title>Node560&#45;&gt;Node665</title>
+<title>Node559&#45;&gt;Node664</title>
 <path fill="none" stroke="#191970" d="M527.433,-179C546.804,-179 568.1962,-179 586.8336,-179"/>
 <polygon fill="#191970" stroke="#191970" points="527.2123,-175.5001 517.2122,-179 527.2122,-182.5001 527.2123,-175.5001"/>
 </g>
-<!-- Node666&#45;&gt;Node658 -->
+<!-- Node665&#45;&gt;Node657 -->
 <g id="edge9" class="edge">
-<title>Node666&#45;&gt;Node658</title>
+<title>Node665&#45;&gt;Node657</title>
 <path fill="none" stroke="#191970" d="M539.4978,-226.2612C555.4442,-226.5485 572.0564,-226.8479 586.9126,-227.1155"/>
 <polygon fill="#191970" stroke="#191970" points="539.2015,-222.7554 529.14,-226.0746 539.0753,-229.7543 539.2015,-222.7554"/>
 </g>
-<!-- Node667 -->
+<!-- Node666 -->
 <g id="node9" class="node">
-<title>Node667</title>
+<title>Node666</title>
 <g id="a_node9"><a xlink:href="pool_8h.html#a75e7ac5bfdae66159d35be3825d5b0b1" target="_top" xlink:title="Reserve a connection in the connection pool. ">
 <polygon fill="none" stroke="#ff0000" points="577.5,-262.5 577.5,-281.5 694.5,-281.5 694.5,-262.5 577.5,-262.5"/>
 <text text-anchor="middle" x="636" y="-269.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_pool_connection_get</text>
 </a>
 </g>
 </g>
-<!-- Node666&#45;&gt;Node667 -->
+<!-- Node665&#45;&gt;Node666 -->
 <g id="edge8" class="edge">
-<title>Node666&#45;&gt;Node667</title>
+<title>Node665&#45;&gt;Node666</title>
 <path fill="none" stroke="#191970" d="M511.2763,-237.4817C527.9613,-242.4058 547.3655,-248.056 565,-253 576.3035,-256.169 588.6523,-259.5142 599.8352,-262.4996"/>
 <polygon fill="#191970" stroke="#191970" points="511.8613,-234.0048 501.2791,-234.5224 509.8744,-240.7169 511.8613,-234.0048"/>
 </g>
-<!-- Node670 -->
+<!-- Node669 -->
 <g id="node11" class="node">
-<title>Node670</title>
+<title>Node669</title>
 <g id="a_node11"><a xlink:href="cluster_8c.html#a2c73b18c41ba2a09719df3a9b7d66c2e" target="_top" xlink:title="Establish a connection to a cluster node. ">
 <polygon fill="none" stroke="#ff0000" points="580,-.5 580,-19.5 692,-19.5 692,-.5 580,-.5"/>
 <text text-anchor="middle" x="636" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cluster_node_connect</text>
 </a>
 </g>
 </g>
-<!-- Node669&#45;&gt;Node670 -->
+<!-- Node668&#45;&gt;Node669 -->
 <g id="edge11" class="edge">
-<title>Node669&#45;&gt;Node670</title>
+<title>Node668&#45;&gt;Node669</title>
 <path fill="none" stroke="#191970" d="M494.7932,-62.4986C513.6802,-52.1164 540.3715,-38.3719 565,-29 574.4214,-25.4149 584.7894,-22.2331 594.6225,-19.5471"/>
 <polygon fill="#191970" stroke="#191970" points="492.9668,-59.5096 485.9362,-67.4356 496.375,-65.6239 492.9668,-59.5096"/>
 </g>
-<!-- Node674 -->
+<!-- Node673 -->
 <g id="node12" class="node">
-<title>Node674</title>
+<title>Node673</title>
 <g id="a_node12"><a xlink:href="server_2module_8h.html#a78ab49b290182824aa6d8020bb2ee1f6" target="_top" xlink:title="Initialise a module specific connection pool. ">
 <polygon fill="none" stroke="#ff0000" points="565,-38.5 565,-57.5 707,-57.5 707,-38.5 565,-38.5"/>
 <text text-anchor="middle" x="636" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">module_connection_pool_init</text>
 </a>
 </g>
 </g>
-<!-- Node669&#45;&gt;Node674 -->
+<!-- Node668&#45;&gt;Node673 -->
 <g id="edge12" class="edge">
-<title>Node669&#45;&gt;Node674</title>
+<title>Node668&#45;&gt;Node673</title>
 <path fill="none" stroke="#191970" d="M515.222,-69.0364C535.6677,-65.4753 559.9325,-61.249 581.3304,-57.522"/>
 <polygon fill="#191970" stroke="#191970" points="514.4695,-65.6147 505.2184,-70.7788 515.6707,-72.5109 514.4695,-65.6147"/>
 </g>
-<!-- Node676 -->
+<!-- Node675 -->
 <g id="node13" class="node">
-<title>Node676</title>
+<title>Node675</title>
 <g id="a_node13"><a xlink:href="rlm__rest_8c.html#a8a1e995764f49a98cc464b528f73edbb" target="_top" xlink:title="Create a thread specific multihandle. ">
 <polygon fill="none" stroke="#000000" points="577,-76.5 577,-95.5 695,-95.5 695,-76.5 577,-76.5"/>
 <text text-anchor="middle" x="636" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">mod_thread_instantiate</text>
 </a>
 </g>
 </g>
-<!-- Node669&#45;&gt;Node676 -->
+<!-- Node668&#45;&gt;Node675 -->
 <g id="edge13" class="edge">
-<title>Node669&#45;&gt;Node676</title>
+<title>Node668&#45;&gt;Node675</title>
 <path fill="none" stroke="#191970" d="M515.3863,-79.4803C534.3539,-80.5056 556.5865,-81.7074 576.7617,-82.7979"/>
 <polygon fill="#191970" stroke="#191970" points="515.3928,-75.9757 505.2184,-78.9307 515.0149,-82.9655 515.3928,-75.9757"/>
 </g>
-<!-- Node677&#45;&gt;Node670 -->
+<!-- Node676&#45;&gt;Node669 -->
 <g id="edge15" class="edge">
-<title>Node677&#45;&gt;Node670</title>
+<title>Node676&#45;&gt;Node669</title>
 <path fill="none" stroke="#191970" d="M527.143,-16.538C544.1838,-15.5145 562.8104,-14.3958 579.7613,-13.3777"/>
 <polygon fill="#191970" stroke="#191970" points="526.539,-13.0678 516.7669,-17.1611 526.9587,-20.0552 526.539,-13.0678"/>
 </g>

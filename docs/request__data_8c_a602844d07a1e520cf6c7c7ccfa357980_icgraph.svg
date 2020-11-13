@@ -54,30 +54,30 @@ var sectionId = 'dynsection-8';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>request_data_alloc</title>
-<!-- Node166 -->
+<!-- Node168 -->
 <g id="node1" class="node">
-<title>Node166</title>
+<title>Node168</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-79.5 0,-98.5 98,-98.5 98,-79.5 0,-79.5"/>
 <text text-anchor="middle" x="49" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">request_data_alloc</text>
 </g>
-<!-- Node167 -->
+<!-- Node169 -->
 <g id="node2" class="node">
-<title>Node167</title>
+<title>Node169</title>
 <g id="a_node2"><a xlink:href="request__data_8h.html#a3caf92d999973cb474c2513aba97221d" target="_top" xlink:title="Add opaque data to a request_t. ">
 <polygon fill="none" stroke="#000000" points="156.5,-101.5 156.5,-120.5 255.5,-120.5 255.5,-101.5 156.5,-101.5"/>
 <text text-anchor="middle" x="206" y="-108.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_request_data_add</text>
 </a>
 </g>
 </g>
-<!-- Node166&#45;&gt;Node167 -->
+<!-- Node168&#45;&gt;Node169 -->
 <g id="edge1" class="edge">
-<title>Node166&#45;&gt;Node167</title>
+<title>Node168&#45;&gt;Node169</title>
 <path fill="none" stroke="#191970" d="M108.4477,-97.3302C124.2583,-99.5457 141.1664,-101.915 156.3899,-104.0483"/>
 <polygon fill="#191970" stroke="#191970" points="108.634,-93.8222 98.245,-95.9006 107.6625,-100.7545 108.634,-93.8222"/>
 </g>
-<!-- Node168 -->
+<!-- Node170 -->
 <g id="node3" class="node">
-<title>Node168</title>
+<title>Node170</title>
 <g id="a_node3"><a xlink:href="request__data_8h.html#ac4f04bba6b3641c7754e320ee3145615" target="_top" xlink:title="Loop over all the request data, copying, then freeing ones matching persist state. ">
 <polygon fill="none" stroke="#000000" points="134,-52 134,-82 278,-82 278,-52 134,-52"/>
 <text text-anchor="start" x="142" y="-70" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">request_data_by_persistance</text>
@@ -85,99 +85,99 @@ var sectionId = 'dynsection-8';
 </a>
 </g>
 </g>
-<!-- Node166&#45;&gt;Node168 -->
+<!-- Node168&#45;&gt;Node170 -->
 <g id="edge2" class="edge">
-<title>Node166&#45;&gt;Node168</title>
+<title>Node168&#45;&gt;Node170</title>
 <path fill="none" stroke="#191970" d="M108.281,-80.6931C116.6581,-79.5192 125.3463,-78.3018 133.9312,-77.0988"/>
 <polygon fill="#191970" stroke="#191970" points="107.6625,-77.2455 98.245,-82.0994 108.634,-84.1778 107.6625,-77.2455"/>
 </g>
-<!-- Node169 -->
+<!-- Node171 -->
 <g id="node4" class="node">
-<title>Node169</title>
+<title>Node171</title>
 <g id="a_node4"><a xlink:href="state_8h.html#a6c89f78cff668fcfa63038b22f78f057" target="_top" xlink:title="Move all request data and session&#45;state VPs into a new state_ctx. ">
 <polygon fill="none" stroke="#000000" points="314,-57.5 314,-76.5 398,-76.5 398,-57.5 314,-57.5"/>
 <text text-anchor="middle" x="356" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_state_detach</text>
 </a>
 </g>
 </g>
-<!-- Node168&#45;&gt;Node169 -->
+<!-- Node170&#45;&gt;Node171 -->
 <g id="edge3" class="edge">
-<title>Node168&#45;&gt;Node169</title>
+<title>Node170&#45;&gt;Node171</title>
 <path fill="none" stroke="#191970" d="M288.5976,-67C297.2857,-67 305.8364,-67 313.7769,-67"/>
 <polygon fill="#191970" stroke="#191970" points="288.3638,-63.5001 278.3638,-67 288.3637,-70.5001 288.3638,-63.5001"/>
 </g>
-<!-- Node170 -->
+<!-- Node172 -->
 <g id="node5" class="node">
-<title>Node170</title>
+<title>Node172</title>
 <g id="a_node5"><a xlink:href="request_8h.html#af359fbedd4b2d45bddc8abd1fd424543" target="_top" xlink:title="Unlink a subrequest from its parent. ">
 <polygon fill="none" stroke="#000000" points="434,-57.5 434,-76.5 517,-76.5 517,-57.5 434,-57.5"/>
 <text text-anchor="middle" x="475.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">request_detach</text>
 </a>
 </g>
 </g>
-<!-- Node169&#45;&gt;Node170 -->
+<!-- Node171&#45;&gt;Node172 -->
 <g id="edge4" class="edge">
-<title>Node169&#45;&gt;Node170</title>
+<title>Node171&#45;&gt;Node172</title>
 <path fill="none" stroke="#191970" d="M408.349,-67C416.8469,-67 425.5476,-67 433.7493,-67"/>
 <polygon fill="#191970" stroke="#191970" points="408.1313,-63.5001 398.1312,-67 408.1312,-70.5001 408.1313,-63.5001"/>
 </g>
-<!-- Node171 -->
+<!-- Node173 -->
 <g id="node6" class="node">
-<title>Node171</title>
+<title>Node173</title>
 <g id="a_node6"><a xlink:href="subrequest__priv_8h.html#a69cfb875d725a15c42cb7befe0b98f12" target="_top" xlink:title="Initialize a detached child. ">
 <polygon fill="none" stroke="#ff0000" points="553,-114.5 553,-133.5 687,-133.5 687,-114.5 553,-114.5"/>
 <text text-anchor="middle" x="620" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">unlang_detached_child_init</text>
 </a>
 </g>
 </g>
-<!-- Node170&#45;&gt;Node171 -->
+<!-- Node172&#45;&gt;Node173 -->
 <g id="edge5" class="edge">
-<title>Node170&#45;&gt;Node171</title>
+<title>Node172&#45;&gt;Node173</title>
 <path fill="none" stroke="#191970" d="M501.6928,-81.3068C516.469,-89.0025 535.4388,-98.2673 553,-105 562.1444,-108.5058 572.2097,-111.6953 581.6976,-114.4175"/>
 <polygon fill="#191970" stroke="#191970" points="503.1209,-78.1027 492.6452,-76.5185 499.8466,-84.2897 503.1209,-78.1027"/>
 </g>
-<!-- Node225 -->
+<!-- Node228 -->
 <g id="node7" class="node">
-<title>Node225</title>
+<title>Node228</title>
 <g id="a_node7"><a xlink:href="subrequest__priv_8h.html#ab2207dac3f5c8f0dfa9e69e0c5ab6298" target="_top" xlink:title="Free a child request, detaching it from its parent and freeing allocated memory. ">
 <polygon fill="none" stroke="#ff0000" points="560,-76.5 560,-95.5 680,-95.5 680,-76.5 560,-76.5"/>
 <text text-anchor="middle" x="620" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">unlang_subrequest_free</text>
 </a>
 </g>
 </g>
-<!-- Node170&#45;&gt;Node225 -->
+<!-- Node172&#45;&gt;Node228 -->
 <g id="edge6" class="edge">
-<title>Node170&#45;&gt;Node225</title>
+<title>Node172&#45;&gt;Node228</title>
 <path fill="none" stroke="#191970" d="M527.5127,-73.839C537.9713,-75.2142 549.0454,-76.6703 559.7572,-78.0788"/>
 <polygon fill="#191970" stroke="#191970" points="527.6664,-70.3292 517.2954,-72.4956 526.7537,-77.2695 527.6664,-70.3292"/>
 </g>
-<!-- Node233 -->
+<!-- Node236 -->
 <g id="node8" class="node">
-<title>Node233</title>
+<title>Node236</title>
 <g id="a_node8"><a xlink:href="rlm__eap_8c.html#ac1b95488a1c51500013f41932bc1394c" target="_top" xlink:title="Cancel a call to a submodule. ">
 <polygon fill="none" stroke="#ff0000" points="556,-38.5 556,-57.5 684,-57.5 684,-38.5 556,-38.5"/>
 <text text-anchor="middle" x="620" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">mod_authenticate_cancel</text>
 </a>
 </g>
 </g>
-<!-- Node170&#45;&gt;Node233 -->
+<!-- Node172&#45;&gt;Node236 -->
 <g id="edge7" class="edge">
-<title>Node170&#45;&gt;Node233</title>
+<title>Node172&#45;&gt;Node236</title>
 <path fill="none" stroke="#191970" d="M527.486,-60.1645C536.7248,-58.9497 546.4445,-57.6717 555.9711,-56.419"/>
 <polygon fill="#191970" stroke="#191970" points="526.7537,-56.7305 517.2954,-61.5044 527.6664,-63.6708 526.7537,-56.7305"/>
 </g>
-<!-- Node234 -->
+<!-- Node237 -->
 <g id="node9" class="node">
-<title>Node234</title>
+<title>Node237</title>
 <g id="a_node9"><a xlink:href="rlm__eap_8c.html#a948cae583e5d3a7dd9ea2482a873f4e9" target="_top" xlink:title="Process the result of calling a submodule. ">
 <polygon fill="none" stroke="#ff0000" points="558.5,-.5 558.5,-19.5 681.5,-19.5 681.5,-.5 558.5,-.5"/>
 <text text-anchor="middle" x="620" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">mod_authenticate_result</text>
 </a>
 </g>
 </g>
-<!-- Node170&#45;&gt;Node234 -->
+<!-- Node172&#45;&gt;Node237 -->
 <g id="edge8" class="edge">
-<title>Node170&#45;&gt;Node234</title>
+<title>Node172&#45;&gt;Node237</title>
 <path fill="none" stroke="#191970" d="M501.6928,-52.6932C516.469,-44.9975 535.4388,-35.7327 553,-29 562.1444,-25.4942 572.2097,-22.3047 581.6976,-19.5825"/>
 <polygon fill="#191970" stroke="#191970" points="499.8466,-49.7103 492.6452,-57.4815 503.1209,-55.8973 499.8466,-49.7103"/>
 </g>

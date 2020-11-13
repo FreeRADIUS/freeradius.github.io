@@ -36,7 +36,6 @@ var searchData=
   ['proto_5fbfd_2ec',['proto_bfd.c',['../proto__bfd_8c.html',1,'']]],
   ['proto_5fcontrol_2ec',['proto_control.c',['../proto__control_8c.html',1,'']]],
   ['proto_5fcontrol_2eh',['proto_control.h',['../proto__control_8h.html',1,'']]],
-  ['proto_5fcontrol_5ftcp_2ec',['proto_control_tcp.c',['../proto__control__tcp_8c.html',1,'']]],
   ['proto_5fcontrol_5funix_2ec',['proto_control_unix.c',['../proto__control__unix_8c.html',1,'']]],
   ['proto_5fdetail_2ec',['proto_detail.c',['../proto__detail_8c.html',1,'']]],
   ['proto_5fdetail_2eh',['proto_detail.h',['../proto__detail_8h.html',1,'']]],

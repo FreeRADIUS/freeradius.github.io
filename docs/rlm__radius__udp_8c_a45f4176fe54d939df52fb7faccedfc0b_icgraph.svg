@@ -54,30 +54,30 @@ var sectionId = 'dynsection-81';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>udp_request_reset</title>
-<!-- Node11005 -->
+<!-- Node11009 -->
 <g id="node1" class="node">
-<title>Node11005</title>
+<title>Node11009</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-114.5 0,-133.5 97,-133.5 97,-114.5 0,-114.5"/>
 <text text-anchor="middle" x="48.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">udp_request_reset</text>
 </g>
-<!-- Node11006 -->
+<!-- Node11010 -->
 <g id="node2" class="node">
-<title>Node11006</title>
+<title>Node11010</title>
 <g id="a_node2"><a xlink:href="rlm__radius__udp_8c.html#adab0bae9d2ee2ec9eb0c61116545457a" target="_top" xlink:title="Reset a status_check packet, ready to re&#45;use. ">
 <polygon fill="none" stroke="#000000" points="138,-152.5 138,-171.5 240,-171.5 240,-152.5 138,-152.5"/>
 <text text-anchor="middle" x="189" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">status_check_reset</text>
 </a>
 </g>
 </g>
-<!-- Node11005&#45;&gt;Node11006 -->
+<!-- Node11009&#45;&gt;Node11010 -->
 <g id="edge1" class="edge">
-<title>Node11005&#45;&gt;Node11006</title>
+<title>Node11009&#45;&gt;Node11010</title>
 <path fill="none" stroke="#191970" d="M93.7787,-136.2462C113.1449,-141.484 135.4218,-147.5091 153.5573,-152.4141"/>
 <polygon fill="#191970" stroke="#191970" points="94.5211,-132.8213 83.9541,-133.589 92.6934,-139.5785 94.5211,-132.8213"/>
 </g>
-<!-- Node11008 -->
+<!-- Node11012 -->
 <g id="node4" class="node">
-<title>Node11008</title>
+<title>Node11012</title>
 <g id="a_node4"><a xlink:href="rlm__radius__udp_8c.html#a8c896b0852b3a47d44a8873dc367696f" target="_top" xlink:title="Send our status&#45;check packet as soon as the connection becomes writable. ">
 <polygon fill="none" stroke="#000000" points="429,-172 429,-202 538,-202 538,-172 429,-172"/>
 <text text-anchor="start" x="437" y="-190" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">conn_writable_status</text>
@@ -85,75 +85,75 @@ var sectionId = 'dynsection-81';
 </a>
 </g>
 </g>
-<!-- Node11005&#45;&gt;Node11008 -->
+<!-- Node11009&#45;&gt;Node11012 -->
 <g id="edge7" class="edge">
-<title>Node11005&#45;&gt;Node11008</title>
+<title>Node11009&#45;&gt;Node11012</title>
 <path fill="none" stroke="#191970" d="M66.2875,-140.1002C82.4211,-153.6403 107.5154,-172.1621 133,-181 232.7626,-215.5971 358.2932,-206.0549 428.8406,-196.3115"/>
 <polygon fill="#191970" stroke="#191970" points="68.5667,-137.444 58.7128,-133.5513 63.9885,-142.7393 68.5667,-137.444"/>
 </g>
-<!-- Node11009 -->
+<!-- Node11013 -->
 <g id="node5" class="node">
-<title>Node11009</title>
+<title>Node11013</title>
 <g id="a_node5"><a xlink:href="rlm__radius__udp_8c.html#abac5d88dd6e2df81c6a7bd1939d14b1a" target="_top" xlink:title="Deal with replies replies to status checks and possible negotiation. ">
 <polygon fill="none" stroke="#000000" points="286.5,-114.5 286.5,-133.5 387.5,-133.5 387.5,-114.5 286.5,-114.5"/>
 <text text-anchor="middle" x="337" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">status_check_reply</text>
 </a>
 </g>
 </g>
-<!-- Node11005&#45;&gt;Node11009 -->
+<!-- Node11009&#45;&gt;Node11013 -->
 <g id="edge10" class="edge">
-<title>Node11005&#45;&gt;Node11009</title>
+<title>Node11009&#45;&gt;Node11013</title>
 <path fill="none" stroke="#191970" d="M107.3056,-124C159.9194,-124 236.245,-124 286.2432,-124"/>
 <polygon fill="#191970" stroke="#191970" points="107.1139,-120.5001 97.1139,-124 107.1138,-127.5001 107.1139,-120.5001"/>
 </g>
-<!-- Node11012 -->
+<!-- Node11016 -->
 <g id="node8" class="node">
-<title>Node11012</title>
+<title>Node11016</title>
 <g id="a_node8"><a xlink:href="rlm__radius__udp_8c.html#a3305dcbb1c5cd85ad338cd3b3f44b3e0" target="_top" xlink:title="request_mux">
 <polygon fill="none" stroke="#000000" points="300.5,-76.5 300.5,-95.5 373.5,-95.5 373.5,-76.5 300.5,-76.5"/>
 <text text-anchor="middle" x="337" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">request_mux</text>
 </a>
 </g>
 </g>
-<!-- Node11005&#45;&gt;Node11012 -->
+<!-- Node11009&#45;&gt;Node11016 -->
 <g id="edge8" class="edge">
-<title>Node11005&#45;&gt;Node11012</title>
+<title>Node11009&#45;&gt;Node11016</title>
 <path fill="none" stroke="#191970" d="M107.194,-116.2691C164.9569,-108.6608 251.3791,-97.2776 300.1184,-90.8579"/>
 <polygon fill="#191970" stroke="#191970" points="106.5711,-112.8208 97.1139,-117.5968 107.4853,-119.7609 106.5711,-112.8208"/>
 </g>
-<!-- Node11013 -->
+<!-- Node11017 -->
 <g id="node9" class="node">
-<title>Node11013</title>
+<title>Node11017</title>
 <g id="a_node9"><a xlink:href="rlm__radius__udp_8c.html#a88a41bc5022c706c35cc47ab04b1e360" target="_top" xlink:title="Remove the request from any tracking structures. ">
 <polygon fill="none" stroke="#000000" points="442,-38.5 442,-57.5 525,-57.5 525,-38.5 442,-38.5"/>
 <text text-anchor="middle" x="483.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">request_cancel</text>
 </a>
 </g>
 </g>
-<!-- Node11005&#45;&gt;Node11013 -->
+<!-- Node11009&#45;&gt;Node11017 -->
 <g id="edge11" class="edge">
-<title>Node11005&#45;&gt;Node11013</title>
+<title>Node11009&#45;&gt;Node11017</title>
 <path fill="none" stroke="#191970" d="M82.8694,-110.9511C98.077,-105.5043 116.2728,-99.4281 133,-95 242.2057,-66.0904 375.497,-54.4581 441.8351,-50.2017"/>
 <polygon fill="#191970" stroke="#191970" points="81.5519,-107.7059 73.3527,-114.4159 83.9467,-114.2835 81.5519,-107.7059"/>
 </g>
-<!-- Node11014 -->
+<!-- Node11018 -->
 <g id="node10" class="node">
-<title>Node11014</title>
+<title>Node11018</title>
 <g id="a_node10"><a xlink:href="rlm__radius__udp_8c.html#a076990ccd5eec8fbbe955e248b82e8d0" target="_top" xlink:title="Clear out anything associated with the handle from the request. ">
 <polygon fill="none" stroke="#000000" points="133,-.5 133,-19.5 245,-19.5 245,-.5 133,-.5"/>
 <text text-anchor="middle" x="189" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">request_conn_release</text>
 </a>
 </g>
 </g>
-<!-- Node11005&#45;&gt;Node11014 -->
+<!-- Node11009&#45;&gt;Node11018 -->
 <g id="edge13" class="edge">
-<title>Node11005&#45;&gt;Node11014</title>
+<title>Node11009&#45;&gt;Node11018</title>
 <path fill="none" stroke="#191970" d="M61.5444,-106.1961C76.817,-86.3831 103.7691,-54.4692 133,-34 141.3178,-28.1754 151.2722,-23.3443 160.4661,-19.5806"/>
 <polygon fill="#191970" stroke="#191970" points="58.6115,-104.2723 55.3829,-114.3633 64.1996,-108.4882 58.6115,-104.2723"/>
 </g>
-<!-- Node11015 -->
+<!-- Node11019 -->
 <g id="node11" class="node">
-<title>Node11015</title>
+<title>Node11019</title>
 <g id="a_node11"><a xlink:href="rlm__radius__udp_8c.html#ac08db01f069f845cf1b67f3aaa15629b" target="_top" xlink:title="Clear out anything associated with the handle from the request. ">
 <polygon fill="none" stroke="#000000" points="133,-241 133,-271 245,-271 245,-241 133,-241"/>
 <text text-anchor="start" x="141" y="-259" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">request_conn_release</text>
@@ -161,15 +161,15 @@ var sectionId = 'dynsection-81';
 </a>
 </g>
 </g>
-<!-- Node11005&#45;&gt;Node11015 -->
+<!-- Node11009&#45;&gt;Node11019 -->
 <g id="edge15" class="edge">
-<title>Node11005&#45;&gt;Node11015</title>
+<title>Node11009&#45;&gt;Node11019</title>
 <path fill="none" stroke="#191970" d="M60.2906,-142.18C75.2024,-164.1238 102.6242,-201.1646 133,-226 139.831,-231.585 147.8613,-236.6091 155.6744,-240.8774"/>
 <polygon fill="#191970" stroke="#191970" points="63.1511,-140.1609 54.6936,-133.7795 57.3256,-144.0422 63.1511,-140.1609"/>
 </g>
-<!-- Node11007 -->
+<!-- Node11011 -->
 <g id="node3" class="node">
-<title>Node11007</title>
+<title>Node11011</title>
 <g id="a_node3"><a xlink:href="rlm__radius__udp_8c.html#a9f0270ceb0987c3d7a476887b3481167" target="_top" xlink:title="Read the incoming status&#45;check response. ">
 <polygon fill="none" stroke="#000000" points="281,-153 281,-183 393,-183 393,-153 281,-153"/>
 <text text-anchor="start" x="289" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">conn_readable_status</text>
@@ -177,75 +177,75 @@ var sectionId = 'dynsection-81';
 </a>
 </g>
 </g>
-<!-- Node11006&#45;&gt;Node11007 -->
+<!-- Node11010&#45;&gt;Node11011 -->
 <g id="edge2" class="edge">
-<title>Node11006&#45;&gt;Node11007</title>
+<title>Node11010&#45;&gt;Node11011</title>
 <path fill="none" stroke="#191970" d="M250.346,-164.487C260.4823,-164.8979 270.9451,-165.3221 280.9429,-165.7274"/>
 <polygon fill="#191970" stroke="#191970" points="250.4815,-160.9897 240.3479,-164.0817 250.1978,-167.984 250.4815,-160.9897"/>
 </g>
-<!-- Node11006&#45;&gt;Node11009 -->
+<!-- Node11010&#45;&gt;Node11013 -->
 <g id="edge4" class="edge">
-<title>Node11006&#45;&gt;Node11009</title>
+<title>Node11010&#45;&gt;Node11013</title>
 <path fill="none" stroke="#191970" d="M236.1735,-149.8879C256.7856,-144.5956 280.6093,-138.4787 299.9219,-133.5201"/>
 <polygon fill="#191970" stroke="#191970" points="235.162,-146.534 226.3466,-152.411 236.9029,-153.3141 235.162,-146.534"/>
 </g>
-<!-- Node11007&#45;&gt;Node11008 -->
+<!-- Node11011&#45;&gt;Node11012 -->
 <g id="edge3" class="edge">
-<title>Node11007&#45;&gt;Node11008</title>
+<title>Node11011&#45;&gt;Node11012</title>
 <path fill="none" stroke="#191970" d="M403.1413,-176.5781C411.6659,-177.6836 420.3201,-178.806 428.6363,-179.8846"/>
 <polygon fill="#191970" stroke="#191970" points="403.5889,-173.1069 393.2217,-175.2916 402.6885,-180.0487 403.5889,-173.1069"/>
 </g>
-<!-- Node11010 -->
+<!-- Node11014 -->
 <g id="node6" class="node">
-<title>Node11010</title>
+<title>Node11014</title>
 <g id="a_node6"><a xlink:href="rlm__radius__udp_8c.html#a91734f47a4c6731f3a3cc434d41e0e57" target="_top" xlink:title="request_demux">
 <polygon fill="none" stroke="#000000" points="442,-114.5 442,-133.5 525,-133.5 525,-114.5 442,-114.5"/>
 <text text-anchor="middle" x="483.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">request_demux</text>
 </a>
 </g>
 </g>
-<!-- Node11009&#45;&gt;Node11010 -->
+<!-- Node11013&#45;&gt;Node11014 -->
 <g id="edge5" class="edge">
-<title>Node11009&#45;&gt;Node11010</title>
+<title>Node11013&#45;&gt;Node11014</title>
 <path fill="none" stroke="#191970" d="M397.948,-124C412.7711,-124 428.2861,-124 441.9705,-124"/>
 <polygon fill="#191970" stroke="#191970" points="397.8275,-120.5001 387.8274,-124 397.8274,-127.5001 397.8275,-120.5001"/>
 </g>
-<!-- Node11011 -->
+<!-- Node11015 -->
 <g id="node7" class="node">
-<title>Node11011</title>
+<title>Node11015</title>
 <g id="a_node7"><a xlink:href="rlm__radius__udp_8c.html#a1862560a87e2e86c88fe28897495c674" target="_top" xlink:title="Instantiate thread data for the submodule. ">
 <polygon fill="none" stroke="#000000" points="574,-76.5 574,-95.5 692,-95.5 692,-76.5 574,-76.5"/>
 <text text-anchor="middle" x="633" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">mod_thread_instantiate</text>
 </a>
 </g>
 </g>
-<!-- Node11010&#45;&gt;Node11011 -->
+<!-- Node11014&#45;&gt;Node11015 -->
 <g id="edge6" class="edge">
-<title>Node11010&#45;&gt;Node11011</title>
+<title>Node11014&#45;&gt;Node11015</title>
 <path fill="none" stroke="#191970" d="M531.1516,-111.8879C551.9726,-106.5956 576.0377,-100.4787 595.5461,-95.5201"/>
 <polygon fill="#191970" stroke="#191970" points="530.0547,-108.5553 521.2252,-114.411 531.7792,-115.3396 530.0547,-108.5553"/>
 </g>
-<!-- Node11012&#45;&gt;Node11011 -->
+<!-- Node11016&#45;&gt;Node11015 -->
 <g id="edge9" class="edge">
-<title>Node11012&#45;&gt;Node11011</title>
+<title>Node11016&#45;&gt;Node11015</title>
 <path fill="none" stroke="#191970" d="M383.7513,-86C435.1522,-86 517.8483,-86 573.7535,-86"/>
 <polygon fill="#191970" stroke="#191970" points="383.5923,-82.5001 373.5923,-86 383.5923,-89.5001 383.5923,-82.5001"/>
 </g>
-<!-- Node11013&#45;&gt;Node11011 -->
+<!-- Node11017&#45;&gt;Node11015 -->
 <g id="edge12" class="edge">
-<title>Node11013&#45;&gt;Node11011</title>
+<title>Node11017&#45;&gt;Node11015</title>
 <path fill="none" stroke="#191970" d="M531.1516,-60.1121C551.9726,-65.4044 576.0377,-71.5213 595.5461,-76.4799"/>
 <polygon fill="#191970" stroke="#191970" points="531.7792,-56.6604 521.2252,-57.589 530.0547,-63.4447 531.7792,-56.6604"/>
 </g>
-<!-- Node11014&#45;&gt;Node11011 -->
+<!-- Node11018&#45;&gt;Node11015 -->
 <g id="edge14" class="edge">
-<title>Node11014&#45;&gt;Node11011</title>
+<title>Node11018&#45;&gt;Node11015</title>
 <path fill="none" stroke="#191970" d="M255.3527,-4.2768C326.8108,-.241 443.028,.1083 538,-29 570.9175,-39.089 604.2481,-62.9369 621.3205,-76.3701"/>
 <polygon fill="#191970" stroke="#191970" points="254.9121,-.797 245.1423,-4.8959 255.3359,-7.7842 254.9121,-.797"/>
 </g>
-<!-- Node11015&#45;&gt;Node11011 -->
+<!-- Node11019&#45;&gt;Node11015 -->
 <g id="edge16" class="edge">
-<title>Node11015&#45;&gt;Node11011</title>
+<title>Node11019&#45;&gt;Node11015</title>
 <path fill="none" stroke="#191970" d="M255.2841,-262.0465C329.271,-265.643 450.1269,-261.8485 538,-211 586.3642,-183.0136 618.1889,-119.6929 628.9496,-95.5742"/>
 <polygon fill="#191970" stroke="#191970" points="255.3395,-258.5444 245.1636,-261.4941 254.958,-265.534 255.3395,-258.5444"/>
 </g>
