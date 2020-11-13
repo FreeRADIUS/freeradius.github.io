@@ -413,7 +413,7 @@ Enum functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Printing functions</h2></td></tr>
-<tr class="memitem:a2d84b98f686b869973ac3eb7f475d2dc"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#a2d84b98f686b869973ac3eb7f475d2dc">fr_pair_list_log</a>(_log,  _vp)&#160;&#160;&#160;<a class="el" href="pair__print_8c.html#aebf27132e36719dc924063f9b27070b7">_fr_pair_list_log</a>(_log, _vp, __FILE__, __LINE__);</td></tr>
+<tr class="memitem:a2d84b98f686b869973ac3eb7f475d2dc"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#a2d84b98f686b869973ac3eb7f475d2dc">fr_pair_list_log</a>(_log,  _vp)&#160;&#160;&#160;<a class="el" href="pair__print_8c.html#aac54790ee7f2572c4bae56642f7d15c0">_fr_pair_list_log</a>(_log, 0, _vp, __FILE__, __LINE__);</td></tr>
 <tr class="separator:a2d84b98f686b869973ac3eb7f475d2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac283ca220bc7c8c819c33dadbb0def84"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a></td></tr>
 <tr class="separator:ac283ca220bc7c8c819c33dadbb0def84"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -430,9 +430,9 @@ Printing functions</h2></td></tr>
 <tr class="memitem:a963d3fae3d441a2b201031dc0467ea53"><td class="memItemLeft" align="right" valign="top">static size_t <a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#a963d3fae3d441a2b201031dc0467ea53">fr_pair_fprint</a> (FILE *, <a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> const *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>)</td></tr>
 <tr class="memdesc:a963d3fae3d441a2b201031dc0467ea53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print one attribute and value to FP.  <a href="#a963d3fae3d441a2b201031dc0467ea53">More...</a><br /></td></tr>
 <tr class="separator:a963d3fae3d441a2b201031dc0467ea53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebf27132e36719dc924063f9b27070b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#aebf27132e36719dc924063f9b27070b7">_fr_pair_list_log</a> (<a class="el" href="structfr__log__t.html">fr_log_t</a> const *log, <a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> const *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>, char const *<a class="el" href="acutest_8h.html#a29b60fb86c8bb1518f422ccce59448ba">file</a>, int <a class="el" href="acutest_8h.html#ae02820def36ef70995744181ed0e9c4f">line</a>)</td></tr>
-<tr class="memdesc:aebf27132e36719dc924063f9b27070b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print a list of attributes and enumv.  <a href="#aebf27132e36719dc924063f9b27070b7">More...</a><br /></td></tr>
-<tr class="separator:aebf27132e36719dc924063f9b27070b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac54790ee7f2572c4bae56642f7d15c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#aac54790ee7f2572c4bae56642f7d15c0">_fr_pair_list_log</a> (<a class="el" href="structfr__log__t.html">fr_log_t</a> const *log, int lvl, <a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> const *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>, char const *<a class="el" href="acutest_8h.html#a29b60fb86c8bb1518f422ccce59448ba">file</a>, int <a class="el" href="acutest_8h.html#ae02820def36ef70995744181ed0e9c4f">line</a>)</td></tr>
+<tr class="memdesc:aac54790ee7f2572c4bae56642f7d15c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print a list of attributes and enumv.  <a href="#aac54790ee7f2572c4bae56642f7d15c0">More...</a><br /></td></tr>
+<tr class="separator:aac54790ee7f2572c4bae56642f7d15c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fa278d044ac973a959d5cf68a47e7e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="util_2pair_8h.html#a0fa278d044ac973a959d5cf68a47e7e3">fr_pair_list_debug</a> (<a class="el" href="util_2pair_8h.html#a9ab81fd13d950dc8af802107f161d222">fr_pair_t</a> const *<a class="el" href="util_2pair_8h.html#ac283ca220bc7c8c819c33dadbb0def84">vp</a>)</td></tr>
 <tr class="memdesc:a0fa278d044ac973a959d5cf68a47e7e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Useful for calling from debuggers.  <a href="#a0fa278d044ac973a959d5cf68a47e7e3">More...</a><br /></td></tr>
 <tr class="separator:a0fa278d044ac973a959d5cf68a47e7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -789,7 +789,7 @@ Source string for xlat expansion. </td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="pair__print_8c.html#aebf27132e36719dc924063f9b27070b7">_fr_pair_list_log</a>(_log, _vp, __FILE__, __LINE__);</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="pair__print_8c.html#aac54790ee7f2572c4bae56642f7d15c0">_fr_pair_list_log</a>(_log, 0, _vp, __FILE__, __LINE__);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1405,8 +1405,8 @@ Source string for xlat expansion. </td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aebf27132e36719dc924063f9b27070b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebf27132e36719dc924063f9b27070b7">&#9670;&nbsp;</a></span>_fr_pair_list_log()</h2>
+<a id="aac54790ee7f2572c4bae56642f7d15c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac54790ee7f2572c4bae56642f7d15c0">&#9670;&nbsp;</a></span>_fr_pair_list_log()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1416,6 +1416,12 @@ Source string for xlat expansion. </td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structfr__log__t.html">fr_log_t</a> const *&#160;</td>
           <td class="paramname"><em>log</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lvl</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1460,7 +1466,7 @@ Source string for xlat expansion. </td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="util_2pair_8h_aebf27132e36719dc924063f9b27070b7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="util_2pair_8h_aac54790ee7f2572c4bae56642f7d15c0_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1468,7 +1474,7 @@ Source string for xlat expansion. </td></tr>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="util_2pair_8h_aebf27132e36719dc924063f9b27070b7_icgraph.svg" width="296" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="util_2pair_8h_aac54790ee7f2572c4bae56642f7d15c0_icgraph.svg" width="296" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3312,7 +3318,7 @@ Source string for xlat expansion. </td></tr>
 
 <p>Useful for calling from debuggers. </p>
 
-<p class="definition">Definition at line <a class="el" href="pair__print_8c_source.html#l00174">174</a> of file <a class="el" href="pair__print_8c_source.html">pair_print.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pair__print_8c_source.html#l00183">183</a> of file <a class="el" href="pair__print_8c_source.html">pair_print.c</a>.</p>
 <div id="dynsection-56" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-56-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-56-summary" class="dynsummary" style="display:block;">
@@ -5612,7 +5618,7 @@ vp-&gt;da must be of type FR_TYPE_STRING.</dd></dl>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2020 19:04:02 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 19:41:41 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
