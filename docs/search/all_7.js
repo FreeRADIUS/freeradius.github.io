@@ -670,7 +670,6 @@ var searchData=
   ['fr_5fdbuff_5fextend_5flowat_5for_5freturn',['FR_DBUFF_EXTEND_LOWAT_OR_RETURN',['../dbuff_8h.html#a20d5827668d3db714a6a41f561f57f8f',1,'dbuff.h']]],
   ['fr_5fdbuff_5fextend_5fstatus_5ft',['fr_dbuff_extend_status_t',['../dbuff_8h.html#a3f2ca1c962b57e274ba04530e696fbff',1,'dbuff.h']]],
   ['fr_5fdbuff_5fextend_5ft',['fr_dbuff_extend_t',['../dbuff_8h.html#adc7f2831dbfa07e048535efad874d264',1,'dbuff.h']]],
-  ['fr_5fdbuff_5fextend_5ftalloc',['fr_dbuff_extend_talloc',['../dbuff_8h.html#ae004f387219560343fa8890d6c8392d5',1,'dbuff.h']]],
   ['fr_5fdbuff_5fextendable',['FR_DBUFF_EXTENDABLE',['../dbuff_8h.html#a3f2ca1c962b57e274ba04530e696fbffa8a4cc2a2014bd0cea65ea59d11bd67e4',1,'dbuff.h']]],
   ['fr_5fdbuff_5fextendable_5fextended',['FR_DBUFF_EXTENDABLE_EXTENDED',['../dbuff_8h.html#a3f2ca1c962b57e274ba04530e696fbffabcc0856cec5d57bd7792ede9798320ed',1,'dbuff.h']]],
   ['fr_5fdbuff_5fextended',['FR_DBUFF_EXTENDED',['../dbuff_8h.html#a3f2ca1c962b57e274ba04530e696fbffa72f7a83feb33678d78f0dd5e2eeb04d7',1,'dbuff.h']]],

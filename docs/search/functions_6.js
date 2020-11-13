@@ -228,7 +228,6 @@ var searchData=
   ['fr_5fcursor_5freplace',['fr_cursor_replace',['../cursor_8c.html#ae6c7ca9a2cf93afe93f754b9bda8cb96',1,'fr_cursor_replace(fr_cursor_t *cursor, void *r):&#160;cursor.c'],['../cursor_8h.html#ae6c7ca9a2cf93afe93f754b9bda8cb96',1,'fr_cursor_replace(fr_cursor_t *cursor, void *r):&#160;cursor.c']]],
   ['fr_5fcursor_5fstack_5falloc',['fr_cursor_stack_alloc',['../cursor_8h.html#abbaa43774ac8c664bf9afafc807e1951',1,'cursor.h']]],
   ['fr_5fcursor_5ftail',['fr_cursor_tail',['../cursor_8c.html#a7c03f6fd220290ff347be5d43d846cb7',1,'fr_cursor_tail(fr_cursor_t *cursor):&#160;cursor.c'],['../cursor_8h.html#a7c03f6fd220290ff347be5d43d846cb7',1,'fr_cursor_tail(fr_cursor_t *cursor):&#160;cursor.c']]],
-  ['fr_5fdbuff_5fextend_5ftalloc',['fr_dbuff_extend_talloc',['../dbuff_8h.html#ae004f387219560343fa8890d6c8392d5',1,'dbuff.h']]],
   ['fr_5fdbuff_5finit_5ftalloc',['fr_dbuff_init_talloc',['../dbuff_8h.html#aaae109ead816d3ab29a6e36d49b29865',1,'dbuff.h']]],
   ['fr_5fdbuff_5fmarker',['fr_dbuff_marker',['../dbuff_8h.html#acd105ff335478c3daf2ecfa994f95e44',1,'dbuff.h']]],
   ['fr_5fdbuff_5fmarker_5frelease',['fr_dbuff_marker_release',['../dbuff_8h.html#ab96960c1d07ba400e6d851bfbd6dc045',1,'dbuff.h']]],

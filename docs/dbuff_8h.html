@@ -138,8 +138,9 @@ Initialisers</h2></td></tr>
 <tr class="memitem:afef8bf7cdb114451dad4a96f65299e24"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#afef8bf7cdb114451dad4a96f65299e24">FR_DBUFF_TMP</a>(_start,  _len_or_end)</td></tr>
 <tr class="memdesc:afef8bf7cdb114451dad4a96f65299e24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a compound literal to pass into functions which accept a dbuff.  <a href="#afef8bf7cdb114451dad4a96f65299e24">More...</a><br /></td></tr>
 <tr class="separator:afef8bf7cdb114451dad4a96f65299e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae004f387219560343fa8890d6c8392d5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#ae004f387219560343fa8890d6c8392d5">fr_dbuff_extend_talloc</a> (<a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, size_t extension)</td></tr>
-<tr class="separator:ae004f387219560343fa8890d6c8392d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6852ade1f6954ac0ca1c55f1c1a39018"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#a6852ade1f6954ac0ca1c55f1c1a39018">_fr_dbuff_extend_talloc</a> (<a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, size_t extension)</td></tr>
+<tr class="memdesc:a6852ade1f6954ac0ca1c55f1c1a39018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reallocate the current buffer.  <a href="#a6852ade1f6954ac0ca1c55f1c1a39018">More...</a><br /></td></tr>
+<tr class="separator:a6852ade1f6954ac0ca1c55f1c1a39018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaae109ead816d3ab29a6e36d49b29865"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#aaae109ead816d3ab29a6e36d49b29865">fr_dbuff_init_talloc</a> (TALLOC_CTX *ctx, <a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, fr_dbuff_uctx_talloc_t *tctx, size_t <a class="el" href="fuzzer_8c.html#a50300ba6e38ec30121edcc07ebac42c6">init</a>, size_t max)</td></tr>
 <tr class="memdesc:aaae109ead816d3ab29a6e36d49b29865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise a special dbuff which automatically extends as additional data is written.  <a href="#aaae109ead816d3ab29a6e36d49b29865">More...</a><br /></td></tr>
 <tr class="separator:aaae109ead816d3ab29a6e36d49b29865"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2472,14 +2473,14 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ae004f387219560343fa8890d6c8392d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae004f387219560343fa8890d6c8392d5">&#9670;&nbsp;</a></span>fr_dbuff_extend_talloc()</h2>
+<a id="a6852ade1f6954ac0ca1c55f1c1a39018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6852ade1f6954ac0ca1c55f1c1a39018">&#9670;&nbsp;</a></span>_fr_dbuff_extend_talloc()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t fr_dbuff_extend_talloc </td>
+          <td class="memname">size_t _fr_dbuff_extend_talloc </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *&#160;</td>
           <td class="paramname"><em>dbuff</em>, </td>
@@ -2497,6 +2498,38 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reallocate the current buffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dbuff</td><td>to be extended. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">extension</td><td>How many additional bytes should be allocated in the buffer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>0 the extension operation failed.</li>
+<li>&gt;0 the number of bytes the buffer was extended by. </li>
+</ul>
+</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dbuff_8c_source.html#l00112">112</a> of file <a class="el" href="dbuff_8c_source.html">dbuff.c</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_a6852ade1f6954ac0ca1c55f1c1a39018_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_a6852ade1f6954ac0ca1c55f1c1a39018_icgraph.svg" width="100%" height="568"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
@@ -2570,19 +2603,19 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00372">372</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_aaae109ead816d3ab29a6e36d49b29865_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_aaae109ead816d3ab29a6e36d49b29865_icgraph.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2634,11 +2667,11 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 <dl class="section return"><dt>Returns</dt><dd>The position the marker was set to. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00927">927</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_acd105ff335478c3daf2ecfa994f95e44_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2679,11 +2712,11 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00945">945</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_ab96960c1d07ba400e6d851bfbd6dc045_icgraph.svg" width="100%" height="423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2734,12 +2767,20 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="dbuff_8c_source.html#l00076">76</a> of file <a class="el" href="dbuff_8c_source.html">dbuff.c</a>.</p>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="dbuff_8h_aa30c687f387443a89139399929a88090_cgraph.svg" width="214" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_aa30c687f387443a89139399929a88090_icgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -2748,7 +2789,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2020 15:24:25 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 15:28:56 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
