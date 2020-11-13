@@ -48,6 +48,7 @@ var searchData=
   ['dhcpv4_5fencode_5fxlat',['dhcpv4_encode_xlat',['../group__xlat__functions.html#ga7296888f8e36edf1a60d23227877d042',1,'rlm_dhcpv4.c']]],
   ['dhcpv4_5fpacket_5fdebug',['dhcpv4_packet_debug',['../proto__dhcpv4__process_8c.html#a5d5c2368c22f4441046726189cc13833',1,'proto_dhcpv4_process.c']]],
   ['dhcpv6_5fpacket_5fdebug',['dhcpv6_packet_debug',['../proto__dhcpv6__process_8c.html#a5f168c4c4fab1e9d79b696536d732dc8',1,'proto_dhcpv6_process.c']]],
+  ['dhcpv6_5freply_5finitialise',['dhcpv6_reply_initialise',['../proto__dhcpv6__process_8c.html#a1e54da13eb8d98b9007496f68c6fc0de',1,'proto_dhcpv6_process.c']]],
   ['diameter_5fverify',['diameter_verify',['../ttls_8c.html#a95ac9d57948d6f7a34b48d82826db1a8',1,'ttls.c']]],
   ['dict_5falloc',['dict_alloc',['../dict__priv_8h.html#a99277860278aad27241d46d0a1a80a59',1,'dict_alloc(TALLOC_CTX *ctx):&#160;dict_util.c'],['../dict__util_8c.html#a99277860278aad27241d46d0a1a80a59',1,'dict_alloc(TALLOC_CTX *ctx):&#160;dict_util.c']]],
   ['dict_5fattr_5facopy',['dict_attr_acopy',['../dict__priv_8h.html#a43c978ddea26ae00d888453ba3d83a5b',1,'dict_attr_acopy(TALLOC_CTX *ctx, fr_dict_attr_t const *in, char const *new_name):&#160;dict_util.c'],['../dict__util_8c.html#a43c978ddea26ae00d888453ba3d83a5b',1,'dict_attr_acopy(TALLOC_CTX *ctx, fr_dict_attr_t const *in, char const *new_name):&#160;dict_util.c']]],

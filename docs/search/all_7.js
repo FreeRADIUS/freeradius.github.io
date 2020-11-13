@@ -819,7 +819,6 @@ var searchData=
   ['fr_5fdhcpv6_5frelease',['FR_DHCPV6_RELEASE',['../dhcpv6_8h.html#a148ec525ebd5d7fc84e4fdbe68df03b3a06327aca853262eb42544088bc92ac4e',1,'dhcpv6.h']]],
   ['fr_5fdhcpv6_5frenew',['FR_DHCPV6_RENEW',['../dhcpv6_8h.html#a148ec525ebd5d7fc84e4fdbe68df03b3aab61fbc387dddb4a8be7c916904c14d3',1,'dhcpv6.h']]],
   ['fr_5fdhcpv6_5freply',['FR_DHCPV6_REPLY',['../dhcpv6_8h.html#a148ec525ebd5d7fc84e4fdbe68df03b3a41ca8053cf6c86dc34a5a0f9677105be',1,'dhcpv6.h']]],
-  ['fr_5fdhcpv6_5freply_5finitialize',['fr_dhcpv6_reply_initialize',['../protocols_2dhcpv6_2base_8c.html#a96e01c4bee0158f8160ce3cbf0b7c01c',1,'fr_dhcpv6_reply_initialize(TALLOC_CTX *ctx, fr_pair_list_t *reply_list, uint8_t const *packet, size_t packet_len):&#160;base.c'],['../dhcpv6_8h.html#a96e01c4bee0158f8160ce3cbf0b7c01c',1,'fr_dhcpv6_reply_initialize(TALLOC_CTX *ctx, fr_pair_list_t *reply_list, uint8_t const *packet, size_t packet_len):&#160;base.c']]],
   ['fr_5fdhcpv6_5frequest',['FR_DHCPV6_REQUEST',['../dhcpv6_8h.html#a148ec525ebd5d7fc84e4fdbe68df03b3ab819576ab1680c9ab7ff6d81bef25dfb',1,'dhcpv6.h']]],
   ['fr_5fdhcpv6_5fsolicit',['FR_DHCPV6_SOLICIT',['../dhcpv6_8h.html#a148ec525ebd5d7fc84e4fdbe68df03b3a95e53805581d668338e625f5ec7804d5',1,'dhcpv6.h']]],
   ['fr_5fdhcpv6_5fstart_5ftls',['FR_DHCPV6_START_TLS',['../dhcpv6_8h.html#a148ec525ebd5d7fc84e4fdbe68df03b3a5a7829e3e72d017e5dfa01f842211339',1,'dhcpv6.h']]],

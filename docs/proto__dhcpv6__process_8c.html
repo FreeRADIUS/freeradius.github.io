@@ -102,13 +102,28 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a5f168c4c4fab1e9d79b696536d732dc8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proto__dhcpv6__process_8c.html#a5f168c4c4fab1e9d79b696536d732dc8">dhcpv6_packet_debug</a> (<a class="el" href="radclient_8c.html#a2fc1b64f51f8225195d32592e6fe8fc5">request_t</a> *request, <a class="el" href="packet_8h.html#structfr__radius__packet__t">fr_radius_packet_t</a> *packet, bool received)</td></tr>
 <tr class="separator:a5f168c4c4fab1e9d79b696536d732dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e54da13eb8d98b9007496f68c6fc0de"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proto__dhcpv6__process_8c.html#a1e54da13eb8d98b9007496f68c6fc0de">dhcpv6_reply_initialise</a> (<a class="el" href="radclient_8c.html#a2fc1b64f51f8225195d32592e6fe8fc5">request_t</a> *request)</td></tr>
+<tr class="memdesc:a1e54da13eb8d98b9007496f68c6fc0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a reply using the attributes we received in the request.  <a href="#a1e54da13eb8d98b9007496f68c6fc0de">More...</a><br /></td></tr>
+<tr class="separator:a1e54da13eb8d98b9007496f68c6fc0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac383fd55ca747af3d93dfbd3fd247708"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="action_8h.html#ad02ab717522305fe70aab72d152fc812">unlang_action_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proto__dhcpv6__process_8c.html#ac383fd55ca747af3d93dfbd3fd247708">mod_process</a> (<a class="el" href="rcode_8h.html#adcc711080df76349e177fc29a641d1fb">rlm_rcode_t</a> *p_result, <a class="el" href="build_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="server_2module_8h.html#a9bcf8e012c49bd2f269dd276981a72a0">module_ctx_t</a> const *mctx, <a class="el" href="radclient_8c.html#a2fc1b64f51f8225195d32592e6fe8fc5">request_t</a> *request)</td></tr>
 <tr class="separator:ac383fd55ca747af3d93dfbd3fd247708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:adc14f0432eba49cc7664ff47b88fdffb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proto__dhcpv6__process_8c.html#adc14f0432eba49cc7664ff47b88fdffb">attr_client_id</a></td></tr>
+<tr class="separator:adc14f0432eba49cc7664ff47b88fdffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a103441f8f4cce2db2846fc2e27da6e9a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proto__dhcpv6__process_8c.html#a103441f8f4cce2db2846fc2e27da6e9a">attr_hop_count</a></td></tr>
+<tr class="separator:a103441f8f4cce2db2846fc2e27da6e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63cdf1099773b219fa88cf1dde865f3b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proto__dhcpv6__process_8c.html#a63cdf1099773b219fa88cf1dde865f3b">attr_interface_id</a></td></tr>
+<tr class="separator:a63cdf1099773b219fa88cf1dde865f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1014903f8d1a26310733cd74757bc072"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proto__dhcpv6__process_8c.html#a1014903f8d1a26310733cd74757bc072">attr_packet_type</a></td></tr>
 <tr class="separator:a1014903f8d1a26310733cd74757bc072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a81de615bf02312ad135e8f4ac9e2bf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proto__dhcpv6__process_8c.html#a1a81de615bf02312ad135e8f4ac9e2bf">attr_relay_link_address</a></td></tr>
+<tr class="separator:a1a81de615bf02312ad135e8f4ac9e2bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af62f8dd08f2a0122f2579eaea25f31e2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proto__dhcpv6__process_8c.html#af62f8dd08f2a0122f2579eaea25f31e2">attr_relay_peer_address</a></td></tr>
+<tr class="separator:af62f8dd08f2a0122f2579eaea25f31e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22041899e70fa050df696251e103e71"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proto__dhcpv6__process_8c.html#ad22041899e70fa050df696251e103e71">attr_transaction_id</a></td></tr>
+<tr class="separator:ad22041899e70fa050df696251e103e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76c97d6310ebac306a0c5244b24cbac6"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="virtual__servers_8h.html#structvirtual__server__compile__t">virtual_server_compile_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proto__dhcpv6__process_8c.html#a76c97d6310ebac306a0c5244b24cbac6">compile_list</a> []</td></tr>
 <tr class="separator:a76c97d6310ebac306a0c5244b24cbac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb47607722fbcb59501a41f68e277292"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proto__dhcpv6__process_8c.html#abb47607722fbcb59501a41f68e277292">dict_dhcpv6</a></td></tr>
@@ -122,7 +137,7 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base DHCPV6 processing. </p>
-<dl class="section rcs"><dt>Id</dt><dd>32b6c983492c8747f0f5d45068fee1c6ab3b2ac3 </dd></dl>
+<dl class="section rcs"><dt>Id</dt><dd>e4d45fada177f00b13f7efb91500cbbf3d210460 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>2020 Network RADIUS SARL <a href="#" onclick="location.href='mai'+'lto:'+'leg'+'al'+'@ne'+'tw'+'ork'+'ra'+'diu'+'s.'+'com'; return false;">legal<span style="display: none;">.nosp@m.</span>@net<span style="display: none;">.nosp@m.</span>workr<span style="display: none;">.nosp@m.</span>adiu<span style="display: none;">.nosp@m.</span>s.com</a> </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
@@ -240,7 +255,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00054">54</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00066">66</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -255,6 +270,53 @@ Variables</h2></td></tr>
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="proto__dhcpv6__process_8c_a5f168c4c4fab1e9d79b696536d732dc8_icgraph.svg" width="311" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a1e54da13eb8d98b9007496f68c6fc0de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e54da13eb8d98b9007496f68c6fc0de">&#9670;&nbsp;</a></span>dhcpv6_reply_initialise()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void dhcpv6_reply_initialise </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="radclient_8c.html#a2fc1b64f51f8225195d32592e6fe8fc5">request_t</a> *&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generate a reply using the attributes we received in the request. </p>
+<p>This should be called before the user has the opportunity to mangle the request so that we get the original values. </p>
+
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00110">110</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="proto__dhcpv6__process_8c_a1e54da13eb8d98b9007496f68c6fc0de_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="proto__dhcpv6__process_8c_a1e54da13eb8d98b9007496f68c6fc0de_icgraph.svg" width="312" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -300,12 +362,12 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00093">93</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00146">146</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="proto__dhcpv6__process_8c_ac383fd55ca747af3d93dfbd3fd247708_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -313,6 +375,78 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="adc14f0432eba49cc7664ff47b88fdffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc14f0432eba49cc7664ff47b88fdffb">&#9670;&nbsp;</a></span>attr_client_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const* attr_client_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00043">43</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+
+</div>
+</div>
+<a id="a103441f8f4cce2db2846fc2e27da6e9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a103441f8f4cce2db2846fc2e27da6e9a">&#9670;&nbsp;</a></span>attr_hop_count</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const* attr_hop_count</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00044">44</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+
+</div>
+</div>
+<a id="a63cdf1099773b219fa88cf1dde865f3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63cdf1099773b219fa88cf1dde865f3b">&#9670;&nbsp;</a></span>attr_interface_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const* attr_interface_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00045">45</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+
+</div>
+</div>
 <a id="a1014903f8d1a26310733cd74757bc072"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1014903f8d1a26310733cd74757bc072">&#9670;&nbsp;</a></span>attr_packet_type</h2>
 
@@ -333,7 +467,79 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00043">43</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00046">46</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+
+</div>
+</div>
+<a id="a1a81de615bf02312ad135e8f4ac9e2bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a81de615bf02312ad135e8f4ac9e2bf">&#9670;&nbsp;</a></span>attr_relay_link_address</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const* attr_relay_link_address</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00047">47</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+
+</div>
+</div>
+<a id="af62f8dd08f2a0122f2579eaea25f31e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af62f8dd08f2a0122f2579eaea25f31e2">&#9670;&nbsp;</a></span>attr_relay_peer_address</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const* attr_relay_peer_address</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00048">48</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+
+</div>
+</div>
+<a id="ad22041899e70fa050df696251e103e71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad22041899e70fa050df696251e103e71">&#9670;&nbsp;</a></span>attr_transaction_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const* attr_transaction_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00049">49</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
 
 </div>
 </div>
@@ -357,7 +563,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00282">282</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00339">339</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
 
 </div>
 </div>
@@ -397,10 +603,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .magic          = <a class="code" href="dl__module_8h.html#aff47f8c16fc4985996ff84b7fb037e30">RLM_MODULE_INIT</a>,</div><div class="line">        .name           = <span class="stringliteral">&quot;dhcpv6_process&quot;</span>,</div><div class="line">        .entry_point    = <a class="code" href="proto__dhcpv6__process_8c.html#ac383fd55ca747af3d93dfbd3fd247708">mod_process</a>,</div><div class="line">        .compile_list   = <a class="code" href="proto__dhcpv6__process_8c.html#a76c97d6310ebac306a0c5244b24cbac6">compile_list</a>,</div><div class="line">}</div><div class="ttc" id="dl__module_8h_html_aff47f8c16fc4985996ff84b7fb037e30"><div class="ttname"><a href="dl__module_8h.html#aff47f8c16fc4985996ff84b7fb037e30">RLM_MODULE_INIT</a></div><div class="ttdeci">#define RLM_MODULE_INIT</div><div class="ttdoc">Stop people using different module/library/server versions together. </div><div class="ttdef"><b>Definition:</b> <a href="dl__module_8h_source.html#l00053">dl_module.h:53</a></div></div>
-<div class="ttc" id="proto__dhcpv6__process_8c_html_a76c97d6310ebac306a0c5244b24cbac6"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#a76c97d6310ebac306a0c5244b24cbac6">compile_list</a></div><div class="ttdeci">static const virtual_server_compile_t compile_list[]</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00282">proto_dhcpv6_process.c:282</a></div></div>
-<div class="ttc" id="proto__dhcpv6__process_8c_html_ac383fd55ca747af3d93dfbd3fd247708"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#ac383fd55ca747af3d93dfbd3fd247708">mod_process</a></div><div class="ttdeci">static unlang_action_t mod_process(rlm_rcode_t *p_result, UNUSED module_ctx_t const *mctx, request_t *request)</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00093">proto_dhcpv6_process.c:93</a></div></div>
+<div class="ttc" id="proto__dhcpv6__process_8c_html_a76c97d6310ebac306a0c5244b24cbac6"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#a76c97d6310ebac306a0c5244b24cbac6">compile_list</a></div><div class="ttdeci">static const virtual_server_compile_t compile_list[]</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00339">proto_dhcpv6_process.c:339</a></div></div>
+<div class="ttc" id="proto__dhcpv6__process_8c_html_ac383fd55ca747af3d93dfbd3fd247708"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#ac383fd55ca747af3d93dfbd3fd247708">mod_process</a></div><div class="ttdeci">static unlang_action_t mod_process(rlm_rcode_t *p_result, UNUSED module_ctx_t const *mctx, request_t *request)</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00146">proto_dhcpv6_process.c:146</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00354">354</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00411">411</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
 
 </div>
 </div>
@@ -433,19 +639,29 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        { .out = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#a1014903f8d1a26310733cd74757bc072">attr_packet_type</a>, .<a class="code" href="dict_8h.html#a76dd6ef231cc56e03c76327e907826b1">name</a> = <span class="stringliteral">&quot;Packet-Type&quot;</span>, .type = <a class="code" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30a8e3243c385d006225c2eff3d38382552">FR_TYPE_UINT32</a>, .dict = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#abb47607722fbcb59501a41f68e277292">dict_dhcpv6</a>},</div><div class="line">        { NULL }</div><div class="line">}</div><div class="ttc" id="dict_8h_html_a76dd6ef231cc56e03c76327e907826b1"><div class="ttname"><a href="dict_8h.html#a76dd6ef231cc56e03c76327e907826b1">dict_attr_s::name</a></div><div class="ttdeci">char const  * name</div><div class="ttdoc">Attribute name. </div><div class="ttdef"><b>Definition:</b> <a href="dict_8h_source.html#l00137">dict.h:137</a></div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        { .out = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#adc14f0432eba49cc7664ff47b88fdffb">attr_client_id</a>, .<a class="code" href="dict_8h.html#a76dd6ef231cc56e03c76327e907826b1">name</a> = <span class="stringliteral">&quot;Client-ID&quot;</span>, .type = <a class="code" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30a8ffd8431b45093f36a57baa0d14f5994">FR_TYPE_STRUCT</a>, .dict = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#abb47607722fbcb59501a41f68e277292">dict_dhcpv6</a> },</div><div class="line">        { .out = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#a103441f8f4cce2db2846fc2e27da6e9a">attr_hop_count</a>, .<a class="code" href="dict_8h.html#a76dd6ef231cc56e03c76327e907826b1">name</a> = <span class="stringliteral">&quot;Hop-Count&quot;</span>, .type = <a class="code" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30a8d0ab1fb5c42cc3e2bc1760914a491cf">FR_TYPE_UINT8</a>, .dict = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#abb47607722fbcb59501a41f68e277292">dict_dhcpv6</a> },</div><div class="line">        { .out = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#a63cdf1099773b219fa88cf1dde865f3b">attr_interface_id</a>, .<a class="code" href="dict_8h.html#a76dd6ef231cc56e03c76327e907826b1">name</a> = <span class="stringliteral">&quot;Interface-ID&quot;</span>, .type = <a class="code" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30aee66e99bbe53ef358fe622bff40770f8">FR_TYPE_OCTETS</a>, .dict = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#abb47607722fbcb59501a41f68e277292">dict_dhcpv6</a> },</div><div class="line">        { .out = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#a1014903f8d1a26310733cd74757bc072">attr_packet_type</a>, .<a class="code" href="dict_8h.html#a76dd6ef231cc56e03c76327e907826b1">name</a> = <span class="stringliteral">&quot;Packet-Type&quot;</span>, .type = <a class="code" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30a8e3243c385d006225c2eff3d38382552">FR_TYPE_UINT32</a>, .dict = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#abb47607722fbcb59501a41f68e277292">dict_dhcpv6</a> },</div><div class="line">        { .out = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#a1a81de615bf02312ad135e8f4ac9e2bf">attr_relay_link_address</a>, .<a class="code" href="dict_8h.html#a76dd6ef231cc56e03c76327e907826b1">name</a> = <span class="stringliteral">&quot;Relay-Link-Address&quot;</span>, .type = <a class="code" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30ac02d80aacced39f121b121784de5016a">FR_TYPE_IPV6_ADDR</a>, .dict = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#abb47607722fbcb59501a41f68e277292">dict_dhcpv6</a> },</div><div class="line">        { .out = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#af62f8dd08f2a0122f2579eaea25f31e2">attr_relay_peer_address</a>, .<a class="code" href="dict_8h.html#a76dd6ef231cc56e03c76327e907826b1">name</a> = <span class="stringliteral">&quot;Relay-Peer-Address&quot;</span>, .type = <a class="code" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30ac02d80aacced39f121b121784de5016a">FR_TYPE_IPV6_ADDR</a>, .dict = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#abb47607722fbcb59501a41f68e277292">dict_dhcpv6</a> },</div><div class="line">        { .out = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#ad22041899e70fa050df696251e103e71">attr_transaction_id</a>, .<a class="code" href="dict_8h.html#a76dd6ef231cc56e03c76327e907826b1">name</a> = <span class="stringliteral">&quot;Transaction-Id&quot;</span>, .type = <a class="code" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30aee66e99bbe53ef358fe622bff40770f8">FR_TYPE_OCTETS</a>, .dict = &amp;<a class="code" href="proto__dhcpv6__process_8c.html#abb47607722fbcb59501a41f68e277292">dict_dhcpv6</a> },</div><div class="line">        { NULL }</div><div class="line">}</div><div class="ttc" id="util_2types_8h_html_a372af96cb1f1bd71720f5b25c8acfd30ac02d80aacced39f121b121784de5016a"><div class="ttname"><a href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30ac02d80aacced39f121b121784de5016a">FR_TYPE_IPV6_ADDR</a></div><div class="ttdoc">128 Bit IPv6 Address. </div><div class="ttdef"><b>Definition:</b> <a href="util_2types_8h_source.html#l00043">types.h:43</a></div></div>
+<div class="ttc" id="dict_8h_html_a76dd6ef231cc56e03c76327e907826b1"><div class="ttname"><a href="dict_8h.html#a76dd6ef231cc56e03c76327e907826b1">dict_attr_s::name</a></div><div class="ttdeci">char const  * name</div><div class="ttdoc">Attribute name. </div><div class="ttdef"><b>Definition:</b> <a href="dict_8h_source.html#l00137">dict.h:137</a></div></div>
 <div class="ttc" id="util_2types_8h_html_a372af96cb1f1bd71720f5b25c8acfd30a8e3243c385d006225c2eff3d38382552"><div class="ttname"><a href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30a8e3243c385d006225c2eff3d38382552">FR_TYPE_UINT32</a></div><div class="ttdoc">32 Bit unsigned integer. </div><div class="ttdef"><b>Definition:</b> <a href="util_2types_8h_source.html#l00054">types.h:54</a></div></div>
+<div class="ttc" id="util_2types_8h_html_a372af96cb1f1bd71720f5b25c8acfd30a8d0ab1fb5c42cc3e2bc1760914a491cf"><div class="ttname"><a href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30a8d0ab1fb5c42cc3e2bc1760914a491cf">FR_TYPE_UINT8</a></div><div class="ttdoc">8 Bit unsigned integer. </div><div class="ttdef"><b>Definition:</b> <a href="util_2types_8h_source.html#l00052">types.h:52</a></div></div>
+<div class="ttc" id="proto__dhcpv6__process_8c_html_a1a81de615bf02312ad135e8f4ac9e2bf"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#a1a81de615bf02312ad135e8f4ac9e2bf">attr_relay_link_address</a></div><div class="ttdeci">static fr_dict_attr_t const  * attr_relay_link_address</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00047">proto_dhcpv6_process.c:47</a></div></div>
+<div class="ttc" id="proto__dhcpv6__process_8c_html_af62f8dd08f2a0122f2579eaea25f31e2"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#af62f8dd08f2a0122f2579eaea25f31e2">attr_relay_peer_address</a></div><div class="ttdeci">static fr_dict_attr_t const  * attr_relay_peer_address</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00048">proto_dhcpv6_process.c:48</a></div></div>
+<div class="ttc" id="util_2types_8h_html_a372af96cb1f1bd71720f5b25c8acfd30a8ffd8431b45093f36a57baa0d14f5994"><div class="ttname"><a href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30a8ffd8431b45093f36a57baa0d14f5994">FR_TYPE_STRUCT</a></div><div class="ttdoc">like TLV, but without T or L, and fixed-width children </div><div class="ttdef"><b>Definition:</b> <a href="util_2types_8h_source.html#l00073">types.h:73</a></div></div>
 <div class="ttc" id="proto__dhcpv6__process_8c_html_abb47607722fbcb59501a41f68e277292"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#abb47607722fbcb59501a41f68e277292">dict_dhcpv6</a></div><div class="ttdeci">static fr_dict_t const  * dict_dhcpv6</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00035">proto_dhcpv6_process.c:35</a></div></div>
-<div class="ttc" id="proto__dhcpv6__process_8c_html_a1014903f8d1a26310733cd74757bc072"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#a1014903f8d1a26310733cd74757bc072">attr_packet_type</a></div><div class="ttdeci">static fr_dict_attr_t const  * attr_packet_type</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00043">proto_dhcpv6_process.c:43</a></div></div>
+<div class="ttc" id="proto__dhcpv6__process_8c_html_a63cdf1099773b219fa88cf1dde865f3b"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#a63cdf1099773b219fa88cf1dde865f3b">attr_interface_id</a></div><div class="ttdeci">static fr_dict_attr_t const  * attr_interface_id</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00045">proto_dhcpv6_process.c:45</a></div></div>
+<div class="ttc" id="proto__dhcpv6__process_8c_html_adc14f0432eba49cc7664ff47b88fdffb"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#adc14f0432eba49cc7664ff47b88fdffb">attr_client_id</a></div><div class="ttdeci">static fr_dict_attr_t const  * attr_client_id</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00043">proto_dhcpv6_process.c:43</a></div></div>
+<div class="ttc" id="proto__dhcpv6__process_8c_html_a1014903f8d1a26310733cd74757bc072"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#a1014903f8d1a26310733cd74757bc072">attr_packet_type</a></div><div class="ttdeci">static fr_dict_attr_t const  * attr_packet_type</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00046">proto_dhcpv6_process.c:46</a></div></div>
+<div class="ttc" id="proto__dhcpv6__process_8c_html_a103441f8f4cce2db2846fc2e27da6e9a"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#a103441f8f4cce2db2846fc2e27da6e9a">attr_hop_count</a></div><div class="ttdeci">static fr_dict_attr_t const  * attr_hop_count</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00044">proto_dhcpv6_process.c:44</a></div></div>
+<div class="ttc" id="util_2types_8h_html_a372af96cb1f1bd71720f5b25c8acfd30aee66e99bbe53ef358fe622bff40770f8"><div class="ttname"><a href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30aee66e99bbe53ef358fe622bff40770f8">FR_TYPE_OCTETS</a></div><div class="ttdoc">Raw octets. </div><div class="ttdef"><b>Definition:</b> <a href="util_2types_8h_source.html#l00039">types.h:39</a></div></div>
+<div class="ttc" id="proto__dhcpv6__process_8c_html_ad22041899e70fa050df696251e103e71"><div class="ttname"><a href="proto__dhcpv6__process_8c.html#ad22041899e70fa050df696251e103e71">attr_transaction_id</a></div><div class="ttdeci">static fr_dict_attr_t const  * attr_transaction_id</div><div class="ttdef"><b>Definition:</b> <a href="proto__dhcpv6__process_8c_source.html#l00049">proto_dhcpv6_process.c:49</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00046">46</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proto__dhcpv6__process_8c_source.html#l00052">52</a> of file <a class="el" href="proto__dhcpv6__process_8c_source.html">proto_dhcpv6_process.c</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2020 22:15:13 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 13 2020 22:33:14 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
