@@ -181,11 +181,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a89adbe4d202175103db8de87cc6e9297"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="value_8h.html#a89adbe4d202175103db8de87cc6e9297">fr_value_box_print_quoted</a> (<a class="el" href="sbuff_8h.html#a92060dffcc62ed9e62d509c6bf477b6d">fr_sbuff_t</a> *<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, <a class="el" href="value_8h.html#a4a9e69e78ad1a81da0976e8f29a4e444">fr_value_box_t</a> const *<a class="el" href="ring__buffer__test_8c.html#a4b83b6e2cf0af27630a64dce8dd7717a">data</a>, <a class="el" href="token_8h.html#a946319d7782128ef7a776e118ad1fe60">fr_token_t</a> <a class="el" href="value_8h.html#aa88adb4e08a167f4613ca9e147e42c00">quote</a>)</td></tr>
 <tr class="memdesc:a89adbe4d202175103db8de87cc6e9297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print one boxed value to a string with quotes (where needed)  <a href="#a89adbe4d202175103db8de87cc6e9297">More...</a><br /></td></tr>
 <tr class="separator:a89adbe4d202175103db8de87cc6e9297"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56fee024fecc36e64a394502e0988b78"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="value_8h.html#a56fee024fecc36e64a394502e0988b78">fr_value_box_to_network</a> (size_t *need, uint8_t *<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, size_t outlen, <a class="el" href="value_8h.html#a4a9e69e78ad1a81da0976e8f29a4e444">fr_value_box_t</a> const *value)</td></tr>
-<tr class="memdesc:a56fee024fecc36e64a394502e0988b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode a single value box, serializing its contents in generic network format.  <a href="#a56fee024fecc36e64a394502e0988b78">More...</a><br /></td></tr>
-<tr class="separator:a56fee024fecc36e64a394502e0988b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05ed37702365d7c4ec855a860abdb5c2"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="value_8h.html#a05ed37702365d7c4ec855a860abdb5c2">fr_value_box_to_network_dbuff</a> (size_t *need, <a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, <a class="el" href="value_8h.html#a4a9e69e78ad1a81da0976e8f29a4e444">fr_value_box_t</a> const *value)</td></tr>
-<tr class="separator:a05ed37702365d7c4ec855a860abdb5c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad76c83e1153803b7ae42d49c3ee99647"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="value_8h.html#ad76c83e1153803b7ae42d49c3ee99647">fr_value_box_to_network</a> (<a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, <a class="el" href="value_8h.html#a4a9e69e78ad1a81da0976e8f29a4e444">fr_value_box_t</a> const *value)</td></tr>
+<tr class="memdesc:ad76c83e1153803b7ae42d49c3ee99647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode a single value box, serializing its contents in generic network format.  <a href="#ad76c83e1153803b7ae42d49c3ee99647">More...</a><br /></td></tr>
+<tr class="separator:ad76c83e1153803b7ae42d49c3ee99647"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abccbbff328e7503ef66ae6dd1a0a0c09"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="value_8h.html#abccbbff328e7503ef66ae6dd1a0a0c09">fr_value_str_aunescape</a> (TALLOC_CTX *ctx, char **<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, <a class="el" href="sbuff_8h.html#a92060dffcc62ed9e62d509c6bf477b6d">fr_sbuff_t</a> *<a class="el" href="value_8h.html#a47ef05ec8d75829006b7eba839c1b603">in</a>, size_t <a class="el" href="value_8h.html#a26bd6a430c456629c00363322491f55a">inlen</a>, char <a class="el" href="value_8h.html#aa88adb4e08a167f4613ca9e147e42c00">quote</a>) <a class="el" href="sbuff_8h.html#aeb54d516517d2ba88188fe65f4245bf4">SBUFF_OUT_TALLOC_FUNC_DEF</a>(<a class="el" href="value_8h.html#a6e90cfa3e11cf0731480d08055ee9aef">fr_value_str_unescape</a></td></tr>
 <tr class="separator:abccbbff328e7503ef66ae6dd1a0a0c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e90cfa3e11cf0731480d08055ee9aef"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="value_8h.html#a6e90cfa3e11cf0731480d08055ee9aef">fr_value_str_unescape</a> (<a class="el" href="sbuff_8h.html#a92060dffcc62ed9e62d509c6bf477b6d">fr_sbuff_t</a> *<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, <a class="el" href="sbuff_8h.html#a92060dffcc62ed9e62d509c6bf477b6d">fr_sbuff_t</a> *<a class="el" href="value_8h.html#a47ef05ec8d75829006b7eba839c1b603">in</a>, size_t <a class="el" href="value_8h.html#a26bd6a430c456629c00363322491f55a">inlen</a>, char <a class="el" href="value_8h.html#aa88adb4e08a167f4613ca9e147e42c00">quote</a>)</td></tr>
@@ -1833,7 +1831,7 @@ Pointer to UTF-8 string. </td></tr>
 
 <p>Special value to indicate fr_value_box_from_network experienced a general error. </p>
 
-<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00593">593</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00591">591</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
 
 </div>
 </div>
@@ -1851,7 +1849,7 @@ Pointer to UTF-8 string. </td></tr>
 
 <p>Special value to ensure other encoding/decoding errors don't overlap. </p>
 
-<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00601">601</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00599">599</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
 
 </div>
 </div>
@@ -1869,7 +1867,7 @@ Pointer to UTF-8 string. </td></tr>
 
 <p>Special value to indicate fr_value_box_from_network hit an out of memory error. </p>
 
-<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00597">597</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00595">595</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
 
 </div>
 </div>
@@ -1906,7 +1904,7 @@ Pointer to UTF-8 string. </td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">_Generic((_var), \</div><div class="line">        <a class="code" href="inet_8h.html#structfr__ipaddr__t">fr_ipaddr_t</a> *           : <a class="code" href="value_8h.html#a92b27b47977a83783ac8a07c7b6cdcf6">fr_value_box_ipaddr</a>, \</div><div class="line">        <a class="code" href="inet_8h.html#structfr__ipaddr__t">fr_ipaddr_t</a> <span class="keyword">const</span> *     : fr_value_box_ipaddr, \</div><div class="line">        <a class="code" href="inet_8h.html#structfr__ethernet__t">fr_ethernet_t</a> *         : <a class="code" href="value_8h.html#a8fe7ebd69e42c503a2d23ee91d6a2ce2">fr_value_box_ethernet_addr</a>, \</div><div class="line">        <a class="code" href="inet_8h.html#structfr__ethernet__t">fr_ethernet_t</a> <span class="keyword">const</span> *   : fr_value_box_ethernet_addr, \</div><div class="line">        <span class="keywordtype">bool</span>                    : fr_value_box_bool, \</div><div class="line">        uint8_t                 : fr_value_box_uint8, \</div><div class="line">        uint8_t <span class="keyword">const</span>           : fr_value_box_uint8, \</div><div class="line">        uint16_t                : fr_value_box_uint16, \</div><div class="line">        uint16_t <span class="keyword">const</span>          : fr_value_box_uint16, \</div><div class="line">        uint32_t                : fr_value_box_uint32, \</div><div class="line">        uint32_t <span class="keyword">const</span>          : fr_value_box_uint32, \</div><div class="line">        uint64_t                : fr_value_box_uint64, \</div><div class="line">        uint64_t <span class="keyword">const</span>          : fr_value_box_uint64, \</div><div class="line">        int8_t                  : fr_value_box_int8, \</div><div class="line">        int8_t <span class="keyword">const</span>            : fr_value_box_int8, \</div><div class="line">        int16_t                 : fr_value_box_int16, \</div><div class="line">        int16_t <span class="keyword">const</span>           : fr_value_box_int16, \</div><div class="line">        int32_t                 : fr_value_box_int32, \</div><div class="line">        int32_t <span class="keyword">const</span>           : fr_value_box_int32, \</div><div class="line">        int64_t                 : fr_value_box_int64, \</div><div class="line">        int64_t <span class="keyword">const</span>           : fr_value_box_int64, \</div><div class="line">        <span class="keywordtype">float</span>                   : fr_value_box_float32, \</div><div class="line">        <span class="keywordtype">float</span> <span class="keyword">const</span>             : fr_value_box_float32, \</div><div class="line">        <span class="keywordtype">double</span>                  : fr_value_box_float64, \</div><div class="line">        <span class="keywordtype">double</span> <span class="keyword">const</span>            : fr_value_box_float64 \</div><div class="line">)(_box, NULL, _var, _tainted)</div><div class="ttc" id="inet_8h_html_structfr__ethernet__t"><div class="ttname"><a href="inet_8h.html#structfr__ethernet__t">fr_ethernet_t</a></div><div class="ttdoc">Struct to represent an ethernet address. </div><div class="ttdef"><b>Definition:</b> <a href="inet_8h_source.html#l00045">inet.h:45</a></div></div>
 <div class="ttc" id="value_8h_html_a8fe7ebd69e42c503a2d23ee91d6a2ce2"><div class="ttname"><a href="value_8h.html#a8fe7ebd69e42c503a2d23ee91d6a2ce2">fr_value_box_ethernet_addr</a></div><div class="ttdeci">static int fr_value_box_ethernet_addr(fr_value_box_t *dst, fr_dict_attr_t const *enumv, fr_ethernet_t const *src, bool tainted)</div><div class="ttdoc">Box an ethernet value (6 bytes, network byte order) </div><div class="ttdef"><b>Definition:</b> <a href="value_8h_source.html#l00419">value.h:419</a></div></div>
-<div class="ttc" id="value_8h_html_a92b27b47977a83783ac8a07c7b6cdcf6"><div class="ttname"><a href="value_8h.html#a92b27b47977a83783ac8a07c7b6cdcf6">fr_value_box_ipaddr</a></div><div class="ttdeci">int fr_value_box_ipaddr(fr_value_box_t *dst, fr_dict_attr_t const *enumv, fr_ipaddr_t const *ipaddr, bool tainted)</div><div class="ttdoc">Assign a fr_value_box_t value from an fr_ipaddr_t. </div><div class="ttdef"><b>Definition:</b> <a href="value_8c_source.html#l03053">value.c:3053</a></div></div>
+<div class="ttc" id="value_8h_html_a92b27b47977a83783ac8a07c7b6cdcf6"><div class="ttname"><a href="value_8h.html#a92b27b47977a83783ac8a07c7b6cdcf6">fr_value_box_ipaddr</a></div><div class="ttdeci">int fr_value_box_ipaddr(fr_value_box_t *dst, fr_dict_attr_t const *enumv, fr_ipaddr_t const *ipaddr, bool tainted)</div><div class="ttdoc">Assign a fr_value_box_t value from an fr_ipaddr_t. </div><div class="ttdef"><b>Definition:</b> <a href="value_8c_source.html#l03013">value.c:3013</a></div></div>
 <div class="ttc" id="inet_8h_html_structfr__ipaddr__t"><div class="ttname"><a href="inet_8h.html#structfr__ipaddr__t">fr_ipaddr_t</a></div><div class="ttdoc">IPv4/6 prefix. </div><div class="ttdef"><b>Definition:</b> <a href="inet_8h_source.html#l00063">inet.h:63</a></div></div>
 </div><!-- fragment -->
 <p>Automagically fill in a box, determining the value type from the type of the C variable. </p>
@@ -2639,7 +2637,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03410">3410</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03370">3370</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
@@ -2727,7 +2725,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03450">3450</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03410">3410</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
@@ -2803,7 +2801,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03689">3689</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03649">3649</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
@@ -2880,7 +2878,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03483">3483</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03443">3443</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
@@ -2963,7 +2961,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03560">3560</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03520">3520</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-15-summary" class="dynsummary" style="display:block;">
@@ -3045,7 +3043,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03605">3605</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03565">3565</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
@@ -3128,7 +3126,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03636">3636</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03596">3596</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-19-summary" class="dynsummary" style="display:block;">
@@ -3211,7 +3209,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03527">3527</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03487">3487</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
@@ -3287,7 +3285,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03584">3584</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03544">3544</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-23-summary" class="dynsummary" style="display:block;">
@@ -3371,7 +3369,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l02841">2841</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l02801">2801</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-25-summary" class="dynsummary" style="display:block;">
@@ -3447,7 +3445,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03011">3011</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l02971">2971</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-27-summary" class="dynsummary" style="display:block;">
@@ -3500,7 +3498,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03167">3167</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03127">3127</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-29-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-29-summary" class="dynsummary" style="display:block;">
@@ -3553,7 +3551,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03108">3108</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03068">3068</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-31-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-31-summary" class="dynsummary" style="display:block;">
@@ -3751,7 +3749,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03184">3184</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03144">3144</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-37-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-37-summary" class="dynsummary" style="display:block;">
@@ -3815,7 +3813,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03244">3244</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03204">3204</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-39-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-39-summary" class="dynsummary" style="display:block;">
@@ -4002,7 +4000,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l01476">1476</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l01436">1436</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-43-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-43-summary" class="dynsummary" style="display:block;">
@@ -4110,7 +4108,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04152">4152</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04112">4112</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-45-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-45-summary" class="dynsummary" style="display:block;">
@@ -4158,7 +4156,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 
 <p>Hash the contents of a value box. </p>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04980">4980</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04940">4940</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-47-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-47-summary" class="dynsummary" style="display:block;">
@@ -4263,7 +4261,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03959">3959</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03919">3919</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-51-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-51-summary" class="dynsummary" style="display:block;">
@@ -4446,7 +4444,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03053">3053</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03013">3013</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-55-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-55-summary" class="dynsummary" style="display:block;">
@@ -4513,7 +4511,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l05069">5069</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l05029">5029</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-57-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-57-summary" class="dynsummary" style="display:block;">
@@ -4587,7 +4585,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04937">4937</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04897">4897</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-59-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-59-summary" class="dynsummary" style="display:block;">
@@ -4669,7 +4667,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04825">4825</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04785">4785</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-61-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-61-summary" class="dynsummary" style="display:block;">
@@ -4736,7 +4734,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l05008">5008</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04968">4968</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-63-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-63-summary" class="dynsummary" style="display:block;">
@@ -4796,7 +4794,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l05124">5124</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l05084">5084</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-65" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-65-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-65-summary" class="dynsummary" style="display:block;">
@@ -4943,7 +4941,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l05105">5105</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l05065">5065</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-68" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-68-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-68-summary" class="dynsummary" style="display:block;">
@@ -5024,7 +5022,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03723">3723</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03683">3683</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-69" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-69-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-69-summary" class="dynsummary" style="display:block;">
@@ -5107,7 +5105,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03898">3898</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03858">3858</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-71" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-71-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-71-summary" class="dynsummary" style="display:block;">
@@ -5183,7 +5181,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03948">3948</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03908">3908</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-73" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-73-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-73-summary" class="dynsummary" style="display:block;">
@@ -5260,7 +5258,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03756">3756</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03716">3716</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-75" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-75-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-75-summary" class="dynsummary" style="display:block;">
@@ -5349,7 +5347,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03805">3805</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03765">3765</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-77" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-77-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-77-summary" class="dynsummary" style="display:block;">
@@ -5431,7 +5429,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03837">3837</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03797">3797</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-79" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-79-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-79-summary" class="dynsummary" style="display:block;">
@@ -5508,7 +5506,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03877">3877</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03837">3837</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-81" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-81-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-81-summary" class="dynsummary" style="display:block;">
@@ -5587,7 +5585,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03859">3859</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03819">3819</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-83" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-83-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-83-summary" class="dynsummary" style="display:block;">
@@ -5681,7 +5679,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04523">4523</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04483">4483</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-86" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-86-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-86-summary" class="dynsummary" style="display:block;">
@@ -5743,7 +5741,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04791">4791</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l04751">4751</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-88" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-88-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-88-summary" class="dynsummary" style="display:block;">
@@ -5810,7 +5808,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03268">3268</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03228">3228</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-90" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-90-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-90-summary" class="dynsummary" style="display:block;">
@@ -5891,7 +5889,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03320">3320</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03280">3280</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-92" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-92-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-92-summary" class="dynsummary" style="display:block;">
@@ -5960,7 +5958,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03430">3430</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03390">3390</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-94" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-94-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-94-summary" class="dynsummary" style="display:block;">
@@ -6020,7 +6018,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03346">3346</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03306">3306</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-96" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-96-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-96-summary" class="dynsummary" style="display:block;">
@@ -6040,8 +6038,8 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 
 </div>
 </div>
-<a id="a56fee024fecc36e64a394502e0988b78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56fee024fecc36e64a394502e0988b78">&#9670;&nbsp;</a></span>fr_value_box_to_network()</h2>
+<a id="ad76c83e1153803b7ae42d49c3ee99647"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad76c83e1153803b7ae42d49c3ee99647">&#9670;&nbsp;</a></span>fr_value_box_to_network()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6049,20 +6047,8 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
         <tr>
           <td class="memname">ssize_t fr_value_box_to_network </td>
           <td>(</td>
-          <td class="paramtype">size_t *&#160;</td>
-          <td class="paramname"><em>need</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>dst</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>dst_len</em>, </td>
+          <td class="paramtype"><a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *&#160;</td>
+          <td class="paramname"><em>dbuff</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -6079,7 +6065,7 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </div><div class="memdoc">
 
 <p>Encode a single value box, serializing its contents in generic network format. </p>
-<p>The serialized form of <a class="el" href="value_8h.html#a4a9e69e78ad1a81da0976e8f29a4e444">fr_value_box_t</a> may not match the requirements of your protocol completely. In cases where they do not, you should overload specific types in the function calling <a class="el" href="value_8c.html#a160cc5a1427d8fd54ab8b0346d0d0e6d" title="Encode a single value box, serializing its contents in generic network format. ">fr_value_box_to_network</a>.</p>
+<p>The serialized form of <a class="el" href="value_8h.html#a4a9e69e78ad1a81da0976e8f29a4e444">fr_value_box_t</a> may not match the requirements of your protocol completely. In cases where they do not, you should overload specific types in the function calling <a class="el" href="value_8c.html#ad76c83e1153803b7ae42d49c3ee99647" title="Encode a single value box, serializing its contents in generic network format. ">fr_value_box_to_network</a>.</p>
 <p>The general serialization rules are:</p>
 <ul>
 <li>Octets are encoded in binary form (not hex).</li>
@@ -6098,79 +6084,33 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 <p>This function will not encode complex types (TLVs, VSAs etc...). These are usually specific to the protocol anyway.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">need</td><td>if not NULL, how many bytes are required to serialize the remainder of the boxed data. Note: Only variable length types will be partially encoded. Fixed length types will not be partially encoded. </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">dst</td><td>Where to write serialized data. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dst_len</td><td>The length of the output buffer, or maximum value fragment size. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">dbuff</td><td>Where to write serialized data. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>to encode. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><ul>
-<li>0 no bytes were written, see need value to determine if it was because the fr_value_box_t was <a class="el" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30aee66e99bbe53ef358fe622bff40770f8" title="Raw octets. ">FR_TYPE_OCTETS</a>/<a class="el" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30a3277792336b6d6c1577f0cbb53f74381" title="String of printable characters. ">FR_TYPE_STRING</a> and was NULL (which is unfortunately valid)</li>
+<li>0 no bytes were written.</li>
 <li>&gt;0 the number of bytes written to out.</li>
-<li>&lt;0 on error. </li>
+<li>&lt;0 the number of bytes we'd need in dbuff to complete the operation. </li>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l01178">1178</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l01170">1170</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-98" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-98-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-98-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-98-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_a56fee024fecc36e64a394502e0988b78_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_ad76c83e1153803b7ae42d49c3ee99647_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-
-</div>
-</div>
-<a id="a05ed37702365d7c4ec855a860abdb5c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05ed37702365d7c4ec855a860abdb5c2">&#9670;&nbsp;</a></span>fr_value_box_to_network_dbuff()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ssize_t fr_value_box_to_network_dbuff </td>
-          <td>(</td>
-          <td class="paramtype">size_t *&#160;</td>
-          <td class="paramname"><em>need</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *&#160;</td>
-          <td class="paramname"><em>dbuff</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="value_8h.html#a4a9e69e78ad1a81da0976e8f29a4e444">fr_value_box_t</a> const *&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l01183">1183</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
 <div id="dynsection-99" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-99-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-99-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-99-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-99-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_a05ed37702365d7c4ec855a860abdb5c2_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div id="dynsection-100" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-100-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-100-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-100-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_a05ed37702365d7c4ec855a860abdb5c2_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_ad76c83e1153803b7ae42d49c3ee99647_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -6244,20 +6184,20 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03379">3379</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
-<div id="dynsection-101" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-101-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-101-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03339">3339</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<div id="dynsection-100" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-100-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-100-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-101-content" class="dyncontent" style="display:none;">
+<div id="dynsection-100-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_af45a875229698a5532cedf8eba6e72fb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-102" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-102-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-102-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-101" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-101-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-101-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-102-content" class="dyncontent" style="display:none;">
+<div id="dynsection-101-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_af45a875229698a5532cedf8eba6e72fb_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -6315,11 +6255,11 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
   </tr>
 </table>
 </div><div class="memdoc">
-<div id="dynsection-103" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-103-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-103-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-102" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-102-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-102-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-103-content" class="dyncontent" style="display:none;">
+<div id="dynsection-102-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_abccbbff328e7503ef66ae6dd1a0a0c09_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -6407,19 +6347,19 @@ Copying will stop early if an unescaped instance of the quoting char is found in
 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="value_8c_source.html#l00927">927</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
-<div id="dynsection-104" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-104-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-104-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-103" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-103-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-103-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-104-content" class="dyncontent" style="display:none;">
+<div id="dynsection-103-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_a6e90cfa3e11cf0731480d08055ee9aef_cgraph.svg" width="100%" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-105" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-105-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-105-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-104" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-104-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-104-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-105-content" class="dyncontent" style="display:none;">
+<div id="dynsection-104-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_a6e90cfa3e11cf0731480d08055ee9aef_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -6561,19 +6501,19 @@ Copying will stop early if an unescaped instance of the quoting char is found in
 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="value_8c_source.html#l01000">1000</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
-<div id="dynsection-106" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-106-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-106-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-105" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-105-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-105-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-106-content" class="dyncontent" style="display:none;">
+<div id="dynsection-105-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_af0b684cf01510134be3b5d4b38e7a855_cgraph.svg" width="100%" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-107" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-107-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-107-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-106" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-106-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-106-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-107-content" class="dyncontent" style="display:none;">
+<div id="dynsection-106-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_af0b684cf01510134be3b5d4b38e7a855_icgraph.svg" width="100%" height="465"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -6629,11 +6569,11 @@ Copying will stop early if an unescaped instance of the quoting char is found in
 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00503">503</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
-<div id="dynsection-108" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-108-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-108-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-107" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-107-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-107-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-108-content" class="dyncontent" style="display:none;">
+<div id="dynsection-107-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="value_8h_ae5f095dc4a02d47039272b2c60ec148d_icgraph.svg" width="406" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -6680,12 +6620,12 @@ Copying will stop early if an unescaped instance of the quoting char is found in
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03085">3085</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
-<div id="dynsection-109" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-109-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-109-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="value_8c_source.html#l03045">3045</a> of file <a class="el" href="value_8c_source.html">value.c</a>.</p>
+<div id="dynsection-108" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-108-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-108-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-109-content" class="dyncontent" style="display:none;">
+<div id="dynsection-108-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="value_8h_a9b991340e266b6d5dd0522e4e293a623_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -6705,7 +6645,7 @@ Copying will stop early if an unescaped instance of the quoting char is found in
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00751">751</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00749">749</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
 
 </div>
 </div>
@@ -6985,7 +6925,7 @@ Copying will stop early if an unescaped instance of the quoting char is found in
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00751">751</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00749">749</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
 
 </div>
 </div>
@@ -7008,7 +6948,7 @@ Copying will stop early if an unescaped instance of the quoting char is found in
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 14 2020 14:41:45 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Nov 14 2020 17:34:01 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
