@@ -22,7 +22,7 @@ var searchData=
   ['sbuff_5fchar_5fclass_5falpha',['SBUFF_CHAR_CLASS_ALPHA',['../sbuff_8h.html#a1be8cd6a6368b6fb1cf232d5eec76692',1,'sbuff.h']]],
   ['sbuff_5fchar_5fclass_5falpha_5fnum',['SBUFF_CHAR_CLASS_ALPHA_NUM',['../sbuff_8h.html#a6f5497fdf152fe7a694447cf725172a9',1,'sbuff.h']]],
   ['sbuff_5fchar_5fclass_5ffloat',['sbuff_char_class_float',['../sbuff_8c.html#a1d9597a3da8cfedf7c61392a02d83bcc',1,'sbuff.c']]],
-  ['sbuff_5fchar_5fclass_5fhex',['sbuff_char_class_hex',['../sbuff_8c.html#a4a56a00cb151ad4f062417d109d4feb5',1,'sbuff_char_class_hex():&#160;sbuff.c'],['../sbuff_8h.html#a0f3cee4513e4b36c109cad445af8e972',1,'SBUFF_CHAR_CLASS_HEX():&#160;sbuff.h']]],
+  ['sbuff_5fchar_5fclass_5fhex',['SBUFF_CHAR_CLASS_HEX',['../sbuff_8h.html#a0f3cee4513e4b36c109cad445af8e972',1,'SBUFF_CHAR_CLASS_HEX():&#160;sbuff.h'],['../sbuff_8c.html#a4a56a00cb151ad4f062417d109d4feb5',1,'sbuff_char_class_hex():&#160;sbuff.c']]],
   ['sbuff_5fchar_5fclass_5fint',['sbuff_char_class_int',['../sbuff_8c.html#ae540060ff8a307834998bd0e251c10ab',1,'sbuff.c']]],
   ['sbuff_5fchar_5fclass_5fnum',['SBUFF_CHAR_CLASS_NUM',['../sbuff_8h.html#a24343d6b184c4ef49600fe7851ddabd6',1,'sbuff.h']]],
   ['sbuff_5fchar_5fclass_5fuint',['sbuff_char_class_uint',['../sbuff_8c.html#a52cd1ca37093768445d15599a41ab6b9',1,'sbuff.c']]],

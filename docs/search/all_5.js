@@ -236,6 +236,7 @@ var searchData=
   ['dhcpv6_5fopt_5fhdr_5flen',['DHCPV6_OPT_HDR_LEN',['../protocols_2dhcpv4_2encode_8c.html#aa48c366216f7d18d203fd2e8653a2084',1,'DHCPV6_OPT_HDR_LEN():&#160;encode.c'],['../dhcpv6_8h.html#aa48c366216f7d18d203fd2e8653a2084',1,'DHCPV6_OPT_HDR_LEN():&#160;dhcpv6.h']]],
   ['dhcpv6_5fpacket_5fdebug',['dhcpv6_packet_debug',['../proto__dhcpv6__process_8c.html#a5f168c4c4fab1e9d79b696536d732dc8',1,'proto_dhcpv6_process.c']]],
   ['dhcpv6_5fpeer_5faddress_5flen',['DHCPV6_PEER_ADDRESS_LEN',['../dhcpv6_8h.html#a6e009602995392a835473e94fa56f319',1,'dhcpv6.h']]],
+  ['dhcpv6_5fprint_5fhex',['dhcpv6_print_hex',['../protocols_2dhcpv6_2base_8c.html#a51a59ffe29021bf59ceef607c82d3f19',1,'base.c']]],
   ['dhcpv6_5frelay_5fhdr_5flen',['DHCPV6_RELAY_HDR_LEN',['../dhcpv6_8h.html#a68fa3cecdaeffd9d34a9f0e65cc26402',1,'dhcpv6.h']]],
   ['dhcpv6_5freply_5finitialise',['dhcpv6_reply_initialise',['../proto__dhcpv6__process_8c.html#a1e54da13eb8d98b9007496f68c6fc0de',1,'proto_dhcpv6_process.c']]],
   ['dhcpv6_5ftp_5fdecode_5fpair',['dhcpv6_tp_decode_pair',['../protocols_2dhcpv6_2decode_8c.html#a5452b9f6a27c65cb5cc90ae1d9e16510',1,'decode.c']]],

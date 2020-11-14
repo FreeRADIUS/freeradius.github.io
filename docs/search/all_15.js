@@ -57,7 +57,7 @@ var searchData=
   ['table_5ftype_5fvalue_5findex_5fbit_5ffield_5ffunc',['TABLE_TYPE_VALUE_INDEX_BIT_FIELD_FUNC',['../table_8c.html#a16bab0fc7fe7c14c213c2dc2569d9ac1',1,'table.c']]],
   ['table_5ftype_5fvalue_5findex_5ffunc',['TABLE_TYPE_VALUE_INDEX_FUNC',['../table_8c.html#a9fa6c367ffb382b47b84bd8998a1ce45',1,'table.c']]],
   ['tablesize',['tablesize',['../rlm__passwd_8c.html#a66afb4da0b838ba7df646d815a8e45e2',1,'hashtable']]],
-  ['tabs',['tabs',['../command_8c.html#abd43cd0327ad7a2095ced1309144dd9c',1,'command.c']]],
+  ['tabs',['tabs',['../command_8c.html#abd43cd0327ad7a2095ced1309144dd9c',1,'tabs():&#160;command.c'],['../protocols_2dhcpv6_2base_8c.html#aaab0962763448b0a36198f275857f0c1',1,'tabs():&#160;base.c']]],
   ['tacacs_2eh',['tacacs.h',['../tacacs_8h.html',1,'']]],
   ['tacacs_5fdecode_5fargs',['tacacs_decode_args',['../protocols_2tacacs_2decode_8c.html#a5dfe87a82e06843dd94ed7a4a9e1a57a',1,'decode.c']]],
   ['tacacs_5fdecode_5ffield',['tacacs_decode_field',['../protocols_2tacacs_2decode_8c.html#a1d06cf55268d1b84d28a028302dc28a4',1,'decode.c']]],

@@ -98,6 +98,8 @@ $(function() {
 Functions</h2></td></tr>
 <tr class="memitem:aa797c1926a731da7b3be791c3339be74"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2base_8c.html#aa797c1926a731da7b3be791c3339be74">attr_valid</a> (<a class="el" href="build_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>, <a class="el" href="build_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *parent, <a class="el" href="build_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> char const *<a class="el" href="rlm__redis__ippool__tool_8c.html#a5f1de76dd5d451949e12c0fbc966ca70">name</a>, <a class="el" href="build_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> int attr, <a class="el" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30">fr_type_t</a> type, <a class="el" href="dict_8h.html#structfr__dict__attr__flags__t">fr_dict_attr_flags_t</a> *flags)</td></tr>
 <tr class="separator:aa797c1926a731da7b3be791c3339be74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a59ffe29021bf59ceef607c82d3f19"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2base_8c.html#a51a59ffe29021bf59ceef607c82d3f19">dhcpv6_print_hex</a> (FILE *fp, uint8_t const *packet, size_t packet_len, int depth)</td></tr>
+<tr class="separator:a51a59ffe29021bf59ceef607c82d3f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24120ad2c00714542e26e3d303044e75"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2base_8c.html#a24120ad2c00714542e26e3d303044e75">duid_match</a> (uint8_t const *option, <a class="el" href="dhcpv6_8h.html#structfr__dhcpv6__decode__ctx__t">fr_dhcpv6_decode_ctx_t</a> const *packet_ctx)</td></tr>
 <tr class="separator:a24120ad2c00714542e26e3d303044e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e37bd59f5835313ad603077e2f0bbb7"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2base_8c.html#a6e37bd59f5835313ad603077e2f0bbb7">fr_dhcpv6_decode</a> (TALLOC_CTX *ctx, uint8_t const *packet, size_t packet_len, <a class="el" href="cursor_8h.html#structfr__cursor__t">fr_cursor_t</a> *cursor)</td></tr>
@@ -125,9 +127,14 @@ Functions</h2></td></tr>
 <tr class="separator:adf41926beb2fb4cec7d154fec09cc40b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af721dac21a39b4e1ad9830fe3cd2b335"><td class="memItemLeft" align="right" valign="top">static ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2base_8c.html#af721dac21a39b4e1ad9830fe3cd2b335">fr_dhcpv6_options_ok</a> (uint8_t const *packet, uint8_t const *end, size_t max_attributes, bool allow_relay, int depth, char const **error)</td></tr>
 <tr class="separator:af721dac21a39b4e1ad9830fe3cd2b335"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5fdf4692f25120b5abce6165d683615"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2base_8c.html#ae5fdf4692f25120b5abce6165d683615">fr_dhcpv6_print_hex</a> (FILE *fp, uint8_t const *packet, size_t packet_len)</td></tr>
+<tr class="memdesc:ae5fdf4692f25120b5abce6165d683615"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print a raw DHCP packet as hex.  <a href="#ae5fdf4692f25120b5abce6165d683615">More...</a><br /></td></tr>
+<tr class="separator:ae5fdf4692f25120b5abce6165d683615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc15bcd639232789e8392e031e1ba3b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2base_8c.html#adc15bcd639232789e8392e031e1ba3b4">fr_dhcpv6_verify</a> (uint8_t const *packet, size_t packet_len, <a class="el" href="dhcpv6_8h.html#structfr__dhcpv6__decode__ctx__t">fr_dhcpv6_decode_ctx_t</a> const *packet_ctx, bool from_server)</td></tr>
 <tr class="memdesc:adc15bcd639232789e8392e031e1ba3b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify the packet under some various circumstances.  <a href="#adc15bcd639232789e8392e031e1ba3b4">More...</a><br /></td></tr>
 <tr class="separator:adc15bcd639232789e8392e031e1ba3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6193ca2048badfd6cdcec925ecda81"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2base_8c.html#a3c6193ca2048badfd6cdcec925ecda81">print_hex_data</a> (FILE *fp, uint8_t const *ptr, int attrlen, int depth)</td></tr>
+<tr class="separator:a3c6193ca2048badfd6cdcec925ecda81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5cb36074ed2e23d01013e9ac94d48b7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2base_8c.html#ae5cb36074ed2e23d01013e9ac94d48b7">verify_from_client</a> (uint8_t const *packet, size_t packet_len, <a class="el" href="dhcpv6_8h.html#structfr__dhcpv6__decode__ctx__t">fr_dhcpv6_decode_ctx_t</a> const *packet_ctx)</td></tr>
 <tr class="memdesc:ae5cb36074ed2e23d01013e9ac94d48b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify a packet from a client to a server.  <a href="#ae5cb36074ed2e23d01013e9ac94d48b7">More...</a><br /></td></tr>
 <tr class="separator:ae5cb36074ed2e23d01013e9ac94d48b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,10 +174,12 @@ Variables</h2></td></tr>
 <tr class="separator:a2a5d81709024a8ad63211fb3b5bab1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7c7776a2edb4f6756910541967cf7ec"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="table_8h.html#structfr__table__num__ordered__t">fr_table_num_ordered_t</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2base_8c.html#ab7c7776a2edb4f6756910541967cf7ec">subtype_table</a> []</td></tr>
 <tr class="separator:ab7c7776a2edb4f6756910541967cf7ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaab0962763448b0a36198f275857f0c1"><td class="memItemLeft" align="right" valign="top">static char const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2base_8c.html#aaab0962763448b0a36198f275857f0c1">tabs</a> [] = &quot;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t&quot;</td></tr>
+<tr class="separator:aaab0962763448b0a36198f275857f0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions to encode DHCP options. </p>
-<dl class="section rcs"><dt>Id</dt><dd>4958addcae34d5deed724ded7941ee2738c11ab1 </dd></dl>
+<dl class="section rcs"><dt>Id</dt><dd>3f77d17f032a5a6e91d08a94cd86cee46d10eb5c </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Arran Cudbard-Bell (<a href="#" onclick="location.href='mai'+'lto:'+'a.c'+'ud'+'bar'+'db'+'@fr'+'ee'+'rad'+'iu'+'s.o'+'rg'; return false;">a.cud<span style="display: none;">.nosp@m.</span>bard<span style="display: none;">.nosp@m.</span>b@fre<span style="display: none;">.nosp@m.</span>erad<span style="display: none;">.nosp@m.</span>ius.o<span style="display: none;">.nosp@m.</span>rg</a>)</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>2018 The FreeRADIUS server project </dd>
 <dd>
@@ -236,13 +245,79 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00925">925</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l01025">1025</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_aa797c1926a731da7b3be791c3339be74_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a51a59ffe29021bf59ceef607c82d3f19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51a59ffe29021bf59ceef607c82d3f19">&#9670;&nbsp;</a></span>dhcpv6_print_hex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void dhcpv6_print_hex </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>fp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t const *&#160;</td>
+          <td class="paramname"><em>packet</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>packet_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>depth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00897">897</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a51a59ffe29021bf59ceef607c82d3f19_cgraph.svg" width="298" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a51a59ffe29021bf59ceef607c82d3f19_icgraph.svg" width="322" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -283,11 +358,11 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00322">322</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a24120ad2c00714542e26e3d303044e75_icgraph.svg" width="440" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -335,19 +410,19 @@ Variables</h2></td></tr>
 <p>Decode a DHCPv6 packet. </p>
 
 <p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00632">632</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a6e37bd59f5835313ad603077e2f0bbb7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a6e37bd59f5835313ad603077e2f0bbb7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -401,19 +476,19 @@ Variables</h2></td></tr>
 <p>Encode a DHCPv6 packet. </p>
 
 <p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00775">775</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a0043be4d235d53fbfd3f09f9c2dc9cb6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a0043be4d235d53fbfd3f09f9c2dc9cb6_icgraph.svg" width="100%" height="528"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -436,20 +511,20 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00918">918</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l01018">1018</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a2a28a51a64e49a7af220a2e3c87f8abc_cgraph.svg" width="638" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a2a28a51a64e49a7af220a2e3c87f8abc_icgraph.svg" width="480" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -472,20 +547,20 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00881">881</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00981">981</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a6570cd67607756861bf6ed07cbd57b88_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a6570cd67607756861bf6ed07cbd57b88_icgraph.svg" width="322" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -527,11 +602,11 @@ Variables</h2></td></tr>
 <p>DHCPV6-specific iterator. </p>
 
 <p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00752">752</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_aeaa2b031b78892173faf3811ed70e1fa_icgraph.svg" width="100%" height="421"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -586,19 +661,19 @@ Variables</h2></td></tr>
 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00281">281</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a529021e2fa71d27f52f3e973caa1b7c8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a529021e2fa71d27f52f3e973caa1b7c8_icgraph.svg" width="323" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -658,19 +733,19 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00226">226</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_aae1dc4a28504add5145aae5739ca2b79_cgraph.svg" width="358" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_aae1dc4a28504add5145aae5739ca2b79_icgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -710,11 +785,11 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00299">299</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a0f74077c2972d9c3ab4296f14c307321_icgraph.svg" width="100%" height="557"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -747,19 +822,19 @@ Variables</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>the length of the attribute. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00151">151</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_adf41926beb2fb4cec7d154fec09cc40b_cgraph.svg" width="551" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_adf41926beb2fb4cec7d154fec09cc40b_icgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -825,20 +900,66 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00175">175</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_af721dac21a39b4e1ad9830fe3cd2b335_cgraph.svg" width="358" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_af721dac21a39b4e1ad9830fe3cd2b335_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae5fdf4692f25120b5abce6165d683615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5fdf4692f25120b5abce6165d683615">&#9670;&nbsp;</a></span>fr_dhcpv6_print_hex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fr_dhcpv6_print_hex </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>fp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t const *&#160;</td>
+          <td class="paramname"><em>packet</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>packet_len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print a raw DHCP packet as hex. </p>
+
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00976">976</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
+<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_ae5fdf4692f25120b5abce6165d683615_cgraph.svg" width="484" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -900,12 +1021,70 @@ Variables</h2></td></tr>
 <p><a class="el" href="protocols_2dhcpv6_2base_8c.html#a529021e2fa71d27f52f3e973caa1b7c8" title="See if the data pointed to by PTR is a valid DHCPv6 packet. ">fr_dhcpv6_ok()</a> SHOULD be called before calling this function. </p>
 
 <p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00600">600</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_adc15bcd639232789e8392e031e1ba3b4_cgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a3c6193ca2048badfd6cdcec925ecda81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c6193ca2048badfd6cdcec925ecda81">&#9670;&nbsp;</a></span>print_hex_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void print_hex_data </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>fp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t const *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>attrlen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>depth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00884">884</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
+<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_a3c6193ca2048badfd6cdcec925ecda81_icgraph.svg" width="476" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -954,19 +1133,19 @@ Variables</h2></td></tr>
 <p>Verify a packet from a client to a server. </p>
 
 <p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00476">476</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_ae5cb36074ed2e23d01013e9ac94d48b7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_ae5cb36074ed2e23d01013e9ac94d48b7_icgraph.svg" width="303" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1016,19 +1195,19 @@ Variables</h2></td></tr>
 <p>Verify a reply packet from a server to a client. </p>
 
 <p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00336">336</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
-<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_adc56c1733e389decc0a514a112257068_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2base_8c_adc56c1733e389decc0a514a112257068_icgraph.svg" width="288" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1297,11 +1476,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .name = <span class="stringliteral">&quot;dhcpv6&quot;</span>,</div><div class="line">        .default_type_size = 2,</div><div class="line">        .default_type_length = 2,</div><div class="line">        .subtype_table = <a class="code" href="protocols_2dhcpv6_2base_8c.html#ab7c7776a2edb4f6756910541967cf7ec">subtype_table</a>,</div><div class="line">        .subtype_table_len = <a class="code" href="build_8h.html#ae0bb64e73aeef0ab6772433f210e9d57">NUM_ELEMENTS</a>(<a class="code" href="protocols_2dhcpv6_2base_8c.html#ab7c7776a2edb4f6756910541967cf7ec">subtype_table</a>),</div><div class="line">        .attr_valid = <a class="code" href="protocols_2dhcpv6_2base_8c.html#aa797c1926a731da7b3be791c3339be74">attr_valid</a>,</div><div class="line">}</div><div class="ttc" id="protocols_2dhcpv6_2base_8c_html_aa797c1926a731da7b3be791c3339be74"><div class="ttname"><a href="protocols_2dhcpv6_2base_8c.html#aa797c1926a731da7b3be791c3339be74">attr_valid</a></div><div class="ttdeci">static bool attr_valid(UNUSED fr_dict_t *dict, UNUSED fr_dict_attr_t const *parent, UNUSED char const *name, UNUSED int attr, fr_type_t type, fr_dict_attr_flags_t *flags)</div><div class="ttdef"><b>Definition:</b> <a href="protocols_2dhcpv6_2base_8c_source.html#l00925">base.c:925</a></div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .name = <span class="stringliteral">&quot;dhcpv6&quot;</span>,</div><div class="line">        .default_type_size = 2,</div><div class="line">        .default_type_length = 2,</div><div class="line">        .subtype_table = <a class="code" href="protocols_2dhcpv6_2base_8c.html#ab7c7776a2edb4f6756910541967cf7ec">subtype_table</a>,</div><div class="line">        .subtype_table_len = <a class="code" href="build_8h.html#ae0bb64e73aeef0ab6772433f210e9d57">NUM_ELEMENTS</a>(<a class="code" href="protocols_2dhcpv6_2base_8c.html#ab7c7776a2edb4f6756910541967cf7ec">subtype_table</a>),</div><div class="line">        .attr_valid = <a class="code" href="protocols_2dhcpv6_2base_8c.html#aa797c1926a731da7b3be791c3339be74">attr_valid</a>,</div><div class="line">}</div><div class="ttc" id="protocols_2dhcpv6_2base_8c_html_aa797c1926a731da7b3be791c3339be74"><div class="ttname"><a href="protocols_2dhcpv6_2base_8c.html#aa797c1926a731da7b3be791c3339be74">attr_valid</a></div><div class="ttdeci">static bool attr_valid(UNUSED fr_dict_t *dict, UNUSED fr_dict_attr_t const *parent, UNUSED char const *name, UNUSED int attr, fr_type_t type, fr_dict_attr_flags_t *flags)</div><div class="ttdef"><b>Definition:</b> <a href="protocols_2dhcpv6_2base_8c_source.html#l01025">base.c:1025</a></div></div>
 <div class="ttc" id="protocols_2dhcpv6_2base_8c_html_ab7c7776a2edb4f6756910541967cf7ec"><div class="ttname"><a href="protocols_2dhcpv6_2base_8c.html#ab7c7776a2edb4f6756910541967cf7ec">subtype_table</a></div><div class="ttdeci">static fr_table_num_ordered_t const subtype_table[]</div><div class="ttdef"><b>Definition:</b> <a href="protocols_2dhcpv6_2base_8c_source.html#l00141">base.c:141</a></div></div>
 <div class="ttc" id="build_8h_html_ae0bb64e73aeef0ab6772433f210e9d57"><div class="ttname"><a href="build_8h.html#ae0bb64e73aeef0ab6772433f210e9d57">NUM_ELEMENTS</a></div><div class="ttdeci">#define NUM_ELEMENTS(_t)</div><div class="ttdef"><b>Definition:</b> <a href="build_8h_source.html#l00147">build.h:147</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00943">943</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l01043">1043</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
 
 </div>
 </div>
@@ -1332,10 +1511,34 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aaab0962763448b0a36198f275857f0c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaab0962763448b0a36198f275857f0c1">&#9670;&nbsp;</a></span>tabs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char const tabs[] = &quot;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2base_8c_source.html#l00882">882</a> of file <a class="el" href="protocols_2dhcpv6_2base_8c_source.html">base.c</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 14 2020 19:51:26 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Nov 14 2020 22:18:43 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

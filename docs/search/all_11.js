@@ -369,7 +369,7 @@ var searchData=
   ['print_5fabinary',['print_abinary',['../ascend_8h.html#a3e13ca5ce9995cdc1477b3bad8623ca8',1,'ascend.h']]],
   ['print_5ffilename',['print_filename',['../radclient_8c.html#aa7a6090e5214681ec842589790340d7e',1,'radclient.c']]],
   ['print_5fhelp',['print_help',['../command_8c.html#afd5ef13e1e0a4d4dfd5c05a869d1eddb',1,'print_help(FILE *fp, fr_cmd_t *cmd):&#160;command.c'],['../bsc_8c.html#a3fb28ce7a9db3843f729645b10b36063',1,'print_help():&#160;bsc.c']]],
-  ['print_5fhex_5fdata',['print_hex_data',['../protocols_2dhcpv4_2base_8c.html#a3c6193ca2048badfd6cdcec925ecda81',1,'print_hex_data(FILE *fp, uint8_t const *ptr, int attrlen, int depth):&#160;base.c'],['../vmps_8c.html#a14b5f5364b44a5e9724828911e0c4824',1,'print_hex_data(uint8_t const *ptr, int attrlen, int depth):&#160;vmps.c']]],
+  ['print_5fhex_5fdata',['print_hex_data',['../protocols_2dhcpv4_2base_8c.html#a3c6193ca2048badfd6cdcec925ecda81',1,'print_hex_data(FILE *fp, uint8_t const *ptr, int attrlen, int depth):&#160;base.c'],['../protocols_2dhcpv6_2base_8c.html#a3c6193ca2048badfd6cdcec925ecda81',1,'print_hex_data(FILE *fp, uint8_t const *ptr, int attrlen, int depth):&#160;base.c'],['../vmps_8c.html#a14b5f5364b44a5e9724828911e0c4824',1,'print_hex_data(uint8_t const *ptr, int attrlen, int depth):&#160;vmps.c']]],
   ['print_5flevel',['print_level',['../structfr__log__t.html#a801e9394f9f30484f3e9fb963f0b6f46',1,'fr_log_t']]],
   ['print_5fpacket',['print_packet',['../radsniff_8h.html#a13455f89920c246f4b8279ccee2df7c3',1,'rs::print_packet()'],['../unit__test__module_8c.html#a5b0471905d322496955cfe8a714ba485',1,'print_packet():&#160;unit_test_module.c']]],
   ['print_5fusage',['print_usage',['../bsc_8c.html#a1ae5010e967ffa027b3984cb2da65473',1,'bsc.c']]],

@@ -810,6 +810,7 @@ var searchData=
   ['fr_5fdhcpv6_5fpacket_5ftypes',['fr_dhcpv6_packet_types',['../protocols_2dhcpv6_2base_8c.html#aba95051eea756dbb6aeaf09c6409ca6c',1,'fr_dhcpv6_packet_types():&#160;base.c'],['../dhcpv6_8h.html#aba95051eea756dbb6aeaf09c6409ca6c',1,'fr_dhcpv6_packet_types():&#160;base.c']]],
   ['fr_5fdhcpv6_5fpool_5frequest',['FR_DHCPV6_POOL_REQUEST',['../dhcpv6_8h.html#a148ec525ebd5d7fc84e4fdbe68df03b3a228e3f221ecc6d078619eeb49cc89af0',1,'dhcpv6.h']]],
   ['fr_5fdhcpv6_5fpool_5fresponse',['FR_DHCPV6_POOL_RESPONSE',['../dhcpv6_8h.html#a148ec525ebd5d7fc84e4fdbe68df03b3a6032cf593d5ddb5737709447511064c9',1,'dhcpv6.h']]],
+  ['fr_5fdhcpv6_5fprint_5fhex',['fr_dhcpv6_print_hex',['../protocols_2dhcpv6_2base_8c.html#ae5fdf4692f25120b5abce6165d683615',1,'fr_dhcpv6_print_hex(FILE *fp, uint8_t const *packet, size_t packet_len):&#160;base.c'],['../dhcpv6_8h.html#ae5fdf4692f25120b5abce6165d683615',1,'fr_dhcpv6_print_hex(FILE *fp, uint8_t const *packet, size_t packet_len):&#160;base.c']]],
   ['fr_5fdhcpv6_5frebind',['FR_DHCPV6_REBIND',['../dhcpv6_8h.html#a148ec525ebd5d7fc84e4fdbe68df03b3a21d09d0dd98079f9fb4c7eaff13ff36e',1,'dhcpv6.h']]],
   ['fr_5fdhcpv6_5freconfigure',['FR_DHCPV6_RECONFIGURE',['../dhcpv6_8h.html#a148ec525ebd5d7fc84e4fdbe68df03b3ae415151accd615c51b06c64ff2927cf8',1,'dhcpv6.h']]],
   ['fr_5fdhcpv6_5freconfigure_5freply',['FR_DHCPV6_RECONFIGURE_REPLY',['../dhcpv6_8h.html#a148ec525ebd5d7fc84e4fdbe68df03b3a7dd49570447dd8aaa299b0f25b01c83e',1,'dhcpv6.h']]],
