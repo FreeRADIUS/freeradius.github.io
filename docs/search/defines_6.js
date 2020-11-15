@@ -444,6 +444,7 @@ var searchData=
   ['fr_5fvalue_5fbox_5fnet_5fmax',['FR_VALUE_BOX_NET_MAX',['../value_8h.html#a20ec83ef12ae7c6609bf8857cb122a8f',1,'value.h']]],
   ['fr_5fvalue_5fbox_5fnet_5foom',['FR_VALUE_BOX_NET_OOM',['../value_8h.html#aef5874f1c17f59e2313c9706f5762a05',1,'value.h']]],
   ['fr_5fvalue_5fbox_5fshallow',['fr_value_box_shallow',['../value_8h.html#a884b089780f88e16249fc2d10b665aa3',1,'value.h']]],
+  ['fr_5fvalue_5fbox_5fto_5fnetwork_5freturn',['FR_VALUE_BOX_TO_NETWORK_RETURN',['../value_8h.html#aae064825bb491cd866e1c0365e926398',1,'value.h']]],
   ['fr_5fvalue_5funbox_5fshallow',['fr_value_unbox_shallow',['../value_8h.html#ae6f7c042824f2bb605a13d31a8dec6e3',1,'value.h']]],
   ['fr_5fvqp_5fhdr_5flen',['FR_VQP_HDR_LEN',['../vmps_8h.html#a67d6e32167a8852cd9eac3fe05381c86',1,'vmps.h']]],
   ['fr_5fvqp_5fmax_5fcode',['FR_VQP_MAX_CODE',['../vmps_8h.html#a199e4aa3199e2e6df55865d5ca53c3f8',1,'vmps.h']]],

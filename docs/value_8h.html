@@ -128,6 +128,8 @@ Macros</h2></td></tr>
 <tr class="memitem:aef5874f1c17f59e2313c9706f5762a05"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="value_8h.html#aef5874f1c17f59e2313c9706f5762a05">FR_VALUE_BOX_NET_OOM</a>&#160;&#160;&#160;(<a class="el" href="value_8h.html#a4058e21f226d31f2cd92f47cbebd9a66">FR_VALUE_BOX_NET_ERROR</a> + 1)</td></tr>
 <tr class="memdesc:aef5874f1c17f59e2313c9706f5762a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Special value to indicate fr_value_box_from_network hit an out of memory error.  <a href="#aef5874f1c17f59e2313c9706f5762a05">More...</a><br /></td></tr>
 <tr class="separator:aef5874f1c17f59e2313c9706f5762a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae064825bb491cd866e1c0365e926398"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="value_8h.html#aae064825bb491cd866e1c0365e926398">FR_VALUE_BOX_TO_NETWORK_RETURN</a>(_dbuff,  _value)&#160;&#160;&#160;<a class="el" href="dbuff_8h.html#a788996dcfd921f497ca6fc8329a25cc3">FR_DBUFF_RETURN</a>(<a class="el" href="value_8h.html#ad76c83e1153803b7ae42d49c3ee99647">fr_value_box_to_network</a>, _dbuff, _value)</td></tr>
+<tr class="separator:aae064825bb491cd866e1c0365e926398"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -1831,7 +1833,7 @@ Pointer to UTF-8 string. </td></tr>
 
 <p>Special value to indicate fr_value_box_from_network experienced a general error. </p>
 
-<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00591">591</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00592">592</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
 
 </div>
 </div>
@@ -1849,7 +1851,7 @@ Pointer to UTF-8 string. </td></tr>
 
 <p>Special value to ensure other encoding/decoding errors don't overlap. </p>
 
-<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00599">599</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00600">600</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
 
 </div>
 </div>
@@ -1867,7 +1869,7 @@ Pointer to UTF-8 string. </td></tr>
 
 <p>Special value to indicate fr_value_box_from_network hit an out of memory error. </p>
 
-<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00595">595</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00596">596</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
 
 </div>
 </div>
@@ -1922,6 +1924,36 @@ Will not work for all box types. Will default to the 'simpler' box type, if the 
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00466">466</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
+
+</div>
+</div>
+<a id="aae064825bb491cd866e1c0365e926398"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae064825bb491cd866e1c0365e926398">&#9670;&nbsp;</a></span>FR_VALUE_BOX_TO_NETWORK_RETURN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a> FR_VALUE_BOX_TO_NETWORK_RETURN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">_dbuff, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">_value&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="dbuff_8h.html#a788996dcfd921f497ca6fc8329a25cc3">FR_DBUFF_RETURN</a>(<a class="el" href="value_8h.html#ad76c83e1153803b7ae42d49c3ee99647">fr_value_box_to_network</a>, _dbuff, _value)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00588">588</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
 
 </div>
 </div>
@@ -6645,7 +6677,7 @@ Copying will stop early if an unescaped instance of the quoting char is found in
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00749">749</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00750">750</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
 
 </div>
 </div>
@@ -6925,7 +6957,7 @@ Copying will stop early if an unescaped instance of the quoting char is found in
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00749">749</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="value_8h_source.html#l00750">750</a> of file <a class="el" href="value_8h_source.html">value.h</a>.</p>
 
 </div>
 </div>
@@ -6948,7 +6980,7 @@ Copying will stop early if an unescaped instance of the quoting char is found in
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 14 2020 22:18:55 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 15 2020 15:43:38 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
