@@ -68,7 +68,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Utility to print attribute data in CSV format.  
+<p>Utility to print attribute data in tab delimited format.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;freeradius-devel/util/base.h&gt;</code><br />
 <code>#include &lt;freeradius-devel/util/conf.h&gt;</code><br />
@@ -120,10 +120,12 @@ Variables</h2></td></tr>
 <tr class="separator:a150bba5b652b042cdfaedf79281d1c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fcc717b58ae9f6680e6b60977228270"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="radict_8c.html#a5fcc717b58ae9f6680e6b60977228270">dicts</a> [255]</td></tr>
 <tr class="separator:a5fcc717b58ae9f6680e6b60977228270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a466945a25745fbdf6958293e6626c39c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="radict_8c.html#a466945a25745fbdf6958293e6626c39c">print_values</a> = <a class="el" href="abinary_8c.html#a65e9886d74aaee76545e83dd09011727">false</a></td></tr>
+<tr class="separator:a466945a25745fbdf6958293e6626c39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Utility to print attribute data in CSV format. </p>
-<dl class="section rcs"><dt>Id</dt><dd>3b455ca8052ca1c94ec672af093234181cd3abc1 </dd></dl>
+<div class="textblock"><p>Utility to print attribute data in tab delimited format. </p>
+<dl class="section rcs"><dt>Id</dt><dd>f8844ed766ae6ea08d217079c6d85e2f9f6277f2 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>2017 The FreeRADIUS server project </dd>
 <dd>
 2017 Arran Cudbard-Bell (<a href="#" onclick="location.href='mai'+'lto:'+'a.c'+'ud'+'bar'+'db'+'@fr'+'ee'+'rad'+'iu'+'s.o'+'rg'; return false;">a.cud<span style="display: none;">.nosp@m.</span>bard<span style="display: none;">.nosp@m.</span>b@fre<span style="display: none;">.nosp@m.</span>erad<span style="display: none;">.nosp@m.</span>ius.o<span style="display: none;">.nosp@m.</span>rg</a>) </dd></dl>
@@ -156,7 +158,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00048">48</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00049">49</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
 
 </div>
 </div>
@@ -186,7 +188,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00047">47</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00048">48</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
 
 </div>
 </div>
@@ -216,7 +218,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00049">49</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00050">50</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
 
 </div>
 </div>
@@ -279,13 +281,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00150">150</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00182">182</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="radict_8c_ad985c249b984f709305001e1830dd4e6_cgraph.svg" width="100%" height="537"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="radict_8c_ad985c249b984f709305001e1830dd4e6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -333,7 +335,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00136">136</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00138">138</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -399,13 +401,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00189">189</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00221">221</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="radict_8c_a68de15a2088c43b1f3d35e1eadf3224c_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="radict_8c_a68de15a2088c43b1f3d35e1eadf3224c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -443,7 +445,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00062">62</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00064">64</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
@@ -489,7 +491,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00202">202</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00234">234</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
 
 </div>
 </div>
@@ -517,7 +519,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00052">52</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00053">53</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
@@ -550,7 +552,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00044">44</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00045">45</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
 
 </div>
 </div>
@@ -578,10 +580,34 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a466945a25745fbdf6958293e6626c39c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a466945a25745fbdf6958293e6626c39c">&#9670;&nbsp;</a></span>print_values</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool print_values = <a class="el" href="abinary_8c.html#a65e9886d74aaee76545e83dd09011727">false</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="radict_8c_source.html#l00044">44</a> of file <a class="el" href="radict_8c_source.html">radict.c</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 15 2020 16:58:55 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 15 2020 18:00:17 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

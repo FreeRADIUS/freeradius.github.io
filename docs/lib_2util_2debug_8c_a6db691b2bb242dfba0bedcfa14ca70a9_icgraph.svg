@@ -54,210 +54,210 @@ var sectionId = 'dynsection-24';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>fr_fault</title>
-<!-- Node8571 -->
+<!-- Node8586 -->
 <g id="node1" class="node">
-<title>Node8571</title>
+<title>Node8586</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-76.5 0,-95.5 47,-95.5 47,-76.5 0,-76.5"/>
 <text text-anchor="middle" x="23.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_fault</text>
 </g>
-<!-- Node8572 -->
+<!-- Node8587 -->
 <g id="node2" class="node">
-<title>Node8572</title>
+<title>Node8587</title>
 <g id="a_node2"><a xlink:href="lib_2util_2debug_8c.html#a08f02aa0b667f7f0d3af12609467d303" target="_top" xlink:title="_panic_on_free">
 <polygon fill="none" stroke="#000000" points="516,-171.5 516,-190.5 599,-190.5 599,-171.5 516,-171.5"/>
 <text text-anchor="middle" x="557.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_panic_on_free</text>
 </a>
 </g>
 </g>
-<!-- Node8571&#45;&gt;Node8572 -->
+<!-- Node8586&#45;&gt;Node8587 -->
 <g id="edge1" class="edge">
-<title>Node8571&#45;&gt;Node8572</title>
+<title>Node8586&#45;&gt;Node8587</title>
 <path fill="none" stroke="#191970" d="M42.5964,-102.2192C53.7132,-110.8447 68.3841,-120.8997 83,-127 232.7748,-189.512 430.9336,-187.9977 515.9114,-183.8224"/>
 <polygon fill="#191970" stroke="#191970" points="44.4962,-99.2554 34.5117,-95.7111 40.1067,-104.7082 44.4962,-99.2554"/>
 </g>
-<!-- Node8574 -->
+<!-- Node8589 -->
 <g id="node4" class="node">
-<title>Node8574</title>
+<title>Node8589</title>
 <g id="a_node4"><a xlink:href="lib_2util_2debug_8c.html#ac453b0d5bbc662ead9bb53d00e553d8f" target="_top" xlink:title="Callback executed on fatal talloc error. ">
 <polygon fill="none" stroke="#000000" points="83,-76.5 83,-95.5 163,-95.5 163,-76.5 83,-76.5"/>
 <text text-anchor="middle" x="123" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_fr_talloc_fault</text>
 </a>
 </g>
 </g>
-<!-- Node8571&#45;&gt;Node8574 -->
+<!-- Node8586&#45;&gt;Node8589 -->
 <g id="edge3" class="edge">
-<title>Node8571&#45;&gt;Node8574</title>
+<title>Node8586&#45;&gt;Node8589</title>
 <path fill="none" stroke="#191970" d="M57.116,-86C65.3835,-86 74.3176,-86 82.8589,-86"/>
 <polygon fill="#191970" stroke="#191970" points="57.0801,-82.5001 47.0801,-86 57.0801,-89.5001 57.0801,-82.5001"/>
 </g>
-<!-- Node8577 -->
+<!-- Node8592 -->
 <g id="node7" class="node">
-<title>Node8577</title>
+<title>Node8592</title>
 <g id="a_node7"><a xlink:href="debug_8h.html#a6aab44cf5798e6f4ef54ffbd62d6a126" target="_top" xlink:title="Registers signal handlers to execute panic_action on fatal signal. ">
 <polygon fill="none" stroke="#ff0000" points="519.5,-114.5 519.5,-133.5 595.5,-133.5 595.5,-114.5 519.5,-114.5"/>
 <text text-anchor="middle" x="557.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_fault_setup</text>
 </a>
 </g>
 </g>
-<!-- Node8571&#45;&gt;Node8577 -->
+<!-- Node8586&#45;&gt;Node8592 -->
 <g id="edge15" class="edge">
-<title>Node8571&#45;&gt;Node8577</title>
+<title>Node8586&#45;&gt;Node8592</title>
 <path fill="none" stroke="#191970" d="M56.6457,-97.4785C65.1681,-100.1825 74.3694,-102.8887 83,-105 243.2587,-144.2034 288.2427,-143.6475 453,-135 475.0432,-133.843 499.5944,-131.3223 519.3582,-128.9855"/>
 <polygon fill="#191970" stroke="#191970" points="57.6202,-94.115 47.0278,-94.341 55.4493,-100.7698 57.6202,-94.115"/>
 </g>
-<!-- Node10018 -->
+<!-- Node10036 -->
 <g id="node8" class="node">
-<title>Node10018</title>
+<title>Node10036</title>
 <g id="a_node8"><a xlink:href="debug_8h.html#a07fea35f1f88cab508aa4f52761a7f7e" target="_top" xlink:title="A soft assertion which triggers the fault handler in debug builds. ">
 <polygon fill="none" stroke="#000000" points="518.5,-38.5 518.5,-57.5 596.5,-57.5 596.5,-38.5 518.5,-38.5"/>
 <text text-anchor="middle" x="557.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_fr_assert_fail</text>
 </a>
 </g>
 </g>
-<!-- Node8571&#45;&gt;Node10018 -->
+<!-- Node8586&#45;&gt;Node10036 -->
 <g id="edge16" class="edge">
-<title>Node8571&#45;&gt;Node10018</title>
+<title>Node8586&#45;&gt;Node10036</title>
 <path fill="none" stroke="#191970" d="M56.7395,-73.8522C65.202,-71.186 74.3517,-68.665 83,-67 242.0819,-36.3724 436.5123,-41.5686 518.2985,-45.6385"/>
 <polygon fill="#191970" stroke="#191970" points="55.5896,-70.546 47.1922,-77.0062 57.7854,-77.1927 55.5896,-70.546"/>
 </g>
-<!-- Node10019 -->
+<!-- Node10037 -->
 <g id="node9" class="node">
-<title>Node10019</title>
+<title>Node10037</title>
 <g id="a_node9"><a xlink:href="debug_8h.html#ae4144b7d7f8b9d564a3cc7e50b4789b5" target="_top" xlink:title="A fatal assertion which triggers the fault handler in debug builds or exits. ">
 <polygon fill="none" stroke="#000000" points="515.5,-.5 515.5,-19.5 599.5,-19.5 599.5,-.5 515.5,-.5"/>
 <text text-anchor="middle" x="557.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_fr_assert_fatal</text>
 </a>
 </g>
 </g>
-<!-- Node8571&#45;&gt;Node10019 -->
+<!-- Node8586&#45;&gt;Node10037 -->
 <g id="edge17" class="edge">
-<title>Node8571&#45;&gt;Node10019</title>
+<title>Node8586&#45;&gt;Node10037</title>
 <path fill="none" stroke="#191970" d="M44.3657,-70.6687C55.3165,-63.4389 69.2823,-55.4416 83,-51 236.1994,-1.396 430.9151,-3.5358 515.3198,-7.3993"/>
 <polygon fill="#191970" stroke="#191970" points="42.1982,-67.9117 35.9478,-76.4664 46.1688,-73.6767 42.1982,-67.9117"/>
 </g>
-<!-- Node8573 -->
+<!-- Node8588 -->
 <g id="node3" class="node">
-<title>Node8573</title>
+<title>Node8588</title>
 <g id="a_node3"><a xlink:href="debug_8h.html#ac10df381e71462e8d9eb4d8416f9c93b" target="_top" xlink:title="Insert memory into the context of another talloc memory chunk which causes a panic when freed...">
 <polygon fill="none" stroke="#000000" points="662,-171.5 662,-190.5 751,-190.5 751,-171.5 662,-171.5"/>
 <text text-anchor="middle" x="706.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_panic_on_free</text>
 </a>
 </g>
 </g>
-<!-- Node8572&#45;&gt;Node8573 -->
+<!-- Node8587&#45;&gt;Node8588 -->
 <g id="edge2" class="edge">
-<title>Node8572&#45;&gt;Node8573</title>
+<title>Node8587&#45;&gt;Node8588</title>
 <path fill="none" stroke="#191970" d="M609.3836,-181C626.4754,-181 645.3218,-181 661.8282,-181"/>
 <polygon fill="#191970" stroke="#191970" points="609.0048,-177.5001 599.0048,-181 609.0048,-184.5001 609.0048,-177.5001"/>
 </g>
-<!-- Node8575 -->
+<!-- Node8590 -->
 <g id="node5" class="node">
-<title>Node8575</title>
+<title>Node8590</title>
 <g id="a_node5"><a xlink:href="lib_2util_2debug_8c.html#a350831691679c1350f8cd2b6342f67d5" target="_top" xlink:title="Callback executed on fatal talloc error. ">
 <polygon fill="none" stroke="#000000" points="199,-76.5 199,-95.5 313,-95.5 313,-76.5 199,-76.5"/>
 <text text-anchor="middle" x="256" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_fr_talloc_fault_simple</text>
 </a>
 </g>
 </g>
-<!-- Node8574&#45;&gt;Node8575 -->
+<!-- Node8589&#45;&gt;Node8590 -->
 <g id="edge4" class="edge">
-<title>Node8574&#45;&gt;Node8575</title>
+<title>Node8589&#45;&gt;Node8590</title>
 <path fill="none" stroke="#191970" d="M173.4762,-86C181.7175,-86 190.3078,-86 198.6989,-86"/>
 <polygon fill="#191970" stroke="#191970" points="173.2653,-82.5001 163.2653,-86 173.2653,-89.5001 173.2653,-82.5001"/>
 </g>
-<!-- Node8574&#45;&gt;Node8577 -->
+<!-- Node8589&#45;&gt;Node8592 -->
 <g id="edge14" class="edge">
-<title>Node8574&#45;&gt;Node8577</title>
+<title>Node8589&#45;&gt;Node8592</title>
 <path fill="none" stroke="#191970" d="M165.0435,-98.0389C176.0127,-100.7579 187.8786,-103.331 199,-105 314.7229,-122.3672 453.5314,-124.4798 519.3193,-124.3719"/>
 <polygon fill="#191970" stroke="#191970" points="165.8257,-94.6262 155.2689,-95.5226 164.0805,-101.4052 165.8257,-94.6262"/>
 </g>
-<!-- Node8576 -->
+<!-- Node8591 -->
 <g id="node6" class="node">
-<title>Node8576</title>
+<title>Node8591</title>
 <g id="a_node6"><a xlink:href="debug_8h.html#a93db28a7cf15835274559980303541b8" target="_top" xlink:title="Prints a simple backtrace (if execinfo is available) and calls panic_action if set. ">
 <polygon fill="none" stroke="#000000" points="377.5,-57.5 377.5,-76.5 424.5,-76.5 424.5,-57.5 377.5,-57.5"/>
 <text text-anchor="middle" x="401" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_fault</text>
 </a>
 </g>
 </g>
-<!-- Node8575&#45;&gt;Node8576 -->
+<!-- Node8590&#45;&gt;Node8591 -->
 <g id="edge5" class="edge">
-<title>Node8575&#45;&gt;Node8576</title>
+<title>Node8590&#45;&gt;Node8591</title>
 <path fill="none" stroke="#191970" d="M323.3522,-77.1745C342.7018,-74.6391 362.5428,-72.0392 377.3249,-70.1023"/>
 <polygon fill="#191970" stroke="#191970" points="322.7683,-73.721 313.3078,-78.4907 323.6778,-80.6617 322.7683,-73.721"/>
 </g>
-<!-- Node10020 -->
+<!-- Node10038 -->
 <g id="node10" class="node">
-<title>Node10020</title>
+<title>Node10038</title>
 <g id="a_node10"><a xlink:href="debug_8h.html#aa13aee7636788f61e3ccfe3c9b09e012" target="_top" xlink:title="Register talloc fault handlers. ">
 <polygon fill="none" stroke="#000000" points="349,-228.5 349,-247.5 453,-247.5 453,-228.5 349,-228.5"/>
 <text text-anchor="middle" x="401" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_talloc_fault_setup</text>
 </a>
 </g>
 </g>
-<!-- Node8575&#45;&gt;Node10020 -->
+<!-- Node8590&#45;&gt;Node10038 -->
 <g id="edge11" class="edge">
-<title>Node8575&#45;&gt;Node10020</title>
+<title>Node8590&#45;&gt;Node10038</title>
 <path fill="none" stroke="#191970" d="M272.0196,-102.793C302.4983,-134.7431 367.9313,-203.3349 391.933,-228.4953"/>
 <polygon fill="#191970" stroke="#191970" points="274.5054,-100.3281 265.0704,-95.5083 269.4404,-105.1599 274.5054,-100.3281"/>
 </g>
-<!-- Node8576&#45;&gt;Node8572 -->
+<!-- Node8591&#45;&gt;Node8587 -->
 <g id="edge6" class="edge">
-<title>Node8576&#45;&gt;Node8572</title>
+<title>Node8591&#45;&gt;Node8587</title>
 <path fill="none" stroke="#191970" d="M418.2759,-83.8206C435.412,-100.0334 462.826,-124.7292 489,-143 504.6121,-153.8981 523.6349,-164.2411 537.6688,-171.3769"/>
 <polygon fill="#191970" stroke="#191970" points="420.3843,-80.9938 410.7397,-76.6083 415.5444,-86.0511 420.3843,-80.9938"/>
 </g>
-<!-- Node8576&#45;&gt;Node8574 -->
+<!-- Node8591&#45;&gt;Node8589 -->
 <g id="edge7" class="edge">
-<title>Node8576&#45;&gt;Node8574</title>
+<title>Node8591&#45;&gt;Node8589</title>
 <path fill="none" stroke="#191970" d="M367.1819,-64.4869C326.9376,-62.0755 257.7907,-59.7625 199,-67 183.8815,-68.8612 167.4449,-72.7305 153.7372,-76.4947"/>
 <polygon fill="#191970" stroke="#191970" points="367.0479,-67.9854 377.2504,-65.129 367.4934,-60.9996 367.0479,-67.9854"/>
 </g>
-<!-- Node8576&#45;&gt;Node8577 -->
+<!-- Node8591&#45;&gt;Node8592 -->
 <g id="edge8" class="edge">
-<title>Node8576&#45;&gt;Node8577</title>
+<title>Node8591&#45;&gt;Node8592</title>
 <path fill="none" stroke="#191970" d="M434.4643,-79.1883C463.4584,-89.7484 504.8197,-104.8129 531.4155,-114.4996"/>
 <polygon fill="#191970" stroke="#191970" points="435.363,-75.7907 424.769,-75.6571 432.9674,-82.3681 435.363,-75.7907"/>
 </g>
-<!-- Node8576&#45;&gt;Node10018 -->
+<!-- Node8591&#45;&gt;Node10036 -->
 <g id="edge9" class="edge">
-<title>Node8576&#45;&gt;Node10018</title>
+<title>Node8591&#45;&gt;Node10036</title>
 <path fill="none" stroke="#191970" d="M434.6997,-62.9087C459.2343,-59.93 492.5314,-55.8876 518.2641,-52.7635"/>
 <polygon fill="#191970" stroke="#191970" points="434.2742,-59.4345 424.769,-64.1143 435.1179,-66.3835 434.2742,-59.4345"/>
 </g>
-<!-- Node8576&#45;&gt;Node10019 -->
+<!-- Node8591&#45;&gt;Node10037 -->
 <g id="edge10" class="edge">
-<title>Node8576&#45;&gt;Node10019</title>
+<title>Node8591&#45;&gt;Node10037</title>
 <path fill="none" stroke="#191970" d="M430.3079,-53.144C447.2343,-45.4465 469.0592,-36.0336 489,-29 498.7764,-25.5516 509.5122,-22.3206 519.5251,-19.5355"/>
 <polygon fill="#191970" stroke="#191970" points="428.5798,-50.0864 420.9593,-57.4471 431.5067,-56.4452 428.5798,-50.0864"/>
 </g>
-<!-- Node8706 -->
+<!-- Node8721 -->
 <g id="node11" class="node">
-<title>Node8706</title>
+<title>Node8721</title>
 <g id="a_node11"><a xlink:href="radiusd_8c.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title="Entry point for the daemon. ">
 <polygon fill="none" stroke="#000000" points="538.5,-218.5 538.5,-237.5 576.5,-237.5 576.5,-218.5 538.5,-218.5"/>
 <text text-anchor="middle" x="557.5" y="-225.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">main</text>
 </a>
 </g>
 </g>
-<!-- Node10020&#45;&gt;Node8706 -->
+<!-- Node10038&#45;&gt;Node8721 -->
 <g id="edge12" class="edge">
-<title>Node10020&#45;&gt;Node8706</title>
+<title>Node10038&#45;&gt;Node8721</title>
 <path fill="none" stroke="#191970" d="M463.2694,-234.0211C490.1813,-232.3015 519.7273,-230.4136 538.4299,-229.2185"/>
 <polygon fill="#191970" stroke="#191970" points="462.8687,-230.5395 453.1122,-234.6701 463.3151,-237.5253 462.8687,-230.5395"/>
 </g>
-<!-- Node10021 -->
+<!-- Node10039 -->
 <g id="node12" class="node">
-<title>Node10021</title>
+<title>Node10039</title>
 <g id="a_node12"><a xlink:href="trunk__tests_8c.html#ad4359b420b8d4149473d4ec7b55fd30b" target="_top" xlink:title="test_requeue_on_reconnect">
 <polygon fill="none" stroke="#000000" points="489,-256.5 489,-275.5 626,-275.5 626,-256.5 489,-256.5"/>
 <text text-anchor="middle" x="557.5" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">test_requeue_on_reconnect</text>
 </a>
 </g>
 </g>
-<!-- Node10020&#45;&gt;Node10021 -->
+<!-- Node10038&#45;&gt;Node10039 -->
 <g id="edge13" class="edge">
-<title>Node10020&#45;&gt;Node10021</title>
+<title>Node10038&#45;&gt;Node10039</title>
 <path fill="none" stroke="#191970" d="M463.3233,-249.1505C476.8834,-251.5766 491.1098,-254.1219 504.2791,-256.478"/>
 <polygon fill="#191970" stroke="#191970" points="463.5724,-245.6396 453.1122,-247.3236 462.3395,-252.5301 463.5724,-245.6396"/>
 </g>

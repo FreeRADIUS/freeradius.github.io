@@ -54,75 +54,75 @@ var sectionId = 'dynsection-7';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>fr_nonblock</title>
-<!-- Node4591 -->
+<!-- Node4600 -->
 <g id="node1" class="node">
-<title>Node4591</title>
+<title>Node4600</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-19.5 67,-19.5 67,-.5 0,-.5"/>
 <text text-anchor="middle" x="33.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_nonblock</text>
 </g>
-<!-- Node4592 -->
+<!-- Node4601 -->
 <g id="node2" class="node">
-<title>Node4592</title>
+<title>Node4601</title>
 <g id="a_node2"><a xlink:href="misc_8h.html#ad2553bfa92e867362304c60aa44adb15" target="_top" xlink:title="Find the highest order bit in an unsigned 64 bit integer. ">
 <polygon fill="none" stroke="#000000" points="103,-.5 103,-19.5 186,-19.5 186,-.5 103,-.5"/>
 <text text-anchor="middle" x="144.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_high_bit_pos</text>
 </a>
 </g>
 </g>
-<!-- Node4591&#45;&gt;Node4592 -->
+<!-- Node4600&#45;&gt;Node4601 -->
 <g id="edge1" class="edge">
-<title>Node4591&#45;&gt;Node4592</title>
+<title>Node4600&#45;&gt;Node4601</title>
 <path fill="none" stroke="#191970" d="M77.1451,-10C85.5776,-10 94.3932,-10 102.763,-10"/>
 <polygon fill="#191970" stroke="#191970" points="77.1049,-6.5001 67.1049,-10 77.1049,-13.5001 77.1049,-6.5001"/>
 </g>
-<!-- Node4593 -->
+<!-- Node4602 -->
 <g id="node3" class="node">
-<title>Node4593</title>
+<title>Node4602</title>
 <g id="a_node3"><a xlink:href="net_8h.html#a49feef0a896e767ec136149d3a3c433c" target="_top" xlink:title="Write out an unsigned 64bit integer in wire format using the fewest bytes possible. ">
 <polygon fill="none" stroke="#000000" points="222,-.5 222,-19.5 325,-19.5 325,-.5 222,-.5"/>
 <text text-anchor="middle" x="273.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_net_from_uint64v</text>
 </a>
 </g>
 </g>
-<!-- Node4592&#45;&gt;Node4593 -->
+<!-- Node4601&#45;&gt;Node4602 -->
 <g id="edge2" class="edge">
-<title>Node4592&#45;&gt;Node4593</title>
+<title>Node4601&#45;&gt;Node4602</title>
 <path fill="none" stroke="#191970" d="M196.0954,-10C204.5076,-10 213.2251,-10 221.6435,-10"/>
 <polygon fill="#191970" stroke="#191970" points="196.0265,-6.5001 186.0265,-10 196.0265,-13.5001 196.0265,-6.5001"/>
 </g>
-<!-- Node4594 -->
+<!-- Node4603 -->
 <g id="node4" class="node">
-<title>Node4594</title>
+<title>Node4603</title>
 <g id="a_node4"><a xlink:href="protocols_2internal_2encode_8c.html#a971e0b9f4a5efc4409b599b4ef991cdc" target="_top" xlink:title="We use the same header for all types. ">
 <polygon fill="none" stroke="#000000" points="361,-.5 361,-19.5 446,-19.5 446,-.5 361,-.5"/>
 <text text-anchor="middle" x="403.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">internal_encode</text>
 </a>
 </g>
 </g>
-<!-- Node4593&#45;&gt;Node4594 -->
+<!-- Node4602&#45;&gt;Node4603 -->
 <g id="edge3" class="edge">
-<title>Node4593&#45;&gt;Node4594</title>
+<title>Node4602&#45;&gt;Node4603</title>
 <path fill="none" stroke="#191970" d="M335.2773,-10C343.8769,-10 352.5519,-10 360.6982,-10"/>
 <polygon fill="#191970" stroke="#191970" points="335.253,-6.5001 325.253,-10 335.2529,-13.5001 335.253,-6.5001"/>
 </g>
-<!-- Node4595 -->
+<!-- Node4604 -->
 <g id="node5" class="node">
-<title>Node4595</title>
+<title>Node4604</title>
 <g id="a_node5"><a xlink:href="internal_8h.html#a6dde79eecd91a64f6b95bf878d2f8513" target="_top" xlink:title="Encode a data structure into an internal attribute. ">
 <polygon fill="none" stroke="#000000" points="482,-.5 482,-19.5 599,-19.5 599,-.5 482,-.5"/>
 <text text-anchor="middle" x="540.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_internal_encode_pair</text>
 </a>
 </g>
 </g>
-<!-- Node4594&#45;&gt;Node4595 -->
+<!-- Node4603&#45;&gt;Node4604 -->
 <g id="edge4" class="edge">
-<title>Node4594&#45;&gt;Node4595</title>
+<title>Node4603&#45;&gt;Node4604</title>
 <path fill="none" stroke="#191970" d="M456.1458,-3.4133C464.5512,-3.2373 473.2937,-3.2036 481.8283,-3.3121"/>
 <polygon fill="#191970" stroke="#191970" points="455.9933,.0838 446.0967,-3.6987 456.192,-6.9133 455.9933,.0838"/>
 </g>
-<!-- Node4595&#45;&gt;Node4594 -->
+<!-- Node4604&#45;&gt;Node4603 -->
 <g id="edge5" class="edge">
-<title>Node4595&#45;&gt;Node4594</title>
+<title>Node4604&#45;&gt;Node4603</title>
 <path fill="none" stroke="#191970" d="M471.6355,-16.7499C462.927,-16.7459 454.2264,-16.5963 446.0967,-16.3013"/>
 <polygon fill="#191970" stroke="#191970" points="471.8499,-20.2488 481.8283,-16.6879 471.8072,-13.2489 471.8499,-20.2488"/>
 </g>
