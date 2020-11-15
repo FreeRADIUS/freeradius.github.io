@@ -208,6 +208,12 @@ Length checks</h2></td></tr>
 <tr class="memitem:a2474c0bff370c0723a0d667cb8f79728"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#a2474c0bff370c0723a0d667cb8f79728">fr_dbuff_len</a>(_dbuff_or_marker)&#160;&#160;&#160;((size_t)(<a class="el" href="dbuff_8h.html#a754feddf4370648ba512dda175efac1e">fr_dbuff_end</a>(_dbuff_or_marker) - <a class="el" href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a>(_dbuff_or_marker)))</td></tr>
 <tr class="memdesc:a2474c0bff370c0723a0d667cb8f79728"><td class="mdescLeft">&#160;</td><td class="mdescRight">The length of the underlying buffer.  <a href="#a2474c0bff370c0723a0d667cb8f79728">More...</a><br /></td></tr>
 <tr class="separator:a2474c0bff370c0723a0d667cb8f79728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b0b7d2a0276a7ee4a1eb2783994f3f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#a07b0b7d2a0276a7ee4a1eb2783994f3f">fr_dbuff_behind</a>(_dbuff_or_marker)</td></tr>
+<tr class="memdesc:a07b0b7d2a0276a7ee4a1eb2783994f3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many bytes the dbuff or marker is behind its parent.  <a href="#a07b0b7d2a0276a7ee4a1eb2783994f3f">More...</a><br /></td></tr>
+<tr class="separator:a07b0b7d2a0276a7ee4a1eb2783994f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad32fd4f88dacee83d0d6f77ebf08b7a9"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#ad32fd4f88dacee83d0d6f77ebf08b7a9">fr_dbuff_ahead</a>(_dbuff_or_marker)</td></tr>
+<tr class="memdesc:ad32fd4f88dacee83d0d6f77ebf08b7a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many bytes the dbuff or marker is ahead of its parent.  <a href="#ad32fd4f88dacee83d0d6f77ebf08b7a9">More...</a><br /></td></tr>
+<tr class="separator:ad32fd4f88dacee83d0d6f77ebf08b7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Accessors</h2></td></tr>
@@ -275,6 +281,12 @@ Marker management</h2></td></tr>
 <tr class="memitem:ab96960c1d07ba400e6d851bfbd6dc045"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#ab96960c1d07ba400e6d851bfbd6dc045">fr_dbuff_marker_release</a> (<a class="el" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *m)</td></tr>
 <tr class="memdesc:ab96960c1d07ba400e6d851bfbd6dc045"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases the specified marker and any markers added before it.  <a href="#ab96960c1d07ba400e6d851bfbd6dc045">More...</a><br /></td></tr>
 <tr class="separator:ab96960c1d07ba400e6d851bfbd6dc045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28e44c189072cea48a150e5637fe4730"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#a28e44c189072cea48a150e5637fe4730">fr_dbuff_marker_release_behind</a> (<a class="el" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *m)</td></tr>
+<tr class="memdesc:a28e44c189072cea48a150e5637fe4730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trims the linked list back to the specified pointer and return how many bytes marker was behind p.  <a href="#a28e44c189072cea48a150e5637fe4730">More...</a><br /></td></tr>
+<tr class="separator:a28e44c189072cea48a150e5637fe4730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69465a0e356b1e4058589d3d4d098d8"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dbuff_8h.html#ad69465a0e356b1e4058589d3d4d098d8">fr_dbuff_marker_release_ahead</a> (<a class="el" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *m)</td></tr>
+<tr class="memdesc:ad69465a0e356b1e4058589d3d4d098d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trims the linked list back to the specified pointer and return how many bytes marker was ahead of p.  <a href="#ad69465a0e356b1e4058589d3d4d098d8">More...</a><br /></td></tr>
+<tr class="separator:ad69465a0e356b1e4058589d3d4d098d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 "in" functions (copy data into a dbuff)</h2></td></tr>
@@ -390,7 +402,7 @@ Marker management</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00879">879</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00900">900</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -435,7 +447,69 @@ Marker management</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00885">885</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00906">906</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+
+</div>
+</div>
+<a id="ad32fd4f88dacee83d0d6f77ebf08b7a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad32fd4f88dacee83d0d6f77ebf08b7a9">&#9670;&nbsp;</a></span>fr_dbuff_ahead</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a> fr_dbuff_ahead</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">_dbuff_or_marker</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">(<a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>((_dbuff_or_marker)-&gt;parent) &gt; <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(_dbuff_or_marker) ? \</div><div class="line">                0 : <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(_dbuff_or_marker) - <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>((_dbuff_or_marker)-&gt;parent))</div><div class="ttc" id="dbuff_8h_html_a30e26cea78c94b2818ede7b3f4738e0e"><div class="ttname"><a href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a></div><div class="ttdeci">#define fr_dbuff_current(_dbuff_or_marker)</div><div class="ttdoc">Return the &amp;#39;current&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00780">dbuff.h:780</a></div></div>
+</div><!-- fragment -->
+<p>How many bytes the dbuff or marker is ahead of its parent. </p>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>0 the dbuff or marker is behind its parent.</li>
+<li>&gt;0 the number of bytes the marker is ahead of its parent. </li>
+</ul>
+</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00665">665</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+
+</div>
+</div>
+<a id="a07b0b7d2a0276a7ee4a1eb2783994f3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07b0b7d2a0276a7ee4a1eb2783994f3f">&#9670;&nbsp;</a></span>fr_dbuff_behind</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a> fr_dbuff_behind</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">_dbuff_or_marker</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">(<a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(_dbuff_or_marker) &gt; <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>((_dbuff_or_marker)-&gt;parent) ? \</div><div class="line">                0 : <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>((_dbuff_or_marker)-&gt;parent) - <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(_dbuff_or_marker))</div><div class="ttc" id="dbuff_8h_html_a30e26cea78c94b2818ede7b3f4738e0e"><div class="ttname"><a href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a></div><div class="ttdeci">#define fr_dbuff_current(_dbuff_or_marker)</div><div class="ttdoc">Return the &amp;#39;current&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00780">dbuff.h:780</a></div></div>
+</div><!-- fragment -->
+<p>How many bytes the dbuff or marker is behind its parent. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">_dbuff_or_marker</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>0 the dbuff or marker is ahead of its parent.</li>
+<li>&gt;0 the number of bytes the marker is behind its parent. </li>
+</ul>
+</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00655">655</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -466,7 +540,7 @@ Marker management</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the start of the buffer. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00730">730</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00751">751</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -497,7 +571,7 @@ Marker management</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the current position of the buffer or marker. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00759">759</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00780">780</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -528,7 +602,7 @@ Marker management</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the end position of the buffer or marker. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00786">786</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00807">807</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -596,7 +670,7 @@ Marker management</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">_fr_dbuff_extend_lowat(_status, \</div><div class="line">                               <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_dbuff_or_marker), \</div><div class="line">                               <a class="code" href="dbuff_8h.html#a81c1cb8286821434b6ec9902655316aa">fr_dbuff_remaining</a>(_dbuff_or_marker), _lowat)</div><div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00706">dbuff.h:706</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">_fr_dbuff_extend_lowat(_status, \</div><div class="line">                               <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_dbuff_or_marker), \</div><div class="line">                               <a class="code" href="dbuff_8h.html#a81c1cb8286821434b6ec9902655316aa">fr_dbuff_remaining</a>(_dbuff_or_marker), _lowat)</div><div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00727">dbuff.h:727</a></div></div>
 <div class="ttc" id="dbuff_8h_html_a81c1cb8286821434b6ec9902655316aa"><div class="ttname"><a href="dbuff_8h.html#a81c1cb8286821434b6ec9902655316aa">fr_dbuff_remaining</a></div><div class="ttdeci">#define fr_dbuff_remaining(_dbuff_or_marker)</div><div class="ttdoc">Return the number of bytes remaining between the dbuff or marker and the end of the buffer...</div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00612">dbuff.h:612</a></div></div>
 </div><!-- fragment -->
 <p>Extend if we're below _lowat. </p>
@@ -724,8 +798,8 @@ Marker management</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">_Generic((_in), \</div><div class="line">                int8_t          : <a class="code" href="dbuff_8h.html#a3e04eab645c37ab9167682733503f57a">fr_dbuff_in_bytes</a>(_out, (int8_t)_in), \</div><div class="line">                int16_t         : _fr_dbuff_in_int16(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (int16_t)_in), \</div><div class="line">                int32_t         : _fr_dbuff_in_int32(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (int32_t)_in), \</div><div class="line">                int64_t         : _fr_dbuff_in_int64(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (int64_t)_in), \</div><div class="line">                uint8_t         : <a class="code" href="dbuff_8h.html#a3e04eab645c37ab9167682733503f57a">fr_dbuff_in_bytes</a>(_out, (uint8_t)_in), \</div><div class="line">                uint16_t        : _fr_dbuff_in_uint16(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint16_t)_in), \</div><div class="line">                uint32_t        : _fr_dbuff_in_uint32(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint32_t)_in), \</div><div class="line">                uint64_t        : _fr_dbuff_in_uint64(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint64_t)_in), \</div><div class="line">                <span class="keywordtype">float</span>           : _fr_dbuff_in_float(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (<span class="keywordtype">float</span>)_in), \</div><div class="line">                <span class="keywordtype">double</span>          : _fr_dbuff_in_double(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (<span class="keywordtype">double</span>)_in) \</div><div class="line">        )</div><div class="ttc" id="dbuff_8h_html_a3e04eab645c37ab9167682733503f57a"><div class="ttname"><a href="dbuff_8h.html#a3e04eab645c37ab9167682733503f57a">fr_dbuff_in_bytes</a></div><div class="ttdeci">#define fr_dbuff_in_bytes(_dbuff,...)</div><div class="ttdoc">Copy a byte sequence into a dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l01146">dbuff.h:1146</a></div></div>
-<div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00706">dbuff.h:706</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">_Generic((_in), \</div><div class="line">                int8_t          : <a class="code" href="dbuff_8h.html#a3e04eab645c37ab9167682733503f57a">fr_dbuff_in_bytes</a>(_out, (int8_t)_in), \</div><div class="line">                int16_t         : _fr_dbuff_in_int16(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (int16_t)_in), \</div><div class="line">                int32_t         : _fr_dbuff_in_int32(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (int32_t)_in), \</div><div class="line">                int64_t         : _fr_dbuff_in_int64(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (int64_t)_in), \</div><div class="line">                uint8_t         : <a class="code" href="dbuff_8h.html#a3e04eab645c37ab9167682733503f57a">fr_dbuff_in_bytes</a>(_out, (uint8_t)_in), \</div><div class="line">                uint16_t        : _fr_dbuff_in_uint16(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint16_t)_in), \</div><div class="line">                uint32_t        : _fr_dbuff_in_uint32(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint32_t)_in), \</div><div class="line">                uint64_t        : _fr_dbuff_in_uint64(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint64_t)_in), \</div><div class="line">                <span class="keywordtype">float</span>           : _fr_dbuff_in_float(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (<span class="keywordtype">float</span>)_in), \</div><div class="line">                <span class="keywordtype">double</span>          : _fr_dbuff_in_double(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (<span class="keywordtype">double</span>)_in) \</div><div class="line">        )</div><div class="ttc" id="dbuff_8h_html_a3e04eab645c37ab9167682733503f57a"><div class="ttname"><a href="dbuff_8h.html#a3e04eab645c37ab9167682733503f57a">fr_dbuff_in_bytes</a></div><div class="ttdeci">#define fr_dbuff_in_bytes(_dbuff,...)</div><div class="ttdoc">Copy a byte sequence into a dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l01205">dbuff.h:1205</a></div></div>
+<div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00727">dbuff.h:727</a></div></div>
 </div><!-- fragment -->
 <p>Copy data from a fixed sized C type into a dbuff. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -741,7 +815,7 @@ Marker management</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01247">1247</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01306">1306</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -781,7 +855,7 @@ Marker management</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01146">1146</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01205">1205</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -821,7 +895,7 @@ Marker management</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01136">1136</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01195">1195</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -861,7 +935,7 @@ Marker management</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01153">1153</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01212">1212</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -896,7 +970,7 @@ Marker management</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">_Generic((_in), \</div><div class="line">                uint8_t *               : _fr_dbuff_in_memcpy(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint8_t <span class="keyword">const</span> *)(_in), _inlen), \</div><div class="line">                uint8_t <span class="keyword">const</span> *         : _fr_dbuff_in_memcpy(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint8_t <span class="keyword">const</span> *)(_in), _inlen), \</div><div class="line">                <span class="keywordtype">char</span> *                  : _fr_dbuff_in_memcpy(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint8_t <span class="keyword">const</span> *)(_in), (<span class="keywordtype">size_t</span>)(_inlen) == SIZE_MAX ? strlen((<span class="keywordtype">char</span> <span class="keyword">const</span> *)(_in)) : (_inlen)), \</div><div class="line">                <span class="keywordtype">char</span> <span class="keyword">const</span> *            : _fr_dbuff_in_memcpy(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint8_t <span class="keyword">const</span> *)(_in), (<span class="keywordtype">size_t</span>)(_inlen) == SIZE_MAX ? strlen((<span class="keywordtype">char</span> <span class="keyword">const</span> *)(_in)) : (_inlen)), \</div><div class="line">                <a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *            : _fr_dbuff_in_memcpy_dbuff(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), &amp;((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> <span class="keyword">const</span> *)(_in))-&gt;p, ((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> <span class="keyword">const</span> *)(_in)), _inlen), \</div><div class="line">                <a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *     : _fr_dbuff_in_memcpy_dbuff(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), &amp;((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> <span class="keyword">const</span> *)(_in))-&gt;p, ((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> <span class="keyword">const</span> *)(_in))-&gt;parent, _inlen) \</div><div class="line">        )</div><div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00706">dbuff.h:706</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">_Generic((_in), \</div><div class="line">                uint8_t *               : _fr_dbuff_in_memcpy(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint8_t <span class="keyword">const</span> *)(_in), _inlen), \</div><div class="line">                uint8_t <span class="keyword">const</span> *         : _fr_dbuff_in_memcpy(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint8_t <span class="keyword">const</span> *)(_in), _inlen), \</div><div class="line">                <span class="keywordtype">char</span> *                  : _fr_dbuff_in_memcpy(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint8_t <span class="keyword">const</span> *)(_in), (<span class="keywordtype">size_t</span>)(_inlen) == SIZE_MAX ? strlen((<span class="keywordtype">char</span> <span class="keyword">const</span> *)(_in)) : (_inlen)), \</div><div class="line">                <span class="keywordtype">char</span> <span class="keyword">const</span> *            : _fr_dbuff_in_memcpy(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), (uint8_t <span class="keyword">const</span> *)(_in), (<span class="keywordtype">size_t</span>)(_inlen) == SIZE_MAX ? strlen((<span class="keywordtype">char</span> <span class="keyword">const</span> *)(_in)) : (_inlen)), \</div><div class="line">                <a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *            : _fr_dbuff_in_memcpy_dbuff(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), &amp;((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> <span class="keyword">const</span> *)(_in))-&gt;p, ((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> <span class="keyword">const</span> *)(_in)), _inlen), \</div><div class="line">                <a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *     : _fr_dbuff_in_memcpy_dbuff(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), &amp;((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> <span class="keyword">const</span> *)(_in))-&gt;p, ((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> <span class="keyword">const</span> *)(_in))-&gt;parent, _inlen) \</div><div class="line">        )</div><div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00727">dbuff.h:727</a></div></div>
 <div class="ttc" id="dbuff_8h_html_a2ba47cf778c891b541c68fcf78954775"><div class="ttname"><a href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a></div><div class="ttdeci">struct fr_dbuff_marker_s fr_dbuff_marker_t</div><div class="ttdoc">A position marker associated with a dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00081">dbuff.h:81</a></div></div>
 <div class="ttc" id="dbuff_8h_html_a03ab727e4c61835ac6ee275f8140a9f6"><div class="ttname"><a href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a></div><div class="ttdeci">struct fr_dbuff_s fr_dbuff_t</div><div class="ttdoc">A dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00065">dbuff.h:65</a></div></div>
 </div><!-- fragment -->
@@ -918,7 +992,7 @@ Marker management</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01047">1047</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01106">1106</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -953,7 +1027,7 @@ Marker management</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">_Generic((_in), \</div><div class="line">                uint8_t *               : _fr_dbuff_in_memcpy_partial(_fr_dbuff_current_ptr(_out), _out, (uint8_t <span class="keyword">const</span> *)_in, _inlen), \</div><div class="line">                uint8_t <span class="keyword">const</span> *         : _fr_dbuff_in_memcpy_partial(_fr_dbuff_current_ptr(_out), _out, (uint8_t <span class="keyword">const</span> *)_in, _inlen), \</div><div class="line">                <span class="keywordtype">char</span> *                  : _fr_dbuff_in_memcpy_partial(_fr_dbuff_current_ptr(_out), _out, (uint8_t <span class="keyword">const</span> *)_in, _inlen == SIZE_MAX ? strlen((<span class="keywordtype">char</span> <span class="keyword">const</span> *)_in) : _inlen), \</div><div class="line">                <span class="keywordtype">char</span> <span class="keyword">const</span> *            : _fr_dbuff_in_memcpy_partial(_fr_dbuff_current_ptr(_out), _out, (uint8_t <span class="keyword">const</span> *)_in, _inlen == SIZE_MAX ? strlen((<span class="keywordtype">char</span> <span class="keyword">const</span> *)_in) : _inlen), \</div><div class="line">                <a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *            : _fr_dbuff_in_memcpy_partial_dbuff(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), &amp;((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> <span class="keyword">const</span> *)(_in))-&gt;p, ((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> <span class="keyword">const</span> *)(_in)), _inlen), \</div><div class="line">                <a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *     : _fr_dbuff_in_memcpy_partial_dbuff(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), &amp;((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> <span class="keyword">const</span> *)(_in))-&gt;p, ((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> <span class="keyword">const</span> *)(_in))-&gt;parent, _inlen) \</div><div class="line">        )</div><div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00706">dbuff.h:706</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">_Generic((_in), \</div><div class="line">                uint8_t *               : _fr_dbuff_in_memcpy_partial(_fr_dbuff_current_ptr(_out), _out, (uint8_t <span class="keyword">const</span> *)_in, _inlen), \</div><div class="line">                uint8_t <span class="keyword">const</span> *         : _fr_dbuff_in_memcpy_partial(_fr_dbuff_current_ptr(_out), _out, (uint8_t <span class="keyword">const</span> *)_in, _inlen), \</div><div class="line">                <span class="keywordtype">char</span> *                  : _fr_dbuff_in_memcpy_partial(_fr_dbuff_current_ptr(_out), _out, (uint8_t <span class="keyword">const</span> *)_in, _inlen == SIZE_MAX ? strlen((<span class="keywordtype">char</span> <span class="keyword">const</span> *)_in) : _inlen), \</div><div class="line">                <span class="keywordtype">char</span> <span class="keyword">const</span> *            : _fr_dbuff_in_memcpy_partial(_fr_dbuff_current_ptr(_out), _out, (uint8_t <span class="keyword">const</span> *)_in, _inlen == SIZE_MAX ? strlen((<span class="keywordtype">char</span> <span class="keyword">const</span> *)_in) : _inlen), \</div><div class="line">                <a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *            : _fr_dbuff_in_memcpy_partial_dbuff(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), &amp;((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> <span class="keyword">const</span> *)(_in))-&gt;p, ((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> <span class="keyword">const</span> *)(_in)), _inlen), \</div><div class="line">                <a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *     : _fr_dbuff_in_memcpy_partial_dbuff(_fr_dbuff_current_ptr(_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_out), &amp;((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> <span class="keyword">const</span> *)(_in))-&gt;p, ((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> <span class="keyword">const</span> *)(_in))-&gt;parent, _inlen) \</div><div class="line">        )</div><div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00727">dbuff.h:727</a></div></div>
 <div class="ttc" id="dbuff_8h_html_a2ba47cf778c891b541c68fcf78954775"><div class="ttname"><a href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a></div><div class="ttdeci">struct fr_dbuff_marker_s fr_dbuff_marker_t</div><div class="ttdoc">A position marker associated with a dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00081">dbuff.h:81</a></div></div>
 <div class="ttc" id="dbuff_8h_html_a03ab727e4c61835ac6ee275f8140a9f6"><div class="ttname"><a href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a></div><div class="ttdeci">struct fr_dbuff_s fr_dbuff_t</div><div class="ttdoc">A dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00065">dbuff.h:65</a></div></div>
 </div><!-- fragment -->
@@ -975,7 +1049,7 @@ Marker management</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01119">1119</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01178">1178</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1029,7 +1103,7 @@ Marker management</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01060">1060</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01119">1119</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1073,7 +1147,7 @@ Marker management</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01265">1265</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01324">1324</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1117,7 +1191,7 @@ Marker management</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01288">1288</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01347">1347</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1161,7 +1235,7 @@ Marker management</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01295">1295</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01354">1354</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1394,7 +1468,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01181">1181</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01240">1240</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1446,7 +1520,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01188">1188</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01247">1247</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1495,7 +1569,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Number of bytes to copy. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01328">1328</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01387">1387</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1553,7 +1627,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">_Generic((_out), \</div><div class="line">                uint8_t *       : _fr_dbuff_out_memcpy((uint8_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in), 1), \</div><div class="line">                uint16_t *      : _fr_dbuff_out_uint16((uint16_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                uint32_t *      : _fr_dbuff_out_uint32((uint32_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                uint64_t *      : _fr_dbuff_out_uint64((uint64_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                int8_t *        : _fr_dbuff_out_memcpy((uint8_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in), 1), \</div><div class="line">                int16_t *       : _fr_dbuff_out_int16((int16_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                int32_t *       : _fr_dbuff_out_int32((int32_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                int64_t *       : _fr_dbuff_out_int64((int64_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                <span class="keywordtype">float</span> *         : _fr_dbuff_out_uint32((uint32_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                <span class="keywordtype">double</span> *        : _fr_dbuff_out_uint64((uint64_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)) \</div><div class="line">        )</div><div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00706">dbuff.h:706</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">_Generic((_out), \</div><div class="line">                uint8_t *       : _fr_dbuff_out_memcpy((uint8_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in), 1), \</div><div class="line">                uint16_t *      : _fr_dbuff_out_uint16((uint16_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                uint32_t *      : _fr_dbuff_out_uint32((uint32_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                uint64_t *      : _fr_dbuff_out_uint64((uint64_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                int8_t *        : _fr_dbuff_out_memcpy((uint8_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in), 1), \</div><div class="line">                int16_t *       : _fr_dbuff_out_int16((int16_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                int32_t *       : _fr_dbuff_out_int32((int32_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                int64_t *       : _fr_dbuff_out_int64((int64_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                <span class="keywordtype">float</span> *         : _fr_dbuff_out_uint32((uint32_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)), \</div><div class="line">                <span class="keywordtype">double</span> *        : _fr_dbuff_out_uint64((uint64_t *)(_out), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in)) \</div><div class="line">        )</div><div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00727">dbuff.h:727</a></div></div>
 </div><!-- fragment -->
 <p>Copy data from a dbuff or marker to a fixed sized C type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -1569,7 +1643,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01448">1448</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01507">1507</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1604,7 +1678,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">_Generic((_out), \</div><div class="line">                 uint8_t *              : _fr_dbuff_out_memcpy((uint8_t *)(_out), _fr_dbuff_current_ptr(_in), _in, _outlen), \</div><div class="line">                 <a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *           : _fr_dbuff_out_memcpy_dbuff(_fr_dbuff_current_ptr((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *)_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *)(_out)), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in), _outlen), \</div><div class="line">                 <a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *    : _fr_dbuff_out_memcpy_dbuff(_fr_dbuff_current_ptr((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *)_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *)(_out)), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in), _outlen) \</div><div class="line">        )</div><div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00706">dbuff.h:706</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">_Generic((_out), \</div><div class="line">                 uint8_t *              : _fr_dbuff_out_memcpy((uint8_t *)(_out), _fr_dbuff_current_ptr(_in), _in, _outlen), \</div><div class="line">                 <a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *           : _fr_dbuff_out_memcpy_dbuff(_fr_dbuff_current_ptr((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *)_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *)(_out)), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in), _outlen), \</div><div class="line">                 <a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *    : _fr_dbuff_out_memcpy_dbuff(_fr_dbuff_current_ptr((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *)_out), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *)(_out)), _fr_dbuff_current_ptr(_in), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_in), _outlen) \</div><div class="line">        )</div><div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00727">dbuff.h:727</a></div></div>
 <div class="ttc" id="dbuff_8h_html_a2ba47cf778c891b541c68fcf78954775"><div class="ttname"><a href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a></div><div class="ttdeci">struct fr_dbuff_marker_s fr_dbuff_marker_t</div><div class="ttdoc">A position marker associated with a dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00081">dbuff.h:81</a></div></div>
 <div class="ttc" id="dbuff_8h_html_a03ab727e4c61835ac6ee275f8140a9f6"><div class="ttname"><a href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a></div><div class="ttdeci">struct fr_dbuff_s fr_dbuff_t</div><div class="ttdoc">A dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00065">dbuff.h:65</a></div></div>
 </div><!-- fragment -->
@@ -1626,7 +1700,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01402">1402</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01461">1461</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1680,7 +1754,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01413">1413</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01472">1472</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1724,7 +1798,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01466">1466</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01525">1525</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1776,7 +1850,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01496">1496</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01555">1555</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1807,7 +1881,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the dbuff. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00706">706</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00727">727</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1838,7 +1912,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the dbuff. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00717">717</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00738">738</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -1857,8 +1931,8 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">((size_t)(<a class="code" href="dbuff_8h.html#a754feddf4370648ba512dda175efac1e">fr_dbuff_end</a>(_dbuff_or_marker) &lt; <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(_dbuff_or_marker) ? \</div><div class="line">                0 : (<a class="code" href="dbuff_8h.html#a754feddf4370648ba512dda175efac1e">fr_dbuff_end</a>(_dbuff_or_marker) - <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(_dbuff_or_marker))))</div><div class="ttc" id="dbuff_8h_html_a30e26cea78c94b2818ede7b3f4738e0e"><div class="ttname"><a href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a></div><div class="ttdeci">#define fr_dbuff_current(_dbuff_or_marker)</div><div class="ttdoc">Return the &amp;#39;current&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00759">dbuff.h:759</a></div></div>
-<div class="ttc" id="dbuff_8h_html_a754feddf4370648ba512dda175efac1e"><div class="ttname"><a href="dbuff_8h.html#a754feddf4370648ba512dda175efac1e">fr_dbuff_end</a></div><div class="ttdeci">#define fr_dbuff_end(_dbuff_or_marker)</div><div class="ttdoc">Return the current &amp;#39;end&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00786">dbuff.h:786</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">((size_t)(<a class="code" href="dbuff_8h.html#a754feddf4370648ba512dda175efac1e">fr_dbuff_end</a>(_dbuff_or_marker) &lt; <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(_dbuff_or_marker) ? \</div><div class="line">                0 : (<a class="code" href="dbuff_8h.html#a754feddf4370648ba512dda175efac1e">fr_dbuff_end</a>(_dbuff_or_marker) - <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(_dbuff_or_marker))))</div><div class="ttc" id="dbuff_8h_html_a30e26cea78c94b2818ede7b3f4738e0e"><div class="ttname"><a href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a></div><div class="ttdeci">#define fr_dbuff_current(_dbuff_or_marker)</div><div class="ttdoc">Return the &amp;#39;current&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00780">dbuff.h:780</a></div></div>
+<div class="ttc" id="dbuff_8h_html_a754feddf4370648ba512dda175efac1e"><div class="ttname"><a href="dbuff_8h.html#a754feddf4370648ba512dda175efac1e">fr_dbuff_end</a></div><div class="ttdeci">#define fr_dbuff_end(_dbuff_or_marker)</div><div class="ttdoc">Return the current &amp;#39;end&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00807">dbuff.h:807</a></div></div>
 </div><!-- fragment -->
 <p>Return the number of bytes remaining between the dbuff or marker and the end of the buffer. </p>
 <dl class="section note"><dt>Note</dt><dd>Do not use this in functions that may be used for stream decoding unless you're sure you know what you're doing. The value return does not reflect the number of bytes that may be potentially read from the stream, only the number of bytes until the end of the current chunk.</dd></dl>
@@ -2066,9 +2140,9 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">_fr_dbuff_set(\</div><div class="line">        _fr_dbuff_current_ptr(_dst), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_dst), \</div><div class="line">        _Generic((_src), \</div><div class="line">                <a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *                    : <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> <span class="keyword">const</span> *)(_src)), \</div><div class="line">                <a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *             : <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> <span class="keyword">const</span> *)(_src)), \</div><div class="line">                uint8_t <span class="keyword">const</span> *                 : (uint8_t <span class="keyword">const</span> *)(_src), \</div><div class="line">                uint8_t *                       : (uint8_t <span class="keyword">const</span> *)(_src), \</div><div class="line">                <span class="keywordtype">size_t</span>                          : (<a class="code" href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a>(_dst) + (uintptr_t)(_src)), \</div><div class="line">                <span class="keywordtype">long</span>                            : (<a class="code" href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a>(_dst) + (uintptr_t)(_src)), \</div><div class="line">                <span class="keywordtype">int</span>                             : (<a class="code" href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a>(_dst) + (uintptr_t)(_src)) \</div><div class="line">        ) \</div><div class="line">)</div><div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00706">dbuff.h:706</a></div></div>
-<div class="ttc" id="dbuff_8h_html_a30e26cea78c94b2818ede7b3f4738e0e"><div class="ttname"><a href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a></div><div class="ttdeci">#define fr_dbuff_current(_dbuff_or_marker)</div><div class="ttdoc">Return the &amp;#39;current&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00759">dbuff.h:759</a></div></div>
-<div class="ttc" id="dbuff_8h_html_a350f6766c77392e54cd4bc229739a837"><div class="ttname"><a href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a></div><div class="ttdeci">#define fr_dbuff_start(_dbuff_or_marker)</div><div class="ttdoc">Return the &amp;#39;start&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00746">dbuff.h:746</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">_fr_dbuff_set(\</div><div class="line">        _fr_dbuff_current_ptr(_dst), <a class="code" href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a>(_dst), \</div><div class="line">        _Generic((_src), \</div><div class="line">                <a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *                    : <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>((<a class="code" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> <span class="keyword">const</span> *)(_src)), \</div><div class="line">                <a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *             : <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>((<a class="code" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> <span class="keyword">const</span> *)(_src)), \</div><div class="line">                uint8_t <span class="keyword">const</span> *                 : (uint8_t <span class="keyword">const</span> *)(_src), \</div><div class="line">                uint8_t *                       : (uint8_t <span class="keyword">const</span> *)(_src), \</div><div class="line">                <span class="keywordtype">size_t</span>                          : (<a class="code" href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a>(_dst) + (uintptr_t)(_src)), \</div><div class="line">                <span class="keywordtype">long</span>                            : (<a class="code" href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a>(_dst) + (uintptr_t)(_src)), \</div><div class="line">                <span class="keywordtype">int</span>                             : (<a class="code" href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a>(_dst) + (uintptr_t)(_src)) \</div><div class="line">        ) \</div><div class="line">)</div><div class="ttc" id="dbuff_8h_html_a1e30f2291341ac600bdc2b3cca6a2df7"><div class="ttname"><a href="dbuff_8h.html#a1e30f2291341ac600bdc2b3cca6a2df7">fr_dbuff_ptr</a></div><div class="ttdeci">#define fr_dbuff_ptr(_dbuff_or_marker)</div><div class="ttdoc">Return a pointer to the dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00727">dbuff.h:727</a></div></div>
+<div class="ttc" id="dbuff_8h_html_a30e26cea78c94b2818ede7b3f4738e0e"><div class="ttname"><a href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a></div><div class="ttdeci">#define fr_dbuff_current(_dbuff_or_marker)</div><div class="ttdoc">Return the &amp;#39;current&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00780">dbuff.h:780</a></div></div>
+<div class="ttc" id="dbuff_8h_html_a350f6766c77392e54cd4bc229739a837"><div class="ttname"><a href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a></div><div class="ttdeci">#define fr_dbuff_start(_dbuff_or_marker)</div><div class="ttdoc">Return the &amp;#39;start&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00767">dbuff.h:767</a></div></div>
 <div class="ttc" id="dbuff_8h_html_a2ba47cf778c891b541c68fcf78954775"><div class="ttname"><a href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a></div><div class="ttdeci">struct fr_dbuff_marker_s fr_dbuff_marker_t</div><div class="ttdoc">A position marker associated with a dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00081">dbuff.h:81</a></div></div>
 <div class="ttc" id="dbuff_8h_html_a03ab727e4c61835ac6ee275f8140a9f6"><div class="ttname"><a href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a></div><div class="ttdeci">struct fr_dbuff_s fr_dbuff_t</div><div class="ttdoc">A dbuff. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00065">dbuff.h:65</a></div></div>
 </div><!-- fragment -->
@@ -2093,7 +2167,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00850">850</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00871">871</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -2144,7 +2218,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00868">868</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00889">889</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -2166,7 +2240,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 
 <p>Reset the 'current' position of the dbuff or marker to the 'end' of the buffer. </p>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00896">896</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00917">917</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -2188,7 +2262,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 
 <p>Reset the 'current' position of the dbuff or marker to the 'start' of the buffer. </p>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00890">890</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00911">911</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -2220,7 +2294,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the start position of the buffer. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00746">746</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00767">767</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -2313,7 +2387,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01503">1503</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01562">1562</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 
 </div>
 </div>
@@ -2332,8 +2406,8 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">((size_t)(<a class="code" href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a>(_dbuff_or_marker) &gt; <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(_dbuff_or_marker) ? \</div><div class="line">                0 : (<a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(_dbuff_or_marker) - <a class="code" href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a>(_dbuff_or_marker))))</div><div class="ttc" id="dbuff_8h_html_a30e26cea78c94b2818ede7b3f4738e0e"><div class="ttname"><a href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a></div><div class="ttdeci">#define fr_dbuff_current(_dbuff_or_marker)</div><div class="ttdoc">Return the &amp;#39;current&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00759">dbuff.h:759</a></div></div>
-<div class="ttc" id="dbuff_8h_html_a350f6766c77392e54cd4bc229739a837"><div class="ttname"><a href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a></div><div class="ttdeci">#define fr_dbuff_start(_dbuff_or_marker)</div><div class="ttdoc">Return the &amp;#39;start&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00746">dbuff.h:746</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">((size_t)(<a class="code" href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a>(_dbuff_or_marker) &gt; <a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(_dbuff_or_marker) ? \</div><div class="line">                0 : (<a class="code" href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a>(_dbuff_or_marker) - <a class="code" href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a>(_dbuff_or_marker))))</div><div class="ttc" id="dbuff_8h_html_a30e26cea78c94b2818ede7b3f4738e0e"><div class="ttname"><a href="dbuff_8h.html#a30e26cea78c94b2818ede7b3f4738e0e">fr_dbuff_current</a></div><div class="ttdeci">#define fr_dbuff_current(_dbuff_or_marker)</div><div class="ttdoc">Return the &amp;#39;current&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00780">dbuff.h:780</a></div></div>
+<div class="ttc" id="dbuff_8h_html_a350f6766c77392e54cd4bc229739a837"><div class="ttname"><a href="dbuff_8h.html#a350f6766c77392e54cd4bc229739a837">fr_dbuff_start</a></div><div class="ttdeci">#define fr_dbuff_start(_dbuff_or_marker)</div><div class="ttdoc">Return the &amp;#39;start&amp;#39; position of a dbuff or marker. </div><div class="ttdef"><b>Definition:</b> <a href="dbuff_8h_source.html#l00767">dbuff.h:767</a></div></div>
 </div><!-- fragment -->
 <p>Return the number of bytes remaining between the start of the dbuff or marker and the current position. </p>
 
@@ -2666,7 +2740,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The position the marker was set to. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00927">927</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00948">948</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
@@ -2711,13 +2785,123 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00945">945</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00966">966</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_ab96960c1d07ba400e6d851bfbd6dc045_icgraph.svg" width="100%" height="423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_ab96960c1d07ba400e6d851bfbd6dc045_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad69465a0e356b1e4058589d3d4d098d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad69465a0e356b1e4058589d3d4d098d8">&#9670;&nbsp;</a></span>fr_dbuff_marker_release_ahead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static size_t fr_dbuff_marker_release_ahead </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Trims the linked list back to the specified pointer and return how many bytes marker was ahead of p. </p>
+<p>Pointers should be released in the inverse order to allocation.</p>
+<p>Alternatively the oldest pointer can be released, resulting in any newer pointer also being removed from the list.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>to release. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>0 marker is ahead of p.</li>
+<li>&gt;0 the number of bytes the marker is behind p. </li>
+</ul>
+</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l01006">1006</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="dbuff_8h_ad69465a0e356b1e4058589d3d4d098d8_cgraph.svg" width="384" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a28e44c189072cea48a150e5637fe4730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28e44c189072cea48a150e5637fe4730">&#9670;&nbsp;</a></span>fr_dbuff_marker_release_behind()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static size_t fr_dbuff_marker_release_behind </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">fr_dbuff_marker_t</a> *&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Trims the linked list back to the specified pointer and return how many bytes marker was behind p. </p>
+<p>Pointers should be released in the inverse order to allocation.</p>
+<p>Alternatively the oldest pointer can be released, resulting in any newer pointer also being removed from the list.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>to release. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>0 marker is ahead of p.</li>
+<li>&gt;0 the number of bytes the marker is behind p. </li>
+</ul>
+</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dbuff_8h_source.html#l00987">987</a> of file <a class="el" href="dbuff_8h_source.html">dbuff.h</a>.</p>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="dbuff_8h_a28e44c189072cea48a150e5637fe4730_cgraph.svg" width="384" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_a28e44c189072cea48a150e5637fe4730_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -2767,19 +2951,19 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="dbuff_8c_source.html#l00076">76</a> of file <a class="el" href="dbuff_8c_source.html">dbuff.c</a>.</p>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="dbuff_8h_aa30c687f387443a89139399929a88090_cgraph.svg" width="214" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dbuff_8h_aa30c687f387443a89139399929a88090_icgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2789,7 +2973,7 @@ Do not modify the "child" dbuff directly. Use the functions supplied as part of 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 15 2020 15:43:32 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 15 2020 15:57:36 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

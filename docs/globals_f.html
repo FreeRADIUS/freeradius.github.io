@@ -1891,6 +1891,12 @@ $(function() {
 <li>FR_DBUFF_ADVANCE_RETURN
 : <a class="el" href="dbuff_8h.html#a1e70c535bd39dd25df79ac67ba055f55">dbuff.h</a>
 </li>
+<li>fr_dbuff_ahead
+: <a class="el" href="dbuff_8h.html#ad32fd4f88dacee83d0d6f77ebf08b7a9">dbuff.h</a>
+</li>
+<li>fr_dbuff_behind
+: <a class="el" href="dbuff_8h.html#a07b0b7d2a0276a7ee4a1eb2783994f3f">dbuff.h</a>
+</li>
 <li>fr_dbuff_buff
 : <a class="el" href="dbuff_8h.html#a40f8621574691541265dba8f1c2ae14b">dbuff.h</a>
 </li>
@@ -1977,6 +1983,12 @@ $(function() {
 </li>
 <li>fr_dbuff_marker_release()
 : <a class="el" href="dbuff_8h.html#ab96960c1d07ba400e6d851bfbd6dc045">dbuff.h</a>
+</li>
+<li>fr_dbuff_marker_release_ahead()
+: <a class="el" href="dbuff_8h.html#ad69465a0e356b1e4058589d3d4d098d8">dbuff.h</a>
+</li>
+<li>fr_dbuff_marker_release_behind()
+: <a class="el" href="dbuff_8h.html#a28e44c189072cea48a150e5637fe4730">dbuff.h</a>
 </li>
 <li>fr_dbuff_marker_t
 : <a class="el" href="dbuff_8h.html#a2ba47cf778c891b541c68fcf78954775">dbuff.h</a>
@@ -4744,14 +4756,12 @@ $(function() {
 : <a class="el" href="message_8c.html#aeee3e9ba6cd5c0b87e7ac67c6e06719a">message.c</a>
 , <a class="el" href="message_8h.html#aeee3e9ba6cd5c0b87e7ac67c6e06719a">message.h</a>
 </li>
-<li>fr_message_done()
-: <a class="el" href="message_8c.html#a3801f794f597c1ec2fb4e327117801a8">message.c</a>
-</li>
 <li>FR_MESSAGE_DONE
 : <a class="el" href="message_8h.html#ab87ac6811ce87600b3636fb54400c9c8a5dce8ec962900f1f3df6b0f531a7d137">message.h</a>
 </li>
 <li>fr_message_done()
-: <a class="el" href="message_8h.html#a3801f794f597c1ec2fb4e327117801a8">message.h</a>
+: <a class="el" href="message_8c.html#a3801f794f597c1ec2fb4e327117801a8">message.c</a>
+, <a class="el" href="message_8h.html#a3801f794f597c1ec2fb4e327117801a8">message.h</a>
 </li>
 <li>FR_MESSAGE_FREE
 : <a class="el" href="message_8h.html#ab87ac6811ce87600b3636fb54400c9c8a8319420bee30b1d25bc3fef0d284967f">message.h</a>
@@ -4787,16 +4797,16 @@ $(function() {
 , <a class="el" href="message_8h.html#a286b22f9cf8e93e536c0ef9173ae2e99">message.h</a>
 </li>
 <li>fr_message_set_debug()
-: <a class="el" href="message_8h.html#a7922723a433c0aa4e909c7bff3f70ba2">message.h</a>
-, <a class="el" href="message_8c.html#a7922723a433c0aa4e909c7bff3f70ba2">message.c</a>
+: <a class="el" href="message_8c.html#a7922723a433c0aa4e909c7bff3f70ba2">message.c</a>
+, <a class="el" href="message_8h.html#a7922723a433c0aa4e909c7bff3f70ba2">message.h</a>
 </li>
 <li>fr_message_set_gc()
 : <a class="el" href="message_8c.html#a9ddc8af0d065687e15fe6b33238e5db2">message.c</a>
 , <a class="el" href="message_8h.html#a9ddc8af0d065687e15fe6b33238e5db2">message.h</a>
 </li>
 <li>fr_message_set_messages_used()
-: <a class="el" href="message_8c.html#a72aaca002fd7b29a94d397eadee7bd3f">message.c</a>
-, <a class="el" href="message_8h.html#a72aaca002fd7b29a94d397eadee7bd3f">message.h</a>
+: <a class="el" href="message_8h.html#a72aaca002fd7b29a94d397eadee7bd3f">message.h</a>
+, <a class="el" href="message_8c.html#a72aaca002fd7b29a94d397eadee7bd3f">message.c</a>
 </li>
 <li>fr_message_set_t
 : <a class="el" href="message_8h.html#ae552300e1811ce090a862a5190afcd54">message.h</a>
@@ -4878,8 +4888,8 @@ $(function() {
 , <a class="el" href="net_8h.html#a9d45c79fc2e705d6a679125175d1e910">net.h</a>
 </li>
 <li>fr_net_af_table_len
-: <a class="el" href="net_8c.html#a05936591d590a317c400dba69ca5208c">net.c</a>
-, <a class="el" href="net_8h.html#a05936591d590a317c400dba69ca5208c">net.h</a>
+: <a class="el" href="net_8h.html#a05936591d590a317c400dba69ca5208c">net.h</a>
+, <a class="el" href="net_8c.html#a05936591d590a317c400dba69ca5208c">net.c</a>
 </li>
 <li>fr_net_from_int16()
 : <a class="el" href="net_8h.html#abb0a25d88f30ee9171d80eabe768d0d5">net.h</a>
@@ -4910,16 +4920,16 @@ $(function() {
 , <a class="el" href="net_8h.html#a46f764375cd064df080051f3cf045a8f">net.h</a>
 </li>
 <li>fr_net_ip_proto_table_len
-: <a class="el" href="net_8h.html#a6e23515a97ff9c055d8ff748c6d8fd6e">net.h</a>
-, <a class="el" href="net_8c.html#a6e23515a97ff9c055d8ff748c6d8fd6e">net.c</a>
+: <a class="el" href="net_8c.html#a6e23515a97ff9c055d8ff748c6d8fd6e">net.c</a>
+, <a class="el" href="net_8h.html#a6e23515a97ff9c055d8ff748c6d8fd6e">net.h</a>
 </li>
 <li>fr_net_sock_type_table
 : <a class="el" href="net_8c.html#a2b4bab34ae6b907153a3e459a5ff7a9e">net.c</a>
 , <a class="el" href="net_8h.html#a2b4bab34ae6b907153a3e459a5ff7a9e">net.h</a>
 </li>
 <li>fr_net_sock_type_table_len
-: <a class="el" href="net_8c.html#aa7dea64173f4e3726607904af526bea3">net.c</a>
-, <a class="el" href="net_8h.html#aa7dea64173f4e3726607904af526bea3">net.h</a>
+: <a class="el" href="net_8h.html#aa7dea64173f4e3726607904af526bea3">net.h</a>
+, <a class="el" href="net_8c.html#aa7dea64173f4e3726607904af526bea3">net.c</a>
 </li>
 <li>fr_net_to_int16
 : <a class="el" href="net_8h.html#a29d07571fd64142bd4dc6436cdd51f76">net.h</a>
@@ -5025,8 +5035,8 @@ $(function() {
 , <a class="el" href="network_8h.html#ae8f5ad34b53dbdaca069e575f83ff3b8">network.h</a>
 </li>
 <li>fr_network_stats()
-: <a class="el" href="network_8h.html#aa882e029e5c946051f773bf255734197">network.h</a>
-, <a class="el" href="network_8c.html#aa882e029e5c946051f773bf255734197">network.c</a>
+: <a class="el" href="network_8c.html#aa882e029e5c946051f773bf255734197">network.c</a>
+, <a class="el" href="network_8h.html#aa882e029e5c946051f773bf255734197">network.h</a>
 </li>
 <li>fr_network_stats_log()
 : <a class="el" href="network_8c.html#aa442bb3b61ddc6beee791d42a02c9137">network.c</a>
@@ -5045,8 +5055,8 @@ $(function() {
 : <a class="el" href="network_8c.html#a814c17bedc62a93f5d2647aa6c9df457">network.c</a>
 </li>
 <li>fr_network_worker_add()
-: <a class="el" href="network_8c.html#a2815d31ae4124c14f95685fb4353e893">network.c</a>
-, <a class="el" href="network_8h.html#a2815d31ae4124c14f95685fb4353e893">network.h</a>
+: <a class="el" href="network_8h.html#a2815d31ae4124c14f95685fb4353e893">network.h</a>
+, <a class="el" href="network_8c.html#a2815d31ae4124c14f95685fb4353e893">network.c</a>
 </li>
 <li>fr_network_worker_started_callback()
 : <a class="el" href="network_8c.html#af9807b2b7f610287b2eaf6a1c70abab8">network.c</a>
@@ -5103,16 +5113,16 @@ $(function() {
 , <a class="el" href="list_8h.html#aec271531758548db79a2cd83ea7dcf00">list.h</a>
 </li>
 <li>fr_packet_list_find()
-: <a class="el" href="list_8h.html#aad8580cc44956214a213e8aa0f1c8f1e">list.h</a>
-, <a class="el" href="list_8c.html#aad8580cc44956214a213e8aa0f1c8f1e">list.c</a>
+: <a class="el" href="list_8c.html#aad8580cc44956214a213e8aa0f1c8f1e">list.c</a>
+, <a class="el" href="list_8h.html#aad8580cc44956214a213e8aa0f1c8f1e">list.h</a>
 </li>
 <li>fr_packet_list_find_byreply()
 : <a class="el" href="list_8c.html#a9cec0cc3b83d11e7c890a0abc5457cfb">list.c</a>
 , <a class="el" href="list_8h.html#a9cec0cc3b83d11e7c890a0abc5457cfb">list.h</a>
 </li>
 <li>fr_packet_list_free()
-: <a class="el" href="list_8c.html#a1807b6ff80aea6e0a25bcaa7ee433638">list.c</a>
-, <a class="el" href="list_8h.html#a1807b6ff80aea6e0a25bcaa7ee433638">list.h</a>
+: <a class="el" href="list_8h.html#a1807b6ff80aea6e0a25bcaa7ee433638">list.h</a>
+, <a class="el" href="list_8c.html#a1807b6ff80aea6e0a25bcaa7ee433638">list.c</a>
 </li>
 <li>fr_packet_list_id_alloc()
 : <a class="el" href="list_8c.html#ad14803293bfe4871cc1a84396aa34f32">list.c</a>
@@ -5135,16 +5145,16 @@ $(function() {
 , <a class="el" href="list_8h.html#a17577b9a2a0b3715907a5aeaed9fbad1">list.h</a>
 </li>
 <li>fr_packet_list_num_outgoing()
-: <a class="el" href="list_8h.html#a1bb578d623a5e117677ebdbdb640e090">list.h</a>
-, <a class="el" href="list_8c.html#a1bb578d623a5e117677ebdbdb640e090">list.c</a>
+: <a class="el" href="list_8c.html#a1bb578d623a5e117677ebdbdb640e090">list.c</a>
+, <a class="el" href="list_8h.html#a1bb578d623a5e117677ebdbdb640e090">list.h</a>
 </li>
 <li>fr_packet_list_recv()
 : <a class="el" href="list_8c.html#ae1c8d736ca4e84162a80f70c6432a5da">list.c</a>
 , <a class="el" href="list_8h.html#ae1c8d736ca4e84162a80f70c6432a5da">list.h</a>
 </li>
 <li>fr_packet_list_socket_add()
-: <a class="el" href="list_8c.html#ac6cef27e9a2c41a15889ccde723d841d">list.c</a>
-, <a class="el" href="list_8h.html#ac6cef27e9a2c41a15889ccde723d841d">list.h</a>
+: <a class="el" href="list_8h.html#ac6cef27e9a2c41a15889ccde723d841d">list.h</a>
+, <a class="el" href="list_8c.html#ac6cef27e9a2c41a15889ccde723d841d">list.c</a>
 </li>
 <li>fr_packet_list_socket_del()
 : <a class="el" href="list_8c.html#a3b6c8921d410d48b9bd8a9d404babd39">list.c</a>
@@ -5177,8 +5187,8 @@ $(function() {
 : <a class="el" href="proto__tacacs_8h.html#a14fac66056c77d22cece203ca843866f">proto_tacacs.h</a>
 </li>
 <li>fr_pair_add()
-: <a class="el" href="pair_8c.html#a7869a79cbea0f296a61340c95a0644ed">pair.c</a>
-, <a class="el" href="util_2pair_8h.html#a783dbe78a74c79e29db535c417f13193">pair.h</a>
+: <a class="el" href="util_2pair_8h.html#a783dbe78a74c79e29db535c417f13193">pair.h</a>
+, <a class="el" href="pair_8c.html#a7869a79cbea0f296a61340c95a0644ed">pair.c</a>
 </li>
 <li>fr_pair_add_by_da()
 : <a class="el" href="pair_8c.html#afa228f226393b123ec8c3472928901c5">pair.c</a>
@@ -5203,8 +5213,8 @@ $(function() {
 : <a class="el" href="pair__tokenize_8c.html#a0844ae57e896d28bf92056d576687dad">pair_tokenize.c</a>
 </li>
 <li>fr_pair_alloc()
-: <a class="el" href="util_2pair_8h.html#ae760eec888755906c0196a13801a53df">pair.h</a>
-, <a class="el" href="pair_8c.html#ae760eec888755906c0196a13801a53df">pair.c</a>
+: <a class="el" href="pair_8c.html#ae760eec888755906c0196a13801a53df">pair.c</a>
+, <a class="el" href="util_2pair_8h.html#ae760eec888755906c0196a13801a53df">pair.h</a>
 </li>
 <li>fr_pair_aprint()
 : <a class="el" href="util_2pair_8h.html#acfe6934363fefdc67e14fc08a205952b">pair.h</a>
@@ -5213,8 +5223,8 @@ $(function() {
 : <a class="el" href="util_2pair_8h.html#af08f1369a97fe51a8d48a51a64d7ecb6">pair.h</a>
 </li>
 <li>fr_pair_children()
-: <a class="el" href="pair_8c.html#aa4eae7211e8cfee65f716596abde088f">pair.c</a>
-, <a class="el" href="util_2pair_8h.html#ae7e77dfb1983b5ccece175bbca80bef2">pair.h</a>
+: <a class="el" href="util_2pair_8h.html#ae7e77dfb1983b5ccece175bbca80bef2">pair.h</a>
+, <a class="el" href="pair_8c.html#aa4eae7211e8cfee65f716596abde088f">pair.c</a>
 </li>
 <li>fr_pair_cmp()
 : <a class="el" href="pair_8c.html#aaf1f898e907f736c2b5c0c0e6f721c22">pair.c</a>
@@ -5317,8 +5327,8 @@ $(function() {
 , <a class="el" href="util_2pair_8h.html#ab30a8556ee3ff651a141d5d089258da1">pair.h</a>
 </li>
 <li>fr_pair_list_cmp()
-: <a class="el" href="pair_8c.html#a0f2cfa0e7b5ca557c88b6c4f9faaa33c">pair.c</a>
-, <a class="el" href="util_2pair_8h.html#a0f2cfa0e7b5ca557c88b6c4f9faaa33c">pair.h</a>
+: <a class="el" href="util_2pair_8h.html#a0f2cfa0e7b5ca557c88b6c4f9faaa33c">pair.h</a>
+, <a class="el" href="pair_8c.html#a0f2cfa0e7b5ca557c88b6c4f9faaa33c">pair.c</a>
 </li>
 <li>fr_pair_list_copy()
 : <a class="el" href="pair_8c.html#a2a3d33934f2f0f91120dfe3f381b500e">pair.c</a>
@@ -5351,8 +5361,8 @@ $(function() {
 , <a class="el" href="pair__legacy_8h.html#a3b38f56ebceba8ee97895b75f12c5d5c">pair_legacy.h</a>
 </li>
 <li>fr_pair_list_sort()
-: <a class="el" href="pair_8c.html#acc50c595dbf119f3e709aa0e60520f61">pair.c</a>
-, <a class="el" href="util_2pair_8h.html#acc50c595dbf119f3e709aa0e60520f61">pair.h</a>
+: <a class="el" href="util_2pair_8h.html#acc50c595dbf119f3e709aa0e60520f61">pair.h</a>
+, <a class="el" href="pair_8c.html#acc50c595dbf119f3e709aa0e60520f61">pair.c</a>
 </li>
 <li>fr_pair_list_t
 : <a class="el" href="util_2pair_8h.html#a514718d592bcc0c3afa871a7617ace21">pair.h</a>
@@ -5377,16 +5387,16 @@ $(function() {
 , <a class="el" href="util_2pair_8h.html#a0097cc708bdcce2f3e36b5ccd876d65a">pair.h</a>
 </li>
 <li>fr_pair_print()
-: <a class="el" href="pair__print_8c.html#a748e31d7aded90939877a4cc567a633f">pair_print.c</a>
-, <a class="el" href="util_2pair_8h.html#a49283a6d73b5d868b3cda79f7006dea6">pair.h</a>
+: <a class="el" href="util_2pair_8h.html#a49283a6d73b5d868b3cda79f7006dea6">pair.h</a>
+, <a class="el" href="pair__print_8c.html#a748e31d7aded90939877a4cc567a633f">pair_print.c</a>
 </li>
 <li>fr_pair_print_value_quoted()
 : <a class="el" href="util_2pair_8h.html#ab697da43c2a96b62dd95e6931525c1ba">pair.h</a>
 , <a class="el" href="pair__print_8c.html#ab697da43c2a96b62dd95e6931525c1ba">pair_print.c</a>
 </li>
 <li>fr_pair_replace()
-: <a class="el" href="pair_8c.html#aa206fd521c1a39b9155074be8d97bee1">pair.c</a>
-, <a class="el" href="util_2pair_8h.html#a450f7af31b17664457b2387749dd5a95">pair.h</a>
+: <a class="el" href="util_2pair_8h.html#a450f7af31b17664457b2387749dd5a95">pair.h</a>
+, <a class="el" href="pair_8c.html#aa206fd521c1a39b9155074be8d97bee1">pair.c</a>
 </li>
 <li>fr_pair_steal()
 : <a class="el" href="pair_8c.html#aa19ccf8fc7acd3ee17f11a4bebba17ae">pair.c</a>
@@ -5443,16 +5453,16 @@ $(function() {
 , <a class="el" href="util_2pair_8h.html#a0e2c1c64964a61a3ee01d72b705bd65c">pair.h</a>
 </li>
 <li>fr_pair_value_bstrndup()
-: <a class="el" href="util_2pair_8h.html#a94b766c393971cb82e7208df7d1d5d95">pair.h</a>
-, <a class="el" href="pair_8c.html#a94b766c393971cb82e7208df7d1d5d95">pair.c</a>
+: <a class="el" href="pair_8c.html#a94b766c393971cb82e7208df7d1d5d95">pair.c</a>
+, <a class="el" href="util_2pair_8h.html#a94b766c393971cb82e7208df7d1d5d95">pair.h</a>
 </li>
 <li>fr_pair_value_bstrndup_shallow()
 : <a class="el" href="pair_8c.html#a5afd5aa4bea97b932bb53ddf006e40d7">pair.c</a>
 , <a class="el" href="util_2pair_8h.html#a5afd5aa4bea97b932bb53ddf006e40d7">pair.h</a>
 </li>
 <li>fr_pair_value_clear()
-: <a class="el" href="pair_8c.html#aa310aed6f1b0c48333278b8aaff5d205">pair.c</a>
-, <a class="el" href="util_2pair_8h.html#aa310aed6f1b0c48333278b8aaff5d205">pair.h</a>
+: <a class="el" href="util_2pair_8h.html#aa310aed6f1b0c48333278b8aaff5d205">pair.h</a>
+, <a class="el" href="pair_8c.html#aa310aed6f1b0c48333278b8aaff5d205">pair.c</a>
 </li>
 <li>fr_pair_value_copy()
 : <a class="el" href="pair_8c.html#ab0e2a5e9420028542c14b0d67532622a">pair.c</a>
@@ -5475,16 +5485,16 @@ $(function() {
 , <a class="el" href="util_2pair_8h.html#acca105c05f80853b59f1e27ad051a610">pair.h</a>
 </li>
 <li>fr_pair_value_mem_append()
-: <a class="el" href="util_2pair_8h.html#a2480ac84c36954a638eae4532af6af50">pair.h</a>
-, <a class="el" href="pair_8c.html#a2480ac84c36954a638eae4532af6af50">pair.c</a>
+: <a class="el" href="pair_8c.html#a2480ac84c36954a638eae4532af6af50">pair.c</a>
+, <a class="el" href="util_2pair_8h.html#a2480ac84c36954a638eae4532af6af50">pair.h</a>
 </li>
 <li>fr_pair_value_mem_append_buffer()
 : <a class="el" href="pair_8c.html#a368d8c317aba7d5eb0f164153a4eccdb">pair.c</a>
 , <a class="el" href="util_2pair_8h.html#a368d8c317aba7d5eb0f164153a4eccdb">pair.h</a>
 </li>
 <li>fr_pair_value_mem_realloc()
-: <a class="el" href="pair_8c.html#a8d2fb71cdba45f614e6fdaf4baa2a8a0">pair.c</a>
-, <a class="el" href="util_2pair_8h.html#a8d2fb71cdba45f614e6fdaf4baa2a8a0">pair.h</a>
+: <a class="el" href="util_2pair_8h.html#a8d2fb71cdba45f614e6fdaf4baa2a8a0">pair.h</a>
+, <a class="el" href="pair_8c.html#a8d2fb71cdba45f614e6fdaf4baa2a8a0">pair.c</a>
 </li>
 <li>fr_pair_value_memdup()
 : <a class="el" href="pair_8c.html#ad6a4af5aec8fe8bac9db2211ae354989">pair.c</a>
@@ -5507,16 +5517,16 @@ $(function() {
 , <a class="el" href="util_2pair_8h.html#a3bc715c52b2a89a8eafe08a6b01ec53e">pair.h</a>
 </li>
 <li>fr_pair_value_strdup_shallow()
-: <a class="el" href="util_2pair_8h.html#aed4afba9ef936561d13b3eb58a7f37db">pair.h</a>
-, <a class="el" href="pair_8c.html#aed4afba9ef936561d13b3eb58a7f37db">pair.c</a>
+: <a class="el" href="pair_8c.html#aed4afba9ef936561d13b3eb58a7f37db">pair.c</a>
+, <a class="el" href="util_2pair_8h.html#aed4afba9ef936561d13b3eb58a7f37db">pair.h</a>
 </li>
 <li>fr_pair_value_strtrim()
 : <a class="el" href="pair_8c.html#ace59136be6a781efb8a72523806c7e19">pair.c</a>
 , <a class="el" href="util_2pair_8h.html#ace59136be6a781efb8a72523806c7e19">pair.h</a>
 </li>
 <li>fr_panic_on_free()
-: <a class="el" href="lib_2util_2debug_8c.html#ac10df381e71462e8d9eb4d8416f9c93b">debug.c</a>
-, <a class="el" href="debug_8h.html#ac10df381e71462e8d9eb4d8416f9c93b">debug.h</a>
+: <a class="el" href="debug_8h.html#ac10df381e71462e8d9eb4d8416f9c93b">debug.h</a>
+, <a class="el" href="lib_2util_2debug_8c.html#ac10df381e71462e8d9eb4d8416f9c93b">debug.c</a>
 </li>
 <li>fr_path_default_lib_dir()
 : <a class="el" href="paths_8c.html#ae525acccb2963b18e9766eacdf793664">paths.c</a>
@@ -5539,8 +5549,8 @@ $(function() {
 , <a class="el" href="paths_8h.html#ad16612e70cc10376400cd782f2f6233f">paths.h</a>
 </li>
 <li>fr_path_default_sbin_dir()
-: <a class="el" href="paths_8h.html#aed7d78af7d11cfa11b425b14f76511b9">paths.h</a>
-, <a class="el" href="paths_8c.html#aed7d78af7d11cfa11b425b14f76511b9">paths.c</a>
+: <a class="el" href="paths_8c.html#aed7d78af7d11cfa11b425b14f76511b9">paths.c</a>
+, <a class="el" href="paths_8h.html#aed7d78af7d11cfa11b425b14f76511b9">paths.h</a>
 </li>
 <li>FR_PEAP_EXTENSIONS_TYPE
 : <a class="el" href="eap__peap_8h.html#a70b0dac899b8bf8f90a5213599a512a8">eap_peap.h</a>
@@ -5575,8 +5585,8 @@ $(function() {
 , <a class="el" href="pool_8h.html#af1511bb1bd5b110243f5e53e9188e3dd">pool.h</a>
 </li>
 <li>fr_pool_connection_release()
-: <a class="el" href="pool_8h.html#a350d125044416cf2309470d9d6a43a3f">pool.h</a>
-, <a class="el" href="pool_8c.html#a350d125044416cf2309470d9d6a43a3f">pool.c</a>
+: <a class="el" href="pool_8c.html#a350d125044416cf2309470d9d6a43a3f">pool.c</a>
+, <a class="el" href="pool_8h.html#a350d125044416cf2309470d9d6a43a3f">pool.h</a>
 </li>
 <li>fr_pool_connection_t
 : <a class="el" href="pool_8c.html#a4249f5c48884639bd0769ca6dae8e19e">pool.c</a>
@@ -5617,8 +5627,8 @@ $(function() {
 , <a class="el" href="pool_8h.html#a574d50913d2908715785fdf4ec02135b">pool.h</a>
 </li>
 <li>fr_pool_start()
-: <a class="el" href="pool_8c.html#a0c11a25b05c71aab4392cb778959e7ce">pool.c</a>
-, <a class="el" href="pool_8h.html#a0c11a25b05c71aab4392cb778959e7ce">pool.h</a>
+: <a class="el" href="pool_8h.html#a0c11a25b05c71aab4392cb778959e7ce">pool.h</a>
+, <a class="el" href="pool_8c.html#a0c11a25b05c71aab4392cb778959e7ce">pool.c</a>
 </li>
 <li>fr_pool_start_num()
 : <a class="el" href="pool_8c.html#ac4a0f06af3da27c3af69883544ddd6a7">pool.c</a>
@@ -5697,8 +5707,8 @@ $(function() {
 : <a class="el" href="io_2proto_8h.html#a70c58f5f830f8c428d45ee4166c34d83">proto.h</a>
 </li>
 <li>fr_proto_print()
-: <a class="el" href="proto_8c.html#a1426976bb0b9036cebe5a3412c5deef6">proto.c</a>
-, <a class="el" href="util_2proto_8h.html#a27d1c83c34ca258a0519cbd23098a560">proto.h</a>
+: <a class="el" href="util_2proto_8h.html#a27d1c83c34ca258a0519cbd23098a560">proto.h</a>
+, <a class="el" href="proto_8c.html#a1426976bb0b9036cebe5a3412c5deef6">proto.c</a>
 </li>
 <li>fr_proto_print_hex_data()
 : <a class="el" href="proto_8c.html#aebfc21addeef4eb737091a5676df9d47">proto.c</a>
@@ -5759,16 +5769,16 @@ $(function() {
 : <a class="el" href="queue_8h.html#abe7a8972d9857ffb53ce3fb7f9507332">queue.h</a>
 </li>
 <li>fr_quick_sort()
-: <a class="el" href="misc_8h.html#aa700147da2cd863b3b301c6377d0783a">misc.h</a>
-, <a class="el" href="misc_8c.html#a9add7a60fac67061c3b8416ba9e4a154">misc.c</a>
+: <a class="el" href="misc_8c.html#a9add7a60fac67061c3b8416ba9e4a154">misc.c</a>
+, <a class="el" href="misc_8h.html#aa700147da2cd863b3b301c6377d0783a">misc.h</a>
 </li>
 <li>fr_radius_alloc()
 : <a class="el" href="lib_2util_2packet_8c.html#a423eb650322af201d32466ae0c6a6c10">packet.c</a>
 , <a class="el" href="packet_8h.html#a423eb650322af201d32466ae0c6a6c10">packet.h</a>
 </li>
 <li>fr_radius_alloc_reply()
-: <a class="el" href="lib_2util_2packet_8c.html#af745bdbc1fe4fc5793a0834b1bcb0a5c">packet.c</a>
-, <a class="el" href="packet_8h.html#a1d65bbd0f2ecb3da43a3645c59c170d8">packet.h</a>
+: <a class="el" href="packet_8h.html#a1d65bbd0f2ecb3da43a3645c59c170d8">packet.h</a>
+, <a class="el" href="lib_2util_2packet_8c.html#af745bdbc1fe4fc5793a0834b1bcb0a5c">packet.c</a>
 </li>
 <li>fr_radius_ascend_secret()
 : <a class="el" href="protocols_2radius_2base_8c.html#aa972e523db3f4b43c64e10a17b95a555">base.c</a>
@@ -5791,16 +5801,16 @@ $(function() {
 , <a class="el" href="radius_8h.html#a29d426e8b2a05a85d52fa22c44245129">radius.h</a>
 </li>
 <li>fr_radius_decode_pair()
-: <a class="el" href="radius_8h.html#ae6e7e4b9f857f23ac58b49b79ac2ccc3">radius.h</a>
-, <a class="el" href="protocols_2radius_2decode_8c.html#ae6e7e4b9f857f23ac58b49b79ac2ccc3">decode.c</a>
+: <a class="el" href="protocols_2radius_2decode_8c.html#ae6e7e4b9f857f23ac58b49b79ac2ccc3">decode.c</a>
+, <a class="el" href="radius_8h.html#ae6e7e4b9f857f23ac58b49b79ac2ccc3">radius.h</a>
 </li>
 <li>fr_radius_decode_pair_value()
 : <a class="el" href="protocols_2radius_2decode_8c.html#a5ca6d6bed4ea3d0e2762db9fbc0b3b4f">decode.c</a>
 , <a class="el" href="radius_8h.html#a5ca6d6bed4ea3d0e2762db9fbc0b3b4f">radius.h</a>
 </li>
 <li>fr_radius_decode_password()
-: <a class="el" href="protocols_2radius_2decode_8c.html#a8a479a1d253ab593bd344e6b670fdf9e">decode.c</a>
-, <a class="el" href="radius_8h.html#aa08ef5bfe43ee42712b3f0aac2335789">radius.h</a>
+: <a class="el" href="radius_8h.html#aa08ef5bfe43ee42712b3f0aac2335789">radius.h</a>
+, <a class="el" href="protocols_2radius_2decode_8c.html#a8a479a1d253ab593bd344e6b670fdf9e">decode.c</a>
 </li>
 <li>fr_radius_decode_proto()
 : <a class="el" href="protocols_2radius_2decode_8c.html#a83feb9e31e229433d647011e12ed088b">decode.c</a>
@@ -5891,16 +5901,16 @@ $(function() {
 , <a class="el" href="radius_8h.html#a026f4474249fa86e15a02df8072be844">radius.h</a>
 </li>
 <li>fr_radius_packet_verify()
-: <a class="el" href="radius_8h.html#a389f41707f73bc23bd3a1fa7cb5c1243">radius.h</a>
-, <a class="el" href="protocols_2radius_2packet_8c.html#a62ee6ec159c0fd1fb1f83fed3590a2bc">packet.c</a>
+: <a class="el" href="protocols_2radius_2packet_8c.html#a62ee6ec159c0fd1fb1f83fed3590a2bc">packet.c</a>
+, <a class="el" href="radius_8h.html#a389f41707f73bc23bd3a1fa7cb5c1243">radius.h</a>
 </li>
 <li>fr_radius_recv_header()
 : <a class="el" href="protocols_2radius_2base_8c.html#af421516687e8cfeec719759049dd047e">base.c</a>
 , <a class="el" href="radius_8h.html#af421516687e8cfeec719759049dd047e">radius.h</a>
 </li>
 <li>fr_radius_sign()
-: <a class="el" href="protocols_2radius_2base_8c.html#ac9593081313e907a61f8b286e04511d2">base.c</a>
-, <a class="el" href="radius_8h.html#a51221fafc643870f9bbcf7c555445ebf">radius.h</a>
+: <a class="el" href="radius_8h.html#a51221fafc643870f9bbcf7c555445ebf">radius.h</a>
+, <a class="el" href="protocols_2radius_2base_8c.html#ac9593081313e907a61f8b286e04511d2">base.c</a>
 </li>
 <li>FR_RADIUS_TLS_PORT
 : <a class="el" href="defs_8h.html#a529bc06aa25f8fe90d9413484ffb2098">defs.h</a>
@@ -5984,8 +5994,8 @@ $(function() {
 , <a class="el" href="cluster_8c.html#a9e404a7e34498f81c83423409b7b8431">cluster.c</a>
 </li>
 <li>fr_redis_cluster_ipaddr()
-: <a class="el" href="cluster_8h.html#aeedf2e38865249fdff93e0a898742b35">cluster.h</a>
-, <a class="el" href="cluster_8c.html#aeedf2e38865249fdff93e0a898742b35">cluster.c</a>
+: <a class="el" href="cluster_8c.html#aeedf2e38865249fdff93e0a898742b35">cluster.c</a>
+, <a class="el" href="cluster_8h.html#aeedf2e38865249fdff93e0a898742b35">cluster.h</a>
 </li>
 <li>fr_redis_cluster_key_slot_t
 : <a class="el" href="cluster_8h.html#a7daa2ec0fc27ec191190b81e5011a8f0">cluster.h</a>
@@ -5999,15 +6009,15 @@ $(function() {
 , <a class="el" href="cluster_8c.html#af8c5c4a9b4dc3226e00bdb9f4fb10b69">cluster.c</a>
 </li>
 <li>fr_redis_cluster_node_addr_by_role()
-: <a class="el" href="cluster_8c.html#a872442e42a59159dd9af849d8716d290">cluster.c</a>
-, <a class="el" href="cluster_8h.html#a872442e42a59159dd9af849d8716d290">cluster.h</a>
+: <a class="el" href="cluster_8h.html#a872442e42a59159dd9af849d8716d290">cluster.h</a>
+, <a class="el" href="cluster_8c.html#a872442e42a59159dd9af849d8716d290">cluster.c</a>
 </li>
 <li>fr_redis_cluster_node_t
 : <a class="el" href="cluster_8h.html#afa295141a98a145058945943353354b5">cluster.h</a>
 </li>
 <li>fr_redis_cluster_pool_by_node_addr()
-: <a class="el" href="cluster_8h.html#a9b5a2a604f3debf26f9ec7a937cbaf14">cluster.h</a>
-, <a class="el" href="cluster_8c.html#a7eb8f6d14fe9d19bc3caae6c17cd3b21">cluster.c</a>
+: <a class="el" href="cluster_8c.html#a7eb8f6d14fe9d19bc3caae6c17cd3b21">cluster.c</a>
+, <a class="el" href="cluster_8h.html#a9b5a2a604f3debf26f9ec7a937cbaf14">cluster.h</a>
 </li>
 <li>fr_redis_cluster_port()
 : <a class="el" href="cluster_8c.html#a94d038e46a3e83f191ad84151b98c256">cluster.c</a>
@@ -6036,12 +6046,12 @@ $(function() {
 , <a class="el" href="cluster_8h.html#ae22455c185445898e1c4140ee6cfaa74">cluster.h</a>
 </li>
 <li>fr_redis_cluster_rcodes_table_len
-: <a class="el" href="cluster_8c.html#a8db82bbe86710d10b015b9f9164fea00">cluster.c</a>
-, <a class="el" href="cluster_8h.html#a8db82bbe86710d10b015b9f9164fea00">cluster.h</a>
+: <a class="el" href="cluster_8h.html#a8db82bbe86710d10b015b9f9164fea00">cluster.h</a>
+, <a class="el" href="cluster_8c.html#a8db82bbe86710d10b015b9f9164fea00">cluster.c</a>
 </li>
 <li>fr_redis_cluster_remap()
-: <a class="el" href="cluster_8h.html#ab17f60095577fae39f1d708d92536594">cluster.h</a>
-, <a class="el" href="cluster_8c.html#ab17f60095577fae39f1d708d92536594">cluster.c</a>
+: <a class="el" href="cluster_8c.html#ab17f60095577fae39f1d708d92536594">cluster.c</a>
+, <a class="el" href="cluster_8h.html#ab17f60095577fae39f1d708d92536594">cluster.h</a>
 </li>
 <li>fr_redis_cluster_slave()
 : <a class="el" href="cluster_8c.html#ab8f0983a06fb5e19bf1e34b60f68aada">cluster.c</a>
@@ -6052,8 +6062,8 @@ $(function() {
 , <a class="el" href="cluster_8h.html#a42089316968a1f9599a92ae67dd79ee5">cluster.h</a>
 </li>
 <li>fr_redis_cluster_state_init()
-: <a class="el" href="cluster_8c.html#ac292207b4d5816986eb8e4457791b491">cluster.c</a>
-, <a class="el" href="cluster_8h.html#ac292207b4d5816986eb8e4457791b491">cluster.h</a>
+: <a class="el" href="cluster_8h.html#ac292207b4d5816986eb8e4457791b491">cluster.h</a>
+, <a class="el" href="cluster_8c.html#ac292207b4d5816986eb8e4457791b491">cluster.c</a>
 </li>
 <li>fr_redis_cluster_state_next()
 : <a class="el" href="cluster_8c.html#a02e48068a3e77ab228e414708b5543ee">cluster.c</a>
@@ -6070,8 +6080,8 @@ $(function() {
 : <a class="el" href="pipeline_8h.html#a9ce40fb4c884b7626f70bd15d10a897b">pipeline.h</a>
 </li>
 <li>fr_redis_command_get_result()
-: <a class="el" href="pipeline_8c.html#a8ec74e22ce841b28334ee5db18d5974d">pipeline.c</a>
-, <a class="el" href="pipeline_8h.html#a8ec74e22ce841b28334ee5db18d5974d">pipeline.h</a>
+: <a class="el" href="pipeline_8h.html#a8ec74e22ce841b28334ee5db18d5974d">pipeline.h</a>
+, <a class="el" href="pipeline_8c.html#a8ec74e22ce841b28334ee5db18d5974d">pipeline.c</a>
 </li>
 <li>FR_REDIS_COMMAND_NORMAL
 : <a class="el" href="pipeline_8c.html#ad8e1034cf401b825bb292cae35d209c9ac5b19644228bfe7c9a1074b9ca47e906">pipeline.c</a>
@@ -6110,8 +6120,8 @@ $(function() {
 : <a class="el" href="pipeline_8c.html#ad8e1034cf401b825bb292cae35d209c9">pipeline.c</a>
 </li>
 <li>fr_redis_connection_alloc()
-: <a class="el" href="lib_2redis_2io_8c.html#ae4f5cab619d8b2e0623d904dfcd82789">io.c</a>
-, <a class="el" href="lib_2redis_2io_8h.html#ae4f5cab619d8b2e0623d904dfcd82789">io.h</a>
+: <a class="el" href="lib_2redis_2io_8h.html#ae4f5cab619d8b2e0623d904dfcd82789">io.h</a>
+, <a class="el" href="lib_2redis_2io_8c.html#ae4f5cab619d8b2e0623d904dfcd82789">io.c</a>
 </li>
 <li>fr_redis_connection_get_async_ctx()
 : <a class="el" href="lib_2redis_2io_8h.html#a457fec40af8f2e36a0f1c728cfd64c6f">io.h</a>
@@ -6165,23 +6175,23 @@ $(function() {
 : <a class="el" href="redis_2base_8h.html#a782179a40a4afcd30de56e7f803f9ae6">base.h</a>
 </li>
 <li>fr_redis_reply_print()
-: <a class="el" href="redis_2base_8h.html#a6724426668143b733c8b8460f2635f41">base.h</a>
-, <a class="el" href="redis_8c.html#a6724426668143b733c8b8460f2635f41">redis.c</a>
+: <a class="el" href="redis_8c.html#a6724426668143b733c8b8460f2635f41">redis.c</a>
+, <a class="el" href="redis_2base_8h.html#a6724426668143b733c8b8460f2635f41">base.h</a>
 </li>
 <li>fr_redis_reply_to_map()
 : <a class="el" href="redis_8c.html#a8dd8eb64121085c2fa006cfa0e9bbee3">redis.c</a>
 , <a class="el" href="redis_2base_8h.html#a8dd8eb64121085c2fa006cfa0e9bbee3">base.h</a>
 </li>
 <li>fr_redis_reply_to_value_box()
-: <a class="el" href="redis_8c.html#aa13699b4e785d39a92e4af83cf2c1d64">redis.c</a>
-, <a class="el" href="redis_2base_8h.html#aa13699b4e785d39a92e4af83cf2c1d64">base.h</a>
+: <a class="el" href="redis_2base_8h.html#aa13699b4e785d39a92e4af83cf2c1d64">base.h</a>
+, <a class="el" href="redis_8c.html#aa13699b4e785d39a92e4af83cf2c1d64">redis.c</a>
 </li>
 <li>fr_redis_sqn_t
 : <a class="el" href="lib_2redis_2io_8h.html#afc9e16fe9e305286e902535ec83deef4">io.h</a>
 </li>
 <li>fr_redis_trunk_alloc()
-: <a class="el" href="pipeline_8h.html#a1783c8caef2ebedfab3e0886489b322c">pipeline.h</a>
-, <a class="el" href="pipeline_8c.html#ae98795609690b6e55760156dce21921b">pipeline.c</a>
+: <a class="el" href="pipeline_8c.html#ae98795609690b6e55760156dce21921b">pipeline.c</a>
+, <a class="el" href="pipeline_8h.html#a1783c8caef2ebedfab3e0886489b322c">pipeline.h</a>
 </li>
 <li>fr_redis_trunk_t
 : <a class="el" href="pipeline_8h.html#a9dc83c13ea3495384ad6d3bba7bf3161">pipeline.h</a>
@@ -6214,16 +6224,16 @@ $(function() {
 : <a class="el" href="request_8h.html#a1a487e5ea5c523dc1e1211215656c791">request.h</a>
 </li>
 <li>fr_request_to_state()
-: <a class="el" href="state_8h.html#a28a23259be19ac3934fe8b11bfcb33e7">state.h</a>
-, <a class="el" href="server_2state_8c.html#a28a23259be19ac3934fe8b11bfcb33e7">state.c</a>
+: <a class="el" href="server_2state_8c.html#a28a23259be19ac3934fe8b11bfcb33e7">state.c</a>
+, <a class="el" href="state_8h.html#a28a23259be19ac3934fe8b11bfcb33e7">state.h</a>
 </li>
 <li>fr_request_types
 : <a class="el" href="protocols_2radius_2base_8c.html#af87ac01e6843b1e729a67239ddd243f1">base.c</a>
 , <a class="el" href="radius_8h.html#af87ac01e6843b1e729a67239ddd243f1">radius.h</a>
 </li>
 <li>fr_request_types_len
-: <a class="el" href="protocols_2radius_2base_8c.html#a3867e335904784b9c45e36936b71bd21">base.c</a>
-, <a class="el" href="radius_8h.html#a3867e335904784b9c45e36936b71bd21">radius.h</a>
+: <a class="el" href="radius_8h.html#a3867e335904784b9c45e36936b71bd21">radius.h</a>
+, <a class="el" href="protocols_2radius_2base_8c.html#a3867e335904784b9c45e36936b71bd21">base.c</a>
 </li>
 <li>fr_reset_dumpable()
 : <a class="el" href="lib_2util_2debug_8c.html#a6a5107a97aa0aa4e624fff54ee62ea0c">debug.c</a>
@@ -6243,23 +6253,23 @@ $(function() {
 : <a class="el" href="retry_8h.html#aaaaa88f6c1845a343ba3230f4f551b73ad51b0555f508750cc7177a192dc417e7">retry.h</a>
 </li>
 <li>fr_retry_next()
-: <a class="el" href="retry_8c.html#a032142df3cf21e868bdd2791742618ac">retry.c</a>
-, <a class="el" href="retry_8h.html#a032142df3cf21e868bdd2791742618ac">retry.h</a>
+: <a class="el" href="retry_8h.html#a032142df3cf21e868bdd2791742618ac">retry.h</a>
+, <a class="el" href="retry_8c.html#a032142df3cf21e868bdd2791742618ac">retry.c</a>
 </li>
 <li>fr_retry_state_t
 : <a class="el" href="retry_8h.html#aaaaa88f6c1845a343ba3230f4f551b73">retry.h</a>
 </li>
 <li>fr_reverse_lookups
-: <a class="el" href="inet_8h.html#ae74831aaa8e6d49e0a88b2c672942fa0">inet.h</a>
-, <a class="el" href="inet_8c.html#ae74831aaa8e6d49e0a88b2c672942fa0">inet.c</a>
+: <a class="el" href="inet_8c.html#ae74831aaa8e6d49e0a88b2c672942fa0">inet.c</a>
+, <a class="el" href="inet_8h.html#ae74831aaa8e6d49e0a88b2c672942fa0">inet.h</a>
 </li>
 <li>fr_ring_buffer_alloc()
 : <a class="el" href="ring__buffer_8c.html#afe34757eeacef130cc6c6b7ee810f815">ring_buffer.c</a>
 , <a class="el" href="ring__buffer_8h.html#afe34757eeacef130cc6c6b7ee810f815">ring_buffer.h</a>
 </li>
 <li>fr_ring_buffer_close()
-: <a class="el" href="ring__buffer_8c.html#acaec6bac38f8f2f0143aa9be16e452a5">ring_buffer.c</a>
-, <a class="el" href="ring__buffer_8h.html#acaec6bac38f8f2f0143aa9be16e452a5">ring_buffer.h</a>
+: <a class="el" href="ring__buffer_8h.html#acaec6bac38f8f2f0143aa9be16e452a5">ring_buffer.h</a>
+, <a class="el" href="ring__buffer_8c.html#acaec6bac38f8f2f0143aa9be16e452a5">ring_buffer.c</a>
 </li>
 <li>fr_ring_buffer_create()
 : <a class="el" href="ring__buffer_8h.html#a591806571da212855676ba71c75c790c">ring_buffer.h</a>
@@ -6274,16 +6284,16 @@ $(function() {
 , <a class="el" href="ring__buffer_8h.html#aca804d66bd8949c6c8c0e1830683090e">ring_buffer.h</a>
 </li>
 <li>fr_ring_buffer_reserve()
-: <a class="el" href="ring__buffer_8c.html#a8834a2b2c4f7fcbc362590bdf82e7bf8">ring_buffer.c</a>
-, <a class="el" href="ring__buffer_8h.html#a8834a2b2c4f7fcbc362590bdf82e7bf8">ring_buffer.h</a>
+: <a class="el" href="ring__buffer_8h.html#a8834a2b2c4f7fcbc362590bdf82e7bf8">ring_buffer.h</a>
+, <a class="el" href="ring__buffer_8c.html#a8834a2b2c4f7fcbc362590bdf82e7bf8">ring_buffer.c</a>
 </li>
 <li>fr_ring_buffer_reserve_split()
 : <a class="el" href="ring__buffer_8c.html#af2de037247f8723f02e442a826c543bf">ring_buffer.c</a>
 , <a class="el" href="ring__buffer_8h.html#af2de037247f8723f02e442a826c543bf">ring_buffer.h</a>
 </li>
 <li>fr_ring_buffer_size()
-: <a class="el" href="ring__buffer_8h.html#aeda03b2b446562da1c5f0b2164e8c21a">ring_buffer.h</a>
-, <a class="el" href="ring__buffer_8c.html#aeda03b2b446562da1c5f0b2164e8c21a">ring_buffer.c</a>
+: <a class="el" href="ring__buffer_8c.html#aeda03b2b446562da1c5f0b2164e8c21a">ring_buffer.c</a>
+, <a class="el" href="ring__buffer_8h.html#aeda03b2b446562da1c5f0b2164e8c21a">ring_buffer.h</a>
 </li>
 <li>fr_ring_buffer_start()
 : <a class="el" href="ring__buffer_8c.html#af18c99fa2ebc5a6e3cdb263c064b080e">ring_buffer.c</a>
@@ -6293,8 +6303,8 @@ $(function() {
 : <a class="el" href="ring__buffer_8h.html#a8755ab6ea21ed8159e8a17b4c3c70bf6">ring_buffer.h</a>
 </li>
 <li>fr_ring_buffer_used()
-: <a class="el" href="ring__buffer_8c.html#acdecd6b0ab63bb0a57dcfc59f45d02a8">ring_buffer.c</a>
-, <a class="el" href="ring__buffer_8h.html#acdecd6b0ab63bb0a57dcfc59f45d02a8">ring_buffer.h</a>
+: <a class="el" href="ring__buffer_8h.html#acdecd6b0ab63bb0a57dcfc59f45d02a8">ring_buffer.h</a>
+, <a class="el" href="ring__buffer_8c.html#acdecd6b0ab63bb0a57dcfc59f45d02a8">ring_buffer.c</a>
 </li>
 <li>fr_sbuff_adv_past_allowed()
 : <a class="el" href="sbuff_8c.html#a9d67ee63aa80b5965f03c368b88e1a59">sbuff.c</a>
@@ -6602,8 +6612,8 @@ $(function() {
 , <a class="el" href="schedule_8c.html#a99eb52b7c63ee4ef80f51e0fffb63762">schedule.c</a>
 </li>
 <li>fr_schedule_t
-: <a class="el" href="schedule_8h.html#a15b6ea2fa705b9b314a10ed85c3f7a60">schedule.h</a>
-, <a class="el" href="application_8h.html#a15b6ea2fa705b9b314a10ed85c3f7a60">application.h</a>
+: <a class="el" href="application_8h.html#a15b6ea2fa705b9b314a10ed85c3f7a60">application.h</a>
+, <a class="el" href="schedule_8h.html#a15b6ea2fa705b9b314a10ed85c3f7a60">schedule.h</a>
 </li>
 <li>fr_schedule_thread_detach_t
 : <a class="el" href="schedule_8h.html#a64292760a81f1c7920abd46e6cecd713">schedule.h</a>
@@ -6640,16 +6650,16 @@ $(function() {
 , <a class="el" href="misc_8c.html#a0ef44c7d8222a02c6fd736929d0662f2">misc.c</a>
 </li>
 <li>fr_sha1_final()
-: <a class="el" href="sha1_8h.html#ac30f8f8327c1ad40ac39db3815c42a88">sha1.h</a>
-, <a class="el" href="sha1_8c.html#ac30f8f8327c1ad40ac39db3815c42a88">sha1.c</a>
+: <a class="el" href="sha1_8c.html#ac30f8f8327c1ad40ac39db3815c42a88">sha1.c</a>
+, <a class="el" href="sha1_8h.html#ac30f8f8327c1ad40ac39db3815c42a88">sha1.h</a>
 </li>
 <li>fr_sha1_final_no_len()
 : <a class="el" href="sha1_8h.html#aac0480c878c48438ce411c8a39fafbe4">sha1.h</a>
 , <a class="el" href="sha1_8c.html#aac0480c878c48438ce411c8a39fafbe4">sha1.c</a>
 </li>
 <li>fr_sha1_init()
-: <a class="el" href="sha1_8c.html#a6f99dd2d17ce3146fa0f24b51bdfd601">sha1.c</a>
-, <a class="el" href="sha1_8h.html#a6f99dd2d17ce3146fa0f24b51bdfd601">sha1.h</a>
+: <a class="el" href="sha1_8h.html#a6f99dd2d17ce3146fa0f24b51bdfd601">sha1.h</a>
+, <a class="el" href="sha1_8c.html#a6f99dd2d17ce3146fa0f24b51bdfd601">sha1.c</a>
 </li>
 <li>fr_sha1_transform()
 : <a class="el" href="sha1_8h.html#afde532586aad31a6b9db528bb1d34768">sha1.h</a>
@@ -6825,8 +6835,8 @@ $(function() {
 : <a class="el" href="util_2socket_8h.html#af8e6ecc9f4fd9b6c5aab49f0404b1ae0">socket.h</a>
 </li>
 <li>fr_socket_bind()
-: <a class="el" href="util_2socket_8h.html#ae4d7ec7c2b8f839a3a66e864d95f046d">socket.h</a>
-, <a class="el" href="socket_8c.html#acca26db930ededbe9cd8a212773673b9">socket.c</a>
+: <a class="el" href="socket_8c.html#acca26db930ededbe9cd8a212773673b9">socket.c</a>
+, <a class="el" href="util_2socket_8h.html#ae4d7ec7c2b8f839a3a66e864d95f046d">socket.h</a>
 </li>
 <li>fr_socket_client_tcp()
 : <a class="el" href="socket_8c.html#af9431bac87dba0fce4119b6cdabaa54d">socket.c</a>
@@ -6909,8 +6919,8 @@ $(function() {
 : <a class="el" href="state_8h.html#abc2bfb95d732c4bbecfea2db27466365">state.h</a>
 </li>
 <li>fr_stats_bins()
-: <a class="el" href="stats_8c.html#a59be5ec24837bb2850a829a666dc7e79">stats.c</a>
-, <a class="el" href="stats_8h.html#a59be5ec24837bb2850a829a666dc7e79">stats.h</a>
+: <a class="el" href="stats_8h.html#a59be5ec24837bb2850a829a666dc7e79">stats.h</a>
+, <a class="el" href="stats_8c.html#a59be5ec24837bb2850a829a666dc7e79">stats.c</a>
 </li>
 <li>FR_STATS_INC
 : <a class="el" href="stats_8h.html#a3a28edf72424201268985f77d6a9c207">stats.h</a>
@@ -6941,8 +6951,8 @@ $(function() {
 , <a class="el" href="token_8c.html#a2bdc2d46b2b3956719c5da4b9a8d2ec4">token.c</a>
 </li>
 <li>fr_strerror()
-: <a class="el" href="strerror_8h.html#a83ee876ee41b1ae672dc4dcda4f02a2e">strerror.h</a>
-, <a class="el" href="strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e">strerror.c</a>
+: <a class="el" href="strerror_8c.html#a83ee876ee41b1ae672dc4dcda4f02a2e">strerror.c</a>
+, <a class="el" href="strerror_8h.html#a83ee876ee41b1ae672dc4dcda4f02a2e">strerror.h</a>
 </li>
 <li>fr_strerror_buffer
 : <a class="el" href="strerror_8c.html#ab1de4bec452366117fcf31d5aae245f2">strerror.c</a>
@@ -6969,24 +6979,24 @@ $(function() {
 , <a class="el" href="strerror_8c.html#a4bdc99630960307e43639975cd3c5f0d">strerror.c</a>
 </li>
 <li>fr_strerror_marker_printf()
-: <a class="el" href="strerror_8c.html#a36c9e37efc22e1908fbabb6e8bdc0853">strerror.c</a>
-, <a class="el" href="strerror_8h.html#ac9455cb3770fcb92fe60232f53d3c08c">strerror.h</a>
+: <a class="el" href="strerror_8h.html#ac9455cb3770fcb92fe60232f53d3c08c">strerror.h</a>
+, <a class="el" href="strerror_8c.html#a36c9e37efc22e1908fbabb6e8bdc0853">strerror.c</a>
 </li>
 <li>fr_strerror_marker_printf_push()
 : <a class="el" href="strerror_8h.html#a8128c9e7b101188779914f073b664555">strerror.h</a>
 , <a class="el" href="strerror_8c.html#abe4335599089f0ffaac3d8330c31e970">strerror.c</a>
 </li>
 <li>fr_strerror_peek()
-: <a class="el" href="strerror_8h.html#a42bd4565189da9050f982e18760a8f3d">strerror.h</a>
-, <a class="el" href="strerror_8c.html#a42bd4565189da9050f982e18760a8f3d">strerror.c</a>
+: <a class="el" href="strerror_8c.html#a42bd4565189da9050f982e18760a8f3d">strerror.c</a>
+, <a class="el" href="strerror_8h.html#a42bd4565189da9050f982e18760a8f3d">strerror.h</a>
 </li>
 <li>fr_strerror_pop()
 : <a class="el" href="strerror_8h.html#a996086d391b19bd9eac3844732711129">strerror.h</a>
 , <a class="el" href="strerror_8c.html#a996086d391b19bd9eac3844732711129">strerror.c</a>
 </li>
 <li>fr_strerror_printf()
-: <a class="el" href="strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8">strerror.c</a>
-, <a class="el" href="strerror_8h.html#a5a6ff85d88b5c7b39a3c83e3fabb704c">strerror.h</a>
+: <a class="el" href="strerror_8h.html#a5a6ff85d88b5c7b39a3c83e3fabb704c">strerror.h</a>
+, <a class="el" href="strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8">strerror.c</a>
 </li>
 <li>fr_strerror_printf_push()
 : <a class="el" href="strerror_8h.html#a887bc030c49e70c0e7a5f1485d02bf10">strerror.h</a>
@@ -7003,8 +7013,8 @@ $(function() {
 , <a class="el" href="misc_8c.html#a788c011cf6b930da031d08b6887555f6">misc.c</a>
 </li>
 <li>fr_strtoull()
-: <a class="el" href="misc_8c.html#a0818b983de020c0b302d10e80b4aa2e0">misc.c</a>
-, <a class="el" href="misc_8h.html#a0818b983de020c0b302d10e80b4aa2e0">misc.h</a>
+: <a class="el" href="misc_8h.html#a0818b983de020c0b302d10e80b4aa2e0">misc.h</a>
+, <a class="el" href="misc_8c.html#a0818b983de020c0b302d10e80b4aa2e0">misc.c</a>
 </li>
 <li>fr_struct_from_network()
 : <a class="el" href="struct_8h.html#aef2072f9228265077b21b9d5e52b7726">struct.h</a>
@@ -7353,8 +7363,8 @@ $(function() {
 : <a class="el" href="tacacs_8h.html#af03cb52f55d1f7308102c591773e35c7">tacacs.h</a>
 </li>
 <li>fr_tacacs_body_xor()
-: <a class="el" href="protocols_2tacacs_2base_8c.html#a0a47d478d72923f9ee9d45cfa4074325">base.c</a>
-, <a class="el" href="tacacs_8h.html#a0a47d478d72923f9ee9d45cfa4074325">tacacs.h</a>
+: <a class="el" href="tacacs_8h.html#a0a47d478d72923f9ee9d45cfa4074325">tacacs.h</a>
+, <a class="el" href="protocols_2tacacs_2base_8c.html#a0a47d478d72923f9ee9d45cfa4074325">base.c</a>
 </li>
 <li>fr_tacacs_decode()
 : <a class="el" href="tacacs_8h.html#a79512fe1c0884e107111ca7375c43424">tacacs.h</a>
@@ -7416,8 +7426,8 @@ $(function() {
 : <a class="el" href="tacacs_8h.html#a44b377a1e01d44d0e6afea7597a95e4ea1c6edd1edc2735fc178823221c410c07">tacacs.h</a>
 </li>
 <li>fr_tacacs_packet_codes
-: <a class="el" href="protocols_2tacacs_2base_8c.html#a8b001eb6ac2be66a9dc77913254c8535">base.c</a>
-, <a class="el" href="tacacs_8h.html#a8b001eb6ac2be66a9dc77913254c8535">tacacs.h</a>
+: <a class="el" href="tacacs_8h.html#a8b001eb6ac2be66a9dc77913254c8535">tacacs.h</a>
+, <a class="el" href="protocols_2tacacs_2base_8c.html#a8b001eb6ac2be66a9dc77913254c8535">base.c</a>
 </li>
 <li>fr_tacacs_privlvl_t
 : <a class="el" href="tacacs_8h.html#a58d51af1848ba87185796b3bfaeeeba9">tacacs.h</a>
@@ -7432,8 +7442,8 @@ $(function() {
 : <a class="el" href="talloc_8h.html#ae35589810d72b43b9e0e3b86c7df597c">talloc.h</a>
 </li>
 <li>fr_talloc_fault_setup()
-: <a class="el" href="lib_2util_2debug_8c.html#aa13aee7636788f61e3ccfe3c9b09e012">debug.c</a>
-, <a class="el" href="debug_8h.html#aa13aee7636788f61e3ccfe3c9b09e012">debug.h</a>
+: <a class="el" href="debug_8h.html#aa13aee7636788f61e3ccfe3c9b09e012">debug.h</a>
+, <a class="el" href="lib_2util_2debug_8c.html#aa13aee7636788f61e3ccfe3c9b09e012">debug.c</a>
 </li>
 <li>fr_talloc_free_func_t
 : <a class="el" href="talloc_8h.html#a0abb053aeeffce3f1b011dde3bea5cdc">talloc.h</a>
@@ -7443,15 +7453,15 @@ $(function() {
 , <a class="el" href="tcp_8h.html#aebbfc1ff129262ee0acc3605ee947a3a">tcp.h</a>
 </li>
 <li>fr_tcp_recv()
-: <a class="el" href="tcp_8c.html#ac1568dfe617eb77e51f755aac65139ed">tcp.c</a>
-, <a class="el" href="tcp_8h.html#ac1568dfe617eb77e51f755aac65139ed">tcp.h</a>
+: <a class="el" href="tcp_8h.html#ac1568dfe617eb77e51f755aac65139ed">tcp.h</a>
+, <a class="el" href="tcp_8c.html#ac1568dfe617eb77e51f755aac65139ed">tcp.c</a>
 </li>
 <li>fr_test_point_ctx_alloc_t
 : <a class="el" href="test__point_8h.html#a226e96d28dbdadb8317e61988ef691f9">test_point.h</a>
 </li>
 <li>fr_thread_local_atexit()
-: <a class="el" href="thread__local_8c.html#adc27d5db31896e058124fdfc0a16ed30">thread_local.c</a>
-, <a class="el" href="thread__local_8h.html#adc27d5db31896e058124fdfc0a16ed30">thread_local.h</a>
+: <a class="el" href="thread__local_8h.html#adc27d5db31896e058124fdfc0a16ed30">thread_local.h</a>
+, <a class="el" href="thread__local_8c.html#adc27d5db31896e058124fdfc0a16ed30">thread_local.c</a>
 </li>
 <li>fr_thread_local_atexit_setup()
 : <a class="el" href="thread__local_8c.html#ab876970f5f6bb1be1d3278a42414118c">thread_local.c</a>
@@ -7491,8 +7501,8 @@ $(function() {
 , <a class="el" href="time_8h.html#a7e9c4d86018ac8fdcb95bffd58b28590">time.h</a>
 </li>
 <li>fr_time_delta_from_time_zone()
-: <a class="el" href="time_8h.html#a46d737b3ab0907d11e1c5f9160acebfc">time.h</a>
-, <a class="el" href="time_8c.html#a46d737b3ab0907d11e1c5f9160acebfc">time.c</a>
+: <a class="el" href="time_8c.html#a46d737b3ab0907d11e1c5f9160acebfc">time.c</a>
+, <a class="el" href="time_8h.html#a46d737b3ab0907d11e1c5f9160acebfc">time.h</a>
 </li>
 <li>fr_time_delta_from_timespec()
 : <a class="el" href="time_8h.html#ae5cf5daac345d498ea7f319b18a85822">time.h</a>
@@ -7526,32 +7536,32 @@ $(function() {
 , <a class="el" href="time_8c.html#a60fd4bbf9713a365ab45699411986d8f">time.c</a>
 </li>
 <li>fr_time_elapsed_update()
-: <a class="el" href="time_8h.html#a07e18217af252cb062891100dc491215">time.h</a>
-, <a class="el" href="time_8c.html#a07e18217af252cb062891100dc491215">time.c</a>
+: <a class="el" href="time_8c.html#a07e18217af252cb062891100dc491215">time.c</a>
+, <a class="el" href="time_8h.html#a07e18217af252cb062891100dc491215">time.h</a>
 </li>
 <li>fr_time_from_msec()
 : <a class="el" href="time_8h.html#a58a37c3e4b34364a1cc5f78d6a109e5b">time.h</a>
 , <a class="el" href="time_8c.html#a58a37c3e4b34364a1cc5f78d6a109e5b">time.c</a>
 </li>
 <li>fr_time_from_nsec()
-: <a class="el" href="time_8c.html#a8a78a492868542c64c5c4c6076f9a456">time.c</a>
-, <a class="el" href="time_8h.html#a8a78a492868542c64c5c4c6076f9a456">time.h</a>
+: <a class="el" href="time_8h.html#a8a78a492868542c64c5c4c6076f9a456">time.h</a>
+, <a class="el" href="time_8c.html#a8a78a492868542c64c5c4c6076f9a456">time.c</a>
 </li>
 <li>fr_time_from_sec()
-: <a class="el" href="time_8c.html#a6d494c95729684c986fc6cb6ec1a04ac">time.c</a>
-, <a class="el" href="time_8h.html#a6d494c95729684c986fc6cb6ec1a04ac">time.h</a>
+: <a class="el" href="time_8h.html#a6d494c95729684c986fc6cb6ec1a04ac">time.h</a>
+, <a class="el" href="time_8c.html#a6d494c95729684c986fc6cb6ec1a04ac">time.c</a>
 </li>
 <li>fr_time_from_timespec()
-: <a class="el" href="time_8c.html#a025989830126c9e8a74efd6abc43a1ce">time.c</a>
-, <a class="el" href="time_8h.html#aec5f680d746afeca8d3ac0e6021eed48">time.h</a>
+: <a class="el" href="time_8h.html#aec5f680d746afeca8d3ac0e6021eed48">time.h</a>
+, <a class="el" href="time_8c.html#a025989830126c9e8a74efd6abc43a1ce">time.c</a>
 </li>
 <li>fr_time_from_timeval()
 : <a class="el" href="time_8h.html#a6618bb376e667bf7f37ff9d168554c2a">time.h</a>
 , <a class="el" href="time_8c.html#a6618bb376e667bf7f37ff9d168554c2a">time.c</a>
 </li>
 <li>fr_time_from_usec()
-: <a class="el" href="time_8c.html#aefb4a09d845b94d8bc9a1acef80a5d8b">time.c</a>
-, <a class="el" href="time_8h.html#aefb4a09d845b94d8bc9a1acef80a5d8b">time.h</a>
+: <a class="el" href="time_8h.html#aefb4a09d845b94d8bc9a1acef80a5d8b">time.h</a>
+, <a class="el" href="time_8c.html#aefb4a09d845b94d8bc9a1acef80a5d8b">time.c</a>
 </li>
 <li>fr_time_from_utc()
 : <a class="el" href="time_8h.html#a6e005b82a64c4b67160f99687afa9aad">time.h</a>
@@ -7573,20 +7583,20 @@ $(function() {
 : <a class="el" href="time_8h.html#a878583a9a0a766223c76f7da320149eaadd51465b8aaa7edd4d49d28d2d8652c2">time.h</a>
 </li>
 <li>fr_time_start()
-: <a class="el" href="time_8c.html#ae4e8a3d84ced79917092bc46c9716db5">time.c</a>
-, <a class="el" href="time_8h.html#ae4e8a3d84ced79917092bc46c9716db5">time.h</a>
+: <a class="el" href="time_8h.html#ae4e8a3d84ced79917092bc46c9716db5">time.h</a>
+, <a class="el" href="time_8c.html#ae4e8a3d84ced79917092bc46c9716db5">time.c</a>
 </li>
 <li>fr_time_strftime_local()
 : <a class="el" href="time_8c.html#a39d967ee9159d7bc5c2084a81e8affed">time.c</a>
 , <a class="el" href="time_8h.html#ac5b2d91ab494f2bcc8b6ea57442d3114">time.h</a>
 </li>
 <li>fr_time_strftime_utc()
-: <a class="el" href="time_8h.html#a903ae8084945c3955d2be06ef9e1e57f">time.h</a>
-, <a class="el" href="time_8c.html#af852f54f4a87f416b3ac964bdd4cc4d9">time.c</a>
+: <a class="el" href="time_8c.html#af852f54f4a87f416b3ac964bdd4cc4d9">time.c</a>
+, <a class="el" href="time_8h.html#a903ae8084945c3955d2be06ef9e1e57f">time.h</a>
 </li>
 <li>fr_time_sync()
-: <a class="el" href="time_8h.html#a1e2f9b482dd216788815aaffbade9437">time.h</a>
-, <a class="el" href="time_8c.html#a1e2f9b482dd216788815aaffbade9437">time.c</a>
+: <a class="el" href="time_8c.html#a1e2f9b482dd216788815aaffbade9437">time.c</a>
+, <a class="el" href="time_8h.html#a1e2f9b482dd216788815aaffbade9437">time.h</a>
 </li>
 <li>fr_time_sync_ev
 : <a class="el" href="radiusd_8c.html#a1c608a2ccf49585ecb363efe8f4a6a0c">radiusd.c</a>
@@ -7612,12 +7622,12 @@ $(function() {
 : <a class="el" href="time_8h.html#acbcdd1ae5b672e4df01bf42e10ed8fa4">time.h</a>
 </li>
 <li>fr_time_to_unix_time()
-: <a class="el" href="time_8c.html#a76700f12b4b30b68e7c685f335a21e05">time.c</a>
-, <a class="el" href="time_8h.html#a76700f12b4b30b68e7c685f335a21e05">time.h</a>
+: <a class="el" href="time_8h.html#a76700f12b4b30b68e7c685f335a21e05">time.h</a>
+, <a class="el" href="time_8c.html#a76700f12b4b30b68e7c685f335a21e05">time.c</a>
 </li>
 <li>fr_time_to_usec()
-: <a class="el" href="time_8h.html#acf7323e8033dcde9f445f2c6f1f5571c">time.h</a>
-, <a class="el" href="time_8c.html#acf7323e8033dcde9f445f2c6f1f5571c">time.c</a>
+: <a class="el" href="time_8c.html#acf7323e8033dcde9f445f2c6f1f5571c">time.c</a>
+, <a class="el" href="time_8h.html#acf7323e8033dcde9f445f2c6f1f5571c">time.h</a>
 </li>
 <li>fr_time_tracking_debug()
 : <a class="el" href="time__tracking_8h.html#affa6374ef9bdc1931c69fc641ee76ae0">time_tracking.h</a>
@@ -7666,8 +7676,8 @@ $(function() {
 : <a class="el" href="cf__util_8h.html#a56eefe68c3d199b9907fa8c37147c378">cf_util.h</a>
 </li>
 <li>fr_timeval_from_str()
-: <a class="el" href="timeval_8c.html#a172aa10622e59599b5a1541a83331132">timeval.c</a>
-, <a class="el" href="timeval_8h.html#a172aa10622e59599b5a1541a83331132">timeval.h</a>
+: <a class="el" href="timeval_8h.html#a172aa10622e59599b5a1541a83331132">timeval.h</a>
+, <a class="el" href="timeval_8c.html#a172aa10622e59599b5a1541a83331132">timeval.c</a>
 </li>
 <li>fr_timeval_subtract()
 : <a class="el" href="timeval_8c.html#a816899da344a972f29e0ca2ad7cffc7c">timeval.c</a>
@@ -7708,16 +7718,16 @@ $(function() {
 : <a class="el" href="token_8h.html#a946319d7782128ef7a776e118ad1fe60">token.h</a>
 </li>
 <li>fr_tokens
-: <a class="el" href="token_8c.html#a3f58be15f2771d56dd9d1e642d0ed5b7">token.c</a>
-, <a class="el" href="token_8h.html#aa5327983c30e29678ccfb12e1b441423">token.h</a>
+: <a class="el" href="token_8h.html#aa5327983c30e29678ccfb12e1b441423">token.h</a>
+, <a class="el" href="token_8c.html#a3f58be15f2771d56dd9d1e642d0ed5b7">token.c</a>
 </li>
 <li>fr_tokens_table
 : <a class="el" href="token_8h.html#a778285b9093e319c2756b05222a00ac6">token.h</a>
 , <a class="el" href="token_8c.html#a778285b9093e319c2756b05222a00ac6">token.c</a>
 </li>
 <li>fr_tokens_table_len
-: <a class="el" href="token_8c.html#abe1231bd6b447ad4aecfa0169c9f26bd">token.c</a>
-, <a class="el" href="token_8h.html#abe1231bd6b447ad4aecfa0169c9f26bd">token.h</a>
+: <a class="el" href="token_8h.html#abe1231bd6b447ad4aecfa0169c9f26bd">token.h</a>
+, <a class="el" href="token_8c.html#abe1231bd6b447ad4aecfa0169c9f26bd">token.c</a>
 </li>
 <li>fr_touch()
 : <a class="el" href="file_8h.html#a4325b2db13abb1d04924ddec9fe2e9aa">file.h</a>
@@ -7746,8 +7756,8 @@ $(function() {
 : <a class="el" href="trie_8c.html#ae06e28d4434dd5c467286bd5841bd200">trie.c</a>
 </li>
 <li>fr_trie_insert()
-: <a class="el" href="trie_8c.html#a67ff60c4159bc243ff80d7660d43482f">trie.c</a>
-, <a class="el" href="trie_8h.html#a67ff60c4159bc243ff80d7660d43482f">trie.h</a>
+: <a class="el" href="trie_8h.html#a67ff60c4159bc243ff80d7660d43482f">trie.h</a>
+, <a class="el" href="trie_8c.html#a67ff60c4159bc243ff80d7660d43482f">trie.c</a>
 </li>
 <li>FR_TRIE_INVALID
 : <a class="el" href="trie_8c.html#aaa1fdaf531c868ee34fe3ddf2ad0f629a9cb4cf6e9bedbabad20bcf7cdc02718f">trie.c</a>
@@ -7871,8 +7881,8 @@ $(function() {
 : <a class="el" href="trie_8c.html#ab4ec10af97d9edf25f573313a2f6ad13">trie.c</a>
 </li>
 <li>fr_trie_walk()
-: <a class="el" href="trie_8h.html#aa11d3bbe61b4e23de7e0a529c10810be">trie.h</a>
-, <a class="el" href="trie_8c.html#a60628bdd247fe8ee4f48511b9c902e16">trie.c</a>
+: <a class="el" href="trie_8c.html#a60628bdd247fe8ee4f48511b9c902e16">trie.c</a>
+, <a class="el" href="trie_8h.html#aa11d3bbe61b4e23de7e0a529c10810be">trie.h</a>
 </li>
 <li>fr_trie_walk_t
 : <a class="el" href="trie_8h.html#adf839b221a3ecb8c47532cc0a3e150c8">trie.h</a>
@@ -7885,8 +7895,8 @@ $(function() {
 , <a class="el" href="misc_8h.html#a080b70f6dce8f596355bef8ce6ef1ad7">misc.h</a>
 </li>
 <li>fr_trunk_alloc()
-: <a class="el" href="trunk_8c.html#a92dca0b929806311bf7e3a48ab1e11ba">trunk.c</a>
-, <a class="el" href="trunk_8h.html#a1327562f580bfb76e6a2839d8bd2f7ca">trunk.h</a>
+: <a class="el" href="trunk_8h.html#a1327562f580bfb76e6a2839d8bd2f7ca">trunk.h</a>
+, <a class="el" href="trunk_8c.html#a92dca0b929806311bf7e3a48ab1e11ba">trunk.c</a>
 </li>
 <li>FR_TRUNK_CANCEL_REASON_MOVE
 : <a class="el" href="trunk_8h.html#a0d4512f57c53e6d70069a37c199abd1da5891c7698e7ccac08869644c51f28cbe">trunk.h</a>
@@ -7994,16 +8004,16 @@ $(function() {
 , <a class="el" href="trunk_8c.html#ae9f688617896dc9418d6c972ddb01eea">trunk.c</a>
 </li>
 <li>fr_trunk_connection_manage_schedule()
-: <a class="el" href="trunk_8h.html#afb4793e6c5950288e59a61b6cac95bbf">trunk.h</a>
-, <a class="el" href="trunk_8c.html#afb4793e6c5950288e59a61b6cac95bbf">trunk.c</a>
+: <a class="el" href="trunk_8c.html#afb4793e6c5950288e59a61b6cac95bbf">trunk.c</a>
+, <a class="el" href="trunk_8h.html#afb4793e6c5950288e59a61b6cac95bbf">trunk.h</a>
 </li>
 <li>fr_trunk_connection_manage_start()
 : <a class="el" href="trunk_8h.html#aef7e0724f1e350d91411accf2f3d2b43">trunk.h</a>
 , <a class="el" href="trunk_8c.html#aef7e0724f1e350d91411accf2f3d2b43">trunk.c</a>
 </li>
 <li>fr_trunk_connection_manage_stop()
-: <a class="el" href="trunk_8h.html#a0d0e78d99fb37f2a5522253c311ffbd0">trunk.h</a>
-, <a class="el" href="trunk_8c.html#a0d0e78d99fb37f2a5522253c311ffbd0">trunk.c</a>
+: <a class="el" href="trunk_8c.html#a0d0e78d99fb37f2a5522253c311ffbd0">trunk.c</a>
+, <a class="el" href="trunk_8h.html#a0d0e78d99fb37f2a5522253c311ffbd0">trunk.h</a>
 </li>
 <li>fr_trunk_connection_notify_t
 : <a class="el" href="trunk_8h.html#ac9968a4faca6ff7c5f9a854ed4a7b067">trunk.h</a>
@@ -8029,16 +8039,16 @@ $(function() {
 , <a class="el" href="trunk_8h.html#a9c2e24f88f4b711bc17d9723f53892a1">trunk.h</a>
 </li>
 <li>fr_trunk_connection_signal_readable()
-: <a class="el" href="trunk_8c.html#aa38296145eead678186a6433af330b35">trunk.c</a>
-, <a class="el" href="trunk_8h.html#aa38296145eead678186a6433af330b35">trunk.h</a>
+: <a class="el" href="trunk_8h.html#aa38296145eead678186a6433af330b35">trunk.h</a>
+, <a class="el" href="trunk_8c.html#aa38296145eead678186a6433af330b35">trunk.c</a>
 </li>
 <li>fr_trunk_connection_signal_reconnect()
 : <a class="el" href="trunk_8c.html#ae261bef1f663eb4a697804302be97a93">trunk.c</a>
 , <a class="el" href="trunk_8h.html#ae261bef1f663eb4a697804302be97a93">trunk.h</a>
 </li>
 <li>fr_trunk_connection_signal_writable()
-: <a class="el" href="trunk_8h.html#ae4622d45fe16ab018a7ff22f77bfcbcd">trunk.h</a>
-, <a class="el" href="trunk_8c.html#ae4622d45fe16ab018a7ff22f77bfcbcd">trunk.c</a>
+: <a class="el" href="trunk_8c.html#ae4622d45fe16ab018a7ff22f77bfcbcd">trunk.c</a>
+, <a class="el" href="trunk_8h.html#ae4622d45fe16ab018a7ff22f77bfcbcd">trunk.h</a>
 </li>
 <li>fr_trunk_connection_state_t
 : <a class="el" href="trunk_8h.html#a210f9d82a7bc721184e1ff200a904a9c">trunk.h</a>
@@ -8072,8 +8082,8 @@ $(function() {
 : <a class="el" href="trunk_8h.html#af66b28863062ef87a38f7f4aa0cbfddf">trunk.h</a>
 </li>
 <li>fr_trunk_reconnect()
-: <a class="el" href="trunk_8c.html#a1c5571acb8992857d6c57dfc9919faa2">trunk.c</a>
-, <a class="el" href="trunk_8h.html#a179c164ee54b5d5ddfe32387c595b371">trunk.h</a>
+: <a class="el" href="trunk_8h.html#a179c164ee54b5d5ddfe32387c595b371">trunk.h</a>
+, <a class="el" href="trunk_8c.html#a1c5571acb8992857d6c57dfc9919faa2">trunk.c</a>
 </li>
 <li>fr_trunk_req_trigger_names
 : <a class="el" href="trunk_8c.html#a0c4c6f6bcc7e05624f5ae9b3d7b30f03">trunk.c</a>
@@ -8098,12 +8108,12 @@ $(function() {
 : <a class="el" href="trunk_8h.html#ad8ae6c2104573f07265c238c3bcc2ac2">trunk.h</a>
 </li>
 <li>fr_trunk_request_count_by_connection()
-: <a class="el" href="trunk_8h.html#a4a0a08064485793b003756b197ca6622">trunk.h</a>
-, <a class="el" href="trunk_8c.html#a4a0a08064485793b003756b197ca6622">trunk.c</a>
+: <a class="el" href="trunk_8c.html#a4a0a08064485793b003756b197ca6622">trunk.c</a>
+, <a class="el" href="trunk_8h.html#a4a0a08064485793b003756b197ca6622">trunk.h</a>
 </li>
 <li>fr_trunk_request_count_by_state()
-: <a class="el" href="trunk_8h.html#a6dcfa1464e022ec96b90b8c975fe13b4">trunk.h</a>
-, <a class="el" href="trunk_8c.html#a6dcfa1464e022ec96b90b8c975fe13b4">trunk.c</a>
+: <a class="el" href="trunk_8c.html#a6dcfa1464e022ec96b90b8c975fe13b4">trunk.c</a>
+, <a class="el" href="trunk_8h.html#a6dcfa1464e022ec96b90b8c975fe13b4">trunk.h</a>
 </li>
 <li>fr_trunk_request_demux_t
 : <a class="el" href="trunk_8h.html#a0e8895221d2c6ebbfb68318d77765ec2">trunk.h</a>
@@ -8113,8 +8123,8 @@ $(function() {
 , <a class="el" href="trunk_8c.html#a429d29c8a4a45f6aef6576c668cd9195">trunk.c</a>
 </li>
 <li>fr_trunk_request_enqueue_on_conn()
-: <a class="el" href="trunk_8h.html#a9e426e665d3583a76e1e383ebd778e01">trunk.h</a>
-, <a class="el" href="trunk_8c.html#a2bad9ebfe3f085c0fb3faeee9e8a46b3">trunk.c</a>
+: <a class="el" href="trunk_8c.html#a2bad9ebfe3f085c0fb3faeee9e8a46b3">trunk.c</a>
+, <a class="el" href="trunk_8h.html#a9e426e665d3583a76e1e383ebd778e01">trunk.h</a>
 </li>
 <li>fr_trunk_request_fail_t
 : <a class="el" href="trunk_8h.html#aa9900881b628001c858eab832e18075d">trunk.h</a>
@@ -8130,24 +8140,24 @@ $(function() {
 : <a class="el" href="trunk_8h.html#a23c85d155c4cc50fbb20754b035a8b85">trunk.h</a>
 </li>
 <li>fr_trunk_request_requeue()
-: <a class="el" href="trunk_8c.html#a72e34d33ea58c5c62d64d12c1620b819">trunk.c</a>
-, <a class="el" href="trunk_8h.html#a72e34d33ea58c5c62d64d12c1620b819">trunk.h</a>
+: <a class="el" href="trunk_8h.html#a72e34d33ea58c5c62d64d12c1620b819">trunk.h</a>
+, <a class="el" href="trunk_8c.html#a72e34d33ea58c5c62d64d12c1620b819">trunk.c</a>
 </li>
 <li>fr_trunk_request_signal_cancel()
-: <a class="el" href="trunk_8c.html#a22df6123e7ec90e1fafbdab2ed388774">trunk.c</a>
-, <a class="el" href="trunk_8h.html#a22df6123e7ec90e1fafbdab2ed388774">trunk.h</a>
+: <a class="el" href="trunk_8h.html#a22df6123e7ec90e1fafbdab2ed388774">trunk.h</a>
+, <a class="el" href="trunk_8c.html#a22df6123e7ec90e1fafbdab2ed388774">trunk.c</a>
 </li>
 <li>fr_trunk_request_signal_cancel_complete()
-: <a class="el" href="trunk_8h.html#af3a9f060ab945a71549c963550409e87">trunk.h</a>
-, <a class="el" href="trunk_8c.html#af3a9f060ab945a71549c963550409e87">trunk.c</a>
+: <a class="el" href="trunk_8c.html#af3a9f060ab945a71549c963550409e87">trunk.c</a>
+, <a class="el" href="trunk_8h.html#af3a9f060ab945a71549c963550409e87">trunk.h</a>
 </li>
 <li>fr_trunk_request_signal_cancel_partial()
-: <a class="el" href="trunk_8c.html#af5490c0467c8046f8af5576e0cca9b95">trunk.c</a>
-, <a class="el" href="trunk_8h.html#af5490c0467c8046f8af5576e0cca9b95">trunk.h</a>
+: <a class="el" href="trunk_8h.html#af5490c0467c8046f8af5576e0cca9b95">trunk.h</a>
+, <a class="el" href="trunk_8c.html#af5490c0467c8046f8af5576e0cca9b95">trunk.c</a>
 </li>
 <li>fr_trunk_request_signal_cancel_sent()
-: <a class="el" href="trunk_8h.html#a11334935e79d8a96c5a0e77b37c93dd3">trunk.h</a>
-, <a class="el" href="trunk_8c.html#a11334935e79d8a96c5a0e77b37c93dd3">trunk.c</a>
+: <a class="el" href="trunk_8c.html#a11334935e79d8a96c5a0e77b37c93dd3">trunk.c</a>
+, <a class="el" href="trunk_8h.html#a11334935e79d8a96c5a0e77b37c93dd3">trunk.h</a>
 </li>
 <li>fr_trunk_request_signal_complete()
 : <a class="el" href="trunk_8c.html#a68df84abee6703937fcd841ef75797c7">trunk.c</a>
@@ -8162,8 +8172,8 @@ $(function() {
 , <a class="el" href="trunk_8c.html#a894959f53af966e88a7ea0fda87dc722">trunk.c</a>
 </li>
 <li>fr_trunk_request_signal_sent()
-: <a class="el" href="trunk_8h.html#a4280399df4f7f50713e75983220b6893">trunk.h</a>
-, <a class="el" href="trunk_8c.html#a4280399df4f7f50713e75983220b6893">trunk.c</a>
+: <a class="el" href="trunk_8c.html#a4280399df4f7f50713e75983220b6893">trunk.c</a>
+, <a class="el" href="trunk_8h.html#a4280399df4f7f50713e75983220b6893">trunk.h</a>
 </li>
 <li>FR_TRUNK_REQUEST_STATE_ALL
 : <a class="el" href="trunk_8h.html#aa9df2c4185f0dce9f60b2431d797d29a">trunk.h</a>
@@ -8228,12 +8238,12 @@ $(function() {
 , <a class="el" href="trunk_8c.html#ac3eb131a80a4eb550e2f859d599144ea">trunk.c</a>
 </li>
 <li>fr_trunk_start()
-: <a class="el" href="trunk_8c.html#a055d797a7b5348770b776a633780ee1d">trunk.c</a>
-, <a class="el" href="trunk_8h.html#a055d797a7b5348770b776a633780ee1d">trunk.h</a>
+: <a class="el" href="trunk_8h.html#a055d797a7b5348770b776a633780ee1d">trunk.h</a>
+, <a class="el" href="trunk_8c.html#a055d797a7b5348770b776a633780ee1d">trunk.c</a>
 </li>
 <li>fr_trunk_t
-: <a class="el" href="trunk_8h.html#a6e87c6d0e0c00fbd11252a2f78c32ac8">trunk.h</a>
-, <a class="el" href="trunk_8c.html#a989e62923fa467b83f977ae0a44ab51d">trunk.c</a>
+: <a class="el" href="trunk_8c.html#a989e62923fa467b83f977ae0a44ab51d">trunk.c</a>
+, <a class="el" href="trunk_8h.html#a6e87c6d0e0c00fbd11252a2f78c32ac8">trunk.h</a>
 </li>
 <li>FR_TUNNEL_FR_ENC_LENGTH
 : <a class="el" href="radius_8h.html#a93547035fdface50cfc94177607bc270">radius.h</a>
@@ -8446,12 +8456,12 @@ $(function() {
 : <a class="el" href="cf__parse_8h.html#a6ccc626ca4b5b0915603e56a5e5633f2">cf_parse.h</a>
 </li>
 <li>fr_udp_checksum()
-: <a class="el" href="net_8c.html#a6a995c9f330ef210ac16521a4c8127e6">net.c</a>
-, <a class="el" href="net_8h.html#a6a995c9f330ef210ac16521a4c8127e6">net.h</a>
+: <a class="el" href="net_8h.html#a6a995c9f330ef210ac16521a4c8127e6">net.h</a>
+, <a class="el" href="net_8c.html#a6a995c9f330ef210ac16521a4c8127e6">net.c</a>
 </li>
 <li>fr_udp_header_check()
-: <a class="el" href="net_8h.html#a6057fc1dce98d6ed82e477404be9ee1a">net.h</a>
-, <a class="el" href="net_8c.html#a6057fc1dce98d6ed82e477404be9ee1a">net.c</a>
+: <a class="el" href="net_8c.html#a6057fc1dce98d6ed82e477404be9ee1a">net.c</a>
+, <a class="el" href="net_8h.html#a6057fc1dce98d6ed82e477404be9ee1a">net.h</a>
 </li>
 <li>fr_uint_t
 : <a class="el" href="stats_8h.html#af30df5968fa1a2e638e3ca96d18e4b6f">stats.h</a>
@@ -8513,8 +8523,8 @@ $(function() {
 : <a class="el" href="xlat_8h.html#acdd5ca0bff456fb2849929af54040afa">xlat.h</a>
 </li>
 <li>fr_unlink()
-: <a class="el" href="file_8h.html#a0f37969fe8b8994391a9e0b082a26e56">file.h</a>
-, <a class="el" href="file_8c.html#a0f37969fe8b8994391a9e0b082a26e56">file.c</a>
+: <a class="el" href="file_8c.html#a0f37969fe8b8994391a9e0b082a26e56">file.c</a>
+, <a class="el" href="file_8h.html#a0f37969fe8b8994391a9e0b082a26e56">file.h</a>
 </li>
 <li>fr_unset_signal()
 : <a class="el" href="misc_8c.html#a00fca20102f76c9546f14121400eb4de">misc.c</a>
@@ -8525,16 +8535,16 @@ $(function() {
 , <a class="el" href="print_8c.html#a69fbdf99ae311e5900c854a2247c51b8">print.c</a>
 </li>
 <li>fr_utf8_str()
-: <a class="el" href="print_8c.html#a65e6e39aae2cec695d5cb4999c005d1f">print.c</a>
-, <a class="el" href="print_8h.html#a65e6e39aae2cec695d5cb4999c005d1f">print.h</a>
+: <a class="el" href="print_8h.html#a65e6e39aae2cec695d5cb4999c005d1f">print.h</a>
+, <a class="el" href="print_8c.html#a65e6e39aae2cec695d5cb4999c005d1f">print.c</a>
 </li>
 <li>fr_utf8_strchr()
 : <a class="el" href="print_8c.html#a11658f585df840bbab40e6d35c6dca6d">print.c</a>
 , <a class="el" href="print_8h.html#ab979039450b238ad0caae23336821bed">print.h</a>
 </li>
 <li>fr_utf8_to_ucs2()
-: <a class="el" href="misc_8c.html#a6a0580269d20f2ce0ffb69cfb3fcbb36">misc.c</a>
-, <a class="el" href="misc_8h.html#a6a0580269d20f2ce0ffb69cfb3fcbb36">misc.h</a>
+: <a class="el" href="misc_8h.html#a6a0580269d20f2ce0ffb69cfb3fcbb36">misc.h</a>
+, <a class="el" href="misc_8c.html#a6a0580269d20f2ce0ffb69cfb3fcbb36">misc.c</a>
 </li>
 <li>fr_value_box_alloc()
 : <a class="el" href="value_8h.html#a2d08d82275a28efe9ad91300db05c236">value.h</a>
@@ -8546,48 +8556,48 @@ $(function() {
 : <a class="el" href="value_8h.html#a878e0abfce7189a1784cdf15bc9fc3a3">value.h</a>
 </li>
 <li>fr_value_box_asprintf()
-: <a class="el" href="value_8h.html#a320c54c6e54be1f68ff75f0e153c68c1">value.h</a>
-, <a class="el" href="value_8c.html#a3b2e9094f0c6a9675efc8de298391f02">value.c</a>
+: <a class="el" href="value_8c.html#a3b2e9094f0c6a9675efc8de298391f02">value.c</a>
+, <a class="el" href="value_8h.html#a320c54c6e54be1f68ff75f0e153c68c1">value.h</a>
 </li>
 <li>fr_value_box_bstr_alloc()
-: <a class="el" href="value_8h.html#ac65d2cafaad39fbe6ee69261e0a09176">value.h</a>
-, <a class="el" href="value_8c.html#ac65d2cafaad39fbe6ee69261e0a09176">value.c</a>
+: <a class="el" href="value_8c.html#ac65d2cafaad39fbe6ee69261e0a09176">value.c</a>
+, <a class="el" href="value_8h.html#ac65d2cafaad39fbe6ee69261e0a09176">value.h</a>
 </li>
 <li>fr_value_box_bstr_append_buffer()
-: <a class="el" href="value_8h.html#a9179b67fc734fb47e2d6cec374044ba6">value.h</a>
-, <a class="el" href="value_8c.html#a9179b67fc734fb47e2d6cec374044ba6">value.c</a>
+: <a class="el" href="value_8c.html#a9179b67fc734fb47e2d6cec374044ba6">value.c</a>
+, <a class="el" href="value_8h.html#a9179b67fc734fb47e2d6cec374044ba6">value.h</a>
 </li>
 <li>fr_value_box_bstr_realloc()
 : <a class="el" href="value_8c.html#ae023cc6dbbe643f27bf6de73314655ee">value.c</a>
 , <a class="el" href="value_8h.html#ae023cc6dbbe643f27bf6de73314655ee">value.h</a>
 </li>
 <li>fr_value_box_bstrdup_buffer()
-: <a class="el" href="value_8h.html#a3813a7481d580b3b3cb3df7503722055">value.h</a>
-, <a class="el" href="value_8c.html#a3813a7481d580b3b3cb3df7503722055">value.c</a>
+: <a class="el" href="value_8c.html#a3813a7481d580b3b3cb3df7503722055">value.c</a>
+, <a class="el" href="value_8h.html#a3813a7481d580b3b3cb3df7503722055">value.h</a>
 </li>
 <li>fr_value_box_bstrdup_buffer_shallow()
-: <a class="el" href="value_8h.html#aed6c89331ec783228dd9d415433df323">value.h</a>
-, <a class="el" href="value_8c.html#aed6c89331ec783228dd9d415433df323">value.c</a>
+: <a class="el" href="value_8c.html#aed6c89331ec783228dd9d415433df323">value.c</a>
+, <a class="el" href="value_8h.html#aed6c89331ec783228dd9d415433df323">value.h</a>
 </li>
 <li>fr_value_box_bstrn_append()
-: <a class="el" href="value_8h.html#a0adc72b7a30d3064ab65ed9059f0e8c8">value.h</a>
-, <a class="el" href="value_8c.html#a0adc72b7a30d3064ab65ed9059f0e8c8">value.c</a>
+: <a class="el" href="value_8c.html#a0adc72b7a30d3064ab65ed9059f0e8c8">value.c</a>
+, <a class="el" href="value_8h.html#a0adc72b7a30d3064ab65ed9059f0e8c8">value.h</a>
 </li>
 <li>fr_value_box_bstrndup()
 : <a class="el" href="value_8h.html#ae0b1761c6357b230478529a2293f4bf6">value.h</a>
 , <a class="el" href="value_8c.html#ae0b1761c6357b230478529a2293f4bf6">value.c</a>
 </li>
 <li>fr_value_box_bstrndup_shallow()
-: <a class="el" href="value_8c.html#af675e0a826689eeb4ee6a593de6c457d">value.c</a>
-, <a class="el" href="value_8h.html#af675e0a826689eeb4ee6a593de6c457d">value.h</a>
+: <a class="el" href="value_8h.html#af675e0a826689eeb4ee6a593de6c457d">value.h</a>
+, <a class="el" href="value_8c.html#af675e0a826689eeb4ee6a593de6c457d">value.c</a>
 </li>
 <li>fr_value_box_cast()
 : <a class="el" href="value_8c.html#a3a0550d465b81917f8b0c69a3373163e">value.c</a>
 , <a class="el" href="value_8h.html#a3432f16e544f700379473f34256d2387">value.h</a>
 </li>
 <li>fr_value_box_cast_in_place()
-: <a class="el" href="value_8h.html#a5a5550ab6b836ddf7914099852d4b206">value.h</a>
-, <a class="el" href="value_8c.html#a5a5550ab6b836ddf7914099852d4b206">value.c</a>
+: <a class="el" href="value_8c.html#a5a5550ab6b836ddf7914099852d4b206">value.c</a>
+, <a class="el" href="value_8h.html#a5a5550ab6b836ddf7914099852d4b206">value.h</a>
 </li>
 <li>fr_value_box_cast_integer_to_integer()
 : <a class="el" href="value_8c.html#affa5e516f0b70852ebc180dd2ddd76ea">value.c</a>
@@ -8623,24 +8633,24 @@ $(function() {
 : <a class="el" href="value_8c.html#a94ab65cc8163b34f1423eb5e65ff776b">value.c</a>
 </li>
 <li>fr_value_box_clear()
-: <a class="el" href="value_8h.html#ad5da2574fed047b3ae861999d06c38ac">value.h</a>
-, <a class="el" href="value_8c.html#ad5da2574fed047b3ae861999d06c38ac">value.c</a>
+: <a class="el" href="value_8c.html#ad5da2574fed047b3ae861999d06c38ac">value.c</a>
+, <a class="el" href="value_8h.html#ad5da2574fed047b3ae861999d06c38ac">value.h</a>
 </li>
 <li>fr_value_box_clear_value()
-: <a class="el" href="value_8h.html#a6ea38f6b901bbcf6206f242e63d4f898">value.h</a>
-, <a class="el" href="value_8c.html#a6ea38f6b901bbcf6206f242e63d4f898">value.c</a>
+: <a class="el" href="value_8c.html#a6ea38f6b901bbcf6206f242e63d4f898">value.c</a>
+, <a class="el" href="value_8h.html#a6ea38f6b901bbcf6206f242e63d4f898">value.h</a>
 </li>
 <li>fr_value_box_cmp()
-: <a class="el" href="value_8c.html#a6f42edc41624a1f3781bf13d14a17b3d">value.c</a>
-, <a class="el" href="value_8h.html#a6f42edc41624a1f3781bf13d14a17b3d">value.h</a>
+: <a class="el" href="value_8h.html#a6f42edc41624a1f3781bf13d14a17b3d">value.h</a>
+, <a class="el" href="value_8c.html#a6f42edc41624a1f3781bf13d14a17b3d">value.c</a>
 </li>
 <li>fr_value_box_cmp_op()
 : <a class="el" href="value_8h.html#a516355c995a18f3fcfe0b828a005dfc1">value.h</a>
 , <a class="el" href="value_8c.html#a516355c995a18f3fcfe0b828a005dfc1">value.c</a>
 </li>
 <li>fr_value_box_copy()
-: <a class="el" href="value_8h.html#a4fadbcd199d20611112e21b7f0da11c4">value.h</a>
-, <a class="el" href="value_8c.html#a4fadbcd199d20611112e21b7f0da11c4">value.c</a>
+: <a class="el" href="value_8c.html#a4fadbcd199d20611112e21b7f0da11c4">value.c</a>
+, <a class="el" href="value_8h.html#a4fadbcd199d20611112e21b7f0da11c4">value.h</a>
 </li>
 <li>fr_value_box_copy_meta()
 : <a class="el" href="value_8c.html#a9552a241f8ddbcaae8ec8a616fcbf999">value.c</a>
@@ -8653,8 +8663,8 @@ $(function() {
 : <a class="el" href="value_8h.html#a8fe7ebd69e42c503a2d23ee91d6a2ce2">value.h</a>
 </li>
 <li>fr_value_box_field_sizes
-: <a class="el" href="value_8c.html#a057dec2c682763cdf505528cf4ba1c5f">value.c</a>
-, <a class="el" href="value_8h.html#a057dec2c682763cdf505528cf4ba1c5f">value.h</a>
+: <a class="el" href="value_8h.html#a057dec2c682763cdf505528cf4ba1c5f">value.h</a>
+, <a class="el" href="value_8c.html#a057dec2c682763cdf505528cf4ba1c5f">value.c</a>
 </li>
 <li>fr_value_box_fixed_size_from_octets()
 : <a class="el" href="value_8c.html#a9a3a9eef48d5e59bc1c3b43285902971">value.c</a>
@@ -8678,8 +8688,8 @@ $(function() {
 , <a class="el" href="value_8c.html#acad7f9199d2bb08bcd2168412bd152a2">value.c</a>
 </li>
 <li>fr_value_box_hton()
-: <a class="el" href="value_8h.html#a065070f212d94637ae729855d7cc2237">value.h</a>
-, <a class="el" href="value_8c.html#a065070f212d94637ae729855d7cc2237">value.c</a>
+: <a class="el" href="value_8c.html#a065070f212d94637ae729855d7cc2237">value.c</a>
+, <a class="el" href="value_8h.html#a065070f212d94637ae729855d7cc2237">value.h</a>
 </li>
 <li>fr_value_box_increment()
 : <a class="el" href="value_8c.html#a6bbd502895a7defee7c43a815883ab1e">value.c</a>
@@ -8706,8 +8716,8 @@ $(function() {
 , <a class="el" href="value_8h.html#a06806f7775841fe1ef4440a2df0576b8">value.h</a>
 </li>
 <li>fr_value_box_list_aprint()
-: <a class="el" href="value_8c.html#a1064a346792dc1e5ecf05d04b4c1af55">value.c</a>
-, <a class="el" href="value_8h.html#a1064a346792dc1e5ecf05d04b4c1af55">value.h</a>
+: <a class="el" href="value_8h.html#a1064a346792dc1e5ecf05d04b4c1af55">value.h</a>
+, <a class="el" href="value_8c.html#a1064a346792dc1e5ecf05d04b4c1af55">value.c</a>
 </li>
 <li>fr_value_box_list_concat()
 : <a class="el" href="value_8h.html#a8cedcf0cd0b56390ead0b791c4b4d67f">value.h</a>
@@ -8721,8 +8731,8 @@ $(function() {
 , <a class="el" href="value_8c.html#abd78479d54732f8a7c8c7b6a3ef4c1e2">value.c</a>
 </li>
 <li>fr_value_box_list_get()
-: <a class="el" href="value_8h.html#a695328ed07e16436cac75d6a813e389c">value.h</a>
-, <a class="el" href="value_8c.html#a695328ed07e16436cac75d6a813e389c">value.c</a>
+: <a class="el" href="value_8c.html#a695328ed07e16436cac75d6a813e389c">value.c</a>
+, <a class="el" href="value_8h.html#a695328ed07e16436cac75d6a813e389c">value.h</a>
 </li>
 <li>fr_value_box_list_len()
 : <a class="el" href="value_8h.html#a5cfa9a1570c668098f36ec49cdd19189">value.h</a>
@@ -8734,8 +8744,8 @@ $(function() {
 : <a class="el" href="value_8h.html#ab3556b32073fc1e400bd5cd027de3182a091c2484c6b6dd457d94cde3f337f9a5">value.h</a>
 </li>
 <li>fr_value_box_list_tainted()
-: <a class="el" href="value_8h.html#ae1613f22141ac42e83f82dca8babbef2">value.h</a>
-, <a class="el" href="value_8c.html#ae1613f22141ac42e83f82dca8babbef2">value.c</a>
+: <a class="el" href="value_8c.html#ae1613f22141ac42e83f82dca8babbef2">value.c</a>
+, <a class="el" href="value_8h.html#ae1613f22141ac42e83f82dca8babbef2">value.h</a>
 </li>
 <li>fr_value_box_list_type_t
 : <a class="el" href="value_8h.html#ab3556b32073fc1e400bd5cd027de3182">value.h</a>
@@ -8749,8 +8759,8 @@ $(function() {
 , <a class="el" href="value_8h.html#a6162c72ecf7a8f7c5c162192074df556">value.h</a>
 </li>
 <li>fr_value_box_mem_append_buffer()
-: <a class="el" href="value_8h.html#a27d4070b66e78601e5543c0bbc00fcec">value.h</a>
-, <a class="el" href="value_8c.html#a27d4070b66e78601e5543c0bbc00fcec">value.c</a>
+: <a class="el" href="value_8c.html#a27d4070b66e78601e5543c0bbc00fcec">value.c</a>
+, <a class="el" href="value_8h.html#a27d4070b66e78601e5543c0bbc00fcec">value.h</a>
 </li>
 <li>fr_value_box_mem_realloc()
 : <a class="el" href="value_8h.html#a4146efb12089bfb8ddc5b5548eef5a96">value.h</a>
@@ -8761,16 +8771,16 @@ $(function() {
 , <a class="el" href="value_8c.html#af7e5339e09823aff580c0ac63c5d5c84">value.c</a>
 </li>
 <li>fr_value_box_memdup_buffer()
-: <a class="el" href="value_8c.html#a33088c75996d207fdaa0e98f41d1b2c1">value.c</a>
-, <a class="el" href="value_8h.html#a33088c75996d207fdaa0e98f41d1b2c1">value.h</a>
+: <a class="el" href="value_8h.html#a33088c75996d207fdaa0e98f41d1b2c1">value.h</a>
+, <a class="el" href="value_8c.html#a33088c75996d207fdaa0e98f41d1b2c1">value.c</a>
 </li>
 <li>fr_value_box_memdup_buffer_shallow()
 : <a class="el" href="value_8c.html#a0574db7463529867450887fab085ccf2">value.c</a>
 , <a class="el" href="value_8h.html#a0574db7463529867450887fab085ccf2">value.h</a>
 </li>
 <li>fr_value_box_memdup_shallow()
-: <a class="el" href="value_8c.html#a62087692e39fce88c416c8e7671aa5f7">value.c</a>
-, <a class="el" href="value_8h.html#a62087692e39fce88c416c8e7671aa5f7">value.h</a>
+: <a class="el" href="value_8h.html#a62087692e39fce88c416c8e7671aa5f7">value.h</a>
+, <a class="el" href="value_8c.html#a62087692e39fce88c416c8e7671aa5f7">value.c</a>
 </li>
 <li>FR_VALUE_BOX_NET_ERROR
 : <a class="el" href="value_8h.html#a4058e21f226d31f2cd92f47cbebd9a66">value.h</a>
@@ -8782,8 +8792,8 @@ $(function() {
 : <a class="el" href="value_8h.html#aef5874f1c17f59e2313c9706f5762a05">value.h</a>
 </li>
 <li>fr_value_box_network_length()
-: <a class="el" href="value_8h.html#a90a63cc0964340a78eec0691ca02c711">value.h</a>
-, <a class="el" href="value_8c.html#a90a63cc0964340a78eec0691ca02c711">value.c</a>
+: <a class="el" href="value_8c.html#a90a63cc0964340a78eec0691ca02c711">value.c</a>
+, <a class="el" href="value_8h.html#a90a63cc0964340a78eec0691ca02c711">value.h</a>
 </li>
 <li>fr_value_box_network_sizes
 : <a class="el" href="value_8c.html#a44a87aa841cbb95e45f7f3ff128b92d6">value.c</a>
@@ -8808,8 +8818,8 @@ $(function() {
 , <a class="el" href="value_8h.html#abc9a034bb22eb1ab1d4630a5d264f7d5">value.h</a>
 </li>
 <li>fr_value_box_strdup()
-: <a class="el" href="value_8h.html#a78d8541f585881c107f51ab06079ee92">value.h</a>
-, <a class="el" href="value_8c.html#a78d8541f585881c107f51ab06079ee92">value.c</a>
+: <a class="el" href="value_8c.html#a78d8541f585881c107f51ab06079ee92">value.c</a>
+, <a class="el" href="value_8h.html#a78d8541f585881c107f51ab06079ee92">value.h</a>
 </li>
 <li>fr_value_box_strdup_shallow()
 : <a class="el" href="value_8h.html#aa1fcc004df3dca03b34c47e3fd1e1b07">value.h</a>
@@ -8823,31 +8833,31 @@ $(function() {
 : <a class="el" href="value_8h.html#a4a9e69e78ad1a81da0976e8f29a4e444">value.h</a>
 </li>
 <li>fr_value_box_to_network()
-: <a class="el" href="value_8c.html#ad76c83e1153803b7ae42d49c3ee99647">value.c</a>
-, <a class="el" href="value_8h.html#ad76c83e1153803b7ae42d49c3ee99647">value.h</a>
+: <a class="el" href="value_8h.html#ad76c83e1153803b7ae42d49c3ee99647">value.h</a>
+, <a class="el" href="value_8c.html#ad76c83e1153803b7ae42d49c3ee99647">value.c</a>
 </li>
 <li>FR_VALUE_BOX_TO_NETWORK_RETURN
 : <a class="el" href="value_8h.html#aae064825bb491cd866e1c0365e926398">value.h</a>
 </li>
 <li>fr_value_box_type_table
-: <a class="el" href="value_8h.html#a07313a74940e698753a2b6af066892d2">value.h</a>
-, <a class="el" href="value_8c.html#a07313a74940e698753a2b6af066892d2">value.c</a>
+: <a class="el" href="value_8c.html#a07313a74940e698753a2b6af066892d2">value.c</a>
+, <a class="el" href="value_8h.html#a07313a74940e698753a2b6af066892d2">value.h</a>
 </li>
 <li>fr_value_box_type_table_len
 : <a class="el" href="value_8c.html#a3a7467172ca0fc79a9d26b6a0824759d">value.c</a>
 , <a class="el" href="value_8h.html#a3a7467172ca0fc79a9d26b6a0824759d">value.h</a>
 </li>
 <li>fr_value_box_vasprintf()
-: <a class="el" href="value_8h.html#af45a875229698a5532cedf8eba6e72fb">value.h</a>
-, <a class="el" href="value_8c.html#a092cc3092b9950c36c05352fbe98d643">value.c</a>
+: <a class="el" href="value_8c.html#a092cc3092b9950c36c05352fbe98d643">value.c</a>
+, <a class="el" href="value_8h.html#af45a875229698a5532cedf8eba6e72fb">value.h</a>
 </li>
 <li>fr_value_escape_backtick
 : <a class="el" href="value_8h.html#a914a185742e2df835153472eba2547b1">value.h</a>
 , <a class="el" href="value_8c.html#a914a185742e2df835153472eba2547b1">value.c</a>
 </li>
 <li>fr_value_escape_by_quote
-: <a class="el" href="value_8c.html#a6c1a27c99b0832de41858e42f42defab">value.c</a>
-, <a class="el" href="value_8h.html#a6c1a27c99b0832de41858e42f42defab">value.h</a>
+: <a class="el" href="value_8h.html#a6c1a27c99b0832de41858e42f42defab">value.h</a>
+, <a class="el" href="value_8c.html#a6c1a27c99b0832de41858e42f42defab">value.c</a>
 </li>
 <li>fr_value_escape_double
 : <a class="el" href="value_8h.html#a05db6dd710c7e0dd5b270886c5cbee4f">value.h</a>
@@ -8872,8 +8882,8 @@ $(function() {
 : <a class="el" href="value_8h.html#ad4460318837ff5a0727309129aa0440b">value.h</a>
 </li>
 <li>fr_value_substr_unescape()
-: <a class="el" href="value_8h.html#af0b684cf01510134be3b5d4b38e7a855">value.h</a>
-, <a class="el" href="value_8c.html#af0b684cf01510134be3b5d4b38e7a855">value.c</a>
+: <a class="el" href="value_8c.html#af0b684cf01510134be3b5d4b38e7a855">value.c</a>
+, <a class="el" href="value_8h.html#af0b684cf01510134be3b5d4b38e7a855">value.h</a>
 </li>
 <li>fr_value_unbox_ethernet_addr()
 : <a class="el" href="value_8h.html#ae5f095dc4a02d47039272b2c60ec148d">value.h</a>
@@ -8886,28 +8896,28 @@ $(function() {
 : <a class="el" href="value_8h.html#ae6f7c042824f2bb605a13d31a8dec6e3">value.h</a>
 </li>
 <li>fr_value_unescape_backtick
-: <a class="el" href="value_8c.html#a9b039e5343bc4c4ed950b283bc0db8c0">value.c</a>
-, <a class="el" href="value_8h.html#a9b039e5343bc4c4ed950b283bc0db8c0">value.h</a>
+: <a class="el" href="value_8h.html#a9b039e5343bc4c4ed950b283bc0db8c0">value.h</a>
+, <a class="el" href="value_8c.html#a9b039e5343bc4c4ed950b283bc0db8c0">value.c</a>
 </li>
 <li>fr_value_unescape_by_quote
-: <a class="el" href="value_8h.html#ac67f973abc580f063ac9022cb84c9b25">value.h</a>
-, <a class="el" href="value_8c.html#ac67f973abc580f063ac9022cb84c9b25">value.c</a>
+: <a class="el" href="value_8c.html#ac67f973abc580f063ac9022cb84c9b25">value.c</a>
+, <a class="el" href="value_8h.html#ac67f973abc580f063ac9022cb84c9b25">value.h</a>
 </li>
 <li>fr_value_unescape_double
-: <a class="el" href="value_8h.html#aed67c6db34b4cbcd44e4aea7030e5b9a">value.h</a>
-, <a class="el" href="value_8c.html#aed67c6db34b4cbcd44e4aea7030e5b9a">value.c</a>
+: <a class="el" href="value_8c.html#aed67c6db34b4cbcd44e4aea7030e5b9a">value.c</a>
+, <a class="el" href="value_8h.html#aed67c6db34b4cbcd44e4aea7030e5b9a">value.h</a>
 </li>
 <li>fr_value_unescape_single
 : <a class="el" href="value_8h.html#ab6b7b4fd888b840854108b18adf315d0">value.h</a>
 , <a class="el" href="value_8c.html#ab6b7b4fd888b840854108b18adf315d0">value.c</a>
 </li>
 <li>fr_value_unescape_solidus
-: <a class="el" href="value_8h.html#a5540564942dc86e0af23dc05afc96f54">value.h</a>
-, <a class="el" href="value_8c.html#a5540564942dc86e0af23dc05afc96f54">value.c</a>
+: <a class="el" href="value_8c.html#a5540564942dc86e0af23dc05afc96f54">value.c</a>
+, <a class="el" href="value_8h.html#a5540564942dc86e0af23dc05afc96f54">value.h</a>
 </li>
 <li>fr_vasprintf()
-: <a class="el" href="print_8c.html#a27ae94b5a4c77de49aa2f387765a4d58">print.c</a>
-, <a class="el" href="print_8h.html#a27ae94b5a4c77de49aa2f387765a4d58">print.h</a>
+: <a class="el" href="print_8h.html#a27ae94b5a4c77de49aa2f387765a4d58">print.h</a>
+, <a class="el" href="print_8c.html#a27ae94b5a4c77de49aa2f387765a4d58">print.c</a>
 </li>
 <li>fr_verify_struct()
 : <a class="el" href="debug_8h.html#a383626587c58ed9745813b4f9d03678e">debug.h</a>
@@ -8939,8 +8949,8 @@ $(function() {
 , <a class="el" href="vmps_8h.html#a94e17e1a98d20297b711d818d0ef1480">vmps.h</a>
 </li>
 <li>fr_vmps_decode()
-: <a class="el" href="vmps_8c.html#a168208709b0d5210cddd3ce7d8036c9e">vmps.c</a>
-, <a class="el" href="vmps_8h.html#a168208709b0d5210cddd3ce7d8036c9e">vmps.h</a>
+: <a class="el" href="vmps_8h.html#a168208709b0d5210cddd3ce7d8036c9e">vmps.h</a>
+, <a class="el" href="vmps_8c.html#a168208709b0d5210cddd3ce7d8036c9e">vmps.c</a>
 </li>
 <li>fr_vmps_decode_proto()
 : <a class="el" href="vmps_8c.html#a17e393a6e3af45f5c6d48ac8203fcbdc">vmps.c</a>
@@ -8965,8 +8975,8 @@ $(function() {
 , <a class="el" href="vmps_8c.html#acfe3fb1d133ee1d505280b2e88996a4b">vmps.c</a>
 </li>
 <li>fr_vmps_packet_size()
-: <a class="el" href="vmps_8c.html#ad707ec77961dde06916fc74af2aec17e">vmps.c</a>
-, <a class="el" href="vmps_8h.html#ad707ec77961dde06916fc74af2aec17e">vmps.h</a>
+: <a class="el" href="vmps_8h.html#ad707ec77961dde06916fc74af2aec17e">vmps.h</a>
+, <a class="el" href="vmps_8c.html#ad707ec77961dde06916fc74af2aec17e">vmps.c</a>
 </li>
 <li>fr_vmps_print_hex()
 : <a class="el" href="vmps_8h.html#ae8e56cebe67523e5473cef9ef26bce4a">vmps.h</a>
@@ -8986,8 +8996,8 @@ $(function() {
 , <a class="el" href="worker_8h.html#abe0907d923c82ecdade2df1b6195cc87">worker.h</a>
 </li>
 <li>fr_worker_channel_create()
-: <a class="el" href="worker_8c.html#a2057bd8b26f2be947f2a09b2316cad75">worker.c</a>
-, <a class="el" href="worker_8h.html#a2057bd8b26f2be947f2a09b2316cad75">worker.h</a>
+: <a class="el" href="worker_8h.html#a2057bd8b26f2be947f2a09b2316cad75">worker.h</a>
+, <a class="el" href="worker_8c.html#a2057bd8b26f2be947f2a09b2316cad75">worker.c</a>
 </li>
 <li>fr_worker_create()
 : <a class="el" href="worker_8c.html#a9c2264591dc785c612e1cb43a01cc815">worker.c</a>
@@ -9006,12 +9016,12 @@ $(function() {
 , <a class="el" href="worker_8h.html#a84d639546fbb07781020fa7af8ac14c7">worker.h</a>
 </li>
 <li>fr_worker_pre_event()
-: <a class="el" href="worker_8c.html#ae96db34c95a7789f7d86f002df9645b8">worker.c</a>
-, <a class="el" href="worker_8h.html#a88cb600d6b017f50fc1ba46c0f21e519">worker.h</a>
+: <a class="el" href="worker_8h.html#a88cb600d6b017f50fc1ba46c0f21e519">worker.h</a>
+, <a class="el" href="worker_8c.html#ae96db34c95a7789f7d86f002df9645b8">worker.c</a>
 </li>
 <li>fr_worker_request_add()
-: <a class="el" href="worker_8h.html#af5ced8764ad57ac8e3baed9f1a0f1ad2">worker.h</a>
-, <a class="el" href="worker_8c.html#af5ced8764ad57ac8e3baed9f1a0f1ad2">worker.c</a>
+: <a class="el" href="worker_8c.html#af5ced8764ad57ac8e3baed9f1a0f1ad2">worker.c</a>
+, <a class="el" href="worker_8h.html#af5ced8764ad57ac8e3baed9f1a0f1ad2">worker.h</a>
 </li>
 <li>fr_worker_stats()
 : <a class="el" href="worker_8h.html#a389af56397424b1773acb30847dbff80">worker.h</a>
@@ -9058,12 +9068,12 @@ $(function() {
 : <a class="el" href="dlopen_8c.html#a40b12beed86b4c02404e90a70db0fd57">dlopen.c</a>
 </li>
 <li>free_blocks()
-: <a class="el" href="message__set__test_8c.html#aede8b787c854b8e4a1f2594b9257f569">message_set_test.c</a>
-, <a class="el" href="ring__buffer__test_8c.html#a60662d5a61edc858ecc117b4db450978">ring_buffer_test.c</a>
+: <a class="el" href="ring__buffer__test_8c.html#a60662d5a61edc858ecc117b4db450978">ring_buffer_test.c</a>
+, <a class="el" href="message__set__test_8c.html#aede8b787c854b8e4a1f2594b9257f569">message_set_test.c</a>
 </li>
 <li>free_con()
-: <a class="el" href="bsc__sccp_8c.html#aa236cb5598c61f5b54d886dc1623155f">bsc_sccp.c</a>
-, <a class="el" href="bsc__sccp_8h.html#aa236cb5598c61f5b54d886dc1623155f">bsc_sccp.h</a>
+: <a class="el" href="bsc__sccp_8h.html#aa236cb5598c61f5b54d886dc1623155f">bsc_sccp.h</a>
+, <a class="el" href="bsc__sccp_8c.html#aa236cb5598c61f5b54d886dc1623155f">bsc_sccp.c</a>
 </li>
 <li>FREE_MAGIC
 : <a class="el" href="pair_8c.html#a3871f1dc1763199fd11fdee7336bfc41">pair.c</a>
@@ -9093,7 +9103,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 15 2020 15:43:42 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 15 2020 15:57:46 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

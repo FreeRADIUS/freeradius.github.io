@@ -101,9 +101,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ab3254a8755d83c9aaf18b17062bf4303"><td class="memItemLeft" align="right" valign="top">static ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2encode_8c.html#ab3254a8755d83c9aaf18b17062bf4303">encode_option_hdr</a> (<a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, uint16_t option, size_t data_len)</td></tr>
 <tr class="memdesc:ab3254a8755d83c9aaf18b17062bf4303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro-like function for encoding an option header.  <a href="#ab3254a8755d83c9aaf18b17062bf4303">More...</a><br /></td></tr>
 <tr class="separator:ab3254a8755d83c9aaf18b17062bf4303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58135b4b5e81ca57a5b84298501a2b3f"><td class="memItemLeft" align="right" valign="top">static ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2encode_8c.html#a58135b4b5e81ca57a5b84298501a2b3f">encode_relay_message</a> (<a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, <a class="el" href="util_2proto_8h.html#structfr__da__stack__t">fr_da_stack_t</a> *da_stack, unsigned int depth, <a class="el" href="cursor_8h.html#structfr__cursor__t">fr_cursor_t</a> *cursor, void *encoder_ctx)</td></tr>
-<tr class="memdesc:a58135b4b5e81ca57a5b84298501a2b3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode a Relay-Message.  <a href="#a58135b4b5e81ca57a5b84298501a2b3f">More...</a><br /></td></tr>
-<tr class="separator:a58135b4b5e81ca57a5b84298501a2b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4df904377c48d5e07fe073ebef94d34d"><td class="memItemLeft" align="right" valign="top">static ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2encode_8c.html#a4df904377c48d5e07fe073ebef94d34d">encode_relay_message</a> (<a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, <a class="el" href="util_2proto_8h.html#structfr__da__stack__t">fr_da_stack_t</a> *da_stack, unsigned int depth, <a class="el" href="cursor_8h.html#structfr__cursor__t">fr_cursor_t</a> *cursor, <a class="el" href="build_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> void *encoder_ctx)</td></tr>
+<tr class="memdesc:a4df904377c48d5e07fe073ebef94d34d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode a Relay-Message.  <a href="#a4df904377c48d5e07fe073ebef94d34d">More...</a><br /></td></tr>
+<tr class="separator:a4df904377c48d5e07fe073ebef94d34d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d7250c8c84799ac391ad0fb8e639124"><td class="memItemLeft" align="right" valign="top">static ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocols_2dhcpv6_2encode_8c.html#a3d7250c8c84799ac391ad0fb8e639124">encode_rfc_hdr</a> (<a class="el" href="dbuff_8h.html#a03ab727e4c61835ac6ee275f8140a9f6">fr_dbuff_t</a> *dbuff, <a class="el" href="util_2proto_8h.html#structfr__da__stack__t">fr_da_stack_t</a> *da_stack, unsigned int depth, <a class="el" href="cursor_8h.html#structfr__cursor__t">fr_cursor_t</a> *cursor, void *encoder_ctx)</td></tr>
 <tr class="memdesc:a3d7250c8c84799ac391ad0fb8e639124"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode an RFC format TLV.  <a href="#a3d7250c8c84799ac391ad0fb8e639124">More...</a><br /></td></tr>
 <tr class="separator:a3d7250c8c84799ac391ad0fb8e639124"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,7 +135,7 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions to encode DHCP options. </p>
-<dl class="section rcs"><dt>Id</dt><dd>40992482819c0a0d07fd51aa71a4d3ec999455e7 </dd></dl>
+<dl class="section rcs"><dt>Id</dt><dd>5e7b6c634cd28ce76c452625422b48de9e53b9b1 </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Arran Cudbard-Bell (<a href="#" onclick="location.href='mai'+'lto:'+'a.c'+'ud'+'bar'+'db'+'@fr'+'ee'+'rad'+'iu'+'s.o'+'rg'; return false;">a.cud<span style="display: none;">.nosp@m.</span>bard<span style="display: none;">.nosp@m.</span>b@fre<span style="display: none;">.nosp@m.</span>erad<span style="display: none;">.nosp@m.</span>ius.o<span style="display: none;">.nosp@m.</span>rg</a>)</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>2018 The freeradius server project </dd>
 <dd>
@@ -167,7 +167,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html#l00823">823</a> of file <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html">encode.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html#l00802">802</a> of file <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html">encode.c</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -321,14 +321,14 @@ Variables</h2></td></tr>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2encode_8c_ab3254a8755d83c9aaf18b17062bf4303_icgraph.svg" width="100%" height="495"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2encode_8c_ab3254a8755d83c9aaf18b17062bf4303_icgraph.svg" width="100%" height="391"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a58135b4b5e81ca57a5b84298501a2b3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58135b4b5e81ca57a5b84298501a2b3f">&#9670;&nbsp;</a></span>encode_relay_message()</h2>
+<a id="a4df904377c48d5e07fe073ebef94d34d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4df904377c48d5e07fe073ebef94d34d">&#9670;&nbsp;</a></span>encode_relay_message()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -363,7 +363,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="build_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> void *&#160;</td>
           <td class="paramname"><em>encoder_ctx</em>&#160;</td>
         </tr>
         <tr>
@@ -388,7 +388,7 @@ Variables</h2></td></tr>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2encode_8c_a58135b4b5e81ca57a5b84298501a2b3f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2encode_8c_a4df904377c48d5e07fe073ebef94d34d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -396,7 +396,7 @@ Variables</h2></td></tr>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2encode_8c_a58135b4b5e81ca57a5b84298501a2b3f_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="protocols_2dhcpv6_2encode_8c_a4df904377c48d5e07fe073ebef94d34d_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -583,7 +583,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html#l00830">830</a> of file <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html">encode.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html#l00809">809</a> of file <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html">encode.c</a>.</p>
 <div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
@@ -933,7 +933,7 @@ Variables</h2></td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html#l00769">769</a> of file <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html">encode.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html#l00748">748</a> of file <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html">encode.c</a>.</p>
 <div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
@@ -1005,7 +1005,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html#l00847">847</a> of file <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html">encode.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html#l00826">826</a> of file <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html">encode.c</a>.</p>
 <div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-23-summary" class="dynsummary" style="display:block;">
@@ -1029,11 +1029,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .test_ctx       = <a class="code" href="protocols_2dhcpv6_2encode_8c.html#ac174b94c8f01e4dde4dd254269d0962a">encode_test_ctx</a>,</div><div class="line">        .func           = <a class="code" href="protocols_2dhcpv6_2encode_8c.html#ad1e3640a48d6dd4222149b4051b48800">fr_dhcpv6_encode_option</a>,</div><div class="line">        .next_encodable = <a class="code" href="protocols_2dhcpv6_2attrs_8h.html#aeaa2b031b78892173faf3811ed70e1fa">fr_dhcpv6_next_encodable</a>,</div><div class="line">}</div><div class="ttc" id="protocols_2dhcpv6_2encode_8c_html_ad1e3640a48d6dd4222149b4051b48800"><div class="ttname"><a href="protocols_2dhcpv6_2encode_8c.html#ad1e3640a48d6dd4222149b4051b48800">fr_dhcpv6_encode_option</a></div><div class="ttdeci">ssize_t fr_dhcpv6_encode_option(fr_dbuff_t *dbuff, fr_cursor_t *cursor, void *encoder_ctx)</div><div class="ttdoc">Encode a DHCPv6 option and any sub-options. </div><div class="ttdef"><b>Definition:</b> <a href="protocols_2dhcpv6_2encode_8c_source.html#l00769">encode.c:769</a></div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .test_ctx       = <a class="code" href="protocols_2dhcpv6_2encode_8c.html#ac174b94c8f01e4dde4dd254269d0962a">encode_test_ctx</a>,</div><div class="line">        .func           = <a class="code" href="protocols_2dhcpv6_2encode_8c.html#ad1e3640a48d6dd4222149b4051b48800">fr_dhcpv6_encode_option</a>,</div><div class="line">        .next_encodable = <a class="code" href="protocols_2dhcpv6_2attrs_8h.html#aeaa2b031b78892173faf3811ed70e1fa">fr_dhcpv6_next_encodable</a>,</div><div class="line">}</div><div class="ttc" id="protocols_2dhcpv6_2encode_8c_html_ad1e3640a48d6dd4222149b4051b48800"><div class="ttname"><a href="protocols_2dhcpv6_2encode_8c.html#ad1e3640a48d6dd4222149b4051b48800">fr_dhcpv6_encode_option</a></div><div class="ttdeci">ssize_t fr_dhcpv6_encode_option(fr_dbuff_t *dbuff, fr_cursor_t *cursor, void *encoder_ctx)</div><div class="ttdoc">Encode a DHCPv6 option and any sub-options. </div><div class="ttdef"><b>Definition:</b> <a href="protocols_2dhcpv6_2encode_8c_source.html#l00748">encode.c:748</a></div></div>
 <div class="ttc" id="protocols_2dhcpv6_2attrs_8h_html_aeaa2b031b78892173faf3811ed70e1fa"><div class="ttname"><a href="protocols_2dhcpv6_2attrs_8h.html#aeaa2b031b78892173faf3811ed70e1fa">fr_dhcpv6_next_encodable</a></div><div class="ttdeci">void * fr_dhcpv6_next_encodable(void **prev, void *to_eval, void *uctx)</div><div class="ttdoc">DHCPV6-specific iterator. </div><div class="ttdef"><b>Definition:</b> <a href="protocols_2dhcpv6_2base_8c_source.html#l00752">base.c:752</a></div></div>
-<div class="ttc" id="protocols_2dhcpv6_2encode_8c_html_ac174b94c8f01e4dde4dd254269d0962a"><div class="ttname"><a href="protocols_2dhcpv6_2encode_8c.html#ac174b94c8f01e4dde4dd254269d0962a">encode_test_ctx</a></div><div class="ttdeci">static int encode_test_ctx(void **out, TALLOC_CTX *ctx)</div><div class="ttdef"><b>Definition:</b> <a href="protocols_2dhcpv6_2encode_8c_source.html#l00830">encode.c:830</a></div></div>
+<div class="ttc" id="protocols_2dhcpv6_2encode_8c_html_ac174b94c8f01e4dde4dd254269d0962a"><div class="ttname"><a href="protocols_2dhcpv6_2encode_8c.html#ac174b94c8f01e4dde4dd254269d0962a">encode_test_ctx</a></div><div class="ttdeci">static int encode_test_ctx(void **out, TALLOC_CTX *ctx)</div><div class="ttdef"><b>Definition:</b> <a href="protocols_2dhcpv6_2encode_8c_source.html#l00809">encode.c:809</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html#l00856">856</a> of file <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html">encode.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html#l00835">835</a> of file <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html">encode.c</a>.</p>
 
 </div>
 </div>
@@ -1048,17 +1048,17 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .test_ctx       = <a class="code" href="protocols_2dhcpv6_2encode_8c.html#ac174b94c8f01e4dde4dd254269d0962a">encode_test_ctx</a>,</div><div class="line">        .func           = <a class="code" href="protocols_2dhcpv6_2encode_8c.html#a2c076865b6c116361c88a30dbe69dfdd">fr_dhcpv6_encode_proto</a></div><div class="line">}</div><div class="ttc" id="protocols_2dhcpv6_2encode_8c_html_ac174b94c8f01e4dde4dd254269d0962a"><div class="ttname"><a href="protocols_2dhcpv6_2encode_8c.html#ac174b94c8f01e4dde4dd254269d0962a">encode_test_ctx</a></div><div class="ttdeci">static int encode_test_ctx(void **out, TALLOC_CTX *ctx)</div><div class="ttdef"><b>Definition:</b> <a href="protocols_2dhcpv6_2encode_8c_source.html#l00830">encode.c:830</a></div></div>
-<div class="ttc" id="protocols_2dhcpv6_2encode_8c_html_a2c076865b6c116361c88a30dbe69dfdd"><div class="ttname"><a href="protocols_2dhcpv6_2encode_8c.html#a2c076865b6c116361c88a30dbe69dfdd">fr_dhcpv6_encode_proto</a></div><div class="ttdeci">static ssize_t fr_dhcpv6_encode_proto(UNUSED TALLOC_CTX *ctx, fr_pair_t *vps, uint8_t *data, size_t data_len, UNUSED void *proto_ctx)</div><div class="ttdef"><b>Definition:</b> <a href="protocols_2dhcpv6_2encode_8c_source.html#l00847">encode.c:847</a></div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">        .test_ctx       = <a class="code" href="protocols_2dhcpv6_2encode_8c.html#ac174b94c8f01e4dde4dd254269d0962a">encode_test_ctx</a>,</div><div class="line">        .func           = <a class="code" href="protocols_2dhcpv6_2encode_8c.html#a2c076865b6c116361c88a30dbe69dfdd">fr_dhcpv6_encode_proto</a></div><div class="line">}</div><div class="ttc" id="protocols_2dhcpv6_2encode_8c_html_ac174b94c8f01e4dde4dd254269d0962a"><div class="ttname"><a href="protocols_2dhcpv6_2encode_8c.html#ac174b94c8f01e4dde4dd254269d0962a">encode_test_ctx</a></div><div class="ttdeci">static int encode_test_ctx(void **out, TALLOC_CTX *ctx)</div><div class="ttdef"><b>Definition:</b> <a href="protocols_2dhcpv6_2encode_8c_source.html#l00809">encode.c:809</a></div></div>
+<div class="ttc" id="protocols_2dhcpv6_2encode_8c_html_a2c076865b6c116361c88a30dbe69dfdd"><div class="ttname"><a href="protocols_2dhcpv6_2encode_8c.html#a2c076865b6c116361c88a30dbe69dfdd">fr_dhcpv6_encode_proto</a></div><div class="ttdeci">static ssize_t fr_dhcpv6_encode_proto(UNUSED TALLOC_CTX *ctx, fr_pair_t *vps, uint8_t *data, size_t data_len, UNUSED void *proto_ctx)</div><div class="ttdef"><b>Definition:</b> <a href="protocols_2dhcpv6_2encode_8c_source.html#l00826">encode.c:826</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html#l00863">863</a> of file <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html">encode.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html#l00842">842</a> of file <a class="el" href="protocols_2dhcpv6_2encode_8c_source.html">encode.c</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 15 2020 15:43:27 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 15 2020 15:57:30 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -1,39 +1,33 @@
 <map id="fr_net_from_uint32" name="fr_net_from_uint32">
-<area shape="rect" id="node2" href="$dhcpv6_8h.html#a0043be4d235d53fbfd3f09f9c2dc9cb6" title="Encode a DHCPv6 packet. " alt="" coords="185,223,313,249"/>
-<area shape="rect" id="node8" href="$net_8h.html#a88c0a01a5c75d9e5a395c6365a296453" title="Write out an unsigned 64bit integer in wire format (big endian) " alt="" coords="184,373,315,400"/>
-<area shape="rect" id="node38" href="$net_8h.html#a0cb2ef0a33b5d6798dc4a60b0cae1056" title="Write out an signed 64bit integer in wire format (big endian) " alt="" coords="188,424,311,451"/>
-<area shape="rect" id="node3" href="$protocols_2dhcpv6_2encode_8c.html#a58135b4b5e81ca57a5b84298501a2b3f" title="Encode a Relay&#45;Message. " alt="" coords="365,121,524,148"/>
-<area shape="rect" id="node6" href="$protocols_2dhcpv6_2encode_8c.html#a2c076865b6c116361c88a30dbe69dfdd" title="fr_dhcpv6_encode_proto" alt="" coords="363,223,527,249"/>
-<area shape="rect" id="node7" href="$proto__dhcpv6_8c.html#a73de03e9d89143b1337647cdefb8edaf" title="mod_encode" alt="" coords="397,273,493,300"/>
-<area shape="rect" id="node4" href="$protocols_2dhcpv6_2encode_8c.html#ad1e3640a48d6dd4222149b4051b48800" title="Encode a DHCPv6 option and any sub&#45;options. " alt="" coords="575,121,745,148"/>
-<area shape="rect" id="node5" href="$protocols_2dhcpv6_2encode_8c.html#aa91de6bbe02c21d71bf5252d9838d139" title="encode_value" alt="" coords="837,5,940,32"/>
-<area shape="rect" id="node9" href="$value_8c.html#ab4cdd5acf4ba3ba56ee02fccc48066a8" title="Convert any supported type to an ethernet address. " alt="" coords="371,466,518,507"/>
-<area shape="rect" id="node10" href="$value_8h.html#a3432f16e544f700379473f34256d2387" title="Convert one type of fr_value_box_t to another. " alt="" coords="596,756,724,783"/>
-<area shape="rect" id="node11" href="$json_8c.html#aad1df3ee3326cd6e9ce2fb8b6c1cb04b" title="Convert fr_pair_t into a JSON object. " alt="" coords="813,107,965,133"/>
-<area shape="rect" id="node12" href="$lib_2server_2map_8c.html#a1967203942bdafcb2925fdbad317c9be" title="Convert a map to a fr_pair_t. " alt="" coords="845,157,932,184"/>
-<area shape="rect" id="node13" href="$rlm__redis__ippool_8c.html#ab2c2cf71d32e4dd26d34f3e07e4f30d5" title="Allocate a new IP address from a pool. " alt="" coords="1032,183,1175,209"/>
-<area shape="rect" id="node14" href="$redis_8c.html#aa13699b4e785d39a92e4af83cf2c1d64" title="Convert a string or integer type to fr_value_box_t of specified type. " alt="" coords="797,259,981,285"/>
-<area shape="rect" id="node15" href="$cond__tokenize_8c.html#a2910eb989e37f0361eb4f7e8f73f6c28" title="cond_normalise" alt="" coords="832,309,945,336"/>
-<area shape="rect" id="node16" href="$map__async_8c.html#a1e8cbd9ce93063b8d2bd60cd3db89d94" title="Allocate an &#39;empty_string&#39; vp_list_mod_t. " alt="" coords="812,361,965,402"/>
-<area shape="rect" id="node17" href="$map__async_8c.html#aa55edc52f4847523e3e89f8307b86196" title="Evaluate a map creating a new map with TMPL_TYPE_ATTR LHS and TMPL_TYPE_DATA RHS. ..." alt="" coords="1043,427,1164,453"/>
-<area shape="rect" id="node18" href="$tmpl__eval_8c.html#a8ac04ec753894ab37f032dca33308883" title="Expand a tmpl_t to a string writing the result to a buffer. " alt="" coords="837,477,941,504"/>
-<area shape="rect" id="node19" href="$tmpl__eval_8c.html#a79dae4fc6646f70671d3083254fc5946" title="Expand a template to a string, allocing a new buffer to hold the string. " alt="" coords="833,528,944,555"/>
-<area shape="rect" id="node20" href="$tmpl__tokenize_8c.html#ae99fdc116c2a57a62efa7533a162e0ad" title="Convert tmpl_t of type TMPL_TYPE_UNRESOLVED or TMPL_TYPE_DATA to TMPL_TYPE_DATA of type specified..." alt="" coords="821,579,956,605"/>
-<area shape="rect" id="node21" href="$subrequest_8c.html#aad6971d247ee77ff4b5c4b7229af5529" title="unlang_subrequest_state_init" alt="" coords="793,629,984,656"/>
-<area shape="rect" id="node22" href="$group__xlat__functions.html#gabd74d96da10432de69e7285cc818b1d2" title="Print out attribute info. " alt="" coords="817,680,960,707"/>
-<area shape="rect" id="node23" href="$group__xlat__functions.html#ga6f5b05ff888681688ff53cbb562c07f5" title="Print data as integer, not as VALUE. " alt="" coords="828,731,949,757"/>
-<area shape="rect" id="node24" href="$group__xlat__functions.html#ga38d873de359cb0c24c4c0e5c502df217" title="Pack multiple things together. " alt="" coords="833,781,944,808"/>
-<area shape="rect" id="node25" href="$group__xlat__functions.html#ga9ed8194a365616814f9b536867f9907c" title="Generate a string of random chars. " alt="" coords="1042,1057,1165,1084"/>
-<area shape="rect" id="node26" href="$xlat__eval_8c.html#a3116be655c31834674227e6d9c235d55" title="xlat_sync_eval" alt="" coords="834,883,943,909"/>
-<area shape="rect" id="node27" href="$dict__util_8c.html#ad73381b24b5861e692a4bd5bee85f280" title="dict_attr_enum_add_name" alt="" coords="801,933,976,960"/>
-<area shape="rect" id="node28" href="$protocols_2dhcpv4_2packet_8c.html#ad0a23cd10d1d47c153e694d7fd803867" title="fr_dhcpv4_decode" alt="" coords="825,984,953,1011"/>
-<area shape="rect" id="node29" href="$print_8h.html#a27ae94b5a4c77de49aa2f387765a4d58" title="Special version of vasprintf which implements custom format specifiers. " alt="" coords="845,1035,932,1061"/>
-<area shape="rect" id="node30" href="$value_8c.html#a238370bfc1220504a05552054e4854d5" title="Convert any supported type to a string. " alt="" coords="815,1086,962,1127"/>
-<area shape="rect" id="node31" href="$value_8c.html#a6b2fba64c08cddaea47f2b0dbf3f22a3" title="Convert any supported type to octets. " alt="" coords="815,1151,962,1193"/>
-<area shape="rect" id="node32" href="$value_8h.html#a5a5550ab6b836ddf7914099852d4b206" title="Convert one type of fr_value_box_t to another in place. " alt="" coords="816,1217,961,1258"/>
-<area shape="rect" id="node33" href="$value_8h.html#a8cedcf0cd0b56390ead0b791c4b4d67f" title="Concatenate a list of value boxes. " alt="" coords="805,832,972,859"/>
-<area shape="rect" id="node34" href="$rlm__csv_8c.html#a1ee517a20d1254bcde78063a1e36840c" title="mod_process" alt="" coords="839,1333,939,1360"/>
-<area shape="rect" id="node35" href="$rlm__expr_8c.html#a1fc317261492102bba745786664a748d" title="get_number" alt="" coords="843,1384,934,1411"/>
-<area shape="rect" id="node36" href="$lua_8c.html#a321fc75f14c187d597a1c7b930980a4f" title="Convert Lua values to fr_pair_ts. " alt="" coords="827,1435,951,1461"/>
-<area shape="rect" id="node37" href="$rest_8c.html#a8cc3df0247211225a364f062fcf3a9e9" title="Converts JSON &quot;value&quot; key into fr_pair_t. " alt="" coords="821,56,957,83"/>
+<area shape="rect" id="node2" href="$net_8h.html#a88c0a01a5c75d9e5a395c6365a296453" title="Write out an unsigned 64bit integer in wire format (big endian) " alt="" coords="184,731,315,757"/>
+<area shape="rect" id="node32" href="$net_8h.html#a0cb2ef0a33b5d6798dc4a60b0cae1056" title="Write out an signed 64bit integer in wire format (big endian) " alt="" coords="188,781,311,808"/>
+<area shape="rect" id="node3" href="$value_8c.html#ab4cdd5acf4ba3ba56ee02fccc48066a8" title="Convert any supported type to an ethernet address. " alt="" coords="363,723,509,765"/>
+<area shape="rect" id="node4" href="$value_8h.html#a3432f16e544f700379473f34256d2387" title="Convert one type of fr_value_box_t to another. " alt="" coords="557,731,685,757"/>
+<area shape="rect" id="node5" href="$json_8c.html#aad1df3ee3326cd6e9ce2fb8b6c1cb04b" title="Convert fr_pair_t into a JSON object. " alt="" coords="753,5,905,32"/>
+<area shape="rect" id="node6" href="$lib_2server_2map_8c.html#a1967203942bdafcb2925fdbad317c9be" title="Convert a map to a fr_pair_t. " alt="" coords="785,107,872,133"/>
+<area shape="rect" id="node7" href="$rlm__redis__ippool_8c.html#ab2c2cf71d32e4dd26d34f3e07e4f30d5" title="Allocate a new IP address from a pool. " alt="" coords="972,81,1115,108"/>
+<area shape="rect" id="node8" href="$redis_8c.html#aa13699b4e785d39a92e4af83cf2c1d64" title="Convert a string or integer type to fr_value_box_t of specified type. " alt="" coords="737,157,921,184"/>
+<area shape="rect" id="node9" href="$cond__tokenize_8c.html#a2910eb989e37f0361eb4f7e8f73f6c28" title="cond_normalise" alt="" coords="772,208,885,235"/>
+<area shape="rect" id="node10" href="$map__async_8c.html#a1e8cbd9ce93063b8d2bd60cd3db89d94" title="Allocate an &#39;empty_string&#39; vp_list_mod_t. " alt="" coords="752,310,905,351"/>
+<area shape="rect" id="node11" href="$map__async_8c.html#aa55edc52f4847523e3e89f8307b86196" title="Evaluate a map creating a new map with TMPL_TYPE_ATTR LHS and TMPL_TYPE_DATA RHS. ..." alt="" coords="983,317,1104,344"/>
+<area shape="rect" id="node12" href="$tmpl__eval_8c.html#a8ac04ec753894ab37f032dca33308883" title="Expand a tmpl_t to a string writing the result to a buffer. " alt="" coords="777,376,881,403"/>
+<area shape="rect" id="node13" href="$tmpl__eval_8c.html#a79dae4fc6646f70671d3083254fc5946" title="Expand a template to a string, allocing a new buffer to hold the string. " alt="" coords="773,427,884,453"/>
+<area shape="rect" id="node14" href="$tmpl__tokenize_8c.html#ae99fdc116c2a57a62efa7533a162e0ad" title="Convert tmpl_t of type TMPL_TYPE_UNRESOLVED or TMPL_TYPE_DATA to TMPL_TYPE_DATA of type specified..." alt="" coords="761,477,896,504"/>
+<area shape="rect" id="node15" href="$subrequest_8c.html#aad6971d247ee77ff4b5c4b7229af5529" title="unlang_subrequest_state_init" alt="" coords="733,528,924,555"/>
+<area shape="rect" id="node16" href="$group__xlat__functions.html#gabd74d96da10432de69e7285cc818b1d2" title="Print out attribute info. " alt="" coords="757,579,900,605"/>
+<area shape="rect" id="node17" href="$group__xlat__functions.html#ga6f5b05ff888681688ff53cbb562c07f5" title="Print data as integer, not as VALUE. " alt="" coords="768,629,889,656"/>
+<area shape="rect" id="node18" href="$group__xlat__functions.html#ga38d873de359cb0c24c4c0e5c502df217" title="Pack multiple things together. " alt="" coords="773,680,884,707"/>
+<area shape="rect" id="node19" href="$group__xlat__functions.html#ga9ed8194a365616814f9b536867f9907c" title="Generate a string of random chars. " alt="" coords="982,956,1105,983"/>
+<area shape="rect" id="node20" href="$xlat__eval_8c.html#a3116be655c31834674227e6d9c235d55" title="xlat_sync_eval" alt="" coords="774,781,883,808"/>
+<area shape="rect" id="node21" href="$dict__util_8c.html#ad73381b24b5861e692a4bd5bee85f280" title="dict_attr_enum_add_name" alt="" coords="741,832,916,859"/>
+<area shape="rect" id="node22" href="$protocols_2dhcpv4_2packet_8c.html#ad0a23cd10d1d47c153e694d7fd803867" title="fr_dhcpv4_decode" alt="" coords="765,883,893,909"/>
+<area shape="rect" id="node23" href="$print_8h.html#a27ae94b5a4c77de49aa2f387765a4d58" title="Special version of vasprintf which implements custom format specifiers. " alt="" coords="785,933,872,960"/>
+<area shape="rect" id="node24" href="$value_8c.html#a238370bfc1220504a05552054e4854d5" title="Convert any supported type to a string. " alt="" coords="755,985,902,1026"/>
+<area shape="rect" id="node25" href="$value_8c.html#a6b2fba64c08cddaea47f2b0dbf3f22a3" title="Convert any supported type to octets. " alt="" coords="755,1050,902,1091"/>
+<area shape="rect" id="node26" href="$value_8h.html#a5a5550ab6b836ddf7914099852d4b206" title="Convert one type of fr_value_box_t to another in place. " alt="" coords="756,1115,901,1157"/>
+<area shape="rect" id="node27" href="$value_8h.html#a8cedcf0cd0b56390ead0b791c4b4d67f" title="Concatenate a list of value boxes. " alt="" coords="745,731,912,757"/>
+<area shape="rect" id="node28" href="$rlm__csv_8c.html#a1ee517a20d1254bcde78063a1e36840c" title="mod_process" alt="" coords="779,1232,879,1259"/>
+<area shape="rect" id="node29" href="$rlm__expr_8c.html#a1fc317261492102bba745786664a748d" title="get_number" alt="" coords="783,1283,874,1309"/>
+<area shape="rect" id="node30" href="$lua_8c.html#a321fc75f14c187d597a1c7b930980a4f" title="Convert Lua values to fr_pair_ts. " alt="" coords="767,1333,891,1360"/>
+<area shape="rect" id="node31" href="$rest_8c.html#a8cc3df0247211225a364f062fcf3a9e9" title="Converts JSON &quot;value&quot; key into fr_pair_t. " alt="" coords="761,1384,897,1411"/>
 </map>
