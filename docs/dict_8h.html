@@ -218,8 +218,6 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="dict_8h.html#abc02aee3acead1e22575d78f9b44fae1a618b2b9cd1521e37bfe9607d1db6b316">FR_DICT_ATTR_EXT_ENUMV</a>, 
 <br />
-&#160;&#160;<a class="el" href="dict_8h.html#abc02aee3acead1e22575d78f9b44fae1a90e7d06a9611eb3e42fb66e491c94cd6">FR_DICT_ATTR_EXT_NAMESPACE</a>, 
-<br />
 &#160;&#160;<a class="el" href="dict_8h.html#abc02aee3acead1e22575d78f9b44fae1a10cdac114f9a7f11ced26493e04125aa">FR_DICT_ATTR_EXT_PROTOCOL_SPECIFIC</a>, 
 <br />
 &#160;&#160;<a class="el" href="dict_8h.html#abc02aee3acead1e22575d78f9b44fae1a1dd96d10023f5426aa597c8742a9c67c">FR_DICT_ATTR_EXT_MAX</a>
@@ -353,12 +351,12 @@ Attribute, vendor and dictionary lookup</h2></td></tr>
 <tr class="memitem:a5330c24387243f560593a7c3708a22d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a5330c24387243f560593a7c3708a22d2">fr_dict_vendor_da_by_num</a> (<a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *vendor_root, uint32_t vendor_pen)</td></tr>
 <tr class="memdesc:a5330c24387243f560593a7c3708a22d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return vendor attribute for the specified dictionary and pen.  <a href="#a5330c24387243f560593a7c3708a22d2">More...</a><br /></td></tr>
 <tr class="separator:a5330c24387243f560593a7c3708a22d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa16b99cdbb26e0bcf8013aa6f8f8adc0"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#aa16b99cdbb26e0bcf8013aa6f8f8adc0">fr_dict_attr_by_name_substr</a> (<a class="el" href="dict_8h.html#ac8e46fef8c1db2fddc129c146d19392a">fr_dict_attr_err_t</a> *err, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const **<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *parent, <a class="el" href="sbuff_8h.html#a92060dffcc62ed9e62d509c6bf477b6d">fr_sbuff_t</a> *<a class="el" href="rlm__redis__ippool__tool_8c.html#a5f1de76dd5d451949e12c0fbc966ca70">name</a>))</td></tr>
-<tr class="memdesc:aa16b99cdbb26e0bcf8013aa6f8f8adc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Look up a dictionary attribute by a name embedded in another string.  <a href="#aa16b99cdbb26e0bcf8013aa6f8f8adc0">More...</a><br /></td></tr>
-<tr class="separator:aa16b99cdbb26e0bcf8013aa6f8f8adc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bcd1906194b1eb8b1a2939f0eec67a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a3bcd1906194b1eb8b1a2939f0eec67a7">fr_dict_attr_by_name</a> (<a class="el" href="dict_8h.html#ac8e46fef8c1db2fddc129c146d19392a">fr_dict_attr_err_t</a> *err, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *parent, char const *attr))</td></tr>
-<tr class="memdesc:a3bcd1906194b1eb8b1a2939f0eec67a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locate a <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> by its name.  <a href="#a3bcd1906194b1eb8b1a2939f0eec67a7">More...</a><br /></td></tr>
-<tr class="separator:a3bcd1906194b1eb8b1a2939f0eec67a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a922675a104fcda1c59c8d533003590fa"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a922675a104fcda1c59c8d533003590fa">fr_dict_attr_by_name_substr</a> (<a class="el" href="dict_8h.html#ac8e46fef8c1db2fddc129c146d19392a">fr_dict_attr_err_t</a> *err, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const **<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, <a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>, <a class="el" href="sbuff_8h.html#a92060dffcc62ed9e62d509c6bf477b6d">fr_sbuff_t</a> *<a class="el" href="rlm__redis__ippool__tool_8c.html#a5f1de76dd5d451949e12c0fbc966ca70">name</a>))</td></tr>
+<tr class="memdesc:a922675a104fcda1c59c8d533003590fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Look up a dictionary attribute by a name embedded in another string.  <a href="#a922675a104fcda1c59c8d533003590fa">More...</a><br /></td></tr>
+<tr class="separator:a922675a104fcda1c59c8d533003590fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae03d1c9a23982e392f1d3160a3fbcc54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#ae03d1c9a23982e392f1d3160a3fbcc54">fr_dict_attr_by_name</a> (<a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>, char const *attr)</td></tr>
+<tr class="memdesc:ae03d1c9a23982e392f1d3160a3fbcc54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locate a <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> by its name.  <a href="#ae03d1c9a23982e392f1d3160a3fbcc54">More...</a><br /></td></tr>
+<tr class="separator:ae03d1c9a23982e392f1d3160a3fbcc54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e43e9729099648fdc9c3527c7be84b2"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict_8h.html#a1e43e9729099648fdc9c3527c7be84b2">fr_dict_attr_by_qualified_name_substr</a> (<a class="el" href="dict_8h.html#ac8e46fef8c1db2fddc129c146d19392a">fr_dict_attr_err_t</a> *err, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const **<a class="el" href="value_8h.html#af17d2d4e72bd60de680d3f4a29a1275f">out</a>, <a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const *dict_def, <a class="el" href="sbuff_8h.html#a92060dffcc62ed9e62d509c6bf477b6d">fr_sbuff_t</a> *<a class="el" href="rlm__redis__ippool__tool_8c.html#a5f1de76dd5d451949e12c0fbc966ca70">name</a>, bool fallback)</td></tr>
 <tr class="memdesc:a1e43e9729099648fdc9c3527c7be84b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locate a qualified <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> by its name and a dictionary qualifier.  <a href="#a1e43e9729099648fdc9c3527c7be84b2">More...</a><br /></td></tr>
 <tr class="separator:a1e43e9729099648fdc9c3527c7be84b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -492,7 +490,7 @@ Dictionary testing and validation</h2></td></tr>
 </div><div class="memdoc">
 <div class="textblock"><p>Dictionary attribute. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00135">135</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00134">134</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 </div><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for dict_attr_s:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -586,7 +584,7 @@ Value type. </td></tr>
 </div><div class="memdoc">
 <div class="textblock"><p>Specifies an attribute which must be present for the module to function. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00197">197</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00196">196</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 </div><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Collaboration diagram for fr_dict_attr_autoload_t:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -726,7 +724,7 @@ For TLV2 and root attributes. </td></tr>
 </div><div class="memdoc">
 <div class="textblock"><p>Specifies a dictionary which must be loaded/loadable for the module to function. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00210">210</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00209">209</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 </div><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Collaboration diagram for fr_dict_autoload_t:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -773,13 +771,13 @@ The protocol dictionary name. </td></tr>
 <div class="textblock"><p>Value of an enumerated attribute. </p>
 <p>Maps one of more string values to integers and vice versa. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00168">168</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00167">167</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 </div><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Collaboration diagram for fr_dict_enum_t:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="structfr__dict__enum__t__coll__graph.svg" width="100%" height="577"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="structfr__dict__enum__t__coll__graph.svg" width="100%" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="fieldtable">
@@ -831,7 +829,7 @@ Enum value (what name maps to). </td></tr>
 </div><div class="memdoc">
 <div class="textblock"><p>Protocol-specific callbacks in libfreeradius-PROTOCOL. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00240">240</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00239">239</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 </div><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Collaboration diagram for fr_dict_protocol_t:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
@@ -897,7 +895,7 @@ length of subtype_table </td></tr>
 <p>Represents an IANA private enterprise allocation.</p>
 <p>The width of the private enterprise number must be the same for all protocols so we can represent a vendor with a single struct. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00186">186</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00185">185</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1065,7 +1063,7 @@ Length of type data. </td></tr>
 
 <p>Maximum length of a attribute name. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00257">257</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00256">256</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 
 </div>
 </div>
@@ -1083,7 +1081,7 @@ Length of type data. </td></tr>
 
 <p>Maximum level of da stack caching. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00265">265</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00264">264</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 
 </div>
 </div>
@@ -1101,7 +1099,7 @@ Length of type data. </td></tr>
 
 <p>Maximum length of a enum value. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00255">255</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00254">254</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 
 </div>
 </div>
@@ -1122,7 +1120,7 @@ Length of type data. </td></tr>
 <p>Root + Vendor + NULL (top frame). Root + Embedded protocol + Root + Vendor + NULL.</p>
 <p>Code should ensure that it doesn't run off the end of the stack, as this could be remotely exploitable, using odd nesting. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00277">277</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00276">276</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 
 </div>
 </div>
@@ -1140,7 +1138,7 @@ Length of type data. </td></tr>
 
 <p>Maximum length of a protocol name. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00254">254</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00253">253</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 
 </div>
 </div>
@@ -1158,7 +1156,7 @@ Length of type data. </td></tr>
 
 <p>Maximum level of TLV nesting allowed. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00261">261</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00260">260</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 
 </div>
 </div>
@@ -1176,7 +1174,7 @@ Length of type data. </td></tr>
 
 <p>Maximum length of a vendor name. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00256">256</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00255">255</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 
 </div>
 </div>
@@ -1209,7 +1207,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00234">234</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00233">233</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 
 </div>
 </div>
@@ -1225,7 +1223,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00249">249</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00248">248</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 
 </div>
 </div>
@@ -1257,7 +1255,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00539">539</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00537">537</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 
 </div>
 </div>
@@ -1326,7 +1324,7 @@ Length of type data. </td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00220">220</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00219">219</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 
 </div>
 </div>
@@ -1357,8 +1355,6 @@ Length of type data. </td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="abc02aee3acead1e22575d78f9b44fae1a618b2b9cd1521e37bfe9607d1db6b316"></a>FR_DICT_ATTR_EXT_ENUMV&#160;</td><td class="fielddoc"><p>Enumeration values. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="abc02aee3acead1e22575d78f9b44fae1a90e7d06a9611eb3e42fb66e491c94cd6"></a>FR_DICT_ATTR_EXT_NAMESPACE&#160;</td><td class="fielddoc"><p>Attribute has its own namespace. </p>
-</td></tr>
 <tr><td class="fieldname"><a id="abc02aee3acead1e22575d78f9b44fae1a10cdac114f9a7f11ced26493e04125aa"></a>FR_DICT_ATTR_EXT_PROTOCOL_SPECIFIC&#160;</td><td class="fielddoc"><p>Protocol specific extensions. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="abc02aee3acead1e22575d78f9b44fae1a1dd96d10023f5426aa597c8742a9c67c"></a>FR_DICT_ATTR_EXT_MAX&#160;</td><td class="fielddoc"></td></tr>
@@ -1388,7 +1384,7 @@ Length of type data. </td></tr>
 <tr><td class="fieldname"><a id="a1d54b1df55586f0ed4bbcc91032a45fda0c7515014b879b8b60a139a99510a2c8"></a>FR_DICT_ENUM_EXT_MAX&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00159">159</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00158">158</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 
 </div>
 </div>
@@ -1461,7 +1457,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01111">1111</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01076">1076</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
@@ -1510,7 +1506,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02745">2745</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02698">2698</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
@@ -1530,8 +1526,8 @@ Length of type data. </td></tr>
 
 </div>
 </div>
-<a id="a3bcd1906194b1eb8b1a2939f0eec67a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bcd1906194b1eb8b1a2939f0eec67a7">&#9670;&nbsp;</a></span>fr_dict_attr_by_name()</h2>
+<a id="ae03d1c9a23982e392f1d3160a3fbcc54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae03d1c9a23982e392f1d3160a3fbcc54">&#9670;&nbsp;</a></span>fr_dict_attr_by_name()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1539,14 +1535,8 @@ Length of type data. </td></tr>
         <tr>
           <td class="memname"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const* fr_dict_attr_by_name </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="dict_8h.html#ac8e46fef8c1db2fddc129c146d19392a">fr_dict_attr_err_t</a> *&#160;</td>
-          <td class="paramname"><em>err</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *&#160;</td>
-          <td class="paramname"><em>parent</em>, </td>
+          <td class="paramtype"><a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const *&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1563,16 +1553,10 @@ Length of type data. </td></tr>
 </div><div class="memdoc">
 
 <p>Locate a <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> by its name. </p>
+<dl class="section note"><dt>Note</dt><dd>Unlike attribute numbers, attribute names are unique to the dictionary.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">err</td><td>Why the lookup failed. May be NULL. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="dict_8h.html#ac8e46fef8c1db2fddc129c146d19392a" title="Errors returned by attribute lookup functions. ">fr_dict_attr_err_t</a>. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">parent</td><td>containing the namespace we're searching in. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dict</td><td>of protocol context we're operating in. If NULL the internal dictionary will be used. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>of the attribute to locate. </td></tr>
   </table>
   </dd>
@@ -1583,13 +1567,13 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02145">2145</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02088">2088</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict_8h_a3bcd1906194b1eb8b1a2939f0eec67a7_cgraph.svg" width="100%" height="550"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict_8h_ae03d1c9a23982e392f1d3160a3fbcc54_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1597,14 +1581,14 @@ Length of type data. </td></tr>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict_8h_a3bcd1906194b1eb8b1a2939f0eec67a7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict_8h_ae03d1c9a23982e392f1d3160a3fbcc54_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="aa16b99cdbb26e0bcf8013aa6f8f8adc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa16b99cdbb26e0bcf8013aa6f8f8adc0">&#9670;&nbsp;</a></span>fr_dict_attr_by_name_substr()</h2>
+<a id="a922675a104fcda1c59c8d533003590fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a922675a104fcda1c59c8d533003590fa">&#9670;&nbsp;</a></span>fr_dict_attr_by_name_substr()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1624,8 +1608,8 @@ Length of type data. </td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *&#160;</td>
-          <td class="paramname"><em>parent</em>, </td>
+          <td class="paramtype"><a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> const *&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1656,7 +1640,7 @@ Length of type data. </td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>Where to store the resolve attribute. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">parent</td><td>containing the namespace to search in. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dict</td><td>of protocol context we're operating in. If NULL the internal dictionary will be used. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>string start. </td></tr>
   </table>
   </dd>
@@ -1667,13 +1651,13 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02064">2064</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02026">2026</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict_8h_aa16b99cdbb26e0bcf8013aa6f8f8adc0_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict_8h_a922675a104fcda1c59c8d533003590fa_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1681,7 +1665,7 @@ Length of type data. </td></tr>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-13-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict_8h_aa16b99cdbb26e0bcf8013aa6f8f8adc0_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict_8h_a922675a104fcda1c59c8d533003590fa_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1742,7 +1726,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01563">1563</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01528">1528</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
@@ -1812,13 +1796,13 @@ Length of type data. </td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>an <a class="el" href="dict_8h.html#ac8e46fef8c1db2fddc129c146d19392a" title="Errors returned by attribute lookup functions. ">fr_dict_attr_err_t</a> value. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02290">2290</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02233">2233</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-16-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict_8h_a9b41584ef21da4b8c62d809233f8fcaf_cgraph.svg" width="100%" height="550"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict_8h_a9b41584ef21da4b8c62d809233f8fcaf_cgraph.svg" width="100%" height="541"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1900,7 +1884,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02165">2165</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02108">2108</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-18-summary" class="dynsummary" style="display:block;">
@@ -1961,7 +1945,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02320">2320</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02263">2263</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-20-summary" class="dynsummary" style="display:block;">
@@ -2021,7 +2005,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02338">2338</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02281">2281</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-22-summary" class="dynsummary" style="display:block;">
@@ -2087,7 +2071,7 @@ Length of type data. </td></tr>
 
 <p>Look up an attribute by name in the dictionary that contains the parent. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02430">2430</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02373">2373</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-24-summary" class="dynsummary" style="display:block;">
@@ -2147,7 +2131,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02421">2421</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02364">2364</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-26-summary" class="dynsummary" style="display:block;">
@@ -2201,7 +2185,7 @@ Length of type data. </td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00339">339</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00338">338</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 <div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-28-summary" class="dynsummary" style="display:block;">
@@ -2268,7 +2252,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01475">1475</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01440">1440</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-30-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-30-summary" class="dynsummary" style="display:block;">
@@ -2343,7 +2327,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01381">1381</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01346">1346</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-31-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-31-summary" class="dynsummary" style="display:block;">
@@ -2391,7 +2375,7 @@ Length of type data. </td></tr>
 
 <p>Add an name to an integer attribute hashing the name for the integer value. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01391">1391</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01356">1356</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-33-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-33-summary" class="dynsummary" style="display:block;">
@@ -2448,7 +2432,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00416">416</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict_8h_source.html#l00415">415</a> of file <a class="el" href="dict_8h_source.html">dict.h</a>.</p>
 <div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-35-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-35-summary" class="dynsummary" style="display:block;">
@@ -2508,7 +2492,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03282">3282</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03235">3235</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-37-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-37-summary" class="dynsummary" style="display:block;">
@@ -2606,7 +2590,7 @@ Length of type data. </td></tr>
 
 <p>Coerce to non-const. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03136">3136</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03089">3089</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-41-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-41-summary" class="dynsummary" style="display:block;">
@@ -2650,7 +2634,7 @@ Length of type data. </td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02822">2822</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02775">2775</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-43-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-43-summary" class="dynsummary" style="display:block;">
@@ -2699,7 +2683,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02791">2791</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02744">2744</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-45-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-45-summary" class="dynsummary" style="display:block;">
@@ -2760,13 +2744,13 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01937">1937</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01898">1898</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-47-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-47-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-47-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict_8h_a7096d9ec79916901fb9e30fb9c3c4880_cgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict_8h_a7096d9ec79916901fb9e30fb9c3c4880_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2810,7 +2794,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01922">1922</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01883">1883</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-49-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-49-summary" class="dynsummary" style="display:block;">
@@ -2860,7 +2844,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01893">1893</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01854">1854</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-51-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-51-summary" class="dynsummary" style="display:block;">
@@ -2906,7 +2890,7 @@ Length of type data. </td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>dictionary representing the protocol (if it exists). </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01906">1906</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01867">1867</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-53" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-53-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-53-summary" class="dynsummary" style="display:block;">
@@ -2981,7 +2965,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01741">1741</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01706">1706</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-55-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-55-summary" class="dynsummary" style="display:block;">
@@ -3026,7 +3010,7 @@ Length of type data. </td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>how many references to the dictionary remain. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02723">2723</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02676">2676</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-57-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-57-summary" class="dynsummary" style="display:block;">
@@ -3062,7 +3046,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02913">2913</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02866">2866</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-59-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-59-summary" class="dynsummary" style="display:block;">
@@ -3114,7 +3098,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02527">2527</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02470">2470</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-61-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-61-summary" class="dynsummary" style="display:block;">
@@ -3174,7 +3158,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02481">2481</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02424">2424</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-63-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-63-summary" class="dynsummary" style="display:block;">
@@ -3234,7 +3218,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02514">2514</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02457">2457</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-65" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-65-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-65-summary" class="dynsummary" style="display:block;">
@@ -3279,7 +3263,7 @@ Length of type data. </td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>how many references to the dictionary remain. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02706">2706</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02659">2659</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-67" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-67-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-67-summary" class="dynsummary" style="display:block;">
@@ -3328,7 +3312,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03076">3076</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03029">3029</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-69" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-69-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-69-summary" class="dynsummary" style="display:block;">
@@ -3370,7 +3354,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03064">3064</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03017">3017</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-70" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-70-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-70-summary" class="dynsummary" style="display:block;">
@@ -3431,7 +3415,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02998">2998</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02951">2951</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-72" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-72-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-72-summary" class="dynsummary" style="display:block;">
@@ -3475,7 +3459,7 @@ Length of type data. </td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03048">3048</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03001">3001</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-74" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-74-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-74-summary" class="dynsummary" style="display:block;">
@@ -3503,7 +3487,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03087">3087</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03040">3040</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-75" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-75-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-75-summary" class="dynsummary" style="display:block;">
@@ -3534,7 +3518,7 @@ Length of type data. </td></tr>
 <p>Mark all dictionaries and the global dictionary ctx as read only. </p>
 <p>Any attempts to add new attributes will now fail. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03096">3096</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03049">3049</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-76" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-76-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-76-summary" class="dynsummary" style="display:block;">
@@ -3570,7 +3554,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03151">3151</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03104">3104</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-78" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-78-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-78-summary" class="dynsummary" style="display:block;">
@@ -3624,7 +3608,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__tokenize_8c_source.html#l02506">2506</a> of file <a class="el" href="dict__tokenize_8c_source.html">dict_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__tokenize_8c_source.html#l02498">2498</a> of file <a class="el" href="dict__tokenize_8c_source.html">dict_tokenize.c</a>.</p>
 <div id="dynsection-79" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-79-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-79-summary" class="dynsummary" style="display:block;">
@@ -3660,7 +3644,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01670">1670</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01635">1635</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-81" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-81-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-81-summary" class="dynsummary" style="display:block;">
@@ -3712,7 +3696,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01518">1518</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01483">1483</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-82" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-82-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-82-summary" class="dynsummary" style="display:block;">
@@ -3764,7 +3748,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__tokenize_8c_source.html#l02703">2703</a> of file <a class="el" href="dict__tokenize_8c_source.html">dict_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__tokenize_8c_source.html#l02695">2695</a> of file <a class="el" href="dict__tokenize_8c_source.html">dict_tokenize.c</a>.</p>
 <div id="dynsection-84" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-84-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-84-summary" class="dynsummary" style="display:block;">
@@ -3945,7 +3929,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__tokenize_8c_source.html#l02602">2602</a> of file <a class="el" href="dict__tokenize_8c_source.html">dict_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__tokenize_8c_source.html#l02594">2594</a> of file <a class="el" href="dict__tokenize_8c_source.html">dict_tokenize.c</a>.</p>
 <div id="dynsection-90" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-90-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-90-summary" class="dynsummary" style="display:block;">
@@ -4012,7 +3996,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__tokenize_8c_source.html#l02683">2683</a> of file <a class="el" href="dict__tokenize_8c_source.html">dict_tokenize.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__tokenize_8c_source.html#l02675">2675</a> of file <a class="el" href="dict__tokenize_8c_source.html">dict_tokenize.c</a>.</p>
 <div id="dynsection-92" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-92-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-92-summary" class="dynsummary" style="display:block;">
@@ -4057,7 +4041,7 @@ Length of type data. </td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the root attribute of the dictionary. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01659">1659</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01624">1624</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 
 </div>
 </div>
@@ -4181,7 +4165,7 @@ Length of type data. </td></tr>
 
 <p>Coerce to non-const. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03120">3120</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03073">3073</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-97" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-97-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-97-summary" class="dynsummary" style="display:block;">
@@ -4762,7 +4746,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03161">3161</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03114">3114</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-114" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-114-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-114-summary" class="dynsummary" style="display:block;">
@@ -4808,7 +4792,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03195">3195</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03148">3148</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-116" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-116-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-116-summary" class="dynsummary" style="display:block;">
@@ -4857,7 +4841,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01949">1949</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01910">1910</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-118" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-118-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-118-summary" class="dynsummary" style="display:block;">
@@ -4917,7 +4901,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01971">1971</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01932">1932</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-120" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-120-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-120-summary" class="dynsummary" style="display:block;">
@@ -4977,7 +4961,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01994">1994</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01955">1955</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-122" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-122-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-122-summary" class="dynsummary" style="display:block;">
@@ -5037,7 +5021,7 @@ Length of type data. </td></tr>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02009">2009</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01970">1970</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-124" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-124-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-124-summary" class="dynsummary" style="display:block;">
@@ -5089,7 +5073,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03215">3215</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03168">3168</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-126" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-126-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-126-summary" class="dynsummary" style="display:block;">
@@ -5141,7 +5125,7 @@ Length of type data. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03356">3356</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l03309">3309</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-128" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-128-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-128-summary" class="dynsummary" style="display:block;">
@@ -5346,7 +5330,7 @@ Length of type data. </td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 17 2020 00:02:40 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 01:50:46 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

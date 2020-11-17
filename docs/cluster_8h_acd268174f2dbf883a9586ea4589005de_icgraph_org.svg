@@ -8,76 +8,76 @@
  viewBox="0.00 0.00 817.00 256.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 252)">
 <title>fr_redis_cluster_conn_create</title>
-<!-- Node795 -->
+<!-- Node792 -->
 <g id="node1" class="node">
-<title>Node795</title>
+<title>Node792</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-128 0,-158 110,-158 110,-128 0,-128"/>
 <text text-anchor="start" x="8" y="-146" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_redis_cluster_conn</text>
 <text text-anchor="middle" x="55" y="-135" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_create</text>
 </g>
-<!-- Node796 -->
+<!-- Node793 -->
 <g id="node2" class="node">
-<title>Node796</title>
+<title>Node793</title>
 <g id="a_node2"><a xlink:href="cluster_8c.html#a2c73b18c41ba2a09719df3a9b7d66c2e" target="_top" xlink:title="Establish a connection to a cluster node. ">
 <polygon fill="none" stroke="#000000" points="146,-133.5 146,-152.5 258,-152.5 258,-133.5 146,-133.5"/>
 <text text-anchor="middle" x="202" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cluster_node_connect</text>
 </a>
 </g>
 </g>
-<!-- Node795&#45;&gt;Node796 -->
+<!-- Node792&#45;&gt;Node793 -->
 <g id="edge1" class="edge">
-<title>Node795&#45;&gt;Node796</title>
+<title>Node792&#45;&gt;Node793</title>
 <path fill="none" stroke="#191970" d="M120.3199,-143C128.7364,-143 137.2978,-143 145.5552,-143"/>
 <polygon fill="#191970" stroke="#191970" points="120.1556,-139.5001 110.1556,-143 120.1556,-146.5001 120.1556,-139.5001"/>
 </g>
-<!-- Node797 -->
+<!-- Node794 -->
 <g id="node3" class="node">
-<title>Node797</title>
+<title>Node794</title>
 <g id="a_node3"><a xlink:href="cluster_8c.html#ab434868c42486ab9876b2043c26439f2" target="_top" xlink:title="Apply a cluster map received from a cluster node. ">
 <polygon fill="none" stroke="#000000" points="294,-152.5 294,-171.5 392,-171.5 392,-152.5 294,-152.5"/>
 <text text-anchor="middle" x="343" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cluster_map_apply</text>
 </a>
 </g>
 </g>
-<!-- Node796&#45;&gt;Node797 -->
+<!-- Node793&#45;&gt;Node794 -->
 <g id="edge2" class="edge">
-<title>Node796&#45;&gt;Node797</title>
+<title>Node793&#45;&gt;Node794</title>
 <path fill="none" stroke="#191970" d="M268.2133,-151.9224C276.8615,-153.0877 285.596,-154.2647 293.8938,-155.3829"/>
 <polygon fill="#191970" stroke="#191970" points="268.5099,-148.4308 258.1321,-150.5639 267.5751,-155.3681 268.5099,-148.4308"/>
 </g>
-<!-- Node827 -->
+<!-- Node824 -->
 <g id="node9" class="node">
-<title>Node827</title>
+<title>Node824</title>
 <g id="a_node9"><a xlink:href="cluster_8h.html#a8f4e4285d679ffb64c8ef619b182b86a" target="_top" xlink:title="Allocate and initialise a new cluster structure. ">
 <polygon fill="none" stroke="#000000" points="431.5,-54.5 431.5,-73.5 540.5,-73.5 540.5,-54.5 431.5,-54.5"/>
 <text text-anchor="middle" x="486" y="-61.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_redis_cluster_alloc</text>
 </a>
 </g>
 </g>
-<!-- Node796&#45;&gt;Node827 -->
+<!-- Node793&#45;&gt;Node824 -->
 <g id="edge20" class="edge">
-<title>Node796&#45;&gt;Node827</title>
+<title>Node793&#45;&gt;Node824</title>
 <path fill="none" stroke="#191970" d="M246.0096,-130.7579C302.699,-114.9887 400.0552,-87.9072 451.6215,-73.563"/>
 <polygon fill="#191970" stroke="#191970" points="244.9532,-127.4188 236.257,-133.4708 246.8292,-134.1627 244.9532,-127.4188"/>
 </g>
-<!-- Node830 -->
+<!-- Node827 -->
 <g id="node13" class="node">
-<title>Node830</title>
+<title>Node827</title>
 <g id="a_node13"><a xlink:href="cluster_8c.html#a4030e10e7438e81a42623a42beb18e42" target="_top" xlink:title="Retrieve or associate a node with the server indicated in the redirect. ">
 <polygon fill="none" stroke="#000000" points="301.5,-193.5 301.5,-212.5 384.5,-212.5 384.5,-193.5 301.5,-193.5"/>
 <text text-anchor="middle" x="343" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">cluster_redirect</text>
 </a>
 </g>
 </g>
-<!-- Node796&#45;&gt;Node830 -->
+<!-- Node793&#45;&gt;Node827 -->
 <g id="edge13" class="edge">
-<title>Node796&#45;&gt;Node830</title>
+<title>Node793&#45;&gt;Node827</title>
 <path fill="none" stroke="#191970" d="M233.869,-156.5613C260.1828,-167.7587 296.8842,-183.3763 320.2958,-193.3386"/>
 <polygon fill="#191970" stroke="#191970" points="234.9139,-153.2022 224.3419,-152.5072 232.173,-159.6433 234.9139,-153.2022"/>
 </g>
-<!-- Node831 -->
+<!-- Node828 -->
 <g id="node14" class="node">
-<title>Node831</title>
+<title>Node828</title>
 <g id="a_node14"><a xlink:href="cluster_8h.html#a9b5a2a604f3debf26f9ec7a937cbaf14" target="_top" xlink:title="Get the pool associated with a node in the cluster. ">
 <polygon fill="none" stroke="#000000" points="432.5,-109 432.5,-139 539.5,-139 539.5,-109 432.5,-109"/>
 <text text-anchor="start" x="440.5" y="-127" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_redis_cluster_pool</text>
@@ -85,180 +85,180 @@
 </a>
 </g>
 </g>
-<!-- Node796&#45;&gt;Node831 -->
+<!-- Node793&#45;&gt;Node828 -->
 <g id="edge15" class="edge">
-<title>Node796&#45;&gt;Node831</title>
+<title>Node793&#45;&gt;Node828</title>
 <path fill="none" stroke="#191970" d="M268.1705,-138.5731C318.1329,-135.2305 385.8186,-130.7023 432.4123,-127.5851"/>
 <polygon fill="#191970" stroke="#191970" points="267.8533,-135.0864 258.1093,-139.2462 268.3206,-142.0708 267.8533,-135.0864"/>
 </g>
-<!-- Node798 -->
+<!-- Node795 -->
 <g id="node4" class="node">
-<title>Node798</title>
+<title>Node795</title>
 <g id="a_node4"><a xlink:href="cluster_8h.html#ab17f60095577fae39f1d708d92536594" target="_top" xlink:title="Perform a runtime remap of the cluster. ">
 <polygon fill="none" stroke="#000000" points="428,-174.5 428,-193.5 544,-193.5 544,-174.5 428,-174.5"/>
 <text text-anchor="middle" x="486" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_redis_cluster_remap</text>
 </a>
 </g>
 </g>
-<!-- Node797&#45;&gt;Node798 -->
+<!-- Node794&#45;&gt;Node795 -->
 <g id="edge3" class="edge">
-<title>Node797&#45;&gt;Node798</title>
+<title>Node794&#45;&gt;Node795</title>
 <path fill="none" stroke="#191970" d="M402.3416,-171.1295C410.7668,-172.4257 419.4241,-173.7575 427.8268,-175.0503"/>
 <polygon fill="#191970" stroke="#191970" points="402.6284,-167.6325 392.2125,-169.5712 401.564,-174.5511 402.6284,-167.6325"/>
 </g>
-<!-- Node797&#45;&gt;Node827 -->
+<!-- Node794&#45;&gt;Node824 -->
 <g id="edge9" class="edge">
-<title>Node797&#45;&gt;Node827</title>
+<title>Node794&#45;&gt;Node824</title>
 <path fill="none" stroke="#191970" d="M363.5901,-146.3156C380.6159,-133.5087 405.554,-115.1214 428,-100 441.7607,-90.7297 457.8168,-80.8322 469.5423,-73.766"/>
 <polygon fill="#191970" stroke="#191970" points="361.3309,-143.6358 355.463,-152.4572 365.5513,-149.2205 361.3309,-143.6358"/>
 </g>
-<!-- Node799 -->
+<!-- Node796 -->
 <g id="node5" class="node">
-<title>Node799</title>
+<title>Node796</title>
 <g id="a_node5"><a xlink:href="cluster_8h.html#ac292207b4d5816986eb8e4457791b491" target="_top" xlink:title="Resolve a key to a pool, and reserve a connection in that pool. ">
 <polygon fill="none" stroke="#ff0000" points="583,-190.5 583,-209.5 711,-209.5 711,-190.5 583,-190.5"/>
 <text text-anchor="middle" x="647" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_redis_cluster_state_init</text>
 </a>
 </g>
 </g>
-<!-- Node798&#45;&gt;Node799 -->
+<!-- Node795&#45;&gt;Node796 -->
 <g id="edge4" class="edge">
-<title>Node798&#45;&gt;Node799</title>
+<title>Node795&#45;&gt;Node796</title>
 <path fill="none" stroke="#191970" d="M554.3159,-190.7892C563.8154,-191.7332 573.5466,-192.7003 582.9638,-193.6362"/>
 <polygon fill="#191970" stroke="#191970" points="554.4218,-187.2825 544.1247,-189.7764 553.7295,-194.2482 554.4218,-187.2825"/>
 </g>
-<!-- Node825 -->
+<!-- Node822 -->
 <g id="node7" class="node">
-<title>Node825</title>
+<title>Node822</title>
 <g id="a_node7"><a xlink:href="cluster_8h.html#a02e48068a3e77ab228e414708b5543ee" target="_top" xlink:title="Get the next connection to attempt a command against. ">
 <polygon fill="none" stroke="#ff0000" points="580,-228.5 580,-247.5 714,-247.5 714,-228.5 580,-228.5"/>
 <text text-anchor="middle" x="647" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_redis_cluster_state_next</text>
 </a>
 </g>
 </g>
-<!-- Node798&#45;&gt;Node825 -->
+<!-- Node795&#45;&gt;Node822 -->
 <g id="edge6" class="edge">
-<title>Node798&#45;&gt;Node825</title>
+<title>Node795&#45;&gt;Node822</title>
 <path fill="none" stroke="#191970" d="M519.556,-197.2387C537.3888,-204.0847 559.7525,-212.3714 580,-219 590.1117,-222.3103 601.1885,-225.5899 611.3722,-228.4688"/>
 <polygon fill="#191970" stroke="#191970" points="520.7465,-193.9465 510.1572,-193.6032 518.2211,-200.4752 520.7465,-193.9465"/>
 </g>
-<!-- Node826 -->
+<!-- Node823 -->
 <g id="node8" class="node">
-<title>Node826</title>
+<title>Node823</title>
 <g id="a_node8"><a xlink:href="group__xlat__functions.html#ga31886fd2b638245eda5da4425cb1fe1a" target="_top" xlink:title="Force a redis cluster remap. ">
 <polygon fill="none" stroke="#ff0000" points="601.5,-152.5 601.5,-171.5 692.5,-171.5 692.5,-152.5 601.5,-152.5"/>
 <text text-anchor="middle" x="647" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">redis_remap_xlat</text>
 </a>
 </g>
 </g>
-<!-- Node798&#45;&gt;Node826 -->
+<!-- Node795&#45;&gt;Node823 -->
 <g id="edge8" class="edge">
-<title>Node798&#45;&gt;Node826</title>
+<title>Node795&#45;&gt;Node823</title>
 <path fill="none" stroke="#191970" d="M554.4177,-174.651C570.2613,-172.486 586.7439,-170.2337 601.3348,-168.24"/>
 <polygon fill="#191970" stroke="#191970" points="553.5587,-171.2358 544.1247,-176.0575 554.5065,-178.1713 553.5587,-171.2358"/>
 </g>
-<!-- Node803 -->
+<!-- Node800 -->
 <g id="node6" class="node">
-<title>Node803</title>
+<title>Node800</title>
 <g id="a_node6"><a xlink:href="group__xlat__functions.html#gad6a230afc88f97f3191f5b1efa47e905" target="_top" xlink:title="Xlat to make calls to redis. ">
 <polygon fill="none" stroke="#ff0000" points="750,-190.5 750,-209.5 809,-209.5 809,-190.5 750,-190.5"/>
 <text text-anchor="middle" x="779.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">redis_xlat</text>
 </a>
 </g>
 </g>
-<!-- Node799&#45;&gt;Node803 -->
+<!-- Node796&#45;&gt;Node800 -->
 <g id="edge5" class="edge">
-<title>Node799&#45;&gt;Node803</title>
+<title>Node796&#45;&gt;Node800</title>
 <path fill="none" stroke="#191970" d="M721.3828,-200C731.4069,-200 741.1789,-200 749.7618,-200"/>
 <polygon fill="#191970" stroke="#191970" points="721.3094,-196.5001 711.3093,-200 721.3093,-203.5001 721.3094,-196.5001"/>
 </g>
-<!-- Node825&#45;&gt;Node803 -->
+<!-- Node822&#45;&gt;Node800 -->
 <g id="edge7" class="edge">
-<title>Node825&#45;&gt;Node803</title>
+<title>Node822&#45;&gt;Node800</title>
 <path fill="none" stroke="#191970" d="M690.4795,-225.711C698.3116,-223.4857 706.4003,-221.1798 714,-219 725.7228,-215.6376 738.6156,-211.9051 749.8392,-208.6447"/>
 <polygon fill="#191970" stroke="#191970" points="689.417,-222.3742 680.7522,-228.4711 691.3279,-229.1084 689.417,-222.3742"/>
 </g>
-<!-- Node828 -->
+<!-- Node825 -->
 <g id="node10" class="node">
-<title>Node828</title>
+<title>Node825</title>
 <g id="a_node10"><a xlink:href="rlm__cache__redis_8c.html#a3c32864d8c9d017bf4625d54f415b2db" target="_top" xlink:title="Create a new rlm_cache_redis instance. ">
 <polygon fill="none" stroke="#000000" points="604,-.5 604,-19.5 690,-19.5 690,-.5 604,-.5"/>
 <text text-anchor="middle" x="647" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">mod_instantiate</text>
 </a>
 </g>
 </g>
-<!-- Node827&#45;&gt;Node828 -->
+<!-- Node824&#45;&gt;Node825 -->
 <g id="edge10" class="edge">
-<title>Node827&#45;&gt;Node828</title>
+<title>Node824&#45;&gt;Node825</title>
 <path fill="none" stroke="#191970" d="M519.556,-50.7613C537.3888,-43.9153 559.7525,-35.6286 580,-29 590.1117,-25.6897 601.1885,-22.4101 611.3722,-19.5312"/>
 <polygon fill="#191970" stroke="#191970" points="518.2211,-47.5248 510.1572,-54.3968 520.7465,-54.0535 518.2211,-47.5248"/>
 </g>
-<!-- Node829 -->
+<!-- Node826 -->
 <g id="node11" class="node">
-<title>Node829</title>
+<title>Node826</title>
 <g id="a_node11"><a xlink:href="rlm__redis__ippool__tool_8c.html#a9b10f4ca60bfe0214a04105f59fcde64" target="_top" xlink:title="Driver initialization function. ">
 <polygon fill="none" stroke="#000000" points="617.5,-38.5 617.5,-57.5 676.5,-57.5 676.5,-38.5 617.5,-38.5"/>
 <text text-anchor="middle" x="647" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">driver_init</text>
 </a>
 </g>
 </g>
-<!-- Node827&#45;&gt;Node829 -->
+<!-- Node824&#45;&gt;Node826 -->
 <g id="edge11" class="edge">
-<title>Node827&#45;&gt;Node829</title>
+<title>Node824&#45;&gt;Node826</title>
 <path fill="none" stroke="#191970" d="M550.6275,-57.5774C573.7516,-55.2793 598.6953,-52.8005 617.4115,-50.9405"/>
 <polygon fill="#191970" stroke="#191970" points="550.1121,-54.1113 540.5073,-58.5831 550.8044,-61.077 550.1121,-54.1113"/>
 </g>
-<!-- Node816 -->
+<!-- Node813 -->
 <g id="node12" class="node">
-<title>Node816</title>
+<title>Node813</title>
 <g id="a_node12"><a xlink:href="rlm__redis__ippool__tool_8c.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title="main">
 <polygon fill="none" stroke="#000000" points="760.5,-57.5 760.5,-76.5 798.5,-76.5 798.5,-57.5 760.5,-57.5"/>
 <text text-anchor="middle" x="779.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">main</text>
 </a>
 </g>
 </g>
-<!-- Node829&#45;&gt;Node816 -->
+<!-- Node826&#45;&gt;Node813 -->
 <g id="edge12" class="edge">
-<title>Node829&#45;&gt;Node816</title>
+<title>Node826&#45;&gt;Node813</title>
 <path fill="none" stroke="#191970" d="M686.7356,-53.6979C710.992,-57.1762 740.9276,-61.4689 760.1148,-64.2202"/>
 <polygon fill="#191970" stroke="#191970" points="687.1312,-50.2189 676.7356,-52.264 686.1375,-57.1481 687.1312,-50.2189"/>
 </g>
-<!-- Node830&#45;&gt;Node825 -->
+<!-- Node827&#45;&gt;Node822 -->
 <g id="edge14" class="edge">
-<title>Node830&#45;&gt;Node825</title>
+<title>Node827&#45;&gt;Node822</title>
 <path fill="none" stroke="#191970" d="M394.7843,-208.962C445.8571,-214.8421 524.1595,-223.8572 579.9589,-230.2814"/>
 <polygon fill="#191970" stroke="#191970" points="394.9672,-205.46 384.6325,-207.7932 394.1665,-212.4141 394.9672,-205.46"/>
 </g>
-<!-- Node831&#45;&gt;Node803 -->
+<!-- Node828&#45;&gt;Node800 -->
 <g id="edge17" class="edge">
-<title>Node831&#45;&gt;Node803</title>
+<title>Node828&#45;&gt;Node800</title>
 <path fill="none" stroke="#191970" d="M549.9229,-118.907C597.0821,-117.5831 661.8432,-120.9711 714,-143 738.7182,-153.44 760.7293,-176.919 771.8475,-190.2574"/>
 <polygon fill="#191970" stroke="#191970" points="549.7061,-115.4125 539.8382,-119.2691 549.9573,-122.408 549.7061,-115.4125"/>
 </g>
-<!-- Node831&#45;&gt;Node826 -->
+<!-- Node828&#45;&gt;Node823 -->
 <g id="edge16" class="edge">
-<title>Node831&#45;&gt;Node826</title>
+<title>Node828&#45;&gt;Node823</title>
 <path fill="none" stroke="#191970" d="M549.5192,-138.9921C568.7504,-143.5312 589.3363,-148.3899 606.6115,-152.4673"/>
 <polygon fill="#191970" stroke="#191970" points="550.1473,-135.5443 539.6107,-136.6534 548.5392,-142.3571 550.1473,-135.5443"/>
 </g>
-<!-- Node832 -->
+<!-- Node829 -->
 <g id="node15" class="node">
-<title>Node832</title>
+<title>Node829</title>
 <g id="a_node15"><a xlink:href="rlm__redis__ippool__tool_8c.html#a732d1903f8c1de87f3632b567032b1e1" target="_top" xlink:title="Return the pools available across the cluster. ">
 <polygon fill="none" stroke="#000000" points="603,-76.5 603,-95.5 691,-95.5 691,-76.5 603,-76.5"/>
 <text text-anchor="middle" x="647" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">driver_get_pools</text>
 </a>
 </g>
 </g>
-<!-- Node831&#45;&gt;Node832 -->
+<!-- Node828&#45;&gt;Node829 -->
 <g id="edge18" class="edge">
-<title>Node831&#45;&gt;Node832</title>
+<title>Node828&#45;&gt;Node829</title>
 <path fill="none" stroke="#191970" d="M549.5192,-109.0079C568.7504,-104.4688 589.3363,-99.6101 606.6115,-95.5327"/>
 <polygon fill="#191970" stroke="#191970" points="548.5392,-105.6429 539.6107,-111.3466 550.1473,-112.4557 548.5392,-105.6429"/>
 </g>
-<!-- Node832&#45;&gt;Node816 -->
+<!-- Node829&#45;&gt;Node813 -->
 <g id="edge19" class="edge">
-<title>Node832&#45;&gt;Node816</title>
+<title>Node829&#45;&gt;Node813</title>
 <path fill="none" stroke="#191970" d="M701.2398,-78.2222C722.2031,-75.2162 744.8263,-71.9721 760.3307,-69.7488"/>
 <polygon fill="#191970" stroke="#191970" points="700.5225,-74.7892 691.1206,-79.6733 701.5162,-81.7183 700.5225,-74.7892"/>
 </g>

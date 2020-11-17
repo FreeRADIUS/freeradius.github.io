@@ -65,7 +65,6 @@ var searchData=
   ['fr_5fdict_5fattr_5fext_5fchildren_5ft',['fr_dict_attr_ext_children_t',['../dict__ext_8h.html#structfr__dict__attr__ext__children__t',1,'']]],
   ['fr_5fdict_5fattr_5fext_5fda_5fstack_5ft',['fr_dict_attr_ext_da_stack_t',['../dict__ext_8h.html#structfr__dict__attr__ext__da__stack__t',1,'']]],
   ['fr_5fdict_5fattr_5fext_5fenumv_5ft',['fr_dict_attr_ext_enumv_t',['../dict__ext_8h.html#structfr__dict__attr__ext__enumv__t',1,'']]],
-  ['fr_5fdict_5fattr_5fext_5fnamespace_5ft',['fr_dict_attr_ext_namespace_t',['../dict__ext_8h.html#structfr__dict__attr__ext__namespace__t',1,'']]],
   ['fr_5fdict_5fattr_5fext_5fref_5ft',['fr_dict_attr_ext_ref_t',['../dict__ext_8h.html#structfr__dict__attr__ext__ref__t',1,'']]],
   ['fr_5fdict_5fattr_5fext_5fvendor_5ft',['fr_dict_attr_ext_vendor_t',['../dict__ext_8h.html#structfr__dict__attr__ext__vendor__t',1,'']]],
   ['fr_5fdict_5fattr_5fflags_5ft',['fr_dict_attr_flags_t',['../dict_8h.html#structfr__dict__attr__flags__t',1,'']]],

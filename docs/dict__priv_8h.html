@@ -115,9 +115,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a43c978ddea26ae00d888453ba3d83a5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__priv_8h.html#a43c978ddea26ae00d888453ba3d83a5b">dict_attr_acopy</a> (TALLOC_CTX *ctx, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *<a class="el" href="value_8h.html#a47ef05ec8d75829006b7eba839c1b603">in</a>, char const *new_name)</td></tr>
 <tr class="memdesc:a43c978ddea26ae00d888453ba3d83a5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy a an existing attribute.  <a href="#a43c978ddea26ae00d888453ba3d83a5b">More...</a><br /></td></tr>
 <tr class="separator:a43c978ddea26ae00d888453ba3d83a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f590ce881a60a8051a7a1c0da9d7ddc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__priv_8h.html#a0f590ce881a60a8051a7a1c0da9d7ddc">dict_attr_add_to_namespace</a> (<a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *parent, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> *da)</td></tr>
-<tr class="memdesc:a0f590ce881a60a8051a7a1c0da9d7ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an attribute to the name table for an attribute.  <a href="#a0f590ce881a60a8051a7a1c0da9d7ddc">More...</a><br /></td></tr>
-<tr class="separator:a0f590ce881a60a8051a7a1c0da9d7ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06248f9a246c425f5c72bc4db2a2d4dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__priv_8h.html#a06248f9a246c425f5c72bc4db2a2d4dd">dict_attr_add_by_name</a> (<a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> *<a class="el" href="fuzzer_8c.html#a4141ae10bee97755d6d8f754ff2b3178">dict</a>, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> *da)</td></tr>
+<tr class="memdesc:a06248f9a246c425f5c72bc4db2a2d4dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an attribute to the name table for the dictionary.  <a href="#a06248f9a246c425f5c72bc4db2a2d4dd">More...</a><br /></td></tr>
+<tr class="separator:a06248f9a246c425f5c72bc4db2a2d4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6681feeba02608bb815b94653b76193e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__priv_8h.html#a6681feeba02608bb815b94653b76193e">dict_attr_alloc</a> (TALLOC_CTX *ctx, <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *parent, char const *<a class="el" href="rlm__redis__ippool__tool_8c.html#a5f1de76dd5d451949e12c0fbc966ca70">name</a>, int attr, <a class="el" href="util_2types_8h.html#a372af96cb1f1bd71720f5b25c8acfd30">fr_type_t</a> type, <a class="el" href="dict_8h.html#structfr__dict__attr__flags__t">fr_dict_attr_flags_t</a> const *flags)</td></tr>
 <tr class="memdesc:a6681feeba02608bb815b94653b76193e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a dictionary attribute on the heap.  <a href="#a6681feeba02608bb815b94653b76193e">More...</a><br /></td></tr>
 <tr class="separator:a6681feeba02608bb815b94653b76193e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,6 +216,12 @@ Variables</h2></td></tr>
 attr_valid</td>
 <td class="fielddoc">
 validation function for new attributes </td></tr>
+<tr><td class="fieldtype">
+<a id="acc891c5aadce78445d74d992b3df8623"></a><a class="el" href="hash_8h.html#a0f39c004bd2f502ae6a3eebfed0a502f">fr_hash_table_t</a> *</td>
+<td class="fieldname">
+attributes_by_name</td>
+<td class="fielddoc">
+Allow attribute lookup by unique name. </td></tr>
 <tr><td class="fieldtype">
 <a id="ae4584bc64ceeb85b8d270a5804f46af9"></a><a class="el" href="hash_8h.html#a0f39c004bd2f502ae6a3eebfed0a502f">fr_hash_table_t</a> *</td>
 <td class="fieldname">
@@ -347,7 +353,7 @@ varies with different protocols </td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="dict__priv_8h_source.html#l00103">103</a> of file <a class="el" href="dict__priv_8h_source.html">dict_priv.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__priv_8h_source.html#l00105">105</a> of file <a class="el" href="dict__priv_8h_source.html">dict_priv.h</a>.</p>
 </div><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Collaboration diagram for fr_dict_gctx_s:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -476,7 +482,7 @@ read_only</td>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { \</div><div class="line">                if (!(_dict)) { \</div><div class="line">                        _dict = <a class="code" href="dict__priv_8h.html#aef134fd9f3842872d595d9b9529fd253">dict_gctx</a> ? <a class="code" href="dict__priv_8h.html#aef134fd9f3842872d595d9b9529fd253">dict_gctx</a>-&gt;<a class="code" href="dict__priv_8h.html#ad75bf85220ca5bb6b0c719a19fb36f35">internal</a> : NULL; \</div><div class="line">                        if (<a class="code" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_dict))) { \</div><div class="line">                                fr_strerror_printf(<span class="stringliteral">&quot;No dictionaries available for attribute resolution&quot;</span>); \</div><div class="line">                                return (_ret); \</div><div class="line">                        } \</div><div class="line">                } \</div><div class="line">        } <span class="keywordflow">while</span> (0)</div><div class="ttc" id="dict__priv_8h_html_aef134fd9f3842872d595d9b9529fd253"><div class="ttname"><a href="dict__priv_8h.html#aef134fd9f3842872d595d9b9529fd253">dict_gctx</a></div><div class="ttdeci">fr_dict_gctx_t * dict_gctx</div><div class="ttdoc">Top level structure containing global dictionary state. </div><div class="ttdef"><b>Definition:</b> <a href="dict__util_8c_source.html#l00040">dict_util.c:40</a></div></div>
 <div class="ttc" id="build_8h_html_aba1e18067becc3e4b5ac1038c3f192e9"><div class="ttname"><a href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a></div><div class="ttdeci">#define unlikely(_x)</div><div class="ttdef"><b>Definition:</b> <a href="build_8h_source.html#l00160">build.h:160</a></div></div>
-<div class="ttc" id="dict__priv_8h_html_ad75bf85220ca5bb6b0c719a19fb36f35"><div class="ttname"><a href="dict__priv_8h.html#ad75bf85220ca5bb6b0c719a19fb36f35">fr_dict_gctx_s::internal</a></div><div class="ttdeci">fr_dict_t * internal</div><div class="ttdoc">Magic internal dictionary. </div><div class="ttdef"><b>Definition:</b> <a href="dict__priv_8h_source.html#l00123">dict_priv.h:123</a></div></div>
+<div class="ttc" id="dict__priv_8h_html_ad75bf85220ca5bb6b0c719a19fb36f35"><div class="ttname"><a href="dict__priv_8h.html#ad75bf85220ca5bb6b0c719a19fb36f35">fr_dict_gctx_s::internal</a></div><div class="ttdeci">fr_dict_t * internal</div><div class="ttdoc">Magic internal dictionary. </div><div class="ttdef"><b>Definition:</b> <a href="dict__priv_8h_source.html#l00125">dict_priv.h:125</a></div></div>
 </div><!-- fragment -->
 <p>Set the internal dictionary if none was provided. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -520,7 +526,7 @@ read_only</td>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02624">2624</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02567">2567</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -587,7 +593,7 @@ read_only</td>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00697">697</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00670">670</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
@@ -607,23 +613,17 @@ read_only</td>
 
 </div>
 </div>
-<a id="a0f590ce881a60a8051a7a1c0da9d7ddc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f590ce881a60a8051a7a1c0da9d7ddc">&#9670;&nbsp;</a></span>dict_attr_add_to_namespace()</h2>
+<a id="a06248f9a246c425f5c72bc4db2a2d4dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06248f9a246c425f5c72bc4db2a2d4dd">&#9670;&nbsp;</a></span>dict_attr_add_by_name()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int dict_attr_add_to_namespace </td>
+          <td class="memname">int dict_attr_add_by_name </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="dict_8h.html#a8a299a18628c5635c7e9655343bcfceb">fr_dict_t</a> *&#160;</td>
           <td class="paramname"><em>dict</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *&#160;</td>
-          <td class="paramname"><em>parent</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -639,11 +639,10 @@ read_only</td>
       </table>
 </div><div class="memdoc">
 
-<p>Add an attribute to the name table for an attribute. </p>
+<p>Add an attribute to the name table for the dictionary. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dict</td><td>of protocol context we're operating in. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">parent</td><td>containing the namespace to add this attribute to. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dict</td><td>of protocol context we're operating in. If NULL the internal dictionary will be used. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">da</td><td>to add to the name lookup tables. </td></tr>
   </table>
   </dd>
@@ -654,13 +653,13 @@ read_only</td>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00990">990</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00963">963</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a0f590ce881a60a8051a7a1c0da9d7ddc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a06248f9a246c425f5c72bc4db2a2d4dd_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -668,7 +667,7 @@ read_only</td>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a0f590ce881a60a8051a7a1c0da9d7ddc_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a06248f9a246c425f5c72bc4db2a2d4dd_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -742,7 +741,7 @@ read_only</td>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00669">669</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00642">642</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
@@ -792,7 +791,7 @@ read_only</td>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00643">643</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00616">616</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
@@ -829,11 +828,21 @@ read_only</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02067">2067</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a3281fffd315315079d0b063e422f8d12_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a3281fffd315315079d0b063e422f8d12_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -866,12 +875,12 @@ read_only</td>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00850">850</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00823">823</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a4c854cde2881e6de9af15198c861ceb6_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -918,20 +927,20 @@ read_only</td>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00884">884</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a89e2461694d420b76248f368aca49fc8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00857">857</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a89e2461694d420b76248f368aca49fc8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a89e2461694d420b76248f368aca49fc8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -974,20 +983,20 @@ read_only</td>
 
 <p>Internal version of fr_dict_attr_child_by_num. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02376">2376</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_aa8fe667f7efcb013501821d4f1725da4_cgraph.svg" width="100%" height="560"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02319">2319</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_aa8fe667f7efcb013501821d4f1725da4_cgraph.svg" width="100%" height="560"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_aa8fe667f7efcb013501821d4f1725da4_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1044,20 +1053,20 @@ read_only</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01189">1189</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a3149047c36e900632f5eabef60bf5a4f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01154">1154</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a3149047c36e900632f5eabef60bf5a4f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a3149047c36e900632f5eabef60bf5a4f_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1134,19 +1143,19 @@ read_only</td>
 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="dict__validate_8c_source.html#l00585">585</a> of file <a class="el" href="dict__validate_8c_source.html">dict_validate.c</a>.</p>
-<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_afbc2ee6f8b49a2079a7045a6f274c3b2_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 <div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_afbc2ee6f8b49a2079a7045a6f274c3b2_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_afbc2ee6f8b49a2079a7045a6f274c3b2_icgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1202,11 +1211,11 @@ read_only</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a5e3ca6d0c1ec30a935e6162c0c47e8a5_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1277,20 +1286,20 @@ read_only</td>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00547">547</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a0fdc97e0a12a818ad9b28c9b24aa164e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00521">521</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a0fdc97e0a12a818ad9b28c9b24aa164e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a0fdc97e0a12a818ad9b28c9b24aa164e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1327,20 +1336,20 @@ read_only</td>
 <dl class="section note"><dt>Note</dt><dd>For internal use by the dictionary API only.</dd></dl>
 <p>Attempt to locate the protocol dictionary containing an attribute. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01862">1862</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a829210cde694176d864a2144261c97d2_cgraph.svg" width="100%" height="453"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01823">1823</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a829210cde694176d864a2144261c97d2_cgraph.svg" width="100%" height="406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a829210cde694176d864a2144261c97d2_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1367,20 +1376,20 @@ read_only</td>
 <dl class="section note"><dt>Note</dt><dd>For internal use by the dictionary API only.</dd></dl>
 <p>Attempt to locate the protocol dictionary containing an attribute. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01786">1786</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a2b606768ac059e28803a544a755633b8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01751">1751</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a2b606768ac059e28803a544a755633b8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a2b606768ac059e28803a544a755633b8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1407,20 +1416,20 @@ read_only</td>
 <dl class="section note"><dt>Note</dt><dd>For internal use by the dictionary API only.</dd></dl>
 <p>Lookup a protocol by its name. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01758">1758</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a84c9cd59818c5cd505e2467fe60a9ae6_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01723">1723</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-30-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a84c9cd59818c5cd505e2467fe60a9ae6_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a84c9cd59818c5cd505e2467fe60a9ae6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1447,20 +1456,20 @@ read_only</td>
 <dl class="section note"><dt>Note</dt><dd>For internal use by the dictionary API only.</dd></dl>
 <p>Lookup a protocol by its number. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01772">1772</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a65bf943d0cac81d51c229ccff7acd82a_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01737">1737</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-32-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a65bf943d0cac81d51c229ccff7acd82a_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a65bf943d0cac81d51c229ccff7acd82a_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1505,20 +1514,20 @@ read_only</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01675">1675</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a21f160869a72054b34a2ac7bc41aea8d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l01640">1640</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-34-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a21f160869a72054b34a2ac7bc41aea8d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a21f160869a72054b34a2ac7bc41aea8d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1551,20 +1560,20 @@ read_only</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02550">2550</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_ac10af112ae73bc8f74a9081f0a5a3756_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l02493">2493</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-36-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-36-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-36-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_ac10af112ae73bc8f74a9081f0a5a3756_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_ac10af112ae73bc8f74a9081f0a5a3756_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1601,20 +1610,20 @@ read_only</td>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00723">723</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-37-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_aec471d41c13d2c8f63ca186c06a08586_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00696">696</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-38-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-38-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_aec471d41c13d2c8f63ca186c06a08586_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_aec471d41c13d2c8f63ca186c06a08586_icgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1669,20 +1678,20 @@ read_only</td>
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00768">768</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
-<div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a9a176035feeb4792c7c0757b144c2ebd_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="dict__util_8c_source.html#l00741">741</a> of file <a class="el" href="dict__util_8c_source.html">dict_util.c</a>.</p>
 <div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-40-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-40-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-40-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a9a176035feeb4792c7c0757b144c2ebd_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-41-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-41-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__priv_8h_a9a176035feeb4792c7c0757b144c2ebd_icgraph.svg" width="100%" height="423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1743,7 +1752,7 @@ read_only</td>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 17 2020 00:02:41 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 01:50:46 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -144,7 +144,7 @@ Macros</h2></td></tr>
 <tr class="separator:ade9461e4217efd0db3a5507939a3438a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66912dd9af6e984b52ed6c081f21fc1a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8h.html#a66912dd9af6e984b52ed6c081f21fc1a">fr_sbuff_buff</a>(_sbuff_or_marker)</td></tr>
 <tr class="separator:a66912dd9af6e984b52ed6c081f21fc1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45c7ed827ff575ad645e54b5be123a53"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8h.html#a45c7ed827ff575ad645e54b5be123a53">FR_SBUFF_CHECK_REMAINING_RETURN</a>(_sbuff,  _len)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> ((_len) &gt; <a class="el" href="sbuff_8h.html#ab7605607a510344b9dcfe58fe3ec3433">fr_sbuff_remaining</a>(_sbuff)) <a class="el" href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> -((_len) - <a class="el" href="sbuff_8h.html#ab7605607a510344b9dcfe58fe3ec3433">fr_sbuff_remaining</a>(_sbuff))</td></tr>
+<tr class="memitem:a45c7ed827ff575ad645e54b5be123a53"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8h.html#a45c7ed827ff575ad645e54b5be123a53">FR_SBUFF_CHECK_REMAINING_RETURN</a>(_sbuff,  _len)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> ((_len) &gt; <a class="el" href="sbuff_8h.html#ab7605607a510344b9dcfe58fe3ec3433">fr_sbuff_remaining</a>(_sbuff)) <a class="el" href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> -((_len) - <a class="el" href="sbuff_8h.html#ab7605607a510344b9dcfe58fe3ec3433">fr_sbuff_remaining</a>(_sbuff))</td></tr>
 <tr class="separator:a45c7ed827ff575ad645e54b5be123a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a720cf4812015222de341f56f33cebdfa"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8h.html#a720cf4812015222de341f56f33cebdfa">FR_SBUFF_COPY</a>(_sbuff)</td></tr>
 <tr class="separator:a720cf4812015222de341f56f33cebdfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1038,7 +1038,7 @@ Special characters and their substitutions. <p>Indexed by the printable represen
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> ((_len) &gt; <a class="el" href="sbuff_8h.html#ab7605607a510344b9dcfe58fe3ec3433">fr_sbuff_remaining</a>(_sbuff)) <a class="el" href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> -((_len) - <a class="el" href="sbuff_8h.html#ab7605607a510344b9dcfe58fe3ec3433">fr_sbuff_remaining</a>(_sbuff))</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> ((_len) &gt; <a class="el" href="sbuff_8h.html#ab7605607a510344b9dcfe58fe3ec3433">fr_sbuff_remaining</a>(_sbuff)) <a class="el" href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> -((_len) - <a class="el" href="sbuff_8h.html#ab7605607a510344b9dcfe58fe3ec3433">fr_sbuff_remaining</a>(_sbuff))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1622,7 +1622,7 @@ Special characters and their substitutions. <p>Indexed by the printable represen
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { \</div><div class="line">        ssize_t         _slen; \</div><div class="line">        fr_sbuff_in_table_str(_slen, _sbuff, _table, _number, _def); \</div><div class="line">        if (_slen &lt; 0) <a class="code" href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> _slen; \</div><div class="line">} <a class="code" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</div><div class="ttc" id="acutest_8h_html_a8fdafe3be7e00ce3d4f0cb50a9a5eb39"><div class="ttname"><a href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a></div><div class="ttdeci">while(1)</div><div class="ttdef"><b>Definition:</b> <a href="acutest_8h_source.html#l00715">acutest.h:715</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { \</div><div class="line">        ssize_t         _slen; \</div><div class="line">        fr_sbuff_in_table_str(_slen, _sbuff, _table, _number, _def); \</div><div class="line">        if (_slen &lt; 0) <a class="code" href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> _slen; \</div><div class="line">} <a class="code" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</div><div class="ttc" id="acutest_8h_html_a8fdafe3be7e00ce3d4f0cb50a9a5eb39"><div class="ttname"><a href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a></div><div class="ttdeci">while(1)</div><div class="ttdef"><b>Definition:</b> <a href="acutest_8h_source.html#l00768">acutest.h:768</a></div></div>
 <div class="ttc" id="rlm__securid_8c_html_a9717e7bbecb906637e86cef6da3d83c2"><div class="ttname"><a href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a></div><div class="ttdeci">return</div><div class="ttdef"><b>Definition:</b> <a href="rlm__securid_8c_source.html#l00425">rlm_securid.c:425</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -2005,7 +2005,7 @@ Special characters and their substitutions. <p>Indexed by the printable represen
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { \</div><div class="line">        ssize_t _slen; \</div><div class="line">        _slen = _func(_sbuff, ## __VA_ARGS__ ); \</div><div class="line">        if (_slen &lt; 0) <a class="code" href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> _slen; \</div><div class="line">} <a class="code" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</div><div class="ttc" id="acutest_8h_html_a8fdafe3be7e00ce3d4f0cb50a9a5eb39"><div class="ttname"><a href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a></div><div class="ttdeci">while(1)</div><div class="ttdef"><b>Definition:</b> <a href="acutest_8h_source.html#l00715">acutest.h:715</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { \</div><div class="line">        ssize_t _slen; \</div><div class="line">        _slen = _func(_sbuff, ## __VA_ARGS__ ); \</div><div class="line">        if (_slen &lt; 0) <a class="code" href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> _slen; \</div><div class="line">} <a class="code" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</div><div class="ttc" id="acutest_8h_html_a8fdafe3be7e00ce3d4f0cb50a9a5eb39"><div class="ttname"><a href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a></div><div class="ttdeci">while(1)</div><div class="ttdef"><b>Definition:</b> <a href="acutest_8h_source.html#l00768">acutest.h:768</a></div></div>
 <div class="ttc" id="rlm__securid_8c_html_a9717e7bbecb906637e86cef6da3d83c2"><div class="ttname"><a href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a></div><div class="ttdeci">return</div><div class="ttdef"><b>Definition:</b> <a href="rlm__securid_8c_source.html#l00425">rlm_securid.c:425</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -2452,7 +2452,7 @@ Special characters and their substitutions. <p>Indexed by the printable represen
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 17 2020 00:02:44 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 01:50:49 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

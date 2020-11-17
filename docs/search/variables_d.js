@@ -206,7 +206,7 @@ var searchData=
   ['login',['login',['../radutmp_8h.html#a4a81ac94bb16d7f6500ef9678c93a039',1,'radutmp']]],
   ['logtee_5fdst_5ftable',['logtee_dst_table',['../rlm__logtee_8c.html#a92e85f2a9d40ad487aec10f028803ccb',1,'rlm_logtee.c']]],
   ['logtee_5fdst_5ftable_5flen',['logtee_dst_table_len',['../rlm__logtee_8c.html#ab080bd176ad2773945bb4f3f54eb2e10',1,'rlm_logtee.c']]],
-  ['longname',['longname',['../client_8h.html#ab86ffa47184c11211632288e3d8e4295',1,'rad_client::longname()'],['../acutest_8h.html#a42ec7a0f129ecbc5782d3feba96c5fb6',1,'TEST_CMDLINE_OPTION__::longname()']]],
+  ['longname',['longname',['../client_8h.html#ab86ffa47184c11211632288e3d8e4295',1,'rad_client::longname()'],['../acutest_8h.html#a6ac286aa4e779d7006062f94a64b76fd',1,'TEST_CMDLINE_OPTION_::longname()']]],
   ['lost',['lost',['../radclient_8h.html#a4413330f03270aa993c8ee128f6d8dfa',1,'rc_stats_t']]],
   ['lua_5falloc_5fcmd',['lua_alloc_cmd',['../rlm__redis__ippool_8c.html#aa89a4ed782a2ab8172cf21e3256fa891',1,'rlm_redis_ippool.c']]],
   ['lua_5falloc_5fdigest',['lua_alloc_digest',['../rlm__redis__ippool_8c.html#a2d9f43336f9fc92d0c709862295366f1',1,'rlm_redis_ippool.c']]],

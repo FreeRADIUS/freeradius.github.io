@@ -105,7 +105,7 @@ Macros</h2></td></tr>
 <tr class="separator:a6ef0fd2f22964f4ae936e1ebdcf6be96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2b43afb5c2798c980a7af8ec1c5d8b4"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#aa2b43afb5c2798c980a7af8ec1c5d8b4">FR_STRUCT_VERIFY</a>(_ptr)&#160;&#160;&#160;<a class="el" href="debug_8h.html#a383626587c58ed9745813b4f9d03678e">fr_verify_struct</a>(_ptr, sizeof(__typeof__(*_ptr)), offsetof(__typeof__(*_ptr), _signature))</td></tr>
 <tr class="separator:aa2b43afb5c2798c980a7af8ec1c5d8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae62598c720cbf8575cc3080f03058d5d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#ae62598c720cbf8575cc3080f03058d5d">MEM</a>(x)&#160;&#160;&#160;do { <a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (!(x)) { <a class="el" href="debug_8h.html#aa7e7314a1e6ad45c1b58c1065b65afad">fr_cond_assert_msg</a>((x), &quot;OUT OF MEMORY&quot;); _fr_exit(__FILE__, __LINE__, EXIT_FAILURE, <a class="el" href="abinary_8c.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a>); } } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td></tr>
+<tr class="memitem:ae62598c720cbf8575cc3080f03058d5d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#ae62598c720cbf8575cc3080f03058d5d">MEM</a>(x)&#160;&#160;&#160;do { <a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (!(x)) { <a class="el" href="debug_8h.html#aa7e7314a1e6ad45c1b58c1065b65afad">fr_cond_assert_msg</a>((x), &quot;OUT OF MEMORY&quot;); _fr_exit(__FILE__, __LINE__, EXIT_FAILURE, <a class="el" href="abinary_8c.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a>); } } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td></tr>
 <tr class="separator:ae62598c720cbf8575cc3080f03058d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -225,19 +225,19 @@ Assertion and exit macros</h2></td></tr>
 <tr class="memitem:aa7e7314a1e6ad45c1b58c1065b65afad"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#aa7e7314a1e6ad45c1b58c1065b65afad">fr_cond_assert_msg</a>(_x,  _fmt, ...)&#160;&#160;&#160;likely((bool)((_x) ? <a class="el" href="abinary_8c.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a> : (<a class="el" href="debug_8h.html#a07fea35f1f88cab508aa4f52761a7f7e">_fr_assert_fail</a>(__FILE__, __LINE__, #_x, _fmt, ## __VA_ARGS__) &amp;&amp; <a class="el" href="abinary_8c.html#a65e9886d74aaee76545e83dd09011727">false</a>)))</td></tr>
 <tr class="memdesc:aa7e7314a1e6ad45c1b58c1065b65afad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls panic_action ifndef NDEBUG, else logs error and evaluates to value of _x.  <a href="#aa7e7314a1e6ad45c1b58c1065b65afad">More...</a><br /></td></tr>
 <tr class="separator:aa7e7314a1e6ad45c1b58c1065b65afad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3ce244320c28e8fc617107d2f9e1051"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#ab3ce244320c28e8fc617107d2f9e1051">fr_fatal_assert</a>(_x)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) _fr_assert_exit(__FILE__, __LINE__, #_x, NULL))</td></tr>
+<tr class="memitem:ab3ce244320c28e8fc617107d2f9e1051"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#ab3ce244320c28e8fc617107d2f9e1051">fr_fatal_assert</a>(_x)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) _fr_assert_exit(__FILE__, __LINE__, #_x, NULL))</td></tr>
 <tr class="memdesc:ab3ce244320c28e8fc617107d2f9e1051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls panic_action ifndef NDEBUG, else logs error and causes the server to exit immediately with code 134.  <a href="#ab3ce244320c28e8fc617107d2f9e1051">More...</a><br /></td></tr>
 <tr class="separator:ab3ce244320c28e8fc617107d2f9e1051"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0185d685fb956565bf6eef0c26f371d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#ac0185d685fb956565bf6eef0c26f371d">fr_fatal_assert_msg</a>(_x,  _fmt, ...)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) <a class="el" href="debug_8h.html#ae4144b7d7f8b9d564a3cc7e50b4789b5">_fr_assert_fatal</a>(__FILE__, __LINE__, #_x, _fmt, ## __VA_ARGS__)</td></tr>
+<tr class="memitem:ac0185d685fb956565bf6eef0c26f371d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#ac0185d685fb956565bf6eef0c26f371d">fr_fatal_assert_msg</a>(_x,  _fmt, ...)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) <a class="el" href="debug_8h.html#ae4144b7d7f8b9d564a3cc7e50b4789b5">_fr_assert_fatal</a>(__FILE__, __LINE__, #_x, _fmt, ## __VA_ARGS__)</td></tr>
 <tr class="memdesc:ac0185d685fb956565bf6eef0c26f371d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls panic_action ifndef NDEBUG, else logs error and causes the server to exit immediately with code 134.  <a href="#ac0185d685fb956565bf6eef0c26f371d">More...</a><br /></td></tr>
 <tr class="separator:ac0185d685fb956565bf6eef0c26f371d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01a2d61c0f82ac7b193c805f0b033c7f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#a01a2d61c0f82ac7b193c805f0b033c7f">fr_fatal_assert_fail</a>(_msg, ...)&#160;&#160;&#160;<a class="el" href="debug_8h.html#ae4144b7d7f8b9d564a3cc7e50b4789b5">_fr_assert_fatal</a>(__FILE__, __LINE__, &quot;false&quot;, _msg,  ## __VA_ARGS__)</td></tr>
 <tr class="memdesc:a01a2d61c0f82ac7b193c805f0b033c7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls panic_action ifndef NDEBUG, else logs error and causes the server to exit immediately with code 134.  <a href="#a01a2d61c0f82ac7b193c805f0b033c7f">More...</a><br /></td></tr>
 <tr class="separator:a01a2d61c0f82ac7b193c805f0b033c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad77eb24bc481f3f9cd80da2704c81a8f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#ad77eb24bc481f3f9cd80da2704c81a8f">fr_assert</a>(_x)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) <a class="el" href="debug_8h.html#a07fea35f1f88cab508aa4f52761a7f7e">_fr_assert_fail</a>(__FILE__, __LINE__, #_x, NULL)</td></tr>
+<tr class="memitem:ad77eb24bc481f3f9cd80da2704c81a8f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#ad77eb24bc481f3f9cd80da2704c81a8f">fr_assert</a>(_x)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) <a class="el" href="debug_8h.html#a07fea35f1f88cab508aa4f52761a7f7e">_fr_assert_fail</a>(__FILE__, __LINE__, #_x, NULL)</td></tr>
 <tr class="memdesc:ad77eb24bc481f3f9cd80da2704c81a8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls panic_action ifndef NDEBUG, else logs error.  <a href="#ad77eb24bc481f3f9cd80da2704c81a8f">More...</a><br /></td></tr>
 <tr class="separator:ad77eb24bc481f3f9cd80da2704c81a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50d07603072117704a46e47f0dcb0763"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#a50d07603072117704a46e47f0dcb0763">fr_assert_msg</a>(_x,  _msg, ...)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) <a class="el" href="debug_8h.html#a07fea35f1f88cab508aa4f52761a7f7e">_fr_assert_fail</a>(__FILE__, __LINE__, #_x, _msg, ## __VA_ARGS__)</td></tr>
+<tr class="memitem:a50d07603072117704a46e47f0dcb0763"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#a50d07603072117704a46e47f0dcb0763">fr_assert_msg</a>(_x,  _msg, ...)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) <a class="el" href="debug_8h.html#a07fea35f1f88cab508aa4f52761a7f7e">_fr_assert_fail</a>(__FILE__, __LINE__, #_x, _msg, ## __VA_ARGS__)</td></tr>
 <tr class="memdesc:a50d07603072117704a46e47f0dcb0763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls panic_action ifndef NDEBUG, else logs error and causes the server to exit immediately with code 134.  <a href="#a50d07603072117704a46e47f0dcb0763">More...</a><br /></td></tr>
 <tr class="separator:a50d07603072117704a46e47f0dcb0763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59d5a05321ea6b2cd279e9c000d89fee"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug_8h.html#a59d5a05321ea6b2cd279e9c000d89fee">fr_assert_fail</a>(_msg, ...)&#160;&#160;&#160;<a class="el" href="debug_8h.html#a07fea35f1f88cab508aa4f52761a7f7e">_fr_assert_fail</a>(__FILE__, __LINE__, &quot;false&quot;, _msg,  ## __VA_ARGS__)</td></tr>
@@ -267,7 +267,7 @@ Assertion and exit macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">_x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) <a class="el" href="debug_8h.html#a07fea35f1f88cab508aa4f52761a7f7e">_fr_assert_fail</a>(__FILE__, __LINE__, #_x, NULL)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) <a class="el" href="debug_8h.html#a07fea35f1f88cab508aa4f52761a7f7e">_fr_assert_fail</a>(__FILE__, __LINE__, #_x, NULL)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -350,7 +350,7 @@ Assertion and exit macros</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) <a class="el" href="debug_8h.html#a07fea35f1f88cab508aa4f52761a7f7e">_fr_assert_fail</a>(__FILE__, __LINE__, #_x, _msg, ## __VA_ARGS__)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) <a class="el" href="debug_8h.html#a07fea35f1f88cab508aa4f52761a7f7e">_fr_assert_fail</a>(__FILE__, __LINE__, #_x, _msg, ## __VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -514,7 +514,7 @@ Assertion and exit macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">_x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) _fr_assert_exit(__FILE__, __LINE__, #_x, NULL))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) _fr_assert_exit(__FILE__, __LINE__, #_x, NULL))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -598,7 +598,7 @@ Assertion and exit macros</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) <a class="el" href="debug_8h.html#ae4144b7d7f8b9d564a3cc7e50b4789b5">_fr_assert_fatal</a>(__FILE__, __LINE__, #_x, _fmt, ## __VA_ARGS__)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!((bool)(_x)))) <a class="el" href="debug_8h.html#ae4144b7d7f8b9d564a3cc7e50b4789b5">_fr_assert_fatal</a>(__FILE__, __LINE__, #_x, _fmt, ## __VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -846,7 +846,7 @@ FR_STRUCT_VERIFY(ptr);
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;do { <a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (!(x)) { <a class="el" href="debug_8h.html#aa7e7314a1e6ad45c1b58c1065b65afad">fr_cond_assert_msg</a>((x), &quot;OUT OF MEMORY&quot;); _fr_exit(__FILE__, __LINE__, EXIT_FAILURE, <a class="el" href="abinary_8c.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a>); } } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td>
+          <td>&#160;&#160;&#160;do { <a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (!(x)) { <a class="el" href="debug_8h.html#aa7e7314a1e6ad45c1b58c1065b65afad">fr_cond_assert_msg</a>((x), &quot;OUT OF MEMORY&quot;); _fr_exit(__FILE__, __LINE__, EXIT_FAILURE, <a class="el" href="abinary_8c.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a>); } } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -990,7 +990,7 @@ FR_STRUCT_VERIFY(ptr);
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the value of cond. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01346">1346</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01347">1347</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -1058,7 +1058,7 @@ FR_STRUCT_VERIFY(ptr);
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01382">1382</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01383">1383</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -1120,7 +1120,7 @@ FR_STRUCT_VERIFY(ptr);
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01414">1414</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01415">1415</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -1242,7 +1242,7 @@ FR_STRUCT_VERIFY(ptr);
 <p>If the server is running under a debugger this will raise a SIGTRAP which will pause the running process.</p>
 <p>If the server is not running under debugger then this will do nothing. </p>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00492">492</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00493">493</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
@@ -1281,7 +1281,7 @@ FR_STRUCT_VERIFY(ptr);
 <p>Should be run before using setuid or setgid to get useful results. </p>
 <dl class="section note"><dt>Note</dt><dd>sets the fr_debug_state global. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00443">443</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00444">444</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
@@ -1326,7 +1326,7 @@ FR_STRUCT_VERIFY(ptr);
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>humanly readable version of debug state. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00463">463</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00464">464</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
@@ -1356,7 +1356,7 @@ FR_STRUCT_VERIFY(ptr);
 
 <p>Disable the null tracking context when a talloc chunk is freed. </p>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01116">1116</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01117">1117</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
@@ -1400,7 +1400,7 @@ FR_STRUCT_VERIFY(ptr);
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00865">865</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00866">866</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
@@ -1450,7 +1450,7 @@ FR_STRUCT_VERIFY(ptr);
 <p>We used to support a user defined callback, which was set to a radlog function. Unfortunately, when logging to syslog, syslog would alloc memory which would result in a deadlock if fr_fault was triggered from within a allocation call.</p>
 <p>Now we just write directly to the FD. </p>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01298">1298</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01299">1299</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-15-summary" class="dynsummary" style="display:block;">
@@ -1498,7 +1498,7 @@ FR_STRUCT_VERIFY(ptr);
 
 <p>Print data as a hex block. </p>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01312">1312</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01313">1313</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 
 </div>
 </div>
@@ -1526,7 +1526,7 @@ FR_STRUCT_VERIFY(ptr);
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01284">1284</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01285">1285</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
@@ -1562,7 +1562,7 @@ FR_STRUCT_VERIFY(ptr);
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01332">1332</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01333">1333</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-18-summary" class="dynsummary" style="display:block;">
@@ -1622,7 +1622,7 @@ FR_STRUCT_VERIFY(ptr);
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01151">1151</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01152">1152</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-19-summary" class="dynsummary" style="display:block;">
@@ -1718,7 +1718,7 @@ FR_STRUCT_VERIFY(ptr);
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01056">1056</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01057">1057</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-23-summary" class="dynsummary" style="display:block;">
@@ -1762,7 +1762,7 @@ FR_STRUCT_VERIFY(ptr);
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00634">634</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00635">635</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-25-summary" class="dynsummary" style="display:block;">
@@ -1798,7 +1798,7 @@ FR_STRUCT_VERIFY(ptr);
 </ul>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00809">809</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00810">810</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-26-summary" class="dynsummary" style="display:block;">
@@ -1842,7 +1842,7 @@ FR_STRUCT_VERIFY(ptr);
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00744">744</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00745">745</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-28-summary" class="dynsummary" style="display:block;">
@@ -1881,7 +1881,7 @@ FR_STRUCT_VERIFY(ptr);
 <p>Get the current maximum for core files. </p>
 <p>Do this before anything else so as to ensure it's properly initialized. </p>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00729">729</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l00730">730</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-30-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-30-summary" class="dynsummary" style="display:block;">
@@ -1933,7 +1933,7 @@ FR_STRUCT_VERIFY(ptr);
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01461">1461</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01462">1462</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-32-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-32-summary" class="dynsummary" style="display:block;">
@@ -1964,7 +1964,7 @@ FR_STRUCT_VERIFY(ptr);
 <p>Register talloc fault handlers. </p>
 <p>Just register the fault handlers we need to make talloc produce useful debugging output. </p>
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01132">1132</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01133">1133</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-33-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-33-summary" class="dynsummary" style="display:block;">
@@ -2016,7 +2016,7 @@ FR_STRUCT_VERIFY(ptr);
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01466">1466</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01467">1467</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-35-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-35-summary" class="dynsummary" style="display:block;">
@@ -2060,7 +2060,7 @@ FR_STRUCT_VERIFY(ptr);
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01475">1475</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lib_2util_2debug_8c_source.html#l01476">1476</a> of file <a class="el" href="lib_2util_2debug_8c_source.html">debug.c</a>.</p>
 <div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-36-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-36-summary" class="dynsummary" style="display:block;">
@@ -2094,7 +2094,7 @@ FR_STRUCT_VERIFY(ptr);
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 17 2020 00:02:40 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 01:50:46 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

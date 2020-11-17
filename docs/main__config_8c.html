@@ -218,7 +218,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {\</div><div class="line">        switch (<a class="code" href="dict_8h.html#ac57f9ce40c1dbc95e8e6edf9504b5ef5">fr_dict_read</a>(<a class="code" href="bsc_8c.html#a74bb62276efdf39dd94048e007fca05b">config</a>-&gt;dict, _d, _n)) {\</div><div class="line">        case -1:\</div><div class="line">                PERROR(<span class="stringliteral">&quot;Error reading dictionary \&quot;%s/%s\&quot;&quot;</span>, _d, _n);\</div><div class="line">                goto failure;\</div><div class="line">        case 0:\</div><div class="line">                DEBUG2(<span class="stringliteral">&quot;Including dictionary file \&quot;%s/%s\&quot;&quot;</span>, _d,_n);\</div><div class="line">                break;\</div><div class="line">        default:\</div><div class="line">                break;\</div><div class="line">        }\</div><div class="line">} <span class="keywordflow">while</span> (0)</div><div class="ttc" id="bsc_8c_html_a74bb62276efdf39dd94048e007fca05b"><div class="ttname"><a href="bsc_8c.html#a74bb62276efdf39dd94048e007fca05b">config</a></div><div class="ttdeci">char * config</div><div class="ttdef"><b>Definition:</b> <a href="bsc_8c_source.html#l00056">bsc.c:56</a></div></div>
-<div class="ttc" id="dict_8h_html_ac57f9ce40c1dbc95e8e6edf9504b5ef5"><div class="ttname"><a href="dict_8h.html#ac57f9ce40c1dbc95e8e6edf9504b5ef5">fr_dict_read</a></div><div class="ttdeci">int fr_dict_read(fr_dict_t *dict, char const *dict_dir, char const *filename)</div><div class="ttdoc">Read supplementary attribute definitions into an existing dictionary. </div><div class="ttdef"><b>Definition:</b> <a href="dict__tokenize_8c_source.html#l02683">dict_tokenize.c:2683</a></div></div>
+<div class="ttc" id="dict_8h_html_ac57f9ce40c1dbc95e8e6edf9504b5ef5"><div class="ttname"><a href="dict_8h.html#ac57f9ce40c1dbc95e8e6edf9504b5ef5">fr_dict_read</a></div><div class="ttdeci">int fr_dict_read(fr_dict_t *dict, char const *dict_dir, char const *filename)</div><div class="ttdoc">Read supplementary attribute definitions into an existing dictionary. </div><div class="ttdef"><b>Definition:</b> <a href="dict__tokenize_8c_source.html#l02675">dict_tokenize.c:2675</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1662,7 +1662,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 17 2020 00:02:36 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 01:50:43 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

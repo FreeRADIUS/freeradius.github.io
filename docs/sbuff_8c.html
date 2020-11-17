@@ -102,12 +102,12 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a3dda0d8ea1ba6bddb12b92c86df2aab1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8c.html#a3dda0d8ea1ba6bddb12b92c86df2aab1">CHECK_SBUFF_INIT</a>(_sbuff)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (!(_sbuff)-&gt;extend &amp;&amp; (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;buff) || <a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;start) || <a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;end) || <a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;p))) <a class="el" href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> 0;</td></tr>
+<tr class="memitem:a3dda0d8ea1ba6bddb12b92c86df2aab1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8c.html#a3dda0d8ea1ba6bddb12b92c86df2aab1">CHECK_SBUFF_INIT</a>(_sbuff)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (!(_sbuff)-&gt;extend &amp;&amp; (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;buff) || <a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;start) || <a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;end) || <a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;p))) <a class="el" href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> 0;</td></tr>
 <tr class="separator:a3dda0d8ea1ba6bddb12b92c86df2aab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc819edffa1d08757c21b7ffd17b25ec"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8c.html#acc819edffa1d08757c21b7ffd17b25ec">CONSTRAINED_END</a>(_sbuff,  _max,  _used)&#160;&#160;&#160;(((_max) - (_used)) &gt; <a class="el" href="sbuff_8h.html#ab7605607a510344b9dcfe58fe3ec3433">fr_sbuff_remaining</a>(_sbuff) ? (_sbuff)-&gt;end : (_sbuff)-&gt;p + ((_max) - (_used)))</td></tr>
 <tr class="memdesc:acc819edffa1d08757c21b7ffd17b25ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constrain end pointer to prevent advancing more than the amount the called specified.  <a href="#acc819edffa1d08757c21b7ffd17b25ec">More...</a><br /></td></tr>
 <tr class="separator:acc819edffa1d08757c21b7ffd17b25ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a217fd37d1a46fab9eac9f8d24ca370c1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8c.html#a217fd37d1a46fab9eac9f8d24ca370c1">FILL_OR_GOTO_DONE</a>(_out,  _in,  _len)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (<a class="el" href="sbuff_8h.html#ad352b37e7f607af64ce676f5f6ef8f97">fr_sbuff_move</a>(_out, _in, _len) &lt; (size_t)(_len)) goto <a class="el" href="radclient_8c.html#a1d39aac66e12dae50a24cd7a9100ef33">done</a></td></tr>
+<tr class="memitem:a217fd37d1a46fab9eac9f8d24ca370c1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8c.html#a217fd37d1a46fab9eac9f8d24ca370c1">FILL_OR_GOTO_DONE</a>(_out,  _in,  _len)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (<a class="el" href="sbuff_8h.html#ad352b37e7f607af64ce676f5f6ef8f97">fr_sbuff_move</a>(_out, _in, _len) &lt; (size_t)(_len)) goto <a class="el" href="radclient_8c.html#a1d39aac66e12dae50a24cd7a9100ef33">done</a></td></tr>
 <tr class="memdesc:a217fd37d1a46fab9eac9f8d24ca370c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill as much of the output buffer we can and break on partial copy.  <a href="#a217fd37d1a46fab9eac9f8d24ca370c1">More...</a><br /></td></tr>
 <tr class="separator:a217fd37d1a46fab9eac9f8d24ca370c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6736d1d056a516bd3098653e36342cfb"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8c.html#a6736d1d056a516bd3098653e36342cfb">IS_TOKEN</a>(_t)</td></tr>
@@ -121,7 +121,7 @@ Macros</h2></td></tr>
 <tr class="memitem:a2ef42cacbfc7d1a73b21eddcf7a42e48"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8c.html#a2ef42cacbfc7d1a73b21eddcf7a42e48">SBUFF_PARSE_UINT_DEF</a>(_name,  _type,  _max,  _max_char,  _base)</td></tr>
 <tr class="memdesc:a2ef42cacbfc7d1a73b21eddcf7a42e48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to define a number parsing functions for singed integers.  <a href="#a2ef42cacbfc7d1a73b21eddcf7a42e48">More...</a><br /></td></tr>
 <tr class="separator:a2ef42cacbfc7d1a73b21eddcf7a42e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dea8bca6fe606a043b2f41b4b52d26c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8c.html#a4dea8bca6fe606a043b2f41b4b52d26c">update_max_shift</a>(_buff,  _max_shift,  _field)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (((_buff) + (_max_shift)) &gt; (_field)) _max_shift -= (((_buff) + (_max_shift)) - (_field))</td></tr>
+<tr class="memitem:a4dea8bca6fe606a043b2f41b4b52d26c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8c.html#a4dea8bca6fe606a043b2f41b4b52d26c">update_max_shift</a>(_buff,  _max_shift,  _field)&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (((_buff) + (_max_shift)) &gt; (_field)) _max_shift -= (((_buff) + (_max_shift)) - (_field))</td></tr>
 <tr class="separator:a4dea8bca6fe606a043b2f41b4b52d26c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d1b091a398af6ae9c1c9a6e5e62c4fc"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sbuff_8c.html#a2d1b091a398af6ae9c1c9a6e5e62c4fc">update_ptr</a>(_old_buff,  _new_buff,  _new_len,  _field)</td></tr>
 <tr class="separator:a2d1b091a398af6ae9c1c9a6e5e62c4fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,7 +301,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">_sbuff</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (!(_sbuff)-&gt;extend &amp;&amp; (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;buff) || <a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;start) || <a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;end) || <a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;p))) <a class="el" href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> 0;</td>
+          <td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (!(_sbuff)-&gt;extend &amp;&amp; (<a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;buff) || <a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;start) || <a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;end) || <a class="el" href="build_8h.html#aba1e18067becc3e4b5ac1038c3f192e9">unlikely</a>(!(_sbuff)-&gt;p))) <a class="el" href="rlm__securid_8c.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> 0;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -384,7 +384,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (<a class="el" href="sbuff_8h.html#ad352b37e7f607af64ce676f5f6ef8f97">fr_sbuff_move</a>(_out, _in, _len) &lt; (size_t)(_len)) goto <a class="el" href="radclient_8c.html#a1d39aac66e12dae50a24cd7a9100ef33">done</a></td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (<a class="el" href="sbuff_8h.html#ad352b37e7f607af64ce676f5f6ef8f97">fr_sbuff_move</a>(_out, _in, _len) &lt; (size_t)(_len)) goto <a class="el" href="radclient_8c.html#a1d39aac66e12dae50a24cd7a9100ef33">done</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -633,7 +633,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (((_buff) + (_max_shift)) &gt; (_field)) _max_shift -= (((_buff) + (_max_shift)) - (_field))</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (((_buff) + (_max_shift)) &gt; (_field)) _max_shift -= (((_buff) + (_max_shift)) - (_field))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3478,7 +3478,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 17 2020 00:02:44 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 01:50:49 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

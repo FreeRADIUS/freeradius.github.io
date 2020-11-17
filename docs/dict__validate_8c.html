@@ -85,9 +85,9 @@ $(function() {
 Macros</h2></td></tr>
 <tr class="memitem:abcaef07a9cb6d5c2213d14579b35b62a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__validate_8c.html#abcaef07a9cb6d5c2213d14579b35b62a">ALLOW_FLAG</a>(_flag)&#160;&#160;&#160;do { all_flags &amp;= ~shift_ ## _flag; } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td></tr>
 <tr class="separator:abcaef07a9cb6d5c2213d14579b35b62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9a17ef0cdf3e7b246a790be44056083"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__validate_8c.html#af9a17ef0cdf3e7b246a790be44056083">FORBID_OTHER_FLAGS</a>(_flag)&#160;&#160;&#160;do { <a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (all_flags &amp; ~shift_ ## _flag) { <a class="el" href="strerror_8h.html#a5a6ff85d88b5c7b39a3c83e3fabb704c">fr_strerror_printf</a>(&quot;The '&quot; STRINGIFY(_flag) &quot;' flag cannot be <a class="el" href="ring__buffer__test_8c.html#ae8cc011bf3ee2d3c19743095ffc0f7a5">used</a> with any other flag&quot;); return <a class="el" href="abinary_8c.html#a65e9886d74aaee76545e83dd09011727">false</a>; } } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td></tr>
+<tr class="memitem:af9a17ef0cdf3e7b246a790be44056083"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__validate_8c.html#af9a17ef0cdf3e7b246a790be44056083">FORBID_OTHER_FLAGS</a>(_flag)&#160;&#160;&#160;do { <a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (all_flags &amp; ~shift_ ## _flag) { <a class="el" href="strerror_8h.html#a5a6ff85d88b5c7b39a3c83e3fabb704c">fr_strerror_printf</a>(&quot;The '&quot; STRINGIFY(_flag) &quot;' flag cannot be <a class="el" href="ring__buffer__test_8c.html#ae8cc011bf3ee2d3c19743095ffc0f7a5">used</a> with any other flag&quot;); return <a class="el" href="abinary_8c.html#a65e9886d74aaee76545e83dd09011727">false</a>; } } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td></tr>
 <tr class="separator:af9a17ef0cdf3e7b246a790be44056083"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4e81dd8a82c2e24dac6fc8843501707"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__validate_8c.html#ae4e81dd8a82c2e24dac6fc8843501707">SET_FLAG</a>(_flag)&#160;&#160;&#160;do { shift_ ## _flag = 1 &lt;&lt; bit; <a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (flags-&gt;_flag) {all_flags |= (1 &lt;&lt; bit); } bit++; } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td></tr>
+<tr class="memitem:ae4e81dd8a82c2e24dac6fc8843501707"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="build_8h.html#a0ec3f1f76900803ac4f041eb90b84a34">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__validate_8c.html#ae4e81dd8a82c2e24dac6fc8843501707">SET_FLAG</a>(_flag)&#160;&#160;&#160;do { shift_ ## _flag = 1 &lt;&lt; bit; <a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (flags-&gt;_flag) {all_flags |= (1 &lt;&lt; bit); } bit++; } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td></tr>
 <tr class="separator:ae4e81dd8a82c2e24dac6fc8843501707"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -134,7 +134,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">_flag</td><td>)</td>
-          <td>&#160;&#160;&#160;do { <a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (all_flags &amp; ~shift_ ## _flag) { <a class="el" href="strerror_8h.html#a5a6ff85d88b5c7b39a3c83e3fabb704c">fr_strerror_printf</a>(&quot;The '&quot; STRINGIFY(_flag) &quot;' flag cannot be <a class="el" href="ring__buffer__test_8c.html#ae8cc011bf3ee2d3c19743095ffc0f7a5">used</a> with any other flag&quot;); return <a class="el" href="abinary_8c.html#a65e9886d74aaee76545e83dd09011727">false</a>; } } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td>
+          <td>&#160;&#160;&#160;do { <a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (all_flags &amp; ~shift_ ## _flag) { <a class="el" href="strerror_8h.html#a5a6ff85d88b5c7b39a3c83e3fabb704c">fr_strerror_printf</a>(&quot;The '&quot; STRINGIFY(_flag) &quot;' flag cannot be <a class="el" href="ring__buffer__test_8c.html#ae8cc011bf3ee2d3c19743095ffc0f7a5">used</a> with any other flag&quot;); return <a class="el" href="abinary_8c.html#a65e9886d74aaee76545e83dd09011727">false</a>; } } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -152,7 +152,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">_flag</td><td>)</td>
-          <td>&#160;&#160;&#160;do { shift_ ## _flag = 1 &lt;&lt; bit; <a class="el" href="acutest_8h.html#a28855fa01b85a12f2d0ce002f5131535">if</a> (flags-&gt;_flag) {all_flags |= (1 &lt;&lt; bit); } bit++; } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td>
+          <td>&#160;&#160;&#160;do { shift_ ## _flag = 1 &lt;&lt; bit; <a class="el" href="acutest_8h.html#aa53427a1508fc7012cb9511f333c6c06">if</a> (flags-&gt;_flag) {all_flags |= (1 &lt;&lt; bit); } bit++; } <a class="el" href="acutest_8h.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a> (0)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -340,7 +340,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 17 2020 00:02:42 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 01:50:47 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

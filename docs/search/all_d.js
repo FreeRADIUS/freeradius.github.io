@@ -381,7 +381,7 @@ var searchData=
   ['logtee_5fnet_5ft',['logtee_net_t',['../rlm__logtee_8c.html#structlogtee__net__t',1,'']]],
   ['long_5fdouble',['LONG_DOUBLE',['../snprintf_8h.html#ad53edf12e98c4098e41b9d91fd8d5f17',1,'snprintf.h']]],
   ['long_5flong',['LONG_LONG',['../snprintf_8h.html#af974675996b013abd946bca49095f22b',1,'snprintf.h']]],
-  ['longname',['longname',['../client_8h.html#ab86ffa47184c11211632288e3d8e4295',1,'rad_client::longname()'],['../acutest_8h.html#a42ec7a0f129ecbc5782d3feba96c5fb6',1,'TEST_CMDLINE_OPTION__::longname()']]],
+  ['longname',['longname',['../client_8h.html#ab86ffa47184c11211632288e3d8e4295',1,'rad_client::longname()'],['../acutest_8h.html#a6ac286aa4e779d7006062f94a64b76fd',1,'TEST_CMDLINE_OPTION_::longname()']]],
   ['lost',['lost',['../radclient_8h.html#a4413330f03270aa993c8ee128f6d8dfa',1,'rc_stats_t']]],
   ['lsan_2eh',['lsan.h',['../lsan_8h.html',1,'']]],
   ['lsan_5fdisable',['LSAN_DISABLE',['../lsan_8h.html#ac34ab79755d2d02944ddeeda387544b6',1,'lsan.h']]],
