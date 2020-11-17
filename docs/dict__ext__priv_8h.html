@@ -119,6 +119,9 @@ Convenience functions for populating attribute extensions</h2></td></tr>
 <tr class="separator:a18a53f632b502e801a19732caa982065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9957ca8234bd279f920d24b700893d3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const  **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__ext__priv_8h.html#ab9957ca8234bd279f920d24b700893d3">dict_attr_children</a> (<a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *da)</td></tr>
 <tr class="separator:ab9957ca8234bd279f920d24b700893d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d44e0fb3b3f5da9fa75345b394398c7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="hash_8h.html#a0f39c004bd2f502ae6a3eebfed0a502f">fr_hash_table_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dict__ext__priv_8h.html#a5d44e0fb3b3f5da9fa75345b394398c7">dict_attr_namespace</a> (<a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *da)</td></tr>
+<tr class="memdesc:a5d44e0fb3b3f5da9fa75345b394398c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the namespace hash table associated with the attribute.  <a href="#a5d44e0fb3b3f5da9fa75345b394398c7">More...</a><br /></td></tr>
+<tr class="separator:a5d44e0fb3b3f5da9fa75345b394398c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Extensions for dictionary definitions. </p>
@@ -556,6 +559,63 @@ Convenience functions for populating attribute extensions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5d44e0fb3b3f5da9fa75345b394398c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d44e0fb3b3f5da9fa75345b394398c7">&#9670;&nbsp;</a></span>dict_attr_namespace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="hash_8h.html#a0f39c004bd2f502ae6a3eebfed0a502f">fr_hash_table_t</a>* dict_attr_namespace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="dict_8h.html#aed6e1e08277e8ccb5c51266dc7b8fbb1">fr_dict_attr_t</a> const *&#160;</td>
+          <td class="paramname"><em>da</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the namespace hash table associated with the attribute. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">da</td><td>to return the reference for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>NULL if no namespace available.</li>
+<li>A pointer to the namespace hash table </li>
+</ul>
+</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="dict__ext__priv_8h_source.html#l00165">165</a> of file <a class="el" href="dict__ext__priv_8h_source.html">dict_ext_priv.h</a>.</p>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="dict__ext__priv_8h_a5d44e0fb3b3f5da9fa75345b394398c7_cgraph.svg" width="466" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__ext__priv_8h_a5d44e0fb3b3f5da9fa75345b394398c7_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a0068ae84df3bba7a91cd29dc6c3f5ad6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0068ae84df3bba7a91cd29dc6c3f5ad6">&#9670;&nbsp;</a></span>dict_attr_ref_set()</h2>
 
@@ -591,19 +651,19 @@ Convenience functions for populating attribute extensions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="dict__ext__priv_8h_source.html#l00115">115</a> of file <a class="el" href="dict__ext__priv_8h_source.html">dict_ext_priv.h</a>.</p>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__ext__priv_8h_a0068ae84df3bba7a91cd29dc6c3f5ad6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dict__ext__priv_8h_a0068ae84df3bba7a91cd29dc6c3f5ad6_icgraph.svg" width="100%" height="545"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -643,14 +703,14 @@ Convenience functions for populating attribute extensions</h2></td></tr>
 
 <p>Holds additional information about extension structures. </p>
 
-<p class="definition">Definition at line <a class="el" href="dict__ext_8c_source.html#l00190">190</a> of file <a class="el" href="dict__ext_8c_source.html">dict_ext.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dict__ext_8c_source.html#l00194">194</a> of file <a class="el" href="dict__ext_8c_source.html">dict_ext.c</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 16 2020 17:06:12 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 00:02:40 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

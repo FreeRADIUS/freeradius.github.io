@@ -54,120 +54,120 @@ var sectionId = 'dynsection-7';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>mod_instantiate</title>
-<!-- Node828 -->
+<!-- Node831 -->
 <g id="node1" class="node">
-<title>Node828</title>
+<title>Node831</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-77.5 0,-96.5 86,-96.5 86,-77.5 0,-77.5"/>
 <text text-anchor="middle" x="43" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">mod_instantiate</text>
 </g>
-<!-- Node829 -->
+<!-- Node832 -->
 <g id="node2" class="node">
-<title>Node829</title>
+<title>Node832</title>
 <g id="a_node2"><a xlink:href="server_2state_8c.html#ae6177ce96beae7792c9adec474d9428d" target="_top" xlink:title="Initialise a new state tree. ">
 <polygon fill="none" stroke="#000000" points="122,-77.5 122,-96.5 211,-96.5 211,-77.5 122,-77.5"/>
 <text text-anchor="middle" x="166.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_state_tree_init</text>
 </a>
 </g>
 </g>
-<!-- Node828&#45;&gt;Node829 -->
+<!-- Node831&#45;&gt;Node832 -->
 <g id="edge1" class="edge">
-<title>Node828&#45;&gt;Node829</title>
+<title>Node831&#45;&gt;Node832</title>
 <path fill="none" stroke="#191970" d="M86.1943,-87C94.4033,-87 103.0945,-87 111.6096,-87"/>
 <polygon fill="#191970" stroke="#191970" points="111.8646,-90.5001 121.8646,-87 111.8645,-83.5001 111.8646,-90.5001"/>
 </g>
-<!-- Node830 -->
+<!-- Node833 -->
 <g id="node3" class="node">
-<title>Node830</title>
+<title>Node833</title>
 <g id="a_node3"><a xlink:href="talloc_8c.html#a9e4c941cc6b24faf5b0e81b7635fdffe" target="_top" xlink:title="Link two different parent and child contexts, so the child is freed before the parent. ">
 <polygon fill="none" stroke="#000000" points="252,-115.5 252,-134.5 331,-134.5 331,-115.5 252,-115.5"/>
 <text text-anchor="middle" x="291.5" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">talloc_link_ctx</text>
 </a>
 </g>
 </g>
-<!-- Node829&#45;&gt;Node830 -->
+<!-- Node832&#45;&gt;Node833 -->
 <g id="edge2" class="edge">
-<title>Node829&#45;&gt;Node830</title>
+<title>Node832&#45;&gt;Node833</title>
 <path fill="none" stroke="#191970" d="M198.0428,-96.589C213.883,-101.4044 233.2725,-107.2988 250.2763,-112.468"/>
 <polygon fill="#191970" stroke="#191970" points="249.3816,-115.8541 259.9673,-115.4141 251.4177,-109.1567 249.3816,-115.8541"/>
 </g>
-<!-- Node969 -->
+<!-- Node972 -->
 <g id="node9" class="node">
-<title>Node969</title>
+<title>Node972</title>
 <g id="a_node9"><a xlink:href="server_2state_8c.html#ac9ece181b5445059c4e8d13888fb1979" target="_top" xlink:title="Compare two fr_state_entry_t based on their state value i.e. ">
 <polygon fill="none" stroke="#000000" points="247,-77.5 247,-96.5 336,-96.5 336,-77.5 247,-77.5"/>
 <text text-anchor="middle" x="291.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">state_entry_cmp</text>
 </a>
 </g>
 </g>
-<!-- Node829&#45;&gt;Node969 -->
+<!-- Node832&#45;&gt;Node972 -->
 <g id="edge8" class="edge">
-<title>Node829&#45;&gt;Node969</title>
+<title>Node832&#45;&gt;Node972</title>
 <path fill="none" stroke="#191970" d="M211.2748,-87C219.4426,-87 228.0507,-87 236.475,-87"/>
 <polygon fill="#191970" stroke="#191970" points="236.6177,-90.5001 246.6177,-87 236.6176,-83.5001 236.6177,-90.5001"/>
 </g>
-<!-- Node970 -->
+<!-- Node973 -->
 <g id="node10" class="node">
-<title>Node970</title>
+<title>Node973</title>
 <g id="a_node10"><a xlink:href="server_2state_8c.html#a494c48d8816273965026f0c93061b142" target="_top" xlink:title="Free the state tree. ">
 <polygon fill="none" stroke="#000000" points="248,-39.5 248,-58.5 335,-58.5 335,-39.5 248,-39.5"/>
 <text text-anchor="middle" x="291.5" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_state_tree_free</text>
 </a>
 </g>
 </g>
-<!-- Node829&#45;&gt;Node970 -->
+<!-- Node832&#45;&gt;Node973 -->
 <g id="edge9" class="edge">
-<title>Node829&#45;&gt;Node970</title>
+<title>Node832&#45;&gt;Node973</title>
 <path fill="none" stroke="#191970" d="M198.0428,-77.411C213.883,-72.5956 233.2725,-66.7012 250.2763,-61.532"/>
 <polygon fill="#191970" stroke="#191970" points="251.4177,-64.8433 259.9673,-58.5859 249.3816,-58.1459 251.4177,-64.8433"/>
 </g>
-<!-- Node831 -->
+<!-- Node834 -->
 <g id="node4" class="node">
-<title>Node831</title>
+<title>Node834</title>
 <g id="a_node4"><a xlink:href="talloc_8c.html#ae835f7a926a1d3da159c1e0dce86581c" target="_top" xlink:title="Add an additional destructor to a talloc chunk. ">
 <polygon fill="none" stroke="#000000" points="372,-137.5 372,-156.5 482,-156.5 482,-137.5 372,-137.5"/>
 <text text-anchor="middle" x="427" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">talloc_destructor_add</text>
 </a>
 </g>
 </g>
-<!-- Node830&#45;&gt;Node831 -->
+<!-- Node833&#45;&gt;Node834 -->
 <g id="edge3" class="edge">
-<title>Node830&#45;&gt;Node831</title>
+<title>Node833&#45;&gt;Node834</title>
 <path fill="none" stroke="#191970" d="M331.0565,-131.4225C340.7054,-132.9891 351.283,-134.7065 361.7796,-136.4107"/>
 <polygon fill="#191970" stroke="#191970" points="361.3537,-139.8873 371.7854,-138.0353 362.4756,-132.9778 361.3537,-139.8873"/>
 </g>
-<!-- Node968 -->
+<!-- Node971 -->
 <g id="node8" class="node">
-<title>Node968</title>
+<title>Node971</title>
 <g id="a_node8"><a xlink:href="talloc_8c.html#a1d56d7b1166027d8ee4ddfa2353c937f" target="_top" xlink:title="_talloc_link_ctx_free">
 <polygon fill="none" stroke="#000000" points="374,-99.5 374,-118.5 480,-118.5 480,-99.5 374,-99.5"/>
 <text text-anchor="middle" x="427" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_talloc_link_ctx_free</text>
 </a>
 </g>
 </g>
-<!-- Node830&#45;&gt;Node968 -->
+<!-- Node833&#45;&gt;Node971 -->
 <g id="edge7" class="edge">
-<title>Node830&#45;&gt;Node968</title>
+<title>Node833&#45;&gt;Node971</title>
 <path fill="none" stroke="#191970" d="M331.0565,-120.3291C341.2236,-119.1286 352.4217,-117.8063 363.4696,-116.5017"/>
 <polygon fill="#191970" stroke="#191970" points="364.019,-119.9613 373.5395,-115.3127 363.1981,-113.0096 364.019,-119.9613"/>
 </g>
-<!-- Node832 -->
+<!-- Node835 -->
 <g id="node5" class="node">
-<title>Node832</title>
+<title>Node835</title>
 <g id="a_node5"><a xlink:href="strerror_8c.html#ae701765650b8aea79a3037bc4921d7f8" target="_top" xlink:title="Log to thread local error buffer. ">
 <polygon fill="none" stroke="#ff0000" points="531.5,-181.5 531.5,-200.5 617.5,-200.5 617.5,-181.5 531.5,-181.5"/>
 <text text-anchor="middle" x="574.5" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_strerror_printf</text>
 </a>
 </g>
 </g>
-<!-- Node831&#45;&gt;Node832 -->
+<!-- Node834&#45;&gt;Node835 -->
 <g id="edge4" class="edge">
-<title>Node831&#45;&gt;Node832</title>
+<title>Node834&#45;&gt;Node835</title>
 <path fill="none" stroke="#191970" d="M459.0053,-156.5473C480.6534,-163.0051 509.4567,-171.5972 532.883,-178.5854"/>
 <polygon fill="#191970" stroke="#191970" points="531.9739,-181.9666 542.5572,-181.4713 533.975,-175.2587 531.9739,-181.9666"/>
 </g>
-<!-- Node966 -->
+<!-- Node969 -->
 <g id="node6" class="node">
-<title>Node966</title>
+<title>Node969</title>
 <g id="a_node6"><a xlink:href="talloc_8c.html#a9a557e02d8c7d178ab5458fb972b52c4" target="_top" xlink:title="Called when the disarm_ctx ctx is freed. ">
 <polygon fill="none" stroke="#000000" points="527.5,-132 527.5,-162 621.5,-162 621.5,-132 527.5,-132"/>
 <text text-anchor="start" x="535.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_talloc_destructor</text>
@@ -175,84 +175,84 @@ var sectionId = 'dynsection-7';
 </a>
 </g>
 </g>
-<!-- Node831&#45;&gt;Node966 -->
+<!-- Node834&#45;&gt;Node969 -->
 <g id="edge5" class="edge">
-<title>Node831&#45;&gt;Node966</title>
+<title>Node834&#45;&gt;Node969</title>
 <path fill="none" stroke="#191970" d="M482.3432,-147C493.6088,-147 505.4865,-147 516.8306,-147"/>
 <polygon fill="#191970" stroke="#191970" points="517.0659,-150.5001 527.0658,-147 517.0658,-143.5001 517.0659,-150.5001"/>
 </g>
-<!-- Node967 -->
+<!-- Node970 -->
 <g id="node7" class="node">
-<title>Node967</title>
+<title>Node970</title>
 <g id="a_node7"><a xlink:href="talloc_8c.html#a0f65bca77390a8fc11310342d848d178" target="_top" xlink:title="Called with the fire_ctx is freed. ">
 <polygon fill="none" stroke="#000000" points="518,-93.5 518,-112.5 631,-112.5 631,-93.5 518,-93.5"/>
 <text text-anchor="middle" x="574.5" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_talloc_destructor_fire</text>
 </a>
 </g>
 </g>
-<!-- Node831&#45;&gt;Node967 -->
+<!-- Node834&#45;&gt;Node970 -->
 <g id="edge6" class="edge">
-<title>Node831&#45;&gt;Node967</title>
+<title>Node834&#45;&gt;Node970</title>
 <path fill="none" stroke="#191970" d="M459.0053,-137.4527C480.6534,-130.9949 509.4567,-122.4028 532.883,-115.4146"/>
 <polygon fill="#191970" stroke="#191970" points="533.975,-118.7413 542.5572,-112.5287 531.9739,-112.0334 533.975,-118.7413"/>
 </g>
-<!-- Node860 -->
+<!-- Node863 -->
 <g id="node11" class="node">
-<title>Node860</title>
+<title>Node863</title>
 <g id="a_node11"><a xlink:href="dlist_8h.html#a90c9ea299e869c463ab8109410112a97" target="_top" xlink:title="Return the HEAD item of a list or NULL if the list is empty. ">
 <polygon fill="none" stroke="#000000" points="391,-58.5 391,-77.5 463,-77.5 463,-58.5 391,-58.5"/>
 <text text-anchor="middle" x="427" y="-65.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_dlist_head</text>
 </a>
 </g>
 </g>
-<!-- Node970&#45;&gt;Node860 -->
+<!-- Node973&#45;&gt;Node863 -->
 <g id="edge10" class="edge">
-<title>Node970&#45;&gt;Node860</title>
+<title>Node973&#45;&gt;Node863</title>
 <path fill="none" stroke="#191970" d="M335.1189,-55.1163C349.7022,-57.1612 366.0015,-59.4467 380.7764,-61.5185"/>
 <polygon fill="#191970" stroke="#191970" points="380.3327,-64.9904 390.7219,-62.913 381.3048,-58.0582 380.3327,-64.9904"/>
 </g>
-<!-- Node971 -->
+<!-- Node974 -->
 <g id="node12" class="node">
-<title>Node971</title>
+<title>Node974</title>
 <g id="a_node12"><a xlink:href="server_2state_8c.html#a74769245f89aa81ce264e9421d24fef5" target="_top" xlink:title="Unlink an entry and remove if from the tree. ">
 <polygon fill="none" stroke="#000000" points="379,-20.5 379,-39.5 475,-39.5 475,-20.5 379,-20.5"/>
 <text text-anchor="middle" x="427" y="-27.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">state_entry_unlink</text>
 </a>
 </g>
 </g>
-<!-- Node970&#45;&gt;Node971 -->
+<!-- Node973&#45;&gt;Node974 -->
 <g id="edge11" class="edge">
-<title>Node970&#45;&gt;Node971</title>
+<title>Node973&#45;&gt;Node974</title>
 <path fill="none" stroke="#191970" d="M335.1189,-42.8837C345.7808,-41.3887 357.3598,-39.765 368.5898,-38.1904"/>
 <polygon fill="#191970" stroke="#191970" points="369.3516,-41.6179 378.7687,-36.7631 368.3795,-34.6857 369.3516,-41.6179"/>
 </g>
-<!-- Node972 -->
+<!-- Node975 -->
 <g id="node13" class="node">
-<title>Node972</title>
+<title>Node975</title>
 <g id="a_node13"><a xlink:href="dlist_8h.html#abc40bcac47679893e9ad3dbacf1b78ce" target="_top" xlink:title="Remove an item from the list. ">
 <polygon fill="none" stroke="#ff0000" points="533,-38.5 533,-57.5 616,-57.5 616,-38.5 533,-38.5"/>
 <text text-anchor="middle" x="574.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">fr_dlist_remove</text>
 </a>
 </g>
 </g>
-<!-- Node971&#45;&gt;Node972 -->
+<!-- Node974&#45;&gt;Node975 -->
 <g id="edge12" class="edge">
-<title>Node971&#45;&gt;Node972</title>
+<title>Node974&#45;&gt;Node975</title>
 <path fill="none" stroke="#191970" d="M475.297,-35.8939C490.3152,-37.7266 506.9385,-39.7552 522.2156,-41.6195"/>
 <polygon fill="#191970" stroke="#191970" points="522.1904,-45.1423 532.5407,-42.8795 523.0384,-38.1939 522.1904,-45.1423"/>
 </g>
-<!-- Node975 -->
+<!-- Node978 -->
 <g id="node14" class="node">
-<title>Node975</title>
+<title>Node978</title>
 <g id="a_node14"><a xlink:href="rbtree_8c.html#a590147ec2ecdd6434a58eeff49e201a4" target="_top" xlink:title="Delete a node from the tree, based on given data, which MUST have come from rbtree_finddata(). ">
 <polygon fill="none" stroke="#ff0000" points="523.5,-.5 523.5,-19.5 625.5,-19.5 625.5,-.5 523.5,-.5"/>
 <text text-anchor="middle" x="574.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">rbtree_deletebydata</text>
 </a>
 </g>
 </g>
-<!-- Node971&#45;&gt;Node975 -->
+<!-- Node974&#45;&gt;Node978 -->
 <g id="edge13" class="edge">
-<title>Node971&#45;&gt;Node975</title>
+<title>Node974&#45;&gt;Node978</title>
 <path fill="none" stroke="#191970" d="M475.297,-23.4513C487.4291,-21.8062 500.6086,-20.0192 513.2797,-18.3011"/>
 <polygon fill="#191970" stroke="#191970" points="513.864,-21.754 523.303,-16.942 512.9234,-14.8174 513.864,-21.754"/>
 </g>

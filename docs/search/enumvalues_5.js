@@ -170,6 +170,7 @@ var searchData=
   ['fr_5fdict_5fattr_5fext_5fenumv',['FR_DICT_ATTR_EXT_ENUMV',['../dict_8h.html#abc02aee3acead1e22575d78f9b44fae1a618b2b9cd1521e37bfe9607d1db6b316',1,'dict.h']]],
   ['fr_5fdict_5fattr_5fext_5fmax',['FR_DICT_ATTR_EXT_MAX',['../dict_8h.html#abc02aee3acead1e22575d78f9b44fae1a1dd96d10023f5426aa597c8742a9c67c',1,'dict.h']]],
   ['fr_5fdict_5fattr_5fext_5fname',['FR_DICT_ATTR_EXT_NAME',['../dict_8h.html#abc02aee3acead1e22575d78f9b44fae1afdc46009a27c5b484a4919f81f309858',1,'dict.h']]],
+  ['fr_5fdict_5fattr_5fext_5fnamespace',['FR_DICT_ATTR_EXT_NAMESPACE',['../dict_8h.html#abc02aee3acead1e22575d78f9b44fae1a90e7d06a9611eb3e42fb66e491c94cd6',1,'dict.h']]],
   ['fr_5fdict_5fattr_5fext_5fprotocol_5fspecific',['FR_DICT_ATTR_EXT_PROTOCOL_SPECIFIC',['../dict_8h.html#abc02aee3acead1e22575d78f9b44fae1a10cdac114f9a7f11ced26493e04125aa',1,'dict.h']]],
   ['fr_5fdict_5fattr_5fext_5fref',['FR_DICT_ATTR_EXT_REF',['../dict_8h.html#abc02aee3acead1e22575d78f9b44fae1aa3876705ac723460dbc189cc13fe1c88',1,'dict.h']]],
   ['fr_5fdict_5fattr_5fext_5fvendor',['FR_DICT_ATTR_EXT_VENDOR',['../dict_8h.html#abc02aee3acead1e22575d78f9b44fae1afa3bbf03360408321d690207e59f2c43',1,'dict.h']]],
